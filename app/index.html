@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Tov Binyamin Brog">
+<title>France 1944 - Technical Test</title>
+<style>
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #1b2430; font-family: Arial, sans-serif; color: #e8e4d8; }
+  #view { position: absolute; inset: 0; }
+  #hud { position: absolute; top: 12px; left: 12px; width: 330px; background: rgba(20, 28, 38, 0.88); border: 1px solid #4a5a6c; border-radius: 6px; padding: 12px 14px; font-size: 13px; line-height: 1.45; }
+  #hud h1 { font-size: 15px; margin: 0 0 6px; color: #f2d98c; }
+  #hud .row { display: flex; justify-content: space-between; }
+  #hud .k { color: #a9b4c0; }
+  #hud button { margin: 8px 6px 0 0; padding: 5px 10px; background: #34465a; color: #f2eee2; border: 1px solid #5d7189; border-radius: 4px; cursor: pointer; font-size: 12px; }
+  #hud button:disabled { opacity: 0.5; cursor: default; }
+  #bench { margin-top: 8px; white-space: pre-wrap; font-family: Consolas, monospace; font-size: 11.5px; color: #cfe3c8; }
+  #help { position: absolute; bottom: 12px; left: 12px; background: rgba(20, 28, 38, 0.8); border-radius: 4px; padding: 6px 10px; font-size: 12px; color: #c8d0d8; }
+  #note { position: absolute; bottom: 12px; right: 12px; background: rgba(20, 28, 38, 0.8); border-radius: 4px; padding: 6px 10px; font-size: 12px; color: #c8d0d8; max-width: 420px; }
+</style>
+</head>
+<body>
+<div id="view"></div>
+<div id="hud">
+  <h1>France 1944: technical test</h1>
+  <div class="row"><span class="k">Frame rate</span><span id="fps">-</span></div>
+  <div class="row"><span class="k">Slowest 1% of frames</span><span id="low">-</span></div>
+  <div class="row"><span class="k">Draw calls / triangles</span><span id="draw">-</span></div>
+  <div class="row"><span class="k">Map tiles built</span><span id="tiles">-</span></div>
+  <div class="row"><span class="k">Divisions / units / vehicles</span><span id="units">-</span></div>
+  <div class="row"><span class="k">Camera height</span><span id="cam">-</span></div>
+  <div class="row"><span class="k">Graphics card</span><span id="gpu" style="max-width:190px;text-align:right;overflow:hidden;white-space:nowrap;text-overflow:ellipsis">-</span></div>
+  <button id="btnBench">Run engine speed test</button><button id="btnDouble">Double the units</button><button id="btnCopy">Copy report</button>
+  <div id="bench"></div>
+</div>
+<div id="help">Left drag: pan &middot; Right drag: rotate and tilt &middot; Wheel: zoom</div>
+<div id="note">Terrain is a placeholder shaped like Normandy, from the Cotentin to the Seine (220 x 140 km). Real elevation data replaces it after this test.</div>
+<script src="vendor/three.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
