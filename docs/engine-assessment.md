@@ -47,6 +47,22 @@ A CPU profile of 72 game hours of Falaise:
 4. **Pathfinding.** `findPath` on a theater grid needs a road and rail network graph for long moves, with the cell grid kept for the last few kilometers. This also carries the transport choice from Tov's review (foot, rail, boat, truck).
 5. **Time step.** Today's step runs 0.25 to 1 game minute. Division-scale moves can step at 5 to 15 minutes outside combat, about ten times fewer steps. (Inference: step length needs testing against combat accuracy.)
 
+## Laptop test, 22 Nov 2026
+
+Tov ran the technical test build (0.1.0, built by GitHub Actions) on his Lenovo laptop. The test passed on both counts.
+
+| Measure | Result |
+| --- | --- |
+| Graphics card | NVIDIA GeForce RTX 4060 Laptop GPU (Direct3D 11) |
+| Window | 2560 x 1009 |
+| Frame rate, 300 divisions, camera at 12 km | 60 fps; slowest 1% of frames 59 fps |
+| Engine, Kasserine, 48 game hours | 1.2 s, 140,454 times real time |
+| Engine, Falaise, 48 game hours | 3.8 s, 45,186 times real time |
+
+- The frame rate sat at the display's 60 fps cap, so the true headroom is above what the test shows.
+- The laptop ran the engine about seven times faster than Claude's workspace did on Falaise.
+- At the theater's projected 700 to 900 units, a ten-times slowdown from pair-by-pair combat checks would leave the engine near 4,500 times real time, nine times the 500-times target, before any spatial-grid work. (Inference: projection from the Falaise figure.)
+
 ## Kept out of the repository
 
 - `voice/`: the Lines of Advance tutorial narration (MP3s and `script.json`). The France game's Tennessee tutorial needs new narration.
@@ -60,3 +76,5 @@ A CPU profile of 72 game hours of Falaise:
 | Speed table and profile | `tools/speed.js` and a Node CPU profile, run 22 Nov 2026 | Measured |
 | Unit counts, area ratio, cell counts | Computed from the design document's figures | Arithmetic |
 | Combat growth rate and time-step savings | Engineering judgment | Inference, labeled above |
+| Laptop test table | Report Tov pasted from the test build, 22 Nov 2026 | Measured |
+| Theater projection on the laptop | Falaise result scaled by the ten-times estimate | Inference, labeled above |
