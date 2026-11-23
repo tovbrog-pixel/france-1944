@@ -8,7 +8,7 @@ Living version: [Claude doc](https://claude.ai/artifact/BBukMc5RtidWtd62p5LK4p).
 
 The game covers the Allied campaign in northwest Europe from D-Day, 6 June 1944, to the German surrender in May 1945, at division level. It runs as a stand-alone desktop game on the Lines of Advance engine and rules, with its own project, data and manuals.
 
-- **Scale:** divisions are the maneuver units; regiments, brigades and combat commands are the sub-units the player sees deployed.
+- **Scale:** divisions are the maneuver units. Battalions are the units that fight; regiments, brigades and combat commands group them inside each division, and the map shows regiment symbols at middle zoom and battalions up close.
 - **Command:** the player gives army and corps orders, with drill-down to single divisions.
 - **Map:** one continuous theater from the Cotentin to the Elbe, southern France included.
 - **Sides:** Allied roles at release; German roles reserved for a later expansion.
@@ -42,8 +42,8 @@ The player draws lines of advance and objective lines for armies or corps, and A
 1. **Role (player):** sets army group or army objectives, supply priority and support allocation.
 2. **Army:** the player or an AI army commander assigns corps sectors and axes.
 3. **Corps:** the player usually works here; the corps commander splits lines among divisions.
-4. **Division:** the AI division commander deploys regiments, brigades or combat commands, as units do in Lines of Advance.
-5. **Sub-units:** shown deployed on the map with their attached support.
+4. **Division:** the AI division commander gives each regiment, brigade or combat command a sector, usually two up and one back.
+5. **Battalions:** placed side by side within their regiment's sector, as units are in Lines of Advance.
 
 Rules carried over from Lines of Advance:
 

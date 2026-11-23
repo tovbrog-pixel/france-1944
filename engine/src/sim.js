@@ -72,6 +72,8 @@ function createSim(sc, player, seed, opt) {
   sc.forms.forEach((fs, fi) => {
     const F = { id: fi, s: fs.s, nat: fs.nat, n: fs.n, cmd: { n: fs.cmd, ag: clamp(fs.ag + (rnd() - .5) * (.08 + .08 * VR), .2, .98), sk: clamp(fs.sk + (rnd() - .5) * (.08 + .08 * VR), .3, .98), why: fs.why || '' }, xp: (fs.xp || 1) * dfS(fs.s).xp, subs: [], hq: null, order: null, stock: 0, cap: 0, active: false, dead: false, arr: fs.arr || null, ai: fs.ai ? fs.ai.map(a => ({ t: a.t > 2 ? a.t * (.92 + rnd() * .22) * plan[fs.s].tm * dfS(fs.s).arr : a.t, path: a.path, line: a.line })) : null, aiI: 0, res: !!fs.res, hold: !!fs.hold, stay: !!fs.stay, rearPt: fs.rear || null, freeT: (fs.free != null ? fs.free : (sc.sides[fs.s].free || 0)) * 60, x: fs.x, y: fs.y, cx: fs.x, cy: fs.y, halt: false, assaultT: 0, evalT: 0, msgT: 0, casCd: 0, airMsgT: 0, convT: 0, convoy: null, isolated: false, isoMsgT: 0, paraT: 0, status: '', nextT: fi * .37, bridge: null, needEng: false, dis: 0, jamT: 0, jamMsgT: 0, haltT: 0, rerouteT: 0, fired: 0, fallT: 0, idleT: 0, led: {}, ledN: {}, att: null };
     for (const sp of fs.sub) { const a = sp.split('|'); F.subs.push(mkSub(F, a[0], a[1], a[2] ? +a[2] : 1, fs.x, fs.y)); }
+    // regiments, brigades and combat commands: groups of the division's battalions (France 1944 scenarios only)
+    if (fs.regs) { F.regs = fs.regs.map(r => ({ n: r.n, role: r.role || 'man', subs: r.idx.map(i => F.subs[i]).filter(Boolean) })); for (const R of F.regs) for (const u of R.subs) u.reg = R; }
     const abn = ((fs.arr && fs.arr.mode === 'air') || /Parachute|Glider|Airlanding|Fallschirm|FJR/.test(fs.n)) && KIND['hq_' + fs.nat.toLowerCase() + '_abn'];
     F.abn = !!abn; F.hq = mkSub(F, 'hq_' + fs.nat.toLowerCase() + (abn ? '_abn' : ''), 'HQ, ' + fs.n, 1, fs.x, fs.y); F.subs.push(F.hq);
     F.cap = 1.5 + F.subs.reduce((a, u) => a + u.size, 0) * 1.5; F.stock = F.cap * .7;
@@ -275,18 +277,29 @@ function createSim(sc, player, seed, opt) {
   function lineSlots(F, O) {
     const out = new Map(), A = field(F), L = A.filter(u => LEADCLS[u.cls] && u.str >= .3), AT = A.filter(u => u.cls === 'at');
     const r = rearDir(F, O), ll = polyLen(O.line), [sa, sb] = bankRange(F, O, ll), le = sb - sa, mid = polyAt(O.line, sa + le / 2);
-    let res = []; if (L.length >= 4) { const pick = L.filter(u => u.cls === 'arm')[0] || L[L.length - 1]; res = [pick]; if (L.length >= 7) { const p2 = L.filter(u => u !== pick && u.cls !== 'rec')[0]; if (p2) res.push(p2); } }
+    const a = O.line[0], b = O.line[O.line.length - 1], lx = b[0] - a[0], ly = b[1] - a[1], along = (u, v) => (u.x * lx + u.y * ly) - (v.x * lx + v.y * ly);
+    let res = [], rank = null;
+    const man = F.regs ? F.regs.filter(R => R.role === 'man' && R.subs.some(u => L.indexOf(u) >= 0)) : [];
+    if (man.length >= 2) {
+      // a division: two regiments up and one back when it has three or more and the order does not stretch it; each regiment keeps its battalions together
+      const pos = R => { const us = R.subs.filter(u => L.indexOf(u) >= 0); return us.reduce((s, u) => s + u.x * lx + u.y * ly, 0) / us.length; };
+      const strength = R => R.subs.filter(u => L.indexOf(u) >= 0).reduce((s, u) => s + u.str * u.size, 0);
+      const byPos = man.slice().sort((p, q) => pos(p) - pos(q));
+      F.resReg = null;
+      if (byPos.length >= 3 && !O.stretch) { let best = byPos[Math.floor(byPos.length / 2)]; for (const R of byPos) if (strength(R) < strength(best) - .05) best = R; F.resReg = best; res = L.filter(u => u.reg === best); }
+      const up = byPos.filter(R => R !== F.resReg); rank = new Map(); up.forEach((R, i) => rank.set(R, i));
+      for (const u of L) if (!u.reg || !rank.has(u.reg)) { if (res.indexOf(u) >= 0) continue; let bi = 0, bd = 1e9; up.forEach((R, i) => { const d = Math.abs(pos(R) - (u.x * lx + u.y * ly)); if (d < bd) { bd = d; bi = i; } }); u.rgRank = bi; } else u.rgRank = rank.get(u.reg);
+    } else if (L.length >= 4) { const pick = L.filter(u => u.cls === 'arm')[0] || L[L.length - 1]; res = [pick]; if (L.length >= 7) { const p2 = L.filter(u => u !== pick && u.cls !== 'rec')[0]; if (p2) res.push(p2); } }
     const lead = L.filter(u => res.indexOf(u) < 0), fw = frontLine(O.line, sa, sb), W = lead.length * fw;
     // a line longer than the battalions can hold becomes a solid sector at its centre, unless the order says to stretch along all of it
     const held = !O.stretch && le > W * 1.1 ? W : le, s0 = sa + (le - held) / 2; O.held = [held, ll]; O.bank = le < ll - .5 ? le : 0;
-    const a = O.line[0], b = O.line[O.line.length - 1], lx = b[0] - a[0], ly = b[1] - a[1], along = (u, v) => (u.x * lx + u.y * ly) - (v.x * lx + v.y * ly);
-    lead.sort(along); AT.sort(along);
+    if (rank) lead.sort((u, v) => (u.rgRank - v.rgRank) || along(u, v)); else lead.sort(along); AT.sort(along);
     const n = Math.max(1, lead.length), half = Math.min(fw, held / n) / 2;
     lead.forEach((u, i) => { const p = polyAt(O.line, s0 + held * (i + .5) / n); out.set(u, map.snap(u.mvi, p.x, p.y, Math.min(2, half * .6) / map.cs, true) || [p.x, p.y]); u.sec = { dx: p.dx, dy: p.dy, h: half }; u.face = faceOf(p, r); });
     // anti-tank guns stand at the seams between battalions, a little behind the line
     AT.forEach((u, j) => { const p = polyAt(O.line, s0 + held * ((j % Math.max(1, n - 1)) + 1) / n), x = p.x + r[0] * .3, y = p.y + r[1] * .3; out.set(u, map.snap(u.mvi, x, y, 2, true) || [x, y]); u.sec = null; u.face = faceOf(p, r); });
     const put = (u, d, lat) => { const x = mid.x + r[0] * d - r[1] * lat, y = mid.y + r[1] * d + r[0] * lat; const p = map.snap(u.mvi, x, y, 4, u.cls !== 'art'); if (p) out.set(u, p); };
-    res.forEach((u, i) => put(u, 1.6, (i - (res.length - 1) / 2) * 1.6));
+    res.forEach((u, i) => put(u, rank ? 3.5 : 1.6, (i - (res.length - 1) / 2) * 1.6));   // a reserve regiment stands 3.5 km back, a reserve battalion 1.6 km
     let ai = 0; const arts = A.filter(u => u.cls === 'art' && u.mv !== 'ship');
     for (const u of A) { if (LEADCLS[u.cls] && u.str < .3) put(u, 2.2, 1); else if (u.cls === 'eng') put(u, 1.1, .7); else if (u.cls === 'hq') put(u, 2.6, 0); else if (u.cls === 'art' && u.mv !== 'ship') { put(u, 3.2 + (ai % 2) * .8, (ai - (arts.length - 1) / 2) * 1.3); ai++; } }
     reachFix(O.line, out); return out;

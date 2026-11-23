@@ -2,7 +2,7 @@
 
 Tov Binyamin Brog · 22 Nov 2026
 
-The engine now runs 43% faster at the France game's unit count, corps and army commanders split one order among their formations without crossing routes, and formations travel by rail or road behind the front before deploying. All eight Lines of Advance scenarios still give results identical to the original engine.
+The engine now runs 43% faster at the France game's unit count, corps and army commanders split one order among their formations without crossing routes, formations travel by rail or road behind the front before deploying, and divisions now fight as regiments of battalions. All eight Lines of Advance scenarios still give results identical to the original engine.
 
 ## Done
 
@@ -12,6 +12,7 @@ The engine now runs 43% faster at the France game's unit count, corps and army c
 | Stress test | `tools/stress.js`: Falaise with every formation's units tripled, 756 units on the same map | Baseline 1,814 times real time |
 | Combat pair search | A 31 km spatial grid plus a squared-distance test before the exact distance; pairs still visited in original order | Stress test 2,600 times real time, up 43% |
 | Ground ownership grid | Cell size now set per scenario (`ownCell`), default 0.5 km as before | Regression unchanged |
+| Regiments | Tov's decision: battalions stay the fighting units; regiments, brigades and combat commands group them inside each division. New `engine/src/divisions.js` holds 8 division templates and a builder; the line-slot routine keeps each regiment's battalions together and holds one regiment back | `tools/test-divisions.js` (results below) |
 | Transport layer | New `engine/src/transport.js`: road and rail network, commander picks rail, own vehicles, attached trucks or foot march, and a release point, column march, deployment | `tools/test-transport.js` and `tools/test-transport2.js` (results below) |
 | Corps and army layer | New `engine/src/command.js`: staff planning time, sectors split left to right by fighting strength, a reserve held back by cautious commanders, parallel routes, armies over corps | `tools/test-command.js`: 0 route crossings for a 4-formation corps and for a 2-corps army |
 
@@ -23,6 +24,34 @@ The engine now runs 43% faster at the France game's unit count, corps and army c
 4. He splits the objective line into sectors in proportion to each division's fighting units.
 5. With three or more divisions and a cautious style (aggression below 0.65), he holds one back. The reserve keeps its own lane and halts 6 km short of the objective.
 6. Each division then plans its own order through the existing engine, with its own staff delay.
+
+## How regiments work now
+
+Tov chose to keep battalions as the units the engine fights with, so the tested combat model stays as it is. Regiments, brigades and combat commands sit between the division and its battalions.
+
+1. A division is built from a template: its regiments, its artillery, its division troops and any attached battalions.
+2. When the division takes up a line, each regiment's battalions stand side by side in one sector, with the regiments ordered left to right by where they stand.
+3. With three or more regiments and an order that does not stretch the line, the division holds its weakest regiment back, 3.5 km behind the centre. That is two up and one back.
+4. Attached battalions, such as a tank battalion, join the regiment nearest to them.
+5. `regCentres()` gives each regiment's position and strength for regiment symbols at the map's middle zoom.
+
+| Template | Battalions with HQ | Manoeuvre groups |
+| --- | --- | --- |
+| US infantry division (3 regiments, tank, tank destroyer and AAA battalions attached) | 19 | 3 |
+| US armored division (CCA, CCB, CCR) | 14 | 3 |
+| US airborne division | 13 | 3 |
+| British infantry division (3 brigades, armoured regiment attached) | 17 | 3 |
+| British armoured division (armoured and infantry brigades) | 13 | 2 |
+| German infantry division, 1944 type | 14 | 3 |
+| German panzer division | 14 | 3 |
+| German parachute division | 14 | 3 |
+
+| Regiment test (Falaise map, US infantry division template) | Result |
+| --- | --- |
+| Ordered to a 12 km line in its own ground | Holding after 4 hours: 22nd Infantry on the left, 8th Infantry on the right, 12th Infantry in reserve 3 to 4 km back |
+| All 8 templates added to one scenario | All built and ran |
+
+At about 15 battalions per division, the full theater holds about 3,500 units, including corps and army troops. Tov's laptop should run that near 3,500 times real time. (Inference: estimate from the stress tests and the laptop's measured speed.)
 
 ## How transport works now
 
@@ -60,7 +89,7 @@ One formation in each command test halted with "no route" on the Falaise map. Th
 
 ## Remaining step 3 work
 
-1. **Echelon shift:** unit types for regiments, brigades and combat commands, with frontages and firepower at that size.
+1. **Regiment follow-ups:** regiment symbols on the map, regimental commanders with their own ratings, and corps artillery and separate battalions outside the divisions.
 2. **Transport follow-ups:** air attack on columns and railways, sea moves by boat, columns drawn on the map, and the 1944 road and rail network itself (step 4 data).
 3. **Command AI:** corps and army commanders who replan when a division is spent, commit the reserve, and report up.
 4. **Time step:** test 5 to 15 minute steps outside combat against combat accuracy.
@@ -74,6 +103,9 @@ One formation in each command test halted with "no route" on the Falaise map. Th
 | Time breakdown | Timed copy of the engine on the stress test, 8 game hours | Measured |
 | Laptop speed ratio | Laptop test report, 22 Nov 2026, in `docs/engine-assessment.md` | Measured |
 | Staff times, reserve rule, 6 km halt | Design values chosen for this first version | Starting values for testing |
+| Regiment test results | `tools/test-divisions.js`, run 22 Nov 2026 | Measured |
+| Division template structures | General knowledge of 1944 tables of organization | To verify in step 4 against FM 101-10, TM-E 30-451 and British war establishments |
+| Battalions as fighting units, regiments as a command level | Tov's decision in chat, 22 Nov 2026 | Decided |
 | Transport test results | `tools/test-transport.js`, `tools/test-transport2.js`, run 22 Nov 2026 | Measured |
 | Transport speeds, loading times, truck lifts | Design values chosen for this first version | Starting values for testing |
 | Release point as commander's call, shown as information | Tov's decision in chat, 22 Nov 2026 | Decided |
