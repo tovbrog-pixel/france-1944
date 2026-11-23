@@ -58,7 +58,7 @@ Naval gunfire supports the assault from offshore: battleships with a range of ab
 ## Annex F: Supply and replacements
 
 1. *Sources.* Five beach dumps open between H+8 and H+9 on 6 June. Mulberry B at Arromanches opens on 16 June. Cherbourg port opens about 19 days after it is taken and held.
-2. *Delivery.* Truck columns carry supply from the nearest open source to each division by road. Enemy troops on the road stop the columns.
+2. *Delivery.* Truck columns carry supply from the nearest open source to each division by road. Enemy troops on the road stop the columns. An army on high supply priority gets loads 30 percent larger; one on low priority gets loads 30 percent smaller and leaves the last third of each source to the others.
 3. *Cut off.* A division with no open road to a source loses about 1 percent of its strength a day while its stock lasts, and 4 percent once it runs out.
 4. *Replacements.* In this build divisions receive no replacements. The replacement pool comes in a later build.
 5. *Standing.* Eisenhower's standing is reviewed on 25 July and 22 August. A composite under 40, or any capital under 20, brings a warning; a second failure, or a composite under 25 at any time, brings relief.
@@ -80,11 +80,11 @@ Naval gunfire supports the assault from offshore: battleships with a range of ab
 | Allied divisions and arrival dates | `data/oob/allied-1944.json`: Order of Battle of the US Army, ETO (1945); Ellis I | US sourced; British and Canadian dates verify |
 | Corps attachments | `data/oob/attachments-1944.json`: Theater Historian assignment tables; Ellis I | 113 of 126 rows sourced |
 | German divisions, positions and arrivals | `data/oob/german-1944.json`: Ellis I, Harrison, Blumenson | 33 arrival dates sourced, 5 inference, 13 verify |
-| Hold until 16 August | General history (Hitler's withdrawal order) | Verify against Blumenson |
+| Hold until 16 August | Blumenson p. 527: the German withdrawal across the American front began on 16 August | Sourced |
 | German moves by night; march times | The game's transport model (`engine/src/transport.js`) | Game design |
 | 319 aircraft on D-Day; about 1,000 a week later | Ellis I p. 566 | Sourced |
 | 1,360 troop carrier aircraft | Ellis I pp. 72-73 | Sourced |
-| Historical capture dates | General history | Verify against Blumenson and Ellis |
+| Historical capture dates | Blumenson, *Breakout and Pursuit*: Cherbourg p. 37, Avranches p. 316, Rennes p. 355, Nantes p. 367, Orléans p. 566, Paris p. 589 | Sourced; Carentan, Caen, St-Lô, Coutances, Le Mans, Falaise, Chartres and Rouen verify |
 | Mulberry B on 16 June; storm of 19 to 22 June | Ruppenthal I p. 406 | Sourced |
 | Cherbourg clearing time | General history | Verify against Ruppenthal ch. XI |
 | Corps membership by date | `data/oob/attachments-1944.json` | US sourced; British snapshots per row |

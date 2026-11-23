@@ -12,11 +12,11 @@ Step 5 builds the playable slice from D-Day to 1 September 1944 on the step 4 da
 | --- | --- | --- |
 | Map | 600 x 330 km at 1 km cells, Brest to Paris and the Channel to the Loire: 25,770 road pieces, 4,045 rail pieces of the 1944 network, 409 bridges, 1,030 towns | Step 4 terrain and network data |
 | Allied forces | 39 divisions, each landing on its arrival date | `data/oob/allied-1944.json` |
-| Assault | Six divisions by sea from H-Hour (0630 US, about an hour later British and Canadian); 82nd, 101st and 6th Airborne by night | Craven and Cate III p. 143; Ellis I; H-Hour times general history (verify) |
+| Assault | Six divisions by sea from H-Hour (0630 US; 0725 Gold and Sword; 0735 and 0745 Juno); 82nd, 101st and 6th Airborne by night | H-Hours: Ellis I p. 143, Harrison p. 300; airborne: Craven and Cate III p. 143 |
 | Follow-up landings | Over the beach of the corps the division joined | Corps from `attachments-1944.json`; beach rule inference |
 | German forces | 44 divisions: 22 in their 6 June positions, 22 entering from the map edge | `data/oob/german-1944.json` |
 | German movement | Each division sets out early enough to reach the place its arrival note names on its sourced date, by an estimated march of 150 km a day for panzer divisions and 35 km for others | Arrival notes sourced; march estimate and exact points inference |
-| German holding | Divisions sent to the Normandy front, and the coast divisions, hold their sectors until 16 August | Hitler's withdrawal order, general history (verify against Blumenson) |
+| German holding | Divisions sent to the Normandy front, and the coast divisions, hold their sectors until 16 August | Blumenson p. 527 (withdrawal began 16 August) |
 | Objectives | 383: Paris 40, Cherbourg and Caen 30, Brest 25, towns of 10,000 people 10 or 20, small road towns 3; suburbs within 10 km of a larger objective (16 km of Paris) fold into it | Points are game settings |
 | Supply | Five beach dumps from H+8 to H+9; Mulberry B from 16 June; Cherbourg port 456 hours after capture; six German depots on the roads in | Ruppenthal I p. 406 for Mulberry B; Cherbourg time general history (verify); stocks and rates game settings |
 | Air | Airfields open on 6 June; 1,360 Allied troop carriers against 31 German; German air groups scaled to 319 operational aircraft | `data/air`; Ellis I pp. 72-73, 566 |
@@ -41,6 +41,10 @@ The Overlord scenario builds 12 Allied corps from `data/oob/allied-1944.json` wi
 ## Army orders
 
 Armies sit above the corps: First and Third US Armies, Second British Army and First Canadian Army, with each corps moving between armies on the first date the attachment rows place it there (VIII Corps from First to Third Army on 1 August, for one). The card adds **Order the whole army** beside the corps switch. The army commander splits the objective line among his corps, and each corps commander splits his part among his divisions. Army groups come later.
+
+## Supply priority
+
+Eisenhower's supply lever works by army: the army line on a division's card carries **High**, **Normal** and **Low**. A high-priority army's truck columns carry 30 percent more per trip; a low-priority army's carry 30 percent less and leave the last third of each source's stock to the other armies. The setting goes into the save file. These figures are game settings.
 
 ## Political score
 
@@ -97,7 +101,9 @@ Blue's divisions now form Blue Corps under Major General Ames, and the umpire te
 
 | 4 | German sector lines of 14 km facing the nearest beach, so neighbouring sectors close into a front; the Allied staff AI waits 10 hours between objectives | Cherbourg 24 June (history 26 June). Caen held from about 20 June (9 July). St-Lô changes hands from 13 June (18 July). Losses about even until mid-June, then 60 Allied to 69 German by 22 June |
 
-After run 4 Cherbourg comes within two days of history. Caen and St-Lô still fall weeks early. The causes found so far:
+| 5 | German sector holders dig in on arrival; sourced H-Hours on Gold, Juno and Sword | Cherbourg held from 15 June (26 June); Caen held from 23 June (9 July); St-Lô entered 13 June but not held at three weeks (18 July). Le Havre fell on 23 June, so the phase lines now close the coast east of the Dives until August |
+
+Single runs vary widely: Cherbourg came 24 June in run 4 and 15 June in run 5. The batches of 20 give the spread. After run 4 Cherbourg came within two days of history. Caen and St-Lô still fall weeks early. The causes found so far:
 
 1. The panzer divisions at Caen are committed piecemeal as they arrive, as in history, but they lose their sectors faster than they did.
 2. Bocage and town fighting may favor the defender too little at division scale.
@@ -114,7 +120,7 @@ Batches now run on GitHub Actions: `.github/workflows/ai-batch.yml` runs 20 seed
 
 1. Calibration, from the batch results.
 2. Army group orders; columns and release points on the map; the player's air plan.
-3. The four roles' own levers (supply priority, the airborne reserve, Fortitude), and political events beyond the slice.
+3. The other role levers (the theater airborne reserve, Fortitude, replacements), AI army commanders who issue corps orders in the manner of Montgomery and Bradley, and political events beyond the slice.
 4. Narration for the Tennessee tutorial.
 
 ## Source trace
@@ -124,9 +130,12 @@ Batches now run on GitHub Actions: `.github/workflows/ai-batch.yml` runs 20 seed
 | Allied divisions, arrival dates, corps | `data/oob/allied-1944.json`, `attachments-1944.json` (ETO order of battle; Ellis I) | US sourced; British and Canadian dates verify |
 | German positions, arrival dates and destinations | `data/oob/german-1944.json` (Ellis I, Harrison, Blumenson) | 33 arrival dates sourced, 5 inference, 13 verify; destination points inference |
 | Airborne times | Craven and Cate III p. 143 | Sourced |
-| H-Hour times; naval forces by beach | General history | Verify |
+| H-Hour times | Ellis I p. 143; Harrison p. 300 | Sourced |
+| Naval forces by beach | General history | Verify |
 | Mulberry B 16 June; storm 19 to 22 June | Ruppenthal I p. 406 | Sourced |
-| Cherbourg clearing time; hold until 16 August; historical capture dates | General history | Verify against Ruppenthal, Blumenson and Ellis |
+| Historical capture dates | Blumenson: Cherbourg p. 37, Avranches p. 316, Rennes p. 355, Nantes p. 367, Orléans p. 566, Paris p. 589, Brest garrison 18 September p. 651 | Sourced; Carentan, Caen, St-Lô, Coutances, Le Mans, Falaise, Chartres, Rouen verify |
+| German withdrawal along the American front from 16 August | Blumenson p. 527 | Sourced (the game's hold date) |
+| Cherbourg clearing time | General history | Verify against Ruppenthal ch. XI |
 | 1,360 troop carriers; 319 German aircraft | Ellis I pp. 72-73, 566 | Sourced |
 | CCS directive of 12 February 1944 (Eisenhower's order) | Harrison, *Cross-Channel Attack*, Appendix B, pp. 456-457 | Sourced |
 | Second Army maneuvers in Tennessee, 1941 to 1944 | General history | Verify |

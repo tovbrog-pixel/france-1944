@@ -23,7 +23,7 @@ b. *Friendly.* SHAEF Operations Order No. 1 gives the mission. First US Army lan
 
 21st Army Group assaults the Normandy coast between the Vire estuary and the Orne on 6 June. It takes Caen and Bayeux on the first day if it can, joins the beachheads, and clears the Cotentin to open Cherbourg. It then breaks out to Brittany and the Seine.
 
-*Coordinating details.* H-Hour is 0630 on the US beaches and about an hour later on the British and Canadian beaches. The airborne divisions land in the night before H-Hour on the flanks: the 82nd and 101st Airborne behind Utah, the 6th Airborne east of the Orne. First-day objectives appear as objective lines on the map (Annex C).
+*Coordinating details.* H-Hour is 0630 on the US beaches, 0725 on Gold and Sword, and 0735 to 0745 on Juno. The airborne divisions land in the night before H-Hour on the flanks: the 82nd and 101st Airborne behind Utah, the 6th Airborne east of the Orne. First-day objectives appear as objective lines on the map (Annex C).
 
 **3. TACTICAL MISSIONS**
 
@@ -63,7 +63,7 @@ Distribution: SHAEF; First US Army; Second British Army; the player.
 | --- | --- | --- |
 | 21st Panzer counterattack on D-Day; 12th SS on 7 June; Panzer Lehr by 8 June; II SS Panzer Corps late June | `data/oob/german-1944.json` (Ellis I pp. 236-282; Harrison pp. 334, 372-376) | Sourced |
 | Assault divisions by beach and corps | Ellis I p. 80; Order of Battle of the US Army, ETO (1945) | Sourced |
-| H-Hour 0630 on the US beaches, about an hour later on the British and Canadian beaches | General history | Verify against Harrison and Ellis |
+| H-Hours by beach | Ellis I p. 143; Harrison p. 300 | Sourced |
 | Airborne landings and their areas | W. F. Craven and J. L. Cate, *The Army Air Forces in World War II* III, p. 143; Ellis I | Sourced |
 | First-day objectives as objective lines | Claude's reading of the D-Day objectives in Harrison and Ellis | Inference |
 | Follow-up divisions landing over their corps' beach | The game | Inference |

@@ -16,16 +16,16 @@ const clampIn = p => [Math.min(WIN.w - 1.5, Math.max(1.5, p[0])), Math.min(WIN.h
 // beaches, drop zones and objectives in slice km, converted from latitude and longitude with pyproj (EPSG:4326 -> 2154)
 const P = { utah: [297.0, 177.9], omahaW: [316.4, 183.7], omahaE: [321.6, 185.7], gold: [341.3, 188.6], juno: [350.7, 189.4], sword: [360.7, 194.2],
   dz82: [286.7, 178.6], dz101: [292.5, 182.3], dz6: [362.6, 201.7], mulberryB: [337.0, 187.8] };
-// the six assault divisions and three airborne divisions of 6 June (H-Hour 0630 for the US beaches, about an hour later for the
-// British and Canadian; airborne times from Craven and Cate p. 143 and Ellis). First-day objective lines are Claude's reading of
+// the six assault divisions and three airborne divisions of 6 June (H-Hour 0630 on the US beaches, 0725 on Gold and Sword, 0735
+// and 0745 on Juno: Ellis I and Harrison p. 300; airborne times from Craven and Cate p. 143 and Ellis). First-day objective lines are Claude's reading of
 // the D-Day objectives in Harrison and Ellis (inference).
 const ASSAULT = {
   'us-4id': { mode: 'sea', t: 6.5, at: 'utah', obj: [[289, 186], [295, 186]] },
   'us-1id': { mode: 'sea', t: 6.5, at: 'omahaE', obj: [[322, 196], [330, 196]] },
   'us-29id': { mode: 'sea', t: 7, at: 'omahaW', obj: [[310, 195], [318, 195]] },
-  'uk-50id': { mode: 'sea', t: 7.5, at: 'gold', obj: [[334, 199], [343, 199]] },
+  'uk-50id': { mode: 'sea', t: 7.42, at: 'gold', obj: [[334, 199], [343, 199]] },
   'ca-3id': { mode: 'sea', t: 7.75, at: 'juno', obj: [[346, 204], [353, 204]] },
-  'uk-3id': { mode: 'sea', t: 7.5, at: 'sword', obj: [[352, 205], [358, 205]] },
+  'uk-3id': { mode: 'sea', t: 7.42, at: 'sword', obj: [[352, 205], [358, 205]] },
   'us-101ab': { mode: 'air', t: 2, at: 'dz101', night: 1 },
   'us-82ab': { mode: 'air', t: 1.4, at: 'dz82', night: 1 },
   'uk-6ab': { mode: 'air', t: .8, at: 'dz6', night: 1 } };
@@ -40,20 +40,20 @@ const GDEST = { 'ge-1st-ss-panzer': 'cauS', 'ge-2nd-panzer': 'caumont', 'ge-2nd-
 // the sourced date is when a division reached the front, so it sets out earlier by an estimated march: panzer divisions about
 // 150 km a day moving by night, others about 35 km a day, plus 6 hours to form up (inference; the engine then runs the actual move)
 const marchH = (tpl, a, b) => Math.hypot(a[0] - b[0], a[1] - b[1]) / (tpl === 'ge_pz' ? 150 : 35) * 24 + 6;
-// Hitler's standing orders held the divisions on the Normandy front where they stood until he allowed the withdrawal from the
-// Falaise pocket on 16 August (general history, to verify against Blumenson). Divisions sent to a sector hold it until then.
+// Hitler's standing order to hold fast kept the divisions on the Normandy front where they stood; the Germans began their withdrawal
+// across the length of the American front on 16 August (Blumenson p. 527). Divisions sent to a sector hold it until then.
 const HOLD_UNTIL = '1944-08-16';
 // AI phase lines (game setting, calibrated to the historical front; inference). Until Cobra the AI army groups fight the lodgment
 // battle north of Lessay - St-Lo - Caumont - south of Caen; until 1 August they go no farther than Avranches in the west and the
 // Caen plain in the east. A player's own formations are not bound by them.
-const PHASES = [{ until: '1944-07-25', line: [[200, 206], [270, 206], [290, 207], [301.5, 214], [322.5, 218], [355, 219], [368, 211], [460, 211]] },
-  { until: '1944-08-01', line: [[200, 292], [330, 292], [338, 236], [355, 226], [460, 226]] }];
+const PHASES = [{ until: '1944-07-25', line: [[200, 206], [270, 206], [290, 207], [301.5, 214], [322.5, 218], [355, 219], [368, 211], [374, 150], [460, 150]] },
+  { until: '1944-08-01', line: [[200, 292], [330, 292], [338, 236], [355, 226], [372, 226], [380, 150], [460, 150]] }];   // east of the Dives the coast stays shut: Le Havre and the Seine ports fell in September
 // fighting quality (game setting, inference): veteran and green divisions by their 1944 record in general history
 const XP = { 'us-1id': 1.05, 'us-9id': 1.05, 'us-82ab': 1.1, 'us-101ab': 1.05, 'us-2ad': 1.05, 'uk-7ad': 1, 'uk-50id': 1, 'uk-51id': 1, 'uk-6ab': 1.05,
   'ge-1st-ss-panzer': 1.15, 'ge-2nd-ss-panzer': 1.1, 'ge-9th-ss-panzer': 1.1, 'ge-10th-ss-panzer': 1.1, 'ge-12th-ss-panzer': 1.15, 'ge-panzer-lehr': 1.15, 'ge-2nd-panzer': 1.1,
   'ge-21st-panzer': 1, 'ge-116th-panzer': 1.05, 'ge-17th-ss-panzer-grenadier': 1, 'ge-2nd-parachute': 1.1, 'ge-3rd-parachute': 1.1, 'ge-5th-parachute': .95, 'ge-352nd': 1 };
 const xpOf = d => XP[d.id] || (/^ge-.*luftwaffe/.test(d.id) ? .75 : /^ge-(7\d\d|709|711|716|243|265|266|343)/.test(d.id) ? .85 : /^ge-/.test(d.id) ? .95 : .9);
-// a German sector line: 14 km, facing the nearest beach, so neighbouring sectors close up into a front (inference)
+// a German sector line: 14 km, facing the nearest beach, dug in on arrival as in the hedgerows, so neighbouring sectors close up into a front (inference)
 const BEACHES = [[297.0, 177.9], [318.0, 184.7], [341.3, 188.6], [350.7, 189.4], [360.7, 194.2]];
 function sector(q) { let b = BEACHES[0], bd = 1e9; for (const p of BEACHES) { const d = Math.hypot(p[0] - q[0], p[1] - q[1]); if (d < bd) { bd = d; b = p; } }
   const ax = (b[0] - q[0]) / (bd || 1), ay = (b[1] - q[1]) / (bd || 1), px = -ay * 7, py = ax * 7; return [[q[0] - px, q[1] - py], [q[0] + px, q[1] + py]]; }
@@ -103,14 +103,14 @@ function makeOverlord(cs) {
       const f = divForm({ tpl: d.tpl, s: 1, n: d.name, cmd, ag: .5, sk: .65, xp: xpOf(d), regs, x, y });
       const coast = d.tpl === 'ge_inf' && (!a.date || a.date <= '1944-06-06');
       if (coast) { f.line = [[x - 5, y], [x + 5, y]]; f.dug = 1; f.free = 0; } else f.free = fr;
-      if (GDEST[d.id]) { const L = sector(Q[GDEST[d.id]]).map(p => W(p[0], p[1])); f.ai = [{ t: Math.max(.5, fr), path: [], line: L }]; f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); }
+      if (GDEST[d.id]) { const L = sector(Q[GDEST[d.id]]).map(p => W(p[0], p[1])); f.ai = [{ t: Math.max(.5, fr), path: [], line: L, then: 'dig' }]; f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); }
       if (coast) { f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); }
       if (GSTAY.test(d.id)) f.stay = 1;
       forms.push(f); log.push([d.id, 'German', coast ? 'holds at 6 June position' : 'at 6 June position, free from', coast ? '0' : fr.toFixed(0)]);
     } else {
       const [x, y] = clampIn(W(a.entry.xy[0], a.entry.xy[1])), dest = GDEST[d.id] && Q[GDEST[d.id]], t = Math.max(1, hrs(a.date, 12) - (dest ? marchH(d.tpl, a.entry.xy, dest) : 0));
       const f = divForm({ tpl: d.tpl, s: 1, n: d.name, cmd, ag: .5, sk: .65, xp: xpOf(d), regs, x, y }); f.arr = { t, mode: 'road' };
-      if (GDEST[d.id]) { const L = sector(Q[GDEST[d.id]]).map(p => W(p[0], p[1])); f.ai = [{ t: t + 1, path: [], line: L }]; if (t < hrs(HOLD_UNTIL, 0)) { f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); } }
+      if (GDEST[d.id]) { const L = sector(Q[GDEST[d.id]]).map(p => W(p[0], p[1])); f.ai = [{ t: t + 1, path: [], line: L, then: 'dig' }]; if (t < hrs(HOLD_UNTIL, 0)) { f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); } }
       forms.push(f); log.push([d.id, 'German', 'road entry', t.toFixed(0)]);
     }
   }
@@ -179,9 +179,11 @@ function makeOverlord(cs) {
   sc.buildLog = log;
   return sc;
 }
-// historical capture dates for the AI-vs-AI comparison (general history, to verify against Blumenson and Ellis)
+// historical capture dates for the AI-vs-AI comparison. Sourced from Blumenson, Breakout and Pursuit (pages from the OCR running heads,
+// one or two off): Cherbourg p. 37, Avranches p. 316, Rennes p. 355, Nantes p. 367, Orléans p. 566, Paris p. 589, Brest (garrison) p. 651.
+// The rest are general history, to verify: Carentan, Caen, St-Lô, Coutances, Le Mans, Falaise, Chartres, Rouen.
 const MILESTONES = [['Carentan', '1944-06-12'], ['Cherbourg', '1944-06-26'], ['Caen', '1944-07-09'], ['Saint-Lô', '1944-07-18'], ['Coutances', '1944-07-28'], ['Avranches', '1944-07-30'],
-  ['Rennes', '1944-08-04'], ['Le Mans', '1944-08-08'], ['Nantes', '1944-08-12'], ['Orléans', '1944-08-16'], ['Falaise', '1944-08-17'], ['Chartres', '1944-08-18'], ['Paris', '1944-08-25'], ['Rouen', '1944-08-30'], ['Brest', '1944-09-19']];
+  ['Rennes', '1944-08-04'], ['Le Mans', '1944-08-08'], ['Nantes', '1944-08-12'], ['Orléans', '1944-08-16'], ['Falaise', '1944-08-17'], ['Chartres', '1944-08-18'], ['Paris', '1944-08-25'], ['Rouen', '1944-08-30'], ['Brest', '1944-09-18']];
 module.exports = makeOverlord; module.exports.MILESTONES = MILESTONES; module.exports.WIN = WIN; module.exports.START = START;
 
 if (require.main === module) {

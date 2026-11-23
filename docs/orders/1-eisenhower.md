@@ -33,7 +33,7 @@ b. *First US Army* (Lieutenant General Bradley) passes to 12th Army Group on 1 A
 
 c. *Allied Expeditionary Air Force.* Annex D. You set the strategic bombers' targets until mid-September 1944: rail centers, bridges, depots and airfields.
 
-d. *Your levers in this build.* You decide the timing of the airborne lifts and can hold or delay a lift, order any division, corps or army, and hand any formation to the staff. The theater reserve and supply priority come in a later build.
+d. *Your levers in this build.* You decide the timing of the airborne lifts and can hold or delay a lift, order any division, corps or army, and hand any formation to the staff. Set each army's supply priority on the army line of any of its divisions' cards (Annex F). The theater reserve comes in a later build.
 
 e. *Standing.* The top bar shows your standing with Washington, London, Paris and Moscow. Steady advances and the great objectives raise it; heavy losses for little ground, and Paris left in German hands, lower it. The Combined Chiefs review it on 25 July and 22 August (Annex F).
 
