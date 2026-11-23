@@ -1166,7 +1166,7 @@ function createSim(sc, player, seed, opt) {
   // ---------- main step ----------
   let tC = 0, tSup = 3, tAir = 2, tAi = 0, tBr = 1, tVp = 4, acc = 0;
   function step(dt) {
-    S.t += dt; if (S.cmdHook) S.cmdHook(); const h = S.hourOf(S.t); S.night = h < S.dayA || h > S.dayB;
+    S.t += dt; S.lastDt = dt; if (S.cmdHook) S.cmdHook(); const h = S.hourOf(S.t); S.night = h < S.dayA || h > S.dayB;
     const wi = Math.min(weather.length - 1, Math.floor(S.t / 720)); if (weather[wi] !== S.wx) { S.wx = weather[wi]; say(-1, 'Weather: ' + WXNAME[S.wx] + (S.wx === 'clear' || S.wx === 'cloud' ? '. Aircraft can fly.' : '. Air operations suspended.'), 1); }
     moveSubs(dt); moveConvoys(dt); moveFlights(dt);
     if (S.t >= tC) { tC += 1; combatTick(); arrivals(); }

@@ -76,6 +76,7 @@ function attachCommand(S) {
     S.say(C.s, C.n + ': orders passed to ' + plan.map(q => q.child.n + (q.reserve ? ' (reserve)' : '')).join(', ') + '.', 1);
   }
   // called once per simulation step
-  S.cmdHook = function () { for (const C of nodes) if (C.order && C.order.st === 'pending' && S.t >= C.order.t0) release(C); };
+  const prevHook = S.cmdHook;
+  S.cmdHook = function () { if (prevHook) prevHook(); for (const C of nodes) if (C.order && C.order.st === 'pending' && S.t >= C.order.t0) release(C); };
   return S;
 }

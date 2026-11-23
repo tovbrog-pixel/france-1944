@@ -52,7 +52,7 @@ Rules carried over from Lines of Advance:
 - Each order shows on the map as a slightly transparent symbol.
 - Commanders can refuse orders they cannot carry out; the player can relieve them.
 
-**Orders on the map and movement.** Orders draw as arrows. Commanders move by the most logical means: overland on foot, by rail, by boat, or by truck and other vehicles on roads.
+**Orders on the map and movement.** Orders draw as arrows. Commanders move by the most logical means: overland on foot, by rail, by boat, or by truck and other vehicles on roads. The commander also picks the release point where a column leaves the road or train and forms up; the map shows it to the player as information.
 
 **Exceeding orders, within limits.** A subordinate role may push past its objective up to a depth set in the data. Its boundary and axis stay fixed. Success forgives the overreach; failure costs standing with the superior. AI superiors issue orders to the player as boundaries, axes, objectives and phase lines.
 
