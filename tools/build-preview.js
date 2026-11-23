@@ -11,7 +11,7 @@ const keep = ['id', 'title', 'sub', 'modules', 'front', 'detourKm', 'view', 'pha
 const D = {}; for (const k of keep) D[k] = sc[k];
 if (which !== 'overlord') { D.title = 'Normandy, 25 July 1944 (real-map test)'; D.sub = 'Step 4 data: real terrain, roads, rail, towns and airfields'; D.brief = ['Real-map test.', 'Real-map test.']; }
 D.raster = { w: sc.raster.w, h: sc.raster.h, t: b64(sc.raster.t), el: b64(sc.raster.el) };
-D.sideOv = sc.sides.map(s => which === 'overlord' ? { name: s.name, rear: s.rear, posture: s.posture, pocket: s.pocket, restH: s.restH, sources: s.sources, pool: s.pool, bases: s.bases, transport: s.transport, groups: s.groups, assets: s.assets } : { rear: s.rear, pocket: undefined, sources: s.sources, bases: s.bases, transport: s.transport });
+D.sideOv = sc.sides.map(s => which === 'overlord' ? { name: s.name, rear: s.rear, posture: s.posture, pocket: s.pocket, restH: s.restH, aiPerVP: s.aiPerVP, aiRng: s.aiRng, sources: s.sources, pool: s.pool, bases: s.bases, transport: s.transport, groups: s.groups, assets: s.assets } : { rear: s.rear, pocket: undefined, sources: s.sources, bases: s.bases, transport: s.transport });
 const inject = `
 (function(){ const D = ${JSON.stringify(D)};
   const dec = (s, C) => { const b = atob(s), u = new Uint8Array(b.length); for (let i = 0; i < b.length; i++) u[i] = b.charCodeAt(i); return new C(u.buffer); };

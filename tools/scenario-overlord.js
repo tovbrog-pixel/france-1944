@@ -180,7 +180,8 @@ function makeOverlord(cs) {
   const gGroups = [['JG 2 and JG 26 (Air Corps II)', 'bf109', 48, 0, 'cap'], ['Fighter reinforcements from Germany', 'fw190', 36, 0, 'cas'], ['KG 54 and KG 66', 'ju88', 24, 1, 'strat']];   // game groups scaled to Ellis's 319 operational aircraft (inference)
   const sides = base.sides.map((sd, s) => Object.assign({}, sd, {
     name: s ? 'OB West: Seventh Army and Panzer Group West' : 'Allied Expeditionary Force: 21st Army Group',
-    rear: s ? [0, 1] : [0, -1], pocket: s ? true : undefined, restH: s ? 3 : 10, posture: s ? 'defend' : 'attack', assets: s ? [] : sd.assets || [],
+    rear: s ? [0, 1] : [0, -1], pocket: s ? true : undefined, restH: s ? 3 : 10, aiPerVP: s ? 2 : 4, aiRng: s ? 0 : 40,   // Allied staff AI: up to four divisions on one objective, reaching 40 km, so follow-up divisions join the battle instead of waiting at the beach (game setting)
+     posture: s ? 'defend' : 'attack', assets: s ? [] : sd.assets || [],
     sources: s ? gSrc : alliedSrc, pool: s ? [] : pool.concat(sup), bases: [off[s]].concat(air.bases[s]), transport: { aircraft: air.transport[s] }, groups: s ? gGroups : sd.groups }));
 
   // 12-hour weather periods: the storm of 19-22 June from Ruppenthal p. 406; D-Day overcast; the rest drawn with a fixed seed (inference)
