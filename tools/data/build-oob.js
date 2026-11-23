@@ -61,7 +61,7 @@ const BRIGADES = [   // independent armoured and tank brigades, ellis-1 Appendix
 const COMMANDS = [
   ['21ag', 'Twenty-First Army Group', 'army group', null, [['1944-01', 'Gen. Sir Bernard L. Montgomery']], 'sourced', ['ellis-1']],
   ['uk-2a', 'Second Army', 'army', '21ag', [['1944-01', 'Lt. Gen. Sir Miles C. Dempsey']], 'sourced', ['ellis-1']],
-  ['ca-1a', 'First Canadian Army', 'army', '21ag', [['1944-07-23', 'Lt. Gen. H. D. G. Crerar']], 'verify', ['ellis-1', 'general'], 'Ellis: Crerar arrived in Normandy on 18 Jun with a small headquarters; operational date to verify in Stacey'],
+  ['ca-1a', 'First Canadian Army', 'army', '21ag', [['1944-07-23', 'Lt. Gen. H. D. G. Crerar']], 'sourced', ['ellis-1'], 'Ellis pp. 304, 375: held in England, operational on 23 July 1944 with the British I Corps under command'],
   ['uk-i', 'I Corps', 'corps', 'uk-2a', [['1944-06', 'Lt. Gen. J. T. Crocker']], 'sourced', ['ellis-1']],
   ['uk-viii', 'VIII Corps', 'corps', 'uk-2a', [['1944-06', 'Lt. Gen. Sir Richard N. O\'Connor']], 'sourced', ['ellis-1']],
   ['uk-xii', 'XII Corps', 'corps', 'uk-2a', [['1944-06', 'Lt. Gen. N. M. Ritchie']], 'sourced', ['ellis-1']],

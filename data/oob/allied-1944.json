@@ -80,12 +80,11 @@
      "name": "Lt. Gen. H. D. G. Crerar"
     }
    ],
-   "status": "verify",
+   "status": "sourced",
    "src": [
-    "ellis-1",
-    "general"
+    "ellis-1"
    ],
-   "note": "Ellis: Crerar arrived in Normandy on 18 Jun with a small headquarters; operational date to verify in Stacey"
+   "note": "Ellis pp. 304, 375: held in England, operational on 23 July 1944 with the British I Corps under command"
   },
   {
    "id": "uk-i",

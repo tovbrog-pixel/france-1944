@@ -1,0 +1,1496 @@
+{
+ "title": "Allied division attachments to corps and armies, 6 June to 1 September 1944",
+ "author": "Tov Binyamin Brog",
+ "sources": [
+  {
+   "id": "eto-oob",
+   "title": "Order of Battle of the US Army, WWII, ETO: Divisions (1945), Assignment and Attachment to Higher Units tables",
+   "url": "https://archive.org/details/OrderOfBattleUsArmyEtoWw2",
+   "read": "2026-11-22",
+   "free": true
+  },
+  {
+   "id": "ellis-1",
+   "title": "L. F. Ellis, Victory in the West, vol. I (1962)",
+   "url": "https://archive.org/details/victory-west-vol-1",
+   "read": "2026-11-22",
+   "free": true
+  },
+  {
+   "id": "blumenson",
+   "title": "Martin Blumenson, Breakout and Pursuit (1961)",
+   "url": "https://archive.org/details/breakoutpursuit00blum",
+   "read": "2026-11-22",
+   "free": true
+  }
+ ],
+ "notes": [
+  "US rows: each row holds from its date until the next row for the same division. The army is the operational (attached) one where the table gives two.",
+  "British, Canadian and Polish rows (snapshot: true) record a corps the division served in on that date as Ellis describes an operation; the division may have joined earlier. A continuous record needs Joslen or the war diaries.",
+  "Page numbers come from the running heads of the OCR text and may be one or two pages off."
+ ],
+ "rows": [
+  {
+   "div": "ca-2id",
+   "from": "1944-07-25",
+   "corps": "II Canadian",
+   "army": "Second",
+   "status": "verify",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 378",
+   "note": "Spring: Canadian divisions of the corps from the narrative (verify)",
+   "snapshot": true
+  },
+  {
+   "div": "ca-2id",
+   "from": "1944-08-07",
+   "corps": "II Canadian",
+   "army": "First Canadian",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 417",
+   "note": "Totalize; 51st from I Corps",
+   "snapshot": true
+  },
+  {
+   "div": "ca-3id",
+   "from": "1944-06-06",
+   "corps": "I",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 80",
+   "note": "assault organisation; 6th Airborne under I Corps after landing",
+   "snapshot": true
+  },
+  {
+   "div": "ca-3id",
+   "from": "1944-07-25",
+   "corps": "II Canadian",
+   "army": "Second",
+   "status": "verify",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 378",
+   "note": "Spring: Canadian divisions of the corps from the narrative (verify)",
+   "snapshot": true
+  },
+  {
+   "div": "ca-3id",
+   "from": "1944-08-07",
+   "corps": "II Canadian",
+   "army": "First Canadian",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 417",
+   "note": "Totalize; 51st from I Corps",
+   "snapshot": true
+  },
+  {
+   "div": "ca-4ad",
+   "from": "1944-08-07",
+   "corps": "II Canadian",
+   "army": "First Canadian",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 417",
+   "note": "Totalize; 51st from I Corps",
+   "snapshot": true
+  },
+  {
+   "div": "ca-4ad",
+   "from": "1944-08-17",
+   "corps": "II Canadian",
+   "army": "First Canadian",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 441",
+   "note": "the two armoured divisions of II Canadian Corps",
+   "snapshot": true
+  },
+  {
+   "div": "fr-2db",
+   "from": "1944-08-01",
+   "corps": "XX",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "fr-2db",
+   "from": "1944-08-09",
+   "corps": "XV",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob",
+    "blumenson"
+   ],
+   "note": "Blumenson: attached to XV Corps at le Mans on 9 Aug; the table row of 8 Aug has no corps"
+  },
+  {
+   "div": "fr-2db",
+   "from": "1944-08-17",
+   "corps": "V",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "assigned Third, attached First"
+  },
+  {
+   "div": "pl-1ad",
+   "from": "1944-08-07",
+   "corps": "II Canadian",
+   "army": "First Canadian",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 417",
+   "note": "Totalize; 51st from I Corps",
+   "snapshot": true
+  },
+  {
+   "div": "pl-1ad",
+   "from": "1944-08-17",
+   "corps": "II Canadian",
+   "army": "First Canadian",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 441",
+   "note": "the two armoured divisions of II Canadian Corps",
+   "snapshot": true
+  },
+  {
+   "div": "uk-11ad",
+   "from": "1944-06-26",
+   "corps": "VIII",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 275",
+   "note": "Epsom",
+   "snapshot": true
+  },
+  {
+   "div": "uk-11ad",
+   "from": "1944-07-30",
+   "corps": "VIII",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 388",
+   "note": "Bluecoat",
+   "snapshot": true
+  },
+  {
+   "div": "uk-11ad",
+   "from": "1944-08-17",
+   "corps": "XXX",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 445",
+   "note": "VIII Corps pinched out",
+   "snapshot": true
+  },
+  {
+   "div": "uk-15id",
+   "from": "1944-06-26",
+   "corps": "VIII",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 275",
+   "note": "Epsom",
+   "snapshot": true
+  },
+  {
+   "div": "uk-15id",
+   "from": "1944-07-30",
+   "corps": "VIII",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 388",
+   "note": "Bluecoat",
+   "snapshot": true
+  },
+  {
+   "div": "uk-3id",
+   "from": "1944-06-06",
+   "corps": "I",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 80",
+   "note": "assault organisation; 6th Airborne under I Corps after landing",
+   "snapshot": true
+  },
+  {
+   "div": "uk-3id",
+   "from": "1944-07-23",
+   "corps": "I",
+   "army": "First Canadian",
+   "status": "verify",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 375",
+   "note": "First Canadian Army operational on 23 July, taking the British I Corps under command; the divisions in I Corps that day from the narrative (verify)",
+   "snapshot": true
+  },
+  {
+   "div": "uk-43id",
+   "from": "1944-06-26",
+   "corps": "VIII",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 275",
+   "note": "Epsom",
+   "snapshot": true
+  },
+  {
+   "div": "uk-43id",
+   "from": "1944-07-30",
+   "corps": "XXX",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 388",
+   "note": "Bluecoat: 7th Armoured in XXX Corps reserve, XXX Corps' 43rd Division, and the 50th on its left",
+   "snapshot": true
+  },
+  {
+   "div": "uk-43id",
+   "from": "1944-08-25",
+   "corps": "XXX",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 454",
+   "note": "Seine crossing at Vernon",
+   "snapshot": true
+  },
+  {
+   "div": "uk-49id",
+   "from": "1944-06-25",
+   "corps": "XXX",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 276",
+   "note": "49th Division in XXX Corps preliminary attack",
+   "snapshot": true
+  },
+  {
+   "div": "uk-50id",
+   "from": "1944-06-06",
+   "corps": "XXX",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 167",
+   "note": "the leading division of XXX Corps in the Gold area",
+   "snapshot": true
+  },
+  {
+   "div": "uk-50id",
+   "from": "1944-07-30",
+   "corps": "XXX",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 388",
+   "note": "Bluecoat: 7th Armoured in XXX Corps reserve, XXX Corps' 43rd Division, and the 50th on its left",
+   "snapshot": true
+  },
+  {
+   "div": "uk-51id",
+   "from": "1944-06-10",
+   "corps": "I",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 245",
+   "note": "51st passed into the bridgehead east of the Orne",
+   "snapshot": true
+  },
+  {
+   "div": "uk-51id",
+   "from": "1944-07-23",
+   "corps": "I",
+   "army": "First Canadian",
+   "status": "verify",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 375",
+   "note": "First Canadian Army operational on 23 July, taking the British I Corps under command; the divisions in I Corps that day from the narrative (verify)",
+   "snapshot": true
+  },
+  {
+   "div": "uk-51id",
+   "from": "1944-08-07",
+   "corps": "II Canadian",
+   "army": "First Canadian",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 417",
+   "note": "Totalize; 51st from I Corps",
+   "snapshot": true
+  },
+  {
+   "div": "uk-53id",
+   "from": "1944-08-03",
+   "corps": "XII",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 408",
+   "note": "",
+   "snapshot": true
+  },
+  {
+   "div": "uk-53id",
+   "from": "1944-08-17",
+   "corps": "XII",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 445",
+   "note": "",
+   "snapshot": true
+  },
+  {
+   "div": "uk-59id",
+   "from": "1944-08-03",
+   "corps": "XII",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 408",
+   "note": "",
+   "snapshot": true
+  },
+  {
+   "div": "uk-59id",
+   "from": "1944-08-17",
+   "corps": "XII",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 445",
+   "note": "",
+   "snapshot": true
+  },
+  {
+   "div": "uk-6ab",
+   "from": "1944-06-06",
+   "corps": "I",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 80",
+   "note": "assault organisation; 6th Airborne under I Corps after landing",
+   "snapshot": true
+  },
+  {
+   "div": "uk-6ab",
+   "from": "1944-07-23",
+   "corps": "I",
+   "army": "First Canadian",
+   "status": "verify",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 375",
+   "note": "First Canadian Army operational on 23 July, taking the British I Corps under command; the divisions in I Corps that day from the narrative (verify)",
+   "snapshot": true
+  },
+  {
+   "div": "uk-7ad",
+   "from": "1944-06-10",
+   "corps": "XXX",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 245",
+   "note": "7th Armoured launched toward Villers-Bocage",
+   "snapshot": true
+  },
+  {
+   "div": "uk-7ad",
+   "from": "1944-07-25",
+   "corps": "II Canadian",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 378",
+   "note": "Spring: II Canadian Corps strengthened by 7th Armoured and Guards Armoured",
+   "snapshot": true
+  },
+  {
+   "div": "uk-7ad",
+   "from": "1944-07-30",
+   "corps": "XXX",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 388",
+   "note": "Bluecoat: 7th Armoured in XXX Corps reserve, XXX Corps' 43rd Division, and the 50th on its left",
+   "snapshot": true
+  },
+  {
+   "div": "uk-gds-ad",
+   "from": "1944-07-25",
+   "corps": "II Canadian",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 378",
+   "note": "Spring: II Canadian Corps strengthened by 7th Armoured and Guards Armoured",
+   "snapshot": true
+  },
+  {
+   "div": "uk-gds-ad",
+   "from": "1944-07-30",
+   "corps": "VIII",
+   "army": "Second",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "cite": "ellis-1 p. 388",
+   "note": "Bluecoat",
+   "snapshot": true
+  },
+  {
+   "div": "us-101ab",
+   "from": "1944-06-06",
+   "corps": "VII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-101ab",
+   "from": "1944-06-15",
+   "corps": "VIII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "corps and date columns read in order"
+  },
+  {
+   "div": "us-101ab",
+   "from": "1944-07-15",
+   "corps": null,
+   "army": "Ninth",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "left the Continent for England"
+  },
+  {
+   "div": "us-1id",
+   "from": "1944-02-02",
+   "corps": "V",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-1id",
+   "from": "1944-07-14",
+   "corps": null,
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "army reserve"
+  },
+  {
+   "div": "us-1id",
+   "from": "1944-07-15",
+   "corps": "VII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-28id",
+   "from": "1944-07-26",
+   "corps": "XIX",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "assigned Third, attached First"
+  },
+  {
+   "div": "us-28id",
+   "from": "1944-08-28",
+   "corps": "V",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-29id",
+   "from": "1943-10-22",
+   "corps": "V",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-29id",
+   "from": "1944-06-14",
+   "corps": "XIX",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-29id",
+   "from": "1944-08-12",
+   "corps": "V",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-29id",
+   "from": "1944-08-19",
+   "corps": "VIII",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "assigned First, attached Third (Brest)"
+  },
+  {
+   "div": "us-2ad",
+   "from": "1944-02-03",
+   "corps": "XIX",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-2ad",
+   "from": "1944-06-12",
+   "corps": "V",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-2ad",
+   "from": "1944-07-18",
+   "corps": "VII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-2ad",
+   "from": "1944-08-02",
+   "corps": null,
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "army reserve"
+  },
+  {
+   "div": "us-2ad",
+   "from": "1944-08-07",
+   "corps": "VII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-2ad",
+   "from": "1944-08-13",
+   "corps": "XIX",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-2ad",
+   "from": "1944-08-19",
+   "corps": "XIX",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "a V Corps row between 13 and 19 Aug has a damaged day"
+  },
+  {
+   "div": "us-2ad",
+   "from": "1944-08-28",
+   "corps": "XV",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-2ad",
+   "from": "1944-08-29",
+   "corps": "XIX",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-2id",
+   "from": "1944-04-14",
+   "corps": "V",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-2id",
+   "from": "1944-08-17",
+   "corps": "XIX",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-2id",
+   "from": "1944-08-18",
+   "corps": "VIII",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "assigned First, attached Third (Brest)"
+  },
+  {
+   "div": "us-30id",
+   "from": "1944-02-18",
+   "corps": "XIX",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-30id",
+   "from": "1944-07-15",
+   "corps": "VII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-30id",
+   "from": "1944-07-28",
+   "corps": "XIX",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-30id",
+   "from": "1944-08-04",
+   "corps": "V",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-30id",
+   "from": "1944-08-05",
+   "corps": "VII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-30id",
+   "from": "1944-08-13",
+   "corps": "XIX",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-30id",
+   "from": "1944-08-26",
+   "corps": "XV",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-30id",
+   "from": "1944-08-29",
+   "corps": "XIX",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-35id",
+   "from": "1944-07-08",
+   "corps": "XIX",
+   "army": "First",
+   "status": "verify",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "day of the month lost in the OCR; arrival date used"
+  },
+  {
+   "div": "us-35id",
+   "from": "1944-07-27",
+   "corps": "V",
+   "army": "First",
+   "status": "verify",
+   "src": [
+    "eto-oob",
+    "blumenson"
+   ],
+   "note": "OCR shows \"2? Jul\"; Blumenson to confirm"
+  },
+  {
+   "div": "us-35id",
+   "from": "1944-08-06",
+   "corps": "XX",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-35id",
+   "from": "1944-08-09",
+   "corps": "VII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "assigned Third, attached First (Mortain)"
+  },
+  {
+   "div": "us-35id",
+   "from": "1944-08-13",
+   "corps": "XII",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-3ad",
+   "from": "1944-02-08",
+   "corps": "XIX",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-3ad",
+   "from": "1944-07-01",
+   "corps": "VII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-4ad",
+   "from": "1944-07-15",
+   "corps": "VIII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "assigned Third, attached First"
+  },
+  {
+   "div": "us-4ad",
+   "from": "1944-08-01",
+   "corps": "VIII",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-4ad",
+   "from": "1944-08-13",
+   "corps": "XII",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-4id",
+   "from": "1944-02-02",
+   "corps": "VII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-4id",
+   "from": "1944-07-16",
+   "corps": "VIII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-4id",
+   "from": "1944-07-19",
+   "corps": "VII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-4id",
+   "from": "1944-08-22",
+   "corps": "V",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-5ad",
+   "from": "1944-06-01",
+   "corps": "XII",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-5ad",
+   "from": "1944-08-01",
+   "corps": "XV",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-5ad",
+   "from": "1944-08-26",
+   "corps": "XV",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-5ad",
+   "from": "1944-08-29",
+   "corps": "V",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-5id",
+   "from": "1944-07-13",
+   "corps": "V",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-5id",
+   "from": "1944-08-04",
+   "corps": "XX",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-6ad",
+   "from": "1944-07-25",
+   "corps": "VIII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-6ad",
+   "from": "1944-08-01",
+   "corps": "VIII",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-79id",
+   "from": "1944-05-29",
+   "corps": "VII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "assigned Third, attached First"
+  },
+  {
+   "div": "us-79id",
+   "from": "1944-07-01",
+   "corps": "VIII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "assigned Third, attached First"
+  },
+  {
+   "div": "us-79id",
+   "from": "1944-08-01",
+   "corps": "VIII",
+   "army": "Third",
+   "status": "verify",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "corps garbled in the OCR"
+  },
+  {
+   "div": "us-79id",
+   "from": "1944-08-03",
+   "corps": "XV",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-79id",
+   "from": "1944-08-26",
+   "corps": "XV",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-79id",
+   "from": "1944-08-29",
+   "corps": "XIX",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-7ad",
+   "from": "1944-07-30",
+   "corps": null,
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-7ad",
+   "from": "1944-08-05",
+   "corps": null,
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-7ad",
+   "from": "1944-08-10",
+   "corps": "XX",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-80id",
+   "from": "1944-08-01",
+   "corps": "XII",
+   "army": "Third",
+   "status": "verify",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "corps garbled in the OCR (\"XIT\")"
+  },
+  {
+   "div": "us-80id",
+   "from": "1944-08-07",
+   "corps": "XX",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-80id",
+   "from": "1944-08-08",
+   "corps": "XV",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-80id",
+   "from": "1944-08-10",
+   "corps": "XX",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-80id",
+   "from": "1944-08-17",
+   "corps": "V",
+   "army": "First",
+   "status": "verify",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "OCR shows \"1 Aug\"; the row falls between 10 and 23 Aug"
+  },
+  {
+   "div": "us-80id",
+   "from": "1944-08-23",
+   "corps": null,
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-80id",
+   "from": "1944-08-26",
+   "corps": "XII",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-82ab",
+   "from": "1944-06-06",
+   "corps": "VII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-82ab",
+   "from": "1944-06-19",
+   "corps": "VIII",
+   "army": "First",
+   "status": "verify",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "OCR shows \"9 Jun\"; VIII Corps entered the line in mid-June"
+  },
+  {
+   "div": "us-82ab",
+   "from": "1944-07-13",
+   "corps": null,
+   "army": "Ninth",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "left the Continent for England"
+  },
+  {
+   "div": "us-83id",
+   "from": "1944-06-25",
+   "corps": "VIII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "assigned Third, attached First"
+  },
+  {
+   "div": "us-83id",
+   "from": "1944-07-01",
+   "corps": "VII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-83id",
+   "from": "1944-07-15",
+   "corps": "VIII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-83id",
+   "from": "1944-08-01",
+   "corps": "XV",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-83id",
+   "from": "1944-08-03",
+   "corps": "VIII",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-8id",
+   "from": "1944-07-01",
+   "corps": "VIII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-8id",
+   "from": "1944-08-01",
+   "corps": "VIII",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-90id",
+   "from": "1944-03-27",
+   "corps": "VII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "assigned Third, attached First"
+  },
+  {
+   "div": "us-90id",
+   "from": "1944-06-19",
+   "corps": "VIII",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-90id",
+   "from": "1944-08-02",
+   "corps": "XV",
+   "army": "Third",
+   "status": "verify",
+   "src": [
+    "eto-oob",
+    "blumenson"
+   ],
+   "note": "date lost in the OCR; XV Corps took the division in early August (Blumenson)"
+  },
+  {
+   "div": "us-90id",
+   "from": "1944-08-17",
+   "corps": "V",
+   "army": "First",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "assigned Third, attached First (Chambois)"
+  },
+  {
+   "div": "us-90id",
+   "from": "1944-08-25",
+   "corps": "XV",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-90id",
+   "from": "1944-08-26",
+   "corps": "XX",
+   "army": "Third",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": ""
+  },
+  {
+   "div": "us-9id",
+   "from": "1944-06-10",
+   "corps": "VII",
+   "army": "First",
+   "status": "verify",
+   "src": [
+    "eto-oob",
+    "blumenson"
+   ],
+   "note": "table illegible in the OCR; VII Corps from the Blumenson narrative of the Cherbourg and Cobra fighting"
+  }
+ ]
+}
