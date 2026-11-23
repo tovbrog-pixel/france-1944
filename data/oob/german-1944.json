@@ -23,6 +23,13 @@
    "url": "https://archive.org/details/CMHPub741CrossChannelAttack",
    "read": "2026-11-22",
    "free": true
+  },
+  {
+   "id": "blumenson",
+   "title": "Martin Blumenson, Breakout and Pursuit, US Army in World War II, CMH 1961",
+   "url": "https://archive.org/details/breakoutpursuit00blum",
+   "read": "2026-11-22",
+   "free": true
   }
  ],
  "armies": [
@@ -193,7 +200,25 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-28",
+    "status": "sourced",
+    "note": "From near Bruges; some infantry committed on 28 June; the whole division reached the battle area in early July (OCR of the day is damaged). Enters from the northeast",
+    "cite": [
+     "ellis-1 p. 282",
+     "ellis-1 p. 279"
+    ],
+    "src": [
+     "ellis-1"
+    ],
+    "entry": {
+     "xy": [
+      564.5,
+      65.1
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-2nd-panzer",
@@ -215,7 +240,20 @@
     ],
     "status": "inference"
    },
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-13",
+    "status": "sourced",
+    "note": "Began its move from Amiens on the night of 9/10 June; identified on the left of the US 1st Division on 13 June; its armour joined over a week later, during the storm",
+    "cite": [
+     "harrison p. 372",
+     "harrison p. 376",
+     "ellis-1 p. 274"
+    ],
+    "src": [
+     "ellis-1",
+     "harrison"
+    ]
+   }
   },
   {
    "id": "ge-2nd-ss-panzer",
@@ -227,7 +265,25 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-28",
+    "status": "sourced",
+    "note": "From near Toulouse, delayed by the Resistance and air attack; had not arrived by 17 June; stationed south of St-Lo in army group reserve; a battle group fought the British 49th Division on 28 June. Enters from the south",
+    "cite": [
+     "ellis-1 p. 262",
+     "ellis-1 p. 282"
+    ],
+    "src": [
+     "ellis-1"
+    ],
+    "entry": {
+     "xy": [
+      298.4,
+      402.4
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-9th-panzer",
@@ -239,7 +295,26 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-08-06",
+    "status": "sourced",
+    "note": "Released from Nineteenth Army in southern France; first arrivals engaged with Third Army near le Mans about 6-8 August",
+    "cite": [
+     "blumenson p. 296",
+     "ellis-1 p. 412"
+    ],
+    "src": [
+     "blumenson",
+     "ellis-1"
+    ],
+    "entry": {
+     "xy": [
+      388.9,
+      406.3
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-9th-ss-panzer",
@@ -251,7 +326,24 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-29",
+    "status": "inference",
+    "note": "II SS Panzer Corps had arrived from Russia by the end of Epsom (late June)",
+    "cite": [
+     "ellis-1 p. 282"
+    ],
+    "src": [
+     "ellis-1"
+    ],
+    "entry": {
+     "xy": [
+      489.2,
+      286.8
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-10th-ss-panzer",
@@ -263,7 +355,24 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-29",
+    "status": "inference",
+    "note": "II SS Panzer Corps had arrived from Russia by the end of Epsom (late June)",
+    "cite": [
+     "ellis-1 p. 282"
+    ],
+    "src": [
+     "ellis-1"
+    ],
+    "entry": {
+     "xy": [
+      489.2,
+      286.8
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-12th-ss-panzer",
@@ -285,7 +394,17 @@
     ],
     "status": "verify"
    },
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-07",
+    "status": "sourced",
+    "note": "First elements reached the front on 7 June and were committed at once on the left of the 21st Panzer Division",
+    "cite": [
+     "ellis-1 p. 236"
+    ],
+    "src": [
+     "ellis-1"
+    ]
+   }
   },
   {
    "id": "ge-21st-panzer",
@@ -307,7 +426,19 @@
     ],
     "status": "inference"
    },
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-06",
+    "status": "sourced",
+    "note": "Around Caen on D-Day; committed north and northwest of Caen that evening",
+    "cite": [
+     "harrison p. 254",
+     "ellis-1 p. 203"
+    ],
+    "src": [
+     "ellis-1",
+     "harrison"
+    ]
+   }
   },
   {
    "id": "ge-116th-panzer",
@@ -329,7 +460,18 @@
     ],
     "status": "verify"
    },
-   "arrive": null
+   "arrive": {
+    "date": "1944-07-24",
+    "status": "sourced",
+    "note": "On the way to the Falaise area on 18 July; newly arrived from Fifteenth Army and assembled east of St-Sylvain by 24 July",
+    "cite": [
+     "ellis-1 p. 347",
+     "ellis-1 p. 378"
+    ],
+    "src": [
+     "ellis-1"
+    ]
+   }
   },
   {
    "id": "ge-panzer-lehr",
@@ -351,7 +493,19 @@
     ],
     "status": "verify"
    },
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-08",
+    "status": "sourced",
+    "note": "Formed north and northeast of Tilly on 7 June (Harrison); bulk committed 8 June (Harrison); Ellis puts its first units into battle two days after the 12th SS",
+    "cite": [
+     "harrison p. 334",
+     "ellis-1 p. 237"
+    ],
+    "src": [
+     "ellis-1",
+     "harrison"
+    ]
+   }
   },
   {
    "id": "ge-3rd-panzer-grenadier",
@@ -363,7 +517,13 @@
    ],
    "note": "battle group only",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": null,
+    "status": "verify",
+    "note": "Battle group only; met at the end of August east of Paris (Blumenson pp. 662-63, index); date and entry to read",
+    "cite": [],
+    "src": []
+   }
   },
   {
    "id": "ge-15th-panzer-grenadier",
@@ -375,7 +535,13 @@
    ],
    "note": "battle group only",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": null,
+    "status": "verify",
+    "note": "Battle group only; met at the end of August east of Paris (Blumenson pp. 662-63, index); date and entry to read",
+    "cite": [],
+    "src": []
+   }
   },
   {
    "id": "ge-17th-ss-panzer-grenadier",
@@ -397,7 +563,17 @@
     ],
     "status": "verify"
    },
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-12",
+    "status": "inference",
+    "note": "Not in time to counterattack on 11 June when Carentan fell, its assault guns delayed by air attack; committed southwest of Carentan the next days",
+    "cite": [
+     "ellis-1 p. 262"
+    ],
+    "src": [
+     "ellis-1"
+    ]
+   }
   },
   {
    "id": "ge-2nd-parachute",
@@ -408,8 +584,28 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
-   "arrive": null
+   "position0606": {
+    "xy": [
+     60.4,
+     274.0
+    ],
+    "note": "Brest area at the start of August (Blumenson)",
+    "src": [
+     "blumenson"
+    ],
+    "status": "inference"
+   },
+   "arrive": {
+    "date": "1944-08-01",
+    "status": "sourced",
+    "note": "In the Brest area; started east toward Normandy at the beginning of August, then joined the Brest garrison after 8 August",
+    "cite": [
+     "blumenson p. 386"
+    ],
+    "src": [
+     "blumenson"
+    ]
+   }
   },
   {
    "id": "ge-3rd-parachute",
@@ -431,7 +627,18 @@
     ],
     "status": "inference"
    },
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-10",
+    "status": "inference",
+    "note": "A battle group near the Foret de Cerisy by about 10-11 June (Ellis, Harrison); the remaining units arrived during the Channel storm of 19-22 June. First-element date is Claude's reading of the narrative",
+    "cite": [
+     "ellis-1 p. 262",
+     "ellis-1 p. 274"
+    ],
+    "src": [
+     "ellis-1"
+    ]
+   }
   },
   {
    "id": "ge-5th-parachute",
@@ -453,7 +660,17 @@
     ],
     "status": "inference"
    },
-   "arrive": null
+   "arrive": {
+    "date": "1944-07-19",
+    "status": "sourced",
+    "note": "Battle group newly brought up by 19 July; a regiment arrived from Brittany about then",
+    "cite": [
+     "ellis-1 p. 383"
+    ],
+    "src": [
+     "ellis-1"
+    ]
+   }
   },
   {
    "id": "ge-6th-parachute",
@@ -465,7 +682,24 @@
    ],
    "note": "battle group only",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-08-15",
+    "status": "verify",
+    "note": "Battle group only; moving toward Normandy after Mortain, under LXXXI Corps in mid-August; exact date to verify",
+    "cite": [
+     "blumenson p. 502"
+    ],
+    "src": [
+     "blumenson"
+    ],
+    "entry": {
+     "xy": [
+      490.0,
+      242.3
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-16th-luftwaffe-field",
@@ -477,7 +711,26 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-07-07",
+    "status": "inference",
+    "note": "Holding the front north of Caen when Charnwood began on 8 July; exact arrival to verify",
+    "cite": [
+     "harrison p. 446",
+     "ellis-1 p. 310"
+    ],
+    "src": [
+     "ellis-1",
+     "harrison"
+    ],
+    "entry": {
+     "xy": [
+      527.5,
+      176.1
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-17th-luftwaffe-field",
@@ -489,7 +742,26 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-08-20",
+    "status": "verify",
+    "note": "Moving toward the battle zone after Mortain; held high ground above the Seine near Elbeuf in late August",
+    "cite": [
+     "blumenson p. 575",
+     "ellis-1 p. 467"
+    ],
+    "src": [
+     "blumenson",
+     "ellis-1"
+    ],
+    "entry": {
+     "xy": [
+      455.4,
+      163.6
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-18th-luftwaffe-field",
@@ -501,7 +773,24 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-08-20",
+    "status": "verify",
+    "note": "On the way from northern France to First Army, diverted toward the Seine north of Paris",
+    "cite": [
+     "blumenson p. 575"
+    ],
+    "src": [
+     "blumenson"
+    ],
+    "entry": {
+     "xy": [
+      512.9,
+      187.1
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-47th",
@@ -513,7 +802,13 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": null,
+    "status": "verify",
+    "note": "Fifteenth Army coast; met at the end of August. No position in the sources read so far",
+    "cite": [],
+    "src": []
+   }
   },
   {
    "id": "ge-48th",
@@ -525,7 +820,24 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-08-15",
+    "status": "verify",
+    "note": "Ordered from northern France to reinforce the Seine and Chartres defences about mid-August; counterattacked the Seine bridgehead near Melun; exact date to verify",
+    "cite": [
+     "blumenson p. 570"
+    ],
+    "src": [
+     "blumenson"
+    ],
+    "entry": {
+     "xy": [
+      490.0,
+      242.3
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-49th",
@@ -537,7 +849,13 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": null,
+    "status": "verify",
+    "note": "Fifteenth Army coast; met at the end of August. No position in the sources read so far",
+    "cite": [],
+    "src": []
+   }
   },
   {
    "id": "ge-77th",
@@ -559,7 +877,17 @@
     ],
     "status": "inference"
    },
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-10",
+    "status": "verify",
+    "note": "Ordered forward on D-Day, moving on foot; redirected to Montebourg. Arrival date to verify",
+    "cite": [
+     "harrison p. 350"
+    ],
+    "src": [
+     "harrison"
+    ]
+   }
   },
   {
    "id": "ge-84th",
@@ -571,7 +899,26 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-08-02",
+    "status": "sourced",
+    "note": "From Fifteenth Army; committed on 2 August in the Sourdeval sector",
+    "cite": [
+     "ellis-1 p. 405",
+     "blumenson p. 443"
+    ],
+    "src": [
+     "blumenson",
+     "ellis-1"
+    ],
+    "entry": {
+     "xy": [
+      491.3,
+      175.6
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-85th",
@@ -583,7 +930,24 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-08-10",
+    "status": "sourced",
+    "note": "From Fifteenth Army; its arrival had strengthened the German defence south of Caen by 11 August",
+    "cite": [
+     "ellis-1 p. 423"
+    ],
+    "src": [
+     "ellis-1"
+    ],
+    "entry": {
+     "xy": [
+      454.8,
+      185.9
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-89th",
@@ -595,7 +959,24 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-08-07",
+    "status": "sourced",
+    "note": "Newly arrived from Fifteenth Army; held the front from la Hogue to the Orne when Totalize opened on the night of 7/8 August",
+    "cite": [
+     "ellis-1 p. 417"
+    ],
+    "src": [
+     "ellis-1"
+    ],
+    "entry": {
+     "xy": [
+      454.8,
+      185.9
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-91st-airlanding",
@@ -617,7 +998,17 @@
     ],
     "status": "inference"
    },
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-06",
+    "status": "sourced",
+    "note": "In position in the Cotentin on D-Day",
+    "cite": [
+     "harrison p. 260"
+    ],
+    "src": [
+     "harrison"
+    ]
+   }
   },
   {
    "id": "ge-226th",
@@ -629,7 +1020,13 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": null,
+    "status": "verify",
+    "note": "Fifteenth Army coast; met at the end of August. No position in the sources read so far",
+    "cite": [],
+    "src": []
+   }
   },
   {
    "id": "ge-243rd",
@@ -651,7 +1048,17 @@
     ],
     "status": "inference"
    },
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-06",
+    "status": "sourced",
+    "note": "In position in the Cotentin on D-Day",
+    "cite": [
+     "harrison p. 254"
+    ],
+    "src": [
+     "harrison"
+    ]
+   }
   },
   {
    "id": "ge-245th",
@@ -663,7 +1070,13 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": null,
+    "status": "verify",
+    "note": "Fifteenth Army coast; met at the end of August. No position in the sources read so far",
+    "cite": [],
+    "src": []
+   }
   },
   {
    "id": "ge-265th",
@@ -679,13 +1092,25 @@
      123.2,
      351.9
     ],
-    "note": "Brittany coast; mobile Kampfgruppe formed (Harrison p. 254). Placement from general history",
+    "note": "Static parts at Lorient and St-Nazaire (Blumenson); placed at Lorient",
     "src": [
-     "harrison"
+     "blumenson"
     ],
-    "status": "verify"
+    "status": "inference"
    },
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-17",
+    "status": "sourced",
+    "note": "Battle group only; at the front by 17 June. Remaining static parts at Lorient and St-Nazaire",
+    "cite": [
+     "ellis-1 p. 262",
+     "blumenson p. 342"
+    ],
+    "src": [
+     "blumenson",
+     "ellis-1"
+    ]
+   }
   },
   {
    "id": "ge-266th",
@@ -698,16 +1123,28 @@
    "note": "",
    "position0606": {
     "xy": [
-     157.6,
-     265.4
+     96.8,
+     257.1
     ],
-    "note": "Brittany coast; mobile Kampfgruppe formed (Harrison p. 254). Placement from general history",
+    "note": "Weak static elements near Morlaix (Blumenson)",
     "src": [
-     "harrison"
+     "blumenson"
     ],
-    "status": "verify"
+    "status": "inference"
    },
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-22",
+    "status": "sourced",
+    "note": "A battle group reached the area west of the Vire during the storm of 19-22 June; weak static elements stayed near Morlaix",
+    "cite": [
+     "ellis-1 p. 274",
+     "blumenson p. 342"
+    ],
+    "src": [
+     "blumenson",
+     "ellis-1"
+    ]
+   }
   },
   {
    "id": "ge-271st",
@@ -719,7 +1156,24 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-07-17",
+    "status": "sourced",
+    "note": "Replaced the 10th SS Panzer Division on 17 July",
+    "cite": [
+     "blumenson p. 223"
+    ],
+    "src": [
+     "blumenson"
+    ],
+    "entry": {
+     "xy": [
+      411.5,
+      407.1
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-272nd",
@@ -731,7 +1185,24 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-07-13",
+    "status": "sourced",
+    "note": "Relieved the 1st and 12th SS Panzer Divisions on the night of 13 July",
+    "cite": [
+     "blumenson p. 223"
+    ],
+    "src": [
+     "blumenson"
+    ],
+    "entry": {
+     "xy": [
+      411.5,
+      407.1
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-275th",
@@ -753,7 +1224,17 @@
     ],
     "status": "verify"
    },
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-17",
+    "status": "sourced",
+    "note": "Battle group at the front by 17 June",
+    "cite": [
+     "ellis-1 p. 262"
+    ],
+    "src": [
+     "ellis-1"
+    ]
+   }
   },
   {
    "id": "ge-276th",
@@ -765,7 +1246,26 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-07-05",
+    "status": "sourced",
+    "note": "From southern France; took over the front of Panzer Lehr on 5 July",
+    "cite": [
+     "harrison p. 442",
+     "ellis-1 p. 319"
+    ],
+    "src": [
+     "ellis-1",
+     "harrison"
+    ],
+    "entry": {
+     "xy": [
+      411.5,
+      407.1
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-277th",
@@ -777,7 +1277,26 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-07-10",
+    "status": "sourced",
+    "note": "From southern France; replaced the 9th SS Panzer Division on 10 July",
+    "cite": [
+     "harrison p. 442",
+     "blumenson p. 223"
+    ],
+    "src": [
+     "blumenson",
+     "harrison"
+    ],
+    "entry": {
+     "xy": [
+      411.5,
+      407.1
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-326th",
@@ -789,7 +1308,26 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-07-22",
+    "status": "sourced",
+    "note": "From the Pas-de-Calais; relieved the 2nd Panzer Division in the Caumont sector on 22 July",
+    "cite": [
+     "blumenson p. 295",
+     "ellis-1 p. 378"
+    ],
+    "src": [
+     "blumenson",
+     "ellis-1"
+    ],
+    "entry": {
+     "xy": [
+      491.5,
+      164.4
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-331st",
@@ -801,7 +1339,24 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-08-06",
+    "status": "sourced",
+    "note": "From Fifteenth Army, en route to Fifth Panzer Army; leading elements south of Rouen on 6 August",
+    "cite": [
+     "blumenson Map IX (German reinforcements, 6 August 1944)"
+    ],
+    "src": [
+     "blumenson"
+    ],
+    "entry": {
+     "xy": [
+      461.8,
+      197.2
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-343rd",
@@ -812,8 +1367,28 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
-   "arrive": null
+   "position0606": {
+    "xy": [
+     46.3,
+     273.8
+    ],
+    "note": "Brest (Blumenson)",
+    "src": [
+     "blumenson"
+    ],
+    "status": "inference"
+   },
+   "arrive": {
+    "date": "1944-06-06",
+    "status": "sourced",
+    "note": "Static division near Brest, the main land defence of the fortress at the start of August",
+    "cite": [
+     "blumenson p. 342"
+    ],
+    "src": [
+     "blumenson"
+    ]
+   }
   },
   {
    "id": "ge-344th",
@@ -825,7 +1400,24 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-08-20",
+    "status": "verify",
+    "note": "Moving toward the battle zone after Mortain (Blumenson); met before 31 August (Ellis Appendix V)",
+    "cite": [
+     "blumenson p. 575"
+    ],
+    "src": [
+     "blumenson"
+    ],
+    "entry": {
+     "xy": [
+      455.4,
+      163.6
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-346th",
@@ -847,7 +1439,17 @@
     ],
     "status": "verify"
    },
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-07",
+    "status": "sourced",
+    "note": "A battle group from near le Havre was ferried across the Seine on the night of 6/7 June to attack the airborne bridgehead with the 711th",
+    "cite": [
+     "ellis-1 p. 215"
+    ],
+    "src": [
+     "ellis-1"
+    ]
+   }
   },
   {
    "id": "ge-348th",
@@ -859,7 +1461,13 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": null,
+    "status": "verify",
+    "note": "Fifteenth Army; met at the end of August (Blumenson pp. 583-84 per index). No position in the sources read so far",
+    "cite": [],
+    "src": []
+   }
   },
   {
    "id": "ge-352nd",
@@ -881,7 +1489,17 @@
     ],
     "status": "inference"
    },
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-06",
+    "status": "sourced",
+    "note": "In position behind Omaha on D-Day",
+    "cite": [
+     "harrison p. 254"
+    ],
+    "src": [
+     "harrison"
+    ]
+   }
   },
   {
    "id": "ge-353rd",
@@ -903,7 +1521,18 @@
     ],
     "status": "verify"
    },
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-17",
+    "status": "sourced",
+    "note": "One battle group at the front by 17 June; the division arrived on the Cotentin front during the storm of 19-22 June",
+    "cite": [
+     "ellis-1 p. 262",
+     "ellis-1 p. 274"
+    ],
+    "src": [
+     "ellis-1"
+    ]
+   }
   },
   {
    "id": "ge-363rd",
@@ -915,7 +1544,26 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-08-02",
+    "status": "sourced",
+    "note": "Newly arrived by 2-3 August; moved through Tinchebray into the Brecey-Vire line to relieve the 2nd and 2nd SS Panzer by 5 August",
+    "cite": [
+     "ellis-1 p. 405",
+     "blumenson p. 443"
+    ],
+    "src": [
+     "blumenson",
+     "ellis-1"
+    ],
+    "entry": {
+     "xy": [
+      489.6,
+      264.5
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-708th",
@@ -927,7 +1575,26 @@
    ],
    "note": "",
    "position0606": null,
-   "arrive": null
+   "arrive": {
+    "date": "1944-08-06",
+    "status": "sourced",
+    "note": "From Army Group G; leading regiment near le Mans about 6-8 August; reassigned to Seventh Army 6 August",
+    "cite": [
+     "blumenson p. 435",
+     "ellis-1 p. 412"
+    ],
+    "src": [
+     "blumenson",
+     "ellis-1"
+    ],
+    "entry": {
+     "xy": [
+      388.9,
+      406.3
+     ],
+     "note": "Map edge or road point where the division enters the slice; Claude's choice from the direction the source gives (inference)"
+    }
+   }
   },
   {
    "id": "ge-709th",
@@ -949,7 +1616,17 @@
     ],
     "status": "inference"
    },
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-06",
+    "status": "sourced",
+    "note": "In position on the east coast of the Cotentin on D-Day",
+    "cite": [
+     "harrison p. 146"
+    ],
+    "src": [
+     "harrison"
+    ]
+   }
   },
   {
    "id": "ge-711th",
@@ -971,7 +1648,17 @@
     ],
     "status": "inference"
    },
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-06",
+    "status": "sourced",
+    "note": "East of the Orne on D-Day",
+    "cite": [
+     "harrison p. 278"
+    ],
+    "src": [
+     "harrison"
+    ]
+   }
   },
   {
    "id": "ge-716th",
@@ -993,12 +1680,22 @@
     ],
     "status": "inference"
    },
-   "arrive": null
+   "arrive": {
+    "date": "1944-06-06",
+    "status": "sourced",
+    "note": "Coast division in the Caen sector on D-Day",
+    "cite": [
+     "harrison p. 254"
+    ],
+    "src": [
+     "harrison"
+    ]
+   }
   }
  ],
  "notes": [
   "Ellis lists 51 divisions; this file has the 51 names from Appendix V Part II. OCR read \"8oth\" as 89th and \"7ooth\" as 709th, the only divisions with those shapes in the 1944 West.",
-  "Next pass: 6 June positions from Harrison, Cross-Channel Attack, and arrival dates from Ellis and Blumenson; templates for static and Luftwaffe field divisions.",
-  "position0606 is the division centre at midnight 5/6 June 1944 in slice game km; page numbers come from the page headers in the OCR text of the CMH edition and may be off by one. Divisions outside the slice enter at the map edge on their arrival date."
+  "position0606 is the division centre at midnight 5/6 June 1944 in slice game km; page numbers come from the page headers in the OCR text of the CMH edition and may be off by one. Divisions outside the slice enter at the map edge on their arrival date.",
+  "arrive.date is the first date the source puts the division, or its first battle group, in or at the Normandy battle area; status inference marks dates Claude read from narrative wording. cite gives source and page from the running heads of the OCR text, which may be one or two pages off."
  ]
 }

@@ -96,11 +96,31 @@ Status of the records:
 - British and Canadian arrival dates are marked `verify`. Ellis gives them only loosely; Joslen or Stacey will settle them.
 - US army and corps commanders and the 1 August command changes are sourced from Blumenson, Breakout and Pursuit.
 - 20 German divisions have 6 June positions from Harrison, Cross-Channel Attack. Eleven are marked `inference`, since Claude placed each at the centre of the area the text names; the other nine are marked `verify`, since part of the placement comes from general history.
-- German arrival dates are the next pass. The OCR of Blumenson mangles many division numbers, so each needs a careful read.
+- All 51 German divisions now carry an arrival record with source and page (table below).
+
+### German arrivals
+
+Each record gives the first date the source puts the division, or its first battle group, at the Normandy battle area. Divisions from outside the slice get an entry point at the map edge in the direction the source gives; Claude chose the point, so it is marked `inference`. Page numbers come from the running heads of the OCR text and may be one or two pages off.
+
+| Status | Divisions | Meaning |
+| --- | --- | --- |
+| Sourced | 33 | The text states the date or the event that sets it |
+| Inference | 5 | Claude read the date from narrative wording: 3rd Parachute, 17th SS Panzer Grenadier, 9th SS and 10th SS Panzer, 16th Luftwaffe Field |
+| Verify | 13 | Date still open or only approximate: 77th, 48th, 6th Parachute, 17th and 18th Luftwaffe Field, 344th, 3rd and 15th Panzer Grenadier, and the coastal 47th, 49th, 226th, 245th and 348th |
+
+| Date | Arrivals (sourced unless marked) |
+| --- | --- |
+| 6 June, in place | 709th, 243rd, 91st, 352nd, 716th, 21st Panzer, 711th; 343rd at Brest |
+| 7-13 June | 12th SS Panzer (7), 346th battle group (7), Panzer Lehr (8), 77th (10, verify), 3rd Parachute battle group (10, inference), 17th SS (12, inference), 2nd Panzer (13) |
+| 17-29 June | Battle groups of 265th, 275th, 353rd (17); 266th battle group (22); 1st SS and 2nd SS Panzer (28); 9th and 10th SS Panzer (29, inference) |
+| July | 276th (5), 16th Luftwaffe Field (7, inference), 277th (10), 272nd (13), 271st (17), 5th Parachute battle group (19), 326th (22), 116th Panzer (24) |
+| August | 84th and 363rd (2), 2nd Parachute toward Normandy then back to Brest (1-8), 9th Panzer, 708th and 331st (6), 89th (7), 85th (10), 48th and 6th Parachute (15, verify), 17th and 18th Luftwaffe Field and 344th (20, verify) |
+
+The main passages: Ellis pp. 236-237, 262, 274, 279-282, 319, 378, 405-423; Blumenson's footnote on the four infantry divisions that relieved five panzer divisions between 10 and 22 July (p. 223), his account of early August (pp. 435-443) and his Map IX; Harrison pp. 254-260, 334, 372-376.
 
 ## Still to do in step 4
 
-1. German arrival dates (Ellis, Blumenson) and the remaining German positions.
+1. Positions for the five Fifteenth Army coast divisions and dates for the 13 `verify` German records.
 2. Corps attachments by date (US Theater Historian assignment tables, Ellis).
 3. British and Canadian arrival dates from a primary source.
 4. A check of roads and railways against the GSGS sheets, with abandoned lines that closed before 1944 removed.
@@ -118,6 +138,8 @@ Status of the records:
 | German corps and divisions met | Ellis, Appendix V Part II | Sourced; 89th and 709th read from damaged OCR (inference) |
 | US army and corps commanders, 1 Aug command changes, 2e DB arrival | Blumenson, Breakout and Pursuit | Sourced; 2e DB exact landing date verify |
 | Bocage region, flooded zones | Harrison pp. 180-182, 284, 287, 367; Ellis; Blumenson | Inference (line drawn by Claude from the descriptions) |
-| German 6 June positions | Harrison pp. 147-373 | Inference or verify, per record |
+| German 6 June positions | Harrison pp. 146-373; Blumenson for Brest, Lorient and Morlaix | Inference or verify, per record |
+| German arrival dates | Ellis, Blumenson, Harrison, with pages in each record | 33 sourced, 5 inference, 13 verify |
+| German entry points at the map edge | Claude's choice from the direction in the source | Inference |
 | Road, rail, river and town totals; test results | `data/network/` build log; `tools/normandy-test.js` run | Sourced |
 | Modern roads and OSM railways as 1944 proxies | Claude's method | Inference |
