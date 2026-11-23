@@ -418,7 +418,14 @@
   let tutSubbed = null;
   let TUT0 = null;
   function tutApply() { if (tutSubbed === S.sc.id) return; tutSubbed = S.sc.id;   // originals are kept, so either tutorial can follow the other in one session
-    if (!TUT0) TUT0 = TUT.slice(); TUT.length = 0; for (const st of TUT0) TUT.push(st);
+    if (!TUT0) TUT0 = TUT.slice(); TUT.length = 0;
+    // a tutorial scenario may bring its own notes (sc.tutScript): c names one of the checks below
+    const TC = { cam: TUT0[1].c, zoom: () => { if (R.lod === 0) tut.sawBn = 1; return !!tut.sawBn && R.lod > 0; }, selBlue: () => R.sel && R.sel.s === 0, order1: () => ordered() >= 1,
+      probe: () => { const F = blue().find(F => /^1st Infantry/.test(F.n)); return !!(F && F.order && F.order.press === 0); }, corps: () => (S.commands || []).some(C => C.s === 0 && C.order),
+      attach: () => S.pool[0].some(it => it.F), air: () => S.air[0].int.length > 0 || S.air[0].strat.length > 0, selPara: () => R.sel && /Parachute/.test(R.sel.n), t20: () => S.t > 20, t150: () => S.t > 150,
+      aar: () => S.log.some(l => l.s === 0 && /^After action/.test(l.txt)), staff: () => blue().some(F => F.staff) };
+    if (S.sc.tutScript) { for (const x of S.sc.tutScript) TUT.push({ h: x.h, t: x.t, d: x.d || undefined, c: x.c ? TC[x.c] : undefined, v: x.v, own: 1 }); return; }
+    for (const st of TUT0) TUT.push(st);
     for (const x of S.sc.tutAdd || []) { const i = TUT.findIndex(st => (st.o ? st.o.h : st.h) === x.after); TUT.splice(i >= 0 ? i + 1 : TUT.length - 1, 0, { h: x.h, t: x.t, d: x.d, c: x.c }); }   // steps a tutorial adds to the shared script
     for (const st of TUT) { if (!st.o) st.o = { h: st.h, t: st.t, d: st.d }; st.h = tutS(st.o.h); st.d = tutS(st.o.d); st.t = typeof st.o.t === 'function' ? (S.sc.tutSub ? (f => () => tutS(f()))(st.o.t) : st.o.t) : tutS(st.o.t); } }
   function tutStart() { tutApply(); tut = { i: 0, cam: null, ok: false }; $('tut').style.display = 'block'; setTimeout(() => window.tutRestore && window.tutRestore(), 50); setTimeout(() => { tut.cam = [R.cam.dist, R.cam.yaw, R.cam.pitch, R.cam.tx]; }, 400); tutDraw(true); }
@@ -470,12 +477,13 @@
     const next = () => { if (seq !== vSeq) return; if (i >= ids.length) { vAud = null; return; } let a; try { { const id = ids[i++]; a = new Audio((window.VOICE && window.VOICE[id]) || 'voice/' + id + '.mp3'); } } catch (e) { return fall(); } vAud = a; a.onended = next; a.onerror = fall; const p = a.play(); if (p && p.catch) p.catch(fall); };
     next(); }
   function stepIds(i) { const n = VOXN[i] || 0, ids = []; for (let j = 0; j < n; j++) ids.push('s' + String(i).padStart(2, '0') + '_' + j); return ids; }
-  function sayStep(force) { const st = TUT[tut.i]; playClips(stepIds(tut.i), '<p>' + st.h + '.</p>' + (typeof st.t === 'function' ? st.t() : st.t), force); }
+  const ownVox = () => !!(S.sc.tutScript && window.VOICE && window.VOICE.t00_0), voiced = () => !S.sc.tutSub || ownVox();
+  function sayStep(force) { const st = TUT[tut.i]; if (st.own) { if (ownVox()) playClips((st.v || []).map((_, j) => 't' + String(tut.i).padStart(2, '0') + '_' + j), (st.v || []).join(' '), force); return; } playClips(stepIds(tut.i), '<p>' + st.h + '.</p>' + (typeof st.t === 'function' ? st.t() : st.t), force); }
   function tutDraw(force) {
     const st = TUT[tut.i], ok = !st.c || tut.ok || (tut.ok = !!st.c());
-    if (tut.spoke !== tut.i) { tut.spoke = tut.i; if (!S.sc.tutSub) sayStep(); }
+    if (tut.spoke !== tut.i) { tut.spoke = tut.i; if (voiced()) sayStep(); }
     if (tut.tip && tut.tip !== tut.tipSpoke) { tut.tipSpoke = tut.tip; if (!S.sc.tutSub) playClips(['tip_' + tut.tip.k + '_0'], tut.tip.txt); }
-    setH('tut', '<h3>' + (S.sc.tutSub ? 'Chief umpire' : 'Chief of staff') + ' &middot; ' + (tut.i + 1) + ' of ' + TUT.length + '<button data-tut="hide">hide</button>' + (!S.sc.tutSub ? '<button data-tut="voice" title="The chief of staff reads his notes aloud">' + (voiceOn ? 'voice on' : 'voice off') + '</button><button data-tut="say" title="Read this note again">replay</button>' : '') + '</h3><h4>' + st.h + '</h4><p>' + (typeof st.t === 'function' ? st.t() : st.t) + '</p>' + (st.c ? '<p class="' + (ok ? 'ok' : 'todo') + '">' + (ok ? '&#10003; Done. Press Next.' : '&#9654; ' + st.d) + '</p>' : '') + '<div class="rec"><b>Recommendation:</b> ' + esc(tutS(tutAdvice())) + '</div><div class="btns"><button data-tut="back"' + (tut.i ? '' : ' disabled') + '>Back</button><button data-tut="next" class="' + (ok ? 'go' : '') + '"' + (tut.i < TUT.length - 1 ? '' : ' disabled') + '>Next</button></div>');
+    setH('tut', '<h3>' + (S.sc.tutSub ? 'Chief umpire' : 'Chief of staff') + ' &middot; ' + (tut.i + 1) + ' of ' + TUT.length + '<button data-tut="hide">hide</button>' + (voiced() ? '<button data-tut="voice" title="The chief of staff reads his notes aloud">' + (voiceOn ? 'voice on' : 'voice off') + '</button><button data-tut="say" title="Read this note again">replay</button>' : '') + '</h3><h4>' + st.h + '</h4><p>' + (typeof st.t === 'function' ? st.t() : st.t) + '</p>' + (st.c ? '<p class="' + (ok ? 'ok' : 'todo') + '">' + (ok ? '&#10003; Done. Press Next.' : '&#9654; ' + st.d) + '</p>' : '') + '<div class="rec"><b>Recommendation:</b> ' + esc(tutS(tutAdvice())) + '</div><div class="btns"><button data-tut="back"' + (tut.i ? '' : ' disabled') + '>Back</button><button data-tut="next" class="' + (ok ? 'go' : '') + '"' + (tut.i < TUT.length - 1 ? '' : ' disabled') + '>Next</button></div>');
   }
   // ---------- movable panels ----------
   // the chief of staff's panel, the Forces panel, the formation card and the reports can be dragged by their title bars; double-click a bar to put the panel back.

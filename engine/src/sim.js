@@ -1228,6 +1228,16 @@ function createSim(sc, player, seed, opt) {
     for (let c = 0; c < OW.a.length; c++) { const a = D[0][c], b = D[1][c]; if (Math.min(a, b) <= 1.5 && a !== b) OW.a[c] = a < b ? 0 : 1; }
     if (!hourly) return; const g = OW.gw, h = OW.gh, b = OW.a.slice();
     for (let j = 1; j < h - 1; j++) for (let i = 1; i < g - 1; i++) { const c = j * g + i; if (P[0][c] || P[1][c]) continue; let n = 0; for (let dj = -1; dj <= 1; dj++) for (let di = -1; di <= 1; di++) if ((di || dj) && b[c + dj * g + di] !== b[c]) n++; if (n >= 6) OW.a[c] = 1 - b[c]; }
+    // empty pockets close in: a connected region of one side's ground that holds none of its troops and none of its supply sources
+    // gives up its outer ring of cells to the other side each hour, until the surrounding side owns all of it
+    const N = g * h, lab = OW.lab || (OW.lab = new Int32Array(N)), q = OW.q || (OW.q = new Int32Array(N)); lab.fill(0); const keep = [false], has = new Uint8Array(N);
+    const cellOf = (x, y) => clamp(Math.floor(y / OW.cw), 0, h - 1) * g + clamp(Math.floor(x / OW.cw), 0, g - 1);
+    for (const u of S.subs) if (u.active && !u.dead) { const c = cellOf(u.x, u.y); if (OW.a[c] === u.s) has[c] = 1; }
+    for (let sd = 0; sd < 2; sd++) for (const so of S.src[sd]) if (!so.captured) { const c = cellOf(so.x, so.y); if (OW.a[c] === sd) has[c] = 1; }
+    let nl = 0; for (let c0 = 0; c0 < N; c0++) { if (lab[c0]) continue; const sd = OW.a[c0]; let qh = 0, qt = 0, k = false; lab[c0] = ++nl; q[qt++] = c0;
+      while (qh < qt) { const c = q[qh++], i = c % g; if (has[c]) k = true; if (i > 0 && !lab[c - 1] && OW.a[c - 1] === sd) { lab[c - 1] = nl; q[qt++] = c - 1; } if (i < g - 1 && !lab[c + 1] && OW.a[c + 1] === sd) { lab[c + 1] = nl; q[qt++] = c + 1; } if (c >= g && !lab[c - g] && OW.a[c - g] === sd) { lab[c - g] = nl; q[qt++] = c - g; } if (c < N - g && !lab[c + g] && OW.a[c + g] === sd) { lab[c + g] = nl; q[qt++] = c + g; } }
+      keep.push(k); }
+    const b2 = OW.a.slice(); for (let c = 0; c < N; c++) { if (keep[lab[c]]) continue; const i = c % g, sd = b2[c]; if ((i > 0 && b2[c - 1] !== sd) || (i < g - 1 && b2[c + 1] !== sd) || (c >= g && b2[c - g] !== sd) || (c < N - g && b2[c + g] !== sd)) OW.a[c] = 1 - sd; }
   }
   const own0At = (x, y) => S.own0[clamp(Math.floor(y / OW.cw), 0, OW.gh - 1) * OW.gw + clamp(Math.floor(x / OW.cw), 0, OW.gw - 1)];
   S.setup = function () { S.mkBenches(); arrivals(); aiTick(); for (const F of S.forms) cmdTick(F); combatTick(); initOwn(); if (!sc.front) ownTick(false); S.own0 = OW.a.slice(); 
