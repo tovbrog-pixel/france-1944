@@ -120,15 +120,15 @@ function attachCommand(S) {
   // (Patton) attacks more often and reaches farther. All values are starting values for balance testing.
   const ARMYAI = { cadenceH: [60, 24], supply: [.75, .4], reachKm: [18, 32], frontKm: 4 };
   function armyTick() { if (!sc.armyAI) return;
-    const cfg = typeof sc.armyAI === 'object' ? sc.armyAI : {};   // { only: [army keys], from: hours } limits the AI armies and when they start
+    const cfg = typeof sc.armyAI === 'object' ? sc.armyAI : {};   // { only: [army keys], from: hours } limits the AI armies and when they start; cadenceH, waitH, supply and reachKm replace the values above for a pursuit
     for (const A of nodes) { if (A.level !== 'army' || A.s === S.player || S.t < (A.nextPlan || 0) || (cfg.only && !cfg.only.includes(A.key)) || S.t < (cfg.from || 0) * 60) continue; const ag = A.cmd ? A.cmd.ag : .5, k = Math.max(0, Math.min(1, (ag - .4) / .5));
-      const lerp = a => a[0] + (a[1] - a[0]) * k; A.nextPlan = S.t + 60 * lerp(ARMYAI.cadenceH) * (.85 + S.rnd() * .3); const taken = new Set();
+      const lerp = a => a[0] + (a[1] - a[0]) * k; A.nextPlan = S.t + 60 * (cfg.cadenceH || lerp(ARMYAI.cadenceH)) * (.85 + S.rnd() * .3); const taken = new Set();
       for (const C of A.forms) { if (!C.forms || !live(C)) continue; if (C.order && C.order.st !== 'issued' && C.order.st !== 'done') continue;
-        if (C.order && C.order.st === 'issued' && !C.order.doneSaid && S.t - C.order.t0 < 48 * 60) continue;   // a corps attack still under way runs to its end, or 48 hours
+        if (C.order && C.order.st === 'issued' && !C.order.doneSaid && S.t - C.order.t0 < (cfg.waitH || 48) * 60) continue;   // a corps attack still under way runs to its end, or 48 hours
         const kids = C.forms.filter(F => !F.forms && F.active && !F.dead); if (!kids.length) continue;
-        if (kids.reduce((a, F) => a + F.stock / Math.max(1, F.cap), 0) / kids.length < lerp(ARMYAI.supply)) continue;
+        if (kids.reduce((a, F) => a + F.stock / Math.max(1, F.cap), 0) / kids.length < (cfg.supply || lerp(ARMYAI.supply))) continue;
         const p = pos(C); if (!p) continue; let best = null, bs = -1e9;
-        for (const v of S.vp) { if (v.own === C.s || taken.has(v)) continue; const d = Math.hypot(v.x - p[0], v.y - p[1]); if (d > lerp(ARMYAI.reachKm) || (S.phaseBlock && S.phaseBlock(kids[0], v.x, v.y))) continue; const sc0 = v.pts / (d + 6); if (sc0 > bs) { bs = sc0; best = v; } }
+        for (const v of S.vp) { if (v.own === C.s || taken.has(v)) continue; const d = Math.hypot(v.x - p[0], v.y - p[1]); if (d > (cfg.reachKm || lerp(ARMYAI.reachKm)) || (S.phaseBlock && S.phaseBlock(kids[0], v.x, v.y))) continue; const sc0 = v.pts / (d + 6); if (sc0 > bs) { bs = sc0; best = v; } }
         if (!best) continue; taken.add(best);
         const dx = best.x - p[0], dy = best.y - p[1], dl = Math.hypot(dx, dy) || 1, ux = dx / dl, uy = dy / dl, half = ARMYAI.frontKm * kids.length / 2, cx = best.x + ux, cy = best.y + uy;
         S.issueCommandOrder(C, [], [[cx - uy * half, cy + ux * half], [cx + uy * half, cy - ux * half]], {}); C.aiTgt = best;

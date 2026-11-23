@@ -915,7 +915,7 @@ function createSim(sc, player, seed, opt) {
   // phase lines a scenario sets for the AI: until the hour given, staff-run formations of that side take no objective beyond the line
   // (y greater than the line at that x). The France campaign uses them to hold the AI army groups to the lodgment battle.
   S.phaseBlock = function (F, x, y) { const P = sc.phaseLines; if (!P || (F.s === player && !F.staff)) return false;
-    for (const q of P) { if (q.s !== F.s || S.t >= q.until * 60) continue; const L = q.line; let ly = L[L.length - 1][1]; if (x <= L[0][0]) ly = L[0][1]; else for (let i = 1; i < L.length; i++) if (x <= L[i][0]) { ly = L[i - 1][1] + (L[i][1] - L[i - 1][1]) * (x - L[i - 1][0]) / (L[i][0] - L[i - 1][0]); break; } if (y > ly) return true; }
+    for (const q of P) { if (q.s !== F.s || S.t >= q.until * 60) continue; const L = q.line; let ly = L[L.length - 1][1]; if (x <= L[0][0]) ly = L[0][1]; else for (let i = 1; i < L.length; i++) if (x <= L[i][0]) { ly = L[i - 1][1] + (L[i][1] - L[i - 1][1]) * (x - L[i - 1][0]) / (L[i][0] - L[i - 1][0]); break; } if (q.north ? y < ly : y > ly) return true; }
     return false; };
   // supply priority: S.supPri[side] maps a command node's id to 1 (high) or -1 (low); a division takes the setting of its nearest commanding node that has one
   S.supPri = [{}, {}]; S.supPrio = F => { for (let n = F.parent; n; n = n.parent) { const v = S.supPri[F.s][n.id]; if (v) return v; } return 0; };

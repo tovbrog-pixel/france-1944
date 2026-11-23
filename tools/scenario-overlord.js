@@ -31,12 +31,15 @@ const ASSAULT = {
   'uk-6ab': { mode: 'air', t: .8, at: 'dz6', night: 1 } };
 // where each German division went when committed: the place its sourced arrival note names (data/oob/german-1944.json);
 // the point chosen for that place is Claude's (inference). Divisions without an entry keep to the staff AI near where they stand.
-const Q = {caumont: [322.5, 215.5], odon: [347.5, 212.2], stsylvain: [365.5, 220.8], tilly: [336.1, 207.3], carentanSW: [289.4, 192.7], cerisy: [314.3, 204.0], periers: [290.3, 202.7], elbeuf: [455.2, 198.1], chartres: [488.3, 292.3], montebourg: [282.7, 168.9], sourdeval: [311.7, 256.2], cauS: [354.7, 215.9], stloW: [301.3, 202.2], vireW: [299.5, 207.7], rouenS: [458.2, 193.8], orneE: [365.5, 200.7], hayedupuits: [269.8, 190.5], brecey: [302.6, 246.8], lemans: [391.2, 339.7], brest: [46.3, 273.8], caenN: [354.5, 202.5], carpiquet: [348.5, 206.7], stloS: [301.2, 217.8]};
+const Q = {caumont: [322.5, 215.5], odon: [347.5, 212.2], stsylvain: [365.5, 220.8], tilly: [336.1, 207.3], carentanSW: [289.4, 192.7], cerisy: [314.3, 204.0], periers: [290.3, 202.7], elbeuf: [455.2, 198.1], chartres: [488.3, 292.3], montebourg: [282.7, 168.9], sourdeval: [311.7, 256.2], cauS: [354.7, 215.9], stloW: [301.3, 202.2], vireW: [299.5, 207.7], rouenS: [458.2, 193.8], orneE: [365.5, 200.7], hayedupuits: [269.8, 190.5], brecey: [302.6, 246.8], lemans: [391.2, 339.7], brest: [46.3, 273.8], caenN: [354.5, 202.5], carpiquet: [348.5, 206.7], stloS: [301.2, 217.8], elle: [304, 204.5]};
 const GDEST = { 'ge-1st-ss-panzer': 'cauS', 'ge-2nd-panzer': 'caumont', 'ge-2nd-ss-panzer': 'stloS', 'ge-9th-panzer': 'lemans', 'ge-9th-ss-panzer': 'odon', 'ge-10th-ss-panzer': 'odon',
   'ge-12th-ss-panzer': 'carpiquet', 'ge-21st-panzer': 'caenN', 'ge-116th-panzer': 'stsylvain', 'ge-panzer-lehr': 'tilly', 'ge-17th-ss-panzer-grenadier': 'carentanSW', 'ge-2nd-parachute': 'brest',
   'ge-3rd-parachute': 'cerisy', 'ge-5th-parachute': 'periers', 'ge-16th-luftwaffe-field': 'caenN', 'ge-17th-luftwaffe-field': 'elbeuf', 'ge-48th': 'chartres', 'ge-77th': 'montebourg',
   'ge-84th': 'sourdeval', 'ge-85th': 'cauS', 'ge-89th': 'cauS', 'ge-265th': 'stloW', 'ge-266th': 'vireW', 'ge-271st': 'odon', 'ge-272nd': 'cauS', 'ge-275th': 'periers', 'ge-276th': 'tilly',
   'ge-277th': 'odon', 'ge-326th': 'caumont', 'ge-331st': 'rouenS', 'ge-346th': 'orneE', 'ge-353rd': 'hayedupuits', 'ge-363rd': 'brecey', 'ge-708th': 'lemans' };
+// dated fallbacks of divisions that began on the coast (inference): the 352nd, broken behind Omaha, fell back to the Elle
+// north of St-Lo on the night of 9/10 June (general history; verify against Harrison ch. IX)
+const GFALL = { 'ge-352nd': { at: 'elle', date: '1944-06-09', h: 22 } };
 // the sourced date is when a division reached the front, so it sets out earlier by an estimated march: panzer divisions about
 // 150 km a day moving by night, others about 35 km a day, plus 6 hours to form up (inference; the engine then runs the actual move)
 const marchH = (tpl, a, b) => Math.hypot(a[0] - b[0], a[1] - b[1]) / (tpl === 'ge_pz' ? 150 : 35) * 24 + 6;
@@ -46,8 +49,11 @@ const HOLD_UNTIL = '1944-08-16';
 // AI phase lines (game setting, calibrated to the historical front; inference). Until Cobra the AI army groups fight the lodgment
 // battle north of Lessay - St-Lo - Caumont - south of Caen; until 1 August they go no farther than Avranches in the west and the
 // Caen plain in the east. A player's own formations are not bound by them.
-const PHASES = [{ until: '1944-07-25', line: [[200, 206], [270, 206], [290, 207], [301.5, 214], [322.5, 218], [355, 219], [368, 211], [374, 150], [460, 150]] },
-  { until: '1944-08-01', line: [[200, 292], [330, 292], [338, 236], [355, 226], [372, 226], [380, 150], [460, 150]] }];   // east of the Dives the coast stays shut: Le Havre and the Seine ports fell in September
+const PHASES = [{ until: '1944-07-08', line: [[200, 206], [270, 206], [290, 200], [300, 207.5], [308, 208], [322.5, 218], [340, 210], [347, 203.5], [368, 203], [374, 105], [640, 105]] },   // to 8 July: north of St-Lo and of Caen (Charnwood opened on 8 July; the St-Lo battle on 11 July)
+  { until: '1944-07-25', line: [[200, 206], [270, 206], [290, 207], [301.5, 214], [322.5, 218], [355, 219], [368, 211], [374, 105], [640, 105]] },
+  { until: '1944-08-01', line: [[200, 292], [330, 292], [338, 236], [355, 226], [372, 226], [380, 105], [640, 105]] },
+  { until: '1944-08-19', north: 1, line: [[200, 105], [373, 105], [376, 222], [640, 222]] },   // the lower Seine and the coast east of the Dives: closed until the Seine was reached at Mantes on 19-20 August (general history, verify). The German Fifteenth Army there is outside the slice
+  { until: '1944-08-22', line: [[200, 440], [526, 440], [530, 105], [640, 105]] }];   // Paris and the ground east of it: closed until the advance on the city was ordered on 22 August (Blumenson ch. XXIX, verify the page)   // east of the Dives the coast stays shut: Le Havre and the Seine ports fell in September
 // fighting quality (game setting, inference): veteran and green divisions by their 1944 record in general history
 const XP = { 'us-1id': 1.05, 'us-9id': 1.05, 'us-82ab': 1.1, 'us-101ab': 1.05, 'us-2ad': 1.05, 'uk-7ad': 1, 'uk-50id': 1, 'uk-51id': 1, 'uk-6ab': 1.05,
   'ge-1st-ss-panzer': 1.15, 'ge-2nd-ss-panzer': 1.1, 'ge-9th-ss-panzer': 1.1, 'ge-10th-ss-panzer': 1.1, 'ge-12th-ss-panzer': 1.15, 'ge-panzer-lehr': 1.15, 'ge-2nd-panzer': 1.1,
@@ -107,6 +113,7 @@ function makeOverlord(cs) {
       if (coast) { f.line = [[x - 5, y], [x + 5, y]]; f.dug = 1; f.free = 0; } else f.free = fr;
       if (GDEST[d.id]) { const L = sector(Q[GDEST[d.id]]).map(p => W(p[0], p[1])); f.ai = [{ t: Math.max(.5, fr), path: [], line: L, then: 'dig' }]; f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); f.stayMinStr = .45; }
       if (coast) { f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); f.stayMinStr = .45; }
+      if (GFALL[d.id]) { const q = GFALL[d.id], L = sector(Q[q.at]).map(p => W(p[0], p[1])); f.ai = [{ t: hrs(q.date, q.h), path: [], line: L, then: 'dig' }]; }
       if (GSTAY.test(d.id)) f.stay = 1;
       forms.push(f); log.push([d.id, 'German', coast ? 'holds at 6 June position' : 'at 6 June position, free from', coast ? '0' : fr.toFixed(0)]);
     } else {
@@ -191,7 +198,7 @@ function makeOverlord(cs) {
   const beach = Object.values({ utah: P.utah, omahaW: P.omahaW, omahaE: P.omahaE, gold: P.gold, juno: P.juno, sword: P.sword }).map(b => { const q = W(b[0], b[1]); return [q[0] - 4, q[1] - 3, q[0] + 4, q[1] + 3]; });
 
   const sc = Object.assign({}, base, m, { id: 'overlord', title: 'Overlord: D-Day to the Seine', sub: 'Normandy and Brittany, 6 June to 1 September 1944', start: START, hours: hrs(END.slice(0, 10), 0),
-    ownCell: 1, aiExact: 1, divScale: [22, 70], fieldPlan, commands, cmdPlan, armyAI: { only: ['us-tusa'], from: hrs('1944-08-01', 6) }, detourKm: 14, phaseLines: PHASES.map(q => ({ s: 0, until: hrs(q.until, 6), line: q.line.map(p => W(p[0], p[1])) })), view: { x: 292, y: 86, dist: 95, pitch: 1.35 }, modules: ['transport', 'air', 'command', 'politics'], politics: { reviews: [hrs('1944-07-25', 6), hrs('1944-08-22', 6)] }, forest: [], rough: [], marsh: [], bridges: [], vp, ports, beach, weather, sides, forms, front: { all: 1 }, thin: undefined, halt: undefined, mines: undefined,
+    ownCell: 1, aiExact: 1, divScale: [22, 70], fieldPlan, commands, cmdPlan, armyAI: { only: ['us-tusa'], from: hrs('1944-08-01', 6), reachKm: 90, cadenceH: 12, waitH: 24, supply: .3 }, detourKm: 14, phaseLines: PHASES.map(q => ({ s: 0, north: q.north, until: hrs(q.until, 6), line: q.line.map(p => W(p[0], p[1])) })), view: { x: 292, y: 86, dist: 95, pitch: 1.35 }, modules: ['transport', 'air', 'command', 'politics'], politics: { reviews: [hrs('1944-07-25', 6), hrs('1944-08-22', 6)] }, forest: [], rough: [], marsh: [], bridges: [], vp, ports, beach, weather, sides, forms, front: { all: 1 }, thin: undefined, halt: undefined, mines: undefined,
     brief: ['Land the six assault divisions and three airborne divisions, join the beachheads, take Caen and Cherbourg, break out into Brittany and drive to the Seine.',
       'Throw the landings back while the beachhead is shallow. Hold Caen and the bocage, bring up the panzer divisions, and keep the Allies out of the ports.'],
     hist: 'Historically Caen held until 9 July and Cherbourg fell on 26-27 June. Operation Cobra broke out at St-Lo on 25 July, the Falaise pocket closed on 19-21 August, Paris was liberated on 25 August, and the Allies stood on the Seine by the end of the month.' });
