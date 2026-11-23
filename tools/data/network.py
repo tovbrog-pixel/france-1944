@@ -9,7 +9,7 @@ Outputs in data/network/ (all coordinates in game km, see data/README.md):
   rivers.json   HydroRIVERS reaches with mean discharge >= 1 m3/s, names joined from OSM waterway=river
   towns.json    French communes with 1936 census population >= 2,000 (INSEE), centroids from geo.api.gouv.fr
 """
-import gzip, io, json, math, os, re, subprocess, sys, time, urllib.parse, urllib.request, zipfile
+import gzip, io, json, math, os, re, subprocess, sys, time, urllib.error, urllib.parse, urllib.request, zipfile
 from pyproj import Transformer
 from shapely.geometry import LineString, MultiLineString, box, shape, Point
 from shapely.ops import linemerge, transform
@@ -34,6 +34,10 @@ def fetch(url, path):
                     if not b: break
                     f.write(b)
             os.replace(path + '.part', path); return path
+        except urllib.error.HTTPError as e:
+            print('http', e.code, url)
+            if e.code == 404: break
+            time.sleep(10 * (k + 1))
         except Exception as e:
             print('retry', url, e); time.sleep(10 * (k + 1))
     raise RuntimeError('download failed ' + url)
@@ -64,7 +68,11 @@ for ft in idx['features']:
 print('Geofabrik regions:', sorted(urls))
 filtered = []
 for r, u in sorted(urls.items()):
-    pbf = fetch(u, '%s/%s.osm.pbf' % (TMP, r))
+    pbf = None
+    for cand in (u, 'https://download.geofabrik.de/europe/france/%s-latest.osm.pbf' % r, 'https://download.openstreetmap.fr/extracts/europe/france/%s-latest.osm.pbf' % r.replace('-', '_')):
+        try: pbf = fetch(cand, '%s/%s.osm.pbf' % (TMP, r)); break
+        except RuntimeError as e: print(e)
+    if not pbf: raise RuntimeError('no extract for ' + r)
     fo = pbf.replace('.osm.pbf', '.f.osm.pbf')
     subprocess.run(['osmium', 'tags-filter', '-O', '-o', fo, pbf,
                     'w/highway=trunk,primary,secondary,tertiary', 'w/railway=rail,disused,abandoned,razed,narrow_gauge,preserved',
