@@ -124,6 +124,17 @@ function createRenderer(S, glCanvas, ovCanvas, opt) {
   ribbon(map.riverLines.filter(r => r.cls === 1 && !/Canal|vaart/.test(r.name)).map(r => r.pts), .26, 0x86b9d8, .014);
   ribbon(map.riverLines.filter(r => r.cls === 1 && /Canal|vaart/.test(r.name)).map(r => r.pts), .13, 0x86b9d8, .014);
   ribbon(map.riverLines.filter(r => r.cls === 2).map(r => r.pts), .07, 0x8fc1dc, .014);
+  // railways: a ballast bed, sleepers across it and two rails, so the line reads as track at every zoom
+  if (map.sc.rails && map.sc.rails.length) { const RL = map.sc.rails.filter(l => l.length > 1);
+    const shift = (pts, d) => pts.map((q, i) => { const a = pts[Math.max(0, i - 1)], b = pts[Math.min(pts.length - 1, i + 1)]; let dx = b[0] - a[0], dy = b[1] - a[1]; const l = Math.hypot(dx, dy) || 1; return [clamp(q[0] - dy / l * d, 0, map.w), clamp(q[1] + dx / l * d, 0, map.h)]; });
+    ribbon(RL, .1, 0x8a8172, .05);
+    { const p = [], ix = [], gap = .32, half = .062, thick = .022; let n = 0;   // sleepers
+      for (const pts of RL) { let carry = gap / 2; for (let i = 1; i < pts.length; i++) { const a = pts[i - 1], b = pts[i]; let dx = b[0] - a[0], dy = b[1] - a[1]; const l = Math.hypot(dx, dy); if (l < 1e-6) continue; dx /= l; dy /= l;
+          let d = carry; for (; d < l; d += gap) { const x = a[0] + dx * d, z = a[1] + dy * d, h = R.hy(clamp(x, 0, map.w), clamp(z, 0, map.h)) + .056;
+            p.push(x - dy * half - dx * thick, h, z + dx * half - dy * thick, x + dy * half - dx * thick, h, z - dx * half - dy * thick, x - dy * half + dx * thick, h, z + dx * half + dy * thick, x + dy * half + dx * thick, h, z - dx * half + dy * thick);
+            ix.push(n, n + 1, n + 2, n + 1, n + 3, n + 2); n += 4; } carry = d - l; } }
+      if (n) { const g = new THREE.BufferGeometry(); g.setAttribute('position', new THREE.Float32BufferAttribute(p, 3)); g.setIndex(ix); scene.add(new THREE.Mesh(g, new THREE.MeshBasicMaterial({ color: 0x3a2c20, side: THREE.DoubleSide, polygonOffset: true, polygonOffsetFactor: -5, polygonOffsetUnits: -14 }))); } }
+    ribbon(RL.map(l => shift(l, .03)), .014, 0x1b1b1d, .062); ribbon(RL.map(l => shift(l, -.03)), .014, 0x1b1b1d, .062); }
   ribbon(rl(1), .035, 0x6a5a45, .024); ribbon(rl(2), .075, 0x39342e, .028); ribbon(rl(2), .045, 0xe6dfcb, .034); ribbon(rl(3), .1, 0x3a2a24, .038); ribbon(rl(3), .062, 0xb34b3b, .044);
 
   // ---- lights

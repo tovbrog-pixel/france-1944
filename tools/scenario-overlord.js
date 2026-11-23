@@ -40,6 +40,16 @@ const GDEST = { 'ge-1st-ss-panzer': 'cauS', 'ge-2nd-panzer': 'caumont', 'ge-2nd-
 // dated fallbacks of divisions that began on the coast (inference): the 352nd, broken behind Omaha, fell back to the Elle
 // north of St-Lo on the night of 9/10 June (general history; verify against Harrison ch. IX)
 const GFALL = { 'ge-352nd': { at: 'elle', date: '1944-06-09', h: 22 } };
+// sector names for the theater commander's reports
+const QN = { caumont: 'Caumont', odon: 'Odon', stsylvain: 'Saint-Sylvain', tilly: 'Tilly', carentanSW: 'Carentan', cerisy: 'Cerisy', periers: 'Périers', elbeuf: 'Elbeuf', chartres: 'Chartres', montebourg: 'Montebourg', sourdeval: 'Sourdeval',
+  cauS: 'Bourguébus', stloW: 'Saint-Lô west', vireW: 'Vire river', rouenS: 'Rouen', orneE: 'Orne bridgehead', hayedupuits: 'La Haye-du-Puits', brecey: 'Brécey', lemans: 'Le Mans', brest: 'Brest', caenN: 'Caen', carpiquet: 'Carpiquet', stloS: 'Saint-Lô south', elle: 'Elle' };
+// the way each sector falls back (inference): toward Le Mans by default; the Cotentin sectors toward Cherbourg, the Orne and Seine sectors eastward
+const QB = { montebourg: [-.59, -.81], orneE: [.95, .3], elbeuf: [.7, .7], rouenS: [.7, .7], brest: [-1, 0] };
+function theaterOf(plan) { const sectors = {}, bc = BEACHES.reduce((a, p) => [a[0] + p[0] / BEACHES.length, a[1] + p[1] / BEACHES.length], [0, 0]), rx = 391 - bc[0], ry = 342 - bc[1], rl = Math.hypot(rx, ry);
+  for (const k in Q) { const q = Q[k]; sectors[k] = { n: QN[k] || k, p: W(q[0], q[1]), line: sector(q).map(p => W(p[0], p[1])), back: QB[k] || [rx / rl, ry / rl] }; }
+  // base: the middle of the invasion beaches; rear: Le Mans, Seventh Army's headquarters; back: the Seine from Elbeuf to Mantes. okwDelayH is the theater module's 16 days:
+  // Avranches fell on 30-31 July and the general withdrawal was ordered on 16 August (Blumenson p. 527)
+  return { s: 1, n: 'OB West', sectors, plan, base: W(bc[0], bc[1]), rear: W(391, 342), back: [W(454, 200), W(489, 221), W(504, 232)], backN: 'the Seine' }; }
 // the sourced date is when a division reached the front, so it sets out earlier by an estimated march: panzer divisions about
 // 150 km a day moving by night, others about 35 km a day, plus 6 hours to form up (inference; the engine then runs the actual move)
 const marchH = (tpl, a, b) => Math.hypot(a[0] - b[0], a[1] - b[1]) / (tpl === 'ge_pz' ? 150 : 35) * 24 + 6;
@@ -101,6 +111,7 @@ function makeOverlord(cs) {
   // ---- German divisions. Rules (inference, Claude's): a division with a 6 June position starts there and is free to move
   // from its sourced arrival date; static infantry already on the coast holds a line at its position, dug in. A division with
   // only an arrival record enters by road at its entry point on that date. Entry points outside the window move to its edge.
+  const thPlan = [];   // the German default plan: each division's historical sector and the hour it sets out; the theater commander (engine/src/theater.js) carries it out and departs from it as the battle requires
   for (const d of G.divisions) {
     const p0 = d.position0606 && d.position0606.xy, a = d.arrive || {};
     if (!p0 && !(a.date && a.entry)) { log.push([d.id, 'German', 'not in the slice', '-']); continue; }
@@ -111,15 +122,15 @@ function makeOverlord(cs) {
       const f = divForm({ tpl: d.tpl, s: 1, n: d.name, cmd, ag: .5, sk: .65, xp: xpOf(d), regs, x, y }); f.gid = d.id; if (KG.test(d.id)) kampfgruppe(f);
       const coast = d.tpl === 'ge_inf' && (!a.date || a.date <= '1944-06-06');
       if (coast) { f.line = [[x - 5, y], [x + 5, y]]; f.dug = 1; f.free = 0; } else f.free = fr;
-      if (GDEST[d.id]) { const L = sector(Q[GDEST[d.id]]).map(p => W(p[0], p[1])); f.ai = [{ t: Math.max(.5, fr), path: [], line: L, then: 'dig' }]; f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); f.stayMinStr = .45; }
+      if (GDEST[d.id]) { thPlan.push({ f: d.name, sec: GDEST[d.id], t: Math.max(.5, fr) }); f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); f.stayMinStr = .45; }
       if (coast) { f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); f.stayMinStr = .45; }
-      if (GFALL[d.id]) { const q = GFALL[d.id], L = sector(Q[q.at]).map(p => W(p[0], p[1])); f.ai = [{ t: hrs(q.date, q.h), path: [], line: L, then: 'dig' }]; }
+      if (GFALL[d.id]) { const q = GFALL[d.id]; thPlan.push({ f: d.name, sec: q.at, t: hrs(q.date, q.h) }); }
       if (GSTAY.test(d.id)) f.stay = 1;
       forms.push(f); log.push([d.id, 'German', coast ? 'holds at 6 June position' : 'at 6 June position, free from', coast ? '0' : fr.toFixed(0)]);
     } else {
       const [x, y] = clampIn(W(a.entry.xy[0], a.entry.xy[1])), dest = GDEST[d.id] && Q[GDEST[d.id]], t = Math.max(1, hrs(a.date, 12) - (dest ? marchH(d.tpl, a.entry.xy, dest) : 0));
       const f = divForm({ tpl: d.tpl, s: 1, n: d.name, cmd, ag: .5, sk: .65, xp: xpOf(d), regs, x, y }); f.gid = d.id; f.arr = { t, mode: 'road' };
-      if (GDEST[d.id]) { const L = sector(Q[GDEST[d.id]]).map(p => W(p[0], p[1])); f.ai = [{ t: t + 1, path: [], line: L, then: 'dig' }]; if (t < hrs(HOLD_UNTIL, 0)) { f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); f.stayMinStr = .45; } }
+      if (GDEST[d.id]) { thPlan.push({ f: d.name, sec: GDEST[d.id], t: t + 1 }); f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); f.stayMinStr = .45; }
       forms.push(f); log.push([d.id, 'German', 'road entry', t.toFixed(0)]);
     }
   }
@@ -198,7 +209,7 @@ function makeOverlord(cs) {
   const beach = Object.values({ utah: P.utah, omahaW: P.omahaW, omahaE: P.omahaE, gold: P.gold, juno: P.juno, sword: P.sword }).map(b => { const q = W(b[0], b[1]); return [q[0] - 4, q[1] - 3, q[0] + 4, q[1] + 3]; });
 
   const sc = Object.assign({}, base, m, { id: 'overlord', title: 'Overlord: D-Day to the Seine', sub: 'Normandy and Brittany, 6 June to 1 September 1944', start: START, hours: hrs(END.slice(0, 10), 0),
-    ownCell: 1, aiExact: 1, divScale: [22, 70], fieldPlan, commands, cmdPlan, armyAI: { only: ['us-tusa'], from: hrs('1944-08-01', 6), reachKm: 90, cadenceH: 12, waitH: 24, supply: .3 }, detourKm: 14, phaseLines: PHASES.map(q => ({ s: 0, north: q.north, until: hrs(q.until, 6), line: q.line.map(p => W(p[0], p[1])) })), view: { x: 292, y: 86, dist: 95, pitch: 1.35 }, modules: ['transport', 'air', 'command', 'politics'], politics: { reviews: [hrs('1944-07-25', 6), hrs('1944-08-22', 6)] }, forest: [], rough: [], marsh: [], bridges: [], vp, ports, beach, weather, sides, forms, front: { all: 1 }, thin: undefined, halt: undefined, mines: undefined,
+    ownCell: 1, aiExact: 1, divScale: [22, 70], fieldPlan, commands, cmdPlan, armyAI: { only: ['us-tusa'], from: hrs('1944-08-01', 6), reachKm: 90, cadenceH: 12, waitH: 24, supply: .3 }, detourKm: 14, phaseLines: PHASES.map(q => ({ s: 0, north: q.north, until: hrs(q.until, 6), line: q.line.map(p => W(p[0], p[1])) })), view: { x: 292, y: 86, dist: 95, pitch: 1.35 }, modules: ['transport', 'air', 'command', 'politics', 'theater'], theater: theaterOf(thPlan), politics: { reviews: [hrs('1944-07-25', 6), hrs('1944-08-22', 6)] }, forest: [], rough: [], marsh: [], bridges: [], vp, ports, beach, weather, sides, forms, front: { all: 1 }, thin: undefined, halt: undefined, mines: undefined,
     brief: ['Land the six assault divisions and three airborne divisions, join the beachheads, take Caen and Cherbourg, break out into Brittany and drive to the Seine.',
       'Throw the landings back while the beachhead is shallow. Hold Caen and the bocage, bring up the panzer divisions, and keep the Allies out of the ports.'],
     hist: 'Historically Caen held until 9 July and Cherbourg fell on 26-27 June. Operation Cobra broke out at St-Lo on 25 July, the Falaise pocket closed on 19-21 August, Paris was liberated on 25 August, and the Allies stood on the Seine by the end of the month.' });

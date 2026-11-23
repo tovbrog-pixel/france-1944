@@ -179,6 +179,24 @@ A single run with these changes (`docs/tests/batch-20261123-1728-batch4-join.md`
 
 Carentan flips on 6 June in every run, six days early, because the 101st Airborne lands beside it and the German 6th Parachute Regiment is missing from the order of battle. This is still open.
 
+## German theater commander
+
+`engine/src/theater.js` gives the computer's side a high command (OB West in Overlord). Tov asked for it after learning that every German operational move was scripted. The scenario's historical destinations are now the commander's default plan, and he departs from it when the battle does:
+
+1. An arriving division goes to another sector within 40 km when that sector is under at least three times the pressure it can bear and the planned sector is calm.
+2. A mobile division whose planned sector has almost no enemy near it waits in reserve 14 km behind it. He commits reserves to the sector that needs them most.
+3. With no reserve left and a sector in crisis, he moves a mobile division from a sector with no enemy in front of it.
+4. A division with the enemy behind it in strength steps back 10 km and re-forms its line.
+5. When eight or more enemy battalions stand 35 km beyond the front, the line is turned. Sixteen days later he orders a general withdrawal to the Seine. The fixed withdrawal date of 16 August is gone: Avranches fell on 30 to 31 July and the order came on 16 August (Blumenson p. 527), so the delay stands in for Hitler's refusal.
+
+He acts only on a side the computer plays. A replay of the first two weeks (seed 104) kept eight of nine committed divisions in their historical sectors; 2nd Panzer waited in reserve behind Caumont for three days and was then committed east of the Orne. All thresholds are game settings in `THEATER` and need calibration by batch.
+
+## Railways and trains
+
+- Railways now draw on the map as a ballast bed, sleepers and two rails (`engine/src/render.js`). They were not drawn before.
+- A division moving by rail shows as a locomotive with a rake of troop cars that follows the track, with smoke while it runs and a label while it entrains or detrains. Divisions moving by road show as a string of vehicles or marching files (`engine/src/render3.js`, fed by `S.columnView` in `transport.js`). Tov asked for the tracks and the train.
+- Screenshots: `docs/screenshots/step5-train-near.png` and `step5-train-mid.png`. They show a test train placed on a real line, because no division happened to be on a train in the first days of the run.
+
 ## Town names
 
 The towns file joined the 1936 census to today's commune list, so communes merged after the war showed their new names (Carentan-les-Marais, Vire Normandie). `tools/data/town-names-1944.py` now takes each town's name in force on 6 June 1944 from INSEE's Code officiel géographique, "communes depuis 1943" (COG 2026, Licence Ouverte / Etalab), by the town's INSEE code. A merged commune keeps its former chief town's code, so that lookup gives the chief town's 1944 name. 225 of the 1,505 towns take a different name in 1944, 182 of them on the Overlord map. `tools/realmap.js` shows the 1944 name, and `towns.json` keeps today's name.
@@ -227,3 +245,7 @@ The hand list Claude wrote overnight agreed with INSEE on 31 of 35 names it shar
 | 352nd Division to the Elle, 9/10 June | General history | Verify against Harrison ch. IX |
 | Phase-line dates: 8 July, 19 August, 22 August | General history (Charnwood, Mantes, the order to take Paris) | Verify; the lines themselves are game settings (inference) |
 | Third Army pursuit values | Claude's settings | Inference (game settings) |
+| Theater commander rules and thresholds | `engine/src/theater.js`; Claude's design | Inference (game settings) |
+| Two-week replay with the commander | `/tmp/th-run.js`, seed 104, 330 game hours, in Claude's workspace | Sourced (test run) |
+| Sixteen-day delay before the general withdrawal | Blumenson p. 527 for 16 August; Avranches 30 to 31 July from Blumenson p. 316 | Sourced dates; the delay as a rule is an inference |
+| Railway and train display | Screenshots in `docs/screenshots/`; test train placed by script | Sourced (test run); a real rail move on screen is still to be seen |

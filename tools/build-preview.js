@@ -22,7 +22,7 @@ const inject = `
   delete sc.sideOv; SCENARIOS.unshift(sc); ${menu ? "for (let i = SCENARIOS.length - 1; i >= 0; i--) if (!['overlord', 'tutorial-tn'].includes(SCENARIOS[i].id)) SCENARIOS.splice(i, 1);" : ''} ${menu ? '' : 'window.AUTOSTART = '}${menu ? '' : which === 'tutorial-tn' ? "[SCENARIOS.findIndex(s => s.id === 'tutorial-tn'), 0, 0, 1]" : '[0, ' + side + ', 1, 1]'}${menu ? '' : ';'}
 })();
 `;
-const order = ['data.js', 'divisions.js', 'map.js', 'scenarios.js', 'tutorial.js', 'balance.js', 'commanders.js', 'guidance.js', 'models.js', 'sim.js', 'command.js', 'transport.js', 'air.js', 'politics.js', 'assess.js', 'render.js', 'render2.js', 'render3.js', 'sound.js'];
+const order = ['data.js', 'divisions.js', 'map.js', 'scenarios.js', 'tutorial.js', 'balance.js', 'commanders.js', 'guidance.js', 'models.js', 'sim.js', 'command.js', 'transport.js', 'air.js', 'politics.js', 'theater.js', 'assess.js', 'render.js', 'render2.js', 'render3.js', 'sound.js'];
 // recorded chief-of-staff clips, built into the page when a voice folder is given (env VOICE_DIR): the single file then needs no folder beside it
 const vdir = process.env.VOICE_DIR, VO = {}; if (vdir && fs.existsSync(vdir)) for (const f of fs.readdirSync(vdir)) if (f.endsWith('.mp3')) VO[f.slice(0, -4)] = 'data:audio/mpeg;base64,' + fs.readFileSync(path.join(vdir, f)).toString('base64');
 let code = 'window.VOICE = ' + JSON.stringify(VO) + ';\n' + order.map(f => fs.readFileSync(path.join(src, f), 'utf8')).join('\n;\n') + '\n;\n' + inject + '\n;\n' + fs.readFileSync(path.join(src, 'ui.js'), 'utf8');

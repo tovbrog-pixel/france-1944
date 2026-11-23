@@ -165,6 +165,8 @@ function attachTransport(S) {
   function nearestEdgeCls(C, s) { const p = at(C, s), i = nearest(p.x, p.y, 'road', 1); if (i < 0) return 1; let c = 1; for (const e of net.adj[i]) if (typeof e.cls === 'number' && e.cls > c) c = e.cls; return c; }
   // positions of every unit strung out along its column, for the map display
   S.columnUnits = function () { const out = []; for (const C of cols) if (C.ph === 'move') { const a = C.F.subs.filter(u => !u.dead); a.forEach((u, k) => { const q = at(C, C.head - k * (C.len / Math.max(1, a.length))); out.push({ u, x: q.x, y: q.y, mode: C.mode }); }); } return out; };
+  // every column for the map display: its phase, the head's distance along the route, and a function giving the point at a distance
+  S.columnView = function () { return cols.map(C => ({ F: C.F, s: C.F.s, mode: C.mode, ph: C.ph, head: C.head, L: C.L, len: C.len, at: d => at(C, d) })); };
   const prevHook = S.cmdHook; S.cmdHook = function () { if (prevHook) prevHook(); tick(S.lastDt || 1); };
   return S;
 }

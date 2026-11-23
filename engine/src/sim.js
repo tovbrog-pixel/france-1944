@@ -1242,6 +1242,6 @@ function createSim(sc, player, seed, opt) {
   const own0At = (x, y) => S.own0[clamp(Math.floor(y / OW.cw), 0, OW.gh - 1) * OW.gw + clamp(Math.floor(x / OW.cw), 0, OW.gw - 1)];
   S.setup = function () { S.mkBenches(); arrivals(); aiTick(); for (const F of S.forms) cmdTick(F); combatTick(); initOwn(); if (!sc.front) ownTick(false); S.own0 = OW.a.slice(); 
     // step 3 modules a scenario asks for (the France campaign: road and rail moves, the air war); the older scenarios run without them
-    for (const m of sc.modules || []) { const fn = { transport: typeof attachTransport === 'function' && attachTransport, air: typeof attachAir === 'function' && attachAir, command: typeof attachCommand === 'function' && attachCommand, politics: typeof attachPolitics === 'function' && attachPolitics }[m]; if (fn) fn(S); } };
+    for (const m of sc.modules || []) { const fn = { transport: typeof attachTransport === 'function' && attachTransport, air: typeof attachAir === 'function' && attachAir, command: typeof attachCommand === 'function' && attachCommand, politics: typeof attachPolitics === 'function' && attachPolitics, theater: typeof attachTheater === 'function' && attachTheater }[m]; if (fn) fn(S); } };
   return S;
 }
