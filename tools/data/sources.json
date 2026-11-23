@@ -1,16 +1,24 @@
 {
- "archive": [
-  "CMHPub751BreakoutAndPursuit-nsia",
-  "breakoutpursuit00blum",
-  "CMHPub721LogisticalSupportOfTheArmiesVolumeIMay1941September1944-nsia",
-  "logisticalsuppor11rupp",
-  "victory-west-vol-2"
+ "archive": [],
+ "search": [],
+ "mirror": [],
+ "pdf": [
+  {
+   "name": "usaaf-european-airfields",
+   "url": "https://www.dafhistory.af.mil/Portals/16/documents/Timelines/World%20War%20II/usaaf_european_airfields.pdf",
+   "title": "Department of the Air Force Historical Support Division, USAAF European airfields (ALG list)"
+  }
  ],
- "search": [
-  "title:(\"Breakout and Pursuit\") AND mediatype:texts",
-  "title:(\"Victory Campaign\") AND date:1960",
-  "title:(\"Joslen\") OR title:(\"Orders of battle, Second World War\")"
- ],
- "pdf": [],
- "mirror": []
+ "raw": [
+  {
+   "name": "wp-advanced-landing-ground",
+   "url": "https://en.wikipedia.org/w/index.php?title=Advanced_landing_ground&action=raw",
+   "title": "Wikipedia, Advanced landing ground (wikitext)"
+  },
+  {
+   "name": "wp-list-ninth-af-airfields",
+   "url": "https://en.wikipedia.org/w/index.php?title=List_of_Ninth_Air_Force_airfields&action=raw",
+   "title": "Wikipedia, list of Ninth Air Force airfields (wikitext)"
+  }
+ ]
 }
