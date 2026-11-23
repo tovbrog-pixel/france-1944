@@ -69,7 +69,9 @@ print('Geofabrik regions:', sorted(urls))
 filtered = []
 for r, u in sorted(urls.items()):
     pbf = None
-    for cand in (u, 'https://download.geofabrik.de/europe/france/%s-latest.osm.pbf' % r, 'https://download.openstreetmap.fr/extracts/europe/france/%s-latest.osm.pbf' % r.replace('-', '_')):
+    cands = ['https://download.openstreetmap.fr/extracts/europe/france/%s-latest.osm.pbf' % r.replace('-', '_'), u] if r != 'belgium' else \
+            ['https://download.geofabrik.de/europe/belgium-latest.osm.pbf', 'https://download.openstreetmap.fr/extracts/europe/belgium-latest.osm.pbf', u]
+    for cand in cands:
         try: pbf = fetch(cand, '%s/%s.osm.pbf' % (TMP, r)); break
         except RuntimeError as e: print(e)
     if not pbf: raise RuntimeError('no extract for ' + r)
