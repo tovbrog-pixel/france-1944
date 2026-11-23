@@ -535,8 +535,18 @@ function createSim(sc, player, seed, opt) {
   function combatTick() {
     const side = [[], []]; for (const u of S.subs) if (u.active && !u.dead) { side[u.s].push(u); u.ned = 9; u.ne = null; u.zd = 9; u.ze = null; u.tc = map.t[map.idx(u.x, u.y)]; u.bs = 1e9; u.bt = null; u.bd = 0; u.fd0 = u.fd == null ? 9 : u.fd; u.fd = 9; u.artN = 0; }
     const nv = (S.night ? .45 : 1) * WXVIS[S.wx], now = S.t;
-    for (const a of side[0]) for (const b of side[1]) {
-      const d = Math.hypot(a.x - b.x, a.y - b.y); if (d > 31) continue;
+    // spatial grid: only pairs within 31 km can interact, so each unit checks the 3 x 3 block of 31 km cells around it.
+    // Candidates are visited in their original list order, which keeps results identical to the full pair scan.
+    // A squared-distance test drops far pairs before the exact Math.hypot distance is taken.
+    const GC = 31, grid = new Map(), B = side[1], ci = new Int32Array(B.length);
+    for (let i = 0; i < B.length; i++) { const b = B[i]; const key = Math.floor(b.x / GC) * 4096 + Math.floor(b.y / GC); let l = grid.get(key); if (!l) grid.set(key, l = []); l.push(i); }
+    for (const a of side[0]) {
+      let nc = 0; const ix = Math.floor(a.x / GC), iy = Math.floor(a.y / GC);
+      for (let gx = -1; gx <= 1; gx++) for (let gy = -1; gy <= 1; gy++) { const l = grid.get((ix + gx) * 4096 + iy + gy); if (l) for (let k = 0; k < l.length; k++) ci[nc++] = l[k]; }
+      const cs = ci.subarray(0, nc); if (nc > 1) cs.sort();
+      for (let k = 0; k < nc; k++) {
+      const b = B[cs[k]], dx = a.x - b.x, dy = a.y - b.y; if (dx * dx + dy * dy > 961.001) continue;
+      const d = Math.hypot(dx, dy); if (d > 31) continue;
       if (d < 4.5 * 1.6) {
         const sa = 3 * nv * (a.cls === 'rec' ? 1.5 : 1) * (a.tc === T.HILL || a.tc === T.MTN ? 1.3 : 1) * CONCEAL[b.tc] * (b.moving ? 1.25 : .9) * (b.k.arm > 0 || b.mv !== 'foot' ? 1.15 : 1) * (now - b.fireT < 3 && !b.k.ir ? 1.5 : 1);
         if (d < Math.max(.5, sa)) b.seenT = now;
@@ -549,6 +559,7 @@ function createSim(sc, player, seed, opt) {
       if (bv && d < a.ned && b.cls !== 'hq' && b.mv !== 'ship') { a.ned = d; a.ne = b; }
       if (av && d < b.ned && a.cls !== 'hq' && a.mv !== 'ship') { b.ned = d; b.ne = a; }
       if (bv) pick(a, b, d); if (av) pick(b, a, d);
+      }
     }
     cbTick(side, now);
     for (let s = 0; s < 2; s++) for (const u of side[s]) if (u.bt && u.state !== 'retreat' && u.k.ir) u.bt.artN++;
@@ -1155,7 +1166,7 @@ function createSim(sc, player, seed, opt) {
   // ---------- main step ----------
   let tC = 0, tSup = 3, tAir = 2, tAi = 0, tBr = 1, tVp = 4, acc = 0;
   function step(dt) {
-    S.t += dt; const h = S.hourOf(S.t); S.night = h < S.dayA || h > S.dayB;
+    S.t += dt; if (S.cmdHook) S.cmdHook(); const h = S.hourOf(S.t); S.night = h < S.dayA || h > S.dayB;
     const wi = Math.min(weather.length - 1, Math.floor(S.t / 720)); if (weather[wi] !== S.wx) { S.wx = weather[wi]; say(-1, 'Weather: ' + WXNAME[S.wx] + (S.wx === 'clear' || S.wx === 'cloud' ? '. Aircraft can fly.' : '. Air operations suspended.'), 1); }
     moveSubs(dt); moveConvoys(dt); moveFlights(dt);
     if (S.t >= tC) { tC += 1; combatTick(); arrivals(); }
@@ -1175,7 +1186,7 @@ function createSim(sc, player, seed, opt) {
   // Occupation (every 10 min): a unit in fighting order claims the ground within 1.5 km (artillery 0.8 km) unless enemy troops in fighting order stand within 1.2 km of it.
   // Objectives: whoever takes an objective takes the ground within 1 km of it.
   // Consolidation (every hour): ground no one stands on goes to the side holding most of the ground around it, so bypassed pockets and salients fill in.
-  const OW = (() => { const cw = .5, gw = Math.ceil(map.w / cw), gh = Math.ceil(map.h / cw); return { cw, gw, gh, a: new Uint8Array(gw * gh), pres: [new Uint8Array(gw * gh), new Uint8Array(gw * gh)] }; })();
+  const OW = (() => { const cw = sc.ownCell || .5, gw = Math.ceil(map.w / cw), gh = Math.ceil(map.h / cw); return { cw, gw, gh, a: new Uint8Array(gw * gh), pres: [new Uint8Array(gw * gh), new Uint8Array(gw * gh)] }; })();
   S.own = OW; S.ownAt = (x, y) => OW.a[clamp(Math.floor(y / OW.cw), 0, OW.gh - 1) * OW.gw + clamp(Math.floor(x / OW.cw), 0, OW.gw - 1)];
   function disc(x, y, r, fn) { const c = OW.cw, i0 = Math.max(0, Math.floor((x - r) / c)), i1 = Math.min(OW.gw - 1, Math.floor((x + r) / c)), j0 = Math.max(0, Math.floor((y - r) / c)), j1 = Math.min(OW.gh - 1, Math.floor((y + r) / c)); for (let j = j0; j <= j1; j++) for (let i = i0; i <= i1; i++) if (Math.hypot((i + .5) * c - x, (j + .5) * c - y) <= r) fn(j * OW.gw + i); }
   const formed = u => u.active && !u.dead && u.coh > .3 && u.cls !== 'hq' && u.mv !== 'ship' && u.state !== 'retreat' && !(u.f.arr && !u.f.active);
