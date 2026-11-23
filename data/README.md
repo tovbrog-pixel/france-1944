@@ -31,7 +31,8 @@ Each record cites sources by id in `src` and carries one `status`:
 | --- | --- | --- |
 | `terrain/` | Elevation, water, tree cover and wetland grids (gzip binary) with `grid.json` | `tools/data/terrain.py` on GitHub Actions |
 | `network/` | 1944 roads, railways, rivers, canals and towns as polylines in game km | `tools/data/network.py` on GitHub Actions |
-| `oob/` | Order of battle: formations, commanders, arrival dates | Compiled by hand from the official histories |
+| `oob/` | Order of battle: formations, commanders, arrival dates, corps attachments | Compiled by hand from the official histories |
+| `air/` | Allied and German airfields by date; troop carrier fleets and German air strength | `tools/data/build-air.py`; `fleet-1944.json` by hand from Ellis and Craven and Cate |
 
 The workspace cannot reach the elevation, land cover and map servers, so the two data scripts run on GitHub Actions, which downloads the public datasets and commits the derived grids back to the repository.
 

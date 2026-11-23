@@ -4,7 +4,8 @@
 const E = require('./load-engine')(), { createSim, SCENARIOS, divForm } = E;
 const realMap = require('./realmap');
 const fs = require('fs'), path = require('path');
-const WIN = { x0: 230, y0: 130, w: 200, h: 190 };   // Cap de la Hague to Lisieux, the coast to Domfront (slice game km)
+const WIN = { x0: 230, y0: 130, w: 200, h: 190 };
+const START = '1944-07-25T06:00';   // Cap de la Hague to Lisieux, the coast to Domfront (slice game km)
 
 function makeNormandy(cs) {
   const base = SCENARIOS.find(s => s.id === 'falaise');
@@ -12,7 +13,7 @@ function makeNormandy(cs) {
   const A = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'oob', 'allied-1944.json'), 'utf8'));
   const G = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'oob', 'german-1944.json'), 'utf8'));
   // test front: Lessay - St-Lo - Caumont - Caen, in window km (St-Lo is at slice 301.5, 211.7)
-  const front = [[32, 88], [52, 84], [71, 82], [90, 84], [108, 80], [124, 77]];
+  const front = [[32, 88], [52, 84], [71, 82], [90, 84], [108, 80], [124, 79], [140, 80]];   // ends east of Caen, which the British held by 25 July
   const at = (f, off) => { const k = f * (front.length - 1), i = Math.min(front.length - 2, Math.floor(k)), u = k - i; return [front[i][0] + (front[i + 1][0] - front[i][0]) * u, front[i][1] + (front[i + 1][1] - front[i][1]) * u + off]; };
   const allied = A.divisions.filter(d => d.arrive <= '1944-07-10').slice(0, 24), german = G.divisions.filter(d => d.position0606).slice(0, 16);
   const forms = [];
@@ -21,11 +22,14 @@ function makeNormandy(cs) {
     f.ai = [{ t: 0, path: [], line: [[x - 3, y + 22], [x + 3, y + 22]] }]; forms.push(f); });
   german.forEach((d, i) => { const [x, y] = at((i + .5) / german.length, 5 + (i % 2) * 6);
     forms.push(divForm({ tpl: d.tpl, s: 1, n: d.name, cmd: 'Kdr', ag: .5, sk: .6, regs: ['1', '2', '3'], x, y })); });
+  const air = realMap.airAt(START.slice(0, 10), Object.assign({ cs }, WIN));   // historical airfields open on the start date, and the troop carrier fleets
+  const off = [{ n: 'Airfields in southern England', x: 100, y: 0, kind: 'offmap' }, { n: 'Airfields east of the Seine', x: m.w, y: 60, kind: 'offmap' }];
   const sides = base.sides.map((sd, s) => Object.assign({}, sd, { rear: s ? [0, 1] : [0, -1], pocket: undefined, assets: sd.assets || [],
     sources: [0, 1, 2].map(k => ({ n: (s ? 'German' : 'Allied') + ' depot ' + k, x: 40 + k * 50, y: s ? m.h - 3 : 62, stock: 200, rate: 12 })),
-    bases: [0, 1].map(k => ({ n: (s ? 'German' : 'Allied') + ' airfields ' + (k + 1), x: 60 + k * 70, y: s ? m.h - 1 : 60 })) }));
-  const vp = m.towns.filter(t => t[3] >= 2).map(t => [t[0], t[1], t[2], 10, t[2] > 85 ? 1 : 0]);
-  return Object.assign({}, base, m, { id: 'normandy-real', title: 'Normandy real-map test', ownCell: 1, hours: 48, start: '1944-07-25T06:00',
+    bases: [off[s]].concat(air.bases[s]), transport: { aircraft: air.transport[s] } }));
+  const frontY = x => { if (x <= front[0][0]) return front[0][1]; for (let i = 1; i < front.length; i++) if (x <= front[i][0]) { const a = front[i - 1], b = front[i]; return a[1] + (b[1] - a[1]) * (x - a[0]) / (b[0] - a[0]); } return -1; };
+  const vp = m.towns.filter(t => t[3] >= 2).map(t => [t[0], t[1], t[2], 10, t[2] < frontY(t[1]) ? 0 : 1]);   // Allied north of the test line and west of Caen
+  return Object.assign({}, base, m, { id: 'normandy-real', title: 'Normandy real-map test', ownCell: 1, hours: 48, start: START,
     forest: [], rough: [], marsh: [], bridges: [], vp, weather: Array(10).fill('clear'), sides, forms, front: undefined, thin: undefined, halt: undefined, beach: undefined, mines: undefined });
 }
 module.exports = makeNormandy;
@@ -34,6 +38,7 @@ if (require.main === module) {
   const t0 = Date.now(), sc = makeNormandy(cs), S = createSim(sc, -1, 12345, {}); S.setup();
   const tl = S.transport ? S.transport.net : null;
   console.log('Normandy: ' + sc.w + ' x ' + sc.h + ' km, cell ' + cs + ' km; roads ' + sc.roads.length + ', rail ' + sc.rails.length + ', rivers ' + sc.rivers.length + ', towns ' + sc.towns.length + ', bridges ' + S.map.bridges.length);
+  console.log('  airfields: Allied ' + sc.sides[0].bases.length + ', German ' + sc.sides[1].bases.length + '; troop carriers ' + sc.sides.map(q => q.transport.aircraft).join(' / '));
   console.log('  ' + S.forms.length + ' divisions, ' + S.subs.length + ' battalions; setup ' + ((Date.now() - t0) / 1000).toFixed(1) + ' s');
   let noRoute = 0; const oldWarn = console.warn; console.warn = (...a) => { if (String(a[0]).includes('route')) noRoute++; };
   const t1 = Date.now(); let g = 0, maxHalt = 0; while (!S.over && g < hours * 60) { S.advance(60); g += 60; maxHalt = Math.max(maxHalt, S.forms.filter(F => /no route/i.test(F.status || '')).length); if (g % 360 === 0) console.log('  ' + g / 60 + ' h: ' + ((Date.now() - t1) / 1000).toFixed(0) + ' s, losses ' + S.losses.map(v => v.toFixed(0)).join(' / ') + ', units lost ' + S.subs.filter(u => u.dead).length); }

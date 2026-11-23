@@ -105,3 +105,15 @@ if (require.main === module) {
   console.log('slice ' + m.w + ' x ' + m.h + ' km at ' + m.cs + ' km: ' + Object.entries(hist).map(([a, b]) => names[a] + ' ' + b).join(', '));
   console.log('rivers ' + m.rivers.length + ', roads ' + m.roads.length + ', rail ' + m.rails.length + ', towns ' + m.towns.length + '; ' + (Date.now() - t0) + ' ms');
 }
+
+// Air layer for a window and date: airfields open on that date (Allied: opened on or before it; German: held after it)
+// and troop carrier fleets from data/air. Returns { bases: [allied[], german[]], transport: [alliedAircraft, germanAircraft] }.
+realMap.airAt = function (date, o) {
+  const p = path.join(ROOT, 'air'), A = JSON.parse(fs.readFileSync(path.join(p, 'airfields-1944.json'), 'utf8')), F = JSON.parse(fs.readFileSync(path.join(p, 'fleet-1944.json'), 'utf8'));
+  const x0 = o.x0 || 0, y0 = o.y0 || 0, w = o.w || 820, h = o.h || 450, inWin = q => q.xy[0] >= x0 && q.xy[0] <= x0 + w && q.xy[1] >= y0 && q.xy[1] <= y0 + h;
+  const base = (q, s) => ({ s, n: q.code + ' ' + q.name, x: +(q.xy[0] - x0).toFixed(2), y: +(q.xy[1] - y0).toFixed(2), kind: 'field', hist: q.code });
+  const allied = A.fields.filter(q => q.open && q.open <= date && inWin(q)).map(q => base(q, 0));
+  const german = A.german.filter(q => (!q.heldUntil || q.heldUntil > date) && inWin(q)).map(q => base(q, 1));
+  const tA = F.allied.transport.find(t => t.date <= date && t.aircraft === 1360), tG = F.german.strength.find(t => t.transport);
+  return { bases: [allied, german], transport: [tA ? tA.aircraft : 0, tG ? tG.transport[1] : 0] };
+};

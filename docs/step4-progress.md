@@ -106,6 +106,25 @@ Status of the records:
 - **British, Canadian and Polish divisions:** snapshots from Ellis at each operation (D-Day, Epsom, Spring, Bluecoat, Totalize, the Falaise gap, the Seine crossing). A snapshot says the division was in that corps on that date; it may have joined earlier. A continuous record needs Joslen or the war diaries.
 - **First Canadian Army:** operational on 23 July 1944 with the British I Corps under command (Ellis pp. 304, 375). This replaces the earlier `verify` entry.
 
+### Airfields and fleets
+
+`tools/data/build-air.py` writes `data/air/airfields-1944.json`; `data/air/fleet-1944.json` is compiled by hand.
+
+| Item | Contents | Sources | Status |
+| --- | --- | --- | --- |
+| Allied fields | 78 in the slice opened by 1 September: 49 US (A- and ELS fields, all dated), 29 RAF (B-1 to B-30, three dated) | Wikipedia ALG tables, which cite Johnson (1988), AFHRA, for the US fields | 49 sourced, 29 verify (RAF dates, two moved US fields, A-56) |
+| German fields | 32 Luftwaffe-held fields in the slice, with the date each passed to the Allies | Same tables: 17 marked captured with a date; 15 established airfields held until the Allies arrived | 17 sourced, 13 inference, 2 verify |
+| Allied fleet | 1,360 troop carriers and transports on D-Day (USAAF 900, RAF 460) and over 3,500 gliders; D-Day lifts of 432 aircraft and 50 gliders (101st) and 369 aircraft and 52 gliders (82nd); 38 and 46 Groups RAF squadrons; about 1,400 tons flown in during the June storm | Ellis pp. 72-73, 559; Craven and Cate pp. 138, 143, 275 | Sourced |
+| German air | Third Air Fleet 891 aircraft (497 serviceable) on 31 May, 64 transports (31 serviceable); 319 flying on D-Day; about 1,000 a week later; fuel restrictions from 11 August; about 420 fighters in the last week of August | Ellis pp. 566-569 | Sourced |
+
+Two US entries in the tables carried coordinates far from the place they name (A-51 Morlaix, 563 km off; A-52 Etampes, 104 km off). Claude moved both to their towns and marked them `verify`. The AFHRA airfield study itself could not be downloaded, so the US dates are not yet checked against it.
+
+`tools/realmap.js` now has `airAt(date, window)`, which returns the airfields open on a date and the fleet sizes; the Normandy test uses it (21 Allied fields and 1 German field in the window on 25 July; troop carriers 1,360 against 31).
+
+### Screenshots
+
+`tools/build-preview.js` builds a one-page version of the game on the Normandy test map, and headless Chrome takes the pictures in `docs/screenshots/`. Building it exposed a bug in the original interface: observer mode read the staff options of player -1 and stopped the map from drawing. Fixed in `ui.js`.
+
 ### German arrivals
 
 Each record gives the first date the source puts the division, or its first battle group, at the Normandy battle area. Divisions from outside the slice get an entry point at the map edge in the direction the source gives; Claude chose the point, so it is marked `inference`. Page numbers come from the running heads of the OCR text and may be one or two pages off.
@@ -132,7 +151,7 @@ The main passages: Ellis pp. 236-237, 262, 274, 279-282, 319, 378, 405-423; Blum
 2. A continuous British and Canadian attachment record in place of the Ellis snapshots.
 3. British and Canadian arrival dates from a primary source.
 4. A check of roads and railways against the GSGS sheets, with abandoned lines that closed before 1944 removed.
-5. Airfields and the troop carrier fleet for June to August 1944 (Craven and Cate vol. III is now in `sources/`).
+5. Opening dates for the RAF fields, and a check of the US fields against the AFHRA study.
 
 ## Source trace
 
@@ -150,6 +169,8 @@ The main passages: Ellis pp. 236-237, 262, 274, 279-282, 319, 378, 405-423; Blum
 | German arrival dates | Ellis, Blumenson, Harrison, with pages in each record | 33 sourced, 5 inference, 13 verify |
 | US and French corps attachments by date | Theater Historian order of battle, assignment tables; Blumenson for the 9th Division and 2e DB | 113 of 126 rows sourced across both sides |
 | British, Canadian, Polish corps snapshots; First Canadian Army date | Ellis pp. 80, 167, 245, 275-276, 304, 375-378, 388, 408, 417, 441-454 | Sourced, five snapshot rows verify |
+| Allied and German airfields | Wikipedia ALG tables citing Johnson (1988), AFHRA | US dates sourced (secondary); RAF dates verify; German holding dates per record |
+| Fleets and German air strength | Ellis pp. 72-73, 559, 566-569; Craven and Cate pp. 138, 143, 275, 557, 578 | Sourced |
 | German entry points at the map edge | Claude's choice from the direction in the source | Inference |
 | Road, rail, river and town totals; test results | `data/network/` build log; `tools/normandy-test.js` run | Sourced |
 | Modern roads and OSM railways as 1944 proxies | Claude's method | Inference |

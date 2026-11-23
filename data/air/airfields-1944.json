@@ -1,0 +1,2218 @@
+{
+ "title": "Allied advanced landing grounds in the slice, opened by 1 September 1944",
+ "author": "Tov Binyamin Brog",
+ "coords": "game km (data/README.md)",
+ "sources": [
+  {
+   "id": "wp-alg",
+   "title": "Wikipedia, Advanced landing ground (wikitext, sources/raw/wp-advanced-landing-ground.txt)",
+   "url": "https://en.wikipedia.org/wiki/Advanced_landing_ground",
+   "read": "2026-11-22",
+   "free": true,
+   "note": "Secondary. The US tables cite Johnson (1988); the RAF table cites aerosteles.net and other sites."
+  },
+  {
+   "id": "johnson-1988",
+   "title": "David C. Johnson, U.S. Army Air Forces Continental Airfields (ETO), D-Day to V-E Day, AFHRA 1988",
+   "read": null,
+   "free": true,
+   "note": "Cited by the Wikipedia tables; the AFHRA PDF could not be downloaded on 22 Nov 2026, so the figures are not yet checked against it."
+  },
+  {
+   "id": "aaf-iii",
+   "title": "Craven and Cate, The Army Air Forces in World War II, vol. III",
+   "url": "https://archive.org/details/Vol3EuropeArgumentToVEDay",
+   "read": "2026-11-22",
+   "free": true
+  },
+  {
+   "id": "ellis-1",
+   "title": "L. F. Ellis, Victory in the West, vol. I (1962)",
+   "url": "https://archive.org/details/victory-west-vol-1",
+   "read": "2026-11-22",
+   "free": true
+  }
+ ],
+ "notes": [
+  "open is the date the table gives the field as opened or operational. RAF fields mostly lack dates; B-1 to B-30 are kept as Normandy and Seine fields (inference from the sequential numbering) and marked verify.",
+  "Engine use: these are the historical sites. The engine still builds airfields where engineers are sent (air.js); a scenario can seed fields on their historical opening date."
+ ],
+ "checks": [
+  "Craven and Cate vol. III: the IX Engineer Command plan called for two emergency strips on D-Day, two refuelling and rearming strips on Omaha by D+3, four advanced landing grounds on Omaha and one on Utah by D+8, and five on Omaha and three on Utah by D+14; the Utah emergency strip at Hebert was finished at 2115 on D-Day.",
+  "Ellis vol. I: by the end of August 23 airfields had been built or repaired for 83 and 84 Groups RAF."
+ ],
+ "fields": [
+  {
+   "code": "ELS-1",
+   "name": "Poupeville",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    285.42,
+    180.88
+   ],
+   "lonlat": [
+    -1.3333,
+    49.3839
+   ],
+   "open": "1944-06-06",
+   "section": "Normandy campaign",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-21",
+   "name": "Saint-Laurent-sur-Mer",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    318.64,
+    184.87
+   ],
+   "lonlat": [
+    -0.8739,
+    49.3636
+   ],
+   "open": "1944-06-08",
+   "section": "Normandy campaign",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "B-1",
+   "name": "Asnelles-sur-Mer",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    339.65,
+    188.46
+   ],
+   "lonlat": [
+    -0.5828,
+    49.3403
+   ],
+   "open": "1944-06-10",
+   "section": "Royal Air Force ALGs",
+   "note": "operational on D+4",
+   "status": "sourced",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-6",
+   "name": "Beuzeville-la-Bastille",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    287.74,
+    176.86
+   ],
+   "lonlat": [
+    -1.3044,
+    49.4211
+   ],
+   "open": "1944-06-12",
+   "section": "Normandy campaign",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-1",
+   "name": "Saint-Pierre-du-Mont",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    313.65,
+    181.59
+   ],
+   "lonlat": [
+    -0.9447,
+    49.3908
+   ],
+   "open": "1944-06-13",
+   "section": "Normandy campaign",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-3",
+   "name": "Cardonville",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    306.27,
+    185.24
+   ],
+   "lonlat": [
+    -1.0436,
+    49.3547
+   ],
+   "open": "1944-06-14",
+   "section": "Normandy campaign",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-10",
+   "name": "Carentan",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    296.12,
+    190.25
+   ],
+   "lonlat": [
+    -1.1794,
+    49.305
+   ],
+   "open": "1944-06-16",
+   "section": "Cotentin Peninsula/Brittany Breakout",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-2",
+   "name": "Cricqueville-en-Bessin",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    308.97,
+    184.14
+   ],
+   "lonlat": [
+    -1.0072,
+    49.3658
+   ],
+   "open": "1944-06-16",
+   "section": "Normandy campaign",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "B-11",
+   "name": "Longues-sur-Mer",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    331.81,
+    187.82
+   ],
+   "lonlat": [
+    -0.6908,
+    49.3428
+   ],
+   "open": "1944-06-21",
+   "section": "Royal Air Force ALGs",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-7",
+   "name": "Azeville",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    287.89,
+    170.06
+   ],
+   "lonlat": [
+    -1.3075,
+    49.4822
+   ],
+   "open": "1944-06-24",
+   "section": "Cotentin Peninsula/Brittany Breakout",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-8",
+   "name": "Picauville",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    279.29,
+    179.55
+   ],
+   "lonlat": [
+    -1.4186,
+    49.3928
+   ],
+   "open": "1944-06-26",
+   "section": "Cotentin Peninsula/Brittany Breakout",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-4",
+   "name": "Deux-Jumeaux",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    310.83,
+    186.61
+   ],
+   "lonlat": [
+    -0.98,
+    49.3444
+   ],
+   "open": "1944-06-30",
+   "section": "Normandy campaign",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-9",
+   "name": "Le Molay-Littry",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    316.81,
+    196.13
+   ],
+   "lonlat": [
+    -0.8914,
+    49.2617
+   ],
+   "open": "1944-06-30",
+   "section": "Normandy campaign",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-14",
+   "name": "Cretteville",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    281.94,
+    185.79
+   ],
+   "lonlat": [
+    -1.3775,
+    49.3381
+   ],
+   "open": "1944-07-04",
+   "section": "Cotentin Peninsula/Brittany Breakout",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-15",
+   "name": "Maupertus-sur-Mer",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    276.81,
+    150.65
+   ],
+   "lonlat": [
+    -1.4753,
+    49.6508
+   ],
+   "open": "1944-07-04",
+   "section": "Cotentin Peninsula/Brittany Breakout",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-5",
+   "name": "Chippelle Airfield",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    308.23,
+    198.08
+   ],
+   "lonlat": [
+    -1.0078,
+    49.2403
+   ],
+   "open": "1944-07-05",
+   "section": "Normandy campaign",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-22",
+   "name": "Colleville-sur-Mer",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    321.91,
+    186.08
+   ],
+   "lonlat": [
+    -0.8281,
+    49.3542
+   ],
+   "open": "1944-07-13",
+   "section": "Normandy campaign",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-24",
+   "name": "Biniville",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    275.37,
+    175.37
+   ],
+   "lonlat": [
+    -1.4758,
+    49.4283
+   ],
+   "open": "1944-07-17",
+   "section": "Cotentin Peninsula/Brittany Breakout",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-12",
+   "name": "Lignerolles",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    323.72,
+    206.06
+   ],
+   "lonlat": [
+    -0.79,
+    49.1756
+   ],
+   "open": "1944-07-18",
+   "section": "Normandy campaign",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "B-12",
+   "name": "Ellon",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    333.08,
+    201.98
+   ],
+   "lonlat": [
+    -0.6644,
+    49.2161
+   ],
+   "open": "1944-07-18",
+   "section": "Royal Air Force ALGs",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-13",
+   "name": "Tour-en-Bessin",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    327.26,
+    193.39
+   ],
+   "lonlat": [
+    -0.7497,
+    49.2908
+   ],
+   "open": "1944-07-28",
+   "section": "Normandy campaign",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-16",
+   "name": "Brucheville",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    293.43,
+    183.08
+   ],
+   "lonlat": [
+    -1.2217,
+    49.3681
+   ],
+   "open": "1944-08-02",
+   "section": "Cotentin Peninsula/Brittany Breakout",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-11",
+   "name": "Saint-Lambert",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    301.89,
+    192.93
+   ],
+   "lonlat": [
+    -1.0983,
+    49.2836
+   ],
+   "open": "1944-08-05",
+   "section": "Normandy campaign",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-25",
+   "name": "Bolleville",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    267.41,
+    189.02
+   ],
+   "lonlat": [
+    -1.5744,
+    49.3017
+   ],
+   "open": "1944-08-07",
+   "section": "Cotentin Peninsula/Brittany Breakout",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-27",
+   "name": "Rennes/St-Jacques",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    247.76,
+    324.82
+   ],
+   "lonlat": [
+    -1.7322,
+    48.0719
+   ],
+   "open": "1944-08-10",
+   "section": "Cotentin Peninsula/Brittany Breakout",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-28",
+   "name": "Pontorson",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    268.25,
+    273.35
+   ],
+   "lonlat": [
+    -1.4969,
+    48.545
+   ],
+   "open": "1944-08-10",
+   "section": "Drive to the Seine River",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-31",
+   "name": "Gaël",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    213.35,
+    321.64
+   ],
+   "lonlat": [
+    -2.1961,
+    48.0811
+   ],
+   "open": "1944-08-11",
+   "section": "Cotentin Peninsula/Brittany Breakout",
+   "note": "captured 1944-08-10",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-30",
+   "name": "Courtils",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    275.36,
+    264.48
+   ],
+   "lonlat": [
+    -1.4075,
+    48.6283
+   ],
+   "open": "1944-08-13",
+   "section": "Cotentin Peninsula/Brittany Breakout",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-19",
+   "name": "Saint-Pierre-la-Vieille",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    310.04,
+    207.12
+   ],
+   "lonlat": [
+    -0.9767,
+    49.16
+   ],
+   "open": "1944-08-14",
+   "section": "Cotentin Peninsula/Brittany Breakout",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-29",
+   "name": "Saint-James",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    280.91,
+    276.44
+   ],
+   "lonlat": [
+    -1.3233,
+    48.5236
+   ],
+   "open": "1944-08-14",
+   "section": "Cotentin Peninsula/Brittany Breakout",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-49",
+   "name": "Beille",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    414.89,
+    331.26
+   ],
+   "lonlat": [
+    0.5136,
+    48.0828
+   ],
+   "open": "1944-08-15",
+   "section": "Drive to the Seine River",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-26",
+   "name": "Gorges",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    280.04,
+    196.3
+   ],
+   "lonlat": [
+    -1.3956,
+    49.2428
+   ],
+   "open": "1944-08-16",
+   "section": "Cotentin Peninsula/Brittany Breakout",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-17",
+   "name": "Méautis",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    287.43,
+    192.35
+   ],
+   "lonlat": [
+    -1.2972,
+    49.2819
+   ],
+   "open": "1944-08-17",
+   "section": "Cotentin Peninsula/Brittany Breakout",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-57",
+   "name": "Laval",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    319.41,
+    328.53
+   ],
+   "lonlat": [
+    -0.7689,
+    48.0733
+   ],
+   "open": "1944-08-21",
+   "section": "Drive to the Seine River",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-50",
+   "name": "Orleans/Bricy",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    507.54,
+    344.04
+   ],
+   "lonlat": [
+    1.7606,
+    47.9875
+   ],
+   "open": "1944-08-24",
+   "section": "Drive to the Seine River",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-20",
+   "name": "Lessay",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    271.6,
+    200.35
+   ],
+   "lonlat": [
+    -1.5081,
+    49.2022
+   ],
+   "open": "1944-08-25",
+   "section": "Cotentin Peninsula/Brittany Breakout",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-39",
+   "name": "Châteaudun",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    479.24,
+    335.72
+   ],
+   "lonlat": [
+    1.3789,
+    48.0578
+   ],
+   "open": "1944-08-26",
+   "section": "Drive to the Seine River",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-40",
+   "name": "Chartres",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    490.54,
+    291.6
+   ],
+   "lonlat": [
+    1.5194,
+    48.4567
+   ],
+   "open": "1944-08-26",
+   "section": "Drive to the Seine River",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-41",
+   "name": "Dreux/Vernouillet",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    479.45,
+    263.64
+   ],
+   "lonlat": [
+    1.3617,
+    48.7061
+   ],
+   "open": "1944-08-26",
+   "section": "Drive to the Seine River",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-34",
+   "name": "Gorron",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    318.07,
+    290.73
+   ],
+   "lonlat": [
+    -0.8114,
+    48.4125
+   ],
+   "open": "1944-08-27",
+   "section": "Drive to the Seine River",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-56",
+   "name": "Le Hamil",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    568.83,
+    133.85
+   ],
+   "lonlat": [
+    2.5667,
+    49.8833
+   ],
+   "open": "1944-08-27",
+   "section": "Pursuit to the German border",
+   "note": "opening date looks early for a field near Amiens, which the Allies reached on 31 August (verify)",
+   "fixed": true,
+   "status": "verify",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-46",
+   "name": "Toussus-le-Noble",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    534.28,
+    259.49
+   ],
+   "lonlat": [
+    2.1061,
+    48.7514
+   ],
+   "open": "1944-08-28",
+   "section": "Drive to the Seine River",
+   "note": "captured 1944-08-26",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-47",
+   "name": "Orly",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    554.35,
+    262.8
+   ],
+   "lonlat": [
+    2.3794,
+    48.7233
+   ],
+   "open": "1944-08-28",
+   "section": "Drive to the Seine River",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-18",
+   "name": "Saint-Jean-de-Daye",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    297.53,
+    200.04
+   ],
+   "lonlat": [
+    -1.1531,
+    49.2178
+   ],
+   "open": "1944-08-29",
+   "section": "Cotentin Peninsula/Brittany Breakout",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-33",
+   "name": "Vannes",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    171.25,
+    359.0
+   ],
+   "lonlat": [
+    -2.7236,
+    47.7194
+   ],
+   "open": "1944-08-29",
+   "section": "Cotentin Peninsula/Brittany Breakout",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-48",
+   "name": "Brétigny",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    550.82,
+    276.85
+   ],
+   "lonlat": [
+    2.3331,
+    48.5967
+   ],
+   "open": "1944-08-29",
+   "section": "Drive to the Seine River",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-53",
+   "name": "Issy les Moulineaux",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    546.4,
+    251.55
+   ],
+   "lonlat": [
+    2.27,
+    48.8239
+   ],
+   "open": "1944-08-29",
+   "section": "Drive to the Seine River",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-54",
+   "name": "Le Bourget",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    561.54,
+    235.48
+   ],
+   "lonlat": [
+    2.4747,
+    48.9694
+   ],
+   "open": "1944-08-29",
+   "section": "Pursuit to the German border",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-42",
+   "name": "Vélizy-Villacoublay",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    541.19,
+    257.15
+   ],
+   "lonlat": [
+    2.1997,
+    48.7731
+   ],
+   "open": "1944-08-30",
+   "section": "Drive to the Seine River",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-52",
+   "name": "Etampes/Mondesir",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    537.29,
+    296.06
+   ],
+   "lonlat": [
+    3.42,
+    48.035
+   ],
+   "open": "1944-08-30",
+   "section": "Pursuit to the German border",
+   "note": "coordinates in the table lie 104 km from Etampes; placed at the town, Mondesir field lies just southwest (inference)",
+   "fixed": true,
+   "status": "verify",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-43",
+   "name": "Saint-Marceau",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    388.85,
+    319.76
+   ],
+   "lonlat": [
+    0.1586,
+    48.1783
+   ],
+   "open": "1944-08-31",
+   "section": "Drive to the Seine River",
+   "note": "",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "A-51",
+   "name": "Morlaix",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    97.61,
+    255.3
+   ],
+   "lonlat": [
+    3.8167,
+    48.6008
+   ],
+   "open": "1944-09-01",
+   "section": "Cotentin Peninsula/Brittany Breakout",
+   "note": "coordinates in the table lie 563 km from Morlaix; placed at the town (inference)",
+   "fixed": true,
+   "status": "verify",
+   "src": [
+    "wp-alg",
+    "johnson-1988"
+   ]
+  },
+  {
+   "code": "B-10",
+   "name": "Plumetot",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    355.86,
+    196.07
+   ],
+   "lonlat": [
+    -0.3556,
+    49.2783
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-14",
+   "name": "Amblie",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    346.11,
+    194.44
+   ],
+   "lonlat": [
+    -0.4903,
+    49.2892
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-15",
+   "name": "Ryes",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    336.54,
+    191.38
+   ],
+   "lonlat": [
+    -0.6236,
+    49.3128
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-16",
+   "name": "Villons-les-Buissons",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    351.83,
+    200.69
+   ],
+   "lonlat": [
+    -0.4081,
+    49.2353
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-17",
+   "name": "Caen/Carpiquets",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    347.97,
+    207.05
+   ],
+   "lonlat": [
+    -0.4572,
+    49.1767
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-18",
+   "name": "Cristot",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    339.12,
+    204.64
+   ],
+   "lonlat": [
+    -0.58,
+    49.1947
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-19",
+   "name": "Lingevres",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    332.24,
+    206.52
+   ],
+   "lonlat": [
+    -0.6731,
+    49.175
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-2",
+   "name": "Bazenville",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    340.98,
+    192.48
+   ],
+   "lonlat": [
+    -0.5619,
+    49.3047
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-20",
+   "name": "Demouville",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    361.7,
+    207.48
+   ],
+   "lonlat": [
+    -0.2689,
+    49.1781
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-21",
+   "name": "Sainte-Honorine",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    344.18,
+    246.09
+   ],
+   "lonlat": [
+    -0.4856,
+    48.8244
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-22",
+   "name": "Authie",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    350.02,
+    203.83
+   ],
+   "lonlat": [
+    -0.4311,
+    49.2064
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-23",
+   "name": "La Rue Huguenot",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    413.16,
+    206.75
+   ],
+   "lonlat": [
+    0.4361,
+    49.2017
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-24",
+   "name": "St-André de l'Euree",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    471.8,
+    242.44
+   ],
+   "lonlat": [
+    1.2514,
+    48.8953
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-25",
+   "name": "Le Theil-Nolent",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    420.42,
+    212.27
+   ],
+   "lonlat": [
+    0.5381,
+    49.1542
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-26",
+   "name": "Illiers-l'Évêque",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    472.76,
+    250.65
+   ],
+   "lonlat": [
+    1.2669,
+    48.8217
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-27",
+   "name": "Boisney",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    429.01,
+    212.5
+   ],
+   "lonlat": [
+    0.6558,
+    49.1544
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-28",
+   "name": "Evreux",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    469.71,
+    227.69
+   ],
+   "lonlat": [
+    1.2183,
+    49.0275
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-29",
+   "name": "Valailles",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    424.95,
+    216.02
+   ],
+   "lonlat": [
+    0.6017,
+    49.1217
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-3",
+   "name": "St. Croix-sur-Mer",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    344.22,
+    191.04
+   ],
+   "lonlat": [
+    -0.5183,
+    49.3189
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-30",
+   "name": "Creton",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    474.34,
+    249.6
+   ],
+   "lonlat": [
+    1.2881,
+    48.8314
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-4",
+   "name": "Beny-sur-Mer",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    350.52,
+    193.61
+   ],
+   "lonlat": [
+    -0.4303,
+    49.2983
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-5",
+   "name": "Le Fresne-Camilly",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    346.36,
+    197.02
+   ],
+   "lonlat": [
+    -0.4853,
+    49.2661
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-6",
+   "name": "Coulombs",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    341.41,
+    199.18
+   ],
+   "lonlat": [
+    -0.5519,
+    49.2447
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-7",
+   "name": "Martragny",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    336.78,
+    198.04
+   ],
+   "lonlat": [
+    -0.6161,
+    49.2531
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-8",
+   "name": "Sommervieu",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    332.48,
+    192.61
+   ],
+   "lonlat": [
+    -0.6786,
+    49.3
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-9",
+   "name": "Lantheuil",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    343.29,
+    196.14
+   ],
+   "lonlat": [
+    -0.5281,
+    49.2728
+   ],
+   "open": null,
+   "section": "Royal Air Force ALGs",
+   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
+   "status": "verify",
+   "src": [
+    "wp-alg"
+   ]
+  }
+ ],
+ "german": [
+  {
+   "code": "B-17",
+   "name": "Caen/Carpiquets",
+   "side": 1,
+   "xy": [
+    347.97,
+    207.05
+   ],
+   "heldUntil": "1944-07-09",
+   "status": "inference",
+   "note": "the RAF table says captured from German forces in July 1944 during the battle for Caen; day from Ellis account of Carpiquet (verify)",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-27",
+   "name": "Rennes/St-Jacques",
+   "side": 1,
+   "xy": [
+    247.76,
+    324.82
+   ],
+   "heldUntil": "1944-08-10",
+   "status": "inference",
+   "note": "established airfield; held by the Germans until the Allies took the area, the date taken as the first Allied use",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-31",
+   "name": "Gaël",
+   "side": 1,
+   "xy": [
+    213.35,
+    321.64
+   ],
+   "heldUntil": "1944-08-10",
+   "status": "sourced",
+   "note": "the table gives the date it was captured",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-35",
+   "name": "Le Mans",
+   "side": 1,
+   "xy": [
+    391.13,
+    338.84
+   ],
+   "heldUntil": "1944-08-12",
+   "status": "sourced",
+   "note": "the table gives the date it was captured",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-57",
+   "name": "Laval",
+   "side": 1,
+   "xy": [
+    319.41,
+    328.53
+   ],
+   "heldUntil": "1944-08-21",
+   "status": "inference",
+   "note": "established airfield; held by the Germans until the Allies took the area, the date taken as the first Allied use",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-50",
+   "name": "Orleans/Bricy",
+   "side": 1,
+   "xy": [
+    507.54,
+    344.04
+   ],
+   "heldUntil": "1944-08-24",
+   "status": "inference",
+   "note": "established airfield; held by the Germans until the Allies took the area, the date taken as the first Allied use",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-39",
+   "name": "Châteaudun",
+   "side": 1,
+   "xy": [
+    479.24,
+    335.72
+   ],
+   "heldUntil": "1944-08-26",
+   "status": "inference",
+   "note": "established airfield; held by the Germans until the Allies took the area, the date taken as the first Allied use",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-40",
+   "name": "Chartres",
+   "side": 1,
+   "xy": [
+    490.54,
+    291.6
+   ],
+   "heldUntil": "1944-08-26",
+   "status": "inference",
+   "note": "established airfield; held by the Germans until the Allies took the area, the date taken as the first Allied use",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-41",
+   "name": "Dreux/Vernouillet",
+   "side": 1,
+   "xy": [
+    479.45,
+    263.64
+   ],
+   "heldUntil": "1944-08-26",
+   "status": "inference",
+   "note": "established airfield; held by the Germans until the Allies took the area, the date taken as the first Allied use",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-46",
+   "name": "Toussus-le-Noble",
+   "side": 1,
+   "xy": [
+    534.28,
+    259.49
+   ],
+   "heldUntil": "1944-08-26",
+   "status": "sourced",
+   "note": "the table gives the date it was captured",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-47",
+   "name": "Orly",
+   "side": 1,
+   "xy": [
+    554.35,
+    262.8
+   ],
+   "heldUntil": "1944-08-28",
+   "status": "inference",
+   "note": "established airfield; held by the Germans until the Allies took the area, the date taken as the first Allied use",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-33",
+   "name": "Vannes",
+   "side": 1,
+   "xy": [
+    171.25,
+    359.0
+   ],
+   "heldUntil": "1944-08-29",
+   "status": "inference",
+   "note": "established airfield; held by the Germans until the Allies took the area, the date taken as the first Allied use",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-48",
+   "name": "Brétigny",
+   "side": 1,
+   "xy": [
+    550.82,
+    276.85
+   ],
+   "heldUntil": "1944-08-29",
+   "status": "inference",
+   "note": "established airfield; held by the Germans until the Allies took the area, the date taken as the first Allied use",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-54",
+   "name": "Le Bourget",
+   "side": 1,
+   "xy": [
+    561.54,
+    235.48
+   ],
+   "heldUntil": "1944-08-29",
+   "status": "inference",
+   "note": "established airfield; held by the Germans until the Allies took the area, the date taken as the first Allied use",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-42",
+   "name": "Vélizy-Villacoublay",
+   "side": 1,
+   "xy": [
+    541.19,
+    257.15
+   ],
+   "heldUntil": "1944-08-30",
+   "status": "inference",
+   "note": "established airfield; held by the Germans until the Allies took the area, the date taken as the first Allied use",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-52",
+   "name": "Etampes/Mondesir",
+   "side": 1,
+   "xy": [
+    537.29,
+    296.06
+   ],
+   "heldUntil": "1944-08-30",
+   "status": "inference",
+   "note": "established airfield; held by the Germans until the Allies took the area, the date taken as the first Allied use",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-55",
+   "name": "Melun/Villaroche",
+   "side": 1,
+   "xy": [
+    575.65,
+    276.05
+   ],
+   "heldUntil": "1944-09-01",
+   "status": "sourced",
+   "note": "the table gives the date it was captured",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-58",
+   "name": "Coulommiers/Voisins",
+   "side": 1,
+   "xy": [
+    600.2,
+    250.25
+   ],
+   "heldUntil": "1944-09-01",
+   "status": "sourced",
+   "note": "the table gives the date it was captured",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-60",
+   "name": "Beaumont-sur-Oise",
+   "side": 1,
+   "xy": [
+    550.42,
+    213.4
+   ],
+   "heldUntil": "1944-09-03",
+   "status": "sourced",
+   "note": "the table gives the date it was captured",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-76",
+   "name": "Athis",
+   "side": 1,
+   "xy": [
+    681.49,
+    230.77
+   ],
+   "heldUntil": "1944-09-04",
+   "status": "sourced",
+   "note": "the table gives the date it was captured",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-68",
+   "name": "Juvincourt-et-Damary",
+   "side": 1,
+   "xy": [
+    664.24,
+    183.87
+   ],
+   "heldUntil": "1944-09-05",
+   "status": "sourced",
+   "note": "the table gives the date it was captured",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-59",
+   "name": "Cormeilles-En-Vexin",
+   "side": 1,
+   "xy": [
+    529.93,
+    221.07
+   ],
+   "heldUntil": "1944-09-06",
+   "status": "sourced",
+   "note": "the table gives the date it was captured",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-61",
+   "name": "/B-42 Beauvais/Tille",
+   "side": 1,
+   "xy": [
+    535.65,
+    181.3
+   ],
+   "heldUntil": "1944-09-06",
+   "status": "sourced",
+   "note": "the table gives the date it was captured",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-72",
+   "name": "Peronne/St Quentin",
+   "side": 1,
+   "xy": [
+    602.06,
+    135.45
+   ],
+   "heldUntil": "1944-09-06",
+   "status": "sourced",
+   "note": "the table gives the date it was captured",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-64",
+   "name": "Saint-Dizier/Robinson",
+   "side": 1,
+   "xy": [
+    739.96,
+    271.01
+   ],
+   "heldUntil": "1944-09-07",
+   "status": "sourced",
+   "note": "the table gives the date it was captured",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-73",
+   "name": "Roye/Amy",
+   "side": 1,
+   "xy": [
+    587.08,
+    158.9
+   ],
+   "heldUntil": "1944-09-08",
+   "status": "sourced",
+   "note": "the table gives the date it was captured",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-67",
+   "name": "Vitry-le-François",
+   "side": 1,
+   "xy": [
+    716.6,
+    261.56
+   ],
+   "heldUntil": "1944-09-09",
+   "status": "sourced",
+   "note": "the table gives the date it was captured",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-71",
+   "name": "Clastres",
+   "side": 1,
+   "xy": [
+    615.3,
+    147.96
+   ],
+   "heldUntil": "1944-09-09",
+   "status": "sourced",
+   "note": "the table gives the date it was captured",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-74",
+   "name": "Cambrai/Niergnies",
+   "side": 1,
+   "xy": [
+    618.95,
+    105.82
+   ],
+   "heldUntil": "1944-09-12",
+   "status": "sourced",
+   "note": "the table gives the date it was captured",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-90",
+   "name": "Toul-Croix De Metz Airfield",
+   "side": 1,
+   "xy": [
+    814.65,
+    261.81
+   ],
+   "heldUntil": "1944-09-14",
+   "status": "sourced",
+   "note": "the table gives the date it was captured",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-24",
+   "name": "St-André de l'Euree",
+   "side": 1,
+   "xy": [
+    471.8,
+    242.44
+   ],
+   "heldUntil": null,
+   "status": "verify",
+   "note": "Luftwaffe base from general history",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-28",
+   "name": "Evreux",
+   "side": 1,
+   "xy": [
+    469.71,
+    227.69
+   ],
+   "heldUntil": null,
+   "status": "verify",
+   "note": "French Air Force base (Evreux-Fauville) per the table; German use and capture date from general history",
+   "src": [
+    "wp-alg"
+   ]
+  }
+ ]
+}

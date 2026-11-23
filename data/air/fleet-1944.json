@@ -1,0 +1,48 @@
+{
+ "title": "Troop carrier fleets and air strength, June to August 1944",
+ "author": "Tov Binyamin Brog",
+ "sources": [
+  {"id": "ellis-1", "title": "L. F. Ellis, Victory in the West, vol. I (1962)", "url": "https://archive.org/details/victory-west-vol-1", "read": "2026-11-22", "free": true},
+  {"id": "aaf-iii", "title": "W. F. Craven and J. L. Cate, The Army Air Forces in World War II, vol. III, Europe: Argument to V-E Day", "url": "https://archive.org/details/Vol3EuropeArgumentToVEDay", "read": "2026-11-22", "free": true}
+ ],
+ "pageNote": "Page numbers come from the running heads of the OCR texts and may be one or two pages off.",
+ "allied": {
+  "transport": [
+   {"date": "1944-06-06", "aircraft": 1360, "us": 900, "raf": 460, "gliders": 3500, "status": "sourced", "cite": "ellis-1 pp. 72-73",
+    "note": "Allied air resources when the assault began: troop carriers and transports, RAF and associated 460, USAAF 900; over 3,500 gliders. Engine: sides[0].transport.aircraft = 1360"},
+   {"date": "1944-06-06", "aircraft": 1120, "status": "sourced", "cite": "aaf-iii p. 138",
+    "note": "AEAF planning figure: 1,000 troop carriers and 120 transports. Kept as a cross-check; Ellis's 1,360 is the figure the engine uses"},
+   {"date": "1944-09-01", "aircraft": null, "status": "sourced", "cite": "aaf-iii pp. 557, 578",
+    "note": "IX Troop Carrier Command had a surplus of C-47 and C-53 aircraft much of the time after D-Day and later reached up to 1,400 aircraft and 2,000 gliders. No figure for 1 September; the engine keeps the D-Day fleet"}
+  ],
+  "lifts": [
+   {"date": "1944-06-06", "division": "us-101ab", "aircraft": 432, "gliders": 50, "status": "sourced", "cite": "aaf-iii p. 143", "note": "Final airborne plan of 31 May: drop from 0200, gliders at 0400"},
+   {"date": "1944-06-06", "division": "us-82ab", "aircraft": 369, "gliders": 52, "status": "sourced", "cite": "aaf-iii p. 143", "note": "Final airborne plan of 31 May: landing from 0121, west of the 101st"},
+   {"date": "1944-06-06", "division": "uk-6ab", "aircraft": null, "status": "sourced", "cite": "ellis-1 p. 559",
+    "note": "Carried by 38 Group RAF (Albemarle: 295, 296, 297, 570 Sqns; Stirling: 190, 196, 299, 620 Sqns; Halifax: 298, 644 Sqns) and 46 Group RAF (Dakota: 48, 233, 271, 512, 575 Sqns). Aircraft numbers per lift to read from Ellis ch. VIII"}
+  ],
+  "airSupply": [
+   {"date": "1944-06-19", "tons": 1400, "status": "sourced", "cite": "aaf-iii p. 275", "note": "During the Channel storm that began on 19 June troop carriers brought in about 1,400 tons of critical supplies"}
+  ],
+  "airfieldBuild": [
+   {"status": "sourced", "cite": "aaf-iii p. 129", "note": "Plan: two emergency landing strips on D-Day; two refuelling and rearming strips on Omaha by D+3; four advanced landing grounds on Omaha and one on Utah by D+8; five on Omaha and three on Utah by D+14"},
+   {"status": "sourced", "cite": "aaf-iii p. 562", "note": "The Utah emergency strip at Hebert was finished at 2115 on D-Day; detachments for Omaha could not land until 7 June"},
+   {"status": "sourced", "cite": "ellis-1 p. 481", "note": "By the end of August 23 airfields had been built or repaired for 83 and 84 Groups RAF"},
+   {"status": "sourced", "cite": "aaf-iii p. 561", "note": "IX Engineer Command built or rehabilitated 241 airfields in the whole campaign"}
+  ]
+ },
+ "german": {
+  "strength": [
+   {"date": "1944-05-31", "total": 891, "serviceable": 497, "fighters": [425, 266], "bombers": [402, 200], "transport": [64, 31], "status": "sourced", "cite": "ellis-1 p. 566",
+    "note": "Third Air Fleet; pairs are strength and serviceable. Engine: sides[1].transport.aircraft = 31"},
+   {"date": "1944-06-06", "operational": 319, "status": "sourced", "cite": "ellis-1 p. 566", "note": "Only 319 aircraft were able to operate on D-Day"},
+   {"date": "1944-06-10", "reinforcement": {"fighters": 300, "torpedo": 45, "bombers": 90}, "status": "sourced", "cite": "ellis-1 p. 566", "note": "Reinforcements to Air Corps II by 10 June"},
+   {"date": "1944-06-13", "total": 1000, "status": "sourced", "cite": "ellis-1 p. 566", "note": "About 1,000 aircraft of all types a week after D-Day; most new units arrived days or weeks late by rail to bombed fields"},
+   {"date": "1944-06-12", "event": "bombers switch to minelaying and circling torpedoes against shipping", "status": "sourced", "cite": "ellis-1 p. 569"},
+   {"date": "1944-07-05", "event": "Air Corps X anti-shipping aircraft withdrawn to Norway and Germany early in July", "status": "inference", "cite": "ellis-1 p. 569", "note": "Ellis says early July; day chosen by Claude"},
+   {"date": "1944-08-11", "event": "fuel restrictions: fighters free only against heavy bombers; reconnaissance and ground attack limited; four-engined bombers grounded", "status": "sourced", "cite": "ellis-1 p. 569"},
+   {"date": "1944-08-20", "event": "two fighter units sent from Germany; forward air forces move back toward the Belgian frontier", "status": "sourced", "cite": "ellis-1 p. 569"},
+   {"date": "1944-08-25", "fighters": 420, "status": "sourced", "cite": "ellis-1 p. 569", "note": "Last week of August: about 420 fighters in Belgium and northeast France; bombers and night fighters back to Holland and northwest Germany"}
+  ]
+ }
+}
