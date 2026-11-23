@@ -86,7 +86,7 @@ for fo in filtered:
     r = subprocess.run(['osmium', 'export', '-O', '-f', 'geojsonseq', '--add-unique-id=type_id', '-o', sq, fo], capture_output=True, text=True)
     if r.returncode: print('osmium export failed', fo, r.stderr[-2000:]); raise SystemExit(1)
     seqs.append(sq)
-roads = {1: [], 2: [], 3: []}; rails = {}; canals = []; rivnames = []; places = []
+roads = {1: [], 2: [], 3: []}; rails = {}; railnames = []; canals = []; rivnames = []; places = []
 drop = {'yard', 'siding', 'spur', 'crossover'}
 seen = set()
 def features():
@@ -126,6 +126,8 @@ if True:
             if ey and ey < 1944: continue
             k = (p.get('usage') or ('narrow' if rw == 'narrow_gauge' else 'other'), rw)
             rails.setdefault(k, []).extend(lines_of(geom))
+            nm = p.get('name') or p.get('description') or ''
+            if nm: railnames.append((nm, p.get('ref', ''), rw, lines_of(geom)))
         elif ww == 'canal':
             canals += [(p.get('name', ''), l) for l in lines_of(geom)]
         elif ww == 'river' and p.get('name'):
@@ -156,6 +158,14 @@ for (usage, rw), ls in sorted(rails.items()):
     for l in to_json(ml): rail_out['lines'].append({'usage': usage, 'osm': rw, 'pts': l})
     print('rail', usage, rw, len(ml), 'lines', round(sum(l.length for l in ml) / 1000), 'km')
 json.dump(rail_out, open(OUT + '/rail.json', 'w'), separators=(',', ':'))
+# line names: every OSM rail way that carries a name, merged per (name, status), for checking against line opening and closing dates
+rn = {}
+for nm, ref, rw, ls in railnames: rn.setdefault((nm, rw), {'ref': ref, 'ls': []})['ls'].extend(ls)
+names_out = [{'name': nm, 'osm': rw, 'ref': v['ref'], 'km': round(sum(l.length for l in v['ls']) / 1000, 1),
+              'pts': to_json(merged_lines(v['ls'], 150.0))} for (nm, rw), v in rn.items()]
+names_out.sort(key=lambda r: -r['km'])
+json.dump({'sources': road_out['sources'], 'note': 'OSM rail ways that carry a name, merged by name and railway status', 'lines': names_out}, open(OUT + '/rail-names.json', 'w'), separators=(',', ':'), ensure_ascii=False)
+print('named rail lines', len(names_out))
 
 cn = {}
 for n, l in canals: cn.setdefault(n, []).append(l)

@@ -108,6 +108,11 @@
    "name": "wp-B29-Valailles",
    "url": "https://en.wikipedia.org/w/index.php?title=Valailles&action=raw",
    "title": "Wikipedia, Valailles"
+  },
+  {
+   "name": "frwp-liste-lignes-france",
+   "url": "https://fr.wikipedia.org/w/index.php?title=Liste_des_lignes_de_chemin_de_fer_de_France&action=raw",
+   "title": "Wikipedia (fr), Liste des lignes de chemin de fer de France"
   }
  ]
 }
