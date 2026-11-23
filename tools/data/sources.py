@@ -71,6 +71,20 @@ for item in CFG.get('pdf', []):
     p = '%s/pdf/%s.txt' % (OUT, item['name']); os.makedirs(os.path.dirname(p), exist_ok=True)
     if subprocess.run(['pdftotext', '-layout', pdf, p]).returncode == 0: record(p, item['url'], item.get('title', ''))
 
+# data.gouv.fr datasets: every resource of the dataset, saved as downloaded
+for slug in CFG.get('datagouv', []):
+    meta = get('https://www.data.gouv.fr/api/1/datasets/%s/' % slug)
+    if not meta: print('no dataset', slug); continue
+    meta = json.loads(meta); d = '%s/datagouv/%s' % (OUT, slug[:60]); os.makedirs(d, exist_ok=True)
+    json.dump({k: meta.get(k) for k in ('title', 'description', 'license', 'last_modified', 'page', 'organization', 'owner')}, open(d + '/dataset.json', 'w'), indent=1, default=str)
+    record(d + '/dataset.json', meta.get('page', ''), meta.get('title', ''))
+    for r in meta.get('resources', []):
+        b = get(r['url'], binary=True)
+        if b is None: print('no resource', r['url']); continue
+        fn = re.sub(r'[^A-Za-z0-9._-]', '_', (r.get('title') or 'res') + ('' if '.' in (r.get('title') or '') else '.' + (r.get('format') or 'bin')))[:90]
+        open(d + '/' + fn, 'wb').write(b); record(d + '/' + fn, r['url'], r.get('title', ''))
+        print('datagouv', slug, fn, len(b))
+
 # raw text pages (for example Wikipedia wikitext via action=raw)
 for item in CFG.get('raw', []):
     t = get(item['url'], tries=2)
