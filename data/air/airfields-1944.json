@@ -13,10 +13,11 @@
   },
   {
    "id": "johnson-1988",
-   "title": "David C. Johnson, U.S. Army Air Forces Continental Airfields (ETO), D-Day to V-E Day, AFHRA 1988",
-   "read": null,
+   "title": "David C. Johnson, U.S. Army Air Forces Continental Airfields (ETO), D-Day to V-E Day, USAF Historical Research Center, 1 Dec 1988",
+   "url": "https://www.dafhistory.af.mil/Portals/16/documents/Timelines/World%20War%20II/usaaf_european_airfields.pdf",
+   "read": "2026-11-22",
    "free": true,
-   "note": "Cited by the Wikipedia tables; the AFHRA PDF could not be downloaded on 22 Nov 2026, so the figures are not yet checked against it."
+   "note": "Part I gives each US field its initial operational date (used here); Part III lists the British B-fields without dates. Text in sources/pdf."
   },
   {
    "id": "aaf-iii",
@@ -80,11 +81,11 @@
    "open": "1944-06-08",
    "section": "Normandy campaign",
    "note": "",
-   "status": "sourced",
+   "johnson": "St Laurent sur Mer, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "B-1",
@@ -108,28 +109,6 @@
    ]
   },
   {
-   "code": "A-6",
-   "name": "Beuzeville-la-Bastille",
-   "side": 0,
-   "nat": "US",
-   "xy": [
-    287.74,
-    176.86
-   ],
-   "lonlat": [
-    -1.3044,
-    49.4211
-   ],
-   "open": "1944-06-12",
-   "section": "Normandy campaign",
-   "note": "",
-   "status": "sourced",
-   "src": [
-    "wp-alg",
-    "johnson-1988"
-   ]
-  },
-  {
    "code": "A-1",
    "name": "Saint-Pierre-du-Mont",
    "side": 0,
@@ -145,11 +124,11 @@
    "open": "1944-06-13",
    "section": "Normandy campaign",
    "note": "",
-   "status": "sourced",
+   "johnson": "St Pierre du Mont, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-3",
@@ -167,55 +146,33 @@
    "open": "1944-06-14",
    "section": "Normandy campaign",
    "note": "",
-   "status": "sourced",
+   "johnson": "Cardonville, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
-   "code": "A-10",
-   "name": "Carentan",
+   "code": "A-6",
+   "name": "Beuzeville-la-Bastille",
    "side": 0,
    "nat": "US",
    "xy": [
-    296.12,
-    190.25
+    287.74,
+    176.86
    ],
    "lonlat": [
-    -1.1794,
-    49.305
+    -1.3044,
+    49.4211
    ],
-   "open": "1944-06-16",
-   "section": "Cotentin Peninsula/Brittany Breakout",
-   "note": "",
-   "status": "sourced",
-   "src": [
-    "wp-alg",
-    "johnson-1988"
-   ]
-  },
-  {
-   "code": "A-2",
-   "name": "Cricqueville-en-Bessin",
-   "side": 0,
-   "nat": "US",
-   "xy": [
-    308.97,
-    184.14
-   ],
-   "lonlat": [
-    -1.0072,
-    49.3658
-   ],
-   "open": "1944-06-16",
+   "open": "1944-06-15",
    "section": "Normandy campaign",
-   "note": "",
-   "status": "sourced",
+   "note": "Wikipedia table gives 1944-06-12; Johnson 1944-06-15",
+   "johnson": "Beuzeville, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "B-2",
@@ -238,6 +195,50 @@
     "wp-alg",
     "ellis-1"
    ]
+  },
+  {
+   "code": "A-10",
+   "name": "Carentan",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    296.12,
+    190.25
+   ],
+   "lonlat": [
+    -1.1794,
+    49.305
+   ],
+   "open": "1944-06-19",
+   "section": "Cotentin Peninsula/Brittany Breakout",
+   "note": "Wikipedia table gives 1944-06-16; Johnson 1944-06-19",
+   "johnson": "Carentan, Fr",
+   "src": [
+    "johnson-1988"
+   ],
+   "status": "sourced"
+  },
+  {
+   "code": "A-2",
+   "name": "Cricqueville-en-Bessin",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    308.97,
+    184.14
+   ],
+   "lonlat": [
+    -1.0072,
+    49.3658
+   ],
+   "open": "1944-06-19",
+   "section": "Normandy campaign",
+   "note": "Wikipedia table gives 1944-06-16; Johnson 1944-06-19",
+   "johnson": "Criqueville, Fr",
+   "src": [
+    "johnson-1988"
+   ],
+   "status": "sourced"
   },
   {
    "code": "B-11",
@@ -276,11 +277,11 @@
    "open": "1944-06-24",
    "section": "Cotentin Peninsula/Brittany Breakout",
    "note": "",
-   "status": "sourced",
+   "johnson": "Azeville, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-8",
@@ -298,11 +299,11 @@
    "open": "1944-06-26",
    "section": "Cotentin Peninsula/Brittany Breakout",
    "note": "",
-   "status": "sourced",
+   "johnson": "Picauville, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-4",
@@ -320,11 +321,11 @@
    "open": "1944-06-30",
    "section": "Normandy campaign",
    "note": "",
-   "status": "sourced",
+   "johnson": "Deux Jumeaux,    Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-9",
@@ -342,11 +343,11 @@
    "open": "1944-06-30",
    "section": "Normandy campaign",
    "note": "",
-   "status": "sourced",
+   "johnson": "Le Molay, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "B-10",
@@ -540,11 +541,11 @@
    "open": "1944-07-04",
    "section": "Cotentin Peninsula/Brittany Breakout",
    "note": "",
-   "status": "sourced",
+   "johnson": "Cretteville, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-15",
@@ -562,11 +563,11 @@
    "open": "1944-07-04",
    "section": "Cotentin Peninsula/Brittany Breakout",
    "note": "",
-   "status": "sourced",
+   "johnson": "Maupertus, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "B-14",
@@ -606,11 +607,33 @@
    "open": "1944-07-05",
    "section": "Normandy campaign",
    "note": "",
-   "status": "sourced",
+   "johnson": "Chippelle, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
+  },
+  {
+   "code": "A-23",
+   "name": "Querqueville",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    261.13,
+    148.25
+   ],
+   "lonlat": [
+    -1.6939,
+    49.6642
+   ],
+   "open": "1944-07-06",
+   "section": "Cotentin Peninsula/Brittany Breakout",
+   "note": "Wikipedia table gives 1945-07-06; Johnson 1944-07-06",
+   "johnson": "Querqueville, Fr",
+   "src": [
+    "johnson-1988"
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-22",
@@ -628,11 +651,11 @@
    "open": "1944-07-13",
    "section": "Normandy campaign",
    "note": "",
-   "status": "sourced",
+   "johnson": "Colleville, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-24",
@@ -650,11 +673,11 @@
    "open": "1944-07-17",
    "section": "Cotentin Peninsula/Brittany Breakout",
    "note": "",
-   "status": "sourced",
+   "johnson": "Biniville, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-12",
@@ -672,11 +695,11 @@
    "open": "1944-07-18",
    "section": "Normandy campaign",
    "note": "",
-   "status": "sourced",
+   "johnson": "Lignerolles, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "B-12",
@@ -715,11 +738,11 @@
    "open": "1944-07-28",
    "section": "Normandy campaign",
    "note": "",
-   "status": "sourced",
+   "johnson": "Tour en Bessin, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-16",
@@ -737,11 +760,11 @@
    "open": "1944-08-02",
    "section": "Cotentin Peninsula/Brittany Breakout",
    "note": "",
-   "status": "sourced",
+   "johnson": "Brucheville, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-11",
@@ -759,11 +782,11 @@
    "open": "1944-08-05",
    "section": "Normandy campaign",
    "note": "",
-   "status": "sourced",
+   "johnson": "St Lambert, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-25",
@@ -781,11 +804,11 @@
    "open": "1944-08-07",
    "section": "Cotentin Peninsula/Brittany Breakout",
    "note": "",
-   "status": "sourced",
+   "johnson": "Bolleville, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-27",
@@ -803,11 +826,11 @@
    "open": "1944-08-10",
    "section": "Cotentin Peninsula/Brittany Breakout",
    "note": "",
-   "status": "sourced",
+   "johnson": "Rennes, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-28",
@@ -825,11 +848,11 @@
    "open": "1944-08-10",
    "section": "Drive to the Seine River",
    "note": "",
-   "status": "sourced",
+   "johnson": "Pcntorson, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-31",
@@ -847,11 +870,11 @@
    "open": "1944-08-11",
    "section": "Cotentin Peninsula/Brittany Breakout",
    "note": "captured 1944-08-10",
-   "status": "sourced",
+   "johnson": "Gael, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-30",
@@ -869,11 +892,11 @@
    "open": "1944-08-13",
    "section": "Cotentin Peninsula/Brittany Breakout",
    "note": "",
-   "status": "sourced",
+   "johnson": "Courtils, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-19",
@@ -891,11 +914,11 @@
    "open": "1944-08-14",
    "section": "Cotentin Peninsula/Brittany Breakout",
    "note": "",
-   "status": "sourced",
+   "johnson": "La Vielle, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-29",
@@ -913,11 +936,11 @@
    "open": "1944-08-14",
    "section": "Cotentin Peninsula/Brittany Breakout",
    "note": "",
-   "status": "sourced",
+   "johnson": "St James, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-49",
@@ -935,11 +958,11 @@
    "open": "1944-08-15",
    "section": "Drive to the Seine River",
    "note": "",
-   "status": "sourced",
+   "johnson": "Bei1le, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-26",
@@ -957,11 +980,11 @@
    "open": "1944-08-16",
    "section": "Cotentin Peninsula/Brittany Breakout",
    "note": "",
-   "status": "sourced",
+   "johnson": "Gorges, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-17",
@@ -979,11 +1002,11 @@
    "open": "1944-08-17",
    "section": "Cotentin Peninsula/Brittany Breakout",
    "note": "",
-   "status": "sourced",
+   "johnson": "Meautis, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "B-15",
@@ -1199,11 +1222,11 @@
    "open": "1944-08-21",
    "section": "Drive to the Seine River",
    "note": "",
-   "status": "sourced",
+   "johnson": "Laval, Fr (circa)",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-50",
@@ -1221,11 +1244,11 @@
    "open": "1944-08-24",
    "section": "Drive to the Seine River",
    "note": "",
-   "status": "sourced",
+   "johnson": "Orleans/Bricy, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-20",
@@ -1243,11 +1266,11 @@
    "open": "1944-08-25",
    "section": "Cotentin Peninsula/Brittany Breakout",
    "note": "",
-   "status": "sourced",
+   "johnson": "Lessay, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-39",
@@ -1265,11 +1288,11 @@
    "open": "1944-08-26",
    "section": "Drive to the Seine River",
    "note": "",
-   "status": "sourced",
+   "johnson": "Chateaudun, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-40",
@@ -1287,11 +1310,11 @@
    "open": "1944-08-26",
    "section": "Drive to the Seine River",
    "note": "",
-   "status": "sourced",
+   "johnson": "Chartres, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-41",
@@ -1309,11 +1332,11 @@
    "open": "1944-08-26",
    "section": "Drive to the Seine River",
    "note": "",
-   "status": "sourced",
+   "johnson": "Dreux, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-34",
@@ -1331,11 +1354,11 @@
    "open": "1944-08-27",
    "section": "Drive to the Seine River",
    "note": "",
-   "status": "sourced",
+   "johnson": "Gorron, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-56",
@@ -1353,56 +1376,12 @@
    "open": "1944-08-27",
    "section": "Pursuit to the German border",
    "note": "opening date looks early for a field near Amiens, which the Allies reached on 31 August (verify)",
+   "johnson": "Le Hamil, Fr",
+   "src": [
+    "johnson-1988"
+   ],
    "fixed": true,
-   "status": "verify",
-   "src": [
-    "wp-alg",
-    "johnson-1988"
-   ]
-  },
-  {
-   "code": "A-46",
-   "name": "Toussus-le-Noble",
-   "side": 0,
-   "nat": "US",
-   "xy": [
-    534.28,
-    259.49
-   ],
-   "lonlat": [
-    2.1061,
-    48.7514
-   ],
-   "open": "1944-08-28",
-   "section": "Drive to the Seine River",
-   "note": "captured 1944-08-26",
-   "status": "sourced",
-   "src": [
-    "wp-alg",
-    "johnson-1988"
-   ]
-  },
-  {
-   "code": "A-47",
-   "name": "Orly",
-   "side": 0,
-   "nat": "US",
-   "xy": [
-    554.35,
-    262.8
-   ],
-   "lonlat": [
-    2.3794,
-    48.7233
-   ],
-   "open": "1944-08-28",
-   "section": "Drive to the Seine River",
-   "note": "",
-   "status": "sourced",
-   "src": [
-    "wp-alg",
-    "johnson-1988"
-   ]
+   "status": "verify"
   },
   {
    "code": "A-18",
@@ -1420,11 +1399,11 @@
    "open": "1944-08-29",
    "section": "Cotentin Peninsula/Brittany Breakout",
    "note": "",
-   "status": "sourced",
+   "johnson": "St Jean de Daye, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-33",
@@ -1442,11 +1421,11 @@
    "open": "1944-08-29",
    "section": "Cotentin Peninsula/Brittany Breakout",
    "note": "",
-   "status": "sourced",
+   "johnson": "Vannes, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-48",
@@ -1464,11 +1443,11 @@
    "open": "1944-08-29",
    "section": "Drive to the Seine River",
    "note": "",
-   "status": "sourced",
+   "johnson": "Bretigny, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-53",
@@ -1486,11 +1465,11 @@
    "open": "1944-08-29",
    "section": "Drive to the Seine River",
    "note": "",
-   "status": "sourced",
+   "johnson": "Issy les Moulineaux, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-54",
@@ -1508,11 +1487,11 @@
    "open": "1944-08-29",
    "section": "Pursuit to the German border",
    "note": "",
-   "status": "sourced",
+   "johnson": "Le Bourget, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-42",
@@ -1530,11 +1509,55 @@
    "open": "1944-08-30",
    "section": "Drive to the Seine River",
    "note": "",
-   "status": "sourced",
+   "johnson": "Villacoublay, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
+  },
+  {
+   "code": "A-46",
+   "name": "Toussus-le-Noble",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    534.28,
+    259.49
+   ],
+   "lonlat": [
+    2.1061,
+    48.7514
+   ],
+   "open": "1944-08-30",
+   "section": "Drive to the Seine River",
+   "note": "captured 1944-08-26; Wikipedia table gives 1944-08-28; Johnson 1944-08-30",
+   "johnson": "Toussus le Noble, Fr",
+   "src": [
+    "johnson-1988"
+   ],
+   "status": "sourced"
+  },
+  {
+   "code": "A-47",
+   "name": "Orly",
+   "side": 0,
+   "nat": "US",
+   "xy": [
+    554.35,
+    262.8
+   ],
+   "lonlat": [
+    2.3794,
+    48.7233
+   ],
+   "open": "1944-08-30",
+   "section": "Drive to the Seine River",
+   "note": "Wikipedia table gives 1944-08-28; Johnson 1944-08-30",
+   "johnson": "Or ly, Fr",
+   "src": [
+    "johnson-1988"
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-52",
@@ -1553,11 +1576,12 @@
    "section": "Pursuit to the German border",
    "note": "coordinates in the table lie 104 km from Etampes; placed at the town, Mondesir field lies just southwest (inference)",
    "fixed": true,
-   "status": "verify",
+   "johnson": "Etampes/Mondesir, Fr",
    "src": [
-    "wp-alg",
-    "johnson-1988"
-   ]
+    "johnson-1988",
+    "wp-alg"
+   ],
+   "status": "verify"
   },
   {
    "code": "A-43",
@@ -1575,11 +1599,11 @@
    "open": "1944-08-31",
    "section": "Drive to the Seine River",
    "note": "",
-   "status": "sourced",
+   "johnson": "St Marceau, Fr",
    "src": [
-    "wp-alg",
     "johnson-1988"
-   ]
+   ],
+   "status": "sourced"
   },
   {
    "code": "A-51",
@@ -1598,11 +1622,12 @@
    "section": "Cotentin Peninsula/Brittany Breakout",
    "note": "coordinates in the table lie 563 km from Morlaix; placed at the town (inference)",
    "fixed": true,
-   "status": "verify",
+   "johnson": "Nbrlaix, Fr (circa)",
    "src": [
-    "wp-alg",
-    "johnson-1988"
-   ]
+    "johnson-1988",
+    "wp-alg"
+   ],
+   "status": "verify"
   }
  ],
  "german": [
@@ -1757,21 +1782,6 @@
    ]
   },
   {
-   "code": "A-47",
-   "name": "Orly",
-   "side": 1,
-   "xy": [
-    554.35,
-    262.8
-   ],
-   "heldUntil": "1944-08-28",
-   "status": "inference",
-   "note": "established airfield; held by the Germans until the Allies took the area, the date taken as the first Allied use",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
    "code": "A-33",
    "name": "Vannes",
    "side": 1,
@@ -1823,6 +1833,21 @@
    "xy": [
     541.19,
     257.15
+   ],
+   "heldUntil": "1944-08-30",
+   "status": "inference",
+   "note": "established airfield; held by the Germans until the Allies took the area, the date taken as the first Allied use",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "A-47",
+   "name": "Orly",
+   "side": 1,
+   "xy": [
+    554.35,
+    262.8
    ],
    "heldUntil": "1944-08-30",
    "status": "inference",

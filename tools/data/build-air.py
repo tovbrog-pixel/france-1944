@@ -73,6 +73,21 @@ for f in fields:
     elif 2 <= n <= 11: f['open'], f['ellis'] = '1944-07-01', ('inference', 'Ellis p. 305: ten completed airfields in the British sector at 0900 on 1 July, nine in RAF use; taken as B-2 to B-11 from the sequential numbering')
     elif 15 <= n <= 23: f['open'], f['ellis'] = '1944-08-20', ('inference', 'Ellis pp. 403, 481: eleven airfields in use on 7 August and 23 by the end of August; B-15 to B-23 placed between, day chosen by Claude')
     elif n >= 24: f['open'], f['ellis'] = '1944-09-05', ('inference', 'beyond the 23 RAF airfields Ellis counts by the end of August (p. 481); placed in early September')
+# US opening dates from Johnson (1988), Part I, which Tov downloaded on 22 Nov 2026 (sources/pdf)
+JT = open('sources/pdf/johnson-1988-usaaf-continental-airfields.txt').read()
+js = JT.find('PART I - NUMERICAL LISTING'); JP = JT[js:JT.find('PART II', js)]
+JOH = {}
+for m in re.finditer(r'^\s*([AYR]-\s?\d+[A-Z]?)\s+(.+?)\s{2,}(c\s*\.\s*)?(\d{1,2}-[0-9Il]{1,2}-4[45])\b', JP, re.M):
+    code = m.group(1).replace(' ', ''); d = m.group(4).replace('I', '1').replace('l', '1'); dd, mm, yy = d.split('-')
+    JOH.setdefault(code, {'name': m.group(2).strip(), 'open': '19%s-%02d-%02d' % (yy, int(mm), int(dd)), 'approx': bool(m.group(3))})
+if 'A-23' not in [f['code'] for f in fields] and 'A-23' in JOH:   # Querqueville: in Johnson, no coordinates in the Wikipedia tables
+    fields.append({'code': 'A-23', 'name': 'Querqueville', 'side': 0, 'nat': 'US', 'xy': game(-1.69, 49.665), 'lonlat': [-1.69, 49.665], 'open': None, 'section': 'Johnson', 'note': 'position from general knowledge of the airfield west of Cherbourg (verify)', 'fixed': True})
+for f in fields:
+    j = JOH.get(f['code'])
+    if not j: continue
+    if f['open'] != j['open']: f['note'] = ((f['note'] + '; ') if f['note'] else '') + 'Wikipedia table gives %s; Johnson %s' % (f['open'], j['open'])
+    f['open'] = j['open']; f['johnson'] = j['name'] + (' (circa)' if j['approx'] else '')
+    f['src'] = ['johnson-1988'] if not f.get('fixed') else ['johnson-1988', 'wp-alg']
 seen = {}; out = []
 for f in fields:
     if f['code'] in seen: continue
@@ -105,8 +120,8 @@ air = {'title': 'Allied advanced landing grounds in the slice, opened by 1 Septe
   'sources': [
    {'id': 'wp-alg', 'title': 'Wikipedia, Advanced landing ground (wikitext, sources/raw/wp-advanced-landing-ground.txt)', 'url': 'https://en.wikipedia.org/wiki/Advanced_landing_ground', 'read': '2026-11-22', 'free': True,
     'note': 'Secondary. The US tables cite Johnson (1988); the RAF table cites aerosteles.net and other sites.'},
-   {'id': 'johnson-1988', 'title': 'David C. Johnson, U.S. Army Air Forces Continental Airfields (ETO), D-Day to V-E Day, AFHRA 1988', 'read': None, 'free': True,
-    'note': 'Cited by the Wikipedia tables; the AFHRA PDF could not be downloaded on 22 Nov 2026, so the figures are not yet checked against it.'},
+   {'id': 'johnson-1988', 'title': 'David C. Johnson, U.S. Army Air Forces Continental Airfields (ETO), D-Day to V-E Day, USAF Historical Research Center, 1 Dec 1988', 'url': 'https://www.dafhistory.af.mil/Portals/16/documents/Timelines/World%20War%20II/usaaf_european_airfields.pdf', 'read': '2026-11-22', 'free': True,
+    'note': 'Part I gives each US field its initial operational date (used here); Part III lists the British B-fields without dates. Text in sources/pdf.'},
    {'id': 'aaf-iii', 'title': 'Craven and Cate, The Army Air Forces in World War II, vol. III', 'url': 'https://archive.org/details/Vol3EuropeArgumentToVEDay', 'read': '2026-11-22', 'free': True},
    {'id': 'ellis-1', 'title': 'L. F. Ellis, Victory in the West, vol. I (1962)', 'url': 'https://archive.org/details/victory-west-vol-1', 'read': '2026-11-22', 'free': True}],
   'notes': ['open is the date the table gives the field as opened or operational. RAF fields mostly lack dates; B-1 to B-30 are kept as Normandy and Seine fields (inference from the sequential numbering) and marked verify.',
