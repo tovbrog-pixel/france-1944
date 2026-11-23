@@ -29,6 +29,8 @@ function load() {
   const ovp = path.join(d, 'overlays-1944.json'); G.overlays = fs.existsSync(ovp) ? JSON.parse(fs.readFileSync(ovp, 'utf8')) : null;
   G.roads = j('roads.json'); G.rail = j('rail-1944.json') || j('rail.json');   // the 1944 network when built (tools/data/rail1944.py)
   G.rivers = j('rivers.json'); G.towns = j('towns.json'); G.canals = j('canals.json');
+  // 1944 names for communes merged since the war (data/network/town-names-1944.json); towns.json keeps today's names
+  const N44 = (j('town-names-1944.json') || {}).names || {}; if (G.towns && G.towns.towns) for (const t of G.towns.towns) if (N44[t.name]) { t.name_today = t.name_today || t.name; t.name = N44[t.name]; }
   return G;
 }
 

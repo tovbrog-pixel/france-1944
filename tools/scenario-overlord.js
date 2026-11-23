@@ -65,11 +65,7 @@ const beachFor = (nat, corps) => nat === 'US' || nat === 'FR' ? (US_UTAH.test(co
 function makeOverlord(cs) {
   const base = SCENARIOS.find(s => s.id === 'falaise');
   const m = realMap(Object.assign({ cs }, WIN));
-  // the towns file carries today's commune names; merged communes take back their 1944 town names (Claude's list)
-  const OLD = { 'Cherbourg-en-Cotentin': 'Cherbourg', 'Carentan-les-Marais': 'Carentan', 'Vire Normandie': 'Vire', 'Souleuvre en Bocage': 'Le Beny-Bocage', 'Condé-en-Normandie': 'Condé-sur-Noireau',
-    'Tinchebray-Bocage': 'Tinchebray', 'Passais Villages': 'Passais', "Livarot-Pays-d'Auge": 'Livarot', "Mézidon Vallée d'Auge": 'Mézidon', 'Domfront en Poiraie': 'Domfront', 'Terre-et-Marais': 'Sainteny',
-    'Pont-Audemer': 'Pont-Audemer', 'Bayeux': 'Bayeux', 'Thue et Mue': 'Bretteville-l\'Orgueilleuse', 'Le Hom': 'Thury-Harcourt', 'Val de Drôme': 'Dampierre', 'Saint-Lô': 'Saint-Lô' };
-  for (const t of m.towns) if (OLD[t[0]]) t[0] = OLD[t[0]];
+  // town names: realmap.js applies the 1944 names in data/network/town-names-1944.json
   const J = f => JSON.parse(fs.readFileSync(path.join(ROOT, f), 'utf8'));
   const A = J('oob/allied-1944.json'), G = J('oob/german-1944.json'), T = J('oob/attachments-1944.json');
   const corpsOf = (id, date) => { const r = T.rows.filter(q => q.div === id && q.from <= date).sort((a, b) => a.from < b.from ? -1 : 1); return r.length ? r[r.length - 1].corps : (T.rows.find(q => q.div === id) || {}).corps; };

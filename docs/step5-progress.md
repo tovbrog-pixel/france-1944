@@ -118,7 +118,7 @@ Batches now run on GitHub Actions: `.github/workflows/ai-batch.yml` runs 20 seed
 
 ## Town names
 
-The towns file joined the 1936 census to today's commune list, so communes merged after the war showed their new names (Carentan-les-Marais, Vire Normandie). `tools/data/network.py` now takes each merged commune's former chief town from geo.api.gouv.fr's delegated communes and keeps today's name in `name_today`; a short hand list finishes two-step mergers such as Cherbourg. The network workflow on GitHub Actions rebuilds `data/network/towns.json` with the change.
+The towns file joined the 1936 census to today's commune list, so communes merged after the war showed their new names (Carentan-les-Marais, Vire Normandie). `data/network/town-names-1944.json` lists 42 such communes with the name of each former chief town, and `tools/realmap.js` shows the 1944 name while keeping today's in `name_today`. The list is Claude's, from general knowledge, and needs checking against the INSEE Code officiel géographique. An automatic lookup through geo.api.gouv.fr's delegated communes returned nothing when the network workflow ran on 23 November, so the list stands in for it.
 
 ## Screenshots
 
