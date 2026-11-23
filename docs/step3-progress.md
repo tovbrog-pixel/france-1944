@@ -2,7 +2,7 @@
 
 Tov Binyamin Brog · 22 Nov 2026
 
-Step 3 is complete. The engine runs 43% faster at the France game's unit count, corps and army commanders split one order among their formations without crossing routes, formations travel by rail or road behind the front before deploying, divisions fight as regiments of battalions, corps commanders react during the battle, and fighter-bombers hunt columns. A synthetic theater of 200 divisions ran at 847 times real time in Claude's workspace. All eight Lines of Advance scenarios still give results identical to the original engine.
+Step 3 is complete. The engine runs 43% faster at the France game's unit count, corps and army commanders split one order among their formations without crossing routes, formations travel by rail or road behind the front before deploying, divisions fight as regiments of battalions, corps commanders react during the battle, fighter-bombers hunt columns, and airfields and a troop carrier fleet carry the air war forward. A synthetic theater of 200 divisions ran at 847 times real time in Claude's workspace. All eight Lines of Advance scenarios still give results identical to the original engine.
 
 ## Done
 
@@ -51,6 +51,27 @@ Every half hour a corps or army commander reviews an order in progress. These ar
 | 116. Panzer-Division road move, 19 km | Night only: waited 12 hours under cover, then moved after dark |
 | Allied column under threat forced to 1, 20 seeds | 2 attacks in 29.8 daylight column-hours, 0.07 per hour against the 0.12 setting; a small sample |
 | Test rail line cut near its middle | Commander switched from rail to trucks; 4 more interdiction cuts in 40 hours kept the line closed |
+
+## Airfields and air transport
+
+Added after Tov asked about airfields and air transport. New `engine/src/air.js`, building on the engine's existing air bases, airborne drops and supply drops:
+
+- **Airfields** have a capacity in air groups and a condition. Fields in England sit off the map, so their aircraft fly the full distance to every target.
+- **Building:** engineers build a landing ground in their own ground in 72 engineer-battalion hours. It bases 3 groups.
+- **Capture:** a field overrun by the enemy is lost; groups there lose 30% of the aircraft on the ground and fall back. The captor gets the field at condition 0.2, and his engineers repair it.
+- **Moving forward:** every 6 hours the air commander moves a group to a field with room that is at least 40 km nearer the fighting. The group is out of action for a day while it moves.
+- **Troop carrier fleet:** one pool of transport aircraft serves airborne lifts, the engine's supply drops (40 aircraft each) and airlifts of supply to forward airfields. Each aircraft flies one lift a day.
+- **Airborne operations:** a division in England drops after 6 hours of preparation, in as many daily lifts as the fleet allows, headquarters and infantry first. Lifts wait for flying weather and daylight unless ordered by night.
+- **Refit:** an airborne division withdrawn from the line refits in England for 14 days before it can drop again.
+
+| Air test (Falaise copies, `tools/test-air2.js`) | Result |
+| --- | --- |
+| Allied groups based off the map in England; one engineer battalion builds a landing ground | Ready after 72 hours; at the next air review 3 groups moved onto it, up to its capacity |
+| German field inside Allied-held ground | Overrun within 2 hours; JG 1 / JG 26 lost 2 aircraft on the ground and fell back to the other field; the Allies gained the field at condition 0.2 |
+| US airborne division (13 battalions, 448 aircraft needed) with a 400-aircraft fleet | Lift 1 at 6 hours: 11 units on 388 aircraft; lift 2 at 30 hours: the last 2 units; all within 1.3 km of the drop zone on average |
+| Supply drop requested for a formation | Fleet down 40 aircraft |
+| 100 aircraft land supply at a forward airfield | New supply source there with 20 units |
+| Division withdrawn to refit | New drop refused until the refit ends 14 days later |
 
 ## Theater-scale stress test
 
@@ -140,7 +161,8 @@ One formation in each command test halted with "no route" on the Falaise map. Th
 | Item | Where it goes |
 | --- | --- |
 | Columns, release points and regiment symbols drawn on the map | Step 5, the playable slice's interface |
-| Player's air plan setting interdiction priorities | Step 5 interface; the engine side is in place |
+| Player's air plan: interdiction priorities, landing-ground sites, airborne operations, airlifts | Step 5 interface; the engine side is in place |
+| June 1944 airfields and group bases, England and Normandy; troop carrier fleet size | Step 4 data |
 | Moves by sea (reinforcements, coastal moves) | Step 4 data, using the engine's existing sea arrivals |
 | Regimental commanders with their own ratings; corps artillery and separate battalions | Step 4 order-of-battle data |
 | The 1944 road and rail network and real terrain | Step 4 data |
@@ -158,6 +180,8 @@ One formation in each command test halted with "no route" on the Falaise map. Th
 | Division template structures | General knowledge of 1944 tables of organization | To verify in step 4 against FM 101-10, TM-E 30-451 and British war establishments |
 | Battalions as fighting units, regiments as a command level | Tov's decision in chat, 22 Nov 2026 | Decided |
 | Command AI, air, theater and time-step results | `tools/test-command-ai.js`, `tools/test-air.js`, `tools/theater.js`, `tools/timestep.js`, run 22 Nov 2026 | Measured |
+| Airfield and air transport test results | `tools/test-air2.js`, run 22 Nov 2026 | Measured |
+| Airfield build, repair, capacity, rebasing, lift and refit values | Design values chosen for this first version | Starting values for testing |
 | Command review values, air attack rates and losses, night-move threshold, interdiction and repair times | Design values chosen for this first version | Starting values for testing |
 | Laptop speed at theater size | 847 times real time scaled by the laptop's measured ratio | Inference |
 | Transport test results | `tools/test-transport.js`, `tools/test-transport2.js`, run 22 Nov 2026 | Measured |

@@ -128,6 +128,8 @@ The player allocates air and support at army group and army level. Division comm
 | Engineer bridging | Army | River crossings; the Rhine needs the most |
 | French Resistance and Fortitude deception | Scripted, shaped by player choices | Delays German reserves |
 
+**Airfields and transport aircraft.** Air groups fly from airfields in England at first, and the distance to the front costs them time over the target. Engineers build landing grounds in the lodgment, captured fields need repair, and air commanders move groups forward as fields open. One troop carrier fleet serves airborne lifts, supply drops and airlifts of supply to forward airfields, one lift per aircraft per day; airborne divisions refit in England between operations.
+
 The German AI holds its own levers: V-weapons against Antwerp, Operation Bodenplatte on 1 January 1945, fuel shortages and Hitler's no-retreat orders. V-weapon attacks that the Allies leave unanswered, by bombing the launch sites or overrunning the launch areas, cost standing in London.
 
 ## Map, terrain and rendering
