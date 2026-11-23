@@ -80,18 +80,29 @@ for r, u in sorted(urls.items()):
                     'w/highway=trunk,primary,secondary,tertiary', 'w/railway=rail,disused,abandoned,razed,narrow_gauge,preserved',
                     'w/waterway=canal,river', 'n/place=city,town'], check=True)
     filtered.append(fo); os.remove(pbf); print('filtered', r)
-merged = TMP + '/all.osm.pbf'
-subprocess.run(['osmium', 'merge', '-O', '-o', merged] + filtered, check=True)
-seq = TMP + '/all.geojsonseq'
-subprocess.run(['osmium', 'export', '-O', '-f', 'geojsonseq', '-o', seq, merged], check=True)
-
+seqs = []
+for fo in filtered:
+    sq = fo.replace('.f.osm.pbf', '.geojsonseq')
+    r = subprocess.run(['osmium', 'export', '-O', '-f', 'geojsonseq', '--add-unique-id=type_id', '-o', sq, fo], capture_output=True, text=True)
+    if r.returncode: print('osmium export failed', fo, r.stderr[-2000:]); raise SystemExit(1)
+    seqs.append(sq)
 roads = {1: [], 2: [], 3: []}; rails = {}; canals = []; rivnames = []; places = []
 drop = {'yard', 'siding', 'spur', 'crossover'}
-with open(seq) as f:
-    for ln in f:
-        ln = ln.strip('\x1e\n ')
-        if not ln: continue
-        ft = json.loads(ln); p = ft.get('properties', {}); g = ft.get('geometry')
+seen = set()
+def features():
+    for sq in seqs:
+        with open(sq) as f:
+            for ln in f:
+                ln = ln.strip('\x1e\n ')
+                if not ln: continue
+                ft = json.loads(ln); fid = ft.get('id') or ft.get('properties', {}).get('@id')
+                if fid is not None:
+                    if fid in seen: continue
+                    seen.add(fid)
+                yield ft
+if True:
+    for ft in features():
+        p = ft.get('properties', {}); g = ft.get('geometry')
         if not g: continue
         if g['type'] == 'Point':
             if p.get('place') in ('city', 'town') and p.get('name'):

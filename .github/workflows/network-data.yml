@@ -20,6 +20,11 @@ jobs:
           python-version: '3.12'
       - run: sudo apt-get update && sudo apt-get install -y osmium-tool
       - run: pip install pyproj shapely openpyxl pyshp
+      - run: echo "WEEK=$(date +%G-%V)" >> $GITHUB_ENV
+      - uses: actions/cache@v4
+        with:
+          path: ${{ runner.temp }}/network
+          key: network-src-${{ env.WEEK }}
       - run: python tools/data/network.py data/network
       - name: Commit results
         run: |
