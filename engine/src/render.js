@@ -12,7 +12,7 @@ function createRenderer(S, glCanvas, ovCanvas, opt) {
   const FW = map.W * 2 + 1, FH = map.H * 2 + 1, fine = new Float32Array(FW * FH), fs = cs / 2; let maxEl = 1;
   for (let j = 0; j < FH; j++) for (let i = 0; i < FW; i++) { const x = Math.min(map.w - .01, i * fs), y = Math.min(map.h - .01, j * fs), t = map.tAt(x, y); let e = t === T.SEA ? -70 : Math.max(1, map.elevAt(x, y)); if (t === T.BEACH) e = Math.min(e, 3); if (t === T.RIVER) e = Math.max(1, e - 6); fine[j * FW + i] = e; if (e > maxEl) maxEl = e; }
   // smooth the coastline: blur the sea mask and blend elevations across it
-  if (sc.sea) { let mk = new Float32Array(FW * FH); for (let c = 0; c < FW * FH; c++) mk[c] = fine[c] < 0 ? 1 : 0; for (let k = 0; k < 3; k++) { const o = new Float32Array(FW * FH); for (let j = 0; j < FH; j++) for (let i = 0; i < FW; i++) { let a = 0, n = 0; for (let dj = -1; dj <= 1; dj++) for (let di = -1; di <= 1; di++) { const x = i + di, y = j + dj; if (x >= 0 && y >= 0 && x < FW && y < FH) { a += mk[y * FW + x]; n++; } } o[j * FW + i] = a / n; } mk = o; }
+  if (sc.sea || sc.raster) { let mk = new Float32Array(FW * FH); for (let c = 0; c < FW * FH; c++) mk[c] = fine[c] < 0 ? 1 : 0; for (let k = 0; k < 3; k++) { const o = new Float32Array(FW * FH); for (let j = 0; j < FH; j++) for (let i = 0; i < FW; i++) { let a = 0, n = 0; for (let dj = -1; dj <= 1; dj++) for (let di = -1; di <= 1; di++) { const x = i + di, y = j + dj; if (x >= 0 && y >= 0 && x < FW && y < FH) { a += mk[y * FW + x]; n++; } } o[j * FW + i] = a / n; } mk = o; }
     for (let c = 0; c < FW * FH; c++) { const b = mk[c]; if (b > .5) fine[c] = -70 * (b - .5) * 2 - .5; else if (b > 0) fine[c] = Math.max(1, Math.max(1, fine[c]) * (1 - 2 * b) + 2); } }
   // carve river valleys and wadis into the relief (visual only; the simulation grid is unchanged)
   (function carve() {
@@ -109,7 +109,7 @@ function createRenderer(S, glCanvas, ovCanvas, opt) {
           if (pts.length >= 2) fr.push([pts[0], pts[1]]); if (pts.length === 4) fr.push([pts[2], pts[3]]); }
         R.own.front = fr; };
     }
-    if (sc.sea) { const w = new THREE.Mesh(new THREE.PlaneGeometry(map.w, map.h), new THREE.MeshPhongMaterial({ color: 0x92c6ea, transparent: true, opacity: .7, shininess: 12, specular: 0x1a2630, emissive: 0x16304a })); w.rotation.x = -Math.PI / 2; w.position.set(map.w / 2, 0, map.h / 2); scene.add(w); }
+    if (sc.sea || sc.raster) { const w = new THREE.Mesh(new THREE.PlaneGeometry(map.w, map.h), new THREE.MeshPhongMaterial({ color: 0x92c6ea, transparent: true, opacity: .7, shininess: 12, specular: 0x1a2630, emissive: 0x16304a })); w.rotation.x = -Math.PI / 2; w.position.set(map.w / 2, 0, map.h / 2); scene.add(w); }
     const tb = new THREE.Mesh(new THREE.PlaneGeometry(map.w + 400, map.h + 400), new THREE.MeshLambertMaterial({ color: 0x24221e })); tb.rotation.x = -Math.PI / 2; tb.position.set(map.w / 2, -.2, map.h / 2); tb.receiveShadow = true; scene.add(tb);
     const fr = new THREE.Mesh(new THREE.BoxGeometry(map.w + 1.2, .14, map.h + 1.2), new THREE.MeshLambertMaterial({ color: 0x3a3229 })); fr.position.set(map.w / 2, -.13, map.h / 2); scene.add(fr);
   })();

@@ -1,0 +1,183 @@
+// Step 5 vertical slice: Operation Overlord, 6 June to 1 September 1944, built from the step 4 data.
+// Map: Brest to Paris, the Channel coast to the Loire (slice game km). Forces: data/oob (arrival dates, positions, entry
+// points, commanders, corps attachments), data/air (airfields open on the start date, troop carrier fleets).
+// Every placement rule that goes beyond the sources is marked "inference" below and in docs/step5-progress.md.
+// node tools/scenario-overlord.js [cs] [hours]       AI against AI, headless
+const E = require('./load-engine')(), { createSim, SCENARIOS, divForm } = E;
+const realMap = require('./realmap');
+const fs = require('fs'), path = require('path');
+const ROOT = path.join(__dirname, '..', 'data');
+const WIN = { x0: 30, y0: 110, w: 600, h: 330 };
+const START = '1944-06-06T00:00', END = '1944-09-01T00:00';
+const hrs = (date, hh) => (Date.parse(date + 'T' + String(hh == null ? 12 : hh).padStart(2, '0') + ':00Z') - Date.parse(START + 'Z')) / 3.6e6;
+const W = (x, y) => [+(x - WIN.x0).toFixed(2), +(y - WIN.y0).toFixed(2)];   // slice km -> window km
+const clampIn = p => [Math.min(WIN.w - 1.5, Math.max(1.5, p[0])), Math.min(WIN.h - 1.5, Math.max(1.5, p[1]))];
+
+// beaches, drop zones and objectives in slice km, converted from latitude and longitude with pyproj (EPSG:4326 -> 2154)
+const P = { utah: [297.0, 177.9], omahaW: [316.4, 183.7], omahaE: [321.6, 185.7], gold: [341.3, 188.6], juno: [350.7, 189.4], sword: [360.7, 194.2],
+  dz82: [286.7, 178.6], dz101: [292.5, 182.3], dz6: [362.6, 201.7], mulberryB: [337.0, 187.8] };
+// the six assault divisions and three airborne divisions of 6 June (H-Hour 0630 for the US beaches, about an hour later for the
+// British and Canadian; airborne times from Craven and Cate p. 143 and Ellis). First-day objective lines are Claude's reading of
+// the D-Day objectives in Harrison and Ellis (inference).
+const ASSAULT = {
+  'us-4id': { mode: 'sea', t: 6.5, at: 'utah', obj: [[289, 186], [295, 186]] },
+  'us-1id': { mode: 'sea', t: 6.5, at: 'omahaE', obj: [[322, 196], [330, 196]] },
+  'us-29id': { mode: 'sea', t: 7, at: 'omahaW', obj: [[310, 195], [318, 195]] },
+  'uk-50id': { mode: 'sea', t: 7.5, at: 'gold', obj: [[334, 199], [343, 199]] },
+  'ca-3id': { mode: 'sea', t: 7.75, at: 'juno', obj: [[346, 204], [353, 204]] },
+  'uk-3id': { mode: 'sea', t: 7.5, at: 'sword', obj: [[352, 205], [358, 205]] },
+  'us-101ab': { mode: 'air', t: 2, at: 'dz101', night: 1 },
+  'us-82ab': { mode: 'air', t: 1.4, at: 'dz82', night: 1 },
+  'uk-6ab': { mode: 'air', t: .8, at: 'dz6', night: 1 } };
+// where each German division went when committed: the place its sourced arrival note names (data/oob/german-1944.json);
+// the point chosen for that place is Claude's (inference). Divisions without an entry keep to the staff AI near where they stand.
+const Q = {caumont: [322.5, 215.5], odon: [347.5, 212.2], stsylvain: [365.5, 220.8], tilly: [336.1, 207.3], carentanSW: [289.4, 192.7], cerisy: [314.3, 204.0], periers: [290.3, 202.7], elbeuf: [455.2, 198.1], chartres: [488.3, 292.3], montebourg: [282.7, 168.9], sourdeval: [311.7, 256.2], cauS: [354.7, 215.9], stloW: [301.3, 202.2], vireW: [299.5, 207.7], rouenS: [458.2, 193.8], orneE: [365.5, 200.7], hayedupuits: [269.8, 190.5], brecey: [302.6, 246.8], lemans: [391.2, 339.7], brest: [46.3, 273.8], caenN: [354.5, 202.5], carpiquet: [348.5, 206.7], stloS: [301.2, 217.8]};
+const GDEST = { 'ge-1st-ss-panzer': 'cauS', 'ge-2nd-panzer': 'caumont', 'ge-2nd-ss-panzer': 'stloS', 'ge-9th-panzer': 'lemans', 'ge-9th-ss-panzer': 'odon', 'ge-10th-ss-panzer': 'odon',
+  'ge-12th-ss-panzer': 'carpiquet', 'ge-21st-panzer': 'caenN', 'ge-116th-panzer': 'stsylvain', 'ge-panzer-lehr': 'tilly', 'ge-17th-ss-panzer-grenadier': 'carentanSW', 'ge-2nd-parachute': 'brest',
+  'ge-3rd-parachute': 'cerisy', 'ge-5th-parachute': 'periers', 'ge-16th-luftwaffe-field': 'caenN', 'ge-17th-luftwaffe-field': 'elbeuf', 'ge-48th': 'chartres', 'ge-77th': 'montebourg',
+  'ge-84th': 'sourdeval', 'ge-85th': 'cauS', 'ge-89th': 'cauS', 'ge-265th': 'stloW', 'ge-266th': 'vireW', 'ge-271st': 'odon', 'ge-272nd': 'cauS', 'ge-275th': 'periers', 'ge-276th': 'tilly',
+  'ge-277th': 'odon', 'ge-326th': 'caumont', 'ge-331st': 'rouenS', 'ge-346th': 'orneE', 'ge-353rd': 'hayedupuits', 'ge-363rd': 'brecey', 'ge-708th': 'lemans' };
+// the sourced date is when a division reached the front, so it sets out earlier by an estimated march: panzer divisions about
+// 150 km a day moving by night, others about 35 km a day, plus 6 hours to form up (inference; the engine then runs the actual move)
+const marchH = (tpl, a, b) => Math.hypot(a[0] - b[0], a[1] - b[1]) / (tpl === 'ge_pz' ? 150 : 35) * 24 + 6;
+// Hitler's standing orders held the divisions on the Normandy front where they stood until he allowed the withdrawal from the
+// Falaise pocket on 16 August (general history, to verify against Blumenson). Divisions sent to a sector hold it until then.
+const HOLD_UNTIL = '1944-08-16';
+// AI phase lines (game setting, calibrated to the historical front; inference). Until Cobra the AI army groups fight the lodgment
+// battle north of Lessay - St-Lo - Caumont - south of Caen; until 1 August they go no farther than Avranches in the west and the
+// Caen plain in the east. A player's own formations are not bound by them.
+const PHASES = [{ until: '1944-07-25', line: [[200, 206], [270, 206], [290, 207], [301.5, 214], [322.5, 218], [355, 219], [368, 211], [460, 211]] },
+  { until: '1944-08-01', line: [[200, 292], [330, 292], [338, 236], [355, 226], [460, 226]] }];
+// fighting quality (game setting, inference): veteran and green divisions by their 1944 record in general history
+const XP = { 'us-1id': 1.05, 'us-9id': 1.05, 'us-82ab': 1.1, 'us-101ab': 1.05, 'us-2ad': 1.05, 'uk-7ad': 1, 'uk-50id': 1, 'uk-51id': 1, 'uk-6ab': 1.05,
+  'ge-1st-ss-panzer': 1.15, 'ge-2nd-ss-panzer': 1.1, 'ge-9th-ss-panzer': 1.1, 'ge-10th-ss-panzer': 1.1, 'ge-12th-ss-panzer': 1.15, 'ge-panzer-lehr': 1.15, 'ge-2nd-panzer': 1.1,
+  'ge-21st-panzer': 1, 'ge-116th-panzer': 1.05, 'ge-17th-ss-panzer-grenadier': 1, 'ge-2nd-parachute': 1.1, 'ge-3rd-parachute': 1.1, 'ge-5th-parachute': .95, 'ge-352nd': 1 };
+const xpOf = d => XP[d.id] || (/^ge-.*luftwaffe/.test(d.id) ? .75 : /^ge-(7\d\d|709|711|716|243|265|266|343)/.test(d.id) ? .85 : /^ge-/.test(d.id) ? .95 : .9);
+const GSTAY = /^ge-(2nd-parachute|343rd)$/;   // the Brest garrison stays in the fortress (Blumenson; arrival notes)
+// follow-up divisions land over the beach of the corps they joined (inference: the sources give the date, not the beach)
+const US_UTAH = /^(VII|VIII|XV|XX|XII)$/;
+const beachFor = (nat, corps) => nat === 'US' || nat === 'FR' ? (US_UTAH.test(corps || '') ? 'utah' : 'omahaE') : /Canadian/.test(corps || '') ? 'juno' : /^I$/.test(corps || '') ? 'sword' : 'gold';
+
+function makeOverlord(cs) {
+  const base = SCENARIOS.find(s => s.id === 'falaise');
+  const m = realMap(Object.assign({ cs }, WIN));
+  // the towns file carries today's commune names; merged communes take back their 1944 town names (Claude's list)
+  const OLD = { 'Cherbourg-en-Cotentin': 'Cherbourg', 'Carentan-les-Marais': 'Carentan', 'Vire Normandie': 'Vire', 'Souleuvre en Bocage': 'Le Beny-Bocage', 'Condé-en-Normandie': 'Condé-sur-Noireau',
+    'Tinchebray-Bocage': 'Tinchebray', 'Passais Villages': 'Passais', "Livarot-Pays-d'Auge": 'Livarot', "Mézidon Vallée d'Auge": 'Mézidon', 'Domfront en Poiraie': 'Domfront', 'Terre-et-Marais': 'Sainteny',
+    'Pont-Audemer': 'Pont-Audemer', 'Bayeux': 'Bayeux', 'Thue et Mue': 'Bretteville-l\'Orgueilleuse', 'Le Hom': 'Thury-Harcourt', 'Val de Drôme': 'Dampierre', 'Saint-Lô': 'Saint-Lô' };
+  for (const t of m.towns) if (OLD[t[0]]) t[0] = OLD[t[0]];
+  const J = f => JSON.parse(fs.readFileSync(path.join(ROOT, f), 'utf8'));
+  const A = J('oob/allied-1944.json'), G = J('oob/german-1944.json'), T = J('oob/attachments-1944.json');
+  const corpsOf = (id, date) => { const r = T.rows.filter(q => q.div === id && q.from <= date).sort((a, b) => a.from < b.from ? -1 : 1); return r.length ? r[r.length - 1].corps : (T.rows.find(q => q.div === id) || {}).corps; };
+  const cmdAt = (d, date) => { const c = (d.commanders || []).filter(q => q.from <= date); return (c.length ? c[c.length - 1] : (d.commanders || [])[0] || { name: 'Commander' }).name; };
+  const forms = [], log = [];
+
+  // ---- Allied divisions: every division whose arrival date falls before 1 September
+  for (const d of A.divisions) {
+    if (!d.arrive || d.arrive >= END.slice(0, 10)) continue;
+    const a = ASSAULT[d.id], corps = corpsOf(d.id, d.arrive), nat = d.nat || 'US';
+    const at = a ? P[a.at] : P[beachFor(nat, corps)];
+    const land = W(at[0], at[1] + (a && a.mode === 'air' ? 0 : 2.5));       // a sea landing forms up 2.5 km inland of the waterline
+    const t = a ? a.t : hrs(d.arrive, 12);
+    const f = divForm({ tpl: d.tpl, s: 0, n: d.name, cmd: cmdAt(d, d.arrive), ag: nat === 'US' ? .55 : .45, sk: .6, xp: xpOf(d), regs: (d.regs || []).slice(0, 3), x: land[0], y: land[1] });
+    if (nat === 'FR') f.nat = 'US';                      // 2e DB fought on US equipment and organisation
+    f.arr = a && a.mode === 'air' ? { t, mode: 'air', from: W(at[0] + 60, 60), night: a.night } : { t, mode: 'sea', from: W(at[0], at[1] - 18) };
+    if (a && a.obj) f.ai = [{ t: t + 1, path: [], line: a.obj.map(p => W(p[0], p[1])) }];
+    f.corps = corps || null; forms.push(f); log.push([d.id, 'Allied', a ? a.mode + ' assault' : 'sea, ' + (corps || '?') + ' Corps', t.toFixed(1)]);
+  }
+
+  // ---- German divisions. Rules (inference, Claude's): a division with a 6 June position starts there and is free to move
+  // from its sourced arrival date; static infantry already on the coast holds a line at its position, dug in. A division with
+  // only an arrival record enters by road at its entry point on that date. Entry points outside the window move to its edge.
+  for (const d of G.divisions) {
+    const p0 = d.position0606 && d.position0606.xy, a = d.arrive || {};
+    if (!p0 && !(a.date && a.entry)) { log.push([d.id, 'German', 'not in the slice', '-']); continue; }
+    if (a.date && a.date >= END.slice(0, 10)) continue;
+    const regs = ['1', '2', '3'], cmd = d.cmd || 'Kommandeur';
+    if (p0) {
+      const [x, y] = clampIn(W(p0[0], p0[1])), dest = GDEST[d.id] && Q[GDEST[d.id]], fr = Math.max(0, a.date ? hrs(a.date, 12) - (dest ? marchH(d.tpl, p0, dest) : 0) : 0);
+      const f = divForm({ tpl: d.tpl, s: 1, n: d.name, cmd, ag: .5, sk: .65, xp: xpOf(d), regs, x, y });
+      const coast = d.tpl === 'ge_inf' && (!a.date || a.date <= '1944-06-06');
+      if (coast) { f.line = [[x - 5, y], [x + 5, y]]; f.dug = 1; f.free = 0; } else f.free = fr;
+      if (GDEST[d.id]) { const q = W(Q[GDEST[d.id]][0], Q[GDEST[d.id]][1]); f.ai = [{ t: Math.max(.5, fr), path: [], line: [[q[0] - 4, q[1]], [q[0] + 4, q[1]]] }]; f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); }
+      if (coast) { f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); }
+      if (GSTAY.test(d.id)) f.stay = 1;
+      forms.push(f); log.push([d.id, 'German', coast ? 'holds at 6 June position' : 'at 6 June position, free from', coast ? '0' : fr.toFixed(0)]);
+    } else {
+      const [x, y] = clampIn(W(a.entry.xy[0], a.entry.xy[1])), dest = GDEST[d.id] && Q[GDEST[d.id]], t = Math.max(1, hrs(a.date, 12) - (dest ? marchH(d.tpl, a.entry.xy, dest) : 0));
+      const f = divForm({ tpl: d.tpl, s: 1, n: d.name, cmd, ag: .5, sk: .65, xp: xpOf(d), regs, x, y }); f.arr = { t, mode: 'road' };
+      if (GDEST[d.id]) { const q = W(Q[GDEST[d.id]][0], Q[GDEST[d.id]][1]); f.ai = [{ t: t + 1, path: [], line: [[q[0] - 4, q[1]], [q[0] + 4, q[1]]] }]; if (t < hrs(HOLD_UNTIL, 0)) { f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); } }
+      forms.push(f); log.push([d.id, 'German', 'road entry', t.toFixed(0)]);
+    }
+  }
+
+  // ---- objectives: towns of 10,000 or more in the 1936 census, weighted by size, plus the named objectives of the plan
+  const named = { 'Carentan': 10, 'Cherbourg': 30, 'Caen': 30, 'Saint-Lô': 20, 'Brest': 25, 'Paris': 40, 'Avranches': 15, 'Bayeux': 15, 'Carentan': 10, 'Falaise': 15, 'Le Mans': 15, 'Rennes': 15, 'Rouen': 15 };
+  // largest first; a town within 10 km of a larger objective counts as its suburb and is left out (inference: keeps Paris one objective)
+  const vp = [], cand = m.towns.map(t => [t, named[t[0]] || named[t[0].replace(/-en-Cotentin$/, '')] || (t[3] >= 3 ? 20 : t[3] >= 2 ? 10 : 0)]).filter(q => q[1]).sort((a, b) => b[1] - a[1] || b[0][3] - a[0][3]);
+  for (const [t, pts] of cand) if (!vp.some(v => Math.hypot(v[1] - t[1], v[2] - t[2]) < (v[3] >= 40 ? 16 : 10))) vp.push([t[0].replace(/-en-Cotentin$/, ''), t[1], t[2], pts, 1]);
+  // stepping stones for the staff AI: smaller towns at least 12 km from any other objective, 3 points each (inference)
+  for (const t of m.towns) if (t[3] === 1 && !vp.some(v => Math.hypot(v[1] - t[1], v[2] - t[2]) < 12)) vp.push([t[0], t[1], t[2], 3, 1]);
+  for (const [n, xy] of [['Avranches', [319.3, 287.8]], ['Carentan', [302.3, 192.6]]]) if (!vp.some(v => v[0].startsWith(n))) { const q = W(xy[0], xy[1]); vp.push([n, q[0], q[1], named[n], 1]); }   // towns under 10,000 the plan named (positions: pyproj, inference)
+
+  // ---- supply: beach dumps open an hour or two after each landing; Mulberry B from 16 June (Ruppenthal p. 406, first vehicles
+  // over the pierheads). Stocks and rates are game settings (inference). German depots stand on the routes in from the east and south.
+  const src = (n, xy, t, stock, rate) => { const q = W(xy[0], xy[1] + .5); return { n, x: q[0], y: q[1], t, stock, rate }; };   // dumps at the head of the beach
+  const alliedSrc = [src('Utah beach dumps', P.utah, 8, 30, 3), src('Omaha beach dumps', P.omahaE, 9, 30, 3), src('Gold beach dumps', P.gold, 9, 30, 3),
+    src('Juno beach dumps', P.juno, 9, 30, 3), src('Sword beach dumps', P.sword, 9, 30, 3), src('Mulberry B', P.mulberryB, hrs('1944-06-16', 8), 40, 4)];
+  const gSrc = [['Paris depots (OB West)', [545, 250]], ['Rouen', [432, 172]], ['Alencon', [415, 290]], ['Le Mans', [410, 345]], ['Rennes', [270, 330]], ['Brest', [50, 272]]]
+    .map(([n, xy]) => { const q = clampIn(W(xy[0], xy[1])); return { n, x: q[0], y: q[1], stock: 60, rate: 2 }; });
+  // Cherbourg opens after it is held and cleared: first discharge about 16 July after capture on 26-27 June (general history,
+  // verify against Ruppenthal ch. XI); 456 hours of clearing.
+  const cb = vp.find(v => v[0] === 'Cherbourg');
+  const ports = cb ? [{ vp: 'Cherbourg', s: 0, n: 'Cherbourg port', x: cb[1], y: cb[2], rate: 5, stock: 50, clear: 456 }] : [];
+
+  // ---- naval gunfire support for the assault (ships by beach from general history; verify)
+  const ship = (k, n, xy) => { const q = W(xy[0], xy[1] - 9); return { k, n, x: q[0], y: q[1], t: 0 }; };
+  const pool = [ship('nav15', 'USS Nevada (Force U)', P.utah), ship('nav15', 'USS Texas and Arkansas (Force O)', P.omahaW), ship('nav6', 'HMS Ajax and Argonaut (Force G)', P.gold),
+    ship('nav6', 'HMS Belfast and Diadem (Force J)', P.juno), ship('nav15', 'HMS Warspite and Ramillies (Force S)', P.sword)];
+
+  const air = realMap.airAt(START.slice(0, 10), Object.assign({ cs }, WIN));
+  const off = [{ n: 'Airfields in southern England', x: 300 - WIN.x0, y: 0, kind: 'offmap' }, { n: 'Fields beyond the Seine', x: WIN.w - 12, y: 120, kind: 'offmap' }];
+  const gGroups = [['JG 2 and JG 26 (Air Corps II)', 'bf109', 48, 0, 'cap'], ['Fighter reinforcements from Germany', 'fw190', 36, 0, 'cas'], ['KG 54 and KG 66', 'ju88', 24, 1, 'strat']];   // game groups scaled to Ellis's 319 operational aircraft (inference)
+  const sides = base.sides.map((sd, s) => Object.assign({}, sd, {
+    name: s ? 'OB West: Seventh Army and Panzer Group West' : 'Allied Expeditionary Force: 21st Army Group',
+    rear: s ? [0, 1] : [0, -1], pocket: s ? true : undefined, posture: s ? 'defend' : 'attack', assets: s ? [] : sd.assets || [],
+    sources: s ? gSrc : alliedSrc, pool: s ? [] : pool, bases: [off[s]].concat(air.bases[s]), transport: { aircraft: air.transport[s] }, groups: s ? gGroups : sd.groups }));
+
+  // 12-hour weather periods: the storm of 19-22 June from Ruppenthal p. 406; D-Day overcast; the rest drawn with a fixed seed (inference)
+  const nP = Math.ceil(hrs(END.slice(0, 10), 0) / 12), weather = []; let r = 7;
+  for (let i = 0; i < nP; i++) { r = (r * 16807) % 2147483647; const u = r / 2147483647, day = new Date(Date.parse(START + 'Z') + i * 12 * 3.6e6).toISOString().slice(0, 10);
+    weather.push(day >= '1944-06-19' && day <= '1944-06-22' ? 'rain' : day === '1944-06-06' ? 'overcast' : u < .55 ? 'clear' : u < .85 ? 'cloud' : u < .95 ? 'overcast' : 'rain'); }
+  const beach = Object.values({ utah: P.utah, omahaW: P.omahaW, omahaE: P.omahaE, gold: P.gold, juno: P.juno, sword: P.sword }).map(b => { const q = W(b[0], b[1]); return [q[0] - 4, q[1] - 3, q[0] + 4, q[1] + 3]; });
+
+  const sc = Object.assign({}, base, m, { id: 'overlord', title: 'Overlord: D-Day to the Seine', sub: 'Normandy and Brittany, 6 June to 1 September 1944', start: START, hours: hrs(END.slice(0, 10), 0),
+    ownCell: 1, detourKm: 14, phaseLines: PHASES.map(q => ({ s: 0, until: hrs(q.until, 6), line: q.line.map(p => W(p[0], p[1])) })), view: { x: 292, y: 86, dist: 95, pitch: 1.35 }, modules: ['transport', 'air'], forest: [], rough: [], marsh: [], bridges: [], vp, ports, beach, weather, sides, forms, front: { all: 1 }, thin: undefined, halt: undefined, mines: undefined,
+    brief: ['Land the six assault divisions and three airborne divisions, join the beachheads, take Caen and Cherbourg, break out into Brittany and drive to the Seine.',
+      'Throw the landings back while the beachhead is shallow. Hold Caen and the bocage, bring up the panzer divisions, and keep the Allies out of the ports.'],
+    hist: 'Historically Caen held until 9 July and Cherbourg fell on 26-27 June. Operation Cobra broke out at St-Lo on 25 July, the Falaise pocket closed on 19-21 August, Paris was liberated on 25 August, and the Allies stood on the Seine by the end of the month.' });
+  sc.buildLog = log;
+  return sc;
+}
+// historical capture dates for the AI-vs-AI comparison (general history, to verify against Blumenson and Ellis)
+const MILESTONES = [['Carentan', '1944-06-12'], ['Cherbourg', '1944-06-26'], ['Caen', '1944-07-09'], ['Saint-Lô', '1944-07-18'], ['Coutances', '1944-07-28'], ['Avranches', '1944-07-30'],
+  ['Rennes', '1944-08-04'], ['Le Mans', '1944-08-08'], ['Nantes', '1944-08-12'], ['Orléans', '1944-08-16'], ['Falaise', '1944-08-17'], ['Chartres', '1944-08-18'], ['Paris', '1944-08-25'], ['Rouen', '1944-08-30'], ['Brest', '1944-09-19']];
+module.exports = makeOverlord; module.exports.MILESTONES = MILESTONES; module.exports.WIN = WIN; module.exports.START = START;
+
+if (require.main === module) {
+  const cs = +(process.argv[2] || 1), hours = +(process.argv[3] || 72), seed = +(process.argv[4] || 12345);
+  const t0 = Date.now(), sc = makeOverlord(cs), S = createSim(sc, -1, seed, {}); S.setup();
+  const nA = sc.forms.filter(f => f.s === 0).length, nG = sc.forms.filter(f => f.s === 1).length;
+  console.log('Overlord: ' + sc.w + ' x ' + sc.h + ' km, cell ' + cs + ' km; roads ' + sc.roads.length + ', rail ' + sc.rails.length + ', towns ' + sc.towns.length + ', objectives ' + sc.vp.length + ', bridges ' + S.map.bridges.length);
+  console.log('  ' + nA + ' Allied and ' + nG + ' German divisions, ' + S.subs.length + ' battalions; Allied airfields ' + sc.sides[0].bases.length + ', German ' + sc.sides[1].bases.length + '; setup ' + ((Date.now() - t0) / 1000).toFixed(1) + ' s');
+  const own = () => { const c = [0, 0]; for (const v of S.vp) c[v.own]++; return c; }, names = n => S.vp.filter(v => v.own === 0).map(v => v.n);
+  let g = 0; const t1 = Date.now(), step = 60, took = {};
+  const vpOf = n => S.vp.find(v => v.n === n || v.n.startsWith(n + '-') || v.n.startsWith(n + ' '));
+  while (!S.over && g < hours * 60) { S.advance(step); g += step;
+    for (const [n] of MILESTONES) { const v = vpOf(n); if (v && v.own === 0 && !took[n]) took[n] = S.clock(S.t).slice(0, 11).trim(); }
+    if (g % (24 * 60) === 0) { const act = S.forms.filter(F => F.active && !F.dead); console.log('  ' + S.clock(S.t).slice(0, 16) + ' | ' + ((Date.now() - t1) / 1000).toFixed(0) + ' s | on map A ' + act.filter(F => F.s === 0).length + ' G ' + act.filter(F => F.s === 1).length + ' | losses ' + S.losses.map(v => v.toFixed(0)).join(' / ') + ' | objectives A ' + own()[0] + ' of ' + S.vp.length + ' | ' + names().slice(0, 8).join(', ')); } }
+  const sec = (Date.now() - t1) / 1000;
+  console.log('Milestones (game / history): ' + MILESTONES.map(([n, d]) => n + ' ' + (took[n] || '-') + ' / ' + d.slice(5)).join('; '));
+  if (process.argv[5]) fs.writeFileSync(process.argv[5], JSON.stringify({ seed, hours: g / 60, took, losses: S.losses, own: own() }));
+  console.log('Result: ' + (g / 60).toFixed(0) + ' game h in ' + sec.toFixed(1) + ' s = ' + Math.round(g * 60 / sec) + 'x real time');
+}

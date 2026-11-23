@@ -70,7 +70,7 @@ function createSim(sc, player, seed, opt) {
     let i = 0; for (const u of F.subs) { if (u.mv === 'ship') continue; const a = i * 2.4, rr = r * (.3 + .7 * ((i * .37) % 1)); const p = map.snap(u.mvi, x + Math.cos(a) * rr, y + Math.sin(a) * rr, 6) || [x, y]; u.x = p[0]; u.y = p[1]; i++; }
   }
   sc.forms.forEach((fs, fi) => {
-    const F = { id: fi, s: fs.s, nat: fs.nat, n: fs.n, cmd: { n: fs.cmd, ag: clamp(fs.ag + (rnd() - .5) * (.08 + .08 * VR), .2, .98), sk: clamp(fs.sk + (rnd() - .5) * (.08 + .08 * VR), .3, .98), why: fs.why || '' }, xp: (fs.xp || 1) * dfS(fs.s).xp, subs: [], hq: null, order: null, stock: 0, cap: 0, active: false, dead: false, arr: fs.arr || null, ai: fs.ai ? fs.ai.map(a => ({ t: a.t > 2 ? a.t * (.92 + rnd() * .22) * plan[fs.s].tm * dfS(fs.s).arr : a.t, path: a.path, line: a.line })) : null, aiI: 0, res: !!fs.res, hold: !!fs.hold, stay: !!fs.stay, rearPt: fs.rear || null, freeT: (fs.free != null ? fs.free : (sc.sides[fs.s].free || 0)) * 60, x: fs.x, y: fs.y, cx: fs.x, cy: fs.y, halt: false, assaultT: 0, evalT: 0, msgT: 0, casCd: 0, airMsgT: 0, convT: 0, convoy: null, isolated: false, isoMsgT: 0, paraT: 0, status: '', nextT: fi * .37, bridge: null, needEng: false, dis: 0, jamT: 0, jamMsgT: 0, haltT: 0, rerouteT: 0, fired: 0, fallT: 0, idleT: 0, led: {}, ledN: {}, att: null };
+    const F = { id: fi, s: fs.s, nat: fs.nat, n: fs.n, cmd: { n: fs.cmd, ag: clamp(fs.ag + (rnd() - .5) * (.08 + .08 * VR), .2, .98), sk: clamp(fs.sk + (rnd() - .5) * (.08 + .08 * VR), .3, .98), why: fs.why || '' }, xp: (fs.xp || 1) * dfS(fs.s).xp, subs: [], hq: null, order: null, stock: 0, cap: 0, active: false, dead: false, arr: fs.arr || null, ai: fs.ai ? fs.ai.map(a => ({ t: a.t > 2 ? a.t * (.92 + rnd() * .22) * plan[fs.s].tm * dfS(fs.s).arr : a.t, path: a.path, line: a.line })) : null, aiI: 0, res: !!fs.res, hold: !!fs.hold, stay: !!fs.stay, stayUntil: fs.stayUntil || 0, rearPt: fs.rear || null, freeT: (fs.free != null ? fs.free : (sc.sides[fs.s].free || 0)) * 60, x: fs.x, y: fs.y, cx: fs.x, cy: fs.y, halt: false, assaultT: 0, evalT: 0, msgT: 0, casCd: 0, airMsgT: 0, convT: 0, convoy: null, isolated: false, isoMsgT: 0, paraT: 0, status: '', nextT: fi * .37, bridge: null, needEng: false, dis: 0, jamT: 0, jamMsgT: 0, haltT: 0, rerouteT: 0, fired: 0, fallT: 0, idleT: 0, led: {}, ledN: {}, att: null };
     for (const sp of fs.sub) { const a = sp.split('|'); F.subs.push(mkSub(F, a[0], a[1], a[2] ? +a[2] : 1, fs.x, fs.y)); }
     // regiments, brigades and combat commands: groups of the division's battalions (France 1944 scenarios only)
     if (fs.regs) { F.regs = fs.regs.map(r => ({ n: r.n, role: r.role || 'man', subs: r.idx.map(i => F.subs[i]).filter(Boolean) })); for (const R of F.regs) for (const u of R.subs) u.reg = R; }
@@ -500,7 +500,7 @@ function createSim(sc, player, seed, opt) {
       if (u.needPath && S.pb > 0 && S.t - u.pathT > (u.noPath ? 30 : .5)) {
         S.pb--; u.pathT = S.t; const p = map.findPath(u.mvi, u.x, u.y, u.goal[0], u.goal[1]);
         // a formation crosses as one body: a route far longer than the direct line (a blown bridge sends everyone round by the next crossing) is refused and reported
-        let far = false; if (p && !u.det && u.state !== 'retreat' && u.slot && u.goal === u.slot) { let L = 0, px = u.x, py = u.y; for (const q of p) { L += Math.hypot(q[0] - px, q[1] - py); px = q[0]; py = q[1]; } const d0 = Math.hypot(u.goal[0] - u.x, u.goal[1] - u.y); if (d0 > 1.2 && L > d0 * 1.9 + 5) far = true; }
+        let far = false; if (p && !u.det && u.state !== 'retreat' && u.slot && u.goal === u.slot) { let L = 0, px = u.x, py = u.y; for (const q of p) { L += Math.hypot(q[0] - px, q[1] - py); px = q[0]; py = q[1]; } const d0 = Math.hypot(u.goal[0] - u.x, u.goal[1] - u.y); if (d0 > 1.2 && L > d0 * 1.9 + (sc.detourKm || 5)) far = true; }
         if (far) { u.noPath = true; u.path = null; u.detour = S.t; u.needPath = true; }
         else if (p) { u.path = p; u.pi = 0; u.needPath = false; u.noPath = false; u.detour = 0; if (p.length > 1 && Math.hypot(p[0][0] - u.x, p[0][1] - u.y) < map.cs * .8) u.pi = 1; } else { u.noPath = true; u.path = null; }
       }
@@ -885,6 +885,7 @@ function createSim(sc, player, seed, opt) {
 
   // ---------- operational AI ----------
   function autoOrder(F, tx, ty, useThreat, oo) {
+    if (S.phaseBlock(F, tx, ty)) return false;
     const L = leads(F); if (!L.length) return false; let k = 0; for (const u of L) if (u.mvi > k) k = u.mvi; let threat = null;
     if (useThreat) { threat = new Float32Array(N); const r = Math.ceil(3 / map.cs); for (const e of S.subs) if (e.s !== F.s && e.active && !e.dead && known(e)) { const ci = Math.floor(e.x / map.cs), cj = Math.floor(e.y / map.cs); for (let dj = -r; dj <= r; dj++) for (let di = -r; di <= r; di++) { const i = ci + di, j = cj + dj; if (i >= 0 && j >= 0 && i < map.W && j < map.H && di * di + dj * dj <= r * r) threat[j * map.W + i] += 3; } } }
     centroid(F); let p = map.findPath(k, F.cx, F.cy, tx, ty, { threat }); if (!p) return false;
@@ -908,6 +909,11 @@ function createSim(sc, player, seed, opt) {
     return false;
   }
   // a scenario boundary that some formations may not cross before a set hour (Falaise: XV Corps held at Argentan, 13 August)
+  // phase lines a scenario sets for the AI: until the hour given, staff-run formations of that side take no objective beyond the line
+  // (y greater than the line at that x). The France campaign uses them to hold the AI army groups to the lodgment battle.
+  S.phaseBlock = function (F, x, y) { const P = sc.phaseLines; if (!P || (F.s === player && !F.staff)) return false;
+    for (const q of P) { if (q.s !== F.s || S.t >= q.until * 60) continue; const L = q.line; let ly = L[L.length - 1][1]; if (x <= L[0][0]) ly = L[0][1]; else for (let i = 1; i < L.length; i++) if (x <= L[i][0]) { ly = L[i - 1][1] + (L[i][1] - L[i - 1][1]) * (x - L[i - 1][0]) / (L[i][0] - L[i - 1][0]); break; } if (y > ly) return true; }
+    return false; };
   S.haltBlock = function (F, x, y) { const h = sc.halt; return !!(h && F.s === h.s && S.t < h.until * 60 && new RegExp(h.re).test(F.n) && y < h.y); };
   // the staff follows the formation's plan from here on, and picks its own objectives when the plan runs out
   S.setStaff = function (F, on) { if (!F || F.s !== player) return false; F.staff = !!on; F.idleT = 0; if (on && F.ai) { let i = 0; while (i < F.ai.length && F.ai[i].t * 60 < S.t - 30) i++; F.aiI = Math.max(F.aiI, i); } if (on && F.order && F.order.st === 'done') F.order.doneT = -1e9; return true; };
@@ -947,6 +953,7 @@ function createSim(sc, player, seed, opt) {
       const side = !!S.ai[s], mine = S.forms.filter(F => F.s === s && F.active && !F.dead), run = side ? mine : mine.filter(F => F.staff);
       for (const F of mine) if (F.isolated) { if (F.isoT == null) F.isoT = S.t; } else F.isoT = null;
       for (const F of run) {
+        if (F.stayUntil && F.stay && S.t >= F.stayUntil * 60) { F.stay = false; F.stayUntil = 0; }   // a standing order to hold that lapses at a set hour (France: Hitler's no-withdrawal orders)
         if (F.ai && (side || F.staff)) while (F.aiI < F.ai.length && S.t >= F.ai[F.aiI].t * 60) { const a = F.ai[F.aiI++], alt = side ? altTarget(F, a) : null; if (!(alt && autoOrder(F, alt.x, alt.y, false, { free: true, stretch: true }))) S.issueOrder(F, a.path, a.line, { free: true, stretch: true }); }
         // a main effort stalled for twelve hours shifts to the objective where the known enemy is weakest
         if (side && sc.sides[s].posture === 'attack' && F.order && F.order.st === 'active' && F.order.bestT != null && S.t - F.order.bestT > 720 && S.t > (F.replT || 0) && !F.stay && !F.hold && !AIRB.test(F.n)) { F.replT = S.t + 720; let best = null, bs = 1e9;
@@ -971,7 +978,7 @@ function createSim(sc, player, seed, opt) {
             if (v.own === s && E > .3 && E > D * 1.1) { const sc0 = d - 22 - v.pts * .5 - Math.min(8, (E - D) * 2); if (sc0 < bd) { bd = sc0; tgt = v; pre = null; } }
             else if (v.own !== s && v.orig === s && !atk && d < 15) { const E3 = powNear(1 - s, v.x, v.y, 3, true); if (fp > E3 * 1.3) { const sc0 = d - 18 - v.pts * .5; if (sc0 < bd) { bd = sc0; tgt = v; pre = null; } } } }
           for (const v of S.vp) { const d = Math.hypot(v.x - F.cx, v.y - F.cy);
-            if (v.own !== s) { if (F.spent || F.hold || F.stay) continue; const ok = atk ? (S.strength(F) > .55 && d < plan[s].rng) : (F.res && v.orig === s && d < 22); if (ok && mine.filter(G => G !== F && G.tgtVP === v && G.order && G.order.st !== 'done').length < 2 && d - v.pts * .3 < bd) { bd = d - v.pts * .3; tgt = v; } }
+            if (v.own !== s) { if (F.spent || F.hold || F.stay || S.phaseBlock(F, v.x, v.y)) continue; const ok = atk ? (S.strength(F) > .55 && d < plan[s].rng) : (F.res && v.orig === s && d < 22); if (ok && mine.filter(G => G !== F && G.tgtVP === v && G.order && G.order.st !== 'done').length < 2 && d - v.pts * .3 < bd) { bd = d - v.pts * .3; tgt = v; } }
             else if (F.res || !O || (S.learn && !F.hold && !F.stay && !F.spent)) { const preOnly = !(F.res || !O); let thr = false, held = false; for (const u of S.subs) if (u.active && !u.dead) { const dd = Math.hypot(u.x - v.x, u.y - v.y); if (u.s !== s && known(u) && dd < 4) thr = true; if (u.s === s && u.f !== F && LEADCLS[u.cls] && dd < 2) held = true; } if (!preOnly && thr && !held && d < 25 && d - 20 < bd && d > 1.5) { bd = d - 20; tgt = v; pre = null; } else if (S.learn && !thr && !held && d < 25 && d > 1.5 && v.heat && v.heat[s] >= 1.2 && d - 6 - v.heat[s] * 4 < bd) { bd = d - 6 - v.heat[s] * 4; tgt = v; pre = v; } } }
           // a formation with a supply road goes to the relief of an encircled neighbour within 30 km
           let rel = null; if (sc.sides[s].pocket && !F.isolated && !F.hold && !F.stay && !F.spent && S.strength(F) > .55) for (const G of mine) if (G !== F && G.isolated && S.t - G.isoT >= 120 && mine.filter(H => H.relG === G && H.order && H.order.st !== 'done').length < 2) { const d = Math.hypot(G.cx - F.cx, G.cy - F.cy); if (d > 6 && d < 30 && d - 25 < bd) { bd = d - 25; rel = G; tgt = null; } }
@@ -1217,6 +1224,8 @@ function createSim(sc, player, seed, opt) {
     for (let j = 1; j < h - 1; j++) for (let i = 1; i < g - 1; i++) { const c = j * g + i; if (P[0][c] || P[1][c]) continue; let n = 0; for (let dj = -1; dj <= 1; dj++) for (let di = -1; di <= 1; di++) if ((di || dj) && b[c + dj * g + di] !== b[c]) n++; if (n >= 6) OW.a[c] = 1 - b[c]; }
   }
   const own0At = (x, y) => S.own0[clamp(Math.floor(y / OW.cw), 0, OW.gh - 1) * OW.gw + clamp(Math.floor(x / OW.cw), 0, OW.gw - 1)];
-  S.setup = function () { S.mkBenches(); arrivals(); aiTick(); for (const F of S.forms) cmdTick(F); combatTick(); initOwn(); if (!sc.front) ownTick(false); S.own0 = OW.a.slice(); };
+  S.setup = function () { S.mkBenches(); arrivals(); aiTick(); for (const F of S.forms) cmdTick(F); combatTick(); initOwn(); if (!sc.front) ownTick(false); S.own0 = OW.a.slice(); 
+    // step 3 modules a scenario asks for (the France campaign: road and rail moves, the air war); the older scenarios run without them
+    for (const m of sc.modules || []) { const fn = { transport: typeof attachTransport === 'function' && attachTransport, air: typeof attachAir === 'function' && attachAir, command: typeof attachCommand === 'function' && attachCommand }[m]; if (fn) fn(S); } };
   return S;
 }
