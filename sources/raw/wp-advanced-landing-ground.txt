@@ -1,0 +1,3179 @@
+{{Short description|World War II temporary airfields}}
+{{More footnotes needed|date=February 2020}}
+{{Use British English|date=April 2019}}
+{{Use dmy dates|date=November 2020}}
+{{Infobox military installation
+| name            = Advanced Landing Ground (ALG)
+| ensign          = [[File:Ensign of the Royal Air Force.svg|90px]] [[File:Patch9thusaaf.png|60px]]
+| location        = UK, France, Netherlands, Belgium, Occupied Germany, Austria, Czechoslovakia
+| coordinates     =
+| image           = A-41-Dreux-Jul1944.jpg
+| caption         = Photo of the runway at Advanced Landing Ground A-43 (St Marceau, France) being constructed by IX Engineering Command, August 1944
+| type            = Military airfield
+| code            = 
+| built           = 1944–1945
+| builder         = 
+| materials       = 
+| height          = 
+| in_use          = 
+| demolished      = 
+| condition       = 
+| owner           = 
+| controlled_by   = [[Royal Air Force]]<br />[[United States Army Air Forces]]
+| garrison        = 
+| past_commanders = 
+| occupants       = [[RAF Second Tactical Air Force]]<br />[[United States Air Forces Central|Ninth Air Force]]<br />[[Twelfth Air Force]]
+| battles         = [[European Theatre of World War II]] 
+}}
+{{geoGroup}}
+'''Advanced landing grounds''' ('''ALGs''') were temporary [[advance airfield]]s constructed by the [[Allies of World War II|Allies]] during [[World War II]] during the liberation of Europe. They were built in the UK prior to the invasion and thereafter in [[Western Front (WWII)#1944–45: The Second Front|northwest Europe]] from 6 June 1944 to [[Victory in Europe Day|V-E Day]], 7 May 1945.
+
+Unlike the permanent airfields built in the [[United Kingdom]] and designed for the [[Strategic bombing|strategic bombardment of Germany]], the tactical combat airfields on the continent were temporary, often improvised airfields to be used by the tactical air forces to support the advancing ground armies engaged on the battlefield. Once the front line moved out of range for the aircraft, the groups and squadrons moved up to newly built ALGs closer to the ground forces and left the ones in the rear for other support uses, or simply abandoned them.
+
+==Overview==
+When the Allies invaded [[Normandy]] on [[D-Day]], Royal Air Force Airfield Construction Service engineers were among those in the initial assault waves. Their mission was to rapidly construct forward operating airfields, known as '''advanced landing grounds (ALGs)''', on the [[European continent]]. As the Allied armies advanced across [[France]] and into [[Nazi Germany]], several hundred airfields were built or rehabilitated for use by the allied air forces.
+
+For security reasons, the airstrips were referred to by a coded number instead of location. In the [[United Kingdom]], USAAF installations were identified by three digit (AAF) numbers ranging from AAF-101 to AAF-925. After D-Day, continental airfields in the [[European Theater of Operations]] (ETO) were also assigned coded numbers. American airfields were given A-, Y-, or R-, prefixes and numbered consecutively from 1 to 99. Both "A" and "Y" designated airfields could be found in France, however many "Y" fields would also be in [[the Netherlands]], [[Belgium]] and occupied areas of Germany. "R" coded fields were usually located in [[Allied Control Council|occupied Germany]]. British airfields on the continent were also consecutively numbered, but with a B-prefix.
+
+The numbering system for airfields was sequentially assigned as airfields were allocated, not by location or by date of operational use. A-1, [[Saint-Pierre-du-Mont Airfield|Saint Pierre du Mont]], was declared operational on 13 June 1944; A-3 [[Cardonville]] on 14 June. However A-2, [[Cricqueville-en-Bessin]], was declared operational a few days later on 19 June.
+
+Also many of these airfields had no combat air group or squadron attached to them. They were designed for [[CASEVAC|casualty evacuation]] and supply transport and consisted of a quickly built runway manned only by a small complement of station personnel with little or no infrastructure other than tents. As the ground forces moved east, wounded would be sent to the airfield to be picked up by [[C-47]]s and taken to hospitals in [[England]] or other rear areas. Also supplies would be airlifted to the fields and unloaded, to be quickly transported to the front line units. These were normally known as S&E Fields (Supply and Evacuation).
+
+Once completed, airfields were usually utilised by the combat groups or squadrons within a day or so of being declared operational for military use by the IX Engineering command engineers. They would be used for perhaps a few days to a week, to several months, depending on the location, use, and operational requirements. Once the combat units moved up to the next assigned ALG, they could be utilised as S&E Fields, or deconstructed quickly and abandoned, with the land being released back to the landowners or [[Civil authority|civil authorities]] in the area.
+
+==Construction==
+[[File:IXengeering-enenemyairfield.jpg|thumb|A USAAF Engineer clearing out the wreckage of a destroyed [[Luftwaffe]] [[Messerschmitt Bf 109]] aircraft at an ALG, with a [[Lockheed P-38 Lightning]] flying overhead on landing approach]]
+The mission for constructing ALGs was placed in the hands of the Airfield Construction Service of the [[RAF Second Tactical Air Force]], whilst the USAAF's [[Ninth Air Force]] and its specially created engineering arm, the IX Engineer Command, were responsible for ALG's in the US sector of operations. Each aviation engineer battalion in the command (of a total of sixteen) was composed of sufficient men and equipment to quickly construct an airfield or landing ground for a single tactical fighter or bomb group unit.<ref name="AFE">The Air Force Engineer. Army Air Forces Engineer Command, MTO (Prov). Multiple editions. 1943–1945 (Pamphlet from USAFHRA)</ref>
+
+ALGs were selected in two ways. First, existing enemy military or civilian airfields which were captured as the ground forces advanced were noted by engineers assigned to ground units. Second, engineers noted areas in grid locations where an airfield was desired, that had flat terrain, good land drainage, and where an airfield could be constructed quickly.<ref name="AFE"/>
+
+Captured airfields could be restored for use as advanced landing field in one to three days depending upon the amount of damage and the number of mines and [[booby trap]]s encountered.<ref name="AFE"/>
+
+Dry-weather advanced landing fields were constructed by a single battalion at a favourable site in flat terrain in one to three days, including time for reconnaissance. At less favourable sites, where more clearing and grading were required, or all-weather fields which also needed additional infrastructure, the time varied from three to ten days.<ref name="AFE"/>
+
+ALGs were equipped with an [[Frontage road|access road]] that was connected to the existing road infrastructure; a dump for supplies, ammunition, and gasoline drums, along with a drinkable water and a minimal [[Electric power transmission|electrical grid]] for communications and station lighting. Tents were used for billeting and also for support facilities. Time was the all-important factor and ALGs serve its purpose if available for only a few days. As the forward area became the rear area, an advanced landing field could be improved for medium bomber use, but initially they primarily served fighter and transport groups.<ref name="AFE"/>
+
+Based on the experience obtained in the [[North African campaign|North African]] and [[Italian campaign (World War II)|Italian campaign]]s, fighter groups required an airfield 120 feet x 3600 feet long, and [[Ground attack aircraft|fighter-bomber]] groups required fields 120 feet x 5000 feet long. Medium bomb groups required 120 feet x 6000 feet runways.<ref name="AFE"/>
+
+===Runway types===
+Instead of using rough, unimproved dirt strips, engineers used surfacing material necessary to strengthen the soil to support the weight of the aircraft and as a measure of insurance against the wet weather. Airfields were initially single runway landing strips which were laid down east–west (09/27) unless local conditions dictated a different runway direction.<ref name="AFE"/>
+
+*'''[[Sommerfeld Tracking]]'''<ref name="IXEng">{{Cite web |url=http://www.ixengineercommand.com/airfields/physical.php |title=ETO Airfields Airfield Layout |access-date=8 September 2009 |archive-date=9 June 2019 |archive-url=https://web.archive.org/web/20190609090806/http://www.ixengineercommand.com/airfields/physical.php |url-status=dead }}</ref>
+ALGs laid in the UK were of Sommerfeld Tracking, a form of stiffened steel wire mesh.
+
+* '''Square-mesh track (SMT)'''<ref name="IXEng"/>
+The surfacing material selected for the building of advanced landing grounds during the first weeks after the [[Invasion of Normandy|Normandy invasion]] was known as square-mesh track (SMT). SMT, a British development, was material composed of heavy wire joined in three-inch squares. It was chosen over other surfacing materials because it was very lightweight, allowing sufficient quantities to be transported across [[English Channel|the English channel]] on over-tasked [[landing craft]]. Easily workable, a SMT landing mat for fighters could be laid like a carpet in about one week.
+
+* '''Prefabricated Hessian (PBS)'''<ref name="IXEng"/>
+After the initial batch of airfields was completed using SMT, the Army aviation engineers switched almost exclusively to another surfacing material known as prefabricated hessian (burlap) surfacing (PBS). Light and easily transportable, PBS did not create the dust problem encountered with SMT fields. Made of an asphalt-impregnated jute delivered in rolls 300 feet in length and 36&nbsp;inches or 43&nbsp;inches in width, PBS was laid in overlapping layers to produce a dust-free fair weather surface. It was also common to build airstrips using both SMT and PBS, laying SMT on top.
+
+* '''Pierced steel plank (PSP)'''<ref name="IXEng"/>
+To provide an all season durable airfield for the RAF's 2TAF and the USAF Ninth Air Force's medium and [[light bomber]]s, a third type of surfacing material known as pierced steel plank (PSP), or [[Marston Matting]] was introduced on the Normandy bridgehead in July 1944. It consisted of {{convert|10|ft|m|adj=mid|-long}}, {{convert|15|in|mm|adj=mid|-wide}} steel planks joined together and laid perpendicular to the [[line of flight]]. Long used in other theatres, PSP would have been ideal for all airfields on the continent, but its limited availability and greater weight made this impractical. Moreover, because of supply problems, construction of even a PSP fighter-bomber field could take a month or longer, while similar PBS and SMT fields could be constructed in two weeks and one week, respectively.
+
+In addition, sod and earth runways were built for emergency landing strips (ELS) and refuelling and rearming strips (R&R). Captured airfields contained a wide variety of runways, most commonly asphalt; concrete; macadam or tar-penetrated macadam.<ref name="AFE"/>
+
+===Airfield types===
+There were five main types of airfields built by the USAAF combat engineers on the continent. These were:
+
+* '''Emergency Landing Strip (ELS)'''
+Consisted of a rough, graded runway approximately 2000 feet long to provide a place for emergency belly-landings of damaged aircraft.<ref name="Johnson">Johnson (1988)</ref><ref name=Whittle>{{cite web |url=https://archive.org/details/spitpolishstoryo0000rich/page/14/mode/2up |title=Spit & Polish: The Story of a Little Known Airfield in Chailey, Sussex and Its RAF Polish Spitfire Squadrons Which Played a Vital Role in Support of the D-Day Operations of 6th June 1944 |last=Whittle |first=Richard H. |publisher=Boxer Productions |page=14 |year=2004 |access-date=18 October 2025 |website=Internet Archive}}</ref>
+
+* '''Supply and Evacuation (S&E)'''
+Usually a rough graded runway near the front line or an airfield in the rear that was used by C-47s for transport of casualties to the rear, or delivery of supplies and munitions to the front line.<ref name="Johnson"/>{{page needed |date=September 2022}}
+
+* '''Refueling and Rearming Strip (RRS)'''
+Consisted of a runway and an aircraft marshalling area on each end of the runway. It was designed to provide an airfield near the front lines upon which aircraft based in rear areas could land, be refuelled and rearmed, and take off again on a mission without having to return to their home field in the rear. Also could be used for dispersal or for when services other than refuelling or rearming was required. These airfields could be expanded into advance landing grounds by the addition of dispersal and other station facilities. Generally if an R&R strip was built, it would be sited wherever possible with a view to further expand it later into an ALG.<ref name="Johnson"/><ref name=Whittle/>
+
+* '''Advanced landing grounds (ALG)'''
+An advanced landing ground could be constructed as such from the beginning or by development from an R&R Strip by the addition of dispersal facilities, expansion of the road network and other additions to the station and technical area in order for it to be used over an extended period of time.<ref name="Johnson"/><ref name=Whittle/>
+
+* '''Tactical air depots (TAD)'''
+A number of ALGs were expanded into tactical air depots by the addition of hangars, shops, more dispersal hardstands, roads, and other facilities. Some were developed from the beginning.<ref name="Johnson"/>{{page needed |date=September 2022}}
+
+==Deployment==
+[[File:IXEngineering-psprunway.jpg|thumb|IX Engineering Command putting down a Pierced Steel Planking (PSP) Runway at an Advanced Landing Ground under construction]]
+
+Four main designations were given to ALGs on the European Continent:
+* "A" ALGs were located in France. They were constructed and used by Ninth Air Force units during the [[Invasion of Normandy]] (6 June – Mid July 1944) and during [[Operation Cobra]], the break-out from Normandy, starting on 25 July 1944 until 25 August 1944. Those in Normandy were mostly decommissioned after their combat use, however others in Central France were used in various non-combat roles until the end of the war.<ref name="Johnson"/>
+* "B" ALGs were built by American or British combat engineers for [[Royal Air Force]] use. Some of these were also used by USAAF Troop Carrier Groups and Command and Control organisations.<ref name="Johnson"/>
+* "Y" ALGs were initially located in Southeastern France, built by [[Twelfth Air Force]] engineers as part of [[Operation Dragoon]], the invasion of Southern France. Initially uncoded, they were given "Y" designations when they came under IX Engineering Command control in late 1944. ALGs were also coded "Y" in Northeastern France, Belgium; The Netherlands and Occupied Germany, after "A" coding reached 99 November 1944.<ref name="Johnson"/>
+* "R" ALGs were located in Occupied Germany. Many more were constructed than are listed here, consisting primarily of Supply and Evacuation airfields either laid down quickly in agricultural areas or on captured [[Luftwaffe]] airfields. "R" coding began after Y-coding reached 99 in April 1945.<ref name="Johnson"/>
+
+An unforeseen development was the extraordinary demand for transport, supply, and evacuation fields as the Allied armies pushed past [[Paris]] toward the German frontier. In late 1944, supplies could not keep pace with U.S. General [[Dwight D. Eisenhower]]'s forces, and to help lessen the supply shortage airfields for [[C-47 Skytrain]] cargo planes became a priority. Bringing in ammunition of all types and especially gasoline on the trip to the ALGs on the continent, the C-47s on the return trip evacuated wounded to the rear.<ref name="AFE"/>
+
+By 15 September 1944, IX Engineer Command had placed over eighty ALG airfields in operation, while British engineers had constructed 76 airfields in their zone. In [[Southern France]], another twenty or so fields had been built by American engineers from [[Air Forces Southern|Twelfth Air Force]] from the [[Mediterranean Theater of Operations]] (MTO). In October these uncoded airfields were assigned to the ETO and given ALG code numbers.<ref name="AFE"/>
+
+The stabilisation of the front lines in the Netherlands, Belgium, and eastern France in mid-September 1944, which would last into the new year, allowed aviation engineers a chance to reorganise and prepare for the upcoming winter season. As expected, they could not build new PHS and SMI airstrips during the fall rain and winter snow seasons because of the moist ground. Besides concrete, the American-made PSP was the only available surfacing material that could be laid down during this inclement weather in Europe.<ref name="AFE"/>
+
+To keep the [[Military Supply Chain Management|supply lines]] open, selected airfields in Belgium and France were therefore "winterized" with PSP. Because of the limited supply of PSP, however, only a limited number of airfields could be winterised, making it necessary to base two group sized units per airfield. But sufficient fighter-bomber and medium bomber airfields were completed that winter to ensure 2TAF and [[Ninth Air Force]] aircraft could continue flying [[Combat Missions|combat missions]].<ref name="AFE"/>
+
+The major problem affecting airfield construction in early 1945 was not the surprise [[Battle of the Bulge|German Ardennes counteroffensive]] (which caused the abandonment of only one airfield – Y-39, [[Haguenau]]). Rather, an early February thaw threatened to make airfields inoperable due to the mud and water. Using local civilian labour, engineers performed extensive maintenance on the threatened airfields and successfully resolved the crisis.<ref name="AFE"/>
+
+The renewed allied offensive in early 1945, following the [[Battle of the Bulge]], was supported in earnest by the building of tactical airfields in occupied Germany. [[Trier]] (Y-57), became the first operational tactical American airfield on German soil on 10 March 1945. When a crossing over the [[Rhine|Rhine River]] was spearheaded at [[Remagen]], Germany, a supply and evacuation strip was quickly set up to support the bridgehead. As Allied tank columns struck out rapidly into the heartland of Germany, the airfield "clutches" of the Ninth Air Force's tactical air commands moved east of the Rhine river within range of virtually any target in Germany.<ref name="AFE"/>
+
+Scores of former Luftwaffe sod and hard surfaced airfields were captured in the lightning advance through Central Germany, virtually undamaged, lessening the requirement for SMT, PHS, and PSP prefabricated surfacing. The relative lack of German military opposition in late March, April and May 1945 lessened the need for [[close air support]] and produced a greater demand for supply airstrips to keep the offensive moving. Every opportunity was used to clear captured German airfields for use along the armies' route, allowing C-47s and other transports to land with food, gas, and ammunition. The supply effort received top airfield priority. By [[V-E Day]], 9 May 1945, 76 of the 126 airfields made operational east of the Rhine river were strictly supply and evacuation fields.<ref name="AFE"/>
+
+==Summary==
+USAAF Engineers constructed or rehabilitated over 280 continental airfields in the ETO from D-Day to V-E Day. In the summer months that followed, a few new airfields were constructed, but the vast majority were abandoned and turned over to local landowners or civil governments. Throughout [[Western Europe]], as well as the airfields built by [[Twelfth Air Force|Twelfth]] and [[Fifteenth Air Force]]s in the MTO, a significant number were developed into permanent, civilian airports or [[NATO]] military bases after the war.<ref name="AFE"/>
+
+The airfield coding system remained in effect until after the [[Surrender of Japan|Japanese surrender]] in the Pacific, when, on 14 September 1945, the system was officially discontinued. Thereafter, airfields were referenced by their geographic name.<ref name="AFE"/>
+
+==Airfields==
+Only active combat ALGs are shown. Dedicated S&E, Liaison, Transport, and other non-combat airfields are not listed. Runway types are listed as follows:
+{{Col-begin}}
+{{Col-break|width=50%}}
+* ASP Asphalt
+* BRK Brick
+* CON Concrete
+* ETH Compressed earth
+* MAC Macadam
+{{Col-break|width=50%}}
+* PHS Prefabricated Hessian surfacing
+* SMT Square-mesh track
+* SOD Sod
+* PSP Pierced steel planking
+* TAR Tar-penetrated macadam
+{{Col-end}}
+Runway dimensions are in feet.
+
+===United Kingdom (Kent)===
+{{geoGroup|section=United Kingdom (Kent)}}
+Advanced landing grounds were built in [[Kent]] during 1943 and 1944 for several reasons. The first being a requirement by the allies to station short-range fighters close to the English Channel coast so missions could be undertaken to attack enemy coastal fortifications; road and rail networks and other military targets in [[Occupied France]] prior to the [[invasion of Normandy]]. Also construction of the ALGs provided necessary engineering and construction training as well as providing practical experience in the development of forward airfields which would be necessary on the continent after the invasion. The ALGs laid down in Kent had two runways, while the ones laid down in France after the invasion generally had only one strip laid down east–west for speed of construction
+
+Due to their temporary nature, the airfields were torn up and salvageable components were re-used on new ALGs in France after the assigned units were moved forward onto French ALGs after the invasion of Normandy.
+
+{|class="wikitable"
+|+Advance landing grounds in United Kingdom
+!Station name<br />(USAAF No.)
+!County
+!In use
+!
+|-
+| [[RAF Appledram]]
+| West Sussex
+|  June 1943 –July 1944
+|{{sfn|Ashworth|1985|pp=44–45}}
+|-
+| [[RAF Ashford]] (AAF-417) 
+|Kent
+|August 1943 – September 1944
+|
+|-
+|[[RAF Brenzett]] (AAF-438)
+|Kent
+|September 1943 – December 1944,
+|Initially used to relieve pressure on RAF Kingsnorth.
+From July used by [[No. 133 Wing RAF]] for operations against [[V-1 flying bomb]]s 
+|-
+| [[RAF Headcorn]] (AAF-412)
+|Kent
+| August 1943 – August 1944
+|
+|-
+| [[RAF High Halden]] (AAF-411)
+|Kent
+| April – September 1944
+|
+|-
+| [[RAF Kingsnorth (World War II)|RAF Kingsnorth]] (AAF-418)
+|Kent
+| August 1943 – September 1944
+|
+|-
+|[[RAF Lashenden]] (AAF-410)
+|Kent
+| August 1943 – September 1944
+|
+|-
+|[[RAF Lymington]] (AAF-551)
+|Hampshire
+|
+|
+|-
+|[[RAF Needs Oar Point]]
+|Hampshire
+|April 1944 - July 1944
+|
+|-
+| [[RAF Staplehurst]] (AAF-413)
+|Kent
+| August 1943 – July 1944
+|
+|-
+| [[RAF Woodchurch]] (AAF-419)
+|Kent
+| July – September 1943
+| 373rd Fighter Group 
+|}
+
+===Normandy campaign===
+{{geoGroup|section=Normandy campaign}}
+Airfields in France used in support of [[Invasion of Normandy|the invasion]] and establishment of Allied forces in [[Normandy]], France, during [[Operation Overlord]] and the immediate aftermath, 6 June – 24 July 1944
+
+{|class="wikitable"
+|-
+!
+!Operational
+!Notes
+|- valign=top
+| [[ELS-1 Poupeville]], France
+| 6 June 1944 – unknown
+|First USAAF Airfield in Liberated France.<br /> {{Coord|49|23|02|N|001|20|00|W|name=ELS Poupeville}}<br />Runway: 2000x100 SOD (05/23)<br />Emergency Landing Strip<ref name="AFE"/>
+|-
+|[[A-1 Saint-Pierre-du-Mont]], France
+| 13 June 1944 – 5 September 1944
+| Located: {{Coord|49|23|27|N|000|56|41|W|name=A-1 Saint-Pierre-du-Mont}}  
+Runway: 5000x120, SMT, (09/27)<ref name="AFE"/>
+Used by:<ref name="Squadrons">Maurer, 1982</ref>{{page needed|date=September 2022}}
+:: [[366th Fighter Group]], 17 June – 24 August 1944 ([[Republic P-47 Thunderbolt]])
+:: [[401st Fighter Squadron]], 24 July – 15 August 1944 ([[Lockheed P-38 Lightning]])
+|-
+|[[A-2 Cricqueville-en-Bessin]] (Cricqueville), France
+| 16 June 1944 – 15 September 1944
+| Located: {{Coord|49|21|57|N|001|00|26|W|name=A-2 Cricqueville-en-Bessin}} 
+: Runway: 5000x120, SMT/ETH, (17/35)<ref name="AFE"/>
+: Used by:<ref name="Groups">Maurer, 1983</ref>{{page needed|date=September 2022}}
+:: [[354th Fighter Group]], 22 June – 13 August 1944 ([[North American P-51 Mustang]])
+:: [[367th Fighter Group]], 14 August – 4 September 1944 (P-38)
+|-
+|[[A-3 Cardonville]], France
+| 14 June 1944 – 1 September 1944
+| Located: {{Coord|49|21|17|N|001|02|37|W|name=A-3 Cardonville}}   
+: Runway: 5000x120, SMT (15/33)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[368th Fighter Group]], 20 June – 23 August 1944 (P-47)
+:: [[370th Fighter Group]], 24 July – 15 August 1944 (P-38)
+|-
+|[[A-4 Deux-Jumeaux]], C
+| 30 June 1944 – 15 September 1944
+|Located: {{Coord|49|20|40|N|000|58|48|W|name=A-4 Deux-Jumeaux}} 
+: Runway: 5000x120, SMT (11/29)<ref name="AFE"/>
+: Used by:
+:: [[48th Fighter Group]], 18 June – 29 August 1944 (P-47){{efn|Including [[492nd Fighter Squadron]], [[493rd Fighter Squadron]],  [[494th Fighter Squadron]]  }}<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[107th Tactical Reconnaissance Squadron]], 28 June – 5 July 1944 (P-51/F-5)<ref>Maurer, 1982 p 336</ref>
+|-
+|[[Chippelle Airfield|A-5 Chippelle Airfield]], France
+| 5 July 1944 – 9 July 1944
+|Located: {{Coord|49|14|25|N|01|00|28|W|name=A-5 Chippelle Airfield}} 
+: Runway: 5000x120, SMT (06/24)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[404th Fighter Group]], 6 July – 29 August 1944 (P-47)
+|-
+|[[A-6 Beuzeville-la-Bastille]] (Beuzeville), France
+|Established 7 June 1944. Opened: 12 June 1944 Closed: 18 September 1944
+|{{Coord|49|25|16|N|001|18|16|W|name=A-6 Beuzeville-la-Bastille}} <br />Runway: 5000x120, SMT (05/23)<ref name="AFE"/><br />: Used by [[371st Fighter Group]], 18 June – September 1944 (P-47), [[367th Fighter Group]], 22 July – 14 August 1944 (P-38)<ref name="Groups"/>{{page needed|date=September 2022}}
+|}
+
+* '''[[A-9 Le Molay-Littry]] (Le Molay)''', France
+: Located: {{Coord|49|15|42|N|000|53|29|W|name=A-9 Le Molay-Littry}}  
+: Opened: 30 June 1944 Closed: 5 October 1944
+: Runway: 4000x120, SMT (04/22)<ref name="AFE"/>
+: Used by:<ref name="Squadrons"/><ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[67th Tactical Reconnaissance Group]], July – August 1944 (F-4/P-38; F-5/P-51)
+:: [[12th Tactical Reconnaissance Squadron]], 5 July – 11 August 1944 (F-5/P-51)
+
+* '''[[A-11 Saint-Lambert]]''', France
+: Located: {{Coord|49|17|01|N|001|05|54|W|name=A-11 Saint-Lambert}}
+: Opened: 5 August 1944 Closed: 11 September 1944
+: Runway: 5000x120, PHS (05/23)<ref name="AFE"/>
+: Used by:
+:: [[474th Fighter Group]], 6–29 August 1944 (P-38)
+
+* '''[[A-12 Lignerolles]]''', France
+: Located: {{Coord|49|10|32|N|000|47|24|W|name=A-12 Lignerolles}} (abandoned)
+: Opened: 18 July 1944 Closed: 4 November 1944<ref name="AFE"/>
+: Runway: 5000x120, PHS (07/25)
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[362d Fighter Group]], 2 July – 10 August 1944 (P-47)
+:: [[365th Fighter Group]], 15 August – 3 September 1944 (P-47)
+
+* '''[[A-13 Tour-en-Bessin]]''', France
+: Located: {{Coord|49|17|27|N|000|44|59|W|name=A-13 Tour-en-Bessin}}  
+: Opened: 28 July 1944 Closed: 2 December 1944
+: Runway 1: 5000x120, PSP (12/30)<ref name="AFE"/>
+: Runway 2: 5000x120, PSP (01/19)
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[373d Fighter Group]], 19 July – 19 August 1944 (P-47)
+:: [[406th Fighter Group]], 5–17 August 1944 (P-47)
+:: [[394th Bombardment Group]], 25 August – 18 September 1944 ([[Martin B-26 Marauder]])
+
+* [[A-21 Saint-Laurent-sur-Mer]], France
+: Located: {{Coord|49|21|49|N|000|52|26|W|name=A-21 Saint-Laurent-sur-Mer}}
+: Opened: 8 June – 25 August 1944
+: Runway: 3400x120, ETH (11/28)<ref name="AFE"/>
+: Used as: Casualty evacuation and transport Airfield (IX Service Command)<ref name="Johnson"/><ref>http://www.aerosteles.net/fiche.php?code=stlaurent-e1 A-21 memorial and information webpage</ref>
+
+* [[A-22 Colleville-sur-Mer]], France
+: Located: {{Coord|49|21|15|N|000|49|41|W|name=A-22 Colleville-sur-Mer}}  
+: Opened: 13 July – 4 November 1944
+: Runway: 3750x120, PBS (09/27)<ref name="AFE"/>
+: Used as: Transport Airfield<ref name="Johnson"/>
+
+===Cotentin Peninsula/Brittany Breakout===
+{{geoGroup|section=Cotentin Peninsula/Brittany Breakout}}
+{{Col-begin}}
+{{Col-break|width=50%}}
+* '''[[Avranches-Val Saint Pierre Airport|ELS Avranches]]''', France
+: Located: {{Coord|48|39|50|N|001|24|09|W|name=ELS Avranches}} 
+: Established: 8 August 1944: Closed: (Undetermined)
+: Runway: 3600x120 SOD (05/23)
+:: Emergency Landing Strip<ref name="AFE"/>
+
+* '''[[A-7 Azeville]]''', France
+: Located: {{Coord|49|28|56|N|001|18|27|W|name=A-7 Azeville}}  
+: Opened: 24 June 1944 Closed: 15 September 1944
+: Runway: 3600x120, SMT (08/26)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[365th Fighter Group]], 28 June – 15 August 1944 (P-47)
+:: [[363d Fighter Group]], August – September 1944 (P-51)
+
+* '''[[A-8 Picauville]]''', France
+: Located: {{Coord|49|23|34|N|001|25|07|W|name=A-8 Picauville}}  
+: Opened: 26 June 1944 Closed: 15 September 1944
+: Runway: 5000x120, PHS (07/25)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[405th Fighter Group]], 30 June – 14 September 1944 (P-47)
+
+* '''[[A-10 Carentan]]''', France
+: Located: {{Coord|49|18|18|N|001|10|46|W|name=A-10 Carentan}}
+: Opened: 16 June 1944 Closed: 4 November 1944
+: Runway: 5000x120, PHS (08/26)<ref name="AFE"/>
+: Used by:<ref name="Squadrons"/><ref name="Groups"/>
+:: [[50th Fighter Group]], 25 June – 16 August 1944 (P-47)
+:: [[392d Fighter Squadron]], 22 July – 14 August 1944 (P-38)
+
+* '''[[A-14 Cretteville]]''', France
+: Located: {{Coord|49|20|17|N|001|22|39|W|name=A-14 Cretteville}} 
+: Opened: 4 July 1944 Closed: 5 September 1944
+: Runway: 5000x120, (3600 PHS/1400 ETH) (04/22)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[358th Fighter Group]], 3 July – 14 August 1944 (P-47)
+:: [[406th Fighter Group]], 17 August – 4 September 1944 (P-47)
+
+* '''[[A-15 Maupertus-sur-Mer]] (Maupertus)''', France
+: Located: {{Coord|49|39|03|N|001|28|31|W|name=A-15 Maupertus-sur-Mer}}
+: Now: [[Cherbourg - Maupertus Airport]] or ''Aéroport de Cherbourg – Maupertus'' {{airport codes|CER|LFRC}}
+: Opened: 4 July 1944 Closed: 22 December 1944
+: Runway 1: 6000x120, PSP (11/29)<ref name="AFE"/>
+: Runway 2: 5000x120, PSP (17/35)
+: Used by:<ref name="Squadrons"/><ref name="Groups"/> 
+:: [[363d Fighter Group]], 9 July – August 1944 (P-38)
+:: [[387th Bombardment Group]], 22 August – 18 September 1944 (B-26)
+:: [[422d Night Fighter Squadron]], 25 July – 28 August 1944 (P-61)
+
+* '''[[A-16 Brucheville]]''', France
+: Located: {{Coord|49|22|05|N|001|13|18|W|name=A-16 Brucheville}}  
+: Opened: 2 August 1944 Closed: 5 September 1944
+: Runway: 5000x120, (3600 PHS/1400 ETH) (07/25)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[36th Fighter Group]], 4 July – 25 August 1944 (P-47)
+
+* '''[[A-17 Méautis]]''', France
+: Located: {{Coord|49|16|55|N|001|17|50|W|name=A-17 Méautis}} 
+: Opened: 17 August 1944 Closed: 7 September 1944
+: Runway: 5000x120, (3600 PHS/1400 ETH) (10/28)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[50th Fighter Group]], 16 August – 4 September 1944 (P-47)
+
+* [[A-18 Saint-Jean-de-Daye]], France
+: Located: {{Coord|49|13|04|N|001|09|11|W|name=A-18 Saint-Jean-de-Daye}} 
+: Opened: 29 August 1944 Closed: 9 September 1944
+: Runway: 5000x120, (3600 PHS/1400 ETH) (06/24)<ref name="AFE"/>
+: Emergency Landing/Refueling Field<ref name="Johnson"/>
+
+* '''[[A-19 Saint-Georges d' Elle (50)]] (La Vieille)''', France
+: Located: {{Coord|49|09|36|N|00|58|36|W|name=A-19 Saint-Pierre-la-Vieille}}
+: Opened: 14 August 1944 Closed: 7 September 1944
+: Runway: 5000x120, (3600 PHS/1400 ETH) (01/19)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[370th Fighter Group]], 15 August – 6 September 1944 (P-38)
+
+* '''[[A-20 Lessay]]''', France
+: Located: {{Coord|49|12|08|N|001|30|29|W|name=A-20 Lessay}}
+: Now: [[Lessay Airport]] {{airport codes|XDR|LFOM}}
+: Opened: 25 August 1944 Closed: 28 September 1944
+: Runway 1: 6000x120, PSP (06/24)<ref name="AFE"/>
+: Runway 2: 5000x120, PSP (12/30)
+: Used by:<ref name="Groups"/>
+:: [[323d Bombardment Group]], 26 August – 21 September 1944 (B-26)
+
+{{Col-break|width=50%}}
+* [[A-23 Querqueville]], France
+: Located: {{Coord|49|39|51|N|001|41|38|W|name=A-23 Querqueville}}
+: Opened: 6 July – 8 August 1945
+: Runway: 4600x120, PSP (10/28)<ref name="AFE"/>
+: Used by:  Detachment, 27th Air Transport Group (ATC)<ref name="Johnson"/>
+
+* [[Biniville Airfield|A-24 Biniville]], France
+: Located: {{Coord|49|25|42|N|001|28|33|W|name=A-24 Biniville}}
+: Opened: 17 July – 21 August 1944
+: Runway: 3600x120, ETH (04/22)<ref name="AFE"/>
+: Used by: Detachment, 125th Liaison Squadron<ref name="Johnson"/>
+
+* [[Bolleville Airfield|A-25 Bolleville]], France
+: Located:  {{Coord|49|18|06|N|001|34|28|W|name=A-25 Bolleville}}
+: Opened: 7 August 1944 – 3 March 1945
+: Runway: 3932x120, SMT & PBS (11/29)<ref name="AFE"/>
+: Used as:  Transport Airfield<ref name="Johnson"/>
+
+* '''[[A-26 Gorges]]''', France
+: Located: {{Coord|49|14|34|N|001|23|44|W|name=A-26 Gorges}}  
+: Opened: 16 August 1944 Closed: 28 September 1944
+: Runway: 6000x120, PSP (07/25)
+: Used by: 
+:: [[397th Bombardment Group]], 11 August – September 1944 (B-26)
+
+* '''[[A-27 Rennes/St-Jacques]]''', France
+: Located: {{Coord|48|04|19|N|001|43|56|W|name=A-27 Rennes/St-Jacques}}
+: Now: [[Rennes - Saint-Jacques Airport]] {{airport codes|RNS|LFRN}}
+: Captured 7 August 1944 Opened: 10 August 1944 Closed: 30 November 1944
+: Runway 1: 5593x260, CON (10/28)
+: Runway 2: 4676x260, CON (14/32)
+: Used by:
+:: [[362d Fighter Group]], 10 August – 19 September 1944 (P-47)
+:: [[10th Reconnaissance Group]], 11 August – September 1944 (P-38/F-5; P-51/F-6)
+
+* '''[[A-29 Saint-James]]''', France
+: Located: {{Coord|48|31|25|N|001|19|24|W|name=A-29 Saint-James}}
+: Opened: 14 August 1944 Closed: 28 September 1944
+: Runway: 5000x120, PHS (13/31)
+: Used by:
+:: [[373d Fighter Group]], 19 August – 19 September 1944 (P-47)
+
+* [[Courtils Airfield|A-30 Courtils]], France
+: Located: {{Coord|48|37|42|N|001|24|27|W|name=A-30 Courtils}} (approximately)
+: Opened: 13 August – 5 September 1944
+: Runway: 3600x120, ETH (10/28)<ref name="AFE"/>
+: Used as: Transport Airfield<ref name="Johnson"/>
+
+* '''[[A-31 Gaël]]''', France
+: Located: {{Coord|48|04|52|N|002|11|46|W|name=A-31 Gaël}}
+: Captured: 10 August 1944 Opened: 11 August 1944 Closed: 28 September 1944
+: Runway: 4500x120, SOD/ETH (08/26)
+: Used by:
+:: [[354th Fighter Group]], 13 August – 17 September 1944 (P-51)
+
+* A-32 Nantes/Chateau-Bougcn, France
+: Construction Cancelled<ref name="Johnson"/>
+
+* '''[[A-33 Vannes]]''', France
+: Located: {{Coord|47|43|10|N|002|43|25|W|name=A-33 Vannes}}
+: Now: [[Meucon Airport]] {{airport codes|VNE|LFRV}}
+: Captured 10 August 1944 Opened: 29 August 1944 Closed: 20 June 1945
+: Runway 1: 6000X200, CON/TAR (13/31)
+: Runway 2: 4400x200, CON/TAR (04/22)
+: Used by:
+:: [[425th Night Fighter Squadron]], 18 August – 11 September 1944 (P-61)
+
+* '''[[A-51 Morlaix]]''', France
+: Located: {{Coord|48|36|03|N|003|49|00|E|name=A-51 Morlaix}}
+: Opened: 1 September – 8 November 1944 
+: Runway: 40500x120 CON (05/23)<ref name="AFE"/>
+: Use: Transport Airfield<ref name="Johnson"/> 
+{{col-end}}
+
+===Northern France Campaign===
+The US marks the "Northern France Campaign" from the break-out following the [[invasion of Normandy]] to September 1944.
+
+==== Drive to the Seine River ====
+{{geoGroup|section=Drive to the Seine River}}
+{{Col-begin}}
+{{Col-break|width=50%}}
+* '''[[A-28 Pontorson]]''', France
+: Located: {{Coord|48|32|42|N|001|29|49|W|name=A-28 Pontorson}}  
+: Opened: 10 August 1944 Closed: 28 September 1944
+: Runway: 5000x120, (3600 PHS/1400 ETH) (08/26)
+: Used by:
+:: [[358th Fighter Group]], 14 August – 14 September 1944 (P-47)
+
+* '''[[A-35 Le Mans]]''', France
+: Located: {{Coord|48|00|27|N|000|11|54|E|name=A-35 Le Mans}}
+: Captured: 12 August 1944 Opened: 3 September 1944 Closed: 20 November 1944
+: Runway: 5000x120, PHS (14/32)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[36th Fighter Group]], 25 August – September 1944 (P-47)
+:: [[440th Troop Carrier Group]], 30 September – 2 November 1944 (C-47)
+
+* [[Gorron Airfield|A-34 Gorron]], France
+: Located: {{Coord|48|24|45|N|000|48|41|W|name=A-34 Gorron}} (approximately)
+: Opened: 27 August – 4 November 1944
+: Runway: 3600x120, ETH (08/26)<ref name="AFE"/>
+: Used as: Emergency Landing/Refueling Airfield<ref name="Johnson"/>
+
+* [[A-37 Lombron]], France
+: Located: {{Coord|49|04|45|N|000|25|00|E|name=A-37 Lombron}} (approximately)
+: Opened: 3–28 September 1944
+: Runway: 5000x120, PBS (08/26)<ref name="AFE"/>
+: Used as: Emergency Landing/Refueling Airfield<ref name="Johnson"/>
+
+* '''[[A-38 Montreuil]]''', France
+: Located: {{Coord|48|05|29|N|000|11|16|E|name=A-38 Montreuil}}
+: Opened: 4 September 1944 Closed: 5 October 1944
+: Runway: 5000x120, (3600 PHS/1400 ETH) (01/19)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[363d Tactical Reconnaissance Group]], 4 September – October 1944
+
+* '''[[A-39 Châteaudun]]''', France
+: Located: {{Coord|48|03|28|N|001|22|44|E|name=A-39 Châteaudun}}
+: Now: Châteaudun Airport {{airport codes|XSU|LFOC}}
+:: Also [[File:Roundel of France.svg|20px]]&nbsp; [[Châteaudun Air Base]] (BA 279)
+: Captured 20 August 1944 Opened: 26 August 1944 Closed: 8 August 1945
+: Runway 1: 7250x262, CON (10/28)
+: Runway 2: 5600x262, CON (05/23)<ref name="AFE"/>
+: Used by:<ref name="Squadrons"/><ref name="Groups"/> 
+:: [[10th Reconnaissance Group]], November 1944 (P-38/F-5; P-51/F-6)
+:: [[422d Night Fighter Squadron]], 28 August – 16 September 1944 (P-61)
+:: [[387th Bombardment Group]], 18 September – 30 October 1944 (B-26)
+:: [[439th Troop Carrier Group]], 4 November 1944 – 7 September 1945 (C-47)
+
+* '''[[A-40 Chartres]]''', France
+: Located: {{Coord|48|27|24|N|001|31|10|E|name=A-40 Chartres}}
+: Now: [[Chartres-Champhol Airport]] {{airport codes|QTJ|LFOR}}
+: Captured 21 August 1944 Opened: 26 August 1944 Closed: Undetermined
+: Runway: 5500x260, CON/PSP (08/26)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[368th Fighter Group]], 23 August – 11 September 1944 (P-47)
+:: [[323d Bombardment Group]], 21 September – 13 October 1944 (B-26)
+
+* '''[[A-41 Dreux/Vernouillet]]''', France
+: Located: {{Coord|48|42|22|N|001|21|42|E|name=A-41 Dreux/Vernouillet}}
+: Now: [[Vernouillet Airport]] {{airport codes|XDR|LFON}}
+: Captured 21 August 1944 Opened: 26 August 1944 Closed: Undetermined
+: Runway 1: 5500x200, CON/PSP (02/20)
+: Runway 2: 4400x200, CON (12/30)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[366th Fighter Group]], 24 August – 8 September 1944
+:: [[397th Bombardment Group]], 11 September – 6 October 1944
+:: [[441st Troop Carrier Group]], 3 November 1944 – 12 August 1945
+
+* '''[[A-42 Vélizy-Villacoublay]] (Villacoublay)''', France
+: Also known as '''AAF-180'''
+: Located: {{Coord|48|46|23|N|002|11|59|E|name=A-42 Vélizy-Villacoublay}}
+: Now: [[File:Roundel of France.svg|20px]]&nbsp;[[Vélizy - Villacoublay Air Base]] (IATA code XIY) (ICAO code LFPV) (BA 107)
+: Captured 27 August 1944 Opened: 30 August 1944 Closed: August 1946
+: Runway : 4000x200, CON/TAR (13/31)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[48th Fighter Group]], 29 August – 15 September 1944
+
+* '''[[A-43 Saint-Marceau]]''', France
+: Located: {{Coord|48|10|42|N|000|09|31|E|name=A-43 Saint-Marceau}}
+: Opened: 31 August 1944 Closed: 20 November 1944
+: Runway : 5000x120, PHS (08/26)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[474th Fighter Group]], 29 August – 6 September 1944
+:: [[441st Troop Carrier Group]], 2 October – 3 November 1944
+
+{{Col-break|width=50%}}
+* '''[[A-44 Peray]]''', France
+: Located: {{Coord|48|13|56|N|000|22|46|E|name=A-44 Peray}} 
+: Opened: 2 September 1944 Closed: 20 November 1944
+: Runway : 5000x120, PHS (10/28)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[367th Fighter Group]], 4–8 September 1944
+:: [[442d Troop Carrier Group]], 5 October – 7 November 1944
+
+* '''[[A-45 Lonrai]] (Lonray)''', France
+: Located: {{Coord|48|27|36|N|000|02|22|E|name=A-45 Lonrai}}
+: Opened: 3 September 1944 Closed: 20 November 1944
+: Runway : 5000x120, PHS (05/23)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[370th Fighter Group]], 6–11 September 1944
+:: [[439th Troop Carrier Group]], 28 September – 4 November 1944
+
+* '''[[A-46 Toussus-le-Noble]]''', France
+: Also known as:''' AAF-384'''
+: Located: {{Coord|48|45|05|N|002|06|22|E|name=A-46 Toussus-le-Noble}}
+: Now: [[Toussus-le-Noble Airport]] {{airport codes|TNF|LFPN}}
+: Captured: 26 August 1944 Opened: 28 August 1944 Closed: 8 August 1945
+: Runway : 4070x106, SMT (07/25)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[67th Tactical Reconnaissance Group]], August – September 1944
+
+* '''[[A-47 Orly]]''', France
+: Located: {{Coord|48|43|24|N|002|22|46|E|name=A-47 Orly}}
+: Now: [[Paris-Orly Airport]] {{Airport codes|ORY|LFPO}}
+: Captured 27 August 1944 Opened: 28 August 1944 Closed: Undetermined
+: Runway 1: 6137x197, CON (02/20)
+: Runway 2: 5170x197, CON (08/26)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[50th Fighter Group]], 4–15 September 1944
+
+* '''[[A-48 Brétigny]]''', France
+: Located: {{Coord|48|35|48|N|002|19|59|E|name=A-48 Brétigny}}
+: Now: [[File:Roundel of France.svg|20px]]&nbsp; [[Brétigny-sur-Orge Air Base]] (BA 217)
+: Captured 27 August 1944 Opened: 29 August 1944 Closed: 8 August 1945
+: Runway 1: 5100x197, CON/PSP (04/22)
+: Runway 2: 4880x197, CON/PSP (11/29)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[404th Fighter Group]], 29 August – 13 September 1944
+:: [[365th Fighter Group]], 3–15 September 1944
+:: [[409th Bombardment Group]], September 1944 – February 1945
+:: [[435th Troop Carrier Group]], 13 February – 25 June 1945
+
+* '''[[Beille Airfield|A-49 Beille]]''', France
+: Located: {{Coord|48|04|58|N|000|30|49|E|name=A-49 Beille}}
+: Opened: 15 August – 25 September 1944
+: Runway: 3600x150, SOD (07/25)<ref name="AFE"/>
+: Use: Transport Airfield<ref name="Johnson"/>
+
+* '''[[A-50 Orleans/Bricy]]''', France
+: Located: {{Coord|47|59|15|N|001|45|38|E|name=A-50 Orleans/Bricy}}
+: Now: [[File:Roundel of France.svg|20px]]&nbsp; [[Orléans - Bricy Air Base]] (BA 123) {{airport codes|XCR|LFOK}}
+: Captured 22 August 1944 Opened: 24 August 1944 Closed: Undetermined
+: Runway : 7788x263, CON (07/25)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[394th Bombardment Group]], 18 September – 8 October 1944
+:: [[440th Troop Carrier Group]], 2 November 1944 – 18 October 1945
+
+* '''[[Issy les Moulineaux Airfield|A-53 Issy les Moulineaux]]''', France
+: Located: {{Coord|48|49|26|N|002|16|12|E|name=A-53 Issy les Moulineaux}}
+: Opened: 29 August – 5 December 1944
+: Runway: 2100x120 SOD (05/23)<ref name="AFE"/>
+: Use: Liaison Airfield<ref name="Johnson"/>
+
+* '''[[Laval Airfield|A-57 Laval]]''', France
+: Located: {{Coord|48|04|24|N|000|46|08|W|name=A-57 Laval}}
+: Opened: 21 August – 5 December 1944
+: Runway 1: 3450x120 SOD (13/31)
+: Runway 2: 2400x120 SOD (04/22)<ref name="AFE"/>
+: Use: Liaison Airfield<ref name="Johnson"/> 
+{{col-end}}
+
+==== Pursuit to the German border ====
+{{geoGroup|section=Pursuit to the German Border}}
+{{Col-begin}}
+{{Col-break|width=50%}}
+* '''[[A-36 Saint-Léonard]]''', France
+: Located: {{Coord|47|56|33|N|000|03|18|E|name=A-36 Saint-Léonard}}  
+: Opened: 4 September 1944 Closed: 28 September 1944
+: Runway: 5000x120, (3600 PHS/1400 ETH) (00/18)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[406th Fighter Group]], 4–22 September 1944 (P-47)
+
+* '''[[Etampes-Mondesir Airfield|A-52 Étampes/Mondesir]]''', France
+: Located: {{Coord|48|02|06|N|003|25|12|E|name=A-52 Etampes/Mondesir}}
+: Opened: 30 August – 25 September 1944
+: Runway: 4500x120 SOD (06/24)<ref name="AFE"/>
+: Use: Transport Airfield<ref name="Johnson"/>
+
+* '''[[A-54 Le Bourget]]''', France
+: Located: {{Coord|48|58|10|N|002|28|29|E|name=A-54 Le Bourget}}
+: Now: [[Le Bourget Airport]] {{airport codes|IATA LBG ICAO LFPB}}
+: Opened: 29 August 1944 – 1 May 1946
+: Runway 1: 4730x201 CON (08/26)
+: Runway 2: 4700x120 SOD (01/19)<ref name="AFE"/>
+: Use: 27th Air Transport Group (ATC)<ref name="Johnson"/>
+
+* '''[[A-55 Melun/Villaroche]]''', France
+: Located: {{Coord|48|36|19|N|002|40|11|E|name=A-55 Melun/Villaroche}}
+: Now: [[Melun-Villaroche Airport]] {{airport codes||LFPM}}
+: Captured: 1 September 1944 Opened: 15 September 1944 Closed: 8 August 1945
+: Runway 1: 5336x200, CON (01/19)
+: Runway 2: 5376x200, ASP (10/29)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[416th Bombardment Group]], September 1944 – February 1945 (A-20)
+:: [[436th Troop Carrier Group]], 21 February – 15 July 1945 (C-47)
+
+* '''[[Le Hamil Airfield|A-56 Le Hamil]]''', France
+: Located: {{Coord|49|53|00|N|002|34|00|E|name=A-56 Le Hamil}}
+: Opened: 27 August – 15 September 1944
+: Runway: 3000x120 ETH (04/22)<ref name="AFE"/>
+: Use: Liaison Airfield<ref name="Johnson"/>
+
+* '''[[A-58 Coulommiers/Voisins]]''', France
+: Located: {{Coord|48|50|16|N|003|00|10|E|name=A-58 Coulommiers/Voisins}}
+: Now: [[Coulommiers-Voisins Airport]] {{airport codes||LFPK}}
+: Captured: 1 September 1944 Opened: 8 September 1944 Closed: 8 August 1945
+: Runway 1: 6565x264, CON (09/28)
+: Runway 2: 6000x264, ASP (04/22)<ref name="AFE"/>
+: Used by:<ref name="Squadrons"/><ref name="Groups"/>{{page needed|date=September 2022}} 
+:: [[425th Night Fighter Squadron]], 11 September – 13 October 1944 (P-61)
+:: [[410th Bombardment Group]], September 1944 – February 1945 (A-20)
+:: [[437th Troop Carrier Group]], 24 February – 28 July 1945 (C-47)
+
+* '''[[A-59 Cormeilles-En-Vexin]]''', France
+: Located: {{Coord|49|05|47|N|002|02|26|E|name=A-59 Cormeilles-En-Vexin}}
+: Now: [[Pontoise - Cormeilles-en-Vexin Airport]] {{airport codes|POX|LFPT}}
+: Captured: 6 September 1944 Opened: 15 September 1944 Closed: 8 August 1945
+: Runway : 6413x165, CON (12/30)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[344th Bombardment Group]], 30 September 1944 – 5 April 1945 (B-26/A-26)
+
+* '''[[A-60 Beaumont-sur-Oise]]''', France
+: Located: {{Coord|49|10|02|N|002|19|13|E|name=A-60 Beaumont-sur-Oise}}
+: Now: [[Persan-Beaumont Airport]] {{airport codes||LFPA}}
+: Captured: 3 September 1944 Opened: 26 September 1944 Closed: 17 July 1945
+: Runway : 5250x164, CON (05/23)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[386th Bombardment Group]], 2 October 1944 – 9 April 1945 (B-26)
+:: [[410th Bombardment Group]], May – June 1945 (A-26)
+
+* '''[[A-61 Beauvais/Tille]]''', France (B-42 by [[Royal Air Force]])
+: Pre war French airfield occupied by Luftwaffe in 1940. 
+:Located: {{Coord|49|27|16|N|002|06|46|E|name=A-61/B-42 Beauvais/Tille}}
+: Now: [[Beauvais–Tillé Airport]] ("Paris-Beauvais") {{airport codes|BVA|LFOB}}
+: Captured: 6 September 1944 Opened: 10 September 1944 Returned to French control 17 August 1945
+: Runway 1: 6023x164, CON (12/30)
+: Runway 2: 5510x164, CON (04/22)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[322d Bombardment Group]], September 1944 – March 1945 (B-26)<ref>Maurer, 1983 p202-203</ref>
+
+* '''[[Reims – Champagne Air Base|A-62 Reims/Champagne]]''', France
+: Located: {{Coord|49|18|37|N|004|03|03|E|name=A-62 Reims/Champagne}}
+: Now: [[File:Roundel of France.svg|20px]]&nbsp; [[Reims - Champagne Air Base]] {{airport codes|RHE|LFSR}} (BA 112)
+: Pre-war French airbase. Captured from German forces on 30 August 1944. Opened: 3 September 1944 Returned to French control at end of war
+: Runway 1: 5000x100, PSP (05/23)
+: Runway 2: 5000x120, SOD (06/24)<ref name="AFE"/>
+: Used by:
+:: [[440th Troop Carrier Group]], 11–30 September 1944 (C-47)<ref name="Groups"/>{{page needed|date=September 2022}}{{page needed|date=September 2022}}
+:: [[373d Fighter Group]], 19 September – 22 October 1944 (P-47)<ref name="Groups"/>{{page needed|date=September 2022}}
+
+* '''[[A-63 Villeneuve/Vertus]]''', France
+: Located: {{Coord|48|54|19|N|004|00|07|E|name=A-63 Villeneuve/Vertus}}
+: Opened: 5 September 1944 Closed: 23 May 1945
+: Runway : 3600x150, SOD (07/25)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[441st Troop Carrier Group]], 8 September – 2 October 1944
+
+* '''[[A-64 Saint-Dizier/Robinson]]''', France
+: Located: {{Coord|48|38|09.54|N|004|53|58.72|E|name=A-64 Saint-Dizier/Robinson}}
+: Now: [[File:Roundel of France.svg|20px]]&nbsp; [[Saint-Dizier - Robinson Air Base]] (BA 113)
+: Captured: 7 September 1944 Opened: 10 September 1944 Closed: 7 May 1945
+: Runway 1: 5500x262, CON/PSP (12L/30R)
+: Runway 2: 4678x198, CON (12R/30L)<ref name="AFE"/>
+: Used by:<ref name="Squadrons"/><ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[10th Reconnaissance Group]], September – November 1944 (P-38/F-5; P-51/F-6)
+:: [[405th Fighter Group]], 14 September – February 1945 (P-47)
+:: [[367th Fighter Group]], 1 February – 14 March 1945 (P-38)
+:: [[27th Fighter Bomber Group]], 22 February – 19 March 1945 ([[North American A-36]]) (12th AF)
+:: [[415th Night Fighter Squadron]], 18 March – 17 April 1945 ([[Northrop P-61 Black Widow]])
+:: [[417th Night Fighter Squadron]], 5–24 April 1945 (P-61)
+
+* '''[[A-65 Perthes]]''', France
+: Located: {{Coord|48|39|25|N|004|49|21|E|name=A-65 Perthes}}
+: Opened: 9 September 1944 Closed: 5 October 1944
+: Runway : 5000x120, SOD (10/28)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[371st Fighter Group]], 18 September – 1 October 1944 (P-47)
+
+* '''[[A-66 Orconte]]''', France
+: Located: {{Coord|48|40|14|N|004|44|10|E|name=A-66 Orconte}}
+: Opened: 15 September 1944 Closed: 1 December 1944
+: Runway : 5000x120, PHS (11/29)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[354th Fighter Group]], 17 September – 1 December 1944 (P-47)
+
+* '''[[A-67 Vitry-le-François]] (Vitry)''', France
+: Located: {{Coord|48|43|32|N|004|35|07|E|name=A-67 Vitry-le-François}}
+: Captured: 9 September 1944 
+: Opened: 15 September 1944 Closed: 18 December 1945
+: Runway : 5000x120, PHS (09/27)<ref name="AFE"/>
+: Used by:<ref name="Groups"/> (Maurer p.452)
+:: [[358th Fighter Group]], 14 September – 16 October 1944 (P-47)<ref>{{cite web |title=358th Fighter Group - Unit Stations |url=https://www.americanairmuseum.com/archive/unit/358th-fighter-group |website=americanairmuseum.com |access-date=21 March 2024}}</ref>
+
+* '''[[A-68 Juvincourt-et-Damary (Juvincourt)]]''', France
+: Located: {{Coord|49|25|53|N|003|53|07|E|name=A-68 Juvincourt-et-Damary}} (abandoned)
+: Captured: 5 September 1944 Opened: 7 September 1944 Closed: 2 July 1945
+: Runway 1: 5500x160, CON (09/27)
+: Runway 2: 5420x160, CON (17/35)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[439th Troop Carrier Group]], 8–28 September 1944 (C-47)
+:: [[404th Fighter Group]], 13 September – 4 October 1944 (P-47)
+:: [[365th Fighter Group]], 15 September – 4 October 1944 (P-47)
+:: [[36th Fighter Group]], 1–27 October 1944 (P-47)
+:: [[367th Fighter Group]], 28 October 1944 – 1 February 1945 (P-38)
+:: [[368th Fighter Group]], 27 December 1944 – 5 January 1945 (P-47)
+:: [[410th Bombardment Group]], February – May 1945 (A-20)
+
+* '''[[A-69 Laon/Athies]]''', France
+: Located: {{Coord|49|35|47|N|003|42|31|E|name=A-69 Laon/Athies}}
+: Waa: [[Laon-Athies Air Base]] (abandoned)
+: Captured 7 September 1944 Opened: 10 September 1944 Closed: 23 May 1945
+: Runway : 5386x163, CON (08/26)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[368th Fighter Group]], 11 September – 2 October 1944 (P-47)
+:: [[323d Bombardment Group]], 13 October 1944 – February 1945 (B-26)
+:: [[416th Bombardment Group]], February – May 1945 (A-20)
+
+* '''[[A-70 Laon/Couvron]]''', France
+: Located: {{Coord|49|39|0|N|3|33|0|E|name=A-70 Laon/Couvron}}
+: Now: [[File:Flag of France.svg|20px]]&nbsp; [[Laon-Couvron Air Base|Quartier Mangin sur l'ancienne base de Couvron]] (Armée de Terre)
+: Captured 7 September 1944 Opened: 9 September 1944 Closed: 23 May 1945
+: Runway 1: 5450x167, CON (02/20)
+: Runway 2: 5350x167, CON (10/28)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[50th Fighter Group]], 15–28 September 1944 (P-47)
+:: [[409th Bombardment Group]], February – June 1945
+
+* '''[[A-71 Clastres]]''', France
+: Located: {{Coord|49|45|25.61|N|003|12|43.71|E|name=A-71 Clastres}}
+: Now: [[Saint-Simon - Clastres Air Base]] abandoned)
+: Captured: 7 September Opened: 9 September 1944 Closed: Unknown
+: Runway 1: 5730x164, CON (05/23)
+: Runway 2: 5963x164, CON (10/29)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[367th Fighter Group]], 8 September – 28 October 1944 (P-38)
+:: [[387th Bombardment Group]], 30 October 1944 – 29 April 1945 (B-26)
+
+* '''[[A-72 Peronne/St Quentin]]''', France
+: Located: {{Coord|49|52|11|N|003|01|43|E|name=A-72 Peronne/St Quentin}}
+: Now: [[Peronne-St Quentin Airport]] {{airport codes||LFAG}}
+: Captured: 5 September Opened: 6 September 1944 Closed: Unknown
+: Runway 1: 5250x164, CON (04/22)
+: Runway 2: 5400x164, CON (09/27)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[474th Fighter Group]], 6 September – 1 October 1944 (P-38)
+:: [[397th Bombardment Group]], 6 October 1944 – 25 April 1945 (B-26)
+
+* '''[[A-73 Roye/Amy]]''', France
+: Located: {{Coord|49|39|32|N|002|49|16|E|name=A-73 Roye/Amy}} (abandoned)
+: Captured: 6 September Opened: 8 September 1944 Closed: 8 August 1945
+: Runway 1: 5600x164, CON (05/23)
+: Runway 2: 5965x164, CON (10/28)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[370th Fighter Group]], 11–26 September 1944 (P-47)
+:: [[391st Bombardment Group]], 19 September 1944 – 16 April 1945 (B-26)
+:: [[349th Troop Carrier Group]], 13 April – July 1945 (C-47)
+
+* '''[[A-74 Cambrai/Niergnies]]''', France
+: Located: {{Coord|50|08|08|N|003|15|53|E|name=A-74 Cambrai/Niergnies}}
+: Now: [[Cambrai-Niergnies Airport]] {{airport codes||LFYG}}
+: Captured: 10 September Opened: 12 September 1944 Closed: Unknown
+: Runway 1: 5330x164, CON/PSP (15/33)
+: Runway 2: 5068x164, CON/TAR (09/27)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[48th Fighter Group]], 15–30 September 1944 (P-47)
+:: [[394th Bombardment Group]], 6 October 1944 – 2 May 1945 (B-26)
+
+* '''[[Cambrai-Epinoy Airfield|A-75 Cambrai/Epinoy]]''', France
+: Also known as B-72 ([[Royal Air Force]])
+: Located: {{Coord|50|13|50|N|003|09|48|E|name=A-75/B-72 Cambrai/Epinoy}}
+: Opened: 12–16 September 1944
+: Runway 1: 5300x165 CON (05/23)
+: Runway 2: 5425x165 CON/PSP (17/35)<ref name="AFE"/>
+: Operated as: Emergency Landing/Refueling Airfield<ref name="Johnson"/>
+
+{{Col-break|width=50%}}
+* '''[[A-76 Athis]]''', France
+: Located: {{Coord|49|00|28|N|004|06|50|E|name=A-76 Athis}} (abandoned)
+: Captured: Opened: 4 September 1944 Closed: 4 October 1945
+: Runway : 5600x120, SMT (09/27)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[36th Fighter Group]], 1 September – October 1944 (P-47)
+
+* '''[[Sainte-Livière Airfield|A-77 Sainte-Livière]]''', France
+: Located:  {{Coord|48|35|30|N|004|52|01|E|name=A-77 Sainte-Livière}}
+: Opened: 11 September – 10 May 1944
+: Runway: 3600x120 SOD (13/31)<ref name="AFE"/>
+: Operated as: Transport Airfield<ref name="Johnson"/>
+
+* '''[[A-79 Prosnes]]''', France
+: Located: {{Coord|49|10|34|N|004|16|20|E|name=A-79 Prosnes}} (abandoned)
+: Opened: 21 September 1944 Closed: 4 July 1945
+: Runway : 6000x120, PSP (08/26)<ref name="AFE"/>
+: Used by:<ref name="Squadrons"/><ref name="Groups"/>{{page needed|date=September 2022}} 
+:: [[362d Fighter Group]], 19 September – 5 November 1944 (P-47)
+:: [[425th Night Fighter Squadron]], 13 October – 9 November 1944 (P-61)
+:: [[438th Troop Carrier Group]], February – May 1945 (C-47)
+
+* '''[[A-80 Mourmelon-le-Grand]]''', France
+: Located: {{Coord|49|06|45|N|004|22|20|E|name=A-80 Mourmelon-le-Grand}} (abandoned)
+: Opened: 20 September 1944 Closed: 2 July 1945
+: Runway : 6000x120, PSP (08/26)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[406th Fighter Group]], 22 September 1944 – 2 February 1945 (P-47)
+:: [[358th Fighter Group]], 16 October – 9 November 1944 (P-47)
+:: [[434th Troop Carrier Group]], 24 March – July 1945 (C-47)
+
+* '''[[A-81 Creil]]''', France
+: Located:  {{Coord|49|15|13|N|002|31|10|E|name=A-81 Creil}}
+: Now: [[File:Roundel of France.svg|20px]]&nbsp; BA 110 [[Creil Air Base]]
+: Opened:  23 September 1944 – 8 May 1945
+: Runway 1: 5646x164 CON (07/25)
+: Runway 2: 5382x164 CON (14/32)<ref name="AFE"/>
+: Use:  1st Transport Group (Provisional) (ATC)<ref name="Johnson"/>
+
+* '''[[A-82 Verdun/Etain]]''', France
+: Located: {{Coord|49|13|36|N|005|40|20|E|name=A-82/AAF-393 Verdun/Etain}}
+: Later: [[Étain-Rouvres Air Base]] 
+: Opened: 19 September 1944 Closed: 22 May 1945
+: Runway: 5000x120, PSP, (08/26)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[362d Fighter Group]], 5 November 1944 – 8 April 1945 (P-47)
+:: [[425th Night Fighter Squadron]], 9 November 1944 – 12 April 1945 (P-61)
+
+* '''[[A-83 Denain/Prouvy]]''', France
+: Also known as: B-74 ([[Royal Air Force]])
+: Located: {{Coord|50|19|33|N|003|27|38|E|name=A-83/B-74 Denain/Prouvy}}
+: Now: [[Valenciennes-Denain Airport]] {{airport codes||LFAV}}
+: Captured: 12 September
+: Opened: 14 September 1944 Closed: 25 June 1945
+: Runway: 5500x164, CON/PSP, (06/24)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[323d Bombardment Group]], 15 February – May 1945 (B-26)
+
+* '''[[Maubeuge Airfield|A-88 Maubeuge]]''', France
+: Located:  {{Coord|50|16|33|N|003|58|24|E|name=A-88 Maubeuge}}
+: Opened: 9 November 1944 – 13 February 1945 
+: Runway: 3600x150 SOD (05/23)<ref name="AFE"/>
+: Use:  Transport Airfield<ref name="Johnson"/>
+
+* '''[[A-90 Toul-Croix De Metz Airfield]]''', France
+: Located: {{Coord|48|41|53.25|N|005|55|02.23|E|name=A-90 Toul-Croix De Metz Airfield}}
+: Now: Non-Aviation use (Industrial Estate)
+: Captured: 14 September 1944 Opened: 14 September 1944 Closed: 22 May 1945
+: Runway: 5000x120, PSP, (10/28)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[358th Fighter Group]], 9 November 1944 – 2 April 1945 (P-47)
+
+* '''[[Sedan Airfield|A-91 Sedan]]''', France
+: Located:  {{Coord|49|42|10|N|004|56|32|E|name=A-91 Sedan}}
+: Opened:  14 September 1944 – 17 May 1945
+: Runway 1: 3600x120 SOD (07/25) 
+: Runway 2: 3600x120 SOD (08/26)<ref name="AFE"/>
+: Use:  Transport Airfield<ref name="Johnson"/>
+
+* '''[[A-94 Conflans-en-Jarnisy]] (Conflans)''', France
+: Located: {{Coord|49|09|07|N|005|55|55|E|name=A-94 Conflans-en-Jarnisy}} 
+: Now: [[Doncourt-lès-Conflans Airport]] {{airport codes||LFGR}}
+: Opened: 20 November 1944 Closed: 22 May 1945
+: Runway: 5000x120, PSP, (08/26)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[10th Reconnaissance Group]], November 1944 – March 1945 (P-38/F-4; P-51/F-5)
+:: [[367th Fighter Group]], 14 March – 20 April 1945 (P-38)
+
+* '''[[A-95 Nancy/Azelot]]''', France
+: Located: {{Coord|48|35|30|N|006|14|22|E|name=A-95 Nancy/Azelot}}  
+: Opened: 31 October 1944 – 5 November 1945 
+: Runway:  5000x120 PSP (01/19)<ref name="AFE"/>
+: Use:<ref name="Johnson"/><ref name="Squadrons"/><ref name="Groups"/>{{page needed|date=September 2022}} 
+:: XIX TAC Provisional Reconnaissance Group (November 1944 – April 1945)
+::: 162d Tactical Reconnaissance Squadron
+::: 111th Tactical Reconnaissance Squadron 
+:: 69th Tactical Reconnaissance Group (March – April 1945)
+
+* '''[[A-96 Toul/Ochey]]''', France
+: Located: {{Coord|48|34|59.75|N|005|57|15.67|E|name=A-96 Toul/Ochey}}  
+: Now: [[File:Roundel of France.svg|20px]]&nbsp; [[Nancy - Ochey Air Base]] (BA 133)
+: Opened: 9 October 1944 Closed: 11 May 1945
+: Runway: 5000x120, PSP, (07/25)<ref name="AFE"/>
+: Used by:<ref name="Squadrons"/><ref name="Groups"/>{{page needed|date=September 2022}} 
+:: [[50th Fighter Group]], 3 November 1944 – 20 April 1945 (P-47)
+:: [[415th Night Fighter Squadron]], 30 November 1944 – 18 March 1945 (P-61)
+:: [[27th Fighter Bomber Group]], 19 March – April 1945 (P-47) (12th AF)
+
+* '''[[A-98 Rosieres En Haye]]''', France
+: Located: {{Coord|48|46|48|N|005|58|48|E|name=A-98 Rosieres En Haye}}
+: Now: [[File:Roundel of France.svg|20px]]&nbsp; [[Toul-Rosières Air Base]] (BA 136)
+: Opened: 21 November 1944 Closed: 22 May 1945
+: Runway: 5000x120, PSP, (03/21)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[354th Fighter Group]], 1 December 1944 – 8 April 1945
+
+* '''[[Mars-la-Tour Airfield|A-99 Mars-la-Tour]]''', France
+: Located:  {{Coord|49|05|54|N|005|53|09|E|name=A-99 Mars-la-Tour}}
+: Opened:  28 September 1944 – 2 January 1945
+: Runway: 3600x120 SOD (04/22)<ref name="AFE"/>
+: Use: Transport Airfield<ref name="Johnson"/>
+
+* '''[[Y-1 Tantonville]]''', France
+: Located: {{Coord|48|27|30.48|N|006|09|05.70|E|name=Y-1 Tantonville}}
+: Opened: 25 December 1944 Closed: 29 May 1945
+: Runway: 5000/120, PSP, (02/20)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[371st Fighter Group]], 20 December 1944 – 15 February 1945 (P-47)
+:: [[86th Fighter Group]], 20 February – 17 April 1945 (P-47) (12th AF)
+
+* '''[[Y-2 Luneville]]''', France
+: Located: {{Coord|48|35|35.79|N|006|32|36.44|E|name=Y-2 Luneville}}
+: Now: [[Lunéville-Croismare Airport]] {{airport codes||LFQC}}
+: Opened: January 1945 Closed: 29 May 1945
+: Runway: 5000/120, PSP, (09/27)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[324th Fighter Group]], 4 January – 8 May 1945 (P-47) (12th AF)
+
+* '''Y-3 Avril''', France
+: Construction cancelled
+
+* '''[[Y-4 Buc]]''', France
+: Located: {{Coord|48|46|24|N|002|11|57|E|name=Y-4 Buc}}
+: Opened:  28 August 1944 – 5 December 1945<ref name="Johnson"/> 
+: Runway 1: 3300x120 SOD (07/25) 
+: Runway 2: 3300x120 SOD (13/31)<ref name="AFE"/>
+: Use:<ref name="Squadrons"/>
+:: 109th Tactical Reconnaissance Squadron, August – September 1944
+:: 47th Liaison Squadron, September 1944
+:: 112th Liaison Squadron, September 1944 – June 1945
+
+* '''[[Verdun-Charny Airfield|Y-28 Verdun/Charny]]''', France
+: Located: {{Coord|49|09|43|N|005|23|08|E|name=Y-28 Verdun/Charny}} (approximately)
+: Opened:  11 September 1944 – 25 June 1945
+: Runway:  3000/80 SMT (01/19)<ref name="AFE"/>
+: Use: Liaison Airfield<ref name="Johnson"/>
+
+* '''[[Bulgnéville Airfield|Y-31 Bulgnéville]]''', France
+: Located:  {{Coord|48|12|30|N|005|50|06|E|name=Y-31 Bulgnéville}} (approximately)
+: Opened:  4 November 1944 – 6 January 1945
+: Runway 1: 4500x125 SOD (09/27)
+: Runway 2: 4100x120 PSP (06/24)<ref name="AFE"/>
+: Use: Liaison Airfield<ref name="Johnson"/>
+
+* '''[[Thionville Airfield|Y-33 Thionville]]''', France
+: Located: {{Coord|49|21|37|N|006|10|22|E|name=Y-33 Thionville}} (approximately) 
+: Opened: 29 November 1944 – 16 June 1945 
+: Runway: 3600x120 PSP (02/20)<ref name="AFE"/>
+: Use:  Transport Airfield/Tactical Air Depot<ref name="Johnson"/>
+
+* '''[[Y-34 Metz]]''', France
+: Located: {{Coord|49|04|18|N|006|07|57|E|name=Y-34 Metz}}
+: Now: [[File:Roundel of France.svg|20px]]&nbsp; [[Metz-Frescaty Air Base]] (BA 128)
+: Opened: 25 December 1944 Closed: 29 May 1945
+: Runway: 5000x120, PSP, (02/20)<ref name="AFE"/>
+: Used by:
+:: [[365th Fighter Group]], 27 December 1944 – 30 January 1945 (P-47)<ref>Maurer, 1983 p250</ref>
+:: [[368th Fighter Group]], 5 January – 15 April 1945 (P-47)<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[406th Fighter Group]], 2–8 February 1945 (P-47)<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[371st Fighter Group]], 15 February – 7 April 1945 (P-47)
+
+* '''[[Y-35 Compiegne/Margny]]''', France
+: Now: [[Compiègne - Margny Airport]] {{airport codes|XCP|LFAD}}
+: Located:  {{Coord|49|26|00|N|002|48|16|E|name=Y-35 Compiegne/Margny}}
+: Opened:  15 December 1944 – 30 May 1945
+: Runway 1: 3000x120 SMT (05/23)
+: Runway 2: 3300x120 SMT (12/30)
+: Runway 3: 3500x100 PSP (14/32)<ref name="AFE"/>
+: Use:  Transport Airfield<ref name="Johnson"/>
+
+* '''[[Y-39 Haguenau]]''', France
+: Located: {{Coord|48|47|41|N|007|48|55|E|name=Y-39 Haguenau}}  
+: Now: [[Haguenau Airport]] {{airport codes||LFSH}}
+: Opened: 20 December 1944 Closed: 17 July 1945
+: Runway 1: 3400x160, CON, (07/25)
+: Runway 2: 3200x180, CON, (03/21)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[69th Reconnaissance Group]], 2 April – 30 June 1945 (P-38/F-4; P-51/F-5)
+
+* '''[[Y-42 Nancy/Essey]]''', France
+: Now: [[Nancy-Essey Airport]] {{airport codes|ENC|LFSN}}
+: Located: {{Coord|48|41|28|N|006|13|40|E|name=Y-42 Nancy/Essey}}
+: Opened: 15 October 1944 – 30 September 1945 
+: Runway 1: 3000/100 SOD (15/33)
+: Runway 2: 3600/100 PSP (08/26)<ref name="AFE"/>
+: Use:<ref name="Johnson"/> 
+: 14th Liaison Squadron, October – December 1944
+: Headquarters: [[71st Fighter Wing]], 16 July – 25 September 1945 
+{{col-end}}
+
+===Southern France Campaign===
+{{geoGroup|section=Southern France Campaign}}
+{{Col-begin}}
+{{Col-break|width=50%}}
+* '''[[Y-5 Ambérieu-en-Bugey]] (Ambérieu)''', France
+: Located: {{Coord|45|59|14.41|N|005|19|42.40|E|name=Y-5 Ambérieu-en-Bugey}}
+: Now: [[File:Roundel of France.svg|20px]]&nbsp; [[Ambérieu-en-Bugey Air Base]] (BA 278)
+: Opened:  September 1944 Closed: 29 May 1945
+: Constructed by MTO (12AF) Engineers<ref name="AFE"/>
+: Runway: 6000/100, ETH, (01/19)
+: Used by:<ref name="Groups"/>
+:: [[324th Fighter Group]], 6–20 September 1944 (P-47) (12th AF)
+
+* '''[[Y-6 Lyon/Bron]]''', France
+: Located: {{Coord|45|43|46|N|004|56|20|E|name=Y-6 Lyon/Bron}}
+: Now: [[Lyon-Bron Airport]] {{airport codes|LYN|LFLY}}
+: Captured: September 1944 Opened: September 1944 Closed: 20 June 1945
+: Repaired by MTO (12AF) Engineers<ref name="AFE"/>
+: Runway: 6000/130, CON/PSP, (17/35)
+: Used by:
+:: [[79th Fighter Group]], September – November 1944 (P-47) (12th AF)
+
+* '''[[Y-7 Dôle/Tavaux]]''', France
+: Located: {{Coord|47|02|20.45|N|005|25|38.10|E|name=Y-7 Dôle/Tavaux}}
+: Now: [[Dôle-Tavaux Airport]] {{airport codes|DLE|LFGJ}}
+: Captured: September 1944 Opened: September 1944 Closed: 17 July 1945
+: Repaired by MTO (12AF) Engineers
+: Runway: 5500/272, CON/PSP, (05/23)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[324th Fighter Group]], 20 September 1944 – 4 January 1945 (P-47) (12th AF)
+:: [[371st Fighter Group]], 1 October – 20 December 1944 (P-47)
+:: [[320th Bombardment Group]], 1 April – 18 June 1945 (B-26)
+
+* '''[[Y-8 Luxeuil]]''', France
+: Now: [[File:Roundel of France.svg|20px]]&nbsp; [[Luxeuil Air Base]] (BA 116) 
+: Located: {{Coord|47|46|59|N|006|21|51|E|name=Y-8 Luxeuil}}
+: Opened:  22 September 1944 – 6 January 1945
+: Runway:  5000x120 PSP (04/22)<ref name="AFE"/>
+: Use:  Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[Y-9 Dijon/Longvic]]''', France
+: Located: {{Coord|47|15|57|N|005|05|42|E|name=Y-9 Dijon/Longvic}}
+: Now: [[File:Roundel of France.svg|20px]]&nbsp; [[Dijon Air Base]] (BA 102) {{airport codes|DLE|LFGJ}}
+: Captured September 1944 Opened: September 1944 Closed: 1 July 1945
+: Repaired by MTO (12AF) Engineers
+: Runway: 6000/120, CON/PSP, (01/19)<ref name="AFE"/>
+: Used by:<ref name="Squadrons"/><ref name="Groups"/> 
+:: [[415th Night Fighter Squadron]], 25 September – 30 November 1944 (P-61)
+:: [[320th Bombardment Group]], 11 November 1944 – 1 April 1945 (B-26)
+:: [[17th Bombardment Group]], 20 November 1944 – June 1945 (B-26) (12th AF)
+
+* '''[[Y-11 Cannes/Mandelieu]]''', France
+: Located:  {{Coord|43|32|47|N|006|57|15|E|name=Y-11 Cannes/Mandelieu}}
+: Opened: 2 October – 23 November 1944
+: Constructed by MTO (12AF) Engineers
+: Runway: 3000x150 ETH<ref name="AFE"/>
+: Use:  Transport Airfield<ref name="Johnson"/>
+
+* '''[[Y-12 St. Raphael/Frejus]]''', France
+: Located: {{Coord|43|25|02|N|006|44|08|E|name=Y-12 St. Raphael/Frejus}}
+: Now: [[Frejus Airport]] {{airport codes|FRJ|}}  (Closed)
+: Opened: 26 August 1944 Closed: 20 November 1944
+: Runway: 6000x150, SOD/ETH, (08/26)<ref name="AFE"/>
+: Constructed by MTO (12AF) Engineers
+: Used by:<ref name="Groups"/>
+:: [[79th Fighter Group]], 25 August – October 1944 (P-47) (12th AF)
+
+* '''[[Y-13 Cuers/Pierrefeu]]''', France
+: Now: [[Cuers Pierrefeu Airport]] {{airport codes|TLN|LFTH}}  
+: Located:  {{Coord|43|14|49|N|006|07|30|E|name=Y-13 Cuers/Pierrefeu}}
+: Opened: 24 August – 20 November 1944
+: Constructed by MTO (12AF) Engineers
+: Runway: 5000x150 ETH (10/28)<ref name="AFE"/>
+: Use:  Emergency landing/refueling airfield<ref name="Johnson"/>
+
+* '''[[Y-14 Marseilles/Marignane]]''', France
+: Now: [[Marseille Provence Airport]] {{airport codes|MRS|LFML}}  
+: Located:  {{Coord|43|26|12|N|005|12|54|E|name=Y-14 Marseilles/Marignane}}
+: Opened: 12 September 1944 – October 1945
+: Repaired by MTO (12AF) Engineers
+: Runway: 4850x150 SOD (15/33)<ref name="AFE"/>
+: Use:  Transport Airfield<ref name="Johnson"/>
+:: 1411th Army Air Force Base Unit, October 1944 – October 1945
+
+* '''[[Y-15 Aix/Les Milles]]''', France
+: Now: [[Aix-en-Provence Aerodrome]] {{airport codes|QXB|LFMA}}  
+: Located:   {{Coord|43|30|19|N|005|22|02|E|name=Y-15 Aix/Les Milles}}
+: Opened: 28 August – 20 November 1944
+: Repaired by MTO (12AF) Engineers
+: Runway: 4200x150 ETH<ref name="AFE"/>
+: Use:  Resupply/Casualty evacuation airfield<ref name="Johnson"/>
+
+* '''[[Y-16 Salon]]''', France
+: Located: {{Coord|43|36|23|N|005|06|33|E|name=Y-16 Salon}}
+: Now: [[File:Roundel of France.svg|20px]]&nbsp; [[Salon-de-Provence Air Base]] (BA 701)
+: Opened: 28 August 1944 Closed: 20 November 1944
+: Runway: 6000x150, SOD/ETH, (04/22)<ref name="AFE"/>
+: Repaired by MTO (12AF) Engineers
+: Used by:<ref name="Groups"/>
+:: [[27th Fighter Bomber Group]], 30 April – 11 September 1944 (P-47) (12th AF)
+:: [[47th Bombardment Group]], 7–18 September 1944 (A-20) (12th AF)
+
+{{Col-break|width=50%}}
+* '''[[Y-17 Istres/Le Tube]]''', France
+: Also known as: AAF-196
+: Located: {{Coord|43|31|28|N|4|56|30|E|name=Y-17 Istres/Le Tube}}
+: Now: [[File:Roundel of France.svg|20px]]&nbsp; [[Istres-Le Tubé Air Base]] (BA 125)
+: Opened: 27 August 1944 Closed: Undetermined
+: Repaired by MTO (12AF) Engineers
+: Runway 1: 5800x197, ASP, (15/33)
+: Runway 2: 6000x150, ETH, (15/33)
+: Runway 3: 6000x200, ASP, (10/28)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[324th Fighter Group]], 2–6 September 1944 (P-47) (12th AF)
+
+* '''[[Y-18 Le Vallon]]''', France
+: Located: {{Coord|43|37|30|N|004|55|44|E|name=Y-18 Le Vallon}} (abandoned)
+: Opened: 30 August 1944 Closed: 20 November 1944
+: Constructed by MTO (12AF) Engineers
+: Runway: 7800x300, SOD, (13/31)<ref name="AFE"/>
+: Used by:<ref name="Squadrons"/> 
+:: [[415th Night Fighter Squadron]], 1–25 September 1944 (P-61)
+:: [[417th Night Fighter Squadron]], 12 September – 5 April 1945 (Bristol Beaufighters) (12th AF)
+
+* '''[[La Jasse Airfield|Y-19 La Jasse]]''', France
+: Located: {{Coord|43|39|28|N|005|00|44|E|name=Y-19 La Jasse}}
+: Opened: 30 August – 20 November 1944
+: Runway: 6000x150 SOD (12/30)<ref name="AFE"/>
+: Use:  Emergency landing/refueling airfield<ref name="Johnson"/>
+
+* '''[[Sisteron Airfield|Y-20 Sisteron]]''', France
+: Located:  {{Coord|44|11|28|N|005|56|50|E|name=Y-20 Sisteron}}
+: Opened: 28 August – 20 November 1944
+: Constructed by MTO (12AF) Engineers
+: Runway: 5000x150 SOD (17/35)<ref name="AFE"/>
+: Use: Emergency Landing/Refueling Airfield<ref name="Johnson"/>
+
+* '''[[Y-21 Montelimar/Ancone]]''', France
+: Now: [[Montélimar Ancone Airport]] {{airport codes|XMK|LFLQ}}
+: Located:  {{Coord|44|34|47|N|004|44|18|E|name=Y-21 Montelimar/Ancone}}
+: Opened: 3 September – 20 November 1944
+: Constructed by MTO (12AF) Engineers
+: Runway: 6000x150 SOD (17/35)<ref name="AFE"/>
+: Use:  Emergency landing/refueling airfield<ref name="Johnson"/>
+
+* '''[[Crest Airfield|Y-22 Crest]]''', France
+: Located: {{Coord|44|43|45|N|005|01|22|E|name=Y-22 Crest}} 
+: Opened: 29 August – 20 November 1944 
+: Constructed by MTO (12AF) Engineers
+: Runway: 5000x150 SOD (01/19)<ref name="AFE"/>
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[Y-23 Valence]]''', France
+: Located: {{Coord|44|55|18|N|004|58|11|E|name=Y-23 Valence}} 
+: Now: [[Valence-Chabeuil Airport]] {{airport codes|VAF|LFLU}}
+: Opened: 2 September 1944 Closed: 20 November 1944
+: Constructed by MTO (12AF) Engineers
+: Runway: 5500x150, SOD, (01/19)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[79th Fighter Group]], September 1944 (P-47) (12th AF)
+
+* '''[[Y-24 Satolas]]''', France
+: Now: [[Lyon-Saint Exupéry Airport]] {{airport codes|LYS|LFLL}}
+: Located: {{Coord|45|43|32|N|005|04|52|E|name=Y-24 Satolas}}  
+: Opened: 7 September – 20 November 1944 
+: Runway:  4000x150 SOD (17/35)<ref name="AFE"/>
+: Use:<ref name="Johnson"/> 
+:: 111th Tactical Reconnaissance Squadron, September 1944
+
+* '''[[Y-25 Lyon/Loyettes]]''', France
+: Located: {{Coord|45|47|16|N|005|12|49|E|name=Y-25 Lyon/Loyettes}}
+: Opened:   Closed: 20 November 1944
+: Constructed by MTO (12AF) Engineers
+: Runway: 6000x150, SOD, (02/20)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[27th Fighter Bomber Group]], 11 September – October 1944 (P-47) (12th AF)
+
+* '''[[Y-26 Lons-le-Saunier]]''', France
+: Now: [[Lons-le-Saunier Airport]]
+: Located:  {{Coord|46|40|30|N|005|28|07|E|name=Y-26 Lons-le-Saunier}}  
+: Opened:  12 September – 20 November 1944
+: Runway: 3000/150 SOD (08/26)<ref name="AFE"/>
+: Use: 
+:: 72d Liaison Squadron, September 1944<ref name="Johnson"/>
+
+* '''[[Y-27 Besancon/Thise]]''', France
+: Now: [[Besancon-Thiese Airport]]
+: Located:  {{Coord|47|16|29|N|006|05|00|E|name=Y-27 Besancon/Thise}} 
+: Opened: 13 September – 20 November 1944
+: Runway:  3500/150 SOD (06/27)<ref name="AFE"/>
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+{{Col-end}}
+
+===French Noncombat Support ALGs===
+{{geoGroup|section=French Noncombat Support ALGs}}
+{{Col-begin}}
+{{Col-break|width=50%}}
+* '''[[Y-30 Le Havre/Octeville]]''', France
+: Now: [[Le Havre – Octeville Airport]] {{airport codes|LEH|LFSH}}
+: Located:  {{Coord|49|32|02|N|000|05|17|E|name=Y-30 Le Havre/Octeville}}
+: Opened:  2 November 1944 – 15 December 1945
+: Runway 1: 3500x125 PSP (05/23)
+: Runway 2: 3300x120 PSP (10/28)<ref name="AFE"/>
+: Use: Used by United States Navy (Transport Airfield)<ref name="Johnson"/>
+
+* '''[[Y-36 Cognac]]''', France
+: Now: [[File:Roundel of France.svg|20px]]&nbsp; BA 709 [[Cognac – Châteaubernard Air Base]]
+: Located: {{Coord|45|39|30|N|000|18|48|W|name=Y-36 Cognac}}  
+: Opened:  6 December 1944 – 11 July 1945
+: Runway 1: 5200x260 CON (09/27)
+: Runway 2: 4200x260 CON (05/23)<ref name="AFE"/>
+: Use: Emergency Refuelling/Landing Airfield<ref name="Johnson"/>
+
+* '''[[Y-37 Bordeaux/Mérignac]]''', France
+: Now: [[File:Roundel of France.svg|20px]]&nbsp; BA 106 [[Bordeaux-Mérignac Air Base]]
+: Located: {{Coord|44|49|42|N|000|42|56|W|name=Y-37 Bordeaux/Mérignac}}  
+: Opened:  6 December 1944 – 11 July 1945
+: Runway 1: 6560x180 CON (04/22)
+: Runway 2: 5412x180 CON (10/28)<ref name="AFE"/>
+: Use:  Transport Airfield/Tactical Air Depot<ref name="Johnson"/>
+
+* '''[[Y-38 Toulouse/Blagnac]]''', France
+: Now: [[Toulouse-Blagnac Airport]] {{airport codes|TLS|LFBO}}
+: Located: {{Coord|43|38|06|N|001|22|04|E|name=Y-38 Toulouse/Blagnac}}  
+: Opened:  6 December 1944 – 11 July 1945
+: Runway: 6000x125 CON (14/32)<ref name="AFE"/>
+: Use:  Transport Airfield/Tactical Air Depot<ref name="Johnson"/>
+
+* '''[[Y-40 Strasbourg/Entzheim]]''', France
+: Now: [[Strasbourg Airport]] {{airport codes|SXB|LFST}}
+: Located: {{Coord|48|32|31|N|007|38|04|E|name=Y-40 Strasbourg/Entzheim}}
+: Opened: 6 April – 11 November 1945 
+: Runway:  5000x120 PSP (07/25)<ref name="AFE"/>
+: Use: Emergency Landing/Refueling Field<ref name="Johnson"/>
+
+* '''[[Y-45 Condé-sur-Marne]]''', France
+: Located: {{Coord|49|02|42|N|004|10|41|E|name=Y-45 Condé-sur-Marne}} (approximately)
+: Opened: 24 January – 5 November 1945 
+: Runway 1: 4000x120 SOD (06/24)
+: Runway 2: 4000x120 SOD (10/28)<ref name="AFE"/>
+: Use:  Transport Airfield<ref name="Johnson"/>
+
+{{Col-break|width=50%}}
+* '''[[Y-48 Auxerre]]''', France
+: Located: {{Coord|47|48|00|N|003|34|06|E|name=Y-48 Auxerre}} (approximately)
+: Opened:  3 February – 18 April 1945
+: Runway:  3300/120 SOD<ref name="AFE"/>
+: Use:  Transport Airfield<ref name="Johnson"/>
+
+* '''[[Y-49 Bourges]]''', France
+: Now: [[Bourges Airport]] {{airport codes|BOU|LFLD}}
+: Located: {{Coord|47|03|39|N|002|22|12|E|name=Y-48 Auxerre}} (approximately)
+: Opened:  3 February – 18 April 1945 
+: Runway: 3800/193 CON (06/24)<ref name="AFE"/>
+: Use:  Transport Airfield<ref name="Johnson"/>
+
+* '''[[Y-50 Avord]]''', France
+: Now: [[File:Roundel of France.svg|20px]]&nbsp; BA 702 [[Avord Air Base]]
+: Located:  {{Coord|47|03|12|N|002|37|57|E|name=Y-50 Avord}}
+: Opened:  3 February – 29 May 1945
+: Runway 1: 5240x262 CON
+: Runway 2: 5270x262 CON<ref name="AFE"/>
+: Use:  Transport Airfield<ref name="Johnson"/>
+
+* '''[[Y-52 Nice]]''', France
+: Located: {{Coord|43|39|56|N|007|12|53|E|name=Y-52 Nice}}
+: Opened:  17 February – 30 May 1945
+: Runway: 4500x150 ETH (05/23)<ref name="AFE"/>
+: Use: Fighter/Bomber Emergency Landing Airfield<ref name="Johnson"/>
+: Now: Aéroport de Nice-Côte d'Azur
+
+* '''[[Y-53 Colmar]]''', France
+: Now: [[Colmar Airport]] {{Airport codes|CMR|LFGA}}
+: Located:  {{Coord|48|06|37|N|007|21|33|E|name=Y-53 Colmar}}
+: Opened:  26 March – 11 November 1945
+: Runway: 5000x120 PSP (01/19)<ref name="AFE"/>
+: Use: Fighter/Bomber Emergency Landing Airfield<ref name="Johnson"/>
+
+* '''[[R-51 Cazaux/Bordeaux]]''', France
+: Now: [[File:Roundel of France.svg|20px]] &nbsp; BA 120 [[Cazaux Air Base]]
+: Located: {{Coord|44|32|01|N|001|07|32|W|name=R-51 Cazaux/Bordeaux}}
+: Opened:  21 April – 1 August 1945
+: Runway:  
+: Use: Transport Airfield<ref name="Johnson"/>
+
+{{col-end}}
+
+=== Benelux Liberation ===
+[[File:U.S Airfields in Europa as of 8 May 1945.jpg|right|thumb|U.S. Airfields in Europe as of 8 May 1945]]
+{{geoGroup|section=Benelux Liberation}}
+{{Col-begin}}
+{{Col-break|width=50%}}
+* '''[[A-78 Florennes/Juzaine]]''', Belgium
+: Located: {{Coord|50|14|37|N|004|38|55|E|name=A-78 Florennes/Juzaine}}
+: Now:  [[File:Roundel of Belgium.svg|20px]]&nbsp; [[Florennes Air Base]]
+: Captured: 11 September
+: Opened: 11 September 1944 Closed: Unknown
+: Runway 1: 4343x164, CON (16/34)
+: Runway 2: 5509x164, CON/PSP (17/35)<ref name="AFE"/>
+: Used by:<ref name="Squadrons"/><ref name="Groups"/> 
+:: [[422d Night Fighter Squadron]], 18 September 1944 – 6 April 1945 (P-61)
+:: [[370th Fighter Group]], 26 September 1944 – 27 January 1945 (P-38)
+:: [[474th Fighter Group]], 1 October 1944 – 22 March 1945 (P-38)
+:: [[344th Bombardment Group]], 5 April – 15 September 1945 (B-26)
+
+* '''[[A-84 Chievres]]''', Belgium (AAF-181)
+: Located: {{Coord|50|34|33|N|3|49|51|E|name=A-84 Chievres}}
+: Now: [[File:Roundel of Belgium.svg|20px]]&nbsp; [[Chièvres Air Base]]
+: Captured: 13 September Opened: 16 September 1944 Closed: 15 May 1945
+: Runway 1: 5516x165, CON, (02/20)
+: Runway 2: 5902x165, CON, (09/27)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[368th Fighter Group]], 2 October – 27 December 1944 (P-47)
+:: [[365th Fighter Group]], 4 October – 27 December 1944 (P-47)
+:: [[352d Fighter Group]], 27 January – 14 April 1945 (P-51) (8th AF)
+:: [[361st Fighter Group]], 1 February – April 1945 (P-47) (8th AF)
+
+* '''[[A-85 Senzeilles]]''', Belgium
+: Located: {{Coord|50|10|38|N|004|27|51|E|name=A-85 Senzeilles}}
+: Opened: 9 September 1944 – 13 February 1945 
+: Runway: 3600x150 SOD (12/30)<ref name="AFE"/>
+: Use:  Transport Airfield<ref name="Johnson"/>
+
+* '''[[A-86 Vitrival]]''', Belgium
+: Located: {{Coord|50|24|00|N|004|39|00|E|name=A-86 Vitrival}}
+: Opened:  11 September 1944 – 13 February 1945
+: Runway:  3600x150 SOD (04/22)<ref name="AFE"/>
+: Use:  Transport Airfield<ref name="Johnson"/>
+
+* '''[[A-87 Charleroi]]''', Belgium (AAF-184)
+: Located: {{Coord|50|27|36|N|004|27|10|E|name=A-87 Charleroi}}
+: Now: [[Brussels South Charleroi Airport]] {{airport codes|CRL|EBCI}}
+: Opened: 14 September 1944 Closed: 10 August 1945
+: Runway: 3600x100, PSP, (06/24)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[67th Tactical Reconnaissance Group]], September 1944 – March 1945 (P-38/F-4; P-51/F-5)
+
+* [[A-89 Le Culot]], Belgium
+: Also known as: B-68 ([[Royal Air Force]])
+: Located: {{Coord|50|45|20|N|004|46|04|E|name=A-89/B-68 Le Culot}}
+: Now: [[File:Roundel of Belgium.svg|20px]]&nbsp;[[Beauvechain Air Base]] {{airport codes||EBBE}}
+: Captured: Opened: 28 October 1944 Closed: Undetermined
+: Runway 1: 5793x165, TAR/PSP, (04/22)
+: Runway 2: 4955x165, TAR, (12/30)<ref name="Johnson"/> 
+: Used by:<ref name="Groups"/>
+:: [[373d Fighter Group]], 22 October 1944 – 11 March 1945 (P-47)
+:: [[36th Fighter Group]], 27 October 1944 – 26 March 1945 (P-47)
+:: [[322d Bombardment Group]], March–June 1946 (B-26)
+
+* '''[[A-92 Sint-Truiden]] (Saint Trond)''', Belgium
+: Also known as: B-62 ([[Royal Air Force]])
+: Located: {{Coord|50|47|23|N|005|11|48|E|name=A-92/B-62 Sint-Truiden}}
+: Now: [[File:Roundel of Belgium.svg|20px]]&nbsp; [[Sint-Truiden Air Base]]
+: Captured 16 September 1944
+: Opened: 18 September 1944 Closed: Undetermined
+: Runway 1: 5250x165, CON (14/32)
+: Runway 2: 4740x165, CON (09/27)
+: Runway 3: 5070x165, CON (06/24)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[48th Fighter Group]], 30 September 1944 – 26 March 1945 (A-20)
+:: [[404th Fighter Group]], 4 October 1944 – 30 March 1945 (P-37)
+:: [[386th Bombardment Group]], 9 April – 27 July 1945 (B-26)
+
+{{Col-break|width=50%}}
+* '''[[A-93 Liege/Bierset]]''', Belgium
+: Located: {{Coord|50|38|18|N|005|26|18|E|name=A-93 Liege/Bierset}} 
+: Opened: 17 November 1944 – 8 August 1945  
+: Runway: 4000x120 PSP (08/26)<ref name="AFE"/>
+: Use: Detachment, 153d Liaison Squadron<ref name="Johnson"/>
+
+* '''[[A-97 Sandweiler]]''', Luxembourg
+: Located: {{Coord|49|37|24|N|006|12|16|E|name=A-97 Sandweiler}} 
+: Now: [[Luxembourg - Findel Airport]] {{airport codes|LUX|ELLX}}
+: Opened: 18 September 1944 Closed: 15 August 1945
+: Runway: 3400x132, SOD, (06/24)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[363d Tactical Reconnaissance Group]], 4–29 October 1944 (P-38/F-4; P-51/F-5)
+
+* '''[[Y-10 Le Culot/East]]''', Belgium
+: Located: {{Coord|50|46|54|N|004|57|28|E|name=Y-10 Le Culot/East}}
+: Now:  [[File:Roundel of Belgium.svg|20px]]&nbsp; [[Goetsenhoven Military Airfield]] {{airport codes||EBTN}}
+: Captured: September 1944 Opened: September 1944 Closed: 25 June 1945
+: Runway: 3600/120, PSP, (04/22)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[371st Fighter Group]], 1 October – 20 December 1944
+
+* '''[[Y-29 Asch]]''', Belgium
+: Located: {{Coord|50|57|55|N|005|35|02|E|name=Y-29 Asch}} 
+: Now: [[File:Roundel of Belgium.svg|20px]]&nbsp; [[Zutendaal Air Base]]
+: Opened: 20 November 1944 Closed: 20 June 1945
+: Runway: 5000x150, SOD, (06/24)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[366th Fighter Group]], 19 November 1944 – 11 April 1945 (P-47)
+:: [[406th Fighter Group]], 8 February – 15 April 1945 (P-47)
+:: [[391st Bombardment Group]], 16 April – 27 May 1945 (B-26)
+
+* '''[[Y-32 Ophoven]]''', Belgium
+: Located: {{Coord|51|08|08|N|005|47|00|E|name=Y-32 Ophoven}} (abandoned)
+: Opened: 10 December 1944 Closed: 29 May 1945
+: Runway: 5000x150, PSP, (12/30)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[370th Fighter Group]], 27 January – 20 April 1945 (P-47)
+:: [[405th Fighter Group]], 30 February – April 1945 (P-47)
+
+* '''[[Y-41 Virton]]''', Belgium
+: Located: {{Coord|49|34|08|N|005|31|57|E|name=Y-41 Virton}} (approximately)
+: Opened: 26 December 1944 – 3 May 1945 
+: Runway:  3000x80 CINDER (10/28)<ref name="AFE"/>
+: Use: Liaison and emergency landing airfield<ref name="Johnson"/>
+
+* '''[[Y-44 Maastricht]]''', Netherlands
+: Located: {{Coord|50|54|57|N|005|46|37|E|name=Y-44 Maastricht}}
+: Now: [[Maastricht Aachen Airport]] {{airport codes|MST|EHBK}}
+: Opened: 23 March 1945 Closed: 1 August 1945
+: Runway: 5565x120, PSP, (04/22)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[387th Bombardment Group]], 29 April – 24 May 1945 (B-26)
+
+* '''[[Y-47 Namur]]''', Belgium
+: Located: {{Coord|50|27|14|N|004|52|23|E|name=Y-47 Namur}} (approximately)
+: Opened: 22 February – 30 November 1945 
+: Runway: 3450/90 PSP/SMT (07/25)<ref name="AFE"/>
+: Use:<ref name="Johnson"/> 
+:: [[19th Air Division|9th Bombardment Division]],  – 20 April November 1945
+:: [[99th Bombardment Wing (World War II)|99th Bombardment Wing]], 1 July – August 1945
+:: [[98th Bombardment Wing (World War II)|98th Bombardment Wing]], October – November 1945
+:: 112th Liaison Squadron, 26 October 1944 – 11 February 1945
+: Transferred to [[Royal Air Force]] control, 30 November 1945
+
+* '''[[Y-55 Venlo]], Netherlands'''
+: Located: {{Coord|51|22|07|N|006|12|44|E|name=Y-55 Venlo}}
+: Fliegerhorst Venlo-Herongen astride the Dutch-German border. Now: German Bundeswehr Depot Herongen, before: US-Army POMCUS Depot Herongen supporting NORTHAG (Germany)
+: Opened: 12 March 1945 Closed: 14 August 1945
+: Runway 1: 4200x300, BRK, (08/26)
+: Runway 2: 5500x300, PSP/BRK, (12/30)<ref name="AFE"/>
+: Used by:<ref name="Squadrons"/>
+:: [[363d Tactical Reconnaissance Group]], 15 March – April 1945 (P-38/F-4; P-51/F-5)
+:: [[373d Fighter Group]], 11 March – 20 April 1945 (P-47)
+:: [[397th Bombardment Group]], 25 April – 24 May 1945 (B-26)
+:: [[394th Bombardment Group]], 2 May – September 1945 (B-26)
+{{col-end}}
+
+===Western Allied invasion of Germany===
+Airfields captured or established to support combat operations during the [[Western Allied Invasion of Germany]] (1 February – 8 May 1945). This section lists those used during the war; ones used during the occupation period of Germany are listed in the Army of Occupation ALGs section.
+
+====Rhineland Campaign====
+{{geoGroup|section=Rhineland Campaign}}
+{{Col-begin}}
+{{Col-break|width=50%}}
+* '''Y-43 Duren''', Germany
+: Construction cancelled<ref name="Johnson"/>
+
+* '''[[Y-46 Aachen]]''', Germany
+: Located: {{Coord|50|49|23.75|N|006|11|11.01|E|name=Y-46 Aachen}}
+: Now: [[Merzbruck Airport]] {{airport codes||EDKA}}
+: Opened: 14 March 1945 Closed: 11 May 1945
+: Runway: 5000x120, PSP, (05/23)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[365th Fighter Group]], 16 March – 13 April 1945 (P-47)
+:: [[36th Fighter Group]], 26 March – 8 April 1945 (P-47)
+
+* '''[[Y-51 Vogelsang]]''', Germany
+: Located: {{Coord|50|33|49|N|006|26|00|E|name=Y-51 Vogelsang}} (abandoned)
+: Opened: 23 March 1945 Closed: 10 July 1945
+: Runway: 3600x120, PSP/PAP, (15/33)<ref name="AFE"/>
+: Used by:<ref name="Squadrons"/>
+:: [[67th Tactical Reconnaissance Group]], 2 March – April 1945 (P-38/F-4; P-51/F-5)
+
+* '''[[Y-54 Kelz]]''', Germany
+: Located: {{Coord|50|46|03|N|006|35|48|E|name=Y-54 Kelz}} (abandoned)
+: Opened: 24 March 1945 Closed: 11 July 1945
+: Runway: 5000x120, PSP, (09/27)<ref name="AFE"/>
+: Used by:<ref name="Squadrons"/>
+:: [[48th Fighter Group]], 26 March – 17 April 1945 (P-47)
+:: [[404th Fighter Group]], 30 March – 12 April 1945 (P-47)
+
+* '''Y-56 Moenchen Gladbach''', Germany
+: Now: Park, industrial area (Mönchengladbach)
+: Located: {{Coord|51|10|51|N|006|23|37|E|name=Y-56 Muenchen Gladbach}} 
+: Opened:  30 March– 30 September 1945
+: Runway: 3600x120 PSP (07/25)<ref name="AFE"/>
+: Use:<ref name="Johnson"/> 
+: 125th Liaison Squadron, March – April 1945
+: Closed: 30 September 1945, turned over to [[Royal Air Force]] as part of British Zone of Occupation.
+
+* '''Y-58 Cologne''', Germany
+: Now: [[Cologne Butzweilerhof Airport]]
+: Located: unknown
+: Opened:  8 March – 18 June 1945 
+: Runway: 3000x100 SOD (01/19)<ref name="AFE"/>
+: Use: Resupply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[Y-59 Strassfeld]]''', Germany
+: Located: {{Coord|50|41|43|N|006|53|21|E|name=Y-59 Strassfeld}}  (abandoned)
+: Opened: 29 March 1945 Closed: 17 May 1945
+: Runway: 5000x120, PSP/CON, (07/25)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[474th Fighter Group]], 22 March – 22 April 1945 (P-38)
+:: [[414th Night Fighter Squadron]] (DET), 3–23 April 1945 (P-61) (12th AF)
+:: [[422d Night Fighter Squadron]], 6–24 April 1945 (P-61)
+
+{{Col-break|width=50%}}
+* '''[[Y-60 Dunstekoven]]''', Germany
+: Located: {{Coord|50|42|00|N|006|56|00|E|name=Y-60 Dunstekoven}} (approximately)
+: Opened: 12 March – 11 May 1945
+: Runway:  3150x120 SOD (02/20)<ref name="AFE"/>
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[Y-61 Krefeld]],''', Germany
+: Located: {{Coord|51|20|00|N|006|34|00|E|name=Y-61 Krefeld}}
+: Opened: 28 March – 15 June 1945
+: Runway: 3600x120 PSP, (14/32)<ref name="AFE"/>
+: Use: Fighter/Bomber Airfield; Tactical Air Depot<ref name="Johnson"/>
+
+* '''Y-62 Mendig (Niedermendig)''', Germany
+: Located: {{Coord|50|21|57|N|007|18|55|E|name=Y-62 Mendig}}
+: Now: Mendig airfield {{airport codes||EDRE}}
+: Opened: 17 March 1945 Closed: 11 May 1945
+: Runway: 5000x120, PSP/CON, (07/25)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[36th Fighter Group]], 26 March – 8 April 1945 (P-47)
+
+* '''Y-63 Koblenz''', Germany
+: Located: {{Coord|50|20|35|N|007|34|02|E|name=Y-63 Koblenz-Karthause}} 
+: Now: built-up area
+: Opened: 30 March – 11 May 1945
+: Runway: 3000x120 SOD (07/25)<ref name="AFE"/>
+: Use: Supply and Evacuation/ Emergency Landing Airfield<ref name="Johnson"/>
+
+* '''[[Y-64 Ober-Olm]]''', Germany
+: Located: {{Coord|49|58|08|N|008|08|47|E|name=Y-64 Ober-Olm}}
+: Now: [[Mainz Finthen Airport]]  {{airport codes||EDFZ}}
+: Opened: 27 March 1945 Closed: 20 June 1945
+: Runway 1: 4000x120, SOD, (07/25)
+: Runway 2: 5000x120, SMT, (08/26)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[10th Reconnaissance Group]], 4 March – April 1945 (P-38/F-4; P-51/F-5)
+:: [[354th Fighter Group]], 8–30 April 1945 (P-47)
+
+* '''[[Y-65 Chantilly]]''', France
+: Located: {{Coord|49|11|35|N|002|27|55|E|name=Y-65 Chantilly}}
+: Opened: 22 December 1944 – 8 August 1945
+: Runway 1: 2200x150 SOD (07/25)
+: Runway 2: 2150x150 SOD (00/18)<ref name="AFE"/>
+: Use: Liaison Airfield<ref name="Johnson"/>
+
+* '''[[Y-66 Gollheim]]''', Germany
+: Located: {{Coord|49|35|19|N|008|01|44|E|name=Y-66 Gollheim}} 
+: Opened: 25 March – 30 April 1945
+: Runway: 3600x120 SOD (06/24)<ref name="AFE"/>
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[Y-70 Maitzborn]]''', Germany
+: Located: {{Coord|49|56|18|N|007|25|35|E|name=Y-70 Maitzborn}}  
+: Opened: 30 March – 30 April 1945
+: Runway: 3600x120 SOD<ref name="AFE"/>
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+{{col-end}}
+
+====Central Europe Campaign====
+{{geoGroup|section=Central Europe Campaign}}
+{{Col-begin}}
+{{Col-break|width=50%}}
+* '''[[Y-67 Gelnhausen]]''', Germany
+: Now: Agricultural, housing and industrial area
+: Located:  {{Coord|50|11|53|N|009|07|37|E|name=Y-67 Gelnhausen/Rothenbergen}}
+: Opened: 1–30 April 1945
+: Runway: 3600x120 SOD (10/28)<ref name="AFE"/>
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''Y-68 Lachen/Speyerdorf''', Germany
+: Construction Cancelled<ref name="Johnson"/>
+
+* '''[[Y-69 Mittelbrunn]]''', Germany
+: Located: {{Coord|49|22|00|N|007|33|00|E|name=Y-69 Mittelbrunn}} (approximately)
+: Opened: 26 March – 3 May 1945
+: Runway: 2000x150 SOD (03/21)<ref name="AFE"/>
+: Use: Liaison Airfield<ref name="Johnson"/>
+
+* '''[[Y-71 Eudenbach]]''', Germany
+: Now: Glider airfield Eudenbach 
+: Located: {{Coord|50|40|17|N|007|21|43|E|name=Y-71 Eudenbach}}
+: Opened: 26 March – 30 April 1945
+: Runway: 3400x130 SOD (06/24)<ref name="AFE"/>
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[Y-72 Braunshardt]]''', Germany
+: Located: {{Coord|49|54|36|N|08|32|30|E|name=Y-72 Braunshardt}}
+: Captured: March 1945; Opened: 27 March 1945
+: Runway: 5571/150, Soil, Cement & PSP, (07/25)<ref name="AFE"/>
+: Used by:<ref name="Squadrons"/><ref name="Groups"/> 
+:: [[415th Night Fighter Squadron]], 17 April – 2 October 1945 (P-61)
+:: [[86th Fighter Group]], 17 April – 26 September 1945 (P-47) (12th AF)
+:: [[417th Night Fighter Squadron]], 26 June – 8 August 1945 (P-61)
+: Closed: 30 October 1945, Now: agricultural use
+
+* '''[[Y-74 Frankfurt/Eschborn]]''', Germany
+: Located: {{Coord|50|07|57|N|008|33|09|E|name=Y-74 Frankfurt/Eschborn}} (abandoned)
+: Opened: 31 March 1945 Closed: July 1945
+: Runway: 5200/120, PSP, (12/30)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[371st Fighter Group]], 7 April – 5 May 1945 (P-47)
+:: [[367th Fighter Group]], 20 April – July 1945 (P-47)
+:: [[US Army]], July 1945 – 1992
+
+* '''[[Y-75 Frankfurt/Rebstock]]''', Germany
+: Located:  {{Coord|50|06|41|N|008|36|47|E|name=Y-75 Frankfurt/Rebstock}} (approximately)
+: Opened: 15 April – 30 May 1945
+: Runway: 3600x120 SOD (08/26)<ref name="AFE"/>
+: Use: Liaison Airfield<ref name="Johnson"/>
+
+* '''Y-77 Babenhausen''', Germany
+: Now: Former Flugplatz Babenhausen, closed 2019
+: Located: {{Coord|49|57|11|N|008|58|11|E|name=Y-77 Babenhausen}}
+: Opened: 31 March – 30 April 1945
+: Runway: 3600x120 SOD (02/20)<ref name="AFE"/>
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[Y-78 Biblis]]''', Germany
+: Located: {{Coord|49|41|15|N|008|27|07|E|name=Y-78 Biblis}} (abandoned)
+: Opened: 2 April 1945 Closed: July 1945
+: Runway: 5000/120, SOD/SMT, (11/29)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[27th Fighter Bomber Group]], 24 April – June 1945 (A-36) (12th AF)
+
+* '''[[Y-79 Mannheim/Sandhofen]]''', Germany
+: Now: [[File:Flag of the United States.svg|20px]]&nbsp;[[Coleman Army Airfield]] {{airport codes||ETOR}}
+: Located: {{Coord|49|33|47|N|008|27|46|E|name=Y-79 Mannheim/Sandhofen}}
+: Opened: 4 April 1945
+: Runway 1: 5200/120, PSP, (05/23)
+: Runway 2: 5200/120, SMT, (05/23)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[358th Fighter Group]], 2 April – 23 June 1945 (P-47)
+
+* '''[[Y-81]] Ailertchen''', Germany
+: Now: '''Flugplatz Ailertchen'''
+: Located: {{Coord|50|35|36|N|007|56|42|E|name=Y-81 Ailertchen}} 
+: Opened: 30 March – 30 April 1945
+: Runway: 3700x120 SOD (05/23)<ref name="AFE"/>
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[Y-82 Kirchhellen]]''', Germany
+: Was: '''Fliegerhorst Kirchhellen'''
+: Now: [[Flugplatz Schwarze Heide]] {{airport codes|ZCV|EDLD}}
+: Located: {{Coord|51|36|57|N|006|51|38|E|name=Y-82 Kirchhellen}} 
+: Opened: 30 March – 5 July 1945
+: Runway 1: 3600x120 SOD (05/23)<ref name="AFE"/>
+: Runway 2: 3600x120 SOD (05/23)
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[Y-83 Limburg]] (Limburg an der Lahn)''', Germany
+: Located: {{Coord|50|24|50|N|008|04|16|E|name=Y-83 Limburg}} (abandoned)
+: Opened: 3 April 1945 Closed: June 1945
+: Runway: 3600/120, SOD, (08/26)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[67th Tactical Reconnaissance Group]], 2–10 April 1945 (P-38/F-4; P-51/F-5)
+
+* '''[[Y-85]] Ettinghausen''', Germany
+: Located: {{Coord|50|31|06|N|007|52|49|E|name=Y-85 Ettinghausen}} (approximately)
+: Opened: 31 March 1945 – 30 April 1945
+: Runway: 3450x120 SOD (04/22)<ref name="AFE"/>
+: Use:  Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[Y-87]] Nidda''', Germany
+: Now: Agricultural, housing and industrial area
+: Located: {{Coord|50|26|17|N|008|59|27|E|name=Y-87 Nidda-Harb}}
+: Opened: 1 April – 15 May 1945
+: Runway: 3600x120 SOD (14/32)<ref name="AFE"/>
+: Use:  Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[Y-88]] Wertheim am Main''', Germany
+: Later: Wertheim AAF
+: Now: Industrial & housing area
+: Located: {{Coord|49|45|40|N|009|29|26|E|name=Y-88 Wertheim am Main}}
+: Opened: 2 April – 15 May 1945
+: Runway: 3800x120 SOD (05/23)<ref name="AFE"/>
+: Use:  Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[Y-89 Mannheim/Stadt]]''', Germany
+: Now: [[Mannheim City Airport]] {{airport codes|MHG|EDFM}}
+: Located: {{Coord|49|28|21|N|008|30|51|E|name=Y-89 Mannheim/Stadt}}
+: Opened: 10 April – 8 August 1945
+: Runway 1: 2950x120 SOD (14/32)
+: Runway 2: 2850x120 SOD (05/23)<ref name="AFE"/>
+: Use:  Liaison Airfield<ref name="Johnson"/>
+
+* '''[[Y-92]] Dörnberg''', Germany
+: Now: Glider airfield 
+: Located: {{Coord|51|21|59|N|009|20|12|E|name=Y-92 Dörnberg}}
+: Opened:  2–30 April 1945
+: Runway: 3000x120 SOD (09/27)<ref name="AFE"/>
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''Y-93 Munster''', Germany
+: Construction cancelled
+
+* '''[[Y-94 Munster/Handorf]]''', Germany
+: Located: {{Coord|51|59|18|N|007|43|55|E|name=Y-94 Munster/Handorf}} (abandoned)
+: Opened: 12 April 1945 Closed: June 1945
+: Runway: 5019/120, TAR, (08/26)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[366th Fighter Group]], 11 April – 25 June 1945 (P-47)
+:: [[406th Fighter Group]], 15 April – 5 June 1945 (P-47)
+
+* '''Y-95 Bracht''', Germany
+: Located: {{Coord|50|54|50|N|008|52|41|E|name=Y-95 Bracht}}
+: Opened:  5–30 April 1945
+: Runway: 3400x120 SOD (00/18)<ref name="AFE"/>
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''Y-97 Paderborn''', Germany
+: Located: {{Coord|51|41|26|N|008|44|10|E|name=Y-97 Paderborn}} (approximately)
+: Opened:  7 April – 2 June 1945
+: Runway: 3600x120 SOD (06/24)<ref name="AFE"/>
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[Y-98 Lippstadt]]''', Germany
+: Located: {{Coord|51|42|48|N|008|22|06|E|name=Y-98 Lippstadt}}
+: Captured: 7 April 1945 Closed: 12 July 1945
+: Runway: 4750/120, SMT/PSP, (08/26)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[373d Fighter Group]], 20 April – 20 May 1945 (P-47)
+
+* '''[[Y-99 Gütersloh]]''', Germany
+: Now: [[File:Flag of the British Army.svg|20px]]&nbsp;[[RAF Gütersloh|Princess Royal Barracks]] ([[British Army]])  {{airport codes|GUT|EUTO}}
+: Located: {{Coord|51|55|22.20|N|008|18|22.80|E|name=Y-99 Gütersloh}}
+: Captured: 4 April 1945 Opened: 6 April 1945 Closed: 22 June 1945
+: Runway: 4040/120, SMT, (08/26)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[363d Tactical Reconnaissance Group]], 15–22 April 1945 (P-38/F-4; P-51/F-5)
+:: [[370th Fighter Group]], 20 April – 27 June 1945 (P-38)
+
+* '''[[R-1 Wenigenlupnitz]]''', Germany
+: Now: [[Eisenach-Kindel Airport]]
+: Located: {{Coord|50|59|30|N|010|28|49|E|name=R-1 Wenigenlupnitz}} 
+: Opened:  8–30 April 1945
+: Runway: 3400x120 SOD (10/28)<ref name="AFE"/>
+: Use: Supply and Evacuation airfield<ref name="Johnson"/>
+
+* '''[[R-2 Langensalza]]''', Germany
+: Now: [[Bad Langensalza Airport]] {{airport codes||EDEB}}
+: Located: {{Coord|51|07|46|N|010|37|18|E|name=R-2 Langensalza}} 
+: Captured 8 April 1945 : Opened: 8 April 1945 Closed: 5 July 1945
+: Runway: 4921/120, SOD/TAR, (08/26)<ref name="AFE"/>
+: Used by:
+:: [[474th Fighter Group]], 22 April – 16 June 1945 (P-38)<ref name="Groups"/>
+:: [[422d Night Fighter Squadron]], 24 April – 25 May 1945 (P-61)<ref name="Squadrons"/>
+
+* '''[[R-3 Röhrensee]]''', Germany
+: Later: [[Röhrensee Kaserne]]
+: Located:  {{Coord|49|57|31|N|011|35|01|E|name=R-3 Röhrensee}} 
+: Opened:  12–30 April 1945
+: Runway:  3600x120 SOD (11/29)<ref name="AFE"/>
+: Use: Supply and Evacuation airfield<ref name="Johnson"/> 
+:: Transferred to United States Army
+
+* '''[[R-4 Gotha/North]]''', Germany
+: Located:   {{Coord|50|58|13|N|010|43|32|E|name=R-4 Gotha/North}} 
+: Opened: 11 April – 5 May 1945 
+: Runway:  3600x120 SOD/CON (10/28)<ref name="AFE"/>
+: Use: Supply and Evacuation airfield<ref name="Johnson"/>
+
+* '''[[R-5 Crailsheim]]''', Germany
+: Located:   {{Coord|49|08|07|N|010|04|14|E|name=R-5 Crailsheim}} 
+: Opened:  24 April – 30 May 1945
+: Runway: 3600x120 SOD (08/26)<ref name="AFE"/>
+: Use: Supply and Evacuation airfield<ref name="Johnson"/>
+
+* '''[[R-7 Weimar]]''', Germany
+: Located:  {{Coord|50|58|35|N|011|14|48|E|name=R-7 Weimar}} 
+: Opened: 14 April – 30 June 1945
+: Runway: 3300x120 SOD (09/27)<ref name="AFE"/>
+: Use:<ref name="Johnson"/><ref name="Squadrons"/>
+:: [[IX Fighter Command]], April – July 1945
+:: [[IX Tactical Air Command]], 26 April – 26 June 1945
+:: 125th Liaison Squadron, 9 March – 4 April 1945
+:: Closed 30 June 1945, turned over to [[Soviet Union]] as part of Soviet Zone of Occupation.
+
+* '''[[R-8 Eisfeld]]''', Germany
+: Located: {{Coord|50|25|05|N|010|55|02|E|name=R-8 Eisfeld}}  
+: Opened: 13–30 April 1045 
+: Runway: 3000x120 SOD (06/24)<ref name="AFE"/>
+: Use: Supply and Evacuation airfield<ref name="Johnson"/>
+
+* '''[[R-9 Erfurt/Bindersleben]]''', Germany
+: Now: [[Erfurt-Weimar Airport]] 
+: Located: {{Coord|50|58|45|N|010|37|34|E|name=R-9 Erfurt/Bindersleben}}  
+: Opened: 14–30 April 1945 
+: Runway: 4300/120 SOD/CON (09/27)<ref name="AFE"/>
+: Use: [[15th Tactical Reconnaissance Squadron]], April 1945<ref name="Johnson"/><ref name="Squadrons"/>
+
+* '''[[R-11 Eschwege]]''', Germany
+: Located: {{Coord|51|11|55|N|010|01|27|E|name=R-11 Eschwege}}  (abandoned)
+: Captured 6 April 1945 Opened: 7 April 1945 Closed: Undetermined
+: Runway: 3500/120, SOD, (12/30)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[67th Tactical Reconnaissance Group]], 10 April – July 1945
+
+* '''[[R-12 Kassel/Rothwesten]]''', Germany
+: Located: {{Coord|51|23|25|N|009|32|03|E|name=R-12 Kassel/Rothwesten}}  (abandoned)
+: Opened: 7 April 1945 Closed: Undetermined
+: Runway: 5000/120, PSP, (13/31)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[48th Fighter Group]], 17–29 April 1945
+:: [[36th Fighter Group]], 21 April – 15 November 1945
+
+* '''[[R-13 Hessich/Lichtenau]]''', Germany
+: Now Flugplatz Hessisch-Lichtenau 
+: Located:  {{Coord|51|11|20|N|009|44|34|E|name=R-13 Hessich/Lichtenau}} 
+: Opened: 8 April – 22 June 1945 
+: Runway: 3600x120 SOD (09/27)<ref name="AFE"/>
+: Use: Supply and Evacuation airfield, Storage field<ref name="Johnson"/>
+
+* '''[[R-15 Oschersleben]]''', Germany
+: Now: Flugplatz Oschersleben
+: Located: {{Coord|52|02|18|N|011|12|14|E|name=R-15 Oschersleben}} 
+: Opened:  12 April – 1 October 1945
+: Runway: 3100x150 CON (10/28)<ref name="AFE"/>
+: Use: Supply and Evacuation airfield<ref name="Johnson"/>
+
+* '''[[R-16 Hildesheim]]''', Germany
+: Now: [[Flugplatz Hildesheim-Drispenstedt]]
+: Located:  {{Coord|52|10|48|N|009|56|44|E|name=R-16 Hildesheim}}  
+: Opened: 12 April – 5 June 1945 
+: Runway: 5000x120 SOD (08/26)<ref name="AFE"/>
+: Use: Supply and Evacuation airfield<ref name="Johnson"/>
+
+* '''[[R-17 Göttingen]]''', Germany
+: Was: Flughaven Göttinger (closed 1945)
+: Located: {{Coord|51|32|10|N|009|54|15|E|name=R-17 Göttingen}} 
+: Opened:  14 April – 12 July 1945  
+: Runway: 3600x120 SOD<ref name="AFE"/>
+: Use: Supply and Evacuation airfield<ref name="Johnson"/>
+
+* '''R-18 Kölleda''', Germany
+: Now: [[Flugplatz Sömmerda-Dermsdorf]]
+: Located:  {{Coord|51|11|54|N|011|11|30|E|name=R-18 Kölleda}} 
+: Opened: 14–30 April 1945  
+: Runway: 3600x120 SOD (07/25)<ref name="AFE"/>
+: Use: Supply and Evacuation airfield<ref name="Johnson"/> 
+ 
+* '''[[R-19 Nordhausen]]''', Germany
+: Now: Flugplatz Nordhausen
+: Located:   {{Coord|51|29|37|N|010|50|08|E|name=R-19 Nordhausen}} 
+: Opened:  14–30 April 1945
+: Runway:  3600x120 SOD<ref name="AFE"/>
+: Use: Supply and Evacuation airfield<ref name="Johnson"/>
+
+* '''R-20 Esperstedt''', Germany
+: Located: {{Coord|51|20|19|N|011|11|16|E|name=R-20 Esperstedt}}
+: Opened: 4–30 April 1945
+: Runway:  3600x120 SOD<ref name="AFE"/>
+: Use: Supply and Evacuation airfield<ref name="Johnson"/>
+
+* '''[[R-21 Rochau]]''', Germany
+: Located: {{Coord|52|42|27|N|011|44|36|E|name=R-21 Rochau}} (approximately)
+: Opened: 15 April – 15 May 1945
+: Runway:  3600x120 SOD (07/25)<ref name="AFE"/>
+: Use: Supply and Evacuation airfield<ref name="Johnson"/>
+
+* '''[[R-22 Rodigen]]''', Germany
+: Located: {{Coord|50|58|49|N|011|36|02|E|name=R-22 Rodigen}} (approximately)
+: Opened: 16 April – 16 June 1945
+: Runway:  2300x120 SOD (06/24)<ref name="AFE"/>
+: Use: Supply and Evacuation airfield<ref name="Johnson"/>
+
+{{Col-break|width=50%}}
+* '''[[R-23 Leipzig–Altenburg Airport]]''', Germany
+: Now: [[Altenburg-Nobitz Airport]]
+: Located: {{Coord|50|58|55|N|012|30|23|E|name=R-23 Altenburg}}
+: Opened: 16 April – 7 July 1945
+: Runway: 4200x120 SOD (01/19)<ref name="AFE"/>
+: Use: Supply and Evacuation airfield<ref name="Johnson"/>
+
+* '''R-27 Sachsenheim''', Germany
+: Located: {{Coord|48|56|55|N|009|02|36|E|name=R-27 Sachsenheim}}
+: Opened: 24 April – 30 May 1945
+: Runway: 4500x120 MACADM (09/27)<ref name="AFE"/>
+: Use: Emergency fighter/bomber airfield<ref name="Johnson"/>
+
+* '''[[Fürth Airfield|R-28 Fürth-Atzenhof]]''', Germany
+: Located: {{Coord|49|29|49|N|010|57|26|E|name=R-28 Fürth}} (abandoned)
+: Opened: 19 April 1945 Closed: Undetermined
+: Runway: 4500/120, PSP, (09/27)<ref name="AFE"/>
+: Used by:
+:: [[10th Reconnaissance Group]],<ref name="Groups"/>
+:: [[362d Fighter Group]], 30 April – 3 May 1945
+
+* '''[[R-30 Fürth/Industriehafen]]''', Germany
+: Located: {{Coord|49|28|58|N|010|57|01|E|name=R-30 Fürth/Industriehafen}}
+: Opened:  22 April – 30 August 1945
+: Runway:  5000x172 PSP/CON (11/29)<ref name="AFE"/>
+: Use:<ref name="Squadrons"/><ref name="Groups"/> 
+:: [[362d Fighter Group]], 30 April – 3 May 1945
+:: [[425th Night Fighter Squadron]], 2 May – 5 July 1945
+:: [[371st Fighter Group]], 5 May – 16 August 1945
+
+* '''[[R-31 Merseburg]]''', Germany
+: Now: [[Merseburg Airfield]]
+: Located: {{Coord|51|21|48|N|011|56|54|E|name=R-31 Merseburg}}
+: Opened: 16 April – 5 May 1945 
+: Runway: 3369x170 SOD (06/24)<ref name="AFE"/>
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[R-32 Köthen]]''', Germany
+: Now: [[Köthen Airfield]]
+: Located: {{Coord|51|43|16|N|011|57|23|E|name=R-32 Köthen}}
+: Opened: 18 April – 5 May 1945  
+: Runway: 3300x120 SOD (07/25)<ref name="AFE"/>
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[R-33 Gardelegen]]''', Germany
+: Now: Industrial area
+: Located: {{Coord|52|32|10|N|011|26|27|E|name=R-33 Gardelegen}} 
+: Opened:  15 April – 15 June 1945 
+: Runway: 3600x120 SOD (09/27)<ref name="AFE"/>
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[R-34 Stendal]]''', Germany
+: Now: Stendal-Borstel Airfield (ICAO: EDOV)
+: Located: {{Coord|52|37|58|N|011|49|54|E|name=R-34 Stendal}} 
+: Opened:  17 April – 15 June 1945 
+: Runway: 4300x120 SOD (08/26)<ref name="AFE"/>
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''R-35 Völkenrode''', Germany
+: Now: [[Physikalisch-Technische Bundesanstalt]] (Federal research agency)
+: Located: {{Coord|52|18|17|N|010|26|33|E|name=R-35 Völkenrode}} 
+: Opened:  18 April – 15 May 1945 
+: Runway: 3600x120 SOD (12/30)<ref name="AFE"/>
+: Use: 
+:: 125th Liaison Squadron, April 1945<ref name="Johnson"/>
+
+* '''[[R-36 Wesendorf]]''', Germany
+: Was: '''Wesendorf Airfield''' (Closed 2006)
+: Now: Industrial area (partially)
+: Located: {{Coord|52|34|38|N|010|30|43|E|name=R-36 Wesendorf}} 
+: Opened:  13 April – 5 June 1945 
+: Runway: 3600x120 SOD (12/30)<ref name="AFE"/>
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[R-37 Brunswick/Waggum]]''', Germany
+: Now: [[Braunschweig Airport]] {{airport codes|BWE|EDVE|}}
+: Located: {{Coord|52|19|09|N|10|33|19|E|name=R-37 Brunswick/Waggum}}
+: Captured: 20 April 1945 Opened: 22 April 1945 Closed: Undetermined
+: Runway: 3600/120, SOD, (08/26)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[363d Tactical Reconnaissance Group]], 22 April – May 1945
+
+* '''[[R-38 Brunswick/Broitzem]]''', Germany {{Coord|52|14|58|N|010|29|21|E|name=R-38 Brunswick/Broitzem}}
+: Headquarters: [[84th Fighter Wing (World War II)|84th Fighter Wing]], 22 April – 12 August 1945<ref name="AFE"/>
+: 153d Liaison Squadron, 20 May – 4 June 1945<ref name="Squadrons"/> 
+: Closed: 31 August 1945, turned over to [[Royal Air Force]] as part of British Zone of Occupation.
+
+* '''R-39 Helmstedt''', Germany
+: Located: {{Coord|52|13|42|N|011|00|37|E|name=R-39 Helmstedt}} (approximately)
+: Opened: 24 April – 5 July 1945<ref name="AFE"/>
+: Runway:  3600x120 SOD (04/22)
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''R-41 Schwäbisch Hall''', Germany
+: Now: Flugplatz Schwäbisch Hall-Hessental
+: Located: {{Coord|49|07|07|N|009|46|54|E|name=R-41 Schwabisch-Hall}} 
+: Opened:  22 April – 31 August 1945
+: Runway:  3600x120 CON 08/26<ref name="AFE"/>  
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[R-43 Nuremberg]]''', Germany
+: Now: [[Nazi party rally grounds#Great Road (Große Straße)|Recreational park, fair and exhibition area]] 
+: Located: {{Coord|49|25|25|N|011|07|04|E|name=R-43 Nuremberg}}  
+: Opened:  24 April – 31 August 1945
+: Runway: 3600x120 SOD 10/28<ref name="AFE"/>  
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''R-44 Göppingen''', Germany
+: Later: Göppingen AAF until 1992
+: Now: Industrial area Stauferpark
+: Located:  {{Coord|48|42|29|N|009|41|28|E|name=R-44 Göppingen}} 
+: Opened:  25 April – 15 June 1945
+: Runway: 3000x120 SOD 06/24<ref name="AFE"/>  
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[R-46 Roth]]''', Germany
+: Now: [[File:Roundel of Germany – Type 1 – Border.svg|20px]]&nbsp; [[Roth Air Base]]
+: Located:   {{Coord|49|13|05|N|011|06|01|E|name=R-46 Roth}}
+: Opened: 25 April – 31 August 1945 
+: Runway: 5200x120 PSP 09/27<ref name="AFE"/>  
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''R-47 Oettingen''', Germany
+: Located:   {{Coord|48|55|31|N|010|32|05|E|name=R-47 Oettingen}}
+: Opened:  26 April – 15 May 1945
+: Runway:  3115x267 MACADAM 05/23<ref name="AFE"/>  
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[Ingolstadt Manching Airport|R-48 Ingolstadt]]''', Germany
+: Now: [[Ingolstadt Manching Airport]]
+: Located:   {{Coord|48|42|56|N|011|32|02|E|name=R-48 Ingolstadt}}
+: Opened: 29 April – 15 May 1945 
+: Runway: 3300x120 SOD 09/27<ref name="AFE"/>  
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''R-49 Hailfingen''', Germany
+: Located:  {{Coord|48|32|19|N|008|51|39|E|name=R-49 Hailfingen}}
+: Opened:  30 April – 11 July 1945
+: Runway 1: 4000x120 SOD 07/25<ref name="AFE"/>  
+: Runway 2: 3600x120 SOD 07/25  
+: Use: Fighter/Bomber Airfield<ref name="Johnson"/>
+
+* '''R-52 Leipzig/Mockau''', Germany
+: Later: Flughafen Leipzig-Mockau until 1991
+: Now: Industrial area
+: Located: {{Coord|51|23|44|N|012|24|35|E|name=R-52 Leipzig/Mockau}} 
+: Opened:  27 April – 15 June 1945
+: Runway:  3600x120 SOD<ref name="AFE"/> 
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''R-53 Zwickau''', Germany
+: Now: Zwickau airfield (ICAO: EDBI)
+: Located: {{Coord|50|42|05|N|012|27|11|E|name=R-53 Zwickau}}
+: Opened:  4 May – 15 June 1945
+: Runway:  2870x120 SOD (07/25)<ref name="AFE"/> 
+: Use:  Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''R-55 Salzwedel''', Germany
+: Located: {{Coord|52|50|06|N|011|12|23|E|name=R-55 Salzwedel}}
+: Opened:  3 May – 5 July 1945
+: Runway:  3600x120 SOD (08/26)<ref name="AFE"/> 
+: Use:  Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[Friedrichshafen Airport|R-58 Friedrichshafen]]''', Germany
+: Now [[Friedrichshafen Airport]] (ICAO: EDNY, IATA: FDH)
+: Located: {{Coord|47|40|17|N|009|30|41|E|name=R-58 Friedricshafen}}
+: Opened: 4 May – 1 August 1945
+: Runway:  2700x120 SOD<ref name="AFE"/> 
+: Use:  Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''R-59 Leipheim''', Germany
+: Construction cancelled<ref name="Johnson"/>
+
+* '''R-60 Neuburg'''
+: Construction cancelled<ref name="Johnson"/>
+
+* '''R-61 Eutingen'''
+: Now: Eutingen airfield (ICAO: EDTE)
+: Located:  {{Coord|48|29|09|N|008|46|42|E|name=R-61 Eutingen}}
+: Opened:  27 April – 1 August 1945
+: Runway:  3200x240 TAR (06/24)<ref name="AFE"/>  
+: Use:  Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[R-62 Mengen]]'''
+: Now: Mengen-Hohentengen Airfield (ICAO: EDTM)
+: Located:   {{Coord|48|03|12|N|009|22|12|E|name=R-62 Mengen}}
+: Opened:  25 April – 1 August 1945
+: Runway: 3600x120 SOD (06/24)<ref name="AFE"/>  
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''R-63 Weiden'''
+: Located:   {{Coord|49|38|30|N|012|07|31|E|name=R-63 Weiden}}
+: Opened:  25 April – 15 June 1945
+: Runway: 3150x120 SOD (07/25)<ref name="AFE"/>  
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[R-64 Cham]]'''
+: Now: Cham-Janahof glider airfield
+: Located: {{Coord|49|12|42|N|012|39|24|E|name=R-64 Cham}}
+: Opened:  27 April – 15 June 1945
+: Runway:  3150x120 SOD (10/28)<ref name="AFE"/>  
+: Use:  Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[R-65 Risstissen]]'''
+: Located:  {{Coord|48|16|36|N|009|51|04|E|name=R-65 Risstissen}}
+: Opened: 27 April – 15 June 1945 
+: Runway: 3000x120 SOD (07/25)<ref name="AFE"/>  
+: Use:  Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[R-66 Regensburg/Prufening]]'''
+: Located:  {{Coord|49|00|42|N|012|02|56|E|name=R-66 Regensburg/Prufening}} (approximately)
+: Opened:  28 April – 15 June 1945
+: Runway: 3200x120 SOD (07/25)<ref name="AFE"/>  
+: Use: 
+: 14th Liaison Squadron (May 1945)<ref name="Johnson"/>
+
+* '''[[R-69 Landau]]'''
+: Now: Landau Ebenberg Airport 
+: Located: {{Coord|49|10|36|N|008|07|51|E|name=R-69 Landau}}  
+: Opened: 1 May – 15 June 1945
+: Runway: 3600x120 SOD (07/25)<ref name="AFE"/>  
+: Use:  Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[R-73 Ergolding]]''', Germany
+: Located:   {{Coord|48|33|46|N|012|09|44|E|name=R-73 Ergolding}} (approximately)
+: Opened: 3 May – 15 June 1945
+: Runway:  3200x120 SOD (04/22)<ref name="AFE"/>  
+: Use: Supply & Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[Deutsches Museum Flugwerft Schleissheim|R-75 Schleissheim]]''' Germany
+: Now: [[Flugplatz Schleißheim]]
+: Located: {{Coord|48|14|21|N|011|33|38|E|name=R-75 Schleissheim}} 
+: Opened: 2 May 1945  –  31 August 1945
+: Runway: 5500x162 CON/PSP (07/25)<ref name="AFE"/>  
+: Use: Supply & Evacuation/Fighter Bomber Airfield<ref name="Johnson"/>
+
+* '''R-76 Pocking''', Germany
+: Now: Photovoltaic power plant
+: Located: {{Coord|48|22|24|N|013|17|52|E|name=R-76 Pocking}} 
+: Opened: 3 May 1945
+: Runway:  3600x120 SOD (06/24)
+: Use:  Supply & Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[R-79 Schongau]]''', Germany
+: Located:  {{Coord|47|48|43|N|010|53|15|E|name=R-79 Schongau}} (approximately)
+: Opened: 3 May – 8 August 1945
+: Runway:  3000x120 SOD (07/25)<ref name="AFE"/>  
+: Use:  Supply & Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[R-80 Salzburg]]''', Austria
+: Now: [[Salzburg Airport]]
+: Located: {{Coord|47|47|39|N|013|00|11|E|name=R-80 Salzburg}}
+: Opened:  7 May 1945
+: Runway: 4000x120 CON (10/28)<ref name="AFE"/>  
+: Use:  Supply and Evacuation airfield<ref name="Johnson"/>
+
+* '''R-83 Mühldorf''', Germany
+: Located: {{Coord|48|15|39|N|012|27|28|E|name=R-83 Mühldorf}}
+: Opened:  4 May – 15 June 1945
+: Runway: 3200x120 SOD (12/30)<ref name="AFE"/>  
+: Use: Supply and Evacuation airfield<ref name="Johnson"/>
+
+* '''[[R-84 Augsburg]]''', Germany
+: Now: Augsburg Airport
+: Located: {{Coord|48|25|29|N|010|56|01|E|name=R-84 Augsburg}}
+: Opened:  3 May 1945
+: Runway: 3000x120 SOD (10/28)<ref name="AFE"/>  
+: Use:<ref name="Johnson"/>
+:: 72d Liaison Squadron (May–June 1945)
+
+* '''[[R-86 Bad Aibling]]''', Germany
+: Located: {{Coord|47|51|52|N|012|00|34|E|name=R-86 Bad Aibling}} (approximately)
+: Opened: 4 May 1945 
+: Runway: 3000x150 SOD (11/29)<ref name="AFE"/>  
+: Use: Supply and Evacuation airfield<ref name="Johnson"/>
+
+* '''[[R-88 Innsbruck]]''', Austria
+: Now: Innsbruck Airport
+: Located: {{Coord|47|15|37|N|011|20|51|E|name=R-88 Innsbruck}}
+: Opened: 5 May – 12 July 1945 
+: Runway: 3000x120 SOD (08/26)<ref name="AFE"/>  
+: Use:  Supply and Evacuation airfield<ref name="Johnson"/>
+
+* '''[[R-89 Plzeň]]''', Czechoslovakia
+: Now: Plzeň Airport
+: Located: {{Coord|49|40|27|N|013|16|19|E|name=R-89 Plzeň}}
+: Opened: 8 May – 5 September 1945 
+: Runway: 4000x260 SOD/CON (09/27)<ref name="AFE"/>  
+: Use:  Supply and Evacuation airfield<ref name="Johnson"/>
+
+* '''[[R-90 Wels]]''', Austria
+: Now: [[Wels Airport]]
+: Located: {{Coord|48|11|01|N|014|02|19|E|name=R-90 Wels}}
+: Opened:  7 May – 5 July 1945
+: Runway:  3600x120 SOD (08/26)<ref name="AFE"/>  
+: Use:  Supply and Evacuation airfield<ref name="Johnson"/>
+
+* '''[[R-93 Holzkirchen/Marschall]]''', Germany
+: Located: {{Coord|47|52|15|N|011|42|43|E|name=R-93 Holzkirchen/Marschall}} (approximately)
+: Opened: 5 June 1945 
+: Runway 1: 3625x120 SOD (08/26)<ref name="AFE"/>  
+: Runway 2: 3600x120 SOD (03/21)  
+: Use: Military Storage Airfield<ref name="Squadrons"/>
+
+* '''[[R-94 Nellingen]]''', Germany
+: Now: [[Segelfluggelände Oppingen-Au]]
+: Located: {{Coord|48|33|26|N|009|49|04|E|name=R-94 Nellingen}}
+: Opened:  1 August 1945
+: Runway:  3500x225 SOD (14/32)<ref name="AFE"/>  
+: Use:  Military Storage Airfield<ref name="Squadrons"/>
+
+* '''R-97 Regensburg/Obertraubling''', Germany
+: Construction cancelled
+
+{{col-end}}
+
+=== Army of Occupation ALGs ===
+{{geoGroup|section=Army of Occupation ALGs}}
+ALGs used by American forces in [[Occupied Germany]] and [[Austria]] after the German surrender on 7 May 1945. Primarily used for storage of captured German weapons, aircraft and equipment before their destruction. Also for garrisons of US Army or US Army Air Force personnel.
+
+{{Col-begin}}
+{{Col-break|width=50%}}
+* '''[[Y-57 Trier]]''', Germany
+: Later [[AAF Station Trier]]; [[Trier Air Base]]  
+: Now: industrial area
+: Located: {{Coord|49.72304|N|6.60126|E|name=Y-57 Trier}} 
+: Opened: 10 March 1945 
+: Runway: 3625x120, CON/PSP, (06/24)<ref name="AFE"/>
+: Used by:
+:: [[10th Reconnaissance Group]],  – 4 March April 1945 (P-38/F-4; P-51/F-5)<ref name="Groups"/>
+
+* '''Y-73 [[Rhein-Main Air Base|Frankfurt/Rhein-Main]]''', Germany
+: Later: [[AAF Station Frankfurt]]; [[Rhein-Main Air Base]]
+: Now: [[Frankfurt Airport]] {{airport codes|FRA|EDDF}}
+: Located: {{Coord|50|01|48.7|N|08|35|16.97|E|name=Y-73 Frankfurt/Rhein-Main}}
+: Captured: 30 March 1945 Opened: 10 April 1945
+: Runway: 6000/120, CON, (07/25)<ref name="AFE"/>
+: Used by:
+:: [[362d Fighter Group]], 8–30 April 1945 (P-47)<ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[425th Night Fighter Squadron]], 12 April – 2 May 1945 (P-61)<ref name="Squadrons"/>
+:: [[368th Fighter Group]], 15 April – 13 May 1945 (P-47)<ref name="Groups"/>{{page needed|date=September 2022}}
+: Closed 10 October 2005
+
+* '''[[Y-76 Darmstadt/Griesheim]]''', Germany
+: Later: [[AAF Station Darmstadt/Griesheim]]
+: Transferred to [[United States Army]], December 1945 (Darmstadt Army Airfield)
+: Now: [[Griesheim Airfield]] {{airport codes|ZCS|EDES}}
+: Located:  {{Coord|49|51|15|N|008|35|19|E|name=Y-76 Darmstadt/Griesheim}}
+: Opened: 31 March 1945
+: Runway: 3600x120 SOD (08/26)<ref name="AFE"/>
+: Use:<ref name="Johnson"/><ref name="Squadrons"/> 
+:: 72d Liaison Squadron, 1–15 April; June–July 1945
+:: 167th Liaison Squadron, 10 June – 2 July 1945
+:: [[63d Fighter Wing (World War II)|63d Fighter Wing]], 17 July – 1 December 1945
+:: [[64th Air Division|64th Fighter Wing]], 7 July – 1 December 1945
+:: [[71st Fighter Wing (World War II)|71st Fighter Wing]], 25 September – November 1945
+:: 155th Photographic Reconnaissance Squadron, 28 September – 24 November 1945
+:: 160th Photographic Reconnaissance Squadron, 22 September – 24 November 1945
+
+* '''[[Y-80 Wiesbaden]]''', Germany
+: Later: [[AAF Station Wiesbaden]]; [[Wiesbaden Army Airfield]]
+: Transferred to [[United States Army]], 31 December 1975 (Project Creek Swap)
+: Now: [[File:Flag of the United States.svg|20px]]&nbsp;[[Wiesbaden Army Airfield]]
+: Located: {{Coord|50|02|57|N|008|19|27|E|name=Y-80 Wiesbaden}}
+: Captured 3 April 1945<ref name="Squadrons"/><ref name="Groups"/>{{page needed|date=September 2022}}
+:: 47th Liaison Squadron, 2 May 1945 – 24 June 1946
+:: [[United States Air Forces in Europe]], 26 September 1945 – 15 August 1953
+:: [[Twelfth Air Force]], 1 January 1951 – 27 April 1953
+:: [[51st Troop Carrier Wing (World War II)|51st Troop Carrier Wing]], September 1945 – 5 January 1948
+:: [[2d Air Division]], 1–10 June 1949
+:: [[3d Air Division]], 25 October 1953 – 1 March 1954
+:: [[322d Air Division|322d Troop Carrier Wing]], 1–22 March 1954
+:: [[363d Reconnaissance Group]], May–August 1945
+:: [[60th Troop Carrier Group]]*, 15 December 1948 – 26 September 1949
+:: [[317th Troop Carrier Group]]*, 30 September – 15 December 1948
+::<small>* Assigned to 1st Airlift Task Force ([[Berlin Airlift]])</small>
+
+* '''[[Y-84 Giessen]]''', Germany
+: Later: [[AAF Station Giessen]]
+: Transferred to [[United States Army]] control [[Giessen Army Depot]] (Closed 2008)
+: Located: {{Coord|50|35|47|N|008|43|41|E|name=Y-84 Giessen}} (approximately)
+: Opened: 30 March – 5 June 1945
+: Runway: 3300x120 SOD (09/27)<ref name="AFE"/>
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[Y-86 Fritzlar]]''', Germany
+: Later: [[AAF Station Fritzlar]] 
+: Turned over to [[United States Army]] (Fritzlar Kaserne), 14 September 1947
+: Now: [[File:Roundel of Germany – Type 1 – Border.svg|20px]]&nbsp;[[Fritzlar Air Base]] {{airport codes|FRZ|ETHF}}
+: Located: {{Coord|51|07|00|N|009|17|14|E|name=Y-86 Fritzlar}}
+: Opened: 31 March 1945
+: Runway: 5000/120, PSP, (12/30)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[404th Fighter Group]], 12 April – 23 June 1945 (P-47)
+:: [[365th Fighter Group]], 13 April – 29 July 1945 (P-47)
+
+* '''[[Y-90 Giebelstadt]]''', Germany
+: Later: [[AAF Station Giebelstadt]] 9 May 1945
+: Later: [[Giebelstadt Army Airfield]]
+: Now: [[Giebelstadt Airport|Giebelstadt Airfield]] {{airport codes|GHF|EDQG}}
+: Transferred to [[United States Army]] Control, 1 August 1968
+: Located: {{Coord|49|38|52|N|009|57|54|E|name=Y-90 Giebelstadt}}
+: Captured: 3 April 1945 Opened: 5 April 1945
+: Runway: 6000/120, CON, (08/26)<ref name="AFE"/>
+: Used by:<ref name="Squadrons"/><ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[50th Fighter Group]], 20 April – 21 May 1945 (P-47)
+:: [[417th Night Fighter Squadron]], 24 April – 21 May 1945 (P-61)
+: Closed 23 June 2006
+
+* '''[[Y-91 Hanau/Langendiebach]]''', Germany
+: Transferred to United States Army control
+: Later: Fliegerhorst Kaserne/Hanau Army Airfield
+: Now: closed; to be developed
+: Located: {{Coord|50|10|03|N|008|57|41|E|name=Y-91 Hanau/Langendiebach}}
+: Opened:  6 April – 31 August 1946
+: Runway: 4000x120 PSP (10/28)<ref name="AFE"/>
+: Use: Supply and Evacuation Airfield; Tactical Air Depot<ref name="Johnson"/>
+
+* '''[[Y-96 Kassel/Waldau]]''', Germany
+: Transferred to United States Army control
+: Later: [[Waldau Kaserne]] (Waldau Army Airfield/Waldau Kaserne)
+: Located: {{Coord|51|16|52|N|009|30|19|E|name=Y-96 Kassel/Waldau}}
+: Opened:  5 April – 31 October 1945
+: Runway: 4000x120 CON (01/19)<ref name="AFE"/>
+: Use: Supply and Evacuation Airfield; Tactical Air Depot<ref name="Johnson"/>
+
+* '''[[R-6 Kitzingen]]''', Germany
+: Later: [[AAF Station Kitzingen]]
+: Transferred to United States Army control
+: Was: [[Kitzingen Army Airfield]] (Harvey Barracks) (Closed)
+: Now: [[Kitzingen Airport]] {{airport codes|KGZ|ETIN}}
+: Located: {{Coord|49|44|34|N|010|12|09|E|name=R-6 Kitzingen}} 
+: Captured: 11 April 1945 Opened: 15 April 1945
+: Runway: 5500/120, ASP/CON, (04/22)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[405th Fighter Group]], 30 April – 8 May 1945
+
+* '''[[R-10 Illesheim]]''', Germany
+: Later: [[AAF Station Illesheim]]
+: Transferred to United States Army control
+: Now: [[File:Flag of the United States.svg|20px]]&nbsp;[[Storck Barracks]] [[United States Army]]
+: Located: {{Coord|49|28|24|N|010|23|11|E|name=R-10 Illesheim}}
+: Captured 16 April 1945 Opened: 17 April 1945
+: Runway: 4500/120, PAP, (06/24)<ref name="AFE"/>
+: Used by:<ref name="Groups"/>
+:: [[48th Fighter Group]], 29 April – 5 July 1945
+:: [[362d Fighter Group]], 3–12 May 1945
+
+* '''[[R-14 Detmold]]''', Germany
+: Later: [[AAF Station Detmold]]
+: Transferred to British Royal Army control
+: Later: BAOR/Army Air Corps Hobart Barracks (Closed 1995)
+: Now: Flugplatz Detmold
+: Located:   {{Coord|51|56|26|N|008|54|15|E|name=R-14 Detmold}}
+: Opened:  11 April – 22 June 1945
+: Runway:  3300x120 SOD (09/27)<ref name="AFE"/>
+: Use: Supply and Evacuation airfield, Tactical Air Depot<ref name="Johnson"/>
+
+* '''[[R-24 Würzburg]]''', Germany
+: Transferred to United States Army control
+: Later [[Leighton Army Airfield]] (Heliport)
+: Located: {{Coord|49|47|20|N|009|58|35|E|name=R-24 Würzburg}}
+: Opened: 17 April – 15 May 1945
+: Runway: 3000x120 SOD (12/30)<ref name="AFE"/>
+: Use: Supply and Evacuation airfield<ref name="Johnson"/>
+:: Transferred to United States Army
+
+*  '''[[R-25 Schweinfurt]]''', Germany
+: Later: [[AAF Station Schweinfurt]]; [[Schweinfurt Air Base]]
+: Transferred to United States Army control
+: Now: [[File:Flag of the United States.svg|20px]]&nbsp;[[Schweinfurt Army Heliport]] {{airport codes||ETOA}}
+: Located: {{Coord|50|02|58|N|010|10|09|E|name=R-25 Schweinfurt}}
+: Captured 18 April 1945, Wartime use: S&E Field<ref name="AFE"/>
+:: [[474th Fighter Group]], 16 June – 25 October 1945
+:: [[86th Fighter Group]], 23 October 1945 – 15 February 1946
+:: [[355th Fighter Group]], 15 April – 1 August 1946
+:: [[52d Fighter Group]], 9 November 1946 – 5 May 1947<ref name="Squadrons"/><ref name="Groups"/>{{page needed|date=September 2022}}
+:: 507th Air Materiel Squadron, 1 June – 31 September 1947 ([[Air Technical Service Command]])
+
+* '''[[R-26 Bayreuth/Bindlach]]''', Germany
+: Later: [[AAF Station Bayreuth/Bindlach]]
+: Transferred to United States Army control
+: Now: [[Bindlacher Berg Airport]] {{airport codes|BYU|EDQD}}
+: Located: {{Coord|49|59|05|N|011|38|24|E|name=R-26 Bayreuth/Bindlach}}
+: Captured 18 April 1945, Wartime use: S&E Field<ref name="AFE"/>
+:: [[366th Fighter Group]], 25 June – 14 September 1945<ref name="Groups"/>
+: Closed and Inactivated 30 September 1945
+
+* '''[[R-29 Herzogenaurach]]''', Germany
+: Later: [[AAF Station Herzogenaurach]]
+: Transferred to [[United States Army]], 28 February 1946 (Herzo-Base); Closed 1992
+: Now: [[Herzogenaurach Airport]] {{airport codes|HZH|EDQH}}
+: Located: {{Coord|49|34|57|N|010|52|42|E|name=R-29 Herzogenaurach}}
+: Captured 19 April 1945, Wartime use: S&E Field<ref name="AFE"/>
+:: [[354th Fighter Group]], May 1945 – 15 February 1946
+:: [[320th Bombardment Group]], 18 June – October 1945<ref name="Groups"/>
+
+* '''[[R-40 Bremen]]''', Germany
+: Later: [[AAF Station Bremen]]
+: Now: [[Bremen Airport]]
+: Located:  {{Coord|53|02|51|N|008|47|12|E|name=R-40 Bremen}}
+: Opened:  30 April 1949
+: Runway 1:  4115x164 CON 08/26<ref name="AFE"/>  
+: Runway 2:  3319x165 CON 13/31
+: Runway 3:  2869x164 CON 18/36 
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[R-42 Buchschwabach]]''', Germany
+: Later: [[AAF Station Buchschwabach]]
+: Now: abandoned
+: Located:  {{Coord|49|22|10|N|010|51|41|E|name=R-42 Buchschwabach}}  
+: Captured 21 April 1945; Opened:  21 April – 31 August 1945
+: Runway:  5000x120 SOD/PHS 08/26<ref name="AFE"/>  
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/><ref name="Groups"/>
+: [[368th Fighter Group]], 13 May – 13 August 1945 (P-47)
+
+* '''[[R-45 Ansbach]]''', Germany
+: Later: [[AAF Station Ansbach]]
+: Transferred to United States Army control
+: Now: [[File:Flag of the United States.svg|20px]]&nbsp;[[Katterbach Kaserne]] [[United States Army]]
+: Located: {{Coord|49|18|33|N|010|38|18|E|name=R-45 Ansbach}}
+: Captured: 23 April 1945 Opened: 29 April 1945
+: Runway: 4000/120, PAP, (07/25)<ref name="AFE"/>  
+: Used by:<ref name="Groups"/>
+:: [[354th Fighter Group]], 30 April – 18 May 1945
+
+* '''[[R-50 Stuttgart/Echterdingen]]''', Germany
+: Later: [[AAF Station Stuttgart/Echterdingen]]
+: Now: [[Stuttgart Airport]] {{airport codes|STR|EDDS}}
+: Located: {{Coord|48|41|19|N|009|12|40|E|name=R-50 Stuttgart/Echterdingen}}
+: Captured 25 April 1945, Opened 7 May 1945<ref name="AFE"/> 
+:: [[324th Fighter Group]], 8 May  – 20 October 1945
+:: [[404th Fighter Group]], 23 June – 2 August 1945
+:: [[27th Fighter Group]], 15 September – 20 October 1945
+:: [[371st Fighter Group]], September – October 1945
+:: [[474th Fighter Group]], 25 October – 21 November 1945
+: Closed 30 November 1945 (Remains as USAF transport auxiliary airfield used occasionally by [[Air Mobility Command]])<ref name="Groups"/>
+
+{{Col-break|width=50%}}
+* '''[[R-54 Landsberg/East]]''', Germany
+: Later: [[AAF Station Landsberg]]
+: Now: [[File:Roundel of Germany – Type 1 – Border.svg|20px]]&nbsp; [[Landsberg-Lech Air Base]] {{airport codes||ETSA}}
+: Located: {{Coord|48|04|15|N|010|54|24|E|name=R-54 Landsberg/East}}
+: Opened:  1 June – 31 August 1945 
+: Runway: 3800x150 SOD (13/31)<ref name="AFE"/> 
+: Use: Military Storage Airfield<ref name="Johnson"/>
+
+* '''[[R-56 Nordholz]]''', Germany
+: Later: [[AAF Station Nordholz]]
+: Now: [[Nordholz Naval Airbase]] {{airport codes||ETMN}}
+: Located: {{Coord|53|46|04|N|008|39|36|E|name=R-56 Nordholz}}
+: Occupied 16 May 1945, Opened 5 June 1945<ref name="AFE"/> 
+:: [[406th Fighter Group]], 5 June 1945 – 20 August 1946
+:: [[86th Fighter Group]], 20 August – 1 December 1946
+::: 86th FG squadrons remained deployed to Nordholz AB on rotating basis until 31 December 1947 providing air defence of [[Bremen]] area.<ref name="Squadrons"/><ref name="Groups"/>{{page needed|date=September 2022}}
+: Closed 31 December 1947 (Remains in use as host to deployed USAF ACC/ANG fighter units to Germany)
+
+* '''[[R-57 Bremerhaven]]''', Germany
+: Later: [[AAF Station Bremerhaven]]; [[Bremerhaven Army Airfield]]
+: Located: {{Coord|53|35|00|N|008|33|23|E|name=R-57 Bremerhaven}}
+: Opened:  16 May – 31 August 1945 Closed: 1993 
+: Runway:  3200x250 SOD (06/24)<ref name="AFE"/> 
+: Use: Liaison Airfield<ref name="Johnson"/>
+
+* '''[[R-67 Memmingen]]''', Germany
+: Later [[AAF Station Memmingen]]; [[Memmingen Air Base]]
+: Now: [[Memmingen Airport]]
+: Located: {{Coord|47|59|17|N|010|14|16|E|name=R-67 Memmingen}} 
+: Opened:  29 April – 15 June 1945
+: Runway:  4089x250 CCN (06/24)<ref name="AFE"/>  
+: Use: Supply and Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[R-68 Straubing]]''', Germany
+: Later: [[AAF Station Straubing]]
+: Transferred to [[United States Army]], 31 August 1946 (Mansfield Kaserne)
+: Now: [[Straubing Wallmuhle Airport]] {{airport codes|RBM|EDMS}}
+: Located: {{Coord|48|54|06|N|012|30|59|E|name=R-68 Straubing}}
+: Captured 30 April 1945 Wartime use: S&E Field<ref name="AFE"/>  
+:: [[405th Fighter Group]], 8 May – July 1945<ref name="Groups"/>
+:: [[362d Fighter Group]], 12 May – August 1945
+:: [[368th Fighter Group]], 13 August 1945 – 20 August 1946
+
+* '''[[R-70 Kaufbeuren]]''', Germany
+: Later: [[AAF Station Kaufbeuren]]; [[Kaufbeuren Air Base]]
+: Turned over to the [[German Air Force]], 16 December 1957
+: Now: [[File:Roundel of Germany – Type 1 – Border.svg|20px]]&nbsp; [[Fliegerhorst Kaufbeuren]] 
+: Located: {{Coord|47|51|43|N|010|36|52|E|name=R-70 Kaufbeuren}} 
+: Opened: 1 May 1945
+: Runway: 5000x120 PSP (02/20)<ref name="AFE"/>  
+: Use: Supply & Evacuation/Fighter Bomber Airfield
+:: [[60th Troop Carrier Wing]]<ref name="Groups"/>
+:: 7320th Air Force Wing
+:: 7330th Flying Training Wing
+
+* '''[[R-71 Lechfeld]]''', Germany
+: Later: [[AAF Station Lechfeld]]
+: Closed 1 June 1947, placed in standby status.
+: Turned over to the German Air Force, 1 January 1956
+: Now: [[File:Roundel of Germany – Type 1 – Border.svg|20px]]&nbsp; [[Fliegerhorst Lechfeld]] 
+: Located: {{Coord|48|11|10|N|010|51|42|E|name=R-71 Lechfeld}} 
+: Captured 1 May 1945, Opened 1 December 1945<ref name="AFE"/>  
+:: [[305th Bombardment Group]], December 1945 – December 1946
+:: [[306th Bombardment Group]], 13–25 December 1946<ref name="Groups"/>
+:: [[86th Fighter Group]], 1 December 1946 – 5 March 1947
+
+* '''[[R-72 Fürstenfeldbruck]]''', Germany
+: Later: [[AAF Station Fürstenfeldbruck]]; [[Fürstenfeldbruck Air Base]]
+: Turned over to the German Air Force, 1960
+: Now: [[File:Roundel of Germany – Type 1 – Border.svg|20px]]&nbsp; [[Fliegerhorst Fürstenfeldbruck]] 
+: Located: {{Coord|48|12|24|N|011|15|59|E|name=R-72 Fürstenfeldbruck}}
+: Opened: 2 May 1945
+: Runway:  6000x150 CON (09/27)<ref name="AFE"/>  
+: Use: Supply & Evacuation Airfield
+:: [[36th Fighter-Bomber Wing]]<ref name="Groups"/>
+:: [[117th Tactical Reconnaissance Wing]]
+:: [[10th Tactical Reconnaissance Wing]]
+:: 7330th Flying Training Wing
+
+* '''[[R-74 Oberwiesenfeld]]''', Germany
+: Was: Oberwiesenfeld Airport (Munich) (closed 1968)
+: Later: [[AAF Station Oberwiesenfeld]]
+: Transferred to control of the United States Army: [[Oberwiesenfeld Army Airfield]]
+: Now: [[Olympiapark, Munich]]
+: Located:   {{Coord|48|10|12|N|011|33|06|E|name=R-74 Oberwiesenfeld}} (approximately)
+: Opened: 2 May 1945 – 1957
+: Runway:  3000x120 SOD (14/32)<ref name="AFE"/>  
+: Use: Supply & Evacuation Airfield<ref name="Johnson"/>
+
+* '''[[R-77 Gablingen]]''', Germany
+: Transferred to [[United States Army]], 1 July 1946
+: Was: [[Gablingen Kaserne]]
+: Was: [[AAF Station Gablingen]]
+: Now: Non-aviation use
+: Located: {{Coord|48|27|05|N|010|51|37|E|name=R-77 Gablingen}}
+: Captured 7 May 1945, Opened 15 May 1945<ref name="AFE"/>  
+:: [[323d Bombardment Group]], 15 May – 16 July 1945<ref name="Groups"/>
+:: [[355th Fighter Group]], 3 July 1945 – 15 April 1946
+
+* '''[[R-78 Landsberg]]''', Germany
+: Later: [[AAF Station Landsberg]]; [[Landsberg Air Base]]
+: Turned over to West German Luftwaffe (Bundesluftwaffe: federal air force) 31 December 1957
+: Now: [[File:Roundel of Germany – Type 1 – Border.svg|20px]]&nbsp; [[Landsberg-Lech Air Base]] {{airport codes|ETSA}}
+: Located: {{Coord|48|04|18|N|010|54|25|E|name=R-78 Landsberg}}
+: Captured 7 May 1945, Wartime use: S&E Field, Tactical Air Depot<ref name="AFE"/>  
+:: [[323d Bombardment Group]], 16 July – October 1945<ref name="Groups"/>
+:: 34th Air Depot (later Air Ammunition Depot), 1 August 1945 – 31 December 1949
+:: [[2d Air Division]], 10 June 1949 – 7 May 1951
+:: 7280th/7030th Support Group, 1 January 1950 – 1 January 1954
+:: 7351st Flying Training Wing (ATC), 1 January 1954 – 31 December 1957
+
+* '''[[R-81 Oberpfaffenhofen]]''', Germany
+: Later: [[AAF Station Oberpfaffenhofen]]; [[Oberpfaffenhofen Air Depot]]
+: Now: [[Oberpfaffenhofen Airport]]
+: Located: {{Coord|48|04|58|N|011|17|09|E|name=R-81 Oberpfaffenhofen}}
+: Opened:  5 May 1945
+: Runway: 5000x150 CON (04/22)<ref name="AFE"/>  
+: Use:  Supply and Evacuation airfield; Tactical Air Depot<ref name="Johnson"/>
+
+* '''[[R-82 Munich/Riem]], Germany'''
+: Later: [[AAF Station Munich-Riem]]; [[Munich Air Base]]
+: Returned to German civil control: 30 June 1957
+: Was: [[Munich-Riem Airport]] (Closed 16 May 1992)
+: Now: non-aviation use
+: Located: {{Coord|48|08|16|N|011|41|25|E|name=R-82 Munich/Reim}}
+: Captured 6 May 1945, Wartime use: S&E Field, Tactical Air Depot<ref name="AFE"/>  
+:: [[442d Troop Carrier Group]], September 1945 – 30 September 1946<ref name="Groups"/>
+:: [[60th Troop Carrier Group]], 30 September 1946 – 14 May 1948 (elements at Munich AFB/AB until 1955)
+:: Munich Air Depot (ATSC), 1 February 1946 – 31 May 1948
+:: 1602d Air Transport Wing (MATS), 1 June 1948 – 31 December 1956
+
+* '''[[R-85 Munich/Neubiberg]]'''
+: Later: [[AAF Station Munich-Neubiberg]]; [[Neubiberg Air Base]]
+: Turned over to the German Air Force: 1 June 1958
+: Now: [[File:Roundel of Germany – Type 1 – Border.svg|20px]]&nbsp; [[Neubiberg Air Base]] (Non-Flying)
+: Located: {{Coord|48|04|22|N|011|38|13|E|name=R-85 Munich/Neubiberg}}
+: Occupied 15 May 1945, Opened 22 June 1945<ref name="AFE"/>  
+:: [[70th Fighter Wing (World War II)|70th Fighter Wing]], 10 November 1945 – 25 September 1947
+:: [[357th Fighter Group]], 21 July 1945 – 20 August 1946<ref name="Groups"/>
+:: [[33d Fighter Group]], 20 August 1946 – July 1947
+:: [[86th Fighter Group]], 12 June 1947 – 9 August 1952
+:: [[317th Troop Carrier Group]], 21 March 1953 – 17 April 1957
+:: 7101st Air Base Group, 1 April 1957 – 1 June 1958
+
+* '''[[R-87 Horsching]]''', Austria
+: Later: [[AAF Station Hoersching]]
+: Located: {{Coord|48|14|00|N|014|11|15|E|name=R-87 Horsching}}
+: Turned over to Provisional Austrian Government, 1 July 1947
+: Now: [[Linz Airport]] {{airport codes|LNZ|LOWL}}
+: Occupied: 5 May 1945, Wartime use: S&E Field<ref name="AFE"/>  
+:: [[17th Bombardment Group]], 27 June – 31 October 1945<ref name="Groups"/>
+:: [[79th Fighter Group]], July 1945 – 25 June 1947
+
+* '''[[R-91 Erding]]''', Germany
+: Later [[AAF Station Erding]]
+: Later [[Erding Air Base]]
+: Turned over to the German Air Force, 1 April 1957
+: Now: [[File:Roundel of Germany – Type 1 – Border.svg|20px]] &nbsp; [[Fliegerhorst Erding]]
+: Located: {{Coord|48|49|20|N|011|56|54|E|name=R-91 Erding}}
+: Opened:  15 August 1945
+: Runway: 4500x120 PSP (08/26)<ref name="AFE"/>  
+: Use: Tactical Air Depot
+:: 85th Air Depot Wing
+:: [[440th Fighter-Interceptor Squadron]]<ref name="Squadrons"/><ref name="Groups"/>{{page needed|date=September 2022}}
+:: [[52d Tactical Fighter Group]]
+
+* '''[[R-92 Vienna/Tulln]]''', Austria
+: Later: [[AAF Station Tulln]]
+: Redesignated: [[Tulln Air Base]], 26 September 1947
+: Turned over to Austrian Government, 15 May 1955
+: Now: [[File:Roundel of Austria.svg|20px]]&nbsp; [[Fliegerhorst Brumowski]] {{airport codes||LOXT}}
+: Located: {{Coord|48|19|16|N|016|06|43|E|name=R-92 Vienna/Tulln}}
+: Occupied: 12 August 1945<ref name="AFE"/>  
+:: 1407th AAF Base Unit, 27 July 1945 – 31 May 1947<ref name="Groups"/>
+:: 516th Troop Carrier Group, 4 September 1945 – 20 December 1947
+:: [[313th Troop Carrier Group]], 30 September 1946 – 25 June 1947
+:: 7360th Base Complement Squadron, 1 June 1947 – 15 May 1955
+
+* '''[[Tempelhof Central Airport|R-95 Tempelhof]]''', Occupied Berlin
+: Later: AAF Station Tempelhof; Tempelhof Airbase; Tempelhof Central Airport
+: Until 2008 (now closed): [[Berlin Tempelhof Airport|Tempelhof Airport]]
+: Located: {{Coord|52|28|23|N|013|24|14|E|name=R-95 Tempelhof}}
+: Opened: 10 July 1945 – July 1994
+: Runway: 4987x120 PSP (08/26)<ref name="AFE"/>  
+: Use: Air Transport<ref name="Squadrons"/>
+
+* '''[[R-96 Erlangen]]''', Germany
+: Later: [[AAF Station Erlangen]]
+: Turned over to [[United States Army]] (Ferris Barracks), 15 October 1947 
+: Located: {{Coord|49|33|22|N|011|02|50|E|name=R-96 Erlangen}}
+: Runway: 3000x75 PSP (04/22)<ref name="AFE"/>  
+: Headquarters:
+:: [[XII Tactical Air Command]], 1 July – November 1945<ref name="Groups"/>
+:: [[IX Fighter Command]], September – November 1945
+:: [[40th Air Division|40th Bombardment Wing]], 15 November 1945 – 25 December 1946
+:: 14th Liaison Squadron, 22 April – 4 May 1945
+
+* '''[[R-98 Bad Kissingen]]''', Germany
+: Later: [[AAF Station Bad Kissingen]]
+: Transferred to [[United States Army]], 31 December 1947
+: Now: [[Bad Kissingen Airfield]], {{airport codes||EDFK}} 
+: Located: {{Coord|50|12|39|N|010|04|09|E|name=R-98 Bad Kissingen}}
+: Occupied: 7 April 1945, Opened 6 June 1945, Liaison Field<ref name="AFE"/>  
+:: 316th Station Complement Squadron, 6 June – 31 December 1945
+:: [[64th Fighter Wing]], 1 December 1945 – 5 June 1947<ref name="Groups"/>
+:: [[XII Tactical Air Command]], 1 November 1945 – 10 November 1947
+:: [[86th Fighter Group]], 5 March – 12 June 1947
+:: [[52d Fighter Group]], 5 May – 25 June 1947
+:: [[33d Fighter Group]], 15 July – August 1947
+{{col-end}}
+
+===Royal Air Force ALGs===
+{{geoGroup|section=Royal Air Force ALGs}}
+
+[[File:Royal Air Force- 2nd Tactical Air Force, 1943-1945. CL614.jpg|thumb|A Spitfire Mark IX of [[No. 443 Squadron RCAF]] taxies to dispersal at [[B-2 Bazenville]], alongside a field where French farmers are gathering in the wheat]]
+Advanced Landing Ground airfields built by the [[Royal Engineers]] or [[RAF Second Tactical Air Force|2TAF]]'s Airfield Construction service for the [[Royal Air Force]] and units under British operation command were given "B" designations. Some of these were also used by USAAF Troop Carrier Groups and Command and Control organisations.<ref name="Johnson"/>
+
+{|class="wikitable"
+|-
+! Airfield 
+! Operational
+!Notes
+!Coordinates
+|-
+|B-1 [[Asnelles|Asnelles-sur-Mer]], France - off [[Gold Beach]] 
+| operational (Spitfires) on D+4
+|
+|{{Coord|49|20|25|N|000|34|58|W|name=B-1 Asnelles-sur-Mer}}
+|-
+| B-2 [[Bazenville Airfield]], [[Lower Normandy]] France 
+|RAF, RCAF, FFAF<ref>{{Cite web |title=Aérodrome B-2 - Bazenville 1944 |url=https://www.aerosteles.net/stelefr-bazenville-b2 |access-date=2022-09-21 |website=www.aerosteles.net |language=fr |archive-date=21 September 2022 |archive-url=https://web.archive.org/web/20220921183557/https://www.aerosteles.net/stelefr-bazenville-b2 |url-status=live }}</ref>
+|
+|{{Coord|49|18|17|N|000|33|43|W|name=B-2 Bazenville}}
+|- 
+| B-3 [[Sainte-Croix-sur-Mer Airfield]], Lower Normandy, France
+|RAF FFAF<ref>{{Cite web |title=Aérodrome B3 et Group Captain Denys Gillam - Sainte-Croix-sur-Mer le 13 Juin 1944 |url=https://www.aerosteles.net/stelefr-stecroix-b3 |access-date=2022-09-21 |website=www.aerosteles.net |language=fr |archive-date=21 September 2022 |archive-url=https://web.archive.org/web/20220921183558/https://www.aerosteles.net/stelefr-stecroix-b3 |url-status=live }}</ref>
+|
+|{{Coord|49|19|08|N|000|31|06|W|name= B-3 St. Croix-sur-Mer}} 
+|-
+| [[B-4 Beny-sur-Mer]], France (RCAF)<ref>{{Cite web |title=Aérodrome B-4 - Bény-sur-Mer 1944 |url=https://www.aerosteles.net/stelefr-beny_adb4 |access-date=2022-09-21 |website=www.aerosteles.net |language=fr |archive-date=21 September 2022 |archive-url=https://web.archive.org/web/20220921183559/https://www.aerosteles.net/stelefr-beny_adb4 |url-status=live }}</ref>
+|
+|
+|{{Coord|49|17|54|N|000|25|49|W|name=B-4 Beny-sur-Mer}}
+|-
+|B-5 Le Fresne-Camilly, France<ref>{{Cite web |title=Aérodrome B-5 - Le Fresne-Camilly 1944 |url=https://www.aerosteles.net/stelefr-fresne-b5 |access-date=2022-09-21 |website=www.aerosteles.net |language=fr |archive-date=21 September 2022 |archive-url=https://web.archive.org/web/20220921183614/https://www.aerosteles.net/stelefr-fresne-b5 |url-status=live }}</ref>
+|
+| 
+|{{Coord|49|15|58|N|000|29|07|W|name=B-5 Le Fresne-Camilly}}
+|-  
+| B-6 [[Coulombs, Calvados|Coulombs]], France<ref>{{Cite web |title=Aérodrome B6 et Air Commodore Christopher'kit North-Lewis - Thue et Mue le 16 Juin 1944 |url=https://www.aerosteles.net/stelefr-stxgrandtonne-b6 |access-date=2022-09-21 |website=www.aerosteles.net |language=fr |archive-date=21 September 2022 |archive-url=https://web.archive.org/web/20220921183617/https://www.aerosteles.net/stelefr-stxgrandtonne-b6 |url-status=live }}</ref>
+| from August 1944 occupied by [[No. 137 Squadron RAF]] Typhoons
+| 
+|{{Coord|49|14|41|N|000|33|07|W|name=B-6 Coulombs}}
+|-
+|B-7 [[Martragny][Vaux-sur-Seulles]], France<ref>{{Cite web |title=Aérodrome B7 (stèle) - Moulins en Bessin 1944 |url=https://www.aerosteles.net/stelefr-martragny-b7-stele |access-date=2022-09-21 |website=www.aerosteles.net |language=fr |archive-date=21 September 2022 |archive-url=https://web.archive.org/web/20220921183602/https://www.aerosteles.net/stelefr-martragny-b7-stele |url-status=live }}</ref>
+|
+|
+|{{Coord|49|15|11|N|000|36|58|W|name=B-7 Martragny}} 
+|-
+| B-8 [[Sommervieu]], France<ref>{{Cite web |title=Aérodrome B8 (manoir de petit Magny) - Saint-Vigor-le-Grand 1944 |url=https://www.aerosteles.net/stelefr-stvigor-b8 |access-date=2022-09-23 |website=www.aerosteles.net |language=fr |archive-date=23 September 2022 |archive-url=https://web.archive.org/web/20220923190219/https://www.aerosteles.net/stelefr-stvigor-b8 |url-status=live }}</ref><ref>{{Cite web |title=Aérodrome B8 - Sommervieu le 19 Août 1944 |url=https://www.aerosteles.net/stelefr-sommervieu-b8 |access-date=2022-09-23 |website=www.aerosteles.net |language=fr |archive-date=23 September 2022 |archive-url=https://web.archive.org/web/20220923190222/https://www.aerosteles.net/stelefr-sommervieu-b8 |url-status=live }}</ref>
+|
+| 
+|{{Coord|49|18|00|N|000|40|43|W|name=B-8 Sommervieu}}
+|- 
+| B-9 [[Lantheuil]], France (RAF, RCAF)<ref>{{Cite web |title=Aérodrome B9 Lantheuil + Pumphouse Saint-Gabriel-Brecy - Creully sur Seulles 1944 |url=https://www.aerosteles.net/stelefr-lantheuil-b9 |access-date=2022-09-21 |website=www.aerosteles.net |language=fr |archive-date=21 September 2022 |archive-url=https://web.archive.org/web/20220921183610/https://www.aerosteles.net/stelefr-lantheuil-b9 |url-status=live }}</ref>
+|
+| 
+|{{Coord|49|16|22|N|000|31|41|W|name=B-9 Lantheuil}} 
+|-
+| B-10 [[Plumetot]], France
+|
+| 
+|{{Coord|49|16|42|N|000|21|20|W|name=B-10 Plumetot}} (approximately)
+|-
+| B-11 [[Longues-sur-Mer]], France <ref>{{Cite web |title=Aérodrome B11 - Longues-sur-Mer 1944 |url=https://www.aerosteles.net/stelefr-longues-adb11 |access-date=2022-09-21 |website=www.aerosteles.net |language=fr |archive-date=21 September 2022 |archive-url=https://web.archive.org/web/20220921183606/https://www.aerosteles.net/stelefr-longues-adb11 |url-status=live }}</ref>
+| 21 June 1944 to 4 September 1944<br />[[No. 602 Squadron RAF|No. 602 City of Glasgow Squadron RAF]]<br />[[No. 132 Squadron RAF|No. 132 City of Bombay Squadron RAF]], [[No. 453 Squadron RAAF]], [[441 Tactical Fighter Squadron|No. 441 Squadron RCAF.]]
+| 
+|{{Coord|49|20|34|N|000|41|27|W|name=B-11 Longues-sur-Mer}}
+|- 
+| B-12 [[Ellon, Calvados|Ellon]], France<ref>{{Cite web |title=Aérodrome B-12 (obélisque) - Ellon le 18 Juillet 1944 |trans-title=Aerodrome B-12 (obelisk) |url=https://www.aerosteles.net/stelefr-ellon-b12 |access-date=2022-09-23 |date=5 July 2009 |website=www.aerosteles.net |language=fr |archive-date=23 September 2022 |archive-url=https://web.archive.org/web/20220923190219/https://www.aerosteles.net/stelefr-ellon-b12 |url-status=live }}</ref>
+| 18 July 1944 - <br />[[No. 122 Squadron RAF]]
+| 1,700 m runway
+| {{Coord|49|12|58|N|000|39|52|W|name=B-12 Ellon}}
+|-  
+|B-14 Amblie, France
+|
+| 
+|{{Coord|49|17|21|N|000|29|25|W|name=B-14 Amblie}}
+|-
+|B-15 Ryes, France
+|
+| 
+|{{Coord|49|18|46|N|000|37|25|W|name=B-15 Ryes}} (approximately)
+|-
+| B-16 [[Villons-les-Buissons]], France (RAF, RNAF)<ref>{{Cite web |title=Aérodrome B-16 (ancienne) - Villons-les-Buissons 1944 |url=https://www.aerosteles.net/stelefr-villon-b16-2 |access-date=2022-09-21 |website=www.aerosteles.net |language=fr |archive-date=21 September 2022 |archive-url=https://web.archive.org/web/20220921183602/https://www.aerosteles.net/stelefr-villon-b16-2 |url-status=live }}</ref>
+|
+| 
+|{{Coord|49|14|07|N|000|24|29|W|name=B-16 Villons-les-Buissons}} 
+|-
+| B-17 Caen/[[Carpiquet]], France
+|
+| Captured from German forces in July 1944 during [[Battle for Caen]] Now [[Caen – Carpiquet Airport]]
+|{{Coord|49|10|36|N|000|27|26|W|name=B-17 Caen/Carpiquets}}
+|-
+| B-18 Cristot, France
+|
+| 
+|{{Coord|49|11|41|N|000|34|48|W|name=B-18 Cristot}} (approximately)
+|-
+| B-19 Lingevres, France
+|
+| 
+|{{Coord|49|10|30|N|000|40|23|W|name=B-19 Lingevres}} (approximately)
+|-
+| B-20 [[Demouville]], France
+|
+|
+|{{Coord|49|10|41|N|000|16|08|W|name=B-20 Demouville}} (approximately)
+|-
+| B-21 [[Sainte-Honorine-la-Chardonne|Sainte-Honorine]], France
+|
+|
+|{{Coord|48|49|28|N|000|29|08|W|name=B-21 Sainte-Honorine}} (approximately)
+|-
+| B-22 Authie, France
+|
+|
+|{{Coord|49|12|23|N|000|25|52|W|name=B-22 Authie}} (approximately)
+|-
+| B-23 La Rue Huguenot, France 
+|
+| 
+|{{Coord|49|12|06|N|000|26|10|E|name=B-23 La Rue Huguenot}} (approximately)
+|-
+|B-24 St-André de l'Euree, France 
+|November 1944 – September 1945<br />[[No. 184 Squadron RAF]]<br />[[442d Troop Carrier Group]] USAAF<br />
+|Runway 1: 5260x250 CON (14/32)<br />Runway 2: 5220x250 CON (06/24)<br />Now [[Saint-André-de-l'Eure Airport]]
+|{{Coord|48|53|43|N|001|15|05|E|name=B-24 St-André de l'Euree}}
+|-
+| B-25 Le Theil-Nolent, France
+|
+| 
+|{{Coord|49|09|15|N|000|32|17|E|name=B-25 Le Theil-Nolent}} (approximately)
+|-
+| B-26 [[Illiers-l'Évêque]], France
+|
+| 
+|{{Coord|48|49|18|N|001|16|01|E|name=B-26 Illiers-l'Évêque}} (approximately)
+|-
+| B-27 [[Boisney]], France
+|
+|
+| {{Coord|49|09|16|N|000|39|21|E|name=B-27 Boisney}} (approximately)
+|-
+| [[Évreux-Fauville Air Base|B-28 Évreux]], France
+| 
+| French Air Force base [[Évreux-Fauville Air Base]]
+|{{Coord|49|01|39|N|001|13|06|E|name=B-28 Evreux}}
+|-
+| B-29 [[Valailles]], France
+|
+| 
+|{{Coord|49|07|18|N|000|36|06|E|name=B-29 Valailles}} (approximately)
+|-
+| B-30 Creton, France
+|
+| 
+|{{Coord|48|49|53|N|001|17|17|E|name=B-30 Creton}} (approximately)
+|-
+| B-31 [[Fresnoy Folny]], France
+|
+| 
+|{{Coord|49|53|16|N|001|29|43|E|name=B-31 Fresnoy Folny}} (approximately)
+|-
+| B-32 Prey, France
+|
+| 
+|{{Coord|48|57|47|N|001|12|43|E|name=B-32 Prey}} (approximately)
+|-
+| B-33 [[Campneuseville]], France
+|
+| 
+|{{Coord|49|51|32|N|001|29|27|E|name=B-33 Campneuseville}} (approximately)
+|-
+| B-34 Avrilly, France
+|
+|
+|{{Coord|48|32|21|N|000|36|52|W|name=B-34 Avrilly}} (approximately)
+|-
+|B-35 Godelemesnil, France
+|
+|
+|{{Coord|50|00|19|N|001|24|44|E|name=B-35 Godelemesnil}} (approximately)
+|-
+|B-36 Boussey, France
+|
+|now: La Couture-Boussey
+|{{Coord|48|53|52|N|001|24|21|E|name=B-36 Boussey}} (approximately), 
+|-
+| B-37 Corroy, France
+|
+|
+|{{Coord|48|42|08|N|003|56|20|E|name=B-37 Corroy}} (approximately)
+|-
+|B-38 La Lande-sur-Eure, France
+|
+|
+|{{Coord|48|33|26|N|000|51|50|E|name=B-38 La Lande-sur-Eure}} (approximately)
+|-
+|B-39 Ecouffler, France (Undetermined)
+|
+|
+|
+|-
+|B-40 [[Beauvais]]/Nivillers, France
+|
+|
+|{{Coord|49|27|23|N|002|09|58|E|name=B-40 Beauvais/Nivillers}} (approximately
+|-
+|B-42 
+|
+|re-designated as [[A-61 Beauvais/Tille]])
+|
+|-
+|B-43 [[Saint-Omer, Calvados|St Omer]]/Ft Rouge, France
+|
+|
+|{{Coord|50|45|01|N|002|15|07|E|name=B-43 St Omer/Ft Rouge}} (approximately
+|-
+|B-44 Poix, France 
+|Used by USAAF [[314th Troop Carrier Group]], February–October 1945
+| Runway: 5160x165 CON/ASP (04/22) RAF ALG, 
+|{{Coord|48|57|52|N|004|36|57|E|name=B-44 Poix}}
+|-
+|B-45 St Omer/[[Lcnguenessen]], France
+|
+|
+|{{Coord|50|44|16|N|002|14|43|E|name=B-43 St Omer/Lcnguenessen}} (approximately)
+|-
+|B-46 Grandvilliers, France
+|
+|
+|{{Coord|49|39|57|N|001|56|23|E|name=B-46 Grandvilliers}} (approximately)
+|-
+|B-48 Amiens, France 
+|[[315th Troop Carrier Group]], 6 April – May 1945<br /> [[438th Troop Carrier Group]], – 3 May August 1945<br />HQ, [[52d Troop Carrier Wing (World War II)|52d Troop Carrier Wing]], 5 March – 20 June 1945
+|RAF ALG, Used by USAAF. Now [[Amiens-Glisy Airport]]<br />Runway 1: 5310x164 CON (12/30)<br />Runway 2: 5244x164 CON (05/23) 
+|{{Coord|49|52|20|N|002|23|20|E|name=B-48 Amiens}}
+|-
+|[[Vitry-en-Artois Airfield|B-50 Vitry-en-Artois]], France
+|
+|<br /> Runway 1: 5400x160 CON (11/29) <br /> Runway 2: 5250x160 TAR (05/23)
+|{{Coord|50|20|14|N|002|59|31|E|name=B-50 Vitry-en-Artois}}
+|-
+| [[Lille Airport|B-51 Lille/Vendeville]], France
+|
+|Now [[Aéroport de Lille-Lesquin]], 
+|{{Coord|50|34|00|N|003|06|11|E|name=B-51 Lille/Vendeville}}
+|-
+|B-52 Douai/Dechy, France
+|
+|
+|{{Coord|50|21|09|N|003|07|43|E|name=B-52 Douai/Dechy}} 
+|-
+|[[Aéroport de Merville - Calonne|B-53/AAF-182 Merville]], France
+|
+|Runway 1: 5280x160 CON (04/22)<br />Runway 2: 5280x160 CON (14/32)
+|{{Coord|50|37|01|N|002|38|27|E|name=B-53/AAF-182 Merville}}
+|-
+|B-54 Achiet, France
+|[[313th Troop Carrier Group]], 28 February – 4 August 1945
+|
+:Runway 1: 3960x150 CON (11/29)
+: Runway 2: 4950x250 ASP (03/21)
+|{{Coord|50|06|19|N|002|47|04|E|name=B-54 Achiet}}
+|-
+|[[Flanders International Airport|B-55 Courtrai/Wevelghem]], Belgium
+|
+|Now the ''Internationale luchthaven Kortrijk-Wevelgem'' airport
+|{{Coord|50|49|08|N|003|12|35|E|name=B-55 Courtrai/Wevelghem}}
+|-
+|[[Evere Airport|B-56 Brussels/Evere]], Belgium
+|
+|
+|{{Coord|50|54|03|N|004|20|09|E|name=B-56 Brussels/Evere}}
+|-
+|[[Marcq-en-Baroeul Airport|B-57 Lille/Wambrechies]], France
+|
+|now Marcq-en-Baroeul Airport
+|{{Coord|50|41|14|N|003|04|33|E|name=B-57 Lille/Wambrechies}}
+|-
+|[[Brussels-Melsbroek Airport|B-58 Brussels/Melsbroek]], Belgium
+|
+|
+|{{Coord|50|54|26|N|004|29|33|E|name=B-58 Brussels/Melsbroek}}
+|}
+::
+
+:
+* [[Flugplatz Vlamertinge|B-59 Ypres/Vlamertinghe]], Belgium
+: Located: {{Coord|50|49|25|N|002|50|01|E|name=B-59 Ypres/Vlamertinghe}}  
+* [[Grimbergen Airfield|B-60 Grimberghen]], Belgium
+: Located: {{Coord|50|56|56|N|004|23|31|E|name=B-60 Grimberghen}}
+* [[SintDenijs-Westrem Airfield|B-61 SintDenijs-Westrem]], Belgium
+: Located: {{Coord|51|01|36|N|003|41|22|E|name=B-61 Saint Denis/Westrem}} 
+* B-62 (Re-designated as [[A-92 Sint-Truiden]])
+* B-63 Bruges/St. Croix, Belgium
+: Located: {{Coord|51|12|51|N|003|15|05|E|name=B-63 Bruges/St. Croix}} (approximately)
+* [[Schaffen Air Base|B-64 Diest/Schaffen]], Belgium
+: Located: {{Coord|51|00|07|N|005|03|52|E|name=B-64 Diest/Schaffen}} (approximately)
+* [[Flugplatz Maldegem|B-65 Maldegem]], Belgium
+: Located: {{Coord|51|11|53|N|003|28|41|E|name=B-65 Maldegen}}  
+* [[Blakenberg Airfield|B-66 Blakenberg]], Belgium
+: Located: {{Coord|50|56|43|N|005|03|01|E|name=B-66 Blakenberg}} 
+* [[Ursel Airfield|B-67 Ursel]], Belgium
+: Located: {{Coord|51|07|30|N|003|27|14|E|name=B-67 Ursel}}
+( now a Belgian Air Force reserve base) (ICAO code EBUR)
+* B-68 (Re-designated as [[A-89 Le Culot]])
+* B-69 Meerbeke, Belgium
+: Located: {{Coord|50|49|25|N|004|02|26|E|name=B-69 Meerbeke}} (approximately)
+* [[Antwerp International Airport|B-70 Antwerp/Deurne]], Belgium
+: Now: [[Antwerp International Airport]]
+: Located: {{Coord|51|11|24|N|004|27|41|E|name=B-70 Antwerp/Deurne}}
+* [[Koksijde Air Base|B-71 Coxyde]], Belgium
+: Located: {{Coord|51|05|22|N|002|39|22|E|name=B-71 Coxyde}}
+* B-72 (Re-designated as [[A-75 Cambrai/Epinoy]])
+* [[Moorsele Airfield|B-73 Moorseele]], Belgium
+: Located: {{Coord|50|51|06|N|003|08|54|E|name=B-73 Moorseele}}
+* B-74 (Re-designated as [[A-83 Denain/Prouvy]])
+* B-75 Nivelles, Belgium
+: Located: {{Coord|50|35|53|N|004|19|42|E|name=B-75 Nivelles}} (approximately)
+* [[Kleine Brogel Air Base|B-76 Peer]], Belgium
+: Located: {{Coord|51|10|01|N|005|28|03|E|name=B-76 Peer}}
+* [[Gilze-Rijen Air Base|B-77 Gilze/Rijen]], Netherlands
+: Located: {{Coord|51|33|50|N|004|56|18|E|name=B-77 Gilze/Rijen}}
+* [[Eindhoven Airport|B-78 Eindhoven]], Netherlands(also Vligerbasis Eindhoven) 
+: Located: {{Coord|51|27|04|N|005|22|29|E|name=B-78 Eindhoven}}
+* [[Woensdrecht Air Base|B-79 Woensdrecht]], Netherlands 
+: Located: {{Coord|51|26|55|N|004|20|31|E|name=B-79 Woensdrecht}}
+* [[Volkel Air Base|B-80 Volkel]], Netherlands
+: Located: {{Coord|51|39|27|N|005|42|22|E|name=B-80 Volkel}}
+* B-81 Le Madrillet, France
+: {{Coord|49|23|11|N|001|04|15|E|name=B-35 Le Madrillet}} (approximately)
+: Now: Technopôle du Madrillet in Saint-Étienne-du-Rouvray near Rouen
+* B-82 Grave, Netherlands
+: Located: {{Coord|51|45|32|N|005|44|18|E|name=B-82 Grave}} (approximately)
+* [[Knokke-Le Zoute Airfield|B-83 Knokke-Le Zoute]], Belgium
+: Located: {{Coord|51|21|21|N|003|20|56|E|name=B-83 Knokke-Le Zoute}} 
+* [[De Peel Air Base|B-84 Rips]], Netherlands
+: Located: {{Coord|51|31|N|005|51|E|name=B-84 Rips}}
+* B-85 [[Schijndel]], Netherlands
+: Located: {{Coord|51|36|N|005|29|E|name=B-85 Schijndel}} (approximately)
+* B-86 [[Helmond]], Netherlands
+: Located: {{Coord|51|28|41|N|005|39|04|E|name=B-86 Helmond}} (approximately)
+* '''[[B-87 Rosieres-en-Santerre]]''', France 
+: Located: {{Coord|49|48|17|N|002|44|45|E|name=B-87 Rosieres-en-Santerre}}
+: Runway 1: 5400x160 CON (04/22)
+: Runway 2: 5300x160 CON (16/34)  
+:: RAF ALG, Assigned to USAAF [[387th Bombardment Group]], 24 May – November 1945
+* B-88 Heesch, Netherlands
+: Located: {{Coord|51|43|59|N|005|31|34|E|name=B-88 Heesch}} (approximately)
+* B-89 Mill, Netherlands
+: Located: {{Coord|51|41|11|N|005|47|01|E|name=B-89 Kleine Brogel}} (approximately)
+* B-90 Kleine Brogel, Belgium
+: Located: {{Coord|51|10|01|N|005|27|00|E|name=B-90 Mill}} (approximately)
+: Now: Belgian Air Force Base Kleine Brogel
+* B-91 Kluis, Netherlands 
+: Located: {{Coord|51|47|07|N|005|52|51|E|name=B-91 Kluis}}
+* [[Abbeville – Buigny-Saint-Maclou Aerodrome|B-92 Abbeville/Drucat]], France
+: Located: {{Coord|50|08|30|N|001|49|51|E|name=B-92 Abbeville/Drucat}}
+: Runway: 4893x164 CON/ASP (09/27)
+: Use:
+:: RAF ALG, Used by USAAF [[61st Troop Carrier Group]], 13 March – 19 May 1945
+* B-93 [[Valkenburg (near Katwijk/Leiden)]], Netherlands
+: Located: {{Coord|52|10|15|N|004|25|29|E|name=B-93 Valkenburg aan de Geul}} (approximately)
+* [[Teuge Airport|B-95 Teuge, Netherlands]]
+: Located: {{Coord|52|14|33|N|006|02|49|E|name=B-95 Teuge}}
+* [[Amsterdam Airport Schiphol|B-97 Amsterdam/Schiphol]], Netherlands (IATA code AMS; ICAO code EHAM)
+: Located: {{Coord|52|18|56|N|004|45|34|E|name=B-97 Amsterdam/Schiphol}}
+* [[B-100 Goch]], Germany
+: Later: [[RAF Laarbruch]]
+: Located: {{Coord|51|36|08|N|006|08|31|E|name=B-100 Goch}} 
+* B-101 Nordhorn, Germany
+: Located: {{Coord|52|25|47|N|007|04|25|E|name=B-101 Nordhorn}} (approximately)
+* B-102 Vorst, Germany
+: Located: {{Coord|51|18|16|N|006|25|43|E|name=B-102 Vorst}} (approximately)
+* B-103 [[Plantlünne]], Germany
+: Located: {{Coord|52|26|03|N|007|24|09|E|name=B-103 Plantlünne}} (approximately)
+: Later: [[RAF Plantlünne]] 1945
+* B-104 Damme, Germany
+: Located: {{Coord|52|29|25|N|008|11|16|E|name=B-104 Damme}} (approximately)
+: Later: Verkehrslandeplatz Damme (EDWC)
+* B-105 Drope, Germany
+: Located: {{Coord|52|34|42|N|007|29|43|E|name=B-105 Drope}} (approximately)
+* [[Enschede Airport Twente|B-106 Twente/Enschede]], Netherlands
+: Located: {{Coord|52|16|30|N|006|53|11|E|name=B-106 Twente/Enschede}}
+* B-107 Lingen, Germany
+: Located: {{Coord|52|31|33|N|007|19|27|E|name=B-107 Lingen}} (approximately)
+* [[Rheine-Bentlage Air Base|B-108 Rheine]], Germany
+: Located: {{Coord|52|17|31|N|007|29|09|E|name=B-108 Rheine}}
+* B-109 [[Quakenbrück]], Germany
+: Now: Quakenbrück Glider Airfield<ref>{{Cite web|url=https://www.lsvq.de/Startseite/desktop/|title=Luftsportverein Quakenbrück e.V. - Startseite|website=www.lsvq.de|accessdate=14 May 2023}}</ref>
+: Located: {{Coord|52|39|47|N|007|55|29|E|name=B-109 Quakenbruck}}
+* [[Flugplatz Achmer|B-110 Achmer]], Germany
+: Located: {{Coord|52|22|39|N|007|54|43|E|name=B-110 Achmer}}
+* [[RAF Ahlhorn|B-111 Ahlhorn]], Germany
+: became Fliegerhorst Ahlhorn (ICAO code EDNA) closed early 1990s
+: Located: {{Coord|52|53|19|N|008|13|56|E|name=B-111 Ahlhorn}}
+* [[Rheine-Hopsten Air Base|B-112 Hopsten]], Germany 
+: became Fliegerhorst Hopsten (ICAO EDNP-later ETNP)
+: Located: {{Coord|52|17|31|N|007|29|09|E|name=B-112 Hopsten}} 
+* [[Varrelbusch Airport|B-113 Varrelbusch]], Germany
+: Located: {{Coord|52|54|30|N|008|02|35|E|name=B-113 Varrelbusch}}
+* [[Diepholz Air Base|B-114 Diepholz]], Germany
+: Located: {{Coord|52|35|07|N|008|20|27|E|name=B-114 Diepholz}} 
+* B-115 Melle, Germany
+: Located: {{Coord|52|11|59|N|008|20|06|E|name=B-115 Melle}} (approximately)
+* [[Wunstorf Air Base|B-116 Wunstorf]], Germany 
+: Located: {{Coord|52|27|17|N|009|25|44|E|name=B-116 Wunstorf}} 
+* [[Jever Air Base|B-117 Jever]], Germany
+: Located: {{Coord|53|32|02|N|007|53|05|E|name=B-117 Jever}}
+* [[Celle Air Base|B-118 Celle]], Germany
+: Located: {{Coord|52|35|59|N|010|01|37|E|name=B-118 Celle}}
+* B-119 Wahn, Germany
+: Located: {{Coord|50|51|57|N|007|08|34|E|name=B-119 Wahn}} (approximately)
+: Later: [[RAF Wahn]] 1945
+: Now: Flughafen Köln-Bonn "Konrad Adenauer"
+* [[Hannover-Langenhagen Airport|B-120 Hanover/Langenhagen]], Germany
+: Located: {{Coord|52|27|42|N|009|41|12|E|name=B-120 Hanover/Langenhagen}}
+* B-150 Hustedt, Germany
+: Located: {{Coord|52|53|46|N|009|05|46|E|name=B-150 Hustedt}} (approximately)
+* [[Bückeburg Air Base|B-151 Bückeburg]], Germany
+: Located: {{Coord|52|16|41|N|009|04|49|E|name=B-151 Bückeburg}}
+* [[Faßberg Air Base|B-152 Fassberg]], Germany
+: Located: {{Coord|52|55|09|N|010|10|59|E|name=B-152 Fassberg}}
+* B-153 Bad Oeynhausen, Germany
+: Located: {{Coord|52|12|29|N|008|48|16|E|name=B-153 Bad Oeynhausen}} (approximately)
+* [[Höpen Airfield|B-154 Reinsehlen]], Germany
+: Located: {{Coord|53|08|50|N|009|47|41|E|name=B-154 Reinsehlen}}
+* B-155 [[Dedelstorf]], Germany
+: Now: Segelfluggelände Glider Airfield<ref>{{Cite web |date=2012-04-11 |title=Unser Segelflugplatz (Our glider airfield) |url=http://www.lvi-repke.de/lvi_flugplatz.htm |archive-url=https://web.archive.org/web/20141105002626/http://www.lvi-repke.de/lvi_flugplatz.htm |archive-date=5 November 2014 |access-date=2012-04-11 |website=ivi-repke.de}}</ref>
+: Located: {{Coord|52|42|58|N|010|31|58|E|name=B-155 Dedelstorf}}
+* B-156 Luneburg, Germany - now [[Lüneburg Airfield]]
+: Located: {{Coord|53|14|50|N|010|24|31|E|name=B-156 Luneburg}} (approximately)
+* B-157 Werl, Germany
+: Located: {{Coord|51|33|30|N|007|54|36|E|name=B-157 Werl}} (approximately)
+* [[Lübeck Airport|B-158 Lübeck]], Germany
+: Located: {{Coord|53|48|18|N|010|43|07|E|name=B-158 Lübeck}}
+* B-159 Mahlen, Germany (Undetermined)
+* [[Copenhagen Airport|B-160 Copenhagen/Kastrup]], Denmark
+: Located: {{Coord|55|37|13|N|012|38|57|E|name=B-160 Copenhagen/Kastrup}}
+* B-162 Stade, Germany
+: Located: {{Coord|53|35|32|N|009|28|21|E|name=B-162 Stade}} (approximately)
+* B-163 Dortmund, Germany
+: Located: {{Coord|51|32|27|N|007|33|30|E|name=B-163 Dortmund}}
+* B-164 Schleswigland, Germany
+: Located: {{Coord|54|27|34|N|009|30|59|E|name=B-164 Schleswigland}}
+: Later: [[RAF Schleswigland]] 1945
+: Now: Fliegerhorst Schleswig (alt. Fliegerhorst Jagel)
+* [[Flensburg-Schäferhaus Airport|B-166 Flensburg]], Germany
+: Located: {{Coord|54|46|25|N|009|22|36|E|name=B-166 Flensburg}}
+* [[Kiel Airport|B-167 Kiel/Holtenau]], Germany
+: Located: {{Coord|54|22|46|N|010|08|39|E|name=B-167 Kiel/Holtenau}}
+* [[Hamburg Airport|B-168 Hamburg/Fuhlsbuttel]], Germany
+: Located: {{Coord|53|37|49|N|009|59|27|E|name=B-168 Hamburg/Fuhlsbuttel}}
+* [[RAF Sylt|B-170 Westerland]], Germany
+: Located: {{Coord|54|54|51|N|008|20|27|E|name=B-170 Westerlandl}}
+* [[Husum Schwesing Airport|B-172 Husum]], Germany
+: Located: {{Coord|54|30|55|N|009|08|41|E|name=B-172 Husum}} 
+* [[Uetersen Airport|B-174 Uetersen]], Germany
+: Located: {{Coord|53|38|50|N|009|42|21|E|name=B-174 Uetersen}}
+
+==See also==
+
+* [[ALG Wormhout]]
+
+==Notes==
+{{notelist}}
+{{reflist}}
+
+==References==
+* {{cite book |last=Anderson |first=Barry J. |title=Army Air Force Stations: A Guide to the Stations Where U.S. Army Air Forces Personnel Served in the United Kingdom During World War II |year=1985 |location=Maxwell Air Force Base, Alabama, US |publisher=Research Division, USAF Historical Research Center |url=https://www.dafhistory.af.mil/Portals/16/documents/Timelines/World%20War%20II/usaaf_bases_in_united_kingdom.pdf?ver=2016-08-30-150752-303 |access-date=16 October 2024}}
+* {{cite book |last=Ashworth |first=Chris |title=Action Stations: 9. Military airfields of the Central South and South-East |year=1985 |location=Wellingborough, UK |publisher=Patrick Stephens Limited |isbn=0-85059-608-4}}
+*{{cite book |last=Johnson |first=David C. |title= U.S. Army Air Forces Continental Airfields (ETO), D-Day to V-E Day |publisher= Research Division, USAF Historical Research Center, Maxwell AFB |location=Alabama. |year=1988 |url=https://www.dafhistory.af.mil/Portals/16/documents/Timelines/World%20War%20II/usaaf_european_airfields.pdf |archive-url=https://web.archive.org/web/20231117221830/https://www.afhra.af.mil/Portals/16/documents/Timelines/World%20War%20II/usaaf_european_airfields.pdf |archive-date=17 November 2023 |url-status=live}}
+*{{cite book |last=Maurer  |first=Maurer            |title= Air Force Combat Units of World War II |location= Maxwell AFB, Alabama |publisher= Office of Air Force History |date=1983 |isbn= 0-89201-092-4}}
+*{{cite book |last=Maurer  |first=Maurer            |title= Combat Squadrons of the Air Force, World War II |orig-year=1969 |url= http://media.defense.gov/2010/Dec/02/2001329899/-1/-1/0/AFD-101202-002.pdf |archive-url= https://archive.today/20230820144531/https://media.defense.gov/2010/Dec/02/2001329899/-1/-1/0/AFD-101202-002.pdf |url-status= dead |archive-date= 20 August 2023 |edition= reprint|year=1982 |publisher=Office of Air Force History |location=Washington, DC |isbn=0-405-12194-6 |oclc=72556 |lccn=70605402}}
+*War Diary 689 Coy Royal Engineers August 1945 
+*War Diary 16th Airfield Construction Group August 1945
+
+{{Air Force Historical Research Agency}}
+
+==External links==
+{{Commons category}}
+*[http://www3.sympatico.ca/angels_eight/alg.html Normandy ALGs]
+*[http://www.forgottenairfields.com/ Abandoned, Forgotten and Little Known Airfields in Europe]
+*[http://www.6juin1944.com/assaut/9usaaf/9alg.php  La 9th U.S. Army Air Force en Normandie] (French and English)
+
+{{Royal Air Force}}
+{{USAAF 8th Air Force UK}}
+{{USAAF 9th Air Force UK}}
+{{USAAF 12th Air Force World War II}}
+
+{{Indian Air Force}}
+
+[[Category:World War II airfields| Advanced Landing Ground]]
+[[Category:Airfields of the United States Army Air Forces| Advanced Landing Ground]]

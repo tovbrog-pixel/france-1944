@@ -257,5 +257,12 @@
   "read": "2026-11-23",
   "sha256": "40555eb8ee8adea4969a25f8b8650f3bee8a29c692b4cc8a4000409e2a548574",
   "url": "https://www.ibiblio.org/hyperwar/UN/Canada/CA/Victory/index.html"
+ },
+ "raw/wp-advanced-landing-ground.txt": {
+  "bytes": 165431,
+  "note": "Wikipedia, Advanced landing ground (wikitext)",
+  "read": "2026-11-23",
+  "sha256": "c0a9bcb9deee3bc9eef2f30f2fd87679ec51b56b471f775bacca4df426ede4aa",
+  "url": "https://en.wikipedia.org/w/index.php?title=Advanced_landing_ground&action=raw"
  }
 }
