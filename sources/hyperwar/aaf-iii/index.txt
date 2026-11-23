@@ -1,0 +1,922 @@
+
+
+		HyperWar: Army Air Forces in WWII: Vol. III
+
+			Army Air Forces in World War II
+
+			Europe: ARGUMENT to V-E Day, January 1944 to May 1945
+
+			Prepared Under the Editorship of 
+
+				Wesley Frank Craven Princeton University 
+
+				James Lea Cate University of Chicago
+
+			FOREWORD
+
+				to the New Imprint 
+
+			IN March 1942, President Franklin D. Roosevelt wrote to the Director of the Bureau of the Budget ordering each war agency to prepare "an accurate and objective account" of that agency's war experience. Soon after, the Army Air Forces began hiring professional historians so that its history could, in the words of Brigadier General Laurence Kuter, " be recorded while it is hot and that personnel be selected and an agency set up for a clear historian's job without axe to grind or defense to prepare." An Historical Division was established in Headquarters Army Air Forces under Air Intelligence, in September 1942, and the modern Air Force historical program began.
+
+			With the end of the war, Headquarters approved a plan for writing and publishing a seven-volume history.  In December 1945, Lieutenant General Ira C. Eaker, Deputy Commander of Army Air Forces, asked the Chancellor of the University of Chicago to "assume the responsibility for the publication" of the history, stressing that it must "meet the highest academic standards." Lieutenant Colonel Wesley Frank Craven of New York University and Major James Lea Cate of the University of Chicago, both of whom had been assigned to the historical program, were selected to be editors of the volumes. Between 1948 and 1958 seven were published. With publication of the last, the editors wrote that the Air Force had " fulfilled in letter and spirit" the promise of access to documents and complete freedom of historical interpretation. Like all history, The Army Air Forces in World War II reflects the era when it was conceived, researched, and written. The strategic bombing campaigns received the primary emphasis, not only because of a widely-shared belief in bombardment's 
+
+			 -- iii -- 
+
+			contribution to victory, but also because of its importance in establishing the United States Air Force as a military service independent of the Army. The huge investment of men and machines and the effectiveness of the combined Anglo-American bomber offensive against Germany had not been subjected to the critical scrutiny they have since received. Nor, given the personalities involved and the immediacy of the events, did the authors question some of the command arrangements. In the tactical area, to give another example, the authors did not doubt the effect of aerial interdiction on both the German withdrawal from Sicily and the allied landings at Anzio.
+
+			Editors Craven and Cate insisted that the volumes present the war through the eyes of the major commanders, and be based on information available to them as important decisions were made. At the time, secrecy still shrouded the Allied code-breaking effort. While the link between decoded message traffic and combat action occasionally emerges from these pages, the authors lacked the knowledge to portray adequately the intelligence aspects of many operations, such as the interdiction in 1943 of Axis supply lines to Tunisia and the systematic bombardment, beginning in 1944, of the German oil industry.
+
+			All historical works a generation old suffer such limitations. New information and altered perspective inevitably change the emphasis of an historical account. Some accounts in these volumes have been superseded by subsequent research and other portions will be superseded in the future. However, these books met the highest of contemporary professional standards of quality and comprehensiveness. They contain information and experience that are of great value to the Air Force today and to the public. Together they are the only comprehensive discussion of Army Air Forces activity in the largest air war this nation has ever waged. Until we summon the resources to take a fresh, comprehensive look at the Army Air Forces' experience in World War II, these seven volumes will continue to serve us as well for the next quarter century as they have for the last.
+
+				RICHARD H. KOHN 
+
+					Chief, Office of Air Force History
+
+			 -- iv -- 
+
+			FOREWORD
+
+			*   *   *   *   *   *   *   *   *   *   *
+
+			IN PLANNING a seven-volume history of The Army Air Forces in World War II the editors hoped to achieve a reasonable degree of unity in a complex narrative which seemed to divide itself into three related but sometimes disparate themes: air operations against the European Axis; air operations against the Japanese; and those services in the United States and in the several theaters which made combat operations possible. To those hardy souls who get through the seven stout volumes -- and the editors hope they are legion -- this unity may be discernible; but for readers whose endurance is less rugged or whose interests are less catholic the volumes have been so arranged that the three themes may be found treated with some degree of completeness in, respectively, Volumes I, II, and III; Volumes I, IV, and V; and Volumes I, VI, and VII. This information has been purveyed in an earlier volume, not without an eye to its possible effect on sales; it is repeated here to fix the present volume into the context of the whole series. For with Volume III the story of the AAF's war against Hitler's Germany and his satellite nations -- and hence one subsection of the series -- is completed.
+
+				Volume I dealt mainly with plans and preparations; Volume II described the AAF's war against Hitler which began in mid-1942 in the skies over Libya and France. In the Mediterranean, where U.S. air forces were part of an effective Anglo-American team, the war went well and in a number of combined operations the Allies conquered North Africa, Sicily, and southern Italy and by the end of 1943 were confronting the enemy, strongly intrenched, along the Sangro and Garigliano rivers and were planning an amphibious operation designed to open the road to Rome. In northwestern Europe, however, the AAF had scored no such obvious victories. Its only sustained operations, strategic bombardment by the Eighth Air Force as a part of the Anglo-American Combined Bomber Offensive, had not as yet proved 
+
+			 -- v -- 
+
+			decisive nor had the Allies achieved that superiority over the Luftwaffe which was prerequisite to both the strategic and the tactical air mission. As 1943 wore out, the AAF was anxiously awaiting the spell of clear weather which would allow a concentrated series of strikes against the sources of German air power and thus, in respect to both the ETO and MTO, Volume II ended on a note of expectancy.
+
+The present volume begins with the winter bombardment campaign of 1943-44 and ends with the German surrender in May 1945: it tells of air's contribution to the slow drive up the Italian peninsula; it describes the activities of the strategic bombers as they beat down the Luftwaffe and, turning to other targets, ruined the German war economy; it tells how tactical forces prepared for and supported the landings in Normandy and then spearheaded the Allied sweep across France and, after a check and a serious counterattack, across Germany. The volume contains then the climax of air operations, and the denouement too -- for before the armistice the strategic bombers had run out of targets and the Eighth Air Force had begun its redeployment to the Pacific, while tactical forces had little to do beyond policing duties. The measure of the air victory and of the vast power which made it possible may be seen in a typical American gesture at war's end -- a great sight-seeing excursion in which the Eighth flew 30,000 of its ground personnel over Europe to view the damage wrought by the planes they had serviced.
+
+The chapter headings and subtitles provide a working outline of the present volume. Roughly, these may be grouped around four main topics: (1) the air war in Italy; (2) the strategic bombing campaign; 
+				(3) tactical operations in support of the land armies from the Cotentin to the Elbe; and (4) supporting operations of various sorts.
+
+The war in Italy brought more than its share of disappointments to the Allies. For a year after the TORCH landings the Mediterranean had been the active theater for the Allied forces as they pushed, with only temporary checks, from Oran and Casablanca and from Egypt to a line well above Naples. But as this volume opens they had bogged down, thwarted in their effort to break through to Rome by rugged terrain, rugged weather, and a rugged German defense. With the OVERLORD invasion of France imminent, the Mediterranean no longer had first priority for resources; it became, and was to remain, a secondary theater.
+
+Nevertheless, in early 1944 the Allies in Italy enjoyed a marked 
+
+			 -- vi -- 
+
+			superiority over the Germans in air power and this would increase in time. The newly established Mediterranean Allied Air Forces, which Eaker had come down from England to command, was a complex organization in which the Twelfth and Fifteenth Air Forces were the principal U.S. components. The Twelfth was to carry a heavy responsibility for tactical operations and the Fifteenth, though engaging occasionally in like activities, was to find its primary role in assisting the Eighth and RAF's Bomber Command in the Combined Bomber Offensive.
+
+Both forces participated in the first large-scale endeavor to break the stalemate, the landing at Anzio. They cut communications lines into the battle area, softened defenses, and provided-in spite of the distance of their fighter bases from Anzio -- an effective cover for the landings. The lodgment was made but Operation SHINGLE, successful as an amphibious assault, failed in its purpose of forcing the Germans to withdraw from their Gustav Line, and the Anzio beachhead became a liability whose defense put a heavy drain on air and ground resources. Winter weather severely handicapped the air war; its only useful function was to ease a difficult command decision in February -- whether to send the Fifteenth Air Force on the long awaited attacks on German aircraft factories or to use it tactically to help protect the endangered beachhead at Anzio.
+
+Two spectacular air operations after Anzio have attracted a degree of attention wholly incommensurate with their military importance. On 15 February U.S. bombers destroyed the Benedictine abbey at Monte Cassino, hallowed throughout Christendom as the wellspring of western monasticism. Eaker was opposed to the strike, though he thought the monastery was being used by German troops, an assumption which is still being debated. The reluctance of AAF leaders to bomb cultural or historical monuments is sufficiently documented in this history-witness the extreme care exercised in hitting military targets at Rome; the tragedy in the case of Monte Cassino is made more bitter by its futility as a military act.
+
+The same was true at the town of Cassino which was literally razed by U.S. bombers on 15 March in an effort to crack the Gustav Line. Here Eaker was flatly against a tactic which he thought more likely to impede, by craters and rubble, than to help the advance of armor; when ground forces moved in too slowly to take advantage of the momentary shock the heavy pounding gave German defenders, the 
+
+			 -- vii -- 
+
+			operation failed as he had predicted. Criticisms of air power that came afterward were not always fair, since the attack was clearly a misuse of a weapon; unfortunately the lesson was not wholly absorbed and similar errors were to be repeated later.
+
+With the coming of spring, air operations increased in intensity as MAAF inaugurated STRANGLE, an appropriately labeled operation designed to choke off the enemy's communications so that his Gustav Line might be forced when he had consumed reserve supplies at the front. After much debate over rival suggestions -- whether to concentrate on bridges or on marshalling yards-the issue was settled by a latitudinarian compromise which listed for simultaneous attack all features of the railroad system: bridges, yards, tunnels, tracks, rolling stock, and shops, and coastal shipping as well. Launched officially on 19 March, STRANGLE enjoyed an early success which grew more marked as bombers and fighter-bombers increased the accuracy of their strikes. Severely hampered in their use of railroads, the Germans came to depend more heavily upon M/T but as trucks were diverted to the long north-south haul the number available for lateral distribution shrank. Thus when a heavy ground offensive (DIADEM, jumped off 12 May) forced the Germans to expend more supplies at the front the carefully hoarded reserves were quickly depleted and the Allies cracked the line, linking up with the Anzio beachhead which at last began to pay dividends. Tactical air forces rendered close support in the assault but it was their sustained interdiction program that turned the trick. By 4 June the Allies had reached Rome and thereafter the German retreat became a rout which seemed to presage an early German collapse in Italy. In the air especially the Allies enjoyed an overwhelming superiority; the Germans came to depend more upon heavily reinforced AA forces than upon fighter defense, until MAAF claims of enemy planes destroyed were often less than Allied losses. An even stronger defense for the enemy was the weather which worsened at the end of June; by August the Germans had dug in again along the Gothic Line. An Allied attempt to sever all communications in the Po Valley (MALLORY MAJOR) achieved a considerable success but it was impossible to choke off supplies in the broad Lombard plain as it had been in the narrow peninsula and the enemy held tenaciously to his new line.
+
+The Allied cause in Italy was weakened by the diversion of air and ground forces for the invasion of southern France (DRAGOON).
+
+			 -- viii -- 
+
+			This assault, long a matter of contention among the Americans, the British, and the Russians, was postponed until August but moved thereafter rapidly enough. It offered little that was novel to combined forces who had gone over half-a-dozen beaches in the MTO and in size it was dwarfed by the recent OVERLORD landings. There had been the familiar pattern of preparation: strikes at communications by which enemy reinforcements might move in; attacks on German air installation? (only light blows were required here); and bombing of coastal defenses. Planes based in Italy and Corsica participated in these pre-invasion activities and in providing cover for the landings. Several successful airborne operations gave clear indication of how much had been learned since the tragic attempts in Sicily. XII TAC stayed with the Seventh Army, helped chase the Germans up the Rhone Valley and beyond until by early September they pulled up just short of Belfort.
+
+In Italy, as in northwestern Europe, Allied hopes of an early victory continued strong well into September as the Fifth Army crossed the Arno and broke through segments of the Gothic Line and the Eighth Army took Rimini. MAAF's tasks were to sever escape routes, particularly at the Po, and to help ground forces thrust the enemy back on those closed exits. But the armies, weakened by transfers and tired by long battles, could not breach the stubborn German defense and in October it was no longer a question of cutting the enemy's lines of retreat; the interdiction program continued but priorities now favored more northerly lines in an effort to cut off supplies coming from north of the Alps via the Brenner and other northeast passes while fighter-bombers attempted to destroy supply dumps in the forward area.
+
+Allied operations had been handicapped by much wet weather which slowed the ground advance and which held back the bombers often enough to allow the Germans to repair bridges and rail lines. Allied air forces, weakened by diversions in favor of DRAGOON, suffered further losses as additional bomber and fighter-bomber units were sent to France and to the Pacific. Indeed, Throughout autumn and winter there was much sentiment in favor of moving all AAF forces in Italy up into France, and the Fifth Army as well. Though this drastic step was never taken, the very threat, coupled with the piecemeal cannibalization of Twelfth Air Force, brought to the several MTO headquarters an air of uncertainty which lasted until the eve of victory. Internal changes in the command structure -- the 
+
+			 -- ix -- 
+
+			establishment of XXII TAC on 19 October and the wholesale reshuffling of commanders when Eaker went back to the States in March 1945 -- seem to have had less effect on operations than transfers of combat and service units.
+
+At any rate, the Italian campaign became to Allied soldiers "the forgotten war." Air preparations for a winter attack on the German lines proved abortive when a counterattack launched by Kesselring on 26 December induced MTO Headquarters to cancel the planned drive. Thereafter the Allies went on the defensive and for three months there was little ground activity. This threw upon air the main burden of the theater directive to maintain constant pressure upon the enemy, and the 280 combat squadrons of MAAF became "by far the most potent Allied weapon in the Mediterranean." Except for a brief period in November when Fascist Italian air units trained in Germany gave a futile challenge, MAAF was untroubled by enemy air opposition; the general practice of sending out medium bombers without escort was a taunting symbol of the impotence of the GAF.
+
+The long-anticipated withdrawal of German divisions toward the Reich began on 23 January and thereafter MATAF (supported occasionally by SAF) intensified efforts to interdict the routes toward the Alpine passes. Other communications were cut and when the final Allied offensive jumped off in April, XXII TAC and DAF greatly aided the breakthrough by a tremendous effort against German positions. So thoroughly had communications been disrupted, especially at the Po, that there was no chance of an orderly retreat to a new line and the total surrender came on 2 May, just a year after the beginning of the punch through the Gustav Line.
+
+The Fifteenth had meanwhile been engaged in strategic operations (which will be described presently) and, with the Balkan Air Force, in supporting the Russian advance which drove the Axis powers from Rumania, Bulgaria, Greece, Yugoslavia, and part of Hungary. Bombing airdromes, supply centers, and rail targets, MAAF forces encountered the usual difficulties in cooperating with an ally who would not allow any real system of liaison to be established or any rationally determined bomb line.
+
+The subtitle of the present volume suggests that it begins with January 1944. Actually the narrative reviews briefly the strategic air operations of the last two months of 1943. The Eighth Air Force had begun its attack against the German war machine on 17 August 1942.
+
+			 -- x -- 
+
+			Dedicated to the principle of high-altitude daylight precision bombardment the Eighth had with difficulty resisted outside pressure to change its tactics, and diversion of forces to North Africa and of effort to unprofitable attacks on U-boat pens had interfered with its primary mission. The Casablanca Directive of 21 January 1943 had insured the continuation of strategic bombardment in the Combined Bomber Offensive and with growing forces the Eighth had increased the weight and effectiveness of its attacks during spring and summer 1943.
+
+In spite of the fine defensive qualities shown by B-17's and B-24's flying in large formations, the GAF had on occasion taken heavy toll of the U.S. bombers and as German fighter strength in the west increased it had become apparent that an all-out attack on Nazi air power would be a necessary preliminary to any successful strategic bombardment campaign and to the great invasion of Europe planned for the spring of 1944. During the autumn of 1943 weather prevented any such attack and, as the opening chapter shows, the Eighth turned instead to an experiment with radar bombing. Hopes based on initial success were not borne out by later missions; here as in most cases involving use of intricate instruments the majority of crews never succeeded in getting maximum results from their equipment. The only justification was the assumption that blind bombing was better than no bombing and it is hard to avoid the conclusion that the "numbers racket" -- pressure from Washington to get more planes over Europe was responsible for some wasted effort. A more fruitful experiment of the period was concerned with the development of long-range fighter escorts. The failure to produce such a plane had been one of the AAF's most serious mistakes and now under pressure of necessity engineers in the ETO and the United States combined to improve and enlarge auxiliary tanks which gave seven-league boots to conventional fighters -- the P-38, P-47, and especially the P-51. To Goering's discomfiture these fighters eventually went to Berlin and beyond and mixed it with German interceptors on better than even terms, but it was months before there were enough of them to provide adequate protection.
+
+By the beginning of 1944 the Eighth Air Force in England and the Fifteenth in Italy were approaching planned strength. An inter-theater headquarters, Gen. Carl Spaatz's U.S. Strategic Air Forces in Europe, enhanced the flexibility inherent in the widely based heavy bombers with their threat of coordinated blows. In November 1943 Eighth Air 
+
+			 -- xi -- 
+
+			Force had drafted a plan (ARGUMENT) for a series of closely spaced attacks against about a dozen factories producing fighter components or fighters -- Me-109's and -110's, Ju-88's and -188's, and FW-190's. The program would need a succession of half-a-dozen clear days and at last, on 19 February, such a period was predicted. USSTAF laid on the first missions next day and in less than a week had dispatched more than 3,300 sorties from the Eighth, 500 from the Fifteenth. Bombing varied from excellent to fair but the over-all results were certainly great and perhaps decisive. It is difficult even now to judge exactly "how big was the Big Week." German fighter production was to increase rather than decrease during 1944 but the significant point is that production did not keep up with the planned schedule and for that failure the Big Week and subsequent bomber attacks were largely responsible.
+
+In last analysis the pragmatic test is perhaps the best: never after February was the Luftwaffe to be the menace it had been; though it would inflict heavy losses at times Goering's force had lost control of the skies over Europe. In this victory over the GAF other factors besides the bombing of aircraft plants must be considered: attacks on airfields and losses inflicted in battle. Here tactical air forces and the heavies' "little brothers," the fighter escorts, played their part, as did the RAF. The Big Week cost USSTAF 226 heavy bombers and 28 fighters destroyed but the Luftwaffe suffered even more heavily and was to continue to suffer whenever challenging a well-escorted bomber formation. ARGUMENT was considered by the AAF as a prerequisite for the systematic destruction of carefully determined segments of the Nazi war economy, but the heavies were not allowed to turn immediately to that program. The main weight of their efforts during the early spring was expended on nonstrategic objectives in attacks against V-weapon installations and in strikes preparatory to the invasion. It had long been agreed that the strategic arm should be used in support of the landings until the beachhead was secured and thereafter as needed by the armies, and with this there was no argument in USSTAF. But there was long debate over the best possible use of the heavies, Spaatz favoring an all-out attack on the oil industry but losing to those who preferred an extensive campaign against communications. The subordination of strategic forces to the invasion involved no command difficulties, however, when in March Eisenhower as 
+
+			 -- xii -- 
+
+			supreme commander took over USSTAF along with RAF Bomber Command and Allied Expeditionary Air Forces. Spaatz and many of his senior officers had served under Eisenhower in the Mediterranean and the formal chain of command was strengthened by the great mutual understanding and respect that existed between SHAEF and USSTAF.
+
+Tactical demands on the heavies continued after D-day, with a lasting responsibility for attacks on airdromes and for carpet bombing for the ground forces; but late in June USSTAF was able to devote more attention to strategic targets. The oil campaign had begun earlier, in a small way: in April for the Fifteenth, in May for the Eighth. Now to Spaatz's satisfaction this target system assumed first priority as the Eighth joined the RAF in assaults on synthetic plants in Germany. The Fifteenth continued to return to Ploesti and to installations in Hungary, Austria, and eastern Germany with such pertinacity that when the Russians overran Rumania the Ploesti refineries were idle and ruined.
+
+The success of the oil campaign could be gauged immediately by shortages of fuel which were discernible in German operations and as well by the desperate efforts made to minimize the effectiveness of the attacks. Passive defenses were used extensively, and AA guns were clustered around oil centers so heavily that for the Eighth Air Force flak became a more dangerous weapon than the fighter, and bomber formations were opened up to reduce losses from ground fire. Fighters still offered rugged resistance on occasion and the Fifteenth especially suffered from their interceptions so that it was necessary to renew attacks on factories producing conventional aircraft as well as jet planes, not yet in combat but a threat greatly feared by Allied airmen. The forces sent out during the summer were huge and the tempo of operations fast. The telling pace created problems of morale among overworked aircrews; there were charges that some crews deliberately sought refuge in neutral countries -- Switzerland and Sweden -- but careful investigation showed these charges groundless.
+
+The summer of 1944 witnessed an experiment in cooperation with the Russians that was more enlightening than fruitful, an effort to utilize airdromes in Soviet-held territory as alternate bases for heavies from England or Italy. The concept of shuttle bombing, well liked by the AAF, was in this case particularly attractive to Arnold and other air commanders who hoped thus to lay under heavy attack industrial
+
+			 -- xiii -- 
+
+			plants in eastern Germany, to foster closer relations with the Soviets, and to impress them with the importance of strategic bombardment so that they might furnish bases in Siberia for B-29 attacks against Japan. Stalin gave full verbal consent to the project but subordinate officials moved slowly and it taxed American patience to prepare three airfields for heavy bomber use. A number of missions were staged from these fields, some with fair success but none of great significance. Certainly none was as brilliant an operation as the German night attack on the airdrome at Poltava which caught the B-17's on the ground, destroying forty-three and damaging twenty-six. Russian interest, never very warm, cooled perceptibly. The Soviet command limited unreasonably 
+				(or so the AAF thought) the choice of targets and the venture fizzled out in an argument over whether heavies from the Russia bases should be allowed to supply the forces of Gen. B&oacute;r-Komorowski, beleaguered in Warsaw. Altogether the experiment was of little importance tactically and early estimates that it had fostered better relations between the two allies were overly optimistic. Americans did learn something of the Russian's genius for obstruction and one may wonder if the code name for the project, FRANTIC, was chosen with some foreknowledge of the frayed nerves which would be characteristic of men imbued with Arnold's hurry-up pace when faced with the Russian slowdown. Other relations between the AAF and the Soviets, particularly in regard to U.S. efforts to get agreement on a bomb line, were equally frustrating.
+
+In September control of the strategic forces reverted to the CCS, not without opposition from Eisenhower and most of the air leaders, who had suffered little in the way of interference from SHAEF. Insofar as USSTAF was concerned, the change in command structure made little practical difference; the U.S. heavies continued to render support to the ground forces on occasion but were able to devote an increasing share of their missions to strategic targets. By the end of September hopes of an immediate invasion of the Reich and of an early collapse of the Nazi government had faded; the Allied armies had outrun their supply lines and as they regrouped and set up a more stable logistical system it was the strategic air forces alone which carried the war to the German homeland. With unprecedented power available various plans were discussed for concentrated attacks on German population areas that might crush the will to resist. Usually Arnold, Spaan, and other top commanders in the AAF opposed these plans as 
+
+			 -- xiv -- 
+
+			contrary to their doctrines of precision bombing; the record is clear enough on their often-reiterated objection to terror or morale bombing. Their concern with public opinion in America and in Germany and with what "history" would say contrasts strikingly with the nonchalance with which area bombing was introduced in Japan, and it is interesting to speculate as to whether the practice in the Pacific war was responsible for the change in policy for Germany during the months just before V-E Day.
+
+The directive under which USSTAF opened its autumn campaign put oil in first priority. Heavy fighting during summer had depleted German fuel reserves and the damage to refineries had brought production to a low ebb by September; but Germany was making the most of its great recuperative powers and throughout the autumn (especially in November) the Eighth and Fifteenth and RAF's Bomber Command continued to hammer steadily and heavily at refineries with an over-all success which was not fully appreciated at the time. In second category came ordnance, armored vehicles, and motor transport in an effort to blast those factories which would equip the new people's army. This target system was scratched as unprofitable after a brief trial; post-war investigations suggest that further attention to the munition plants might have paid big dividends. As the armies prepared for a late autumn offensive the heavies, along with the tactical air commands, were thrown against the German railroad system, not without some misgivings on the part of USSTAF, where it was feared that the system was too complex and flexible to be destroyed. Efforts at the time could not cut off shipments of military goods but they did minimize civilian traffic and this was the begriming of the internal collapse of the Nazi economy.
+
+USSTAF during the autumn returned to attack aircraft factories and, more often than was customary with heavies, airfields. Some of this effort was against jet plants and fields, but conventional single engine fighters had again become a threat as the Germans concentrated on production of Me-109's and FW-190's and shifted more of their units from the eastern front to the Reich. They had plenty of fighters (and Allied estimates were surprisingly accurate) but had lost many of their skilled pilots. There was not enough fuel for an adequate training program or for intercepting each bomber formation but occasionally the Luftwaffe would put up a nasty fight.
+
+When the counterattack in the Ardennes came in December 
+
+			 -- xv -- 
+
+			strategic forces were thrown into the battle. The ability of the Nazis to mount so formidable an attack brought on a great deal of soul-searching among air leaders and with them, as with ground commanders, there was a swing from the overconfidence of early fall to an unwarranted pessimism. Actually, the Ardennes offensive had drained the Nazi machine dry and misgivings about the success of the strategic bomber programs against oil, transportation, and armaments were not justified by conditions in the Reich. A new directive for the bomber campaign issued on 12 January listed oil, railroads, tank factories, counter-air strikes, support of ground forces, and yards producing new-type submarines in that order of priority. Technically support of ground forces might take precedence over other objectives and during January accounted for three-fourths of USSTAF missions, but much of that effort was expended against rail communications. In the west rail objectives were more limited in area and more concentrated than in previous efforts to knock out the whole German network. In the southeast the Fifteenth aided the advance of Russian armies by striking transportation centers in Yugoslavia, Hungary, and Austria while continuing its homework for the Allies in Italy. As in the oil campaign, this air force, overshadowed in publicity by the older and larger Eighth, conducted its missions with skill and persistence.
+
+England-based bombers also aided the Russian armies by a series of great strikes against German cities where rail yards were gorged with trains carrying troops to the front and evacuating refugees from the east. Berlin, Leipzig, Dresden, and other cities were hit by mighty formations in attacks which, especially in the case of Dresden, drew the sort of criticism which the AAF had long feared. By this time, however, USSTAF even experimented briefly with the idea of sending out radar-controlled war-weary B-17's filled with explosives. With 80 per cent of the very heavy bomb tonnage in February dropped by radar, precision bombing was no longer the shibboleth it had once been and the accidental bombing of Schaffhausen in Switzerland was a symbol of the fury of the air war in the desperate effort to knock out Germany. The CLARION operation of 22 February, in preparation for a great ground offensive, was a moderately successful variation of the sort of wide-ranging attack, advocated during the previous autumn, which would bring the war home to towns and villages previously undisturbed.
+
+In March, with the ground armies making progress on all fronts, 
+
+			 -- xvi -- 
+
+			the heavies were able to return to strategic targets though they participated in the successful attempt to isolate the Ruhr which began on 21 March. Strategic targets became less numerous as one industrial organization after another was scratched from the list. On 16 April, with few profitable targets left, the bomber offensive was officially declared finished though several missions were dispatched thereafter. For it there was no dramatic finish marked by a surrender or an armistice but of its success the gutted shell of German industry was a grim reminder.
+
+Meanwhile the advance of the Allied armies from the English Channel to the Elbe had been made possible by the operations of the tactical air forces, operations of such magnitude and variety that in their context one reads with some perplexity post-war charges that the AAF was dominated wholly by its concept of strategic bombardment. Planning for the OVERLORD invasion had been begun by a combined Anglo-American team early in 1943 and had continued at an accelerating pace in 1944. The detailed plan with its annexes is a complex document of extraordinary interest-and in passing one may hope that in time security regulations will permit the publication in full of this or some similar plan for the edification of the public; the science of war is to be seen in its most impressive form in such an attempt to predict and organize requisite forces.
+
+The command arrangement provided, as has been shown above, that both strategic and tactical forces should come under Eisenhower's control in advance of the invasion. Tactical forces, British and American alike, were united under AEAF with Air Marshal Leigh-Mallory in command. This headquarters was an unfortunate exception to the rule of harmonious command relations in combined Anglo-American organizations. A reviewer of an earlier volume objected mildly to the tendency of our authors to go into detail in discussing command relations and the personalities which made for their success or failure. Here one may suggest, without belaboring the point, that the personality of Leigh-Mallory and the reaction of American airmen to his control of their combat units were factors of more than passing interest.
+
+It had been planned originally that AAF tactical units would operate as part of an expanded Eighth Air Force, but the final decision was to establish a separate tactical force. Its numerical designation, its commander (Brereton), and the nucleus of its staff were taken from 
+
+			 -- xvii -- 
+
+			the old Ninth Air Force of the desert war. A few medium bomber groups were drawn from VIII Air Support Command but almost all of its combat units came fresh from the States during the months immediately preceding OVERLORD, a fact which determined in large measure the nature of its extensive training program and of its early operations. The Ninth's internal structure, highly complex, was arranged along functional lines with an emphasis on flexibility and mobility. Its numerous combat units were to be grouped into the tactical air commands (IX, XIX, XXIX TAC's), each of which was to be attached to an army on the continent, but with the understanding that units would be shifted from one to the other as needed.
+
+Pre-invasion operations consisted of attacks on coastal defenses, against airdromes, against communications, and against V-weapon sites. So thorough were these preparations and so skilful was the planning that D-day, for all its tremendous air effort, went off with relative smoothness. An airborne operation of unprecedented magnitude preceded the touchdown of seaborne troops and, with losses that were heavy enough but well under expectations, contributed notably to the success of the landings. Fighters assigned to cover the amphibious assault found little to do, for the Luftwaffe made no serious effort to attack the war's greatest invasion fleet. This lethargy on the part of the GAF was in itself proof of the success of attacks on air-craft factories, airdromes, and on planes in flight and it justified the great resources thrown into the air war. The one air operation on D-day that proved unsuccessful was the bombardment of defense positions on OMAHA beach by Eighth Air Force heavies, an attack laid on at the insistence of ground commanders and against the better judgment of AAF leaders.
+
+In the struggle to consolidate the beachhead and secure the whole of the Cotentin, Ninth Air Force furnished close support first with planes flying out of England, then by the roulement method from hastily prepared strips near the front, and finally from bases set up in Normandy as unit after unit moved across the Channel. At the instigation of the ground commanders, the AAF put on a big show calculated to facilitate the capture of the key port of Cherbourg. The hastily conceived operation was not a model of planning or of air-ground cooperation and though it eased somewhat the capture of Cherbourg the attack, like most of the saturation bombings of strongly defended enemy positions, was only moderately successful. Air's most 
+
+			 -- xviii -- 
+
+			important contribution was the isolation of the battlefield and here, following accepted doctrines, the AAF was spectacularly successful. Mediums and fighter-bombers cut every rail bridge over the Seine between Paris and Rouen and, when deception was no longer paramount, they scored heavily on crossings over the Loire; marshalling yards and rail lines in a wide area were smashed. The difficulty of moving up German reinforcements and the decisive effect the delays had on the battle for Normandy were attested by practically every enemy general interviewed after the war.
+
+To aid in the breakout from the Cotentin the air forces put on COBRA, a stupendous carpet-bombing attack. Again the gains scored, though not negligible, hardly justified the effort expended and the day was saddened by heavy casualties among friendly troops through errors in bombing. Far more significant in the long run was the development of a most intimate type of air-ground cooperation in the airplane-tank team. Involving a generous exchange of liaison officers between the two arms and efficient VHF communication between fighter-bombers and tanks, the system gave to armor a new mobility which was in large part responsible for Patton's breakout and rapid careen across France.
+
+Meanwhile the interdiction program continued, but with a new set of targets chosen with a view toward a more open type of warfare. While Allied armies pushed ahead steadily, bombers continued to slug at harbor defenses, rarely with unequivocal success. Heavily built fortresses, some of ancient vintage, absorbed all that the heavies and fighter-bombers could throw at them and the grim tenacity of the garrisons paid off abundantly by depriving the Allies of harbors badly needed to nourish the battle for France. The success of the German holding action here (like that of the Japanese in some of their cave pitted Pacific islands) was in flat contradiction to much stuff that has been written decrying the "Maginot complex"; heavy fortifications may win no war but ruggedly defended they were of great strategic value against the most formidable air and artillery weapons.
+
+By mid-September France had been liberated, most of Belgium and Luxembourg, and part of Holland. Momentary hopes for a rapid push into the Reich began to fade as the armies ground to a halt for lack of supplies. The stormy weather of June that had curtailed the use of artificial harbors, the failure to seize or to seize intact the regular ports, damage done to the French transportation system, and the very rapidity of the advance once the Allies had shaken their columns out of 
+
+			 -- xix -- 
+
+			Normandy -- these factors played hob with logistical phasing and it was necessary to pause until an adequate supply system could be built up. Air had helped defer that pause by hauling fuel and other supplies to columns racing across France. Heavy bombers as well as transports had turned to this emergency trucking business for which small provision had been made. More might have been done had there been preliminary planning and had it not been necessary to hold troop carrier units on stand-by alert against expected calls for airborne operations; but since it is useful to know the limitations as well as the potentialities of air power, it should be pointed out here that with available equipment ground operations on the scale of the Battle of France could not have been supported by air transport alone.
+
+While ground and air forces were regrouping at the threshold of Germany, the long debate over future strategy was decided against the advocates of a single drive into the Reich and in favor of the two-pronged attack, north of the Ardennes and in the southeast, but with pressure along the whole front and with the heaviest support going to Montgomery's 21 Army Group at the extreme left of the Allied lines. That decision had been determined in advance by terrain, proximity to England's airfields, the need to get Antwerp or Rotterdam as a port of entry, and the desire to overrun V-weapon sites within range of England. As an opening round in the battle to break into the north German plain the Allies began Operation MARKET-GARDEN on 17 September. The immediate objective was the territory between Arnhem and the Zuider Zee, possession of which would allow the British Second Army to cross the Ijssel and flank the Siegfried Line. The airborne phase was the largest yet executed, with the whole of Brereton's First Allied Airborne Army being dropped or landed in the Eindhoven-Amhem-Nijmegen area during a period of three days. Although the long-drawn-out landing operation was executed by day, losses were slight; fighters from Eighth Air Force and ADGB completely throttled the Luftwaffe and heavy attacks on AA positions by RAF Bomber Command helped keep down losses from flak. Weather, originally favorable, delayed air landings subsequent to D-day and the resupply of troops and although the airborne units seized a number of key water crossings -- their most important objectives -- the ground troops were slow in effecting a junction with them. German defense proved more stubborn than had been expected and the Allies had to 
+
+			 -- xx -- 
+
+			withdraw from some of their positions, while holding a few important bridgeheads.
+
+With this failure to get across the Rhine in September the Allied armies lost all chance of ending the war before the Germans could rally from the disastrous effects of the summer campaigns. Though some hope of an early victory persisted, it required several weeks to clear the water approaches to Antwerp; and progress on other fronts served chiefly to bring American armies into position for an all-out Allied offensive scheduled for December.
+
+That month saw instead Hitler's last desperate bid in the Ardennes. The Fuehrer's plan and his aims, as fully as they can be reconstructed, are well enough known to most readers of military history. Familiar too is the general attitude of overconfidence among the Allies that made it possible for von Rundstedt to score one of the war's most important surprises. In retrospect it is difficult to understand why the Allies were so completely fooled. There was available much incidental intelligence, some from ground reconnaissance, more from air. Bad weather between 17 November and 16 December helped cloak the extensive preparations of the Nazis but the frequent sorties of tac/recce groups and visual sightings by fighter-bombers on armed reconnaissance brought in countless bits of detailed information on troop movements, build-up of supplies, and, an especially grim portent, of concentrations of ambulances and hospital trains. Air passed this raw material of intelligence along and its interpretation (save in the case of information on the GAF) was the ultimate responsibility of G-2. Air intelligence was not blameless, however. Here, as in the Kiska fiasco of August 1943,* the AAF was at fault in not stressing more incisively the significance of the data provided by its planes and the failure suggests that there was a shadowy "twilight zone" between air and ground headquarters which proved disastrous. Even after the breakthrough it was difficult to pin down responsibilities. Arnold, ever sensitive to criticism of the AAF, attempted to get a critique from Spaatz but the latter's reply was noncommittal, perhaps in loyalty to Eisenhower since the major fault could not be blamed on USSTAF.
+
+During the initial breakthrough and the fluid battle which followed, weather was a staunch ally of the Germans. Only the stubborn resistance of ground units blunted the enemy's drive and held him to
+
+			* See Vol. IV, 391-92.
+
+			 -- xxi -- 
+
+			gains which though substantial were less than anticipated; the time thus gained allowed Eisenhower to rearrange his commands and to develop a strategy for containing, then pushing back, the German armies. The GAF, momentarily resurgent, came to the support of its own troops in greater strength than it had shown in months. In the Allied counter-air strikes which followed the versatile fighter-bomber again proved its worth and night fighters worked overtime. Here, as was so often true in the Pacific, the AM showed a quantitative weakness in the latter category, perhaps to be accounted for by dominant offensive doctrines and a preference for daylight operations. Within a few days the GAF had shot its bolt and as von Rundstedt's armies approached the Meuse the weather turned. Five wonderfully clear days (23-27 December) followed during which Allied planes of every type hammered incessantly at enemy airdromes and at communications at the front and the rear. Before the clouds shut in again this interdiction program had already hurt the mobility of the German columns. Air had also rendered close support over difficult terrain, had flown numerous armed recces, and had dropped supplies to the beleaguered forces at Bastogne. By the end of the year the Germans had given up the idea of reaching the Meuse; the surprise attack delivered by the Luftwaffe against Allied airdromes on New Year's Day 
+				was a futile gesture by a defeated air force.
+
+During January, as the Allies slowly pinched off the Ardennes salient, weather was generally bad with a dozen days in which not even fighter-bombers could get up. On flyable days, however, Allied air put tremendous forces over the battle and the eastern approaches thereto with notable effect. With the enemy in full retreat planes took over a function not unlike that of cavalry in earlier wars, harrying the withdrawing columns by hitting bridges, road junctions, road blocks, and fortified positions, and beating up traffic congestions. Von Rundstedt's opinion accorded to air a highly significant share in his defeat.
+
+By mid-January, with the Bulge no longer a menace, SHAEF was planning its own offensive with Devers and Bradley erasing German holdings west of the Rhine and Montgomery making the big push across the north German plain. Air operations in each sector followed the by now familiar pattern of interdiction and close support, but on a scale never equaled in war before. Beginning with the lucky seizure of the bridge at Remagen on 7 March, the Allies crossed the Rhine
+
+			 -- xxii -- 
+
+			in a number of places with aid of a huge lift of the First Allied Airborne Army near Wesel (VARSITY) that showed great improvement over the September jump at Arnhem.
+
+Thereafter the drive across Germany went at a fast clip which at times outran the short-ranged tactical planes whose bases could not be moved up in time to permit fighter-bombers to spearhead the attack. The Luftwaffe too suffered for want of bases as the ground armies swept over their ruined fields, and though there was an occasional flurry of activity by German fighters their efforts were feeble enough. As the armies moved into assigned positions to await junction with the Russians the tactical forces turned for a while against munitions factories that might arm a new people's army and to the task of isolating the so-called National Redoubt in Bavaria. But the real tactical job had been done, and with distinction, when the armies reached the Elbe.
+
+Four scattered chapters in the volume deal with miscellaneous activities which for want of a better designation have been called "supporting operations." One deals with logistical support of the Ninth Air Force before and after D-day. Machinery for support of U.S. strategic air forces had been in operation in England since 1942 and in Italy had been developed for the Fifteenth in the winter of 1943-44. Because those air forces continued to fly from semipermanent installations their stepped-up operations of 1944-45 required little more than an extension and improvement of existing facilities. For the Ninth, however, a new type of warfare opened with the OVERLORD invasion, a war of movement with shifts more rapid, if of less distance, than those in the Pacific; if terrain and transportation were more favorable for the constant shift from airfield to airfield than in the Pacific, the formidable size of the Ninth Air Force created special problems. It has become the fashion of late years for the civilian historian to pay tribute to the importance of logistics, perhaps at times, in healthy reaction against the blood-and-trumpet writers of an earlier day, to the neglect of the combat operations for which supply systems are created. The editors, not wholly unpartisan readers, have felt that this chapter has achieved a nice balance with the combat narrative in describing the move to the continent and the successive advances from OMAHA and UTAH beaches to the borders of the Reich and on to the Elbe. The story includes the work of the aviation engineers who built the airfields and other installations, and the arrangements for supply and maintenance of the huge tactical forces. These activities, if 
+
+			 -- xxiii -- 
+
+			less than perfect in every detail, showed boldness in design, skill in execution, and something of the American genius for large-scale organization.
+
+On a smaller scale and along lines less familiar to the AAF were operations in support of underground resistance forces on the continent. These activities were shrouded in an aura of mystery which heightens their drama but which tended to minimize during the war recognition due those crews who flew the difficult and hazardous missions. In these operations the AM acted only as a common carrier, delivering parcels and passengers at the behest of Special Force Headquarters, a coordinating agency of which the U.S. members were drawn from OSS.
+
+The earliest task of this sort (and a continuing one) was the dropping of propaganda leaflets. Originally performed by tactical units as an additional duty, the job of "nickeling" was taken over by special squadrons on a separate basis, with equipment and tactics peculiarly adapted to their mission and with an argot of their own that enriched the English language with a number of apt expressions. Even after the establishment of these squadrons tactical units were levied upon for large operations, as in the case of the 3d Bombardment Division which spent much of the summer of 1944 in special operations. These included dropping or landing supplies for resistance forces, infiltrating agents, and evacuating agents, Partisans, casualties, American airmen, and occasionally noncombatants.
+
+As France was liberated the foci of "carpetbagger" activities in western Europe shifted north, to the Low Countries, Denmark, Norway, Poland, and even Germany. In Italy the Partisans were less well organized than in France and operations in the peninsula were not on a large scale until autumn of 1944, though a fantastic murder case recently made public has indicated something of the importance of the supplies dropped in the battle for northern Italy. In the Balkans operations were fairly heavy and relatively very significant in encouraging resistance movements in Greece, Albania, and Yugoslavia. Aid to Tito's forces was particularly important; it included as well as the usual operations three mass evacuations. That of June 1944, done at Tito's request, rescued him and his staff from an almost certain threat of capture by the Germans. The story, in light of present conditions, is not without its sardonic humor: the Americans did most of the heavy work while the Russians carried Tito and his top brass. But that was 1944, not 1951.
+
+			 -- xxiv -- 
+
+			Nazi boasts of a secret weapon were common enough to become a standard joke among the Allies. During 1944 the Germans did produce such weapons, which with better luck might have saved them from defeat. Allied airmen were justified in their apprehensions about jet fighters, which but for Hitler's bad judgment might well have won for the Germans control of the skies over Europe. In another case the Fuehrer's intuition helped the cause of the Allies, when he delayed development of the guided missiles known usually as the V-1 and V-2. The former was a pilotless jet aircraft with an explosive warhead, cheap to produce and within its limits an efficient and effective weapon. The latter, a supersonic rocket of frightening potentialities, was more difficult to perfect, and the Germans lost valuable time through rivalries within the Nazi hierarchy.
+
+British intelligence became acquainted, though imperfectly, with the V-weapon threat in the spring of 1943 and by autumn was thoroughly alarmed; because of a lack of complete exchange of information with the Americans-a most unusual and regrettable exception to the usual rule -- the Allies were slow in developing a policy for defensive measures. The only immediate countermeasure seemed to consist of bombardment of V-weapon installations, particularly those diagnosed as launching sites. Various tactics were attempted with bombers of every type, but with results which did not seem decisive. American airmen objected to the diversion of heavy bombers from the strategic campaign for CROSSBOW strikes with as much fervor and as little success as they had in the case of the diversion to U-boat pens in 1942-43. In extensive experiments at Eglin Field the AAF perfected a technique of low-altitude attacks by fighter-bombers which seemed more economical and more effective than that involving use of B-17's and B-24's but this innovation was resisted by the British, particularly by Leigh-Mallory, and was never given a fair trial. And so the heavies and mediums bore the brunt of the bombing of V-weapon sites; by sheer weight these attacks delayed the German program by some several months, enough probably to explain the postponement of the V-weapon attack until after the OVERLORD invasion.
+
+By D-day many responsible leaders had come to the conclusion that the whole threat was a hoax but on the night of 12/13 June the first V-1 hit in England and the rate of attack was soon adjudged dangerous. Even then the Anglo-American organization for defense was too loose for efficient action. Under general control of the Air Ministry, this staff held resolutely to an emphasis on bombing launching sites
+
+			 -- xxv -- 
+
+			as opposed to bombing component factories, assembly lines, supply dumps, and transportation lines. CROSSBOW missions continued to infringe upon other operations, rarely upon tactical but frequently upon strategic. By the end of August the V-1 threat had abated but it was the capture of launching sites by ground forces rather than bombing which put an end to the peril.
+
+The final phase was that of the V-2, which in the early autumn was launched against targets in England and on the continent, especially the strategic port of Antwerp. In defense of Great Britain against this danger the AAF took little part and again it was the advance of the armies which wiped out the V-weapon menace. Air power had failed to eradicate these unconventional air weapons but here again it was the airmen who first understood the limitations of their arm; and Spaatz may have been right in believing that given a free hand the AAF could have made a better showing.
+
+In the final chapter,"Mission Accomplished," an attempt is made to evaluate the contributions of the Army Air Forces toward the victory in Europe. This was not an easy chapter to write, Records of our own air forces and of the GAF provide ample data for the operational story and, thanks to the indefatigable efforts of the United States Strategic Bombing Survey, there is a wealth of materials on the German industry under bombardment. The mute evidence of physical destruction is impersonal enough but much of the written record and all of the recorded interviews are colored by a personal or organizational bias. For a series of events as complex as was the war against Germany the historian, no matter how well informed and how dispassionate, will find it difficult to establish universally acceptable causal explanations and it is hardly likely that the interpretation contained herein will satisfy every reader. To the editors, at any rate, the judgments offered seem fair and sober, calling attention as they do to the mistakes of the AAF as well as to its very substantial accomplishments. Overenthusiastic claims advanced during the war are corrected but the author points out too the errors of those who, by citing out of context isolated statements from the USSBS, have used those authoritative critiques to belittle the cause of airpower. Briefly, the thesis put forth in this volume is that air power did not win the war but that the Allies could not have gained the victory at all without the air ascendancy gained by the AAF and RAF and that the final victory was won more rapidly and at less cost because Anglo-American air 
+
+			 -- xxvi -- 
+
+			power was superior to the German in production, in strategy, in combat, and in related services. In the face of that general superiority individual errors in concept and failures in execution lose their importance save as they inform those who plan for other wars.
+
+Practical considerations of publication made it convement to bring out Volume IV of this series in advance of Volume III. This inversion of order has subjected the editors to some mild chaffing about absentminded professors but since the fourth volume brought the story of the AAF's war against Japan down to July 1944 it makes possible some useful if preliminary comparisons between that struggle and the air war in Europe. From 1941 most top strategists in Washington believed that Germany was the most dangerous enemy and Europe the most important theater and that hence the preponderant effort should be made in that area until Hitler was defeated. This thesis was sharply challenged by commanders in the Pacific and by some in Washington but was upheld, save as naval forces were concerned, until V-E Day. The long debate during World War II is given fresh interest by current discussions of national policy in which, under different circumstances, a similar problem has emerged: how best to divide our not unlimited resources to confront aggression in Europe and in the Far East. Perhaps the differences outweigh the similarities in the situation as of 1941 and 1951 but no thinking American can afford to neglect such evidence as recent history affords.
+
+Throughout World War II, AAF Headquarters strategists were staunchly in favor of the beat-Hitler-first thesis. Their appraisal of potential enemies and their strategy for the air war were incorporated in AWPD/1, a plan drawn up in September 1941. This remarkable document, classified as secret but published in a competent abstract by the Washington Times-Herald, the Chicago Tribune, and other papers on 4 December 1941, can be found in the Congressional Record, Vol. 87, Pt. 14, A5448-51. Read in connection with the present volume and especially with the appraisal contained in Chapter 22, AWPD/1 takes on a new significance. The strength and resourcefulness of Germany's armed forces, the skill of her scientists and technicians, and the resilience of her industry and transportation system-all these appear graphically in the story of the air war and to the editors seem to justify the most important decision of the war.
+
+One matter of appraisal has involved much labor for the authors 
+				and some embarrassment for the editors--that is, the question of just 
+
+			 -- xxvii -- 
+
+			how heavy were the losses inflicted upon German fighters by U.S. planes, particularly heavy bombers. A more significant question is whether the GAF's offensive and defensive power was broken by Allied air forces and here an affirmative answer can be documented from the early spring of 1944 on. The defeat of the Luftwaffe was the work of the AAF and RAF and in terms of final results it matters little whether, to paraphrase a favorite saying of Arnold's, the German planes were destroyed in the factories, on the ground, or in the skies. But current assessment of enemy losses was a most important factor in operational planning during the war and for the historian the effort to evaluate those assessments constitutes a most interesting problem in source criticism.
+
+The Eighth Air Force realized quite early that the claims by bomber crewmen of German fighters destroyed were too high. Efforts were made to tighten up on methods of reporting and evaluating claims and early records were repeatedly scaled down-for whatever may have been their attitude in regard to headlines for the public, operational officers in the desperate struggle wanted facts, not bloated claims. In spite of, or perhaps because of, these corrections authors in this series have treated official scores with reservation unless substantiated by other evidence.
+
+When Volume II was going to press a new file of German records turned up which seemed to show AAF claims preposterously exaggerated, and with consent of the authors involved the editors called attention to this evidence and to results obtained when it was applied in a few test cases chosen at random. Unfortunately some reviewers emphasized this feature of the volume without noticing the tentative nature of conclusions based on new but fragmentary evidence. The editors were pleased that press notices critical of the AAF, though they came during the B-36 controversy when unfavorable publicity might have been mischievous, brought no recrimination from the U.S. Air Forces. Subsequent research in other enemy records in England and in Germany has modified sharply the impression created by a hasty use of the one file available in 1949. No firm answer can be given to the question of fighter losses on the basis of German files so far discovered-and in passing it is interesting to note that the official records of the "methodical" Germans are in respect to air force matters much less precise than our own and in some cases are quite obviously padded. But the historian who has done more research on 
+
+			 -- xxviii -- 
+
+			the problem than any other has calculated that the AAF shot down perhaps half as many GAF fighters as were claimed, a not unreasonable margin of error if one considers the conditions under which the original observations were made. And so, with new evidence available the editors have again accepted a new interpretation and, they hope, a more lasting one.
+
+The tasks in Volume III have been spread more widely than in Volumes II and IV. Ten authors, whose current professional connections are indicated in the Table of Contents, have contributed to this volume; of these, three, Arthur B. Ferguson, Alfred Goldberg, and Albert F. Simpson, are already known to readers of the series and it is necessary only to introduce the newcomers, Joseph W. Angell served during the war as historical officer of the AAF Proving Ground Command and after the end of hostilities undertook at AAF Headquarters a special study of V-weapon operations. John E. Fagg, after service with the Far East Air Forces, turned his attention to strategic operations in Europe as a member of the staff of the AAF Historical Division. Robert T. Finney joined that staff after a lengthy tour of duty with the AAF in MTO. Robert H. George became historical officer of the Ninth Air Force shortly after its establishment in ETO in the fall of 1943. During the war Martin R. R. Goldman served on combat duty with a B-24 unit of the Eighth Air Force. David G. Rempel represented the AAF Historical Division at Air Staff, SHAEF. After service with the ground forces in MTO, Harris Warren was assigned to study special air operations in the AAF Historical Division.
+
+Col. Wilfred J. Paul, Director of the U.S.Air Force Historical Division, and Dr. Albert F. Simpson, Air Force Historian, again have 
+				given editors and authors alike every assistance at their command. It 
+				is no mere formality to say that without the intelligent understanding 
+				with which this assistance has been rendered the completion of the 
+				volume would have been impossible. Of Colonel Paul's capable staff 
+				Mrs. Wilhelmine Burch, Sgt. James B. Donnelly, and Messrs. Ernest S.
+
+Gohn and Robert F. Gleckner are due special acknowledgment for 
+				the many blunders they have saved the editors through their careful 
+				review of both manuscript and proof. For whatever they may have 
+				overlooked the editors are happy to take full responsibility. The generous spirit which has characterized other members of the Historical 
+				Division has laid the editors under an obligation for so many and such 
+				mix 
+
+			 -- xxix -- 
+
+			varied services that it is possible only to list those to whom the indebtedness is heaviest: Col. Garth C. Cobb, Col. Byron K. Enyart, Lt. Col. Arthur J. Larsen, Lt. Col. Eldon W. Downs, Lt. Col. Ernest B. Stevenson, Maj. Thad S. Strange, Capt. George H. Satterfield, Capt. George 
+				H. Saylor, S/Sgt. John A. Hennessey, S/Sgt. Marjorie Z. Nicodemus, S/Sgt. John C. Rayburn, Jr., Sgt. Jerry L. Hawes, Sgt. Malcolm J. Gentgen, Mrs. Juliette A. Hennessey, Miss Marguerite K. Kennedy, Dr. Edith C. Rodgers, Mr. Frank Myers, Mrs. Lucille Sexton, Mrs. Lola Lowe, Miss Sara Venable, Miss Ruth McKinnon, and Mr. David Schoein.
+
+Once more Mr. John C. Nerney of the Air Historical Branch of the British Air Ministry has responded to appeals for help in a spirit which faithfully reflects the close partnership in which the RAF and the AAF fought the war. With equal generosity and helpfulness Mr. L. A. Jackets and other members of the same organization have lent to us their special knowledge of pertinent records.
+
+No less friendly has been the response to requests for aid by numerous AAF officers who during the war bore a heavy responsibility for the operations here recorded. Their names appear repeatedly in the footnotes, and it is hoped that these citations may serve as sufficient acknowledgment by authors and editors of a heavy debt. If any one of them should be singled out for special mention, it is Lt. Gen. Ira C. Eaker, now retired, whose consistent support of historical officers under his command was supplemented by a decision at the close of the war to turn over to the Historical Division his own personal files. The editors like to think, not without reason, that his action represents the willingness of air officers to stand on the record.
+
+				WESLEY FRANK CRAVEN
+
+					JAMES LEA CATE
+
+			CHICAGO, ILLINOIS
+
+				12 October 1951
+
+			 -- xxx -- 
+
+			Contents
+
+					Page	
+
+					Foreword to the new imprint	
+					iii	
+
+					Foreword	
+					v	
+
+							I. FROM POINTBLANK TO OVERLORD
+
+						Arthur B. Ferguson, Duke University	
+
+						John E. Fagg, New York University	
+
+						Joseph W. Angell, Pomona College	
+
+						Alfred Goldberg, USAF Historical Division	
+
+						1.	
+
+								Winter Bombing
+
+						3-29	
+
+						Arthur B. Ferguson	
+
+						2.	
+
+								Big Week
+
+						30-66	
+
+						Arthur B. Ferguson	
+
+						3.	
+
+								Plan for OVERLORD
+
+						67-83	
+
+						John E. Fagg	
+
+						4.	
+
+								CROSSBOW
+
+						84-106	
+
+						5.	
+
+								The Ninth Air Force
+
+						107-137	
+
+						Joseph W. Angell	
+
+						Alfred Goldberg	
+
+						6.	
+
+								Pre-Invasion Operations
+
+						138-184	
+
+						John E. Fagg	
+
+							II. INVASION OF WESTERN EUROPE
+
+						Robert E. George, Brown University	
+
+						John E. Fagg, New York University	
+
+						7.	
+
+								Normandy
+
+						185-227	
+
+						Robert H. George	
+
+						8	
+
+								The Battle of France
+
+						228-277	
+
+						Robert H. George	
+
+						9.	
+
+								The Strategic Bomber Strikes Ahead
+
+						278-324	
+
+							III. Italy
+
+						Albert F. Simpson, USAF Historical Division	
+
+						Robert T. Finney, USAF Historical Division	
+
+						10.	
+
+								Anzio
+
+						325-370	
+
+						Albert F. Simpson	
+
+						11.	
+
+								Rome
+
+						371-407	
+
+						Albert F. Simpson	
+
+						12.	
+
+								Invasion of Southern France
+
+						408-438	
+
+						Albert F. Simpson	
+
+						13.	
+
+								Battle of Norther Italy
+
+						439-492	
+
+						Robert T. Finney	
+
+						Albert F. Simpson	
+
+							IV. SUPPORTING OPERATIONS
+
+						Harris Warren, University of Mississippi	
+
+						Joseph W. Angell, Pomona College	
+
+						Alfred Goldberg, USAF Historical Division	
+
+						14.	
+
+								Air Support for the Underground
+
+						493-524	
+
+						Harris Warren	
+
+						15.	
+
+								CROSSBOW - Second Phase
+
+						525-546	
+
+						Joseph W. Angell	
+
+						16.	
+
+								Logistical Mobility
+
+						547-594	
+
+						Alfred Goldberg	
+
+							V. THE GERMAN FRONTIER
+
+						David G. Rempel, San Mateo Junior College	
+
+						John E. Fagg, New York University	
+
+						17.	
+
+								Check at the Rhine
+
+						595-635	
+
+						David G. Rempel	
+
+						18.	
+
+								Autumn Assault on Germany
+
+						636-671	
+
+						John E. Fagg	
+
+						19.	
+
+								Battle of the Bulge
+
+						672-714	
+
+						David G. Remoel	
+
+							VI. GERMANY
+
+						John E. Fagg, New York University	
+
+						David G. Rempel, San Mateo Junior College	
+
+						Martin R.R. Goldman, USAF Historical Division	
+
+						20.	
+
+								The Climax of Strategic Operations
+
+						715-755	
+
+						John E. Fagg	
+
+						21.	
+
+								From the Rhine to the Elbe
+
+						756-782	
+
+						David G. Rempel	
+
+						Martin R.R. Goldman	
+
+						22.	
+
+								Mission Accomplished
+
+						783-810	
+
+						John E. Fagg	
+
+							Glossary
+
+						913-916	
+
+							LIST OF MAPS AND CHARTS
+
+								Main Objectives of "Big Week" Operations
+
+						34	
+
+								The CROSSBOW Network, January 1944
+
+						94	
+
+								Organization of the Ninth Air Force, 6 June 1944
+
+						111	
+
+								Tactical Disposition Ninth Air Force, 6 June 1944
+
+						120	
+
+								Airborne Operation NEPTUNE, 5-6 June 1944
+
+						187	
+
+								D-Day Air Dispositions and Principal Targets Assigned in the Assault Area
+
+						191	
+
+								The Battle Area, June-September 1944
+
+						229	
+
+								Interdiction, May-August 1944
+
+						259	
+
+								Principal Oil Targets Bombed by the Strategic Air Forces
+
+						282	
+
+								Twelfth Air Force, 29 January 1944
+
+						334	
+
+								Allied Strategy in Italy, January 1944
+
+						338	
+
+								The Anzio Landing and the Initial Expansion of the Beachhead
+
+						347	
+
+								Central Italy Principal Rail Lines and Roads
+
+						375	
+
+								Fifteenth Air Force, 15 June 1944
+
+						398	
+
+								Principal Rail Lines, Southern France
+
+						422	
+
+								Twelfth Air Force, 31 August 1944
+
+						444	
+
+								Principal Rail Lines, Northern Italy
+
+						457	
+
+								MAAF, 1 November 1944
+
+						465	
+
+								Balkan Area Served by AAF Special Operations
+
+						508	
+
+								Status of U.S. Airfields in Western Europe, 8 May 1945
+
+						564	
+
+								Headquarters IX Air Force Service Command
+
+						576	
+
+								Navigation Diagram for Operation MARKET
+
+						603	
+
+								Operations in Holland, 17 September-3 December 1944
+
+						605	
+
+								Operation MADISON
+
+						625	
+
+								Sixth Army Group Operations, 5 November-16 December 1944
+
+						630	
+
+								Railways in Germany Bombed by Allied Air Forces
+
+						651	
+
+								German Preparation for the Ardennes Counteroffensive
+
+						674	
+
+								Battle of the Bulge
+
+						684	
+
+								Interdiction Operations, 23 December 1944 to 31 January 1945
+
+						691	
+
+							LIST OF ILLUSTRATIONS
+
+								Over Berlin: Radar Bombing Through 7/10 Cloud
+
+						40	
+
+								Little Brothers: P-38, P-51, P-47
+
+						40	
+
+								Big Week: Regensburg-Pr&uuml;fening
+
+						40	
+
+								Big Week: Regensburg-Obertraubling
+
+						40	
+
+								V-1
+
+						104	
+
+								Launching V-2
+
+						104	
+
+								V-Weapon Site in Normandy
+
+						104	
+
+								Before D-Day: Low-Level Reconnaissance of Beach Defenses
+
+						104	
+
+								Normandy Beachhead Under P-38 Cover
+
+						104	
+
+								Isolating the Battlefield
+
+						200	
+
+								Normandy Rail Cuts
+
+								Loire Bridge at Saumur
+
+								Ninth Air Force Communications
+
+						200	
+
+								Headquarters Installations
+
+								Tank to Fighter-Bomber
+
+								Strafing Motor Transport in France
+
+						200	
+
+								Von Rundstedt's Headquarters After a Visit by XIX TAC
+
+						200	
+
+								Camera Guns Record Victories
+
+						232	
+
+								Attack on Me-109
+
+								Strafing FW-190
+
+								Direct Hit on Ammunition Truck
+
+						232	
+
+								Berlin Flak Destroys B-17
+
+						232	
+
+								B-17 Belly Wound Not Fatal
+
+						232	
+
+								Fifteenth Air Force Wrecks Polesti Oil Fields 
+
+						296	
+
+								Stella Romana
+
+								Concordia Vega
+
+								Eighth Air Force Attacks Oil Refineries
+
+						296	
+
+								Merseburg-Leuna
+
+								Harburg
+
+								FRANTIC: B-17’s En Route to Russia
+
+						296	
+
+								Fifteenth Air Force Ruins Airdrome at Neuberg, Austria
+
+						296	
+
+								Monte Cassino: The Abbey in Ruins
+
+						328	
+
+								Cassino: The Town Under Attack
+
+						328	
+
+								All Roads Lead to Rome
+
+						328	
+
+								Briefing Pilots of 332nd Fighter Group in Italy
+
+						328	
+
+								Air Drop for DRAGOON
+
+						424	
+
+								Run In
+
+								Bail Out
+
+								Broken Bridges in Italy
+
+						424	
+
+								Bressanone
+
+								Piazzola
+
+								Ponte di Piave
+
+								Nervesa
+
+								Maquis Receiving Supplies in CARPETBAGGER Mission
+
+						424	
+
+								Direct Hit on Highway Bridge in Italy
+
+						456	
+
+								Cathedral and Bridge: Rouen
+
+						456	
+
+								Cathedral and Bridge: Cologne
+
+						456	
+
+								B-25 Hits Bridge at Brixlegg
+
+						456	
+
+								Hauling Gas for Patton's Tanks
+
+						584	
+
+								Emergency Air Strip in the Normandy Hedgerows
+
+						584	
+
+								Airfield Construction
+
+						584	
+
+								Square-Mesh Track
+
+								Pierced-Steel Plank
+
+								Airfield Construction:	Hessian Mat
+
+						584	
+
+								Battle of the Bulge: Ninth Air Force Hits St.-Vith
+
+						680	
+
+								Battle of the Bulge: Bombed-out Panzer
+
+						680	
+
+								Marshalling Yards
+
+						680	
+
+								Linz
+
+								Dasburg
+
+								Salzburg
+
+								Nazis Watch as Eighth Air Force Bombs Facroty at Kassel
+
+						680	
+
+								VARSITY Line-up 24 March 1945
+
+						744	
+
+								Eighth Air Force Bombs Dresden
+
+						744	
+
+								Berlin Factories Hit by Eighth Air Force
+
+						744	
+
+								Death of the Luftwaffe
+
+						744	
+
+								Strafing Attack by 353d Fighter Group, 16 April 1945
+
+								Bad Abling Airdrome, May 1945
+
+			United States Air Force
+
+				Historical Advisory Committee
+
+(As of May 1, 1983)
+
+							Lt. Gen. Charles G. Cleveland,
+
+							USAF
+
+							Commander, Air University, ATC
+
+							Maj. Gen. Robert E. Kelley, USAF 
+
+							Superintendent, USAF Academy
+
+							Mr. DeWitt S. Copp
+
+							The National Volunteer Agency
+
+							Dr. Joan Kennedy Kinnaird 
+
+							Trinity College
+
+							Dr. Warren W. Hassler, Jr.
+
+							Pennsylvania State University
+
+							Mr. David E. Place,
+
+							The General Counsel, USAF
+
+							Dr. Edward L. Homze
+
+							University of Nebraska
+
+							Gen. Bryce Poe II,
+
+							USAF, Retired
+
+							Dr. Alfred F. Hurley
+
+							Brig. Gen., USAF, Retired 
+
+							North Texas State University
+
+							Dr. David A. Shannon
+							(Chairman) 
+
+							University of Virginia
+
+		Transcribed and formatted for HTML by Patrick Clancey and Terry Welshans for the HyperWar Foundation
+

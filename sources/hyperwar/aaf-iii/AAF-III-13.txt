@@ -1,0 +1,841 @@
+
+
+		HyperWar: Army Air Forces in World War II Volume III: Europe: ARGUMENT to V-E Day, January 1944 to May 1945 Chapter 13
+
+			Chapter 13: Battle of Northern Italy
+
+				DURING the late summer of 1944 the military situation in Europe was everywhere favorably inclined toward the Allies. In the east, Russian armies were overrunning the Nazi-dominated Balkan states. In France the swift conquest of the territory between Normandy and the Moselle River, coupled with the almost unbelievably rapid advance of Seventh Army up the Rhone Valley, had pushed the enemy back to the very borders of Germany. In Italy, too, after a pause at the Arno River to regroup, the Allied armies had renewed their offensive on 26 August and by 21 September had breached the vaunted Gothic Line.
+
+			However, the new offensive in Italy did not proceed with the vigor that had characterized the spring and summer fighting. The rapid pursuit of a fleeing enemy which had featured DIADEM came to an end as extended supply lines, demolitions, and stiffening German resistance slowed the movement of Allied troops. After pushing across the Arno and breaking through the Gothic defenses the Italian campaign bogged down. It became, during the winter of 1944-45, an unpleasant replica of the previous winter's experience as the open country of central Italy, suitable to a war of movement, gave way to the mountainous country of the northern Apennines. Furthermore, the dramatic rush of the Seventh Army up the Rhone Valley had been made at the expense of the Italian campaign, both in ground and in air resources. France, long since chosen as the decisive combat area in Europe, henceforth would be of such overriding importance that the battle in Italy would have to get along on whatever remained after the requirements in France were met.1
+
+			Indeed, movement of the entire Twelfth Air Force into France was repeatedly under discussion from midsummer to the close of 1944. It 
+
+			--439--
+
+			had been planned at the end of July that after DRAGOON was well along the Twelfth would follow Seventh Army into southern France, where eventually it would pass to the control of SHAEF,2 and until the last week of August planning went forward on that basis.3 At that time the British expressed grave concern over the proposed move, insisting at a supreme Allied commander's meeting on 20 August that such a move would not leave adequate air resources, especially in the category of medium bombers, in the Mediterranean. It was also pointed out that there was no authority from the Combined Chiefs of Staff to turn the Twelfth Air Force over to SHAEF. General Eaker, feeling that no decisive action could be expected in the Mediterranean and fearing that the air and ground troops would stagnate if the Italian front became static, advised Arnold on the following day to support in the CCS the plan to move the Twelfth out of Italy and recommended that the Fifth Army be moved to France to reinforce General Devers' 6th Army Group.4
+
+			By the end of August, however, the ground situation in Italy had taken a hopeful turn. Eighth Army's offensive on the Adriatic flank, which began on 26 August, initially met such success that the prospect of breaching the German defenses during the next phase of the operation, when Fifth Army would launch a drive toward Bologna, looked good.5 Thus, Fifth Army, on the basis of its current commitments alone, would be required in the Mediterranean at least for the next several weeks. Accordingly, late in August, Generals Wilson, Eaker, and Spaatz, meeting in the Mediterranean to discuss the allocation of air forces between southern France and Italy, agreed that so long as U.S. ground forces remained in Italy the bulk of the Twelfth Air Force should also remain but that a few of its air units, already operating in France as XII TAC, would stay with 6th Army Group. Settlement of the ultimate disposal of the Twelfth should be postponed until the outcome of the current offensive was known.6 The decision of course actually belonged to Eisenhower, who was advised on 6 September by General Marshall that he should not hesitate to draw on the Mediterranean for such additional air resources as he felt were needed.7 Eisenhower agreed that for the moment neither ground nor air elements should be moved from Italy, but he recommended that the Twelfth be moved to France as soon as practicable. As an interim measure, the Ninth Air Force should assume operational control of Headquarters XII TAC together with one of its fighter-bomber groups, one tactical
+
+			--440--
+
+			reconnaissance squadron, and corresponding service units, which, when reinforced by units from ETO, would serve as the air arm for 6th Army Group.7 All other units of XII TAC and XII Air Force Service Command currently in France would remain with the Twelfth and would be returned to Italy as soon as the Ninth was in position to assume full responsibility for air support of the armies in southern France. According to Eisenhower's recommendation, the Ninth would assume operational control of XII TAC on 15 September, the date on which operational control of DRAGOON forces would pass from AFHQ to SHAEF.8 The Combined Chiefs of Staff immediately gave their approval to these proposals.9
+
+			As the Combined Chiefs assembled with their respective heads of state at the OCTAGON conference in the second week of September, the British chiefs renewed their advocacy of a continuing offensive through northeastern Italy and into the Balkans. U.S. chiefs, influenced by the favorable situation in Italy, agreed to postpone for the time being any further major withdrawal of their forces, but they continued to oppose pursuing the campaign into northeastern Italy and on into the Balkans, where they felt no decisive action could take place. Instead, they recommended that as much of Fifth Army as could be profitably employed in the attack against Germany be transferred to France as soon as the outcome of the current battle in Italy was certain.10 The Combined Chiefs agreed finally that no further major withdrawals would be made from the Mediterranean until the outcome of the current offensive was known, after which the redeployment of the American Fifth Army and Twelfth Air Force would be reconsidered. In these August and September discussions regarding the redeployment of American forces in Italy, the US. Fifteenth Air Force had come in for very little consideration, it being generally agreed that at least for the moment the Fifteenth could best perform its strategic mission from its bases in the Foggia area.11
+
+			Later in the fall of 1944, as the Italian offensive lost its momentum, American leaders again pressed for the move of the Twelfth Air Force. In December they even suggested the advisability of moving the Fifteenth Air Force to France for a concentrated knockout blow against Germany.12 But, because of the difficulty of supporting additional units in France and the lack of suitable airfields there, the continuing close support requirement for Fifth Army in Italy, and the proximity of the Fifteenth's Foggia bases to German industrial targets, both the Twelfth 
+
+			--441--
+
+			and Fifteenth Air Forces were destined to remain in Italy until the final victory. Not until February 1945 did the CCS finally decide to reduce the Italian campaign to a holding effort and to transfer the bulk of Mediterranean resources to France.13 Because of the swift denouement of the war, the move was never completed. Instead, in April 1945, 15th Army Group (formerly Allied Armies in Italy) and MAAF once again combined their resources in a shattering offensive which culminated in the complete defeat of the Germans in Italy.
+
+			Breaking the Gothic Line 
+
+			Air power was a vital factor in bringing about the final defeat. In fact, during the closing months of the war it was by far the most potent Allied weapon in the Mediterranean.* From late August through late October 1944, when it seemed that Kesselring had no alternative but to retire across the Po, the air forces operated under a double-edged strategy: they created a series of blocks in the enemy's escape routes by knocking out bridges and other elements on his rail and road lines, and then combined their efforts with those of the ground forces in an attempt to drive the enemy back against these blocks where he could be annihilated.
+
+			The Po River constituted the first and most dangerous trap for the enemy should he be forced to withdraw from his mountain defenses. The MALLORY MAJOR operation of July   had proved that the permanent crossings over that river could be interdicted, and although their earlier destruction had been designed to separate the enemy from his major supply dumps, their continued destruction could now serve to hamper him in any attempt to withdraw. Consequently, the main striking power of MATAF, as it shifted back to Italy from southern France late in August, was devoted to two primary tasks: close support of the armies and interdiction of the Po.14
+
+			During the early stages of the ground-air offensive, from 26 August through 8 September, Desert Air Force handled the close support commitment. When XII TAC had been withdrawn from Italy in July for the approaching invasion of southern France, DAF had been given the responsibility for air action on both Eighth and Fifth Army fronts; 
+
+			* The ground forces, short on manpower and ammunition, were not able to generate an offensive until April 1945, while the Navy's functions were "largely auxiliar to the other two forces." (Report by Field-Marshal The Viscount Alexander of Anis on the Italian Campaign, 12th December 1944-2d May 1945, draft, p. 6.) 
+
+			 See above, pp. 403-5.
+
+			--442--
+
+			then, on 10 August, coincident with the opening of the pre-assault phase of DRAGOON, it also had assumed responsibility for communications targets in the area bounded by the Genoa-Pavia railway on the west and the Po River on the north (both inclusive) and the east coast.15 During a period of relative quiet on the Italian front (4-25 August) and while MATAF's other elements were busily engaged with the invasion of southern France, DAF had worked largely to soften the Gothic Line defenses and disrupt enemy lines of communication immediately beyond the front lines.16 When Eighth Army began its assault against the left flank of Kesselring's forces on 26 August almost the entire effort of DAF was concentrated in direct support of the advance. On the opening day DAF flew approxiniately 664 sorties, the majority of which were flown against defenses guarding Pesaro, the eastern terminus of the Gothic Line.17 Day and night operations set the pattern for DAF's day-to-day close support operations as Eighth Army closed in on Pesaro (which was entered on the 31st) and penetrated the Gothic Line. While Kittyhawks, Mustangs, and Spitfires maintained pressure against tanks, troops, and guns, Marauders and Baltimores attacked fortifications between Pesaro and Rimini and marshalling yards at Cesena, Budrio, and Rimini. By night Bostons and Baltimores attacked communications in the Rimini, Ravenna, Forli, Prato, and Bologna areas as well as defenses south of Rimini while night fighters flew defensive and battle-area patrols. On three consecutive nights, 26/27, 27/28, 28/29 August, Wellingtons and Liberators from SAF's 205 Group pounded enemy troop and equipment concentrations in support of Eighth Army's attacks on Pesaro.18
+
+			Meantime, MATAF's two bombardment wings and those units of XII TAC which were still based in Corsica had returned to Italian targets. By 21August, XII TAC had begun to divide its effort between southern France and Italy, and by the last week of the month the campaign in southern France had passed beyond the range of its Corsicabased planes; then the 57th and 86th Fighter Groups, the 47th Bombardment Group, and the FAF 4th Fighter Group (until the latter two were moved to France early in September) turned to Italy altogether.19 As for the mediums, it was obvious by the last week of August that their attacks on bridges in the upper Rhone Valley were hampering Seventh Army's advance more than they were hindering the German retreat,20 so after 28 August the mediums, too, returned to Italian targets. In addition, by late August the 350th Fighter Group had been 
+
+			--443--
+
+				12th AF Organization Chart
+
+			re-equipped with P-47 type aircraft (from P-39's) and had turned from its defensive coastal role to offensive operations in Italy.21
+
+			Owing to the necessity for concealing the main point of Fifth Army's attack, which was to be launched as soon as Kesselring had weakened his center to contain Eighth Army's threat to his left flank,22 the medium bombers and the Corsica-based fighter-bombers, plus those of the 350th Group, concentrated until 9 September, when Fifth Army jumped off, on communications targets. The mediums struck in force at the Po River crossings with the dual purpose of nullifying the German repair efforts on permanent bridges knocked out during MALLORY MAJOR and of extending the interdiction of the Po westward. After 112 B-25's cut rail and road bridges at Casale Monferrato, Chivasso, and Torreberetti on the 3d and 99 B-24's destroyed the rail bridge at Ponto Logescuro just north of Ferrara (the bridge was too heavily defended for Tactical's low-flying aircraft) on the 5th, all crossings over the Po from Turin to the Adriatic were blocked. To strengthen interdiction at the Po, mediums struck at numerous other communications targets north and south of the river. In an effort to isolate the rich industrial area of northwest Italy, with its several enemy divisions, the bombers blocked traffic on the Milan-Turin line by destroying all five rail bridges over the Ticino River between Lake Maggiore and the Po and maintained a block on the Milan-Verona line at Peschiera bridge. Fighter-bombers, meanwhile, concentrated on roads and rail lines leading to the Gothic Line; at the same time they supplemented the medium bomber's interdiction by keeping lateral rail lines north and south of the Po cratered.23
+
+			When Fifth Army opened its assault on 9 September, the mediums shifted their attacks on communications from the Po to railroads leading directly into Bologna with the object of isolating the battle area. On the 9th and 10th, B-26's created cuts on the four lines leading from Bologna to Piacenza, Rimini, Ferrara, and Verona.24 But the bulk of both the fighter-bomber and the medium bomber effort was devoted to blasting a path through the Gothic Line for Fifth Army. Beginning on the 9th and continuing until a spell of bad weather began to restrict operations on the 20th, fighters flew approximately 240 sorties daily against bivouac areas, command posts, troop assembly areas, and supply depots in La Futa and Il Giogo passes, the focal points of Fifth Army's assault.25 During the same period, medium bombers devoted the major portion of their daily effort to the two army fronts. This included 337 
+
+			--445--
+
+			sorties flown on the 9th and 11th in Operation SESAME,26 designed to neutralize selected enemy barracks, supplies, and gun positions which guarded both the Futa and Giogo passes. By the 12th, Fifth Army had overrun the SESAME targets,27 and 113 B-26's and 33 B-25's bombed Firenzuola, the supply and communications center for enemy troops in the Giogo area, with devastating effect. Fifth Army's penetration then removed Firenzuola as a target,28 and for the next two days Marauders and Mitchells shifted their efforts to defenses north of the passes:29 169 mediums bombed in the Futa Pass area on the 13th while on the following day the entire effort of the 42d Wing, consisting of 204 sorties, was devoted to enemy defenses on Mount Oggiolo and Mount Beni, both north of the Giogo Pass. Weather brought the operations of the mediums to a halt on the 15th; and although on the 16th, 132 B-25's divided 237 tons of 500-pound and 100-pound phosphorus bombs between Bologna M/T repair and supply depots, Budrio storage depots, and Casalecchio fuel dump -- multiplying enemy supply problems on both army fronts -- the bulk of medium bomber close support operations had already passed to the Eighth Army front.30
+
+			The offensive on the Allied right flank, which had begun so auspiciously on 26 August, soon was slowed down along the last mountain ridges guarding the approach to Rimini by determined enemy resistance and early September rains. By 6 September enemy troops holding the Coriano ridge had succeeded in stabilizing the line; moreover, in the first two weeks of September, Kesselring continued to concentrate troops opposite Eighth Army until some ten divisions had been grouped in the Rimini area. German defenders held firm until the Eighth launched an all-out assault on the night of 12/13 September, which, by overrunning Gemmano, San Savino, and Coriano -- all key points on the ridge -- forced the enemy to fall back toward Rimini. Although Eighth Army was now overlooking that city, a week of steady fighting, accompanied by sustained efforts by DAF and TAF's two medium bombardment wings, remained before the city was taken. At its strongest in mid-September, the formidable concentration blocking the advance of Eighth Army gradually weakened as Fifth Army's threat to Bologna became increasingly serious. Nevertheless, by temporarily stabilizing the line south of Rimini the enemy won an important strategic victory by denying Eighth Army entry into the Po Valley until fall rains prevented full exploitation of the breakthrough.31
+
+			During the period of hard fighting for Rimini, DAF's operations 
+
+			--446--
+
+			were raised to new levels for sustained effort. They reached their peak on the 13th when aircraft flew more than 900 sorties and dropped in excess of 500 tons of bombs. The more than 800 sorties flown on the 14th paid particular attention to enemy movements which were increasingly noticeable. After a day of reduced effort on the 15th, DAF's operations rose to more than 700 sorties daily for the next three days, the majority of them devoted to Army demands. For example, on 17 September, Eighth Army troops had pushed forward to a heavily defended ridge, known as the Fortunate Feature, which had to be stormed before Rimini could be invested; accordingly, from first light to 0745 hours on the 18th, DAF Kittyhawks and Spitbombers kept up ceaseless bombing and strafing attacks on guns, mortars, and strongpoints along the ridge in order to soften the opposition to the ground assault which followed. Close support missions, characterized by effective use of Rover Joe, were maintained throughout the day.32
+
+			On the 14th medium bombers threw their weight into the battle for Rimini. The rapid overrunning of Pesaro in the first week of the offensive had obviated the necessity for a medium bomber operation, planned since 25 August under the code name CRUMPET, against defenses and troop concentrations there.33 After this operation had been called off, stiffening enemy resistance before Rimini presented an opportunity for adapting the plan to a new locality. In fact, medium bomber reinforcement of the DAF effort against the Rimini defenses had been requested and planned under the code name CRUMPET II since 5 September,34 but owing to a period of unfavorable flying weather between 5 and 8 September and the heavy effort allocated to Fifth Army between 9 and 13 September, the operation was postponed until the 14th. Plans called for both wings of mediums to attack enemy troops, defenses, and gun positions on the hill feature three miles west of Rimini,35 but as it was necessary for the 42d Wing to continue the pressure on the Futa Pass area, only the 57th Wing carried out CRUMPET II. In three missions its planes flew 122 sorties and dropped 10,895 x 20-pound frag bombs and 215 demolition bombs, totaling 163 tons, covering approximately 60 per cent of the target area. On the same day DAF Marauders and Baltimores flew eighty-four sorties against gun areas and defended positions outside Rimini.36
+
+			On the 15th weather grounded all mediums and limited DAF to some 500 sorties, but on the 16th and continuing for three days, DAF and the medium bombers laid on a heavy aerial assault. With
+
+			--447--
+
+			CRUMPET II targets already occupied by the 16th, this medium bomber effort was applied to the area immediately north of the battle area, particularly along the banks of the Allarecchio River. Marauders and Baltimores of DAF added their weight to the attacks on each day. Although bad weather on the 19th brought to a halt operations by the two bombardment wings, DAF Spitfires and light and medium bombers continued to attack in the Rimini area. On the 20th the weather completely deteriorated, bringing air operations to a virtual standstill for the next several days.37 On the 21st the stubborn defense of Rimini was broken as elements of Eighth Army occupied the town. Gen. Sir Oliver Leese, commanding Eighth Army, expressed appreciation for the part played by the air forces in the assault, particularly their bombing of gun positions on the 16th and 17th, to which he attributed the negligible shelling received by Eighth Army in its attack on the 18th.38
+
+			The capture of Rimini coincided with Fifth Army's successful breaching of the Gothic Line at Giogo and Futa passes. As Fifth Army moved through the breach to the Santerno Valley the stage was set for the next phase of the second winter campaign: the assault on Bologna by Fifth Army and exploitation of the breakthrough into the Po Valley north of Rimini by Eighth Army.
+
+			At this juncture it was felt in Italy, as it was at SHAEF, that the end of the war was near. Early in September, General Wilson had expressed the hope that the combined offensive by Fifth and Eighth Armies would result in reaching the line Padua-Verona-Brescia within a few weeks, thus securing the destruction of Kesselring's armies and preventing their withdrawal through the Alpine passes.39 This seemed a distinct possibility as Fifth Army continued to push toward Bologna and Eighth Army fanned out toward Ferrara, the immediate objectives of the current offensive. AFHQ Weekly Intelligence Summary optimistically reported on 25 September:40 "There can now no longer be any question of the enemy's reestablishing himself on the line of the Apennines . . . tenacious as he is, Kesselring must now be exploring the prospects of conducting an orderly withdrawal." But Kesselring proved the optimists wrong. Taking every advantage of terrain and favored beyond measure by torrential early fall rains, he stabilized his line and forced the Italian battle into an extra round of seven months.
+
+			Until near the end of October, however, there was still hope that a breakthrough might be achieved. Consequently, interdiction of the Po, the first barrier to enemy movement, remained as MATAF's primary 
+
+			--448--
+
+			communications objective,41 and after the period of intensive effort on the Army fronts, 9-18 September, medium bombers returned to the Po River crossings and to communications targets in northwestern Italy. The few attacks leveled at Po River bridges during the last ten days of September were designed to inflict fresh damage on crossings already cut and to counteract the German repair effort. A notable operation was that of B-26's on the 26th when they completely destroyed a new bridge at Ostiglia after it had been in operation for not more than three days. At month's end, all except one or two road and rail bridges beriveen Turin and the Adriatic were cut.42 The success of these September attacks, coupled with the apparent German inability to keep pace with the destruction at the Po, permitted a considerable decline in medium bomber effort at this line during October. Five missions of 113 sorties were sufficient to maintain the interdiction of the permanent crossings until late in the month when the rail bridge at Casale Monferrato was restored to use. The mediums also kept the lateral lines north of the Po blocked at the line of the Ticino River and other points until the latter half of October when weather brought their operations almost to a full stop, allowing the Germans to repair some of the damage.43
+
+			In the meantime, both Eighth and Fifth Armies had continued to inch forward, the former supported -- as always -- by Desert Air Force and the latter by XII Fighter Command, formerly the AAF element of Mediterranean Allied Coastal Air Force. Owing to the recent and extensive ground advances in Italy and southern France and the disappearance of German air and sea threats in the Mediterranean, MACAF, charged since February 1943 principally with a defensive role, had lost much of its one-time importance.44 MAAF, therefore, to absorb the loss of XII TAC and to provide a working partner for Fifth Army, withdrew XII Fighter Command from Coastal and reconstituted it on 20 September as a tactical air command under Brig. Gen. Benjamin W. Chidlaw. By mid-September. Fighter Command's 350th Group and three night fighter squadrons had been strengthened by the assignment of XII TAC units reinaining in Corsica: 57th and 86th Fighter Groups and 47th Bombardment Group (L), though the latter's air echelon was in France.45
+
+			Fighter Command was later augmented by units of XII TAC no longer required in France, although the return of these units was delayed until after the CCS on 16 September approved the split of the 
+
+			--449--
+
+			Twelfth between Italy and France. Representatives from ETO and MTO then met in a series of conferences to work out the details of the division of units already in France.46 The choice of combat units to remain with XII TAC was readily made, but the question of service units was complicated by the fast-moving campaign in France which had multiplied the problems of service, as well as of airfield construction, and had led naturally to higher demands on the Mediterranean for service and engineer units than had originally been anticipated. Too, the impending return to Italy of Twelfth Air Force units from France and Corsica limited the number of service units which leaders in the Mediterranean felt could be spared. Consequently, it was not until 27-28 September, at a conference at Caserta, that final agreements were reached regarding the division of air units between France and Italy.47 By the terms of this agreement, Headquarters XII TAC, together with 64th Fighter Wing, the 324th Fighter Group, the 111th Tactical Reconnaissance Squadron, and fourteen supporting units were to remain in France; all other Twelfth Air Force elements were to return to Italy, the combat units by the 10th of October and the service units by the 15th. Consequently, early in October units began returning from France, and XII Fighter Command's operational strength was swelled by the addition of the 27th and 79th Fighter Groups. On 19 October the command, now composed of twenty-five squadrons, was officially redesignated XXII TAC* and, fully established in Italy, assumed the character it was to keep for the next several months.48 Meanwhile, early in September, Fighter Command had begun to change from its old defensive function to its new offensive role, although not until it was reconstituted a tactical air command on 20 September did it officially assume responsibility for close-support operations on the Fifth Army front. DAF retained its responsibility for this function on the Eighth Army front.49 This arrangement provided more intensive air efforts on both fronts. Yet the two air commands were mutually supporting when the situation required and when resources permitted, and in this regard, because there was a shortage of night intruder aircraft (always a serious problem in the Mediterranean) 
+
+			* XXII TAC had lost the 79th Group with its three squadrons to Desert Air Force and the 417th Night Fighter Squadron to Headquarters Twelfth Air Force, but compensating for these losses, and giving the command an international flavor, RAF 225 and 208 Tactical Reconnaissance Squadrons, 324 Wing with its four squadrons of Spitfires, and the Brazilian 1st Fighter Squadron had been placed under the operational control of the command early in October. Thereafter, the only significant change that occurred in the new TAC until February 1945 was the replacement of 324 Wing with SAAF 8 Wing in November, the RAF element reverting to DAF. 
+
+			--450--
+
+			pending the return of the 47th Bombardment Group from France, DAF's 232 Wing operated over both armies. Although close support was the primary mission of Fighter Command and DAF, both were ordered to employ "the maximum force possible against communication targets compatible with the effort required for close support."50 The communications for which the fighter-bombers had primary responsibility lay between the Po and the battle area from the Adriatic coast to Piacenza. The dividing line between Fighter Command and DAF was generally the inter-army boundary. Second priority was assigned the area north of the Po as far as Verona; here the boundary ran south from Verona along the Adige River to Legnano, thence due south to the Po River.51 Actually, the dividing lines were not strictly enforced and by mutual consent each of the commands often operated in the other's area of responsibility.
+
+			On 20 September only the six squadrons of the 57th and 350th Fighter Groups and one night fighter squadron were in Italy. The remainder of Fighter Command's new strength was either in process of moving from Corsica or was in France awaiting replacements from the Ninth Air Force.52 Nevertheless, the build-up of the command's combat strength,* together with a break in the weather during the last six days of the month, allowed its planes to fly 457 missions, totaling 1,904 sorties, in the first ten days of its operation as a tactical air command.53 These missions were devoted largely to support of Fifth Army as it pushed from the Futa Pass northward toward Bologna and northeastward toward Imola. In addition to attacks on troop concentrations, strongpoints, and storage depots, with particular emphasis on enemy positions along Highway 65 south of Bologna, fighter-bombers hit enemy communications in the Po Valley from the bomb safety line as far north as Lake Maggiore; especially hard hit were enemy rail and road communications from Bologna northward through Reggio and Piacenza. Furthermore, as the Germans made increased use of ferries and pontoon bridges over the Po at night to counteract the medium bomber bridge-busting program, fighter-bombers attacked reserve pontoons stored along the banks and potential bridge sites. But the German's clever use of camouflage made it difficult to locate the latter targets and the attacks were not particularly effective.54
+
+			* Consisting of the 350th, 57th, and 86th Fighter Groups, 414th and 416th Night Fighter Squadrons, and the 47th Bombardment Group, reinforced by DAF's 7 SAAF Wing by month's end. The latter unit remained under Fighter Command's operational control only until 4 October.
+
+			--451--
+
+			DAF, likewise, was brought to a virtual standstill on five out of the last ten days of September by the unfavorable weather. Nevertheless, on the five operational days, it put in some telling blows for Eighth Army, which was driving along the narrow corridor between the mountains and the Adriatic. The fall of Rimini on 21 September widened the scope of DAF's operations, for after that date specific strongpoints, guns, and concentrations became fewer and the advancing ground troops had less need for saturation bombing and strafing of specified points. DAF, therefore, raised its sights to communications targets immediately beyond the front lines in operations intended to hinder enemy movements, regrouping, and bringing up of supplies. Its principal bridge-busting activities took place along the Savio River. In addition, fighter-bombers cut railway tracks with particular emphasis on those in the triangle Ferrara-Bologna-Ravenna, while light and medium bombers attacked marshalling yards on the Bologna-Faenza-Cesena route.55
+
+			During October the operations of all of MATAF's elements were severely restricted by the weather, which steadily worsened. Despite the restricting weather, aircraft from both DAF and XII Fighter Command (XXII TAC after 19 October) were airborne on every day of the month except one, although on seven days operations were held to less than 100 sorties a day. For the month DAF flew something over 7,000 sorties and XXII TAC about 5,000.56 Although the bulk of these operations was devoted to the Eighth and Fifth Army fronts, some effort was applied to communications. In fact, DAF's attacks on communications continued to be closely identified with Eighth Army's advance as bridges across the Savio River, the enemy's next line of defense, absorbed a portion of the air effort on every operational day until 15 October when all of the bridges across that river, save one spared at Army request, were down; primary rail-cutting operations continued to take place south of the Po River along lines leading into the battle area, particularly those from Ferrara.57 XXII TAC concentrated its communications attacks, which became more numerous after the middle of the month, in the Cremona-Mantova area and on rails and roads radiating north, east, and west from Bologna, with particular emphasis on the Bologna-Faenza rail line; roads were cratered most extensively between Ferrara and Parma. Farther to the west, its fighter-bombers cut rail lines in the Milan and Genoa areas. Late in the month, as fighting died down on the Fifth Army front, XXII TAC penetrated 
+
+			--452--
+
+			the lower part of the Venetian plain where it hit rolling stock in the marshalling yards of Verona and Padua and cratered tracks on the lateral Verona-Brescia line. A considerable effort continued to he applied to the Piacenza-Bologna line south of the Po.58
+
+			The primary commitment of both conmmands, however, was assistance to the land battle. DAF devoted the largest share of its effort for the month to Eighth Army's advance, paying particular attention to troop and supply concentrations near the battle area; favorite targets were Cesena, until it was captured, and then Fork the Army's next objective. In addition, on the first four days of the month, its Kittyhawks and Mustangs and one Spitbomber wing flew most of their sorties over XXTI TAC's area on behalf of Fifth Army's thrust toward Bologna.59
+
+			During the first half of October, XXII TAC had been busily engaged on the Fifth Army front. General Chidlaw had brought from XII TAC to his new command a thorough knowledge of the working arrangement that had existed between General Clark, Fifth Army commander, and General Saville of XII TAC, and he organized the new TAC to conform in principle to the old pattern. The same mutual respect that had existed between Clark and Saville soon existed between Clark and Chidlaw; air-ground relations were excellent, and close support operations on the Fifth kmmy front improved.60 Nevertheless, and in spite of the fact that almost the entire effort of XXII TAC during the first eleven days of October was given over to support of Fifth Army's offensive, the adamant German defense held. And by holding, the Germans threatened to wreck the Allied strategy, which hinged on Fifth Army's breaking through the center of Kesselring's line and fanning out north of Bologna to form the left prong of the pincers which would catch the German armies in Italy. Eighth Army was already along the line of the Savio River and was slowly pushing toward Ravenna and Faenza, but Fifth Ammy, stopped some twelve miles south of Bologna by increasing German strength as Kesselring swung divisions away from the Adriatic flank to stem the threat to his center, was far from the breakthrough which was necessary to complete the strategic plan. Consequently, in mid-October, in far from favorable flying weather, MATAF and MASAF combined their resources in a new assault, given the name PANCAKE, which had as its object the destruction of enemy supplies and equipment in the Bologna area, the annihilation of enemy forces concentrated on the approaches to the 
+
+			--453--
+
+			city, and the limited isolation of the battle area. The 42d Wing's B-26's, taking advantage of a break in the weather on the 11th, divided 1,000 pound and 500-pound demolition bombs among three road bridges and an ammunition factory. The peak of the operations came on the 12th, when 177 B-25's (out of 213 dispatched) dropped 1,011 x 500-pound bombs on four targets, including two supply concentrations, a barracks area, and a fuel dump, while 698 heavy bombers (out of 826) divided 1,271 tons of 20-pound fragmentation and 100-pound, 250-pound, and 500-pound bombs among ten assigned targets; unfortunately, only 16 out of 142 B-26's airborne were effective, most of the remaining 126 being unable to locate specified targets because of cloud cover.61 During the three-day period XXII TAC flew some 880 sorties, concentrating on strongpoints, guns, troop concentrations, and occupied buildings in the battle area. Fighter-bombers also flew area patrols for the medium bombers but no enemy air opposition was encountered.62 A Fifth Army G-2 summary described the air support provided on 12 October as eminently successful.63 Assigned targets had been attacked in a timely, accurate, and most effective manner, thus aiding materially the advance of Fifth Army to take important positions. In addition, the air assault was credited with raising the morale of Allied soldiers and, conversely, with a demoralizing effect on the German defenders.
+
+			Unfortunately, Fifth Army, in its weakened condition and in the face of the bad weather, was not able to exploit fully the advantage gained by the air assault. U.S. II Corps made some progress; by 14 October it had occupied the southern half of the town of Livergnano on Highway 65. Nevertheless, the combined assault failed to take Bologna, although Fifth Army continued until the 26th a desperate attempt to break through the stubborn German defenses. From 14 through 20 October, when weather brought air operations to a virtual standstill, XXII TAC's aircraft flew more than 300 sorties a day in support of the assault.64 By 26 October the weariness of the troops -- they had been fighting steadily for six weeks -- the shortage of replacements in the theater, the strength of the enemy, the status of available ammunition stocks, and the weather had combined to stop Fifth Army cold and there was no alternative but for it to pass temporarily to the defensive and make preparations for resuming its offensive in December.65
+
+			The weather was so bad during the last few days of the drive that it not only brought air operations virtually to a standstill but even blotted out artillery targets. Medium bombers, in fact, were grounded on all 
+
+			--454--
+
+			but three days in the period 14 October-4 November, while XXIf TAC's effort from 21 October until early in the next month was reduced to less than 100 sorties a day, save on the 25th.66
+
+			With the collapse of the offensive south of Bologna little hope remained of securing in the immediate future "the destruction of Kesselring's army by preventing its withdrawal through the Alpine passes." Even if the present line should be broken, the weather, which was swelling the rivers of the Venetian plain and making the mountainous country of northern Italy well-nigh impregnable,67 militated against a successful campaign during the winter.* This, however, left unchanged the mission of the Allied forces in the Mediterranean, which was to contain or destroy enemy troops.68
+
+			Revision of the Interdiction Campaign 
+
+			Throughout November, while Fifth Army was making preparations to resume its offensive in December, Eighth Army continued to maintain pressure against the Gernians and to make some progress. DAF, assisted on occasion by MATAF's two medium bombardment wings, supported these operations. Forli fell on the 9th, after DAF had devoted approxiniately 800 sorties to defenses in the area on the 7th and 8th, and 92 B-26's had bombed buildings, Nebelwerfer positions, and troop concentrations northeast of the town on the 7th.69 Eighth Army's next objective along Highway 9 was Faenza, but before it could be taken it was necessary to establish a bridgehead over the Cosina River and then to exploit to the Lamone River. DAF, in addition to supporting the drive up to the Cosina, attacked roads and rails leading to the front lines. As a supplement to DAF's effort to isolate the battle area, 
+
+			* In view of the obvious difficultics of conducting a winter campaign in northern Italy, General Wilson, late in October, proposed that plans be made to take advantage of the favorable situation developing in the Balkans. It seemed that the Russian advances on the southeastern front would force the Germans to evacuate Yugoslavia, thus opening the Dalmatian ports to the Allies and giving them relatively easy access to Trieste and Fiume. He suggested therefore that the Italian campaign be halted as soon as his armies reached the Ravenna-Bologna-Spezia line; six divisions would then be withdrawn from the Italian battle, and in February 1945 be sent across the Adriatic and up the Dalmatian coast toward Fiuine and Trieste as the right prong of a pincer movement (the left prong would be the forces remaining in Italy) which would trap Kesselring in Italy. The Soviet's Balkan offensive, however, swung from west to northwest late in October and the consequent German strength massed in northern Yugoslavia was far more formidable than Wilson had anticipated; furthermore, the decision that SHAEF would give the Germans no winter respite in France barred any relaxation of pressure in Italy. Consequently, late in November, Wilson cabled the CCS that his October proposal was no longer feasible.
+
+			--455--
+
+			the 57th Wing's 340th Group flew 114 effective B-25 sorties on 16, 17, and 19 November against bridges across the Lamone River at Faenza.70 Beginning on 21 November and continuing through the 24th, B-25's turned their attention to three areas farther to the east in an effort to neutralize guns which could be brought to bear on 5 Corps troops crossing the Cosina River (Operation HARRY);71 on three days, 21, 22, and 24 November (weather rendered an attempt on the 23d completely abortive), B-25's flew 262 effective sorties in the three target areas. During the four-day period, DAF devoted some 1,200 sorties to battle-area targets.72
+
+			Attempts to cross the Cosina on the 21st and 22d were repulsed, but on the night of the 22d, following the two days of devastating fragmentation bombing by the mediums and bombing and strafing attacks by DAF's aircraft, Eighth Army established a bridgehead across the river and stopped the expected German counterattack. Following this all-out effort, the weather closed in, bringing air operations on Eighth Army front virtually to a stop until the end of November. Even so, by the end of the month the British army had reached the line of the Lamone River.73
+
+			In the meantime, the failure of Fifth Army to take Bologna at the end of October, coupled with a variety of other factors, had resulted in a revision of the air forces' strategy of interdiction. As already noted, throughout September and October, in anticipation of a German withdrawal, interdiction efforts had been concentrated on the Po River crossings, where the destruction would impede the retreat of the greatest number of German divisions.74 But that was not enough, for the optimistic view that Kesselring would have no alternative but to retire across the Po and attempt to re-establish a line at the Adige River or at the foothills of the Alps dictated that interdiction of the Po be reinforced by blocking the enemy's escape route farther to the north. This could be accomplished, first, by having MASAF interdict the Brenner, Tarvisio, Piedicolle, and Postumia rail routes (the only frontier lines available to the Germans, save those through Switzerland, after the rapid advance in southern France had closed the Franco-Italian routes) which passed through the mountainous country north of the Venetian plain and connected Italy with Austria and Yugoslavia, and, second, by having MATAF destroy the bridges which carried the complex rail network of the Venetian plain over the Brenta, Piave, Livenza, and Tagliamento rivers.75 All of these lines lay north of the Po.
+
+			--456--
+
+									DIRECT HIT ON HIGHWAY BRIDGE IN ITALY 
+
+									CATHEDRAL AND BRIDGE: ROUEN 
+
+									B-25 HITS BRIDGE AT BRIXLEGG
+
+									B-25 HITS BRIDGE AT BRIXLEGG 
+
+				Principal Rail Lines Northern Italy
+
+			Orders to add these more northerly lines of communication to other commitments had gone out to Strategic and Tactical late in August,76 and for the next two months MAAF's bombers paid some attention to the lines. Between 26 August and 4 September MASAF created one or more blocks on each of the four main frontier routes, and between 29 August and 1 September, MATAF's medium bombers inflicted varying degrees of damage on the principal rail bridges over both the Piave and Brenta rivers. As a result, all through traffic in northeastern Italy was blocked at the Piave for perhaps as long as two weeks.77 Owing to the commitments of the heavies in the Balkans and of the mediums at the Po, no further pressure was applied to the northern routes for the next three weeks. But in view of the favorable ground situation after 21 September, MATAF, in addition to maintaining interdiction of the Po, sent its medium bombers back to the Brenta and Piave crossings on the 22d, 23d, 26th, and 30th (the only operational days for medium bombers in the period 20-30 September).78 In addition, in view of the enemy's strenuous repair efforts, MASAF, on the 23d, dispatched 350 B-24's to the four main lines. Weather interfered with the attacks and no effective results were achieved at the primary targets; however, the heavies materially aided Tactical's campaign against the Piave River crossings by the destruction of the Ponte di Piave and S. Don&agrave; di Piave, which were hit as alternate targets.79
+
+			By the end of September, as a result of the medium bombers' successful attacks at the Piave and Brenta, there was a growing feeling that MATAF could take over the job of interrupting the northeastern routes, leaving Strategic free to concentrate on the more difficult Brenner route. Consequently, on 1 October, MASAF, on MATAF's recommendation, was relieved of all responsibility for Italian communications except for interdiction of the Brenner.80 Although attacks by Strategic on the other routes would be welcomed, Tactical was given continuing responsibility for interdicting traffic from the northeast at the Piave and Brenta.
+
+			Despite bad weather in October, B-26's during the month flew twelve missions of 187 sorties against crossings over the two rivers. These blows, coupled with heavy bomber attacks on targets on the Venetian plain (hit as alternates) on the 10th and 23d, kept all three of the northeastern routes blocked at the Piave, and sometimes at other points as well, for sixteen days in October.81
+
+			MATAF felt that difficulties of terrain and heavy flak defenses at 
+
+			--458--
+
+			the vital bridge targets precluded medium bomber attacks on the northern section of the Brenner. Late in September, however, MATAF had suggested that its mediums could supplement Strategic's primary cuts by postholing the southernmost sections of the rail line above Verona; these same sections could be kept cratered by limited fighter-bomber action. The suggestion was put into effect, but neither Strategic nor Tactical could cope with the bad weather of October which, by obscuring targets or tying down the bombers at their bases, so handicapped operations against the Brenner that it was interdicted only spasmodically. On the 4th, MASAF damaged the Ora bridge and created numerous cuts in the fifty-six miles of railroad between Trento and Mezzaselya. On 3 October, MATAF's mediums made their first efforts against the Brenner. Between that date and the 20th, B-26's flew five missions of eighty effective sorties to the Ossenigo and Dulce rail fills on the southern, bridgeless extremity of the line; each mission cratered tracks and effected temporary blocks.82
+
+			Weather rendered abortive attempts by SAF to bomb the Brenner on the 10th and 20th. But later in the month, in view of the enemy's repair effort and the report that two Italian Republican divisions were to be sent over the Brenner from Germany between 20 and 25 October as reinforcements for the Italian front, Strategic again attempted to block the line. Unfortunately weather again proved a hindrance and only 54 of the 111 B-24's completed the mission, inflicting only temporary damage at various points along the line.83
+
+			These September and October interdiction operations in northern Italy had been on a small scale and had been laid on primarily to supplement the heavier effort at the Po. But by the end of October it had become obvious that the anticipated retreat across the Po Valley would not soon materialize. This new situation, with a stalemate developing on the ground, demanded that the air forces revert to their previous policy of interdicting to deny supplies to a stubborn foe. This could now be best accomplished by shifting the main interdiction effort to the Venetian plain and the frontier routes.84
+
+			By late October, although all of the bridges over the Po were down, the Germans by ingenious use of pontoon bridges and ferries at night, and even pipelines, were continuing to meet their immediate supply requirements from depots north of the Po. Indeed, it was all too apparent that Kesselring had won the battle of logistics at the Po. On the other hand, operations against the Brenner and in northeastern Italy 
+
+			--459--
+
+			had been effective enough to cause considerable delays in the shipment of materials from Germany and to create many additional fighter-bomber targets among the accumulations of rolling stock. But even here interdiction was being neutralized; the rate of repair on the Brenner was quickening, and after almost two months of interdiction, lines across the Piave were being reopened by restoring bridges and by constructing by-passes.85 furthermore, in September, the Germans (perhaps in anticipation of being forced out of Italy) had greatly accelerated their looting of the Po Valley, and trains moving toward the frontiers over the Brenner and Tarvisio routes became more numerous.86 Obviously then, if the removal of Italian industries were to be stopped, a stricter interdiction of the frontier routes would have to be imposed; likewise, if the enemy forces at the front were to be denied supplies, traffic would have to be halted before it reached the Po. But in the face of a growing German skill in effecting repairs this could be accomplished only by a greater concentration of effort against the four principal rail routes connecting Italy with the Reich.
+
+			These considerations led to the announcement of a new bombing policy on 3 November. The Po River was reduced from first to third priority in the interdiction scheme. In its stead, interdiction of the Brenner was to be maintained on a first-priority basis, followed by interruption of traffic over the northeastern lines at the Piave, Brenta, and Tagliamento rivers, in that order of priority. Although the Po Valley was to remain the principal commitment of fighter-bombers, they were given for the first time a commitment farther north: "When weather prevents medium bomber operations in Italy and it is considered that the Brenner or northeastern rail routes are in danger of being repaired, fighter-bombers will be directed . . . , against vulnerable targets on these routes until such time as renewed medium bomber effort is possible."87
+
+			The new bombing program was inaugurated on 6 November by an all-out attack on the electrical system of the Brenner line.88 The events of October had provided sufficient evidence that long spells of non-operational weather precluded maintaining the bombing schedule necessary to keep the Brenner blocked. Air tacticians, searching for some means of reducing the capacity of the Brenner to an extent that would deny to the enemy full use of the line even in extended periods of bad weather, came up with the idea of forcing him to change from electrical to steam power. With electrical equipment the Brenner route 
+
+			--460--
+
+			had a capacity of twenty-eight to thirty trains a day in each direction, representing up to 24,000 tons that could be transported daily when the line was in full working order. By forcing the Germans to switch to steam locomotion, which is less efficient on the long and steep grades of mountainous country, it was estimated that the capacity of the Brenner would be reduced to from eight to ten trains daily, thereby lowering the daily tonnage transported over the line by some 6,750 tons. Since this figure represented approximately twice the estimated daily tonnage required by the German forces in Italy, it was assumed that, with steam locomotion, it would be necessary for the enemy to keep the Brenner fully open at least 50 per cent of the time in order to maintain his supply levels.89 The targets for air attack would be transformer stations, of which there were fourteen between Verona and the Brenner Pass spaced some twenty miles apart where gradients were less severe and ten miles apart in the steeper sections of the line. Such was the arrangement of the system that not less than three consecutive stations would have to be destroyed in order to make the use of electric power impossible on any one section of the line. MATAF, therefore, ordered its medium and fighter-bombers to execute coordinated attacks on the four transformer stations between Verona and Trento. MASAF was requested to support Operation BINGO, as the plan had been coded, by attacking the stations at Salorno, Ora, and Rolzano, farther to the north.90
+
+			On 4 and 5 November weather conditions were favorable for extensive bomber operations along the lower Brenner line, and mediums cut the section between Trento and Verona at twenty-five to thirty points. Hundreds of units of rolling stock were trapped between these cuts and all rail traffic was completely disorganized on the southern section of the line. The time seemed appropriate for executing BINGO. Consequently, on the morning of 6 November, 102 B-25's, 60 P-47's, and 22 Kittyhawks struck the four MATAF targets. Thunderbolts and Kittyhawks of DAF put the station at Verona out of commission, while B-25's, drawn from all three groups of the 57th Wing, and P-47's of the 57th Fighter Group rendered completely useless the stations at Domegliara, Ala, and Trento. Closely coordinated with these operations were attacks by 103 B-26's on vulnerable rail targets between Verona and Trento, at Ossenigo, Sant' Ambrogio, Dulce, Morco, and Ala; the Marauders created seven blocks on the line.91 The enemy apparently despaired of the task of repairing the shattered transformers 
+
+			--461--
+
+			and never regained the use of electric locomotion on the line from Verona to Trento.92 On the same day, MASAF dispatched twenty-three B-24's, escorted by forty-six P-38's, to the three targets on the northern end of the line, but no permanent damage was inflicted on the transformer stations and the enemy was able to continue to use electric power on that section of the track. On 7 and 12 November, SAF made amends for this failure by carrying out a series of successful attacks on bridges along the Brenner. In view of the enemy's proved ability to repair minor damage very quickly, it was necessary to knock out one or more spans to give any permanence to the interdiction of bridges; therefore, bridges which had long spans were chosen as the most vulnerable targets, and they received the heaviest weight of the attacks. The bombers knocked out such bridges over the Adige at Ora and Mezzocorona; they also hit the,crossing over the Isarco River at Albes, but the temporary damage was speedily repaired. On the 11th, although clouds obscured the Brenner, 35 Liberators out of 207 dispatched supplemented MATAF's campaign against the northeastern routes by rendering impassable bridges over the Tagliamento River.93 MATAF's October operations against the Brenner's lower reaches were considered as supplementary to MASAF's attacks on the more crucial part of the line north of Trento. But Strategic's operations even against this vital part of the Italian communications system were destined soon to end. Since September, when the Allied armies in France drew close to the German borders, there had been proposals for concentrating strategic bombardment against the railway system of Germany itself,94 and by November that system had been given a priority second only to oil* in the list of strategic targets.95 Accordingly, on 11 November, General Eaker relieved MASAF of all responsibility for attacking communications targets in Italy, including the Italian side of the Brenner, although ir was to maintain dislocation of traffic at Innsbruck in Austria, the important control center for rail traffic into the Brenner from the north.96 A few days later, when Strategic's new commitment crystallized in a directive from MAAF, MASAF's role in the isolation of Italy from the Reich was further reduced, for now the railway lines between southeast Germany and the Danubian plain were to be given precedence over those between southern Germany and Austria and Italy.97 Indeed, after 16 November, MATAF was fully
+
+			* See below, p. 653.
+
+			--462--
+
+			responsible for the selection of targets and air operations everywhere in Italy; and no target on the peninsula was to be attacked except upon request By or approval of MATAF. Thus, although MASAF and MACAF carried out occasional attacks in northern Italy at MATAF's request (priniarily on a weather-alternate basis), after mid-November air operations in Italy rested with MATAF.98
+
+			MATAF did not at once expand the scope of its operations to cover the targets heretofore considered Strategic's responsibility in northeastern Italy, but bridges on the lower and middle Rrenner became increasingly favorite targets. Medium bombers pushed past Trento to attack rail bridges over the Adige at San Michele and Ora on the 11th and the long viaduct at Lavis over the mouth of the Avisio River on the 17th, and attacked small bridges and fills south of Trento. From 1 through 19 November some forty-four medium bomber missions were flown against the Brenner, including those flown during BINGO. As a result of these operations, plus the damage inflicted by SAF and by an increasing effort By fighter-bombers against the lower Brenner after the 19th, the route remained closed to through traffic By multiple curs (which reached as many as thirty-five at one time) until the last day or two of the month. From 1 through 25 December, however, the weather limited medium bombers to twelve missions against the Brenner. Bridges at Ala, Rovereto, Calliano, and Sari Michele were targets on 2 and 10 December, but ground haze, smoke screens, and flak prevented the incdiums from inflicting structural damage to any of the rail crossings, although in each case temporary cuts were made in the tracks.99 Though this effort, combined with additional cuts in tracks created by fighter-bombers, gave German repair crews no respite, interdiction of the Brenner was intermittent and short-lived during the first twenty-five days of December.100
+
+			In addition to attacks on the main Krenner line in November, mediums also struck hard at the loop line running southeast from Trento to Vicenza, and by the 13th had cut the line at Calceranica, Castelnuovo, and Engeo. This route remained locked for the next six weeks, for although the mediums were able to bomb the line only once during December, fighter-bombers kept a constant check on repair efforts and it was not until 3 January 1945 that the line was reported open.101
+
+			The interdiction of the rail routes across the Venetian plain was maintained through most of November, and by the middle of the month October's interdiction of the northeastern routes at the Piava.
+
+			--463--
+
+			and Brenta rivers had been reinforced by additional cuts at the Tagliamento and Livenza rivers, By month's end, the Nervesa bridge was the only one open between Udine and Padua across the Brenta, Piave, Livenza, and Tagliamento rivers. Swift repair and nonoperational weather permitted increased activity on the northeastern routes during the last week in November, but the number of cuts on the various lines and the consequent necessity of repeated transshipments over an eighty-mile zone continued for a time to interpose a barrier against transportation of heavy supplies into Italy.102 But other air commitments late in November -- the most important of which was a substantial medium bomber effort at Faenza for Eighth Army from 21 through 24 November, and nonoperational weather in December, which limited the mediums to five missions against the northeastern routes, allowed the Germans to open at least one bridge or by-pass over each river barrier, so that although the enemy was frequently denied the most direct connections and was forced to resort to roundabout routes from early in December until the 25th, through traffic moved southward at least as far as the Brenta River.103
+
+			There was one other factor which accounted for the weakening of the interdiction campaign after 19 November: the loss to ETO of the 42d Bombardment Wing headquarters with two of its B-26 groups. After the OCTAGON conference, at which the CCS had agreed that there would be no further withdrawals from Italy until the outcome of the current offensive was known, American air leaders, fearing that the 6th Army Group in southern France did not have adequate air resources, had continued to press for the move of the entire Twelfth Air Force.104 But when General Spaatz brought up the matter in mid-October at a conference at Caserta with Generals Wilson, Eaker, Cannon, and others, it was agreed that the conditions which had prevented an earlier move still prevailed: Twelfth Air Force could not be supported logistically in France and the requirement of air support for Fifth Army still remained. Since the Twelfth could not be spared, the alternative of forming a provisional tactical air force for 6th Army Group was proposed. Requirements from the Mediterranean included Headquarters 63d Fighter Wing (at cadre strength), which was to serve as the headquarters for the new air force, and the 42d Bombardment Wing, plus service units to support the latter. Plans were already under way to convert one B-26 group to B-25's, and General Spaatz agreed to accept the two remaining B-26 groups.105 Consequently, on 5 November the 319th 
+
+			--464--
+
+				MAAF Organization 1 Nov. 1944
+
+			Bombardment Group was transferred from the 42d to the 57th Wing, and on the 15th, Headquarters 42d Bombardment Wing with the 17th and 320th Groups, the entire 310th Air Service Group, and Headquarters 63d Fighter Wing were transferred to ETO.106
+
+			MATAF's waning medium bomber strength suffered another loss the following month when the War Department decided to withdraw one B-25 group and a service group for redeployment against the Japanese.107 Although MATAF was concerned lest this withdrawal render ineffective its interdiction campaign, which depended largely on medium bombers, General Eaker felt that in view of the static condition on the Italian front, another group could be spared. He urged, however, that no further withdrawals from the tactical air force be made in view of the necessity for keeping up the interdiction of the extensive rail and road nets supporting the German armies in Italy.108
+
+			The diminishing medium bomber strength increased the importance of fighter-bombers in the interdiction campaign. Although fighter-bombers from both XXII TAC and DAF had participated on 6 November in Operation BINGO, no further attempt was made to employ them against the Brenner until later in the month. Thereafter their efforts were indispensable to the maintenance of the blockade of Italy. The redeployment of the 42d Wing coincided with deteriorating weather which prevented the B-25's from reaching the international routes for the remainder of November so that it was necessary to call upon XXII TAC to maintain cuts on the lower end of the Brenner and to direct DAF to employ a good portion of its fighter-bomber effort against the northeastern routes.109
+
+			XXII TAC's effort against the Brenner route commenced on 19 November when fighter-bombers postholed the tracks between Verona and Ala. From the 26th through 2 December, 148 sorties were flown against the line; concurrently, the zone of operations was extended north of Trento. On one of the early flights a strafing attack near Sant' Ambrogio blew up a train and blasted 280 yards of trackage from the roadbed. Attacks were most devastating on 28 November, when forty-six P-47's blew ten gaps in tracks over a forty-mile stretch near the southern extremity of the line. During December an average of twenty P-47's ranged up and down the Brenner route daily, on occasion reaching as far north as San Michele, cutting tracks and attacking marshalling yards; pilots claimed 149 cuts on the line for the month. In addition, XXII TAC's aircraft supplemented DAF's and the 57th Wing's efforts 
+
+			--466--
+
+			on the Venetian plain by bombing crossings over the Brenta River on twelve occasions.110
+
+			In the meantime, DAF had begun to supplement the medium bomber attacks in northeastern Italy. On 22 November, Tactical made DAF responsible for the rail lines Mestre-Portogruaro, Treviso-Casarsa, and Nervesa-Casarsa, which were sections of the three coastal routes which crossed the Piave and Livenza rivers. On the same day DAF began cutting the line from Padua to Castelfranco and to Vicenza. But the heavy effort at Faenza, 21-24 November, and bad weather thereafter for the remainder of the month, hindered DAF's first ten days of operations in northeastern Italy, although on the 29th its fighter-bombers struck bridges across the Livenza River. In December, the Venetian plain was the scene of a large part of DAF's blows against communications. Particularly good results were achieved against rolling stock along the northern route to Udine, and, in addition to numerous attacks on open stretches of track, some eighteen attacks were made on rail bridges across the Piave and Livenza.111
+
+			Having called in its fighter-bombers to support the interdiction campaign, MATAF, on 1 December, also took action to strengthen the program by providing for round-the-clock attacks on targets north of the Po.112 Previously, the 47th Bombardment Group, XXII TAC's night intruder group, had devoted most of its A-20 effort to the area south of the Po which was bounded on the west by Piacenza and on the east by the DAF/XXII TAC boundary; a lesser effort had covered the area north of the Po up to Verona.113 As the emphasis of bombers and fighter-bombers shifted farther to the north, it was appreciated that enemy night movement and repair effort would increase on the four main routes. Consequently, on 1 December, MATAF directed the employment of a portion of XXII TAC's night bomber effort to the Brenner and of DAF's to northeast Italy. XXII TAC responded by assigning several A-20's to cover the Brenner line nightly as far north as Trento. Weather, however, rendered the effort largely ineffective. DAF's night effort against the northeastern routes was limited owing to its duties on the Eighth Army front and to a commitment acquired on 3 November which called for the employment of three wings of medium and light bombers and four squadrons of fighters against Balkan targets on a first-priority basis to assist the Balkan Air Force to impede the German retreat from Yugos1avia.114
+
+			To complement the interdiction campaign, MATAF stressed the 
+
+			--467--
+
+			importance of destroying the enemy's accumulations of supplies in dumps. Because of the over-all fuel shortage among the German armed forces, it was believed that Kesselring's quota of POL would be limited; hence the destruction of fuel in conjunction with the interdiction of supply lines entering Italy would have a major effect on the mobility of the German armies opposing the AAI.115 Although some effort had heen applied to targets in this category in September and October, it was not until 3 November that dumps were assigned a definite priority, corning last after the Brenner line and bridges over the rivers of northeastern Italy and the Po. MATAF then launched a large-scale assault on dunips and stores. Medium bombers, because of extensive commitments, limited their attacks on dumps to sixty sorties, all flown on 10-11 November against the Porto Nagaro supply dump and the Mestre fuel dump. But XXII TAC took up the task, and in the week of 16-22 November carried out a sustained campaign against enemy supplies, concentrating on fuel centers north of the Po, especially between the Po and the Brescia-Verona rail line, and ammunition dumps closer to the battle front, particularly in the vicinities of Bologna, Imola, and Faenza. Some eighteen fuel dumps, ten ammunition dumps, and sixteen others of the approximately fifty attacked were reported destroyed.116
+
+			Because of their value as alternate targets when communications were obscured by bad weather, dumps received greater attention during December, some 629 sorties being devoted to them.117 The anticipated resumption of offensive operations by Fifth Army in December and the German counterthrust in the Serchio Valley accounted for the concentration of these efforts on dumps (primary ammunition) in the Irnola, Bologna, and La Spezia areas.
+
+			Enemy shipping did not have to be seriously considered in the interdiction campaign in the fall of 1944. The advance of the Italian front to north of Pisa and Rimini and the invasion of southern France had reduced the zone of enemy coastal shipping, limiting it primarily to small ships plying the waters between Savona and Genoa and to the ports of Trieste, Pola, Venice, and Fiume in the upper Adriatic. Too, the German evacuation of Greece and the Aegean Islands in September and October had further reduced the need for water transportation in the Adriatic. Indeed, by September 1944, MACAF's tasks of protecting rear areas and convoys, of antishipping strikes in the Gulf of Genoa and the northern Adriatic, and of air-sea rescue had become so reduced in importance that after the withdrawal of XII Fighter Command in 
+
+			--468--
+
+			September, MACAF became and remained a small British organization.118 Although it continued until the end of the war to fly regular patrols, as its targers became increasingly scarce, its strength and effort showed a marked decline. From its August strength of 34 squadrons, with approximately 700 aircraft of all types (fighters, night fighters, bombers, and air-sea rescue craft), it was reduced by the end of October to 16 squadrons with a strength of approxiniately 380 aircraft. It remained at approximately that size until the end of the war.119 As the enemy submarine threat and air operations came to a virtual halt in the Mediterranean late in 1944 -- thereby ending Coastal's defensive role -- and as surface vessels became increasingly scarce -- thereby lessening its normal offensive role -- its fighters and bombers turned their attention almost exclusively to assisting MATAF in its interdiction campaign.120
+
+			Only occasionally was it necessary for MAAF's other elements to supplement MACAF's antishipping strikes. On 4 September, 164 B-17's dropped 490 tons of 500-pound bombs on the Genoa harbor, the base for the few remaining enemy submarines in the Mediterranean. By German admission, the attack destroyed seven submarines nearing completion, four submarines used for special operations, one transport submarine, and other small vessels; the submarine bases at both Genoa and Spezia were closed following the attack. Heavy bombers also made an occasional attack on the ports of Fiuine, Trieste, and Pola, where they not only damaged port facilities and shipbuilding installations but destroyed important stores of oil. Pola was attacked several times for the further reason that it held concentrations of small motorboats which the enemy used against Allied naval units operating off the Dalmatian coast.121
+
+			Twice during the fall medium bombers prevented the Germans from blocking ports of potential value to the Allies. In September, Admiral Cunningham, naval commander in chief in the Mediterranean, requested that the air forces sink the Italian liner Taranto which, it was believed, the Germans intended using as a block ship at La Spezia harbor. By sinking the vessel before it could be moved into position, the harbor could be saved for Allied use when captured. In response to the request, General Cannon called upon the highly efficient 340th Bombardment Group. On 23 September, the group, using an eighteen-plane formation, six of which were briefed to hit the stern, six the middle, and six the bow, executed a perfect attack. Bomb strike photos revealed three separate clusters completely covering the vessel; the 
+
+			--469--
+
+			Taranto sank twenty-five minutes after the attack.122 General Cannon reported that this was the sixty-second consecutive pinpoint target which the 340th Group had attacked without a miss.123 On 28 November, seventeen B-25's, this time from the 310th Group, sank another vessel at La Spezia harbor before it could be moved into position to block the channel.124
+
+			For the first time in several months it was necessary in November to carry out a series of counter-air force operations and to provide fighter escort for medium bombers. Actually, the air war in Italy had long since been won, and enemy aerial opposition to Allied operations, both air and ground, was so slight as to be scarcely worth mentioning. In fact, in mid-September when the GAF's air strength was down to an estimated thirty Me-109's at Ghedi, MATAF adopted the unprecedented* policy of sending out its mediums without fighter escort. The low rate of replacement of enemy aircraft, crews, and supplies precluded offensive tactics against Allied bomber formations and, furthermore, continuous fighter-bomber activity in the Po Valley was deemed reasonable protection to bombers from isolated attacks.125 By the middle of October, however, the 2d Gruppo of the Italian Fascist Republic Air Force, trained and equipped in Germany, had become operational in Italy, and during the latter half of the month, MATAF's crews, both fighter and bomber, reported encounters with hostile aircraft.126 The primary mission of these enemy fighters seemed to be the defense of the northern lines of communication and their efforts were concentrated over the Brenner. Small, scattered, and generally unaggressive enemy formations in October were replaced in November by aggressive forces ranging in size from fifteen to twenty and forty to fifty aircraft, and on the 5th, three B-26's were lost and six damaged as twelve to fifteen enemy aircraft jumped a formation just as it reached its targets at Rovereto. Although no further losses were sustained for the next two weeks, there were almost daily sightings of and a few skirmishes with enemy aircraft.127
+
+			Though not carrying out a sustained campaign against this resurgence of enemy air power, MATAF arranged to keep the principal airdromes under surveillance. Daily fighter sweeps began to include patrols over the area from which enemy aircraft were operating. A-20's 
+
+			* Unprecedented to the extent that it was the first time a directive was issued on the subject. On earlier occasions enemy air forces in Italy had been so weak that mediums had flown without escort.
+
+			--470--
+
+			of the 47th Bombardment Group on their night intruder missions flew over one or more of the enemy fields on almost every night from 11 through 23 November, and on a few occasions chose enemy airdromes as their primary target. On 14 November MATAF rescinded its previous policy of not requiring fighter escort for medium bombers and ordered XXII TAC to provide either target-area cover or close escort for missions where enemy fighters were likely to be encountered.128
+
+			The necessity for escort was short-lived, however, as MASAF soon climaxed the counter-air campaign. On several occasions early in November heavy bomber crews had reported encounters with enemy aircraft based in northern Italy, and on the 16th, SAF aircraft, returning from southern Germany, met the first serious opposition from these planes. Some thirty to forty enemy fighters, contacted in the Udine area, concentrated on stragglers from the bomber formation, and despite the efforts of P-51 escorts, fourteen heavy bombers were reported missing from the operation. The P-51's accounted for eight enemy aircraft destroyed, two probably destroyed, and two damaged; bombers claimed one destroyed.129 By that time approximately 100 enemy fighters had been located on the airdromes at Aviano, Vicenza, Villafranca, and Udine. In view of the increased size and aggressiveness of the enemy's air strength, SAF decided to devote a day's effort to reducing the threat. Actually the enemy's bases were in MATAF's area of responsibility but as they were located at the limit of range for TAF's aircraft General Twining felt that assistance from SAF would be welcomed, and on the night of 17 and the day of 18 November, Strategic carried our a series of devastating attacks on the four fields. No opposition was encountered although 186 P-51's patrolled the target areas to take care of any reaction that might deve1op.130
+
+			Although by the last week of November enemy air opposition had become almost nonexistent, it was appreciated that perhaps the bad weather which was playing such havoc with Allied air operations prevented a fair evaluation of the enemy's air potential. But when clearing skies allowed a resumption of Allied air activity, the Luftwaffe was noticeably absent. It would never again be a factor in the Mediterranean war.
+
+			The 51st Troop Carrier Wing, after completing its assignments during DRAGOON, had turned its two groups, of four squadrons each, to their routine tasks of medical evacuation and of moving troops and supplies within Italy or between the peninsula and Corsica and France.
+
+			--471--
+
+			In November, Troop Carrier took on additional duties when MATAF assumed responsibility for supplying the Partisans in northern Italy.131
+
+			Over the Balkans 
+
+			In the meantime, Italy-based aircraft had become increasingly active in the Balkans. On 20 August, Russian troops crashed through Rumania, forced a capitulation of Bulgaria, and by the end of September had developed two offensives into Yugoslavia in conjunction with increased Partisan activity. Then Soviet forces, after joining with Marshal Tito's guerrillas to capture Belgrade on 20 October, turned north into Hungary. This rapid Russian drive up the Danube made necessary a German withdrawal from Greece, southern Yugoslavia, and eastern Hungary.132
+
+			From the last week in August until early November, MASAF devoted considerable effort to assisting the Russian advance. On 23 August, Rumania announced her withdrawal from the war, and three days later Bucharest was subjected to a retaliatory attack by GAF elements from the Bucharest/Otopeni airfield; too, German forces at near-by Baneasa were a threat to the city. In response to an urgent appeal from the Rumanian general staff, MASAF on 26 August devoted a portion of its effort to the two targets: 114 heavy bombers dropped 205 tons of bombs on barracks, military stores, and gun positions at Raneasa, destroying parked trucks, tanks, half-tracks, barracks, and workshops and inflicting casualties on enemy troops, while 115 B-24's dropped 258 tons of bombs on the airfield, leaving it unserviceable.133
+
+			The attack on Bucharest/Otopeni field was one of a series undertaken to abate the German air menace both to Strategic's operations in the Balkans and to the Russian armies in the southeast. On six out of the seven days from 19 through 25 August airfields in Yugoslavia, Hungary, Czechoslovakia, and Austria were attacked; crews claimed the destruction of 133 enemy planes. By far the most notable attack on airfields during the period, and probably the most successful strafing campaign waged by Fifteenth Air Force fighters during the war, occurred in the three days 30 August-1 September, when a total of 193 P-51's claimed the destruction of 211 enemy aircraft and damage to another 131 at Grosswadein, Kechskement, Debrecen, and Reghin airfields, the latter being the base on which German air units retiring from Rumania were concentrating.134 Although claims may have been optimistic, the attacks undoubtedly reduced substantially the enemy's air 
+
+			--472--
+
+			threat to Russian forces and to SAF's operations in the Balkans during the following month.
+
+			After the Russians began their offensive, there was a growing feeling that MASAF could best assist by interdicting the German lines of communication to the southeastern front. The routes were comparatively few, were well defined, and crossed both the Danube and Tisza rivers; and all routes, including those coming up from Yugoslavia, converged on Budapest. During September, Strategic concentrated on vulnerable targets at the Hungarian capital: the north and south rail bridges and the marshalling yards, against which some 852 effective sorties were flown and about 2,000 tons of bombs were dropped. In addition to blocking traffic at these points throughout most of the month, the heavies also cut the main rail bridges over the Tisza at Szolnok and Szageb and the two main rail bridges over the Danube at Szob and Baja; for varying periods of time they blocked through lines in marshalling yards at Debrecen, Hatvan, Cegled, Subotica, Szekesfehervar, and Gy&ouml;r. In October as Soviet forces thrust into Hungary and toward Budapest, the bulk of MASAF's communications effort shifted to western Hungary where the dense rail network was less suitable for purposes of interdiction because of the absence of any major river system; too, the arrival of winter weather permitted less visual bombing, making it necessary to choose larger targets. Consequently, MASAF's effort in October, which was less than that applied in September, went mainly to Szekesfehervar marshalling yards and several rail centers on the main line from Vienna to Budapest. A lesser effort was applied to yards at Szombathely and smaller rail centers to the south and eilst. The Hungarian interdiction program was supplemented by attacks along the main Budapest-Gy&ouml;r-Vienna railroads and on yards at Vienna, Graz, and Linz.135 Although lack of information prevents an adequate evaluation of the tactical success of these operations, it seems evident that the destruction of vast amounts of supplies in the marshalling yards and the dislocation of the German lines of communication in part accounted for the success of the massive Russian sweep.136
+
+			In the meantime, during the first week of September, MASAF's fighters and bombers had combined with Balkan Air Force to inflict varying degrees of damage on the German's exit routes from Greece and southern Yugos1avia.137 Between 1 and 8 September, Strategic flew 1,373 heavy bomber sorties against these routes in the course of which it dropped approximately 3,000 tons of bombs, concentrating on the 
+
+			--473--
+
+			more distant and larger targets, such as Nis, Mitrovica, Karljevo, Novi Sad, Brod, Sarajevo, and bridges on the two main lines from Athens to Belgrade and Belgrade to Ljubljana. BAF, in some 600 sorties, disrupted traffic by attacks on niarshalling yards and bridges at Konjic, Zenica, Karlovac, and Kostegnica, railroad stations at Caprica, Miska Banja, Bradina, Konjic, and roads in the vicinities of Sarajevo, Mostar, Bugono, Bangaluka, Knin, Kmdmorasav, and Mitrovica. The heaviest attacks came early in the week and as enemy troops and vehicles began to accumulate between the rail cuts, DAF and SAF turned to these targets. Two hundred and seventy-one Fifteenth Air Force fighters claimed the destruction of up to 112 locomotives, 243 M/T, and 413 rail cars as results of strafing attacks during a three-day period along the well-loaded roads and railroads between Belgrade and Nis and Skopje-Krusevac-Belgrade. On the 6th, 102 B-24's bombed troop and M/T concentrations at Leskovac, where enemy troops withdrawing from Bulgaria were reported to be concentrating. As a result of these operations DAF henceforth was able to keep the German escape routes interdicted by reattacks on targets before repairs had been completed. The increased use of M/T by the Germans in their evacuation and the mounting claims of vehicles destroyed by both DAF and SAF fighters indicate that the enemy never completely overcame the cumulative effects of this week of all-out air effort.138
+
+			Late in September the backlog of supplies at Salonika and Larissa, created by interdiction farther to the north, were targets for three small attacks, one night and two day, by MASAF. Hit much harder and with greater success were the three airfields at Athens, from which the Germans were operating an aerial ferry. Strategic claimed the destruction of more than 100 enemy transport planes as a result of two night and two day attacks.139
+
+			The bad weather of October handicapped the air arm in its efforts to hinder the German retreat from Greece and southern Yugoslavia. Balkan Air Force flew some 1,956 sorties during the month, as compared with 2,436 in September. SAF's efforts in Yugoslavia amounted to only four attacks: on the 14th, day bombers cut the Drava River bridge at Maribor, interdicting the main line to Vienna for the remainder of the month, while night bombers attacked marshalling yards at Zagreb on 16/17, at Vinkovci on 17/18, and Maribor on 21/22 October. Farther south, meanwhile, British troops had landed in Greece. Small scale landings in September, one by sea on Kythera on the 16th and 
+
+			--474--
+
+			another by air on Araxos airfield on the 23d, were followed in mid-October by a more ambitious operation in which the 51st Troop Carrier Wing participated. From 13 through 18 October, 224 C-47's dropped or landed 2,000 personnel and 327 tons of equipment* during Operation MANNA.140
+
+			By the end of October the Germans had virtually completed their evacuation of Greece and the Aegean, but they were still having difficulties in Yugoslavia. The capture of Belgrade by the Russians and Partisans, the Partisan occupation of communications centers to the south on the rail line Belgrade-Nis, the advance of Partisans (supported by Russian artillery) westward along the Sava River toward the line Novi Sad-Mitrovica, and the enemy's withdrawal from Split and other smaller Dalmatian ports, all had combined to force the Germans to secondary escape routes through the mountainous, Partisan-infested country of central Yugoslavia.141 To add to their troubles, good flying weather in November permitted a considerable increase in air operations against the German forces as they made their way through the difficult terrain. On 3 November MATAF came to the assistance of the Balkan Air Force on a continuing basis by ordering DAF to make three wings of medium and light bombers and four squadrons of fighters available for employment against Balkan targets. DAF was to cover northern Yugoslavia, leaving BAF free to concentrate its efforts along the Dalmatian coast and in the central section. These operations were given first priority despite the implied reduction of DAF activity for Eighth Army.142 On fifteen days of the month DAF struck at Yugoslav communications targets, concentrating at first on rolling stock in an area within fifty miles north and west of Zagreb and turning after the 6th to bridges on the Zagreb-Brod railway. Later in the month, DAF's activities were extended to cover lines running north from Ljubljana and the secondary routes running north to the Zagreb-Ljubljana line. These bridge-busting activities received powerful support on three days when B-25's attacked three bridges on the Zagreb-Brod line, one on the Sarajevo-Brod line, and two northwest of Brod. In view of the situation, MASAF also resumed its operations over Yugoslavia and its fighters and bombers began to attack troop concentrations and communications by day and night.143
+
+			* In December when civil strike broke out in Greece, 190 planes ferried some 1,500 personnel to Salonika and Athens and moved large quantities of ammunition to British garrisons.
+
+			--475--
+
+			The accelerated Balkan operations from September on had been carried out in the midst of difficulties arising from the fact that Russian troops had moved into the orbit of MAAF's daily operations. Previously, on the few occasions when MAAF had operated in close proximity to Russian troops, liaison had been established through Maj. Gen. John R. Deane, chief of the U.S. military mission at Moscow. But such a channel of communications in no way met the existing need for effective liaison between MAAF and the Russian armies in the field, and early in October, General Eaker, without waiting for clearance from Moscow, sent a small liaison staff, headed by Col. John F. Batjer, to Bucharest to coordinate MAAF's operations with those of the Russian armies in that sector. Colonel Batjer was able to establish cordial relations with the Ukrainian Third Army, but the Russian high command never officially recognized the arrangements, and Batjer, despite the friendly attitide of the Russians in the field, was not permitted to advance with the armies and was never able to effect air-ground coordination.144 Although Generals Wilson and Eaker continued to press for the establishment of proper liaison, the Russian high command remained adamant145 and finally there occurred the long-feared incident of a clash between Soviet and MAAF forces. On 7 November, a formation of Fifteenth Air Force P-38's, because of a navigational error, strafed a Russian M/T column between Nis and Aleksinac in Yugoslavia.146
+
+			The Russians reported that as a result of the "unwarranted" attack a lieutenant general, two other officers, and three enlisted men had been killed and twenty vehicles with equipment set on fire. They requested that henceforth Allied aircraft not be allowed to fly over Soviet zones of operations without preliminary agreement with the Red army general staff.147
+
+			Although proper liaison might not have prevented the incident, the unfortunate occurrence was a harsh reminder of the urgent necessity for closer coordination between MAAF and the Soviet armies. Until some agreement could be reached, MAAF ordered MASAF's bombers not to attack targets within forty miles or its fighters within eighty miles of known Red army forward positions.148It was hoped that the Russians would recognize the need for liaison between the air forces in the west and Soviet ground forces in the east, or in the absence of liaison that they would establish a definite bomb line between the two forces.
+
+			The Russians never accepted the principle of liaison, but apparently they seized upon the idea of a bomb line as a happy alternative, for on 
+
+			--476--
+
+			22 November General Deane received a proposal to establish a bomb line Stettin-Forlitz-Zagreb-Sarajevo southward through Preilep to the southern border of Yugoslavia, thence east along the southern border of Yugoslavia and Bulgaria. Although the northern end of the suggested bomb line was totally unacceptable to the CCS -- it excluded important oil and industrial targets -- in the interest of safety the line from Sarajevo south was accepted on 24 November until a better arrangement could be made. North of Sarajevo the earlier forty-eighty-mile safety feature was to be observed.149
+
+			Acceptance of this bomb line came over the strenuous objections of General Wilson, for it excluded air attack on the principal German escape routes from Yugoslavia. In view of the Russian refusal even to discuss a liaison arrangement, Wilson proposed that the bomb line be arbitrarily moved eastward to include certain recognizable features (rather than the straight map line drawn by the Russians), such as the rail and road lines which constituted the enemy's escape routes, and that the Russians be notified that the new line would become effective 3 December 1944. The CCS, realizing the urgent necessity of seizing the fleeting opportunity to attack heavy German concentrations between the two lines proposed by Russia and Wilson, concurred with Wilson and ordered him to make his bomb'line effective 0100Z hours, 3 December. Owing to Russian procrastination in the matter of working out a better plan of coordinating the efforts of their ground forces and the western Allied air forces, both in Italy and the U.K., on 15 January 1945 the CCS pushed a step further what was apparently the only workable plan by granting SACMED authority to make necessary changes in the bomb line south of Vienna and by allowing the commanding general of USSTAF and RAF chief of air staff to take similar action north of Vienna, advising the Russian high command through the military missions of the actions taken.150
+
+			Another Winter in Italy 
+
+			In the meantime affairs had not been going well in Italy. By the end of December, Eighth Army had crossed the Lamone River and had pushed the enemy behind the Senio River, but because of its failure to reach the Santerno River it was necessary repeatedly to postpone a planned offensive by Fifth Army. Then on 26 December the Germans launched an offensive (whether or not in conjunction with the Ardennes offensive is yet to be determined) on the heretofore relatively 
+
+			--477--
+
+			quiet western flank of Fifth Army. Although the Germans probably hoped to reach the Arno, and may even have dreamed of seizing the vital port of Leghorn, their thrust never became a serious threat, reaching the limit of its advance on the 27th, after which the Germans began to fall back, in the face of a strong counterblow by the Indian 8 Division, supported by XXII TAC. Nevertheless, the move, if it accomplished nothing else, upset Allied plans: the proposed Fifth and Eighth Army offensive against Bologna was indefinitely postponed and on 2 January 1945, in view of the depleted state of both armies, was canceled. General Alexander, who had replaced General Wilson as supreme Allied commander in the Mediterranean in mid-December, notified the CCS that strategy in the Mediterranean had been altered; the armies were withdrawing as many troops as possible from the line and were reverting to a defensive role in order that ammunition stocks might be accumulated and troops rested and reorganized in anticipation of a renewal of the offensive in the following spring.151 For the next three months there was little ground activity in Italy.
+
+			The mission of the Mediterranean command -- that of destroying or containing Kesselring's forces in Italy -- remained firm, however, and in the absence of strong pressure by the Allied ground forces, the air forces, numbering some 280 squadrons, now became the most potent weapon in the Mediterranean. Their aim was dual: to starve the forces which the enemy might choose to leave in Italy and to prohibit the escape of those which he might wish to withdraw. These designs crystallized on 9 January 1945 when MATAF assigned to its units as their first-priority mission the disruption of enemy communications. XXII TAC was committed to the Brenner; DAF to the lower reaches of the Tarvisio and Piedicolle lines; the 57th Wing, in addition to continuing its efforts against the Brenner and the railroad bridges over the Brenta, Piave, Livenza, and Tagliamento rivers, was committed to the Tarvisio, Piedicolle, and Postumia rail lines.152
+
+			By the time this directive appeared the situation in Europe had already led MAAF into a series of operations which were directly in line with its new program. As the German Ardennes offensive mounted in intensity in December, it was feared that Kesselring might be forced to furnish fresh divisions to the desperate gamble on the western front, and on Christmas Day, Eaker relayed to Cannon and Twining an urgent request from Spaatz that the Brenner and Tarvisio routes be kept as fully immobilized as possible, that being the most important 
+
+			--478--
+
+			contribution which MAAF could make to the western battle.153 A similar request came also from the Russian high command, which was contemplating resumption of the offensive on the eastern front.154
+
+			Fortunately a return of good bombing weather coincided with the receipt of these requests. Although MASAF had been supplementing MATAF's isolation of Italy by occasional attacks on the northern terminus of the Brenner at Innsbruck, it had not hit communications targets inside Italy since 12 November. Now, however, it turned with vigor to the three northeastern routes, and from 26 December through 4 January heavy bombers carried out twenty-five attacks on these targets, ending with a shattering blow on the Verona marshalling yards, delivered by 197 aircraft.155 For the next month SAF found its targets outside Italy, but its increasing emphasis on communications in Germany and Austria tended more than ever, as its zone of operations began to constrict, to supplement the internal blockade of the Germans in Italy. Medium bombers, enjoying the first good weather in three weeks, struck hard at the distant northeastern frontier routes during the last six days of December. By the end of that inonth they had cut each of the three lines in at least one important place: the Postumia at Burovnica where the viaduct was demolished; the Tarvisio at Chiusa-forte where a span of the bridge was knocked out; and the Piedicolle at Canale d'Isongo where a span of the bridge was destroyed. Simultaneously, in addition to the damage inflicted by heavy bombers on the Brenner, B-25's and fighters from XXII TAC kept up steady pressure against the line throughout the last week of the month, largely negating the intensive German repair effort and allowing no through traffic on the line from the 26th to the end of the month.156
+
+			While the B-25's were busy with the Brenner and northeastern routes, other planes of MATAF were hitting lines of communication which fed into these routes. On 26 December three attacks by B-25's and ten by fighter-bombers on bridges laid a solid belt of interdiction across the Venetian plain. Beginning on the 21st, DAF day bombers began a series of attacks on marshalling yards at Tarvisio, Castelfranco, Udine, Conegliano, and other points which further snarled traffic along the feeder lines. These Marauder and Baltimore attacks supplemented fighter-bomber activity over the plain.157
+
+			The weather turned bad in January. Consequently, on only twelve days could B-25's reach the Brenner and on only five could full-scale efforts be carried out, and these met generally with disappointing results.
+
+			--479--
+
+			XXII TAC, however, now shifted from open stretches of track to bridges and diversions and in twenty-four attacks kept the Brenner blocked at several points on most days during the month.158 Away from the Brenner the mediums found more favorable weather. Sixteen attacks were successfully directed against the Tarvisio and Piedicolle routes and bridges over the rivers of the Venetian plain. But the most striking development of the interdiction campaign during the month consisted of the devastating attacks by fighter-bombers on bridges and diversions in northeastern Italy. Relieved of close support operations, these aircraft flew more than 2,500 sorties against communications. XXII TAC put its heaviest effort on the main double-track rail line from Vicenza to Casera, striking bridges at Cittadella, Casera, and Nervesa. DAF concentrated on the Postumia line from Latisana to Sesana.159
+
+			As a result of these attacks, the Germans were denied through traffic in and out of northeastern Italy during the entire month. Although the Tarvisio route was considered open after 18 January, interdiction into the Po Valley at the transverse rivers across the Venetian plain was secure. Evidence of the effectiveness of the attacks on railways, and of an additional advantage gained thereby, was found in signs of heavier M/T traffic by late January in the region of the Brenner as well as in northeastern Italy, which meant that the enemy was having to burn up in increasing measure his scarce and precious supplies of motor fue1.160
+
+			On 23 January the anticipated redeployment of German forces began as the 356th Division, withdrawn from the line for service on the eastern front, entrained in the Padua area, and in February the enemy undertook to withdraw also the 16th SS Panzer Grenadier Division. MATAF had promptly ordered its units to intensify both day and night efforts in their respective zones,161 and this intensified program continued through February, as the German divisions were making their tortuous way past obstructions on the Venetian plain and across the broken Brenner and Tarvisio routes. It took fifteen days for the 356th Division to reach the Italian frontier. MATAF's aircraft flew approximately 6,364 sorties to the Brenner and Venetian plain alone during February. After sweeping north of Bolzano on the 14th to cut the line at Bressanone in the heart of the Alps -- and thereby proving the feasibility of medium bomber operations at such distance over rugged country -- B-25's steadily extended the range of their coverage until, on 25 February, they knocked down two spans of the 
+
+			--480--
+
+			bridge at Vipiteno, six miles from the Brenner Pass.162 MASAF, called in163 during the last week of February, added some 3,000 tons of bombs to targets on the Brenner, concentrating on the Verona marshalling yards, the chief entraining point for German divisions attempting to get out of the country.164 As a result of the combined effort of MATAF and MASAF the Brenner was closed to through traffic throughout February and by the end of that month interdiction of the northeastern routes was the most successful yet achieved. Enemy units frequently required a month to move out of Italy and had to leave much equipment behind.165
+
+			Tn the meantime, the whole question of the Mediterranean had been reviewed by the Conibined Chiefs of Staff in the light of General Alexander's proposal of early January that he pass temporarily to the " offensive-defense. " When the decisions reached at the Malta conference of late January were announced it was clear that as far as the CCS were concerned the Italian campaign had served its usefulness. Five divisions of infantry and two fighter-bomber groups of the Twelfth Air Force were to be withdrawn immediately from the Italian battle and the Italian campaign was to become a holding front with the threefold mission of (1) holding the existing line; (2) containing German forces currently in Italy by such limited offensives as were possible with the resources available after the withdrawals and by skilful use of cover; and (3) preparing to take advantage of any weakening or withdrawal of enemy forces.166
+
+			The immediate transfer of two fighter groups to France actually was considered the preliminary step in the planned move of the entire Twelfth Air Force.167 Details for the move were to be worked out between MTO and ETO, bot at a conference at Cannes early in February, MTO representatives objected to the transfer of the main striking power of its tactical air forces; they agreed that the two fighterbomber groups would be sent but suggested that further moves, particularly of the headquarters of Twelfth Air Force and XXII TAC, be postponed pending future developments. ETO representatives agreed to a further delay but with the proviso that in addition to the fighter groups First TAF (Prov.) would be reinforced by certain Mediterranean service units.168 Consequently, in mid-February the veteran 27th and 86th Fighter-Bomber Groups and Headquarters 319th Air Service Group departed for France.169
+
+			Although it was understood by both MAAF and USSTAF that 
+
+			--481--
+
+			these units would eventually be followed by the entire Twelfth Air Force, the move was never completed because of the swift denouement of the war. As early as February, even while Allied strength was being materially reduced in Italy, German leaders had approached the Allies with the suggestion of a surrender in Italy. These negotiations broke down before terms acceptable to the Allies could be reached, and it was clear that unconditional surrender of the Germans in Italy could be brought about only by force of arms.170
+
+			The Final Offensive 
+
+			Planning for what was destined to be the final offensive of the Italian war began in March. It called for a resumption of the strategy at-tempted the preceding fall. Eighth Army was to lead off with the object of crossing the Senio and Santerno rivers and exploiting toward Argenta Gap and Ferrara. After the Eighth had arrived at the Santerno, Fifth Army would launch a drive toward Bologna with its principal effort to be made west of Highway 65. This was the familiar tactic of threatening the enemy's flank, so as to draw off his reserves, and then delivering a hard blow at his center. The Allies had used the strategy before in Italy, especially where the terrain and the communications did not favor a solid concentration against a single point, and, as General Alexander has pointed out, this strategy was the more promising because he enjoyed in the overwhelming superiority of his air forces " one form of concentration which is not hampered by considerations of terrain." By staggering the ground assault each of the two armies could be given maximum air support, and Alexander was confident that MAAF's planes would open wide holes in the enemy's defenses, through which the Allied troops would sweep. Concurrently, MAAF's interdiction program would deny the enemy all hope of reinforcement or supply.171
+
+			Before air plans for the spring offensive were completed, a reshuffling of air commanders took place. On 24 March, General Eaker, who had guided the destinies of MAAF since January 1944, turned over his Mediterranean responsibilities to General Cannon and returned to Washington as deputy commander of the Army Air Forces and chief of Air Staff. Cannon's place as commander of MATAF and Twelfth Air Force was taken by General Chidlaw, who was replaced in his old command at XXII TAC by Brig. Gen. Thomas C. Darcy. Simultaneously, Air Marshal Slessor was replaced as deputy commander of 
+
+			--482--
+
+			MAAF by Air Marshal Sir Guy Garrod, previously acting commander in chief of Air Command, Southeast Asia.172
+
+			The new commanders were, with the exception of Air Marshal Garrod, old hands in the Mediterranean and planning for the final offensive was easily completed by early April. In fact, planning for the air phase of the spring offensive was briefer than for any other operation undertaken in the Mediterranean, indicating not only that the Allies had complete mastery of the air but that long experience in the theater had welded the ground forces and air forces into a nearly perfect team. Indeed, MAAF issued only one major directive for the whole operation and it is significant for its brevity, consisting of but five paragraphs.173 MATAF, charged with the detailed planning, published the final plan on 7 April, naming the operation WOWSER and setting forth its purpose as "the employment of maximum air effort in coordination with 15th Army Group during the initial stages of the Ground Forces' forthcoming Spring Offensive."174 After the initial assault the primary task of MATAF would be to maintain the isolation of Italy in accordance with current directives.
+
+			The plan did not call for a sustained pre-assault softening-up program by the air forces. Consequently, the air forces during March and, indeed, right up to the beginning of the final drive, concentrated on severing the enemy's lines of communication with the object of denying him supplies and at the same time of preventing his escape from 15th Army Group. By far the largest share of Tactical's March effort was devoted to communications targets, and before the end of the month the primary routes north of the Po were so thoroughly interdicted that there were no longer suitable targets in Italy and medium bombers began to attack rail lines in northern Yugoslavia and southern Austria. As a result of these intensive efforts and increasing assistance from MASAF early in April, on D-day (9 April) of the spring offensive every major rail line north of the Po was cut at multiple points. The enemy could not depend on his rail net either to sustain or to evacuate his troops. It should be noted also that although emphasis in the interdiction campaign had long since passed to north of the Po Valley, from January onward a sufficient number of medium and fighter-bomber missions had been directed against the Po River bridges to keep that barrier to enemy mass movement completely interdicted. Furthermore, dumps had continued to be priority targets for XXII TAC and DAF,and beginning late in March and continuing with 
+
+			--484--
+
+			rising intensity early in April, the greatest effort MATAF had yet applied to these targets was carried out175 until April, MASAF was governed by directives that placed targets in Italy last in its priority list and limited such attacks to those specifically requested by MATAF.176 Pursuant to such a request, Strategic had flown a series of missions against Verona marshalling yards in February, but by 6 March the need for attacks against that city on a continuing basis had passed and for the next month the heavy bombers again left targets in Italy to Tactical. By early April, however, the more distant strategic targets were becoming limited, and MASAF turned with increasing emphasis to objectives specified by MATAF, with first priority given to targets on the Brenner.177 In fact, just as the Italian battle swung into its final phase, General Spaatz on 16 April declared that the Combined Bomber Offensive was over* and that the mission of the U.S. Strategic Air Forces in Europe was now that of " direct assistance to the land campaign. "178 Thus, MASAF's last operational efforts were devoted in large measure toward assisting the ground forces to wind up the Italian campaign.
+
+			Without change of pace the air forces moved into their final assignment of the Italian campaign. The enemy undoubtedly was aware of an impending attack but he was given no inkling either by a prolonged air or artillery bombardment of where or when the blow would fall. Even on the morning of 9 April fighters of both MASAF and MATAF went about their task of enforcing the blockade.179 Just after midday, formations of heavy bombers droned northward over the Adriatic, to all intents and purposes bound for some distant communications target. But upon reaching Cesenatico, on the east Italian coast, the flights turned west over the mainland and unloaded their bombs on the enemy's Senio River positions. The final battle for Italy was on. Beginning with the attack on the afternoon of the 9th, in two days 1,673 heavy bombers, aided by a carefully worked out system of navigational aids180 completely drenched specific target areas opposite British 5 Corps and Polish 2 Corps, concentrating first on guns and troops opposing the establishment of a bridgehead over the Senio and turning on the second day to crossing sites on the Santerno River. In the same two days, approximately 624 medium bombers, including Marauders of SAAF 3 Wing placed under the operational control of 57th Wing for the offensive, in closely coordinated attacks with the heavies, 
+
+			* See below, p 754.
+
+			--485--
+
+			covered enemy defenses and troop concentrations, first along each side of Highway 9 between the Senio and Santerno rivers, and then north of the latter river in the vicinities of Lavezzola, Lonastrino, Lombarda, Conselice, and Mentu. As soon as the heavier aircraft completed their missions of the gth, fighter-bombers of DAF and XXII TAC set about their many tasks of close support. XXII TAC had as its chief targets enemy command posts and divisional headquarters. DAF concentrated on gun positions, strongpoints, and battalion and company headquarters. So thorough were the operations of the fighter-bombers that they even attacked dispatch riders, and so overwhelming was the Allied air superiority that as many as fifteen planes would gang up on a single enemy tank.181
+
+			Prior to the ground attack, Army commanders feared that the estimated 180 guns within the immediate assault area might hold up the advance but stated that if the air forces would neutralize these guns the Army could take care of German infantry and light weapons. In view of the limited gunfire which opposed Eighth Army's advance, the air attacks, particularly those on gun positions, obviously were extremely effective, and subsequent events indicated that the air forces did neutralize the guns. The Eighth Army lived up to its end of the bargain and, in fact, exceeded its estimated rate of advance.182 Following the saturation attacks on the afternoon of the 9th, New Zealand and Polish troops crossed the Senio between Lake Comacchio and Highway 9; by noon the next day Lugo was taken, and by evening of the 11th, Eighth Army had reached the general line of the Santerno on a three-divisional front and New Zealand troops were across the river. By the 13th, progress up Highway 9 pushed the enemy back across the Sillaro River, east of Bologna, while near the Adriatic coast Argenta had been captured and troops were moving through Argenta Gap toward Ferrara, whose capture would threaten encirclement of the entire German position. On Eighth Army's west flank, other forces were fighting toward the Idice River and Bologna.183
+
+			Aircraft of DAF, flying around the clock, averaged more than 500 sorties a day on enemy targets during the drive. Fighters by day attacked strongpoints, guns, and concentrations while at night Baltimores and Bostons, in addition to hitting similar targets north of Imola, Bastia, and Argenta, also bombed road junctions immediately behind the battle line at Sesto Imolese and Lavezzola and ammunition and supply dumps near Medicina, Argenta, Poggio Renatico, and Marradi.184 On every night save one from 9 through 14 April, SAF's 205 Group contributed to Eighth Army's progress. Its attacks, conforming to the ground advance, hit enemy positions along the Santerno River on the night of 9/10 April as a part of the over-all assault plan, then shifted to troop concentrations north of the Santerno at Lavezzola on 11/12, at Argenta on 12/13, and at Porto Maggiore, southeast of Ferrara, on 13/14. Even on the night of 10/11 April, 205 Group assisted the campaign, at least indirectly, by going after accumulations of supplies backed up at Innsbruck behind the blockade.185
+
+			After their hard blows ahead of Eighth Army on 9 and 10 April medium and heavy bombers on the 11th returned to the Brenner line, which the Germans apparently were hoping to restore to use. They thoroughly interdicted the line by cuts at Campo di Trens and Isarco-Albes bridge on the northern end, by knocking out all three San Michele bridges (two on the main line and one on the diversion) and the Lavis viaduct and diversion farther south, and by cutting bridges at Rovereto, Ala, and Parona, south of Trento. On the northeastern routes, the Germans maintained strong repair efforts, but they were watched so carefully that new air attacks invariably brought new cuts before previous damage could be overcome.186
+
+			In the meantime, Fifth Army had completed its preparations. General Clark had set 12 April as D-day but bad flying weather caused him to postpone the assault until the 14th, when U.S. IV Corps launched an attack preliminary to the main effort. XXII TAC, which since 10 April had been engaged in disrupting enemy lines of communicarions immediately in front of Fifth Army, now turned to close support. Its planes preceded the actual ground assault by a series of missions against guns and accompanied the subsequent action by bombing and strafing guns, occupied buildings, strongpoints, headquarters, and command posts, some by prearrangement and some by Rover Joe technique. XXII TAC continued to support the 10th Mountain Division of IV Corps throughout the next day, flying some 520 sorties.187
+
+			U.S. II Corps was to enter the ground battle on 24 hours' notice after IV Corps had launched its assault and straightened out the line.188 Consequently, on 15 April, in anticipation of Fifth Army's main push, the weight of MAAF's effort was switched to Fifth Army front. This marked the beginning of the most sustained heavy bomber close support effort ever undertaken in the Mediterranean. Although only two days of operations were called for, MASAF devoted four days to the 
+
+			--486--
+
+			effort, and between 15 and 18 April 2,052 heavy bombers struck a variety of targets between Bologna and the front lines along Highway 9, the main axis of Eighth Army's advance, and Highways 64 and 65, along which Fifth Army was advancing.189
+
+			XXII TAC meantime maintained 24-hour pressure on the enemy in front of Fifth Army. The command's planes flew more than 1,500 sorties from 16 through 19April, the largest portion of the effort being devoted to front-line targets, including guns, troop concentrations, strongpoints, and occupied bui1dings.190 B-25's, leaving enemy defenses to SAF and XXII TAC, devoted the bulk of their 274 effective sorties on 15 and 16 April to reserve areas and to the enemy's escape routes in the immediate vicinity of Bologna, destroying in addition to road and rail bridges on the outskirts of Bologna itself, the road bridge at Casalecchio on Highway 64, southwest of Bologna. Although continuing to devote a portion of their effort to these targets for the next three days, the B-25's expanded their operations to include reserve areas on the Eighth Army front and, in view of the urgent necessity of maintaining interdiction of the Brenner, to targets there as well.191
+
+			In the meantime, rapid progress had been made by Fifth Army. A week after the offensive opened the fate of Bologna was sealed. II Corps, advancing along the axis of Highway 65, by 20 April had captured Gessi, Casalecchio, and Riale, just west of Bologna, and 10th Mountain Division of IV Corps had cut the main German lateral artery south of the Po by crossing Highway 9; these advances, coupled with Eighth Army's drive from the east along Highway 9 and the threat to Ferrara in the north, left the enemy no alternative but to accelerate his withdrawal. The Germans now undertook a general withdrawal to the Po.
+
+			Once the enemy was driven from his defensive positions, it was necessary to establish as many blocks as possible north of the Po so as to hamper the retreat of any formations which might be able to run the gauntlet at that river. The Brenner line was a shambles, as were all of the other rail lines which the enemy might have wanted to use, and the time had now come to concentrate on road bridges over the Adige and Brenta rivers in northeastern Italy. The assignment was given to MASAF, under the code name of Operation CORNCOB, and in two days, 20 and 23 April, MASAF knocked out all nine road bridges over the Adige save one at Cararzere; medium bombers took care of it on the 24th. With the bridges destroyed the Germans north of the Po192 attempted 
+
+			--487--
+
+			to use some thirty-one ferry crossings available over the Adige, but patrolling fighters from DAF and from SAF made any large-scale crossing of the river virtually impossible. Crossings over the Brenta were not so successfully blocked, only seven out of the thirteen bridges receiving damage.193
+
+			Important though these operations were, in that they denied the enemy exit from Italy across the coastal plain, the Italian campaign actually was being won at the line of the Po River. The breakthrough west of Bologna and the rapid advance northward virtually split the German Tenth and Fourteenth Armies, and the enemy, recognizing that disaster was upon him, made a bolt for the north and attempted to scramble across the Po. Once again, driven from strongly prepared positions, he raced pell-mell northward, attempting to reach a rear area suitable to defense, but the cumulative effects of Allied aerial warfare could not be overcome. Disruption of communications not only had seriously curtailed his efforts to accumulate stocks of ammunition and other supplies but had forced him to rely increasingly on local production in Italy which was extremely vulnerable to Allied air attacks. Thus when the break came the enemy had neither the means to make a rapid withdrawal nor the ability to stave off the onrushing disaster. When he did reach the Po, he was finished. Since July 1944, the permanent Po crossings had been destroyed; in April 1945 their absence not only greatly hindered the German escape but left the Allied air forces free to concentrate on the congested ferry sites and pontoon bridges. On 21 April, following aerial reconnaissance of the previous night which revealed that the entire area from Ostiglia to Crespino was active with pontoon bridges and ferry activities, medium, light, and fighter-bombers of MATAF threw almost their entire effort, both by day and night, against the Po crossings, and continued the effort until the 24th.194 The amount of destruction between Bologna and the south bank of the Po will probably never be known, but that the battle of Italy was finally lost at the line of the Po was recognized by at least one German Commander. The commander of 14 Corps, Fourteenth Army, when questioned after the surrender about the effectiveness of the destruction of the Po River crossings, replied: 
+
+				That is what finished us. We could have withdrawn successfully 	with normal rear guard action despite the heavy pressure but due to the 	destruction of the ferries and river crossings we lost all our 	equipment. North of the river we were no longer an Army.195
+
+			--488--
+
+			By 25 April, with elements of both Fifth and Eighth Armies across the Po, the port of Genoa taken by Partisans, Mantova in Partisan hands and by-passed by Allied troops, and forward elements of Fifth Army within five miles of Verona, the enemy was all but finished. Not the least of his difficulties was the fact that the heavy destruction of M/T and the shortage of fuel forced him to rely on foot and animal transport. Under the circumstances, fighter-bombers began to find troop concentrations more profitable targets than vehicles. During the remaining days of the month, while both Eighth and Fifth Armies pushed triumphantly north, east, and west, cracking the Adige line and occupying city after city between Genoa and Venice, the situation remained fluid, with resistance spasmodic on the part of a broken foe. Fortunately for him, the weather, which completely grounded the medium and heavy bombers after 26 April, also limited the operations of the fighter-bombers.196 On 2 May, MATAF reported: "Due to lack of
+				targets and weather MATAF's operations were held to a minimum."197 
+
+			Actually, the war in Italy was over. On 2 May, as a culmination of negotiations begun on 29 April, hostilities in Italy ceased when the Germans signed terms of unconditional surrender. And so ended, abruptly and in complete defeat for the enemy, the Italian campaign, exactly twenty months to the day from the date when the Allies first landed on the peninsula. As Field Marshal Alexander has observed in his report on the last five months of the war: " The soldiers, sailors and airmen of so many nationalities who fought in Italy never had the pleasure of a conquering advance into the heart of Germany; they had none of the obvious targets before them which buoyed up the spirits of their comrades on the Western Front, but only one more mountain range or river to cross in the face of an enemy resistance which never seemed to weaken. Perhaps not very many of them realized how vital was the part they played but all could feel pride in the way in which they played it
+				and in the sense of duty well performed." 
+
+			--489--
+
+			Table of Contents
+
+				Previous Chapter (12) * * Next Chapter (14)
+
+			Notes to Chapter 13:
+
+			1. CM-OUT-23930, Marshall to Eisenhower and Devers, 1 Sept. 1944; CM-OUT-26119, Marshall to Eisenhower, 6 Sept. 1944; Mark Clark, Calculated Risk, pp. 394-437.
+
+			2. Ltr., CG MATAF to CG MAAF, TAF/156/1/Orgn., 5 July 1944; memo to All Concerned of Conference between Generals Eaker and Spaatz on 29-30 July 1944; interview with Gen. Eaker by Albert F. Simpson, 24-25 Jan. 1950.
+
+			3. Msgs., Cannon to Saville, GS119JC, 25 Aug., to Eaker, IE129JC, 25 Aug. 1944; to XII TAC, 87th FW, TWCAS A76, nd; msg., Darcy to Saville, GS44TD, 25 Aug. 1944.
+
+			4. SAC Conference, SAC (44) (Sp.), 20 Aug. 1944; ltr., Eaker to Arnold, 21 Aug. 1944.
+
+			5. 8th Army Intel. Sums. (Isums) 79098, 26 Aug.-4 Sept. 1944; AFHQ Weekly Isums 104-5, 28 Aug., 4 Sept. 1944; AAI Weekly Isurns 49, 60 of 31 Aug., 6 Sept. 1944; Hq. AAI, Operations Instruction 3, 16 Aug. 1944; msg., Wilson to Brit. CIS, JSM for US.C/S, MEDCOS 181, 2 Sept. 1944; Eaker interview by A. F. Simpson; Report by the SACMED to the CCS on the Italian Campaign, Pt. III, pp. 52-53, 56-60 (hereinafter cited as SACMED Rpt., It. Campaign).
+
+			6. Ltrs., Eaker to Devers, 30 Aug., and to Giles, 31 Aug. 1944; msg., Wilson to Brit. C/S, JSM for US. C/S, MEDCOS 181, 2 Sept. 1944.
+
+			7. Ltrs., Eaker to Devers, 30 Aug., and to Giles, 31 Aug. 1944; CM-OUT-29119, 27-29 Aug. 1944; msg., Cannon to Eaker, Marshall to Eisenhower, 6 Sept. 1944.
+
+			8. CM-IN-4490, personal from Marshall sgd. Eisenhower, 6 Sept. 1944; msg., SHAEF Fwd., sgd. Eisenhower for CCS, SACMED for Wilson, USSTAF for Spaatz, SHAEF Main for ETO, Brit. CIS, SCAF 77, 9 Sept. 1944.
+
+			9. Msg., CCS to SHAEF Main, SHAEF Fwd., AFHQ, FACS 76 for Eisenhower, FAN 413 for Wilson, 13 Sept. 1944; CCS 674, 11 Sept. 1944; CCS 674/1, 12 Sept. 1944.
+
+			10. CCS, 172d Mtg., OCTAGON Conf., 12 Sept. 1944; CCS 677, 12 Sept. 1944; CCS 677/1, 13 Sept. 1944.
+
+			11. CCS 677, 12 Sept. 1944; CCS 680/2, 16 Sept. 1944.
+
+			12. Hq. USSTAF DSMs 4 and 5 of 5 and 6 Oct. 1944; Minutes of Conference Held in Office of Gen. Spaatz, 7 Oct. 1944; ltr., Spaatz to Arnold, 16 Oct. 1944; ltr., Arnold to Spaatz, 2 Nov. 1944; telecon, Eaker and Giles, 13 Dec. 1944; Itr., Eaker to Giles, 21 Dec. 1944; ltr., Giles to Eaker, 28 Dec. 1944.
+
+			13. CCS 773, 31 Jan. 1945; CCS 773/1, 1 Feb. 1945; CCS 773/2. 1 Feb. 1945; CCS 773/3, 17 Feb. 1945; CCS, 185th Mtg., 2 Feb. 1945; msg., CCS to Eisenhower, FACS 151, and to Alexander, FAN 501, 2 Feb. 1945.
+
+			14. Hq. MATAF, Blockade, The Isolation of Italy from the Reich by Mediterranean Allied Tactical Air Force, 29 Aug. 1944-1 May 1945 (hereinafter cited as MATAF, Blockade), p. 23; Report by Field-Marshal the Viscount Alexander of Tunis on the Italian Campaign, 12th December 1944-2d May 1945 (draft) (hereinafter cited as Alexander, It. Campaign).
+
+			15. Msg., MATAF to DAF Adv., XII TAC Adv. and Rear, 242 Gp. , 62d FW, 63d FW, MACAF, MAAF, et al., A141,12 July 1944; Hq. MATAF, Opnl. Direc. 16, 6 Aug. 1944.
+
+			16. Adv. Hq. DAF Daily Isums 65-85, 7-25 Aug. 1944; Hq. MATAF Int/Opsums 482-502, 4-25 Aug. 1944; RAF Mediterranean Review 8, pp. 23, 25.
+
+			17. The sumniary of DAF operations, 26 Aug.-8 Sept. 1944, is taken from Adv. Hq. DAF Isums 86-99; RAF Med. Review 8, p. 30.
+
+			18. Hq. MASAF Intops Sums. 402-4, 27-29 Aug. 1944; msg., Cannon to Eaker, IE130JC, 24 Aug. 1944.
+
+			19. Msg., Darcy to Saville, GS40TD, 23 Aug 1944; Hq. 87th FW Isums 117 and 133, 21 Aug. and 6 Sept. 1944; MATAF Int/Opsums 498 and 508, 21 and 31 Aug. 1944.
+
+			20. Msgs., Saville to Cannon, JC70CS and JC67GS of 25 Aug., and to Darcy TD28CS, 25 Aug. 1944; msg., Cannon to Saville, GS121JC, 25 Aug. 1944.
+
+			21. The diversion of the 350th Fighter Group to offensive operations was part of a three-cornered switch. On 1 September it was decided to transfer the FAF 339th P-39 Squadron from CAF to XII TAC in France; 339th Squadron was replaced in CAF by RAF 251 Wing and the 350th Group was transferred from Corsica to Italy for employment on Fifth Army front, under the operational control of DAF. (See Min. of Mtg. Held at Advance Hq. DAF on 29 Aug. 1944; Hq. MATAF Opns. Record Book, 1944, pp. 44-45; Hq. MAAF, RAF Orgn. Memo 43, 11 Sept. 1944; Histories, 345th, 346th, 347th Ftr. Sqs., Aug.-Sept. 1944.)
+
+			22. SAC Conf., SAC (44), 78th Mtg., 12 Aug. 1944; AAI Opns. Order 3. 16 Aug. 1944; msg., Wilson to Brit. C/S, MEDCOS 181, 2 Sept. 1944; 5th Army History, VII ,19-20.
+
+			23. History, 12th AF (draft), Pt. II, chap. x; 57th BW Int/Opsums 1-8, 1-8 Sept. 1944; 42d BW Stinopsums 218-24, 19 Sept. 1944; msg., Cannon to Eaker, IEI21JC, 20 Aug. 1944; 15th AF Weekly Sum. of Opns., 4-10 Sept. 1944; Hq. MAAF, Interdiction of Communications Weekly Status Rpts., 5, 11, 18 Sept. 1944; MATAF, Blockade, p. 23.
+
+			24. 42d BW Stinopsums 224-25, 9-10 Sept. 1944.
+
+			25. MATAF Int/Opsums 516-27, 9-20 Sept. 1944; Adv. Hq. DAF Isums 100-111, 9-20 Sept. 1944; RAF Med. Review 8, pp. 39-40.
+
+			26. MATAF Opnl. Instr. 10, 8 Sept. 1944; msg., Hq. MATAF to 42d BW; TWACT L733, L806, L837, L838, L878, L884, all of p-10 Sept. 1944; 57th BW Int/Opsum 9, 9 Sept. 1944; 42d BW Stinopsurn 226, 11 Sept. 1944.
+
+			27. Msgs., MATAF to 42d BW, 57th BW, and others, TWACT L715 and L927, 11 Sept. 1944.
+
+			28. 57th BW Int/Opsuni 12, 12 Sept.1944; 42d BW Stinopsum 227, 12 Sept. 1944; History, 42d BW, Sept. 1944; 5th Army History, VII, 83.
+
+			29. Msgs., MATAF to 42d BW, 57th BW, and others, TWACT L965, L974, L990, L1030, L1035, all of 12-13 Sept. 1944; 57th BW Int/Opsum 13, 13 Sept.1944; 42d BW Stinopsums 229-30, 13-14 Sept. 1944.
+
+			30. Msgs., MATAF to 42d BW, 57th HW, and others, TWACT L1076, L1098, L1135, L1142, all of 14 Sept. 1944; 57th BW Int/Opsums 15-16, 15-16 Sept. 1944.
+
+			31. 8th Army Isurns 797-810, 3-21 Sept. 1944; AAI Isums 60-62, 6, 13, 22 Sept. 1944; AFHQ Isums 106-8, 11,18, 25 Sept. 1944; 5th Army History, VII, 119-51.
+
+			32. Sum. of DAF Opns., 9-21 Sept., taken from Adv. Hq. DAF Isums 100-113, 9-21 Sept. 1944; RAF Med. Review 2. 8, pp. 35-36.
+
+			33. MATAF Opnl. Instr. 9, 25 Aug. 1944; History, 12th AF (draft), Pt. II. chap. x.
+
+			34. Msg., DAF Adv. to Hq. MATAF, n.n., 6 Sept. 1944; msg., MATAF to 57th BW, TWACT L635, 5 Sept. 1944; msg., Cannon to Knapp, RK64JC, 5 Sept. 1944; MATAF Opnl. Instrs. 9A and 9B, 5-6 Sept. 1944.
+
+			35. Msg., MATAF to TAF (Italy), personal for D'Albiac from Cannon, TWACT L679, 6 Sept. 1944; msgs. MATAF to 42d BW, 57th BW, DAF Adv., TAF (Italy), XII TAC Opns. A, XII TAC Adv., 63d FW, MASAF, 12th AF, MAAF, 87th FW, n.n., 6 Sept. 1944, TWACT L703, L745, L993, 7-9 Sept. 1944; msgs., MATAF to DAF Adv., TWACT L742, L643, L731, L746, 6-8 Sept. 1944; MATAF Opnl. Instr s. 9A and 9B, 5-6 Sept. 1944.
+
+			36. 42d BW Stinopsum 229,14 Sept. 1944; 57th BW Int/Opsum 14, 14 Sept. 1944; Adv. Hq. DAF Isum 105, 14 Sept. 1944.
+
+			37. 57th BW Int/Opsums 15-21, 15-21 Sept. 1944; 42d BW Stinopsunis 224-36, 9-21 Sept. 1944.
+
+			38. AAI Isum 62, 22 Sept. 1944; RAF Med. Review 8. p. 36; MATAF ORB, 1944 1 p. 47.
+
+			39. Msg., Wilson to Brit. C/S, JSM for US. C/S, MEDCOS 181, 2 Sept. 1944.
+
+			40. AFHQ Isum 108, 25 Sept. 1944. The same optimistic note is in MAAF Air Intelligence Weekly Summary 97. 25 Sept. 1944, and in AAI Intelligence Suminary 62, 22 Sept. 1944.
+
+			41. Hq. MATAF, Recommended Interdiction of Enemy Communications Northern Italy, 20 Sept. 1944, and Intel. Appreciation 4, 30 Sept. 1944; MATAF, Blockade, pp. 23-24.
+
+			42. 42d BW Stinopsums 234, 240 of 22, 30 Sept. 1944; History, 12th AF (draft), Pt. II, chap. x; MAAF, Interdiction of Comms. Weekly Status Rpts., 26 Sept., 1 Oct. 1944; Coffin Rpt., Annex G, Pt. II.
+
+			43. History, 12th AF (draft), Pt. II, chap. xi; MAAF, Interdiction of Comms. Weekly Status Rpts. for Oct. 1944; 42d BW Stinopsums 234-40, 22-30 Sept. 1944; 57th BW Int/Opsunis, Oct. 2. 1944.
+
+			44. Organization of Coastal Air Force, Notes of Meeting Held 1st Sept. 1944; History of MAAF, IA, 257.
+
+			45. Msgs., Cannon to Saville, GSjtJC, 1 Sept., to Morris, EM79JC, 2 Sept., and Cannon sgd. Spaatz to Chidlaw, IE7CS, 5 Sept. 1944; msg., Chidlaw to Cannon at SHAEF Rear, n.n., 5 Sept. 1944; Hq. XII FC GO 58, 12 Sept. 1944; Hq. MAAF GO 17, 20 Sept. 1944; Hq. MATAF Memo I, 11 Sept. 1944; msgs., Cannon to Col. Monahan, JM93JC, and to Eaker, IE195JC, 11 Sept. 1944; 12th AF GO's 164, 174, of 11, 19 Sept. 1944.
+
+			46. Msg., Eaker to AAFSC/MTO, 12th AF, XII AFSC, MX30546, 7 Sept. 1944; msg., USSTAF sgd. Spaatz to AEAF, personal for Royce, SHAEF Fwd. 366/17, 17 Sept. 1944; msg., Cannon sgd. Eaker to Cannon bounce to Vandenberg, JC266IE, 20 Sept. 1944; ltr., Lt. Col. Robert W. Green, Chief, Opns. Sec. and Col. John J. OHara, Jr. to CG IX AFSC, 20 Sept. 1944; memo for Gen. Vandenberg from Brig. Gen. R. E. Nugent, Dcp. C/S Opns., 21 Sept. 1944; msg., Cannon to Saville, GS105JC, 24 Sept. 1944; msg., Eaker to Spaatz, CS2381E, n.d.; msgs., Spaatz to Cannon thru Eaker, IE27CS, JC1CS, 26 Sept. 1944; Itr., Royce to Cannon, 26 Sept. 1944.
+
+			47. Hq. AAF/MTO, Min. of Mtg. Held at Caserta, on 27-28 Sept. 1944; msg., Cannon to Eaker for Spaatz, CS1JC, 29 Sept. 1944; msg., Eaker to Spaatz, personal 15, 1 Oct. 1944.
+
+			48. Msg., 12th AF sgd. Cannon to CG XII FC, CG XII TAC, TWACT 0722, 18 Oct. 1944; Hq. 12th AF GO 201,19 Oct. 1944.
+
+			49. Msg., MATAF to "X" TAC, DAF, TAF (Italy), XII TAC Adv., MASAF, MAAF, AAI Adv., 5th Army,
+				8th Army, TWAS A431, 18 Sept. 1944.
+
+			50. MATAF Opnl. Direc. 17, 12 Sept. 1944; msg., MATAF to A/Cdre. Hudles ton, AOC DAF, "X" TAC,
+				TWAS A433, 18 Sept. 1944.
+
+			51. Msg. to Hudleston as cited in n. 50; msgs., MATAF to DAF Adv., XII FC, (Italy), TWCAS A542 and A185, 24 Sept., 9 Oct. 1944; RAF Med. Review 9, p. 21; MATAF Opnl. Direc. 21, 3 Nov. 2. 1944.
+
+			52. Histories, 47th Bomb. Grp. , 27th, 57th, 79th, 86th, and 350th Ftr. Gps., 414th, 416th, and 417th Night Ftr. Sqs., Sept. 1944; XII FC Station List, 26 Sept. 1944.
+
+			53. The 57th Group moved to Italy from Corsica early in September but did not become operational until the 27th due to field maintenance. The 86th Group was in the process of moving from Corsica on the 20th, but completed the move quickly and flew its first mission under XII Fighter Command on 22 September. The flight echelon of the 47th Bombardment Group was in France on the 20th but the planes had returned to Italy by the 24th, joining the rear echelon which had moved from Corsica. The 414th Night Fighter Squadron began flying patrols on the 26th. (See Histories, 350th, 57th, and 86th Ftr. Gps., 414th, 416th Night Ftr. Sqs., 47th Bomb. Grp. , Sept. and Oct. 1944; History, XXII TAC, 20 Sept.-31 Dec. 1944; Adv. Hq. DAF Isums 111-24, 20 Sept.-4 Oct. 1944; XXII TAC Sum. of Opns., Period 20-30 Sept. 1944.)
+
+			54. Hq. MATAF Monthly Air Intel. and Opns. Bull. 1, Nov. 1944.
+
+			55. Hq. MATAF Int/Opsums 429-537, 21 Sept.-1 Oct. 1944; Adv. Hq. DAF Isums 111-20, 21-30 Sept. 1944; RAF Med. Review 8, pp. 44-45.
+
+			56. MAAF Monthly Stat. Sums. 11-12, Sept.-Oct. 1944; Hq. MATAF, Operations for Months Sept. and Oct., Light and Medium Bomber Operations, and also Fighter and Fighter-Bomber Operations.
+
+			57. Adv. Hq. DAF Isums 121-48, 1-31 Oct. 1944; RAF Med. Review 9, p. 21.
+
+			58. XII FC Daily Isums 10-22, 1-18 Oct. 1944; XXII TAC Daily Isums 23-34, 19-31 Oct. 1944; RAF Med. .Review 9, p. 21; MATAF, Blockade, p. 38.
+
+			59. RAF Med. Review 9, pp. 19-20; Adv. Hq. DAF Isums 121-24, 1-4 Oct. 1944.
+
+			60. Ltr., CG XXII TAC to CG MATAF, 20 Oct. 1944; ltr., Eaker to Clark, 3 Oct. 1944; extracts from press conference of Gen. Clark, 5th Army, 2 Oct. 1944.
+
+			61. History, 12th AF (draft), Pt. II, chap x; MATAF Opnl. Instr . 13, 10 Oct. 1944; 57th BW Int/Opsums 12-13, 12-13 Oct. 1944; 15th AF Weekly Sum. of Opns., 9-15 Oct. 1944; History, 15th AF, 0ct.-Dec. 1944; Hq. 15th AF, Army Cooperation-Bologna, 12 Oct. 1944; 42d BW Stinopsums 246-48, 11-13 Oct. 1944.
+
+			62. XII FC Isums 15-17, 11-13 Oct. 1944; History, 12th AF (draft), Pt. II, chap. x.
+
+			63. Hq. 5th Army G-2 Rpt. 424, Annex A, 3 Nov. 1944. See also Hq. 5th Army, PRU Report on Targets in Bologna Area Attacked on 12 Oct. 1944, and G-2 Sec., Interrogation Center Report 814, IPW, 19 Oct. 1944; RAF Med. Review 9, p. t9.
+
+			64. XII FC Isums 19-22, 14-18 Oct. 1944; XXII TAC Isums 23-25,19-21 Oct. 1944; Hq. 5th Army G-2 Rpt 424, Annex A, 3 NOV.1944.
+
+			65. SAC Conf., SAC (44) 112, 23 Oct. 1944; msg., SACMED to CCS, MEDCOS 205, 24 Oct. 1944; CM-IN-28407 and CM-IN-3954, Adv. Hq. AAI to AFHQ, personal for Wilson for approval prior to dispatch to Marshall and Brooke, 30 Oct. and 4 Nov. 1944; CM-IN-5691, AFHQ to War Cabinet Offices, JSM for US. JCS, 6 Nov. 1944; ltr., Hq. 5th Army to CG II Corps, CG IV Corps, GOC XIII Corps, GOC 6SA Armored Div., 2 Nov. 1944; ltr., Adv. Hq. AAI to CG 5th Army, GOC 8th Army, CG MATAF, 20 Nov. 1944; AAI Opns. Order 4, 28 Nov. 1944; 5th Army Opns. Insu. 36, 29 Nov. 1944; SACMED Rpt., It. Campaign, Pt. III pp. 82-84.
+
+			66. 57th BW Int/Opsums 14-31,14-31 Oct. 1944, and 1-3, 1-3 Nov. 1944; 42d BW Stinopsums 249-60, 14 Oct.-3 Nov. 1944; XXII TAC Isums 26-34, 22 Oct.-1 NOV. 1944.
+
+			67. CM-IN-9804, Wilson to Brit. C/S, JSM for US. C/S, 9 Oct. 1944; msg., Wilson to Brit. C/S, JSM for U.S.CIS, MEDCOS 205, 24 Oct. 1944; SAC Conf., SAC (44) 112, 23 Oct. 1944. and 103d Mtg., 24 Oct. 1944; CM-IN-5691, AFHQ to War Cab., JSM for U.S. C/S, 4 Nov. 1944.
+
+			68. Msg., AFHQ to WD, MEDCOS 210, 22 Nov. 1944; SAC Conf., 113th Mtg., 21 Nov. 1944; CCS 677/2-677/5, 31 Oct., 17, 21, 24 Nov. 1944; SACMED Rpt., It. Campaign, Pt. III, pp. 84, 88.
+
+			69. AFHQ Isums 114-15,6 and 13 Nov. 1944; Adv. Hq. DAF Isums 154-56,7-9 Nov. 1944; 42d BW Stinopsum 264, 7 Nov. 1944; MATAF IntfOpsums Bull. I, Nov. 1944; RAF Med. Review 9, p. 25.
+
+			70. 57th BW Int/Opsums 13-20, 13-20 Nov. 1944; 42d BW Stinopsum 269,15 Nov. 1944; RAF Med. Review 9, p. 26; SACMED Rpt., It. Campaign, Pt. III, p. 84.
+
+			71. MATAF Opnl. Instr . 15,19 Nov. 1944; 57th BW Int/Opsums 21-24, 21-24 Nov. 1944; MATAF Int/Opsum Bull. I, NOV.1944.
+
+			72. Adv. Hq. DAF Isums 166-69, 21-24 Nov. 1944; RAF Med. Review 9, p. 26; SACMED Rpt., It. Campaign, Pt. III, pp. 85-87.
+
+			73. RAF Med. Review 9, p. 26; AAI Isum 71, 28 Nov. 1944.
+
+			74. Hq. MATAF, Rec. Interdiction of Enemy Comm. N. Italy, 20 Sept. 1944, and Intel. Appre. 4-5, 30 Sept., 28 Oct. 2. 1944.
+
+			75. Msg., MATAF to TAF (Italy), n.n., 29 Aug. 1944; msg., TAF (Italy) to MATAF, nn., 30 Aug. 1944; Loose Minute, Maj. W. N. Mallory MATAF Target Sec. to W/Cdre. D.I. Wiseman Chief Intel. Off., MATAF, 31 Aug. 1944. with note from W/Cdre. Wiseman to SASO.
+
+			76. MATAF, Blockade, pp. 22-23; MAAF Opns. Instr. 83, 13 Sept, 1944; msg., Pottenger to MAAF, TWACT A538, 24 Sept. 1944; msg., Cabell to Cannon, sgd. Eaker, 25 Sept. 1944.
+
+			77. MASAF Intops Sums. 401-4, 410, 26-29 Aug., 4 Sept. 1944; 15th AF Weekly Sum. of Opns., 21-27 Aug., 28 Aug.-3 Sept., 4-10 Sept. 1944; Coffin Rpt., Annex G. Pt. II; 57th BW Int/Opsums 29-31,29-31 Aug. 1944 and I, 1 Sept. 1944; 42d BW Stinopsums 215-17, 29-31 Aug. 1944; Hq. MAAF, Interdiction of Comm. Weekly Status Rpt., 5 Sept. 1944.
+
+			78. 57th BW Int/Opsums 22-30, 22-30 Sept. 1944; MATAF, Blockade, p. 25.
+
+			79. MASAF Intops Sum. 429, 23 Sept. 1944; 15th AF Weekly Sum. of Opns., 18-24 Sept. 1944; Coffin Rpt., Annex G, Pt. II; MAAF, Interdiction of Comm. Weekly Status Rpt., 26 Sept. 1944.
+
+			80. Hq. MATAF Intel. Appre. 4, 30 Sept. 1944; msg., MAAF to MASAF and IMATAF, MX 32896, 1 Oct. 1944.
+
+			81. 42d BW Stinopsums 241-59,1-31 Oct. 1944; History, 12th AF, Pt. II, chap. xi; MATAF, Blockade, p. 33; MASAF Intops Sums. 447, 459, 10 and 23 Oct. 1944; MATAF, Interdiction of Comm. Weekly Status Rpts., 9, 16, 23, 30 Oct. 1944; MATAF, Blockade, p. 33.
+
+			82. MATAF, Rec. Interdiction of Enemy Comm. N. Italy, 20 Sept. 1944. and Intel. Appre. 4, 30 Sept. 1944; MASAF Intops Sum. 440, 4 Oct. 1944; 15th AF Weekly Sum. of Opns., 2-8 Oct. 1944; 42d BW Stinopsums 242, 248-53, 3 and 13-20 Oct. 1944; MAAF, Interdiction of Comm. Weekly Status Rpts., 9, 16, 23 Oct. 1944.
+
+			83. MASAF Intops Sums. 446, 456, 10 and 20 Oct. 1944; 15th AF Weekly Sums. of Opns., 9-15, 16-22 Oct. 1944; msg., 15th AF to All Wings and XV FC, 15th AF D1976, 22 Oct. 1944; A-3 Planning Mtg., 22 Oct. 1944.
+
+			84. MATAF Intel. Appre. 5, 28 Oct. 1944 
+
+			85. For Allied contemporaneous intelligence see: AFHQ Isums 111-13, of 16, 23, 30 Oct. 1944; AAI Isums 59-62, 65-67 of 31 Aug.-22 Sept., 19 Oct.-1 Nov. 1944; MAAF, Interdiction of Comm. Weekly Status Rpts., Sept. and Oct. 1944; MATAF Intel. Appre. 5, 28 Oct. 1944; MATAF Intops Bull. 1, Nov. 1944.
+
+			86. AAI Isum 63, 29 Sept. 1944; MATAF Intel. Appre. 5, 28 Oct. 1944; AFHQ Combined Weekly Isum 5 ,6 Feb. 1945, which traces the removal of Italian industries from the time of the Italian armistice to date; Hq. MATAF Periodic Intel. Note 47, 28 Dec. 1944, which is a breakdown of rolling stock movement for the month of October through the Brenner and Tarvisio routes, the two most important supply routes in Italy.
+
+			87. MATAF Opnl. Direc. 21, 3 Nov. 1944.
+
+			88. MATAF Opnl. Instr . 14, 27 Oct. 1944; msgs., Cannon to Eaker for Twining, IE225JC, NT68JC, 5 Nov. 1944; Hq. MATAF, Operation BINGO, 20 Jan. 1945.
+
+			89. MATAF, Target Appre. 7, 23 Oct. 1944; Coffin Rpt., Annex G, Pt. II; MATAF Intops Bull. I, Nov. 1944; msg., MATAF, Siena, sgd. Cannon to MATAF, Caserta, TWACT D587, 27 Oct. 1944; MATAF, Opn. BINGO, 20 Jan. 1945.
+
+			90. MATAF Target Appre. 7, 23 Oct. 1944; MATAF Opnl. Instr . 14, 27 Oct. 1944; msgs., Cannon to Eaker for Twining, IE225JC, NT68JC, 5 Nov. 1944.
+
+			91. 57th BW Int/Opsum, 6 Nov. 1944; XXII TAC Isum 38, 7 Nov. 1944; Adv. Hq. DAF Isum 153, 6 Nov. 1944; 42d BW Stinopsums 26-63, 4-6 Nov. 1944; MATAF, Opn. BINGO; MATAF Intops Bull. I, Nov. 1944; MATAF, Blockade, p. 35; Coffin Rpt., Annex G, Pt. II.
+
+			92. See paper, Effects of Allied Air Attacks on German Transportation System, prepared by G/Capt. D. I. Wiseman, Chief Intel. Off., MATAF, 24 May 1945, based on intr. of Gen. von Vietinghoff, C-in-C, Army Gp. C, and Oberst Schnez, and docs. furnished by them; memo for Armament and Ord. Off., Hq.MATAF, from Capt. Raymond J. Lohr, Results of Interrogation of Chief of German Railroad Transport in Italy, 17 May 1945; Transformer Sub-Stations on the Lower Brenner Line, in MATAF Intops Bull. 7, May 1945.
+
+			93. MASAF Intops Sum. 473, 6 Nov. 1944; 15th AF Weekly Sum. of Opns, 6-12 Nov. 1944; 336 PR Wing Interpretation Rpt. D.B. 254, 7 Nov. 1944; msg., 15th, 4F to All Wings and XV FC, D-2138, 10 Nov. 1944.
+
+			94. Ltr., Spaatz to CG 8th AF, CG 15th AF, 1 Sept. 1944; Directive agreed by DC/AS and Gen. Spaatz, 23 Sept.1944; MAAF Opns. Instrs. 83, 87 of 13 Sept., 19 Oct. 1944.
+
+			95. Ltr., Spaatz to CG 8th AF, CG 15th AF, 1 Nov. 1944; USSTAF, Directive 2 for the Control of Strategic Air Forces in Europe, 1 Nov. 1944; msg., Spaatz to Eaker for Twining, IE70CS,1 Nov. 1944.
+
+			96. Msg., Eaker to CG MASAF, CG MATAF, MX 36832, 11 Nov. 1944.
+
+			97. MAAF Opns. Instr. 88, 16 Nov. 1944.
+
+			98. Ibid. In October MATAF was made responsible for the selection of MASAF's targets in Italy with the exception of the Brenner. (See MAAF Opns. Instr. 87, 19 Oct. 1944; msg., Pottenger to MAAF and MASAF, 24 Oct. 1944;msg., 12th AF sgd. Cannon to MASAF and MAAF, D2391, 5 Dec. 1944; msg., MAAF to CG MATAF, CG MASAF, MX 40839, 13 Dec. 1944; ltr., MATAF to C-in-C MAAF, 17 Dec. 1944.)
+
+			99. 42d BW Stinopsums 266, 268, 271-72, 10, 13, 17-18 Nov. 1944; Hq. 57th BW, Battle of the Brenner, pp. 20-21, 31; MATAF, Blockade, pp. 35-36, 39; MATAF Intops Bulls. 1-2, Nov.-Dec. 1944; MAAF, Interdiction of Comms. Weekly Status Rpts., Nov.-Dec. 1944; 57th BW Int/Opsums, 1-19 Nov., 2 and 10 Dec, 1944.
+
+			100. MAAF, Interdiction of Comms. Weekly Status Rpts., Dec. 1944; AAI Isums 72-73, 5 and 12 Dec. 1944; 15th Army Gp. Isums 74-75, 19 and 27 Dec. 1944.
+
+			101. MATAF, Blockade, p. 36; MAAF, Interdiction of Comms. Weekly Status Rpts., 13 Nov. 1944-3 Jan. 1945.
+
+			102. 42d BW Stinopsums 260-73, 3-19 Nov. 1944; 57th BW Int/Opsums, 1-17 Nov. 1944; MATAF, Blockade, p. 36, 39; MAAF, Interdiction of Comms. Weekly Status Rpts., Nov. and 5 Dec. 1944; AAI Isums 69-71, 16, 22, 28 Nov. 1944; MATAF Intops Bull. I, Nov. 1944.
+
+			103. MATAF Intops Bull. 2, Dec. 1944; MAAF, Interdiction of Comms. Weekly Status Rpts., Dec. 1944; MATAF, Blockade, pp. 39-40; RAF Med. Review 9, p. 35; 57th BW Int/Opsums, 1-25 Dec. 1944.
+
+			104. USSTAF DSM's 4, 5, 5-6 Oct. 1944; Min. of Conf. Held in Office of Gen. Spaatz, 7 Oct. 1944; CCS 680/2, 16 Sept. 1944.
+
+			105. Hq. MAAF, Caserta, Notes on Conference, 13 Oct. 1944; ltr., Eaker to Maj. Gen. I. H. Edwards, 13 Oct. 1944; ltr., Spaatz to Arnold, 16 Oct. 1944; msg., Eaker to Spaatz, CS301IE, 19 Oct. 1944; Hq. USSTAF, Min. of Mtg. Held at Caserta, 14 Oct. 1944 with Respect to Transfer of 42d Wing and Certain Service Units to France, 22 Oct. 1944.
+
+			106. Ltr., CG USSTAF to CG ETO, 2 Nov. 1944, msg., ETOUSA (Spaatz sgd. Eisenhower) to MTO, WD, 1st TAF (Prov.) for Royce, EX61466, XI Nov. 1944; msg., Eaker to CG's 12th AF, XII AFSC, and 42d BW, MX37156, 15 Nov. 1944; msg., Eaker to CG's XII TAC, XII AFSC, MX37158, 15 Nov. 1944; Hq. 12th AF GO'S zzs, 240, 5 and 19 Nov. 1944.
+
+			107. CM-OUT-65175, Marshall to Mc-Narney, 18 Nov. 1944; msg., Eaker to Cannon, JC319IE, 19 Nov. 1944.
+
+			108. Memo, Col. p. M. Spicer to CG MATAF, 19 Nov. 1944; ltr., Eaker to McNarney, 21 Nov. 1944; CM-IN-20805, McNarney to Marshall, 21 Nov. 1944; CM-IN-27792, Eaker sgd. McNarney to Arnold, 28 Nov. 1944; CM-OUT-68425, sgd. Marshall to CG's USAF and USAAF, POA, 25 Nov. 1944; 12th AF GO 6, 10 Jan. 1945; History, 319th Bomb. Grp., Dec. 1944-Aug. 1945.
+
+			109. MATAF, Blockade, p. 38; msg., Pottenger to DAF Adv. and XXII TAC, 22 NOV.1944.
+
+			110. MATAF Intops Bulls. I, 2, Nov.-Dec. 1944; MATAF, Blockade, pp. 38-40; RAF Med. Review 9, pp. 27, 35.
+
+			111. Msg., Pottenger to DAF Adv. and XXII TAC, 22 Nov. 1944; Adv. Hq. DAF Isums 167-91, 22 Nov.-31 Dec. 1944; MATAF, Blockade, pp. 38-39.
+
+			112. Msg., Pottenger to XXII TAC and DAF, 1 Dec. 1944; MATAF, Blockade, pp. 36-38.
+
+			113. History, XXII TAC, 20 Sept.-31 Dec. 1944, p. 78-79; History, 47th Bomb. Gp. (L), Nov.-Dec. 1944; MATAF Intops Bull. 2, Dec. 1944; XXII TAC Opns. Orders 4-5, 9 and 13 Nov. 1944.
+
+			114. Msg., Pottenger to XXII TAC and DAF, 1 Dec. 1944; MATAF, Blockade, pp. 36-38; Hq.XXII TAC Night Directives, 47th Bomb. Grp. (L), Dec. 1944; Min. of Conf. Held at Hq. BAF on 29 Oct. 1944; MATAF Opnl. Direcs. 21-21A, 3 and 9 Nov. 1944.
+
+			115. Hq. MATAF, Rec. Interdiction of Enemy Comms. N. Italy, 20 Sept. 1944; Hq. MATAF Intel. Appres. 4-5, 30 Sept. and 28 Oct. 1944.
+
+			116. MATAF Opnl. Direc. 21, 3 Nov. 1944; 57th BW Int/Opsums, 10-11 Nov. 1944; History, XXII TAC, 20 Sept.-31 Dec. 1944, I, 93-99; MATAF Intops Bull. I, Nov. 1944; RAF Med. Review 9, p. 28.
+
+			117. MATAF Intops Bull. 2, Dec. 1944; RAF Med. Review 9, p. 36.
+
+			118. See sources in notes 43 and 44.
+
+			119. MAAF Monthly Stat. Sums. 11-18, Aug. 1944 -Dec. 1945; MAAF Order of Battle, as of 30 Apr., 31 Aug., 31 Oct. 1944.
+
+			120. For MACAF's operations, 1 Sept.1944 -May 1945, see MAAF Central Med. Opnl. Sums. 254-497, 1 Sept. 1944-2 May 1945; MAAF Isums 94-129, 4 Sept. 1944 11 May 1945.
+
+			121. MASAF Intops Sum. 410, 4 Sept. 1944; 15th AF Weekly Sum. of Opns., 4-10 Sept. 1944; msg., Twining to Eaker, Spaatz, and Arnold, n.n., 5 Sept.1944; msg., C-in-C Med. to MAAF, personal for Eaker, 6 Sept. 1944; Estimates of the Situation, 1-15 Sept. 1944, AHB 6, Trans. No. VII/82, in Air Min.; Coffin Kpt., Vol. VII, Pt. 7.
+
+			122. Ltr., Eaker to Arnold, 1 Oct. 1944; 57th BW Int/Opsum, 23 Sept. 1944.
+
+			123. Ltr., Eaker to Col. W. F. Champan, CO 340th Bomb. Grp. , 3 Oct. 1944.
+
+			124. MATAF Intops Bull. I, Nov. 1944; RAF Med. Review 9, p. 30; 57th RW Int/Opsum, 28 Nov. 1944.
+
+			125. Msg., MATAF to
+				CG's 42d BW, 57th BW, "X" TAC, DAF, TWACT A454, 19 Sept. 1944.
+
+			126. German propaganda left no doubt but that this opposition was furnished by the IFRAF. (See 42d BW Stinopsums 252-54. 260, 19-21 Oct. and 3 Nov. 1944; AFHQ Isum 113, 1 Nov. 1944; MATAF Int/Opsums 556-58, 19-21 Oct. 1944; Adv. Hq. DAF hums 140, 148, 21 and 31 Oct. 1944.) 
+
+			127. 42d BW Stinopsums 260-62, 266, of 3-5, 10 Nov. 1944; 57th BW Int/Op-sums, 1-7 and 11 Nov. 1944; MATAF Int/Opsum 578, 10 Nov. 1944.
+
+			128. History, XXII TAC, 20 Sept.-31 Dec. 1944, I; History, 12th AF (draft), Pt. II; MATAF Intops Bull. I; MATAF Opnl. Direc. 22, 14 Nov. 1944.
+
+			129. MASAF Intops Sums. 471, 483-84, 4 and 16-17 Nov. 1944.
+
+			130. MAAF Isum 105, 20 Nov. 1944; 15th AF A-3 Mtg. Notes, 17 Nov. 1944; msg., 15th AF to all wings and XV FC, D2205, 17 Nov. 1944; MASAF Intops Sum. 485, 18 Nov. 1944.
+
+			131. MAAF ORB, 1944, pp. 56-57, 59; SAC Conf., SAC (44) 118, 5 Nov. 1944; Hq. 12th AF, Troop Carrier Opns. 1944, 15 Mar. 1945; MATAF Intops Bulls. 1 and 2.
+
+			132. AFHQ Isums 104-13, 30 Aug.-30 Oct. 1944; Edgar McInnis, The War: Fifth Year, pp. 318-23; History of the Balkan Air Force, July 1945; RAF Med. Review 9, pp. 55-82; Coffin Rpt., Vol. III; CM-IN-28155, AFHQ to WD, 29 Oct. 1944; CM-IN-23276, CG AFHQ to WD, 26 Nov. 1944.
+
+			133. Coffin Rpt., Vol. III; MAAF Isums 93-94, 28 Aug. and 4 Sept. 1944; History, MAAF, Vol. IA; MASAF Intops Sums. 396-406, 21-31 Aug. 1944; 15th AF Weekly Sums. of Opns., 21 Aug.-3 Sept. 1944.
+
+			134. 15th AF Weekly Sums. of Opns., 14 Aug.-3 Sept. 1944; MASAF Intops Sums. 405-7, 30 Aug.-1 Sept. 1944; Coffin Rpt., Vol. III; History, 15th AF, II, 173-74.
+
+			135. Ltr., Col. P. M. Barr, Deputy AC/ S, A-2 15th AF to C/S, 25 Aug 1944; 15th AF A-2 Mtg. Notes, 25 Aug. 1944; 15th AF Target and Duty Sheets, Sept.Oct. 1944; MASAF Monthly Stat. Sum., Sept. 1944; MASAF Intops Sums. 407-36, 1-30 Sept. 1944; MAAF Isums 94-98, 4 Sept.-2 Oct. 1944; MAAF, Interdiction of Comms. Weekly Status Rpt., 26 Sept. 1944; History, 15th AF, II, 299.
+
+			136. Msg., Spaatz to Eaker for Twining, IE55CS, 19 Oct. 1944.
+
+			137. On 9 August, General Wilson and Marshal Tito had agreed upon a coordinated effort to destroy all main rail lines in Yugoslavia. (See SAC Conf., Discussion with Marshal Tito, SAC [44], 74, 9 Aug. 1944; History of the Balkan Air Force, July 1945, pp. 10-11.)
+
+			138. 15th AF Target and Duty Sheets, Sept. 1944; MASAF Intops Sums. 407-14, 1-8 Sept. 1944; 15th AF Weekly Sums. of Opns., 28 Aug.-9 Sept. 1944; History, 15th AF, I, 465-66; BAF Weekly Sums. 9-10, 3 and 10 Sept. 1944; History of the Balkan Air Force, pp. 138-39; Coffin Rpt., Vol. III.
+
+			139. MASAF Intops Sums. 420-30, 1424 Sept. 1944; MAAF Isums 96, 98 of 18 Sept., 2 Oct. 1944; 15th AF Weekly Sums. of Opns., 11-25 Sept. 1944.
+
+			140. MATAF Intops Sums. 450, 453-54 of 14, 17-18 Oct. 1944; History, 15th AF, 11, 299; RAF Med. Review 9, pp. 55-82; History of the Balkan Air Force, pp. 23-28, 100-103; Hq. 12th AF Troop Carrier Opns. 1944; MATAF Intops Bulls. 1-2.
+
+			141. RAF Med. Review 9, pp. 61-63.
+
+			142. Min. of Conf. Held at Hq. BAF on 29 Oct. 1944; MATAF Opnl. Direcs. 2-21A, 3 and 9 Nov. 1944.
+
+			143. MATAF Intops Bull. I; Adv. Hq. DAF Isums 149-72, 1 Nov.-1 Dec. 1944; 15th AF Target and Duty Sheets, Nov. 1944; RAF Med. Review 9, p. 67. 
+
+			144. History, MAAF, Vol. IA, chap. 44. xvii; John R. Deane, The Strange Alliance: The Story of Our Efforts at Wartiwe Cooperation with Russia (NewYork, 1947), chap. vm; interview with Gen. Eaker by Albert F. Simpson, 24-25 Jan. 1950; interview with Col. John F. Batjer by Robert T. Finney, 16 July 1951.
+
+			145. CM-IN-6817, Deane to JCS, 8 Sept. 1944; CM-IN-8275, Harriman and Deane to Arnold, 9 Sept. 1944; CM-IN7853, Harriman, Walsh, Deane to Arnold personal, 9 Sept. 1944; CM-OUT-27434, Arnold to Deane and Walsh, 8 Sept. 1944; CM-IN-15794, Wilson to Arnold, 17 Sept. 1944; CM-IN-28813, Wilson to AGWAR, 30 Sept. 1944; CM-IN-15461, Eaker to Arnold, 16 Oct. 1944.
+
+			146. Investigation revealed that a startling similarity between the briefed target and the target actually attacked was responsible for the navigational error. (See CM-IN-12918, Faker sgd. McNartiey to Marshall and Deane, 14 Nov. 1944; CM-IN-9840, Eaker to Arnold, Spaatz, Deane, Batjer, and Twining, 10 Nov. 1944.
+
+			147. CM-IN-9448, Deane to JCS, 10 Nov. 1944; msg., CCS to Wilson, FAN 454, 20 Nov. 1944.
+
+			148. CM-OUT-65545, JCS to Deane, McNarney, and Eaker, 19 Nov. 1944; CM-IN-21828, Wilson to CCS, 22 Nov. 1944; msg., Eaker to Deane, n.n., 22 Nov. 1944; ltr., Eaker to C/S AFHQ, 22 Nov. 1944.
+
+			149. CM-OUT-60623, JCS to Dedne, 10 Nov. 1944; CM-IN-9448, Deane to JCS, 10 Nov. 1944; CM-IN-27795, Deane to Wilson and CCS, 28 Nov. 1944; CM-OUT-69568, CCS to Deane, Archer, Eisenhower, and Wilson, 28 Nov. 1944; CM-IN-28017, Spdatz to Arnold personal, 29 Nov. 1944; CM-IN-29777, Deane to CCS, 30 Nov. 1944; CM-IN-4403, Deane to CCS, 5 Dec. 1944; CM-IN-10068, Wilson to CCS. 10 Dec. 1944; CM-IN-9026, Spaatz to Arnold, 9 Dec. 1944; CM-IN-28413, Archer and Deane to CCS, 29 Dec. 1944; CM-IN-8316, Archer and Hill sgd. Deane to Eaker, Spaatz, CCS, Brit. C/S, 10 Jan. 1945; CM-OUT-21167, CCS to Deane, Archer, Alexander, and Spaatz, 15 Jan. 1945; Deane, Strange Alliance, chap. viii; CM-IN-22187, Deane to CCS, 23 Nov. 1944; CM-OUT-67985, CCS to Deane and Archer, 24 Nov. 1944; CM-OUT-67986, CCS to Wilson, Eisenhower, and Spaatz, 24 Nov. 1944; CM-OUT-67900, JCS to Deane, 24 Nov. 1944.
+
+			150. CM-IN-26907, Wilson to CCS, 28 Nov. 1944; CM-IN-26659, Wilson to CCS, 30 Nov. 1944; CM-IN-29777, Deane and Archer to CCS, 30 Nov. 1944; CM-OUT-71154, CCS to Deane, Archer, and Wilson, 1 Dec. 1944; CM-OUT-2116 CCS to Deane, Archer, Alexander, and Spaatz, 15 Jan. 1945; History, MAAF, Vol. IA, chap. xvii.
+
+			151. SAC Confs., SAC (O) 132, 29 Dec. 1944, and SAC (O) (45) 1st Mtg., 8 Jan. 1945; msg., SACMED to CCS, MEDCOS 228, 8 Jan. 1945; ltr., AFHQ to CG 15th AG, Comdr. BAD, Comdr. L.F.M.L.G., C-in-C Med., C-in-C ME, Air C-in-C Med., 16 Jan. 1945; Alexander, The Italian Campaign, pp. 5, 13-15; SACMED Rpt., It. Campaign, Pt. III, pp. 87-90.
+
+			152. MATAF, Opnl. Direc. 23, 9 Jan. 1945.
+
+			153. Msg., Spaatz to Eaker, IEI132CS, 24 Dec. 1944; msg., Eaker to Twining and Cannon, JC340IE, 25 Dec. 1944.
+
+			154. Msg., MAAF to BAF, SAF, TAF, CAF, MX 41554, 21 Dec. 1944; msg. Rear MACMIS, BAF to MACMIS, 243, 26 Dec. 1944; MATAF, Blockade.
+
+			155. MASAF Intops Sums. 523-28, 532, 26-31 Dec. 1944, 4 Jan. 1945.
+
+			156. MATAF Intops Bull. 2; MATAF, Blockade, pp. 45-47; MAAF, Interdiction of Comms. Weekly Status Rpt., 3 Jan. 1945.
+
+			157. Adv. Hq. DAF Isums 184-91, 21-31 Dec. 1944; MATAF, Blockade, pp. 4549.
+
+			158. 57th BW, Battle of the Brenner; 57th BW Int/Opsums, 1-31 Jan. 1945; MATAF Intops Bull. 3, Jan. 1945; MATAF, Blockade, p. 53; RAF Med. Review 10, p. 11.
+
+			159. 57th BW Int/Opsums, 1-31 Jan. 1945; ltr., CG XXII TAC to CG MATAF, 8 Jan. 1945; memo from CG XXII TAC for CG 5th Army, 8 Jan. 1945; XXII TAC Isums 89-113, 1-31 Jan. 1945; Adv. Hq. DAF Isums 192-211, 1-31 Jan. 1945; MATAF, Blockade, pp. 51-53; RAF Med. Review 10, p. 18.
+
+			160. RAF Med. Review 10, pp. 11, 18; 15th Army Gp. Isums 78-79, 23 Jan., 30 Jan. 1945; MATAF, Blockade, p. 49.
+
+			161. Msg., Eaker to CG MASAF, info. CG MATAF, MX 44684, 28 Jan. 1945; msg., Pottenger to XXII TAC, DAF, 57th BW, n.n., 27 Jan. 1945; msg., Pottenger to XXII TAC and DAF, D5232, 15 Feb. 1945; MATAF Intops Bull. 4, Feb. 1945; 15th Army Gp. Isms 78-83, 30 Jan., 6, 13, 20, 27 Feb. 1945; MATAF, Blockade, p. 53. In March, 715th Inf. Div. was also withdrawn from Italy, and as in the case of the other two divisions, from three weeks to a month was required to clear the frontier. (See MATAF, Blockade, p. 63; 15th Army Gp. Isums 84-87, 6, 13, 10, 27 Mar. 1945.)
+
+			162. MATAF, Blockade, p. 54; Alexander, It. Campaign, p. 16; 57th BW, Battle of the Brenner.
+
+			163. Msg., MATAF to MAAF, D4511, 27 Jan. 1945; msg., Eaker to Twining, MX44684, n.d.; msg., MATAF to MASAF and MAAF, D4912, 7 Feb. 1945; msg., Cannon to Eaker, IE301JC, 8 Feb. 1945; msg., Eaker to Cannon, JC356IE, 9 Feb. 1945.
+
+			164. MASAF Intops Sums. 582-83, 587, 23-24 and 28 Feb. 1945.
+
+			165. MAAF, Interdiction of Comms. Weekly Status Rpt., 1 Mar. 1945; MATAF, Blockade, pp. 54, 59. See also, n. 161.
+
+			166. Msg., SACMED to CCS, MEDCOS 228, 8 Jan. 1945; msg., AFHQ, Malta to Hq. MAAF, Cabell for Eaker, A559, 30 Jan. 1945; ltr., Cabell to Eaker, 30 Jan. 1945; memo for CCS, Proposed Movement of Major Portion of 12th U.S Air Force from Mediterranean to France, and paper, Transfer of Twelfth Air Force to Western Front, last two documents prepared by Brig. Gen. C. p. Cabell, MAAF representative at the Malta conference, the first for submission to the CCS and the latter for submission to the U.S. JCS, through Kuter, as presentation of the MTO point of view regarding the proposed move; msg., Alexander and Cabell to Eaker and Cannon, Cricket MX45003, 1 Feb. 1945; ltr., Cabell to Eaker, 2 Feb. 1945; msg., CCS to Alexander and Eisenhower, FAN 501 to Alexander and FACS 151 to Eisenhower (CM-IN-2583, CCS to AGWAR), 2 Feb. 1945; msg., Alexander to Eaker and McNarney, Cricket 63, 2 Feb. 1945. A coniplete file of documents dealing with the proposed move of units from MTO to ETO may be found in MAAF volunie titled Operation GOLDFLAKE, the code name given the move, in AFSHO. See also, Alexander, It. Campaign, pp. 20-21.
+
+			167. An interesting difference in the understanding of General Eaker and General Spaatz regarding the move is noted in ltrs., Eaker to McNarney, 7 Feb. 1945 and Spaatz to Giles, 9 Feb. 1945.
+
+			168. Msg., Spaatz to Eaker, IE171CS, 3 Feb. 1945; msg., Eaker to Spaatz, personal 107, 4 Feb. 1945; msg., Spaatz to Eaker, IE172CS, 4 Feb. 1945; msg., Alexander to SHAEF for action to AGWAR for CCS for info., AMSSO for Brit. C/S, NAF 851,4 Feb. 1945; msg., Alexander to SHAEF, FX 21285, 7 Feb. 1945; msg., SHAEF Main sgd. Eisenhower to APHQ, to AGWAR for CCS for info., S-77936, 5 Feb. 1945; msg., SHAEF Main, Gen. Noce sgd. Eisenhower to AFHQ for Gen. Harding, S78202, 7 Feb. 1945; ltr., Eaker to McNarney, 7 Feb. 1945; msg., Alexander to SHAEF Main AGWAR for CCS, Brit. C/S, FX 22925, NAF 855, 8 Feb. 1945; msg., Alexander to SHAEF, CCS, Brit. C/S, FX 22945, NAF 856, 8 Feb. 1945; msg., Eaker to Spaatz, CS627IE, 8 Feb. 1945; ltr., Eaker to A/M Slessor, Dep. Adm., Dir. of Opns,. Dir. of Signals, Chief of Plans, and Maj. Gen. John K. Cannon, 9 Feb. 1945; msg., SHAEF Main sgd. Eisenhower to AGWAR for CCS and AMMSO for Brit. C/S, AFHQ for Alexander, S78349, 8 Feb. 1945; msg., Alexander to SHAEF Main, FX 23438, NAF 858, 9 Feb. 1945; msg., SACMED to MAAF, AAFSC/MTO, ETOUSA, SHAEF Main, AAF/MTO, FX 23890, 9 Feb. 1945.
+
+			169. Msg., Eaker to CG 12th AF, CG AAFSC/MTO, info. to CG ETOUSA, MX 45739, 9 Feb. 1945; msg., SACMED to PENBASE, FX 23986, 9 Feb. 1945, Hq. 12th AF GO 45, 6 Mar. 1945; Histories, 27th and 86th Ftr. Gps. and 319th Air Service Gp., Feb. 1945.
+
+			170. History, MAAF, Vol. IA; McInnis, The War: Sixth Year, pp. 154-58; William D. Leahy, I Was There (New York, 1950) pp. 329-35.
+
+			171. Hq. 5th Army, Outline Plan, Operation CRAFTSMAN, 10 Mar. 1945; 5th Army Opns. Instr. 7, 1 Apr. 1945; 5th Army History, IX, 23; Alexander, It. Campaign, p. 23.
+
+			172. History, MAAF, IA, 263; AAF/ MTO GO 30, 24 Mar. 1945; Hq. MAAF GO 5. Mar. 1945; CM-IN-56649, Marshall to McNarney, Eisenhower, and Spaatz, 21 Mar. 1945; CM-OUT-67633, sgd. Marshall to McNarney, 23 Mar. 1945; CM-OUT-57664, Marshall to Mc-Narney, 23 Mar. 1945; Hq. XXII TAC GO 34, 6 Apr. 1945.
+
+			173. Hq. MAAF Opns. Instr. IIZ, Apr. 1945.
+
+			174. Ltr., Hq. MATAF to AOC DAF and CG XXII TAC, 12 Mar. 1945; MATAF Opnl. Instr. 17A, 7 Apr. 1945.
+
+			175. MAAF, Interdiction of Comms. Weekly Status Rpt., IL Apr. 1945; 15th Army Gp. Isum 89, 9 Apr. 1945;MATAF, Blockade, pp. 61-70; MATAF Intops Bulls. 5-6, Mar.-Apr. 1945; RAF Med. Review 10, pp. 22, 24, 40; Hq. MATAF, Operation WOWSER.
+
+			176. Hq. USSTAF Direc. 3 for Strategic Air Forces in Europe, 12 Jan. 1945; MAAF, Opns. Instrs. 101,109, 20 Jan. and 1 Mar: 1945.
+
+			177. Msg. . Eaker to CG MASAF, MX 47916, 6 Mar. 1945; CM-IN-8139, Amold to Giles, 9 Apr. 1945; msg., MATAF to CGs MASAF and MAAF, D7494, 6 Apr. 1945.
+
+			178. Hq. USSTAF Direc. 4 for Strategic Air Forces in Europe, 13 Apr. 1945; msg., Spaatz to Doolittle and Twining thru Cannon, NT18CS, 16 Apr. 1945; MAAF Opns. Instr. 115, 23 Apr. 1945.
+
+			179. MATAF Opnl. Instr . 17A, 7 Apr. 1945; MASAF Intops Sum. 627, 9 Apr. 1945; Adv. Hq. DAF Isum 263, 9 Apr. 1945.
+
+			180. Concerning the safety measures taken for the employment of heavy bombers in this close support role, see: Notes on Agreements Reached between Representatives of XXII TAC, MA4TAF, and 15th AF, n.d.; ltr., Hq. 5th Army to CG II Corps, 10 Apr. 1945; memo for G-3 from Hq. 5th Army, 31 Mar. 1945; MATAF, Opnl. Instr. 17A, 7 Apr. 1945; Agreement Reached at Conference between MATAF, 15th AF, and XXII TAC, 29 Mar. 1945; Adv. Hq. DAF Opns. Order 25,6 Apr. 1945; Revised Plan for Operation BUCKLAND, Agenda for Conference of Wing A-2 and A-3 Personnel at Hq. 15th AF, 7 Apr. 1945.
+
+			181. MATAF Opnl. Instr . 17A, 7 Apr.1945; 15th AF Weekly Sum. of Opns., 8-14 Apr. 1945; Hq. 15th AF, Opn. WOWSER, 31 May 1945; 57th BW Int/ Opsums, 9-10 Apr. 1945; Adv. Hq. DAF Isums 263-64, 9-10 Apr. 1945; Alexander, It. Campaign, p. 29; Hq. MATAF, Opn. WOWSER; 15th AF FO 189, 8 Apr. 1945. For details see 15th AF Mission Rpts., 9-10 Apr. 1945, and Mission Sums. of the five wings under 15th AF.
+
+			182. Hq. MATAF, Opn. WOWSER. It was reported that New Zealand troops crossed the Senio early in the operation without a single casualty -- killed, wounded, or prisoner. (See RAF Med. Review 10, p 3. For German reaction to the bombing, see Hq. 5th Army G-2 Rpt. 596, 24 Apr. 1945.)
+
+			183. 15th Army Gp. Isum 90, 17 Apr. 1945; RAF Med. Review 10, pp. 31-32.
+
+			184. Adv. Hq. DAF Isums 265-68, 11-14 Apr. 1945.
+
+			185. MASAF Intops Sunis. 628-32, 10-14 Apr. 1945.
+
+			186. 15th AF Weekly Sum. of Opns., 8-14 Apr. 1945; 57th BW Int/Opsums, 11-14 Apr. 1945; Hq. MAAF, Interdiction of Comms. Weekly Status Rpts., 12 and 19 Apr. 1945.
+
+			187. History, XXII TAC, Jan.-May 1945; Hq. MATAF, Opn. WOWSER; Alexander, It. Campaign, p. 30.
+
+			188. Hq. 5th Army, Outline Plan, Opn. CRAFTSMAN, 10 Mar. 1945; Hq. 5th Army Opns. Instr. 7, I Apr. 1945; 5th Army History, IX, 23.
+
+			189. MATAF Opnl. Instr . 17A, 7 Apr.1945; Hq. DAF Opns. Order 24, 6 Apr. 1945; msgs., Twining to all units, 15th AF, D3772, D3782, 14-15 Apr. 1945; 15th AF Weekly Sum. of Opns., 15-21 Apr. 1945; Alexander, It. Campaign, p. 30; 15th AF Mission Rpts., 15-18 Apr. 1945.
+
+			190. Hq. XXII TAC Isums 184-88, 16-20 Apr. 1945; Hq. MATAF, Opn.WOWSER.
+
+			191. 57th BW Int/Opsums, 15-19 Apr. 1945.
+
+			192. 15th Army Gp. Isums 90-91, 17 and 24 Apr. 1945; 5th Army History, IX; Alexander, It. Campaign, p. 31.
+
+			193. Msg., Chidlaw to MAAF and MASAF, TWACT D8148, 19 Apr. 1945; msgs., 15th AF to MATAF, MACAF, and others, E2364, D3857, 19-20 Apr.1945; A-3 Mtg. Notes, 19 Apr. 1945;MATAF Opnl. Instr. 19, 17 Apr. 1945; MASAF Intops Sums. 638-44, 20-26 Apr. 1945; msg., Hq. 15th AF to all units, D3880, 22 Apr. 1945; A-3 Mtg., 22 Apr. 1945; 57th BW Int/Opsum, 24 Apr. 1945; RAF Med. Review 10, p. 39; Hq. MATAF, Opn. WOWSER.
+
+			194. Hq. MATAF, Opn. WOWSER; RAF Med. Review 10, pp. 37-38; 57th BW Int/Opsums, 21-24 Apr. 1945; XXII TAC Isums 189-92, 21-24 Apr. 1945; Adv. Hq. DAF Isums 275-78, 21-24 Apr. 1945. 
+
+			195. Interrogation of General Armored Forces von Senger, CG XIV Corps, 14th Army Gp. , 4 May 1945, in History, MAAF, Vol. XXXVIII.
+
+			196. 57th BW Int/Opsums, 26-30 Apr., 1-2 May 1945; MASAF Intops Sums. 644-50, 26 Apr.-2 May 1945; XXII TAC Isums 194-200, 26 Apr.-2 May 1945; Adv. Hq. DAF Isums 280-86, 26 Apr.-2 May 1945.
+
+			197. Hq. MATAF Int/Opsum 750, 2 May 1945.
+
+		Table of Contents
+
+			Previous Chapter (12) * * Next Chapter (14)
+
+		Transcribed and formatted for HTML by Patrick Clancey and Terry Welshans for the HyperWar Foundation
+

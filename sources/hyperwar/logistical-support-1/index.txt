@@ -1,0 +1,646 @@
+
+
+HyperWar: Logistical Support of the Armies, Vol. I
+
+United States Army in World War II
+
+European Theater of Operations
+
+Logistical Support of the Armies
+Volume I: May 1941--September 1944
+
+by
+Roland G. Ruppenthal
+
+OFFICE OF THE CHIEF OF MILITARY HISTORY
+
+DEPARTMENT OF THE ARMY 
+
+WASHINGTON, D.C., 1953
+
+. . . to Those Who Served
+
+CONTENTS
+
+	Forward	
+	vii	
+
+	Introductory Note	
+	viii	
+
+	Preface	
+	ix	
+
+	Chapter	
+
+	Page	
+
+	Principal Commanders and Staff Officers	
+	1	
+
+	THE UNITED KINGDOM BUILD-UP	
+
+	I.	
+	Origins of the European Theater of Operations, 1941-June 1942	
+	13	
+
+	(1)	
+	The United States "Observes" the War in Europe	
+	13	
+
+	(2)	
+	The Occupation of Iceland	
+	17	
+
+	(3)	
+	American Troops Go to Northern Ireland	
+	19	
+
+	(4)	
+	Establishing an Air Force in the United Kingdom	
+	26	
+
+	(5)	
+	The Formation of the Services of Supply and Activation of ETOUSA	
+	31	
+
+	(6)	
+	The Heritage of SPOBS and USAFBI	
+	44	
+
+	II.	
+	The SOS and ETOUSA in 1942	
+	52	
+
+	(1)	
+	BOLERO Is Born	
+	52	
+
+	(2)	
+	BOLERO Planning in the United Kingdom, May-July 1942: the First Key Plans	
+	59	
+
+	(3)	
+	The SOS Organizes, June-July 1942	
+	76	
+
+	(4)	
+	TORCH Intervenes	
+	87	
+
+	(5)	
+	BOLERO's Status at the End of 1942	
+	99	
+
+	III.	
+	The Build-Up in Stride, 1943	
+	114	
+
+	(1)	
+	BOLERO in Limbo, January-April 1943	
+
+	(2)	
+	The Troop Build-up Is Resumed, May-December 1943	
+
+	(3)	
+	The Flow of Cargo in 1943	
+
+	(4)	
+	Troop and Cargo Reception	
+
+	(5)	
+	Command and Organizational Changes in 1943	
+
+	PREPARING FOR CONTINENTAL INVASION	
+
+	IV.	
+	The Inception of OVERLORD and Its Logistic Aspects	
+	175	
+
+	(1)	
+	Early Planning for Cross-Channel Operations	
+	175	
+
+	(2)	
+	Logistic Considerations in the Evolution of the OVERLORD Plan	
+	178	
+
+	V.	
+	Command and Organization, and the Assignment of Planning Responsibilities, January-June 1944	
+	190	
+
+	(1)	
+	Formation of the Major Commands	
+	190	
+
+	(2)	
+	Consolidation of ETOUSA and SOS	
+	195	
+
+	(3)	
+	Assignment of Command and Planning Responsibilities	
+	203	
+
+	(4)	
+	Forward Echelon, Communications Zone (FECOMZ)	
+	207	
+
+	(5)	
+	Advance Section, Communications Zone (ADSEC)	
+	211	
+
+	(6)	
+	Continental Base Sections	
+	216	
+
+	(7)	
+	Final Command Arrangements	
+	219	
+
+	VI.	
+	The Completion of BOLERO	
+	231	
+
+	(1)	
+	The Flow of Troops and Cargo, January-May 1944	
+	231	
+
+	(2)	
+	Construction and Local Procurement, 1943-May 1944	
+	240	
+
+	(3)	
+	The SOS on the Eve of OVERLORD	
+	258	
+
+	VII.	
+	The OVERLORD Logistical Plan	
+	269	
+
+	(1)	
+	The Artificial Port	
+	269	
+
+	(2)	
+	Beach Organization	
+	282	
+
+	(3)	
+	Port Reconstruction	
+	285	
+
+	(4)	
+	Troop Build-up and Replacements	
+	297	
+
+	(5)	
+	The Supply Plan	
+	306	
+
+	(6)	
+	The Depot Structure	
+	312	
+
+	(7)	
+	Transportation	
+	314	
+
+	(8)	
+	The Supply of POL	
+	319	
+
+	VIII.	
+	Training and Rehearsing for Cross-Channel Invasion	
+	328	
+
+	(1)	
+	Earlier Amphibious Experience	
+	328	
+
+	(2)	
+	The Training Schools and First Exercises	
+	334	
+
+	(3)	
+	The Assault Training Center and Engineer Special Brigades	
+	339	
+
+	(4)	
+	Major Exercises	
+	345	
+
+	(5)	
+	Final Rehearsals	
+	350	
+
+	OVERLORD IS SET IN MOTION, MAY-JULY 1944	
+
+	IX.	
+	Mounting the Operation	
+	357	
+
+	(1)	
+	The Mounting Problem and Plan	
+	357	
+
+	(2)	
+	The Mounting Begins	
+	363	
+
+	X.	
+	Launching the Invasion: Organizing the Beaches	
+	374	
+
+	(1)	
+	Tactical Developments in June	
+	374	
+
+	(2)	
+	OMAHA Beach on D Day	
+	377	
+
+	(3)	
+	UTAH Beach on D Day	
+	384	
+
+	(4)	
+	Development of the OMAHA Area	
+	389	
+
+	(5)	
+	Development of the UTAH Area	
+	397	
+
+	(6)	
+	The Beach Ports	
+	402	
+
+	(7)	
+	The Great Storm of 19-22 June	
+	406	
+
+	(8)	
+	The Build-up to 30 June	
+	415	
+
+	(9)	
+	Cross-Channel Movement	
+	422	
+
+	XI.	
+	The Logistic Outlook in June and July	
+	427	
+
+	(1)	
+	Tactical Development, 1-24 July	
+	427	
+
+	(2)	
+	The Normandy Supply Base	
+	430	
+
+	(3)	
+	The Status of Supply	
+	439	
+
+	(4)	
+	Troop Build-up	
+	449	
+
+	(5)	
+	Replacements	
+	458	
+
+	(6)	
+	The Ports	
+	463	
+
+	THE LOGISTICS OF RAPID MOVEMENT, AUGUST--MID-SEPTEMBER 1944	
+
+	XII.	
+	Breakout and Pursuit	
+	475	
+
+	(1)	
+	Tactical Developments	
+	475	
+
+	(2)	
+	The Logistic Implications of Changing Plans	
+	481	
+
+	XIII.	
+	"Frantic Supply"	
+	489	
+
+	(1)	
+	The Character of Supply Operations in the Pursuit	
+	489	
+
+	(2)	
+	Gasoline--"the Red Blood of War"	
+	499	
+
+	(3)	
+	Classes I, II, and IV Supply	
+	516	
+
+	(4)	
+	Ammunition	
+	525	
+
+	XIV.	
+	Transportation in the Pursuit	
+	544	
+
+	(1)	
+	The Railways	
+	544	
+
+	(2)	
+	Motor Transport	
+	553	
+
+	(3)	
+	Supply by Air	
+	572	
+
+	GLOSSARY	
+
+	CODE NAMES	
+
+	BIBLIOGRAPHICAL NOTE	
+	591	
+
+	INDEX	
+	597	
+
+TABLES	
+
+	1.	
+	Troop Build-up in the United Kingdom, January 1942-February 1943	
+	100	
+
+	2.	
+	Cargo Flow to the United Kingdom, January 1942-May 1943	
+	103	
+
+	3.	
+	Troop Build-up in the United Kingdom in 1943	
+	129	
+
+	4.	
+	Cargo Flow to the United Kingdom in 1943	
+	135	
+
+	5.	
+	Troop BUild-up in the United Kingdom, August 1943-May 1944	
+	232	
+
+	6.	
+	Cargo Flow to the United Kingdom, November 1943-July 1944	
+	237	
+
+	7.	
+	Supply Build-up Over the Beaches, 6-30 June 1944	
+	416	
+
+	8.	
+	Vehicle Build-up Over the Beaches, 6-30 June 1944	
+	418	
+
+	9.	
+	Troop Build-up Over the Beaches, 6-30 June 1944	
+	420	
+
+	10.	
+	Gasoline Supply of First and Third Armies, 30 July-16 September 1944	
+	503	
+
+	11.	
+	Cargo Transported by Air, 20 August-16 September 1944	
+	581	
+
+CHARTS	
+
+	1.	
+	Early Command
+			and Staff Organization of ETOUSA	
+	45	
+
+	2.	
+	The BOLERO
+			Administrative Organization in the United Kingdom	
+	63	
+
+	3.	
+	Organization of the
+			Services of Supply, ETOUSA, 109 August 1942	
+	79	
+
+	4.	
+	ETOUSA and SOS Command
+			and Organizational Structure, August 1943	
+	165	
+
+	5.	
+	ETOUSA's Organization
+			After the Consolidation of 17 January 1944	
+	199	
+
+	6.	
+	Planned Command
+			Arrangements for OVERLORD	
+	224	
+
+MAPS	
+
+	1.	
+	European Theater
+			of Operations, 16 June 1942	
+	41	
+
+	2.	
+	Regional Organization of SOS
+			in the United Kingdom	
+	85	
+
+	3.	
+	ETO Boundary Changes	
+	112	
+
+	4.	
+	Ports Considered in Invasion
+			Planning	
+	180	
+
+	5.	
+	The Final
+			OVERLORD Plan	
+
+	6.	
+	U.S. General Depots and
+			Major Training Sites, May 1944	
+	249	
+
+	7.	
+	Plan for
+			MULBERRY A at OMAHA Beach	
+	279	
+
+	8.	
+	The CHASTITY Plan	
+	295	
+
+	9.	
+	OVERLORD
+			Rail and Pipeline Plans	
+	316	
+
+	10.	
+
+	11.	
+
+	12.	
+
+	13.	
+
+	14.	
+
+	15.	
+
+	16.	
+
+	17.	
+
+	18.	
+
+ILLUSTRATIONS	
+
+	The Special
+		Observers Group	
+	15	
+
+	Headquarters, ETO	
+	17	
+
+	John G. Winant,
+		U.S. Ambassador to Britain	
+	24	
+
+	Nissen Hut Quarters	
+	25	
+
+	General Lee	
+	34	
+
+	Crates of Partially Assembled Jeeps	
+	67	
+
+	British "Goods Vans"	
+	68	
+
+	English Railway Station Scene	
+	69	
+
+	General Hawley	
+	72	
+
+	Headquarters, SOS, Near Cheltenham	
+	82	
+
+	Headquarters, SOS, Near Cheltenham	
+	82	
+
+	General Littlejohn	
+	98	
+
+	General Moore	
+	101	
+
+	Deck-Loaded General Grant Medium Tanks	
+	102	
+
+	Motor Convoy	
+	143	
+
+	Motor Convoy	
+	143	
+
+	Tenders Alongside the Queen Elizabeth	
+	147	
+
+	US-Built Locomotives	
+	151	
+
+	Roadside Storage	
+	153	
+
+	Roadside Storage	
+	153	
+
+	General Depot at Ashchurch	
+	155	
+
+	General Depot at Ashchurch	
+	155	
+
+	Jeep Assembly Line	
+	157	
+
+	General Crawford	
+	166	
+
+	General Lord	
+	167	
+
+	General Moses	
+	206	
+
+	General Plank	
+	212	
+
+	Stocking Supplies and Equipment	
+	228	
+
+	Stocking Supplies and Equipment	
+	228	
+
+	Invasion Equipment	
+	229	
+
+	Invasion Equipment	
+	229	
+
+	Typical Medical Installations	
+	245	
+
+	Typical Medical Installations	
+	245	
+
+	Aerial Views of a Station Hospital	
+	247	
+
+	U.S. Airfied Construction in England	
+	252	
+
+	U.S. Airfied Construction in England	
+	252	
+
+	General Stratton	
+	266	
+
+	Caissons	
+	274	
+
+	Caissons	
+	274	
+
+	Lobnitz Pierhead	
+	276	
+
+	Aerial View of Cherbourg	
+	291	
+
+Transcribed and formatted for HTML by Stephen Svonavec, HyperWar Foundation
+

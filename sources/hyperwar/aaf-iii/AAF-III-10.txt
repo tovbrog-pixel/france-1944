@@ -1,0 +1,755 @@
+
+
+		HyperWar: Army Air Forces in World War II Volume III: Europe: ARGUMENT to V-E Day, January 1944 to May 1945 Chapter 10
+
+			Section III
+
+			* * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+			 Italy
+
+			 Chapter 10: Anzio 
+
+				THE concentration of Allied effort after 1943 on the invasion of western Europe unavoidably  had relegated military operations in the Mediterranean area to a position of secondary importance. Following the final expulsion of Axis forces from North Africa in May 1943,the Allies by their rapid conquest of Pantelleria, Sicily, and the southern half of the Italian mainland had forced Italy out of the war, seized the key port of Naples, and captured the great complex of airfields around Foggia by 1 October. With the additional insurance provided by the occupation of Sardinia and the conquest of Corsica, it had been possible to reopen the Mediterranean to Allied shipping and to move forward to the Italian mainland an expanded strategic bomber force for a major share in the climactic phase of the Combined Bomber Offensive. At the close of 1943 plans were also being shaped for an amphibious thrust (ANVIL) from Mediterranean bases into southern France that would coincide closely with the landings in Normandy. Though no longer the main theater of operations, the Mediterranean nevertheless would support an active participation in the final assault on the main centers of German power. Such at any rate was the expectation.
+
+			That hope proved well enough founded in the case of the heavy bombers. Certainly from the spring of 1944, and especially in operations against the enemy's oil targets, the Fifteenth Air Force played a major, even a distinguished, part.* But by December 1943 the Allied ground campaign in Italy had come to a halt just above the Volturno 
+
+			* For the sake of unity in the story of the CBO and of subsequent strategic operations, that part of Fifteenth Air Force activity is recounted elsewhere. (See above, Chaps. 1, 2, 6, 9, and below, Chaps. 18, 20, 22.) In this section, the primary concern with Fifteenth Air Force operations is to record the support provided for the Italian ground campaigns.
+
+			--325--
+
+			and Sangro rivers in the face of smart German resistance, a rugged terrain, and wretched weather. Thereafter a winter of bitter frustration so delayed the Allied advance that the occupation of Rome did not come until 4 June 1944, just two days prior to the invasion of western France, and the scheduled invasion of southern France would not be mounted until the middle of August. The story recounted in the following section thus becomes for the most part the narrative of a distinct and separate phase of the European war -- a phase more frequently having its effect on the main theater of activity by indirect than by direct influence.
+
+			 The Administrative Structure 
+
+			When Lt. Gen. Ira C. Eaker reached Italy in mid-January 1944 to assume command of the Mediterranean Allied Air Forces (MAAF),* he took over a job much more complex than the one he had held in the United Kingdom. There he had only one major program, to bomb the German war potential in western Europe, and this he did with one air force, the Eighth. In the Mediterranean he had three primary tasks -- to share USSTAF's responsibility for the Combined Bomber Offensive, to support the ground campaign in Italy, and to keep the sea lanes open and provide protection for logistical establishments. For the accomplishment of these tasks he depended upon three distinct air forces -- Strategic, Tactical, and Coastal (MASAF under command of Maj. Gen. Nathan F. Twining, MATAF under Maj. Gen. John K. Cannon, and MACAF under Air Vice Marshal Sir Hugh P. Lloyd) -- each a combined RAF-AAF command with its own distinct mission but each, under certain conditions, obligated to work closely with the others. Eaker also had many secondary tasks: he must expand Allied aid to the Balkan partisans, continue the build-up and utilization of French and various other Allied elements of his command, complete the reorganization instituted by the establishment of MAAF, move forward from Africa and Sicily into Italy and Corsica important elements of his command, and whip into shape the rapidly expanding and still somewhat disorganized Fifteenth Air Force. Not only were his duties diverse but his responsibility extended from Casablanca to Cairo (RAF Middle East now was under MAAF) and from Tripoli to Foggia, and his command was not restricted to American units as it 
+
+			* For discussion of the steps leading to establishment of this command, see Vol. II, 714-51.
+
+			--326--
+
+			had been in England but he now commanded units representing more than half a dozen nations.1 
+
+			The organization of Allied forces in the Mediterranean long had been one which provided true unity of command for operations but preserved national distinctions for purposes of administration, and key commanders, be they British or American, usually wore two hats. Separate from the operational chain of command which ran from MAAF to its several combat elements were two administrative chains, one American, the other British. These were headed respectively by Eaker, in his capacity as commander of the Army Air Forces, Mediterranean Theater of Operations, and by Eaker's deputy in MAAF, Air Marshal Sir John C. Slessor. In actual practice each of these top administrative headquarters was run by a deputy, Maj. Gen. Idwal H. Edwards for Eaker and Air Marshal Sir John Linnell for Slessor. Under Edwards for administrative purposes thus came the Fifteenth Air Force (commanded by Twining as the AAF element of MASAF) and the Twelfth Air Force (under Cannon as the American element of MATAF). Eaker as commanding general of AAF/MTO fitted into an administrative chain of command running down from Headquarters, North African Theater of Operations (NATOUSA), of which Lt. Gen. Jacob L. Devers had recently assumed command. Devers served also as deputy to Gen. Sir Henry Maitland Wilson, the British officer who on 1 January 1944 had succeeded Eisenhower at Allied Force Headquarters and to whom Eaker was responsible as the commander of MAAF.2
+
+			For General Eaker there was an additional complication arising from the commitment of the Fifteenth Air Force to the CBO, an operation controlled entirely by agencies outside the theater. The CCS on 5 December had designated POINTBLANK as the "air operation of first priority" for the Fifteenth, and the JCS directive of 5 January 1944, setting up USSTAF as the agency for coordinating the strategic operations of the Eighth and Fifteenth Air Forces, had confirmed an arrangement which left Eaker responsible to two masters insofar as the operations of his heavy bombers were concerned.3 A message of inquiry to Arnold brought back a directive: Eaker was the boss of all Allied air forces in the Mediterranean; he would receive operational directives for the US. Twelfth Air Force from Wilson; for Fifteenth Air Force operations his directives would come from Spaatz at USSTAF, except in the event of an emergency proclaimed 
+
+			--327--
+
+			by Wilson4 On paper this arrangement promised many opportunities for disagreement, but actually there would be no trouble at all. Eaker and Spaatz were in full agreement on the overriding priority that should be given strategic bombing, and before Eaker's departure from England it had been agreed that USSTAF would communicate with the Fifteenth only through MAAF, a policy confirmed by USSTAF's first operational directive of 11 January 1944.5 The principal threat that Wilson might be forced to proclaim an emergency in conflict with the claims of strategic operations-came in February, in the midst of the "Big Week" of operations against the GAF and while Allied ground forces fought a desperate battle on the beachhead at Anzio. But by agreement Eaker managed to meet both of his obligations, thus setting a pattern for the future.* In fact, Wilson was at no time to proclaim a formal tactical emergency, although on two occasions he broached the subject to Eaker.6
+
+			Tedder and Spaatz had set up the framework for MAAF but, knowing that they soon would leave for the United Kingdom, they had left the details to be worked out by Eaker. The latter, who assumed command just on the eve of the Allied landing at Anzio on 22 January, was forced to divide his attention between questions of organization and the pressing demands of combat, with the result that the administrative changes required longer to work out than would otherwise have been the case.7 On his arrival in the Mediterranean, Eaker found MAAF (Rear), consisting chiefly of the Plans section, located at Algiers, close to AFHQ. MAAF (Advance), a jumble of British and American staff officers organized half along British lines and half along American, was at La Marsa, near Tunis. Most of MAAF's combat units were physically in Italy and the islands, and Eaker promptly set up a third headquarters at Caserta, Italy. For about two weeks this caused additional confusion, chiefly because the new headquarters was initially referred to as MAAF Advance Command Post, but the confusion was cleared up early in February when Eaker directed that the Caserta headquarters be designated Headquarters MAAF, that the La Marsa branch was to be only an ad interim administrative section until it could move to Caserta, and that the Algiers element was simply a "rear echelon." Henceforth, there was to be but one Headquarters MAAF.8
+
+			* See above, pp. 31-43, and below, p. 358.
+
+			--328--
+
+						 MONTE CASSINO: THE ABBEY IN RUINS
+
+						 CASSINO: THE TOWN UNDER ATTACK 
+
+						 ALL ROADS LEAD TO ROME 
+
+						BRIEFING PILOTS OF 332d FIGHTER GROUP IN ITALY
+
+			The next step was to organize the headquarters so that it could most efficiently handle the direction of the air war in the Mediterranean. Top members of General Eaker's staff already had worked out the details, and early in February an organizational chart was approved which established the structure that MAAF was to keep until the end of the war. In MAAF headquarters only the Operations and Intelligence section and the Signals section contained both American and British personnel; these sections were the operational links with Strategic, Tactical, and Coastal Air Forces, each of which in turn had a combined Anglo-American operations section and staff. The nerve center for air operations throughout the theater was Operations and Intelligence, which directed and controlled all purely operational matters coming within the authority of the air commander in chief. It was headed by Brig. Gen. Lauris Norstad until 16 July 1944, thereafter by Brig. Gen. Charles P. Cabell. Following the principle of an integrated Anglo-American command, Norstad's deputy was a Britisher, Air Cdre. H. D. MacGregor. The section was subdivided into intelligence, plans, and combat operations, in each of which the key positions were divided between American and British officers.9 Procurement of the personnel necessary to staff MAAF and its subordinate headquarters presented some difficulty. The War Department declined to authorize tables of organization recommended by a special committee of survey, apparently because it was unwilling to recognize a setup as unorthodox as AAF/MTO.* A flat rejection was circumvented, however, by granting a bulk allotment of officers and men, their distribution being left to General Eaker's discretion.&dagger;10 
+
+			* It should be remembered that in the case of standard organizations, such as components of Twelfth and Fifteenth Air Forces, regular T/O's already were in effect.
+
+			&dagger; Three months after its activation as of 10 December 1943, MAAF completed the theater air organization by redesignating its major combat elements. After the creation of MAAF the titles Northwest African Strategic Air Force-Mediterranean Allied Strategic Air Force, NATAF-MATAF, and NACAF-MACAF had been used interchangeably, indiscriminately, and often carelessly because the old titles had not been officially changed, nor had the various components of these organizations been officially assigned. On 17 March, MAAF put the record straight: Mediterranean Allied Strategic Air Force (MASAF), MATAF, MACAF, and Mediterranean Allied Photographic Reconnaissance Wing (MAPRW) were established, constituted, and assigned to MAAF for operational control, with effect from 10 December 1943. These were simply redesignations, for the four elements continued to carry out the functions and responsibilities which had been charged to them while they had been under NAAF. (See Hq. MAAF GO 3, 17 Mar. 1944; Hq. MAAF Adv. Organization Memo 3, 7 Jan. 1944.) 
+
+			--329--
+
+			Before 1 November 1943, supply and maintenance for American air units had been ably handled by XII Air Force Service Command and its three air service area commands. After the creation of the Fifteenth there were two American air forces, each with its own service command, and in addition the air units of other nations which depended largely on American supplies.* The advantage of an overall "theater" air service command was quickly recognized, and because XII AFSC enjoyed a long experience as just such a command it was entirely logical for it to serve in that capacity under the new organization which went into effect on 1 January 1944. Accordingly, on that date the old XII AFSC became AAFSC/MTO without change of station or headquarters personnel and with no material alteration in its basic duties of procurement, receipt, storage, and distribution of items peculiar to the air forces and of maintenance, except that the requirement of coordinating the needs of the service commands of the Twelfth and Fifteenth Air Forces, together with the assumption of several new responsibilities, made the duties somewhat more numerous and complex.
+
+			AAFSC/MTO started its career with its headquarters organized along the normal air service lines of command, general staff, and special staff sections. But developments during January and February so altered the extent of many of its responsibilities that in March its headquarters was reorganized into a fivefold structure consisting of command, personnel, services, air supply, and air maintenance divisions. All of the old general and special staff sections moved into the new divisions but without losing any of their previous functions. The new organization revealed a strong trend toward centralization and a definite recognition of the importance of supply and maintenance.11 Concurrently, three functions which AAFSC/MTO had tentatively assumed on 1 January became firm commitments. The first was administration and control of all AAF permanent depot installations, including all dumps in the vicinity of base depots, which previously had been divided between service command and the Twelfth and Fifteenth Air Forces. The new arrangement relieved the two air forces 
+
+			* MAAF was responsible for several such units: French, Italian, Yugoslav, Polish, Brazilian, and Russian. Considered individually, none of these, except the French, was of much moment, but each presented a variety of problems, and in sum the represented a real responsibility which further proved the wisdom of having an over-all headquarters.
+
+			--330--
+
+			of the burden of supervising installations* which often were far re-moved from their headquarters and zones of combat activity.12 The other duties, assumed in full during March, were the administration and movement of replacement personnel, a responsibility formerly handled by the XII AF Training and Replacement Command,13 and the control of all AAF rest camps, originally a duty of the Twe1fth.14 AAFSC/MTO also supervised I Air Service Area Command (I ASAC), Adriatic Base Depot, Allied Air Force Area Command (AAFAC), Italian service units, Ferry Pilot Service, and -- to a limited extent -- Mediterranean Air Transport Service (MATS). With the exception of the Italian units, all of these organizations had been under the original XII AFSC, although AAFAC did not become fully operational until after 1 January 1944.
+
+			Prior to 1 January there had been three air service area commands, each responsible for U.S. air service duties in a large section of that part of the Mediterranean which was under Allied control. In the last two months of 1943, II ASAC had devoted most of its time to the needs of the new Fifteenth, III ASAC had worked closely with the Twelfth, and I ASAC had taken care of North Africa west of Tunisia. In the reorganization of 1 January it was logical and easy for II ASAC to be made XV AFSC and III ASAC to become the new XII AFSC. I ASAC, left under AAFSCIMTO, continued to operate in North Africa, where its primary duties were to supervise field units and installations; erect aircraft; service Air Transport Command (ATC), the training command, and rear elements of Coastal Air Force; provide Air Corps supplies for units and installations in North Africa; transship personnel, supplies, and equipment; assist the French Air Force; and organize and control Italian service units.15 
+
+			Adriatic Base Depot was a unique organization. It was an air force agency doing the work normally done by a ground force base section; it was a USAAF installation in an area controlled by the British army. The depot's principal job was to procure, store, and issue common items of supply to the American air units in eastern Italy, which through the first half of 1944 steadily increased in number and personnel. Its sections, such as quartermaster and ordnance, performed full base section functions; it sped up the construction of a 650-mile pipeline
+
+			* The Twelfth and Fifteenth were to continue to operate advance depots in which fourth-echelon supply and maintenance could be accomplished.
+
+			--331--
+
+			system for the delivery of 100-octane gasoline direct from ports to the bomber and fighter fields around Foggia, Bari, and in the Heel; it smoothed out operations at the port of Bari; it even set up modern laundries. By the end of March it was supplying the needs of close to 100,000 USAAF personnel.16 
+
+			Allied Air Force Area Command in some respects was even more unusual than Adriatic Depot. It, too, was an AAF organization in an area administered by the British army, but, more remarkable, it was virtually an American "kingdom" in the heart of Italy. AAFAC's job was to administer from its headquarters in Foggia the civil affairs of that section of eastern Italy in which the USA& combat units were concentrated. In carrying out this complicated task AAFAC controlled such matters as civil affairs, labor, sanitation and health, defense and security, traffic, discipline, engineering projects, and local resources and supplies. In the beginning, AAFAC had to work with far too little personnel, AAF/MTO would not officially recognize its existence, and AAFSC/MTO tried to get rid of it, but the command managed to survive. At the end of March AAFAC was given a T/O, and on 19 May, AAF/MTO officially took cognizance of its existence and issued a directive which outlined its duties and responsibilities. With written authority for its activities, AAFAC, under the direction of AAFSC/MTO and the command of Col. Roland Birnn, continued to operate with great success until the end of the war in Italy.17 
+
+			AAFSC exercised direct control over Italian service units. Twenty-two of these -- quartermaster, ordnance, and engineer, composed of POW'S in North Africa -- were activated in January by I ASAC.18 The command also exercised a very limited control over French service units, and during the first half of the year was responsible for supplying the French Air Force with items peculiar to the air forces. Even after the FAF took its place alongside American and British combat units under MAAF and took control over its service units, AAFSC/MTO continued to coordinate with the French on supply and technical matters until the FAF was transferred to USSTAF in September 1944.19 
+
+			Ferry Pilot Service had been responsible since its establishment under the old XII AFSC early in 1943 for the delivery to depots and combat units within the theater of all replacement or repaired aircraft. On 26 January 1944 its activities were combined with the intratheater cargo and mail-carrying services of AAFSC/MTO to form the Ferry 
+
+			--332--
+
+			Transport Service (FTS). AAFSC/MTO was then directed to plan aircraft assembly, handle repair, and, through the FTS, deliver all aircraft. The last responsibility ended in April when FTS was transferred both operationally and administratively to Mediterranean Air Transport Service. MATS itself, since its establishment in May 1943 to handle the air movement of personnel, supplies, and mail above 30&deg; N latitude and to operate service command's aircraft engaged in that movement, had been administratively under XII AF Service Command. After the reorganization of 1 January 1944, AAFSC/MTO continued to exercise a limited administrative control over MATS until late in April, when the transport agency was assigned to AAF/MTO as an independent command.20 
+
+			Next to the service command, the Twelfth Air Force had the largest number of problems to work out after the reorganization of 1 January. Since the launching of TORCH the Twelfth had been the supreme AAF organization in the theater, and its commander the top American air officer. Its old importance is attested to by the fact that each of the major commands under AAF/MTO on 1 January 1944 had been a part of the Twelfth. But the Twelfth had been hit hard by the numerous developments between 1 November and 1 January. It not only had been reduced from the ranking AAF organization to 3 lower echelon but had been changed from an all-purpose to a tactical air force. The number of commands under it had been reduced from eight to six: XII Bomber Command (retaining cadre only), XII Air Support Command, XII Fighter Command, XII Troop Carrier Command, XIIAF Training and Replacement Command, and the new XII Air Force Service Command. Gone was much of its personnel: to AAF/MTO, Fifteenth Air Force, XV AFSC, AAFSC/MTO, 1 ASAC, Engineer Command, and Photographic Reconnaissance Wing.
+
+			For six months XII Bomber Command had a checkered career. On 1 January it was reinstated as an administrative headquarters and given the 42d and 57th Bombardment Wings with six groups of medium bombers; but the groups were attached for operations to Tactical Bomber Force, which had been established late in March 1943 as a means of collecting in one command all of the Northwest African Air Forces' medium bombers, USAAF and RAF.21 This setup continued until the end of February 1944,at which time it was decided to disband TBF.22 The unit had proved highly adaptable to the needs of the air arm during the late Tunisian, the Sicilian, and the southern 
+
+			--333--
+
+				Organization: 12th Air Force 29 January, 1944
+
+			Italian campaigns, but by this time no RAF units remained in TBF and there was no longer any need for a combined headquarters. Accordingly, its two medium bombardment wings, the 42d and 57th, were put under the immediate operational control of MATAF and the direct administrative control of Twelfth Air Force. TBF then ceased to exist,23 while XII Bomber Command existed only as a retaining cadre until it was inactivated on 10 June 1944.24 
+
+			XII Air Support Command was redesignated XII Tactical Air Command on 15 April. In the first half of 1944 it lost several of its fighter and bomber groups, but because of its importance in the Italian campaign it was kept up to normal strength by being given an approximately equal number of units from other commands; also, in March, it received the 87th Fighter Wing, newly arrived in the theater. XII Fighter Command, the USAAF side of Coastal Air Force, grew less important as German offensive strength in the Mediterranean declined, and the command lost three fighter groups and a bomb group which were not replaced.* By the end of the spring it had only one fighter group, the 350th, and except for that and a few night fighter squadrons was largely an air-raid warning command. In both XII Air Support Command and XII Fighter Command the losses were mostly to other commands under MAAF, but a few were to other theaters.25
+
+			XII Troop Carrier Command lost the 52d Wing with four groups by transfer to the United Kingdom on 14 February, which left it with only the 51st Wing and its three groups. On 5 March the command was disbanded and the 51st Wing was assigned administratively direct to the Twelfth; it remained operationally under MATAF. XII AF Training and Replacement Command lost its replacement battalions to AAFSC/MTO, leaving it with only its fighter and bombardment training centers. On to July 1944 it and its centers were inactivated.26 
+
+			While the Twelfth was contracting, the Fifteenth was expanding. In January, four new groups of heavies joined it and became operational; in February, two; in March, three; and in April, three. This accretion brought the Fifteenth up to twenty-one groups, the strength allotted to it at the time of its establishment six months before. Six of the groups, equipped with B-17's, were assigned to the 5th Bombardment Wing. The other fifteen groups were equipped with B-24's and 
+
+			* XII ASC lost the old 31st and 33d Fighter Groups and the 99th Fighter Squadron, but acquired the 57th and 79th Fighter Groups and the RAF 244 Wing.  XII FC lost the 52d, 81st, and 332d Fighter Groups and the 310th Bombardment Group. lost also, by XII BC, was the 12th Bombardment Group.
+
+			--335--
+
+			were divided among the 47th, 49th, 55th, and 304th Bombardment Wings. Two other wings, the 305th and 307th, were assigned but were used only as sources of personnel for Headquarters, Fifteenth Air Force, and never contained any combat bombardment units; nor did the 306th Bombardment Wing, which was inactive from its arrival on 15 January until 26 March, at which time it was given four fighter groups. In June it was redesignated the 306th Fighter Wing.27 
+
+			The Fifteenth started the year with only four fighter groups, all of them at half strength, and did not receive its full complement of seven groups until May 1944. As late as March, in fact, it had to fight to prevent a transfer to the United Kingdom of three of its fighter groups. This lag in fulfilling the fighter commitment so handicapped the air force that Generals Eaker and Twining ranked it second only to the weather among the factors limiting the Fifteenth's participation in POINTBLANK.28 During the first part of 1944 the air force suffered not merely from a shortage of fighters but also from the lack of adequate range in the planes inherited from the Twelfth Air Force. By June 1944, however, old-model P-38's had been largely replaced by late models, the 31st Fighter Group had switched from Spitfires to P-51's,the 52d was in process of being re-equipped with P-51's, and the 332d had changed from P-40's to P-47's. With more fighters and more modern fighters, it was now possible to provide escort for the bombers as they struck at distant targets.29 
+
+			If the numerous and sometimes complicated administrative and organizational developments of the first quarter of 1944 were burdensome to the men whose real interest was to get on with the war, at least they resulted in a structure so sound that in the final year of the Mediterranean conflict MAAF was able to devote full time to its operational duties.
+
+			Air Preparations for Anzio
+
+			When General Eaker arrived in the Mediterranean on 14 January 1944 the projected landings at Anzio (Operation SHINGLE) were only a week away. SHINGLE was designed as an end run around the right flank of the powerful German Winter and Gustav lines, which by the close of December had effectively stopped the advance of Fifth Army and had created a stalemate which threatened to upset the entire Allied timetable in MTO and ETO. In deciding upon an invasion of southern France, Allied leaders had stipulated as a condition governing 
+
+			--336--
+
+			the new operation that their armies in Italy should be driving toward the Pisa-Rimini line. If this was to be accomplished, and if men and materiel were to be made available for ANVIL by May, the deadlock on the Italian front must be quickly broken. As it became increasingly evident during December that Fifth Army's frontal attacks could not turn the trick alone, the top commanders, meeting in Tunis on Christmas Day (with Churchill in the chair) decided to combine a Fifth Army offensive with landings at Anzio. It was confidently believed that the latter operation would force Kesselring to pull so many troops out of the Gustav Line to protect his rear that Fifth Army could break through into the Liri Valley -- which, with Cassino, was the key to an advance on Rome; or, if the Germans decided not to weaken their lines, the Anzio troops could cut them off from their bases and catch them in a trap. In either case, the Italian stalemate would be broken and the way cleared for ANVIL and OVERLORD without -- as Churchill put it -- leaving a half-finished and, therefore, dangerous situation in Italy.30 
+
+			Plans for the new offensive effort were completed by 12 January. They called for three amphibious landings around Anzio on the 22d by American and British troops which, with follow-ups, would total about 110,000 troops. The ground forces were to secure a beachhead and then advance on Colli Laziali, a hill mass some seven miles inland which commanded both the Anzio plain and Highways 6 and 7, the enemy's two principal lines of communication from Rome into the western battle area. Just prior to the landings, Fifth Army would launch a strong attack designed to break the Gustav Line and to pull in enemy reserves, with the ultimate expectation of driving through the Liri Valley and linking up with the landing forces. Eighth Army would demonstrate along its front in eastern Italy so as to prevent the transfer of German troops to the other two fronts.31
+
+			The responsibilities for air support fell very largely upon Tactical Air Force and were in addition to TAF's responsibilities to main Fifth Army and Eighth Army.32 When the plan appeared Tactical already had put in almost two weeks of attacks on behalf of the two air tasks which were basic to the success of the venture: bombing of airfields to insure that the enemy's air arm would be unable to interfere with the landings, and bombing of lines of communication between Rome and the north (including the relatively unimportant sea. lanes) and between Anzio and the main battle area so that enemy reinforcements 
+
+			--337--
+
+				Allied Strategy in Italy, June 1944
+
+			and supplies could neither be brought in nor shifted from one front to another and so that the enemy would be deceived as to the exact location of the landing.33 Strategic had given some assistance during these preliminary operations, although at the time it was not committed to any specific task for SHINGLE. Even at this early date General Wilson had indicated a desire to declare a " tactical emergency " and thus bind Strategic to the Anzio operation. However, representatives of Tactical, TBF, and the Fifteenth felt that TBF's six groups of U.S. B-25's and B-26's could handle the interdiction program between Rome and the Pisa-Florence line, and after Wilson was assured by his air commanders that all units of MAAF would be made available if the situation demanded, he dropped the matter.34 
+
+			The first phase of the pre-SHINGLE air operations officially began on 1 January -- after MATAF had issued operational directives on 30 December to its subordinate commands -- and ran through the 13th. Actually, it got under way on the 2d when forty-three of the 57th Bombardment Wing's B-25's bombed the Terni yards while seventy-three B-26's from the 42d Bombardment Wing attacked four places on the railway east of Nice; results were good, especially at Taggia where the railway bridge was destroyed and at Ventimiglia where two spans were knocked out. The following day, fifty B-17's from the Fifteenth Air Force's 97th and 301st Bombardment Groups severely damaged the Lingotto marshalling yards (M/Y's) at Turin, while fifty-three others from the 2d and 99th Groups struck a blow for POINTBLANK by plastering the Villa Perosa ball-bearing works, twenty-five miles to the southwest. B-26's bombed the Pistoia yards and the Bucine viaduct, cutting all lines leading out of the two yards. On the two days about fifty A-36's of XII Air Support Command hit the docks at Civitavecchia, long a favorite target because it was the nearest port to Rome and the battle front and now of added importance because the Allies were trying to make it appear that they might undertake a landing there.35 
+
+			For the next ten days, in spite of unsatisfactory flying weather, TBF's bombers steadily hammered the Italian railway system. Their efforts were concentrated in the western and central parts of the peninsula and around Ancona in the eastern. Principal targets were the M/Y's at Lucca, Pontedera, Siena, Grosseto, Arezzo, Foligno, and San Benedetto, the railway bridges at Orvieto and Guilianova, and the junction at Fabriano. In all, the mediums flew close to 340 sorties. Of 
+
+			--339--
+
+			thirteen places attacked, the lines were blocked at eight. The most notable examples of failure were at Lucca, Prato, and Foligno. At many of the targets there was heavy damage to rolling stock and repair facilities, neither of which could be restored as quickly as could trackage in the yards, the Germans having developed repair of the latter into a fine art. On the 8th, 23 Wellingtons and 109 Fortresses chimed in with an attack on Reggio Emilia which severely damaged rail lines and a fighter factory; this was Strategic's only operation against the Italian rail system during the period.36 Coastal, busy with convoy protection and strikes against enemy shipping and submarines, found time to attack a few land targets along the west coast of Italy.37 
+
+			Through the 13th the air attacks on communications had been designed to retard the building up of supplies and to effect a general dislocation of the enemy's system of transportation. But in the final week before the landings it was essential that the lines both above and below Rome be thoroughly blocked; the battlefield had to be isolated, for if SHINGLE were to have any hope of success, the enemy must not be permitted to rush down reinforcements from Rome and the north nor be able to move large quantities of supplies either to the Anzio or Liri Valley sectors. Tactical did not feel that it alone could accomplish the desired interdiction, and on 10 January it asked that the Fifteenth take care of the northernmost communications targets in addition to rendering assistance with counter-air operations, the latter being a commitment already agreed upon.38 Some misunderstanding arose, and it was several days before it was clear to what extent the heavies would be employed in SHINGLE. Apparently, the trouble was that Tactical was waiting for a blanket order from MAAF to the effect that Strategic would be used, while MAAF was waiting for a bombing plan from Tactical so that it could issue a directive to Strategic. An exchange of messages on 14 and 15 January cleared up the question, and plans for coordinating all of MAAF's bombers in a pre-D-day assault on lines of communications were quickly made.39 At first Strategic was to hit targets far to the north while Tactical's bombers went for rail lines within an approximate rectangle bounded on its four corners by Florence, Pisa, Civitavecchia, and Terni. Then Strategic was to attack, in order of priority, the lines Florence-Arezzo, Empoli-Siena-Arezzo, Pisa-Florence, and Rimini-Falconara, while Tactical was to take care of lines nearer Rome, notably those between that city and Arezzo, Viterbo, and Leghorn. Wellingtons of 205 
+
+			--340--
+
+			Group were to operate in the Pisa-Florence-Rome triangle with the twin objectives of interrupting night rail movement and hampering repair work on lines already damaged by the day bombers.40
+
+			This plan for joint operations, issued by MATAF on the 15th, was approved by MAAF, and Strategic was informed on the 16th that its No. 1 priority of counter-air force operations now was temporarily suspended in favor of the destruction of rail lines on behalf of SHINGLE.41The Fifteenth wasted no time. Between the 16th and the 22d, its heavies flew around 600 effective sorties, to which Wellingtons added 110. Principal targets were the yards at Prato, Certaldo, Arezzo, Pisa, Pontedera, Pontassieve (each of which was hit by more than 170 tons), Rimini, Pistoia, Poggibonsi, and Porto Civitanova. Montalto di Castro, Orvieto, and Civitavecchia were attacked when bad weather precluded operations farther to the north. In the same six days Tactical's bombers flew over 800 sorties, most of them south of a line through Perugia. In general, B-25's went for chokepoints and M/Y's, the main targets being Terni, Foligno, Orte, Piombino, Avezzano, Viterbo, and Chiaravalle; photographs showed that the lines were blocked everywhere except at Foligno and Chiaravalle. B-26's attacked both yards and bridges.* Their heaviest assaults were against bridges around Orvieto on the Rome-Florence line, the Orte bridge at the center of the Rome-Florence and Terni-Ancona routes, the Montalto di Castro bridge on the west-coast line, the bridges at Carsoli between Rome and Sulmona, and the Terni viaduct. Each of these targets was either knocked out or damaged.42 
+
+			A review of the interdiction program from 1 to 22 January shows that MAAF's planes,dropped more than 5,400 tons of bombs against lines of commnication43 and achieved good results at the principal points where interdiction was desired. On the Florence-Arezzo-Orvieto-Rome line the Orte yards were closed from the 15th through the 19th but were open on the 20th and 21st; the bridge south of Orvieto was serviceable, but the one to the north was closed by a raid of the 21st. On the Arezzo-Foligno-Terni-Orte line the Terni yards were open on the 23d after having been closed for a week. The Foligno yards appear to have been serviceable, but the bridge at Orte had been cut since the 17th. On the Leghorn-Civitavecchia-Rome line the 
+
+			* Apparently, one of the reasons for using B-26's rather than B-25's against bridges was that the 26's now were equipped with the Norden bombsight while the 25's still were using the less precise British MK IX E sight. (See MAAF, Operations in Support of SHINGLE, pp. 9-10.) 
+
+			--341--
+
+			Montalto di Castro bridge was knocked out on the 18th and remained so; the Cecina bridge, long a wreck, would not be repaired for weeks. On the Terni-Sulmona line the Terni yards were -- as noted -- closed until the 23d, and the Carsoli bridge was blocked on the 17th and remained so through D-day. On the Viterbo by-pass lines the Viterbo yards were blocked on the 17th and were still closed on the 22d. Thus, on D-day there was at least one point of interdiction on each of the four first priority lines; out of nine primary points of interdiction, four bridges (out of five) and one yard (out of four) were unserviceable and the other yards were damaged.44 Obviously, the bombing effort did not completely interdict the enemy's supply routes, but just as obviously it seriously interfered with his movements immediately before and after D-day.
+
+			In addition to attacks on rail lines, mediums flew a number of sorties against other targets in preparation for the Anzio landings. Eleven small missions were sent against Liri Valley bridges at Roccasecca and Pontecorvo. The latter, after four months of periodic attacks, was still intact, and the mediums did not break the hex which it held on them. Four missions were flown against the Liri River and Isoletta dams, also in the valley; the dams were not hit but the road approaches were destroyed. These minor operations were designed both to support the Fifth Army as it prepared for its drive against Casino, the most important point in the German defense line, and to create blocks against the transfer of troops from the Gustav Line to Anzio after the landings had been made.45
+
+			It was unnecessary for MAAF to conduct a full-scale pre-invasion counter-air offensive against the Luftwaffe -- such, for example, as the blitzes which had preceded the invasion of Sicily and the landings at Salerno. Estimates indicated that the enemy had only about 550 operational aircraft in Italy, southern France, the Balkans, and the Aegean. Almost all of his big bombers had been withdrawn from the Mediterranean so that the only long-range striking forces available to him for use against SHINGLE were some fifty Ju-88's in Greece and Crete and sixty Ju-88's, He-111's, and Do-217's in southern France. Most of his fighters (some 230 Me-109's and FW-190's) were in Italy, with slightly more than one-third of them on fields around and south of Rome. It was considered unlikely that the GAF would be able materially to reinforce either its fighters or its bombers. Consequently, during the period prior to 14 January only a few attacks were made on 
+
+			--342--
+
+			airfields. On the 7th, forty-eight B-25's from the 12th and 321st Bombardment Groups bombed Perugia, a main base for reconnaissance Ju-88's and Me-410's, with limited results; both a night attack by Wellingtons on 12/13 and a follow-up day raid by B-24's were largely abortive because of bad weather. A visit by Wellingtons to Villaorba on the night of the 8th had better luck, leaving five aircraft burning and several fires at hangars. The heaviest blow was struck on the 13th by 100 B-17's and 140 B-25's and B-26's which showered over 400 tons of bombs on airfields at Guidonia, Centocelle, and Ciampino in an effort to drive the enemy's fighters back to fields north of Rome and, if possible, all the way to the Grosseto-Siena area. The heavies, escorted by fighters, dropped 500-pound demolitions to smash up the runways, while the mediums, coming in an hour later, dropped frags on the grounded planes. The sharp attacks brought up fifty to sixty enemy planes, of which seven were destroyed at a cost of two mediums and three fighters.46
+
+			In the last week before SHINGLE, MAAF's bombers intensified their counter-air offensive with a series of heavy attacks on airfields. On the 16th, SAF heavies hit Villaorba and Osoppo (homes of a number of Me-109's) in northeast Italy, and that night Wellingtons returned to Villaorba; a total of 286 tons was dropped with good results. On the 19th and 20th heavies (mostly B-17's) blitzed fields in the Rome area, dropping 700 tons of bombs in 191 effective sorties against Ciampino North and South, 103 against Centocelle, and 56 against Guidonia. The raids on the 19th were designed in part to drive the GAF back to the Grosseto and Viterbo areas, so MATAF immediately sent 163 U.S. mediums against the Viterbo and Rieti fields. Although no more than sixteen enemy planes were destroyed on the ground, the primary purpose of this one-two punch, which was to render unserviceable both the first and second lines of main fields from which the enemy could attack Anzio, was accomplished. Strategic further protected the landings by flying on D minus 1 (21 January) thirty-seven sorties against Salon airfield and thirty-five against Istres/Le Tub&eacute;, two long-range bomber bases in southern France.47 
+
+			The most valuable counter-air operation was an attack on the 19th on the long-range reconnaissance base at Perugia. Only twenty-seven B-24's (of the 449th Bombardment Group) found the field and they dropped just sixty-five tons, but the attack was so successful that for four days the Germans were unable to use the field for reconnaissance 
+
+			--343--
+
+			flights.48 The complete tactical surprise which was achieved at Anzio was due in large measure to this blinding of the enemy.49
+
+			While MAAF's heavies and mediums were pounding lines of communications and airfields, its light bombers and fighter-bombers were busy over and beyond the battle areas. Normally, most of Desert Air Force's targets would have been close to the Eighth Army battle line, but mud, snow, and mountains had so effectively stopped the Eighth that air attacks against gun positions, fortifications, and the like seldom were either practicable or necessary. A few such missions were flown but by far the larger part of the effort was against rail and road communications, which materially furthered the interdiction campaign being waged by the heavies and mediums. An outstanding operation came on 2 and 3 January when Spitfires of RAF 244 Wing and P-40's of the USAAF 79th Fighter Group caught snowbound enemy transport on the roads and rail lines between Avezzano, Pescina, and Chieti; when the shooting was over, the fighters claimed the destruction of 57 vehicles and 2 locomotives and the damaging of almost 200 vehicles, 5 locomotives, and 8 cars. On the 13th and 14th a total of 35 Baltimores and 119 P-40's destroyed a major tank-repair shop at Loreto; some of the Kittyhawk fighter-bombers featured this operation by carrying 2,000 pounds of bombs each. Shortly before SHINGLE was launched, seven DAF squadrons moved to western Italy to reinforce XII Air Support Command. Air operations north of the eastern front then declined sharply, although on the 19th and 20th, fighters and fighter-bombers knocked out the railway stations at Sulmona and Popoli, both of them key spots in the enemy's east-west line of communications. Meanwhile, on the 16th, P-40's began a series of attacks against advanced positions as a prelude to the Eighth Army's holding action in support of SHINGLE and the Fifth Army offensive. Throughout the period from 1 to 22 January so few GAF planes appeared over the eastern battle front that DAF flew a daily average of only sixty to seventy defensive patrol sorties; the enemy's biggest effort, on the 13th, was an eighteen-plane mission, of which number Spitfires shot down three and damaged two, without loss to themselves.50 
+
+			In the west, XII ASC flew more than 5,500 sorties in the three weeks prior to the Anzio landings, most of them by fighters flying defensive patrols and close support missions for the Fifth Army which had been attacking steadily since 4 January. But more than 1,000 of the sorties 
+
+			--344--
+
+			were against communications, as fighter-bombers pounded rails and roads in the area between the front lines and Rome. Among their targets were the Cassino and Cervaro road junctions, yards at Aquino and Ceccano, the railway and roads at Formia and Fondi, the important junction at Frosinone on Highway 6, roads at Sora, and a tunnel entrance at Terracina. Not content to strike only near-by targets the fighters ranged to Rome and beyond, hitting communications targets as far away as Civitavecchia. In the last few days before SHINGLE, A-20's, A-36's, and P-40's concentrated on lines of communication between the Fifth Army front and the Anzio area, hitting Colleferro, Velletri, Palestrina, Frosinone, Ceccano, Roccasecca, Aquino, and Pontecorvo, and, east of Rome, Avezzano and Carsoli. As in eastern Italy the GAF's effort, whether offensively over the battle area or defensively against XII ASC's attacks, was too small to be of any consequence; enemy close-support planes averaged around eighty sorties per day, most of them escorted fighter-bomber attacks on targets close behind the Allied lines.51 
+
+			The extensive operations of XII ASC in this period were made possible in large measure by aviation engineers. In spite of bad weather they built three new fields at Marcianise, Lago, and Castel Volturno, all north of Naples, in time for them to be used in pre-SHINGLE operations. Without them, XII ASC and TBF would have been severely handicapped, for even when the new fields were added to the eight already available -- Pomigliano, Capodichino, Caserta, Cercola, Gaudo, Pompei, Vesuvius, and Trocchia -- every combat airdrome was filled to the limit of parking space.52 It was fortunate for MAAF that it enjoyed so marked a degree of air superiority.
+
+			In the midst of the pre-landing air assault the main Fifth Army launched its offensive against the Gustav Line. On 12 January the French Expeditionary Corps drove against the German left flank above Cassino. Then the British 10 Corps struck across the lower Garigliano.* Both the French and the British made some progress, but in spite of successive assaults, aided by sharp attacks by Tactical's light and fighter-bombers on defended positions, guns, and junctions, they could not break the enemy's lines. The Luftwaffe, only moderately active, was held firmly in check by fighter patrols of the 31st and 33d Fighter Groups and RAF 324 Wing. In the center, the U.S. II Corps, after a series of lesser attacks in coordination with 10 Corps, launched a major 
+
+			* The FEC and British 10 Corps were assigned temporarily to Fifth Army.
+
+			--345--
+
+			assault on the 20th in an effort to secure a bridgehead across the Rapido, but after two days of severe fighting, heavy losses forced it to withdraw; planes of XII ASC, having to divide their efforts among II Corps, 10 Corps, and preparations for Anzio, could provide only moderate support. By D-day at Anzio the attack on the Gustav Line had bogged down, without Fifth Army having broken through into the Liri Valley. However, the Germans had been forced to commit most of their Tenth Army reserves, and the Allies still hoped that a continuing Fifth Army offensive, together with the landings at Anzio, would break the stalemate on the Fifth Army front.53
+
+			At best, SHINGLE was a risky venture; when the Fifth Army offensive failed, it became an even greater gamble. Only the absolute superiority which the Allies enjoyed on the sea and in the air allowed them to take the risk. MAAF had more than 4,000 aircraft, of which some 3,000 were operational, on hand in tactical units. Already they had flown 23,000 effective sorties since 1 January. The GAF, on the contrary, had no more than 550 combat planes, and they were scattered from southern France to Crete. The margin in favor of the Allies guaranteed control of the air,54 the first requirement for an amphibious operation.
+
+			 Anzio 
+
+			The SHINGLE forces, well supplied with maps and mosaics furnished by Photo Reconnaissance Wing,55 sailed from Naples at 0500 hours on 21 January. During the short run they were protected as far as Ponziane Island by fighters of Coastal; from Ponziane to the beaches fighters of XII ASC, carrying long-range tanks, had the responsibility; all planes operated from bases around Naples. The GAF did not appear over the convoys, either because it had been blinded by the loss of its reconnaissance planes at Perugia or because -- according to the Air Ministry Historical Branch -- the German radar system had broken down on the night of the 21st, or both.56 
+
+			At 0200 hours, 22 January, the troops hit the beaches to the north and southeast of Anzio. There was no strategic surprise, for Kesselring long had expected an Allied landing back of Tenth Army. But so complete was the tactical surprise that the troops met only token resistance and there was no enemy air reaction for several hours.57 Thus favored, troops and supplies poured ashore. About midmorning the GAF appeared, and by the end of the day had flown perhaps 50 sorties over the 
+
+			--346--
+
+				Anzio Landings and the Initial Expansion of the Beachhead January, 1944
+
+			area, but Allied fighter patrols of Spitfires at high (22,000 to 25,000 feet) and medium (12,000 to 16,000 feet) and P-40's at low (6,000 to 8,000 feet) levels over the beaches and convoy lanes kept the Luftwaffe from interfering with the landing operations. In the course of some 500 patrols over the beaches and 135 over the convoy lanes, XII ASC's fighters intercepted six GAF fighter-bomber missions and shot down at least seven planes and damaged seven others for the loss of three Allied fighters.58 The same defensive pattern was followed on D plus 1 and 2, except that the fighters and fighter-bombers bombed targets on the perimeter of the beachhead before beginning their patrols and strafed such targets as troops and vehicles before returning to their bases. The planes, under the general control of the 64th Fighter Wing at Naples, were directed while on patrol by a control ship off the assault beaches and a control unit set up on the beachhead. U.S. P-51's spotted gunfire for the troops, and RAF Spitfires for the warships offshore. Throughout the day mediums attacked road junctions behind the beachhead, while heavies bombed communications in the Florence and Rome areas and in the Liri Valley. In addition, Allied planes dropped 2,000,000 leaflets over the German lines in front of the Fifth Army, announcing the landings at Anzio. These missions brought to more than 1,200 the number of MAAF sorties for the day in cooperation with the landings.59 
+
+			On the 22d, 23d, and 24th the ground forces, meeting no real opposition either on the ground or from the air and with the beachhead area largely denied to the enemy as a result of the air interdiction program, firmly established themselves ashore. Occupying a beachhead seven miles deep they were in an excellent position to move swiftly inland, control Highway 7,and drive either on Rome or Kesselring's rear.60 The Allies did none of these things -- which, if one may be allowed to speculate, may have been just as well, for in over ten days of bloody fighting the Fifth Army had failed to break the Gustav Line. The enemy not only had held at that point, he now had begun to shift troops to Anzio against the threat to his rear. Had the Anzio forces immediately rushed inland they might have been cut off from the sea by a combination of enemy troops moving up from the south and rushing down from the Rome area and, without supplies and equipment, have been wiped out.61 
+
+			In the face of these considerations VI Corps stopped to consolidate its gains. Then on 30 January it pushed out toward Colli Laziali with 
+
+			--348--
+
+			the intention of seizing the intermediate objectives of Cisterna and Campoleone. But Kesselring, with his lines holding firmly against Fifth Army's attacks and with the Eighth Army so inactive that it did not constitute a threat, had continued to move in troops from both ends of his trans-Italian front, from northern Italy, and even from southern France and Yugoslavia.62 Although the air interdiction of lines of communication had been good enough -- in the two weeks before the invasion the enemy had got not more than one-seventh normal use of his principal lines into the battle area -- and had been kept up long enough for the landings to be made and consolidated virtually without opposition, and although the medium bombers struck hard at rail lines on the 27th, 28th, and 29th and thereby slowed down the enemy's build-up enough to save SHINGLE, the interdiction was not so absolute that it could stop the movement of troops to the bridgehead.63 So it was that when the troops at Anzio resumed the offensive on a large scale, it was too late; not only had they lost the initial advantage which they had held but the enemy had strongly fortified the key objectives and heavily reinforced his defenses. After three days of fighting against the fast-growing German forces the offensive was abandoned. The Anzio forces now found themselves restricted to the bridgehead and seriously threatened by troops and armor which had the advantage not only of numbers but of position.64 
+
+			From 23 January (D plus 1) through 1 February (the end of the Allies' Anzio offensive) the Allied air arm vigorously carried out, insofar as weather permitted, its principal assignments of direct cooperation with the Anzio forces and attacks on lines of communication. Light bombers and fighter-bombers and fighters of XII ASC took care of the first of the assignments and helped with the second. Through the 30th, they flew steadily, averaging some 700 sorties per day. Bad weather then all but stopped them on 31 January and 1 February -- days when air cooperation was especially needed by the ground troops-but on 2 February, with flying conditions far from ideal, they recorded 648 sorties, many of them against the enemy's ground troops, who were counterattacking. During the period XII ASC also cooperated with main Fifth Army in its repeated but unsuccessful attempts to break through the enemy's lines along the Rapido River and at Cassino.65 
+
+			The activities of the mediums against lines of communication were limited partly by Anzio's requirements for direct tactical cooperation and partly by the weather. On D plus 1 they put in a good day around 
+
+			--349--
+
+			the beachhead, and on the 25th divided their missions between targets close to the beachhead and a return to the railway interdiction program. On the 27th, as the German build-up became increasingly evident, they devoted most of their effort to railways, and on the 28th and 29th went exclusively for such targets. From the 30th through the 4th -- as on the 24th and 26th -- weather grounded the planes except for a few B-25's which operated around the beachhead.66 
+
+			In the period from D-day through 4 February, the mediums flew a total of forty-five missions, twenty-four of them against roads on which the Germans were depending heavily because of the damaged condition of their rail lines. Fifteen of these were designed to create road blocks in the Colli-Laziali area and were directed against road junctions at Frascati, Albano, Palestrina, Marino, Mancini, Lariano, and Genzano. Three missions were against road and rail junctions between the bridgehead and the Liri Valley, and six against the road bridge at Ceprano, which was inside the valley at the junction of Highways 6 and 82. The other twenty-one missions were a part of, or closely allied to, the railway interdiction effort; twelve of the missions hit marshalling yards and six hit bridges. The principal targets were along the main railways from Rome to the north, with the Florence-Rome line receiving the major attention. In general, results were good.67 
+
+			On D plus 1, Strategic, although not bound to SHINGLE because no emergency had been proclaimed, again struck at communications in the north, except for thirty-nine of its B-17's which finally knocked out the Pontecorvo bridge. Thereafter, to the end of the month, it operated regularly against the enemy's supply routes, with more than 90 per cent of this effort directed against marshalling yards. Targets were located all the way from Terni in TAF's territory to Verona on the Brenner Pass line; major objectives were Bologna, Verona, Pontedera, Siena, Arezzo, Rimini, Porto Civitanova, Terni, and Foligno where results were excellent, and Poggibonsi, Ancona, and Fabriano where they were poor.68
+
+			It was of vital importance in the first ten days of SHINGLE that the German Air Force be kept under control. Although it was not strong enough to pose a serious threat, by D plus 1 the GAF had started a definite effort against the beachhead and its tenuous supply line. Bombers attacked shipping, notably at Anzio on the 23d, 24th, and 26th and at Naples on the 23d and 24th; although they usually struck at dusk when MAAF's fighters had left for their hundred-mile
+
+			--350--
+
+			distant bases and although they used controlled glide bombs in the course of almost a week of operations, they achieved only the scantiest success while losing fifteen of their number to Allied fighters and flak.69 The bombers came mostly from southern France, so on the 27th, 132 B-17's bombed Montpellier and Salon and 29 B-24's of the 450th Bombardment Group hit Istres/Le Tub&eacute;, inflicting heavy damage on planes, runways, and installations at all three places, especially at Istres.70 
+
+			Each of the GAF bomber raids against Anzio and Naples had been carried out by from 50 to 60 planes; heavier attacks were delivered on the 29th by around 110 Do-217's, Ju-88's, and Me-210's. Collectively, these constituted the greatest German bomber offensive since the landings in Sicily in July 1943.71 
+
+			It was made possible because the enemy had strengthened his weak Italy-based bomber units by moving in two Ju-88 groups from Greece and Crete and returning a number of bombers which had been withdrawn from the peninsula in December and January (and which had bombed London as recently as 21 January). These transfers placed some 200 long-range bombers within reach of Anzio. No substantial fighter reinforcements were moved in, but a sufficient flow of replacement aircraft was maintained.72 To counter these developments MAAF directed a series of devastating blows against Italian fields. After small raids on Rieti and Aviano on 23 January, the Fifteenth blasted fighter fields in the Udine area near Austria on the 30th, using one of the cleverer tricks of the air war. B-17's and B-24's from the 97th, 99th, 301st, 449th, and 450th Bombardment Groups, well escorted by P-38's from the 1st, 14th, and 82d Fighter Groups, flew at normal altitude so as to be plotted by enemy radar. P-47's of the 325th Fighter Group took off after the bombers had left, went out over the Adriatic, flew on the deck, and when they overtook the bombers, climbed high and headed for the target area. They arrived fifteen minutes ahead of the bombers and caught the enemy's fighters, warned of the bombers' approach, in the act of taking off and assembling for combat. The surprise was complete, and the P-47's had a field day, destroying thirty-six aircraft, including fourteen Me-109's, and probably destroying eight other fighters, for the loss of two P-47's. When the bombers arrived they met almost no opposition and covered the fields with 29,000 frag bombs. For the entire operation the Fifteenth's bombers and fighters claimed the destruction, in the air and on the ground, of about 140 enemy planes; Allied losses were six bombers and three fighters.73 On the same day, the Fifteenth hit 
+
+			--351--
+
+			Lavarino in Italy and on the 31st ended its counter-air force operations for the month by striking hard and successfully at Klagenfurt airfield in western Austria and at Aviano and Udine in Italy. Thereafter, Anzio saw very few enemy bombers.74
+
+			The beachhead and its environs had been plagued by an average of around seventy enemy fighter and thirty fighter-bomber sorties per day. Targets were shipping, motor transport, troops, and gun positions. On 25 January the Navy inferred that it was losing an average of four ships a day to these attacks and to long-range bombers, but an investigation revealed that up to that date only three vessels had been sunk and one damaged. In fact, at the end of the first ten days of SHINGLE the Allies still had lost only three ships.75 for the enemy's efforts were rendered ineffective by the strong patrols which XII ASC's 31st, 33d, 79th, and 324th Fighter Groups and 244 Wing kept over the area; flying a daily average of around 450 defensive sorties, the command's day fighters claimed the destruction of fifty enemy planes and its night fighters claimed fifteen bombers, against a total Allied loss of fewer than twenty fighters.76 Before the invasion the air forces had planned to base a large number of fighters within the bridgehead, but shipping limitations, the easy range from the fields around Naples, and the fact that the enemy soon contained the beachhead caused the plan to be abandoned. However, further to combat the enemy's raids, engineers renovated an old strip at Nettuno and laid down a steel mat 3,000 feet long. Spitfires of the 307th Fighter Squadron moved in on 1 February to furnish "on-the-spot " cover.77
+
+			In the period through 1 February, Desert Air Force had continued to carry out its normal tasks of protecting the Eighth Army and flying tactical missions over eastern Italy. But it also found time to get in a few blows on behalf of the Fifth Army and the beachhead. Its most useful effort in this direction was a series of attacks on roads, vehicles, mid traffic around Popoli and Sulmona for the purpose of interfering with the movement of enemy troops from eastern Italy to the Liri Valley and Anzio sectors. The attacks inflicted severe damage on the enemy but did not stop his movements. When targets in the east were hard to find DAF's fighter-bombers and night-flying A-20's crossed the Apennines to strike at road transport in the Rome and Frosinone areas.78 
+
+			It was expected that the Germans would launch full-scale counterattacks against the Anzio salient immediately after stopping the Allied 
+
+			--352--
+
+			offensive on 1 February. In fact, Hitler had ordered Kesselring to wipe out the bridgehead within three days at all costs, and Kesselring had planned to open his attack on the 1st. Nevertheless, a major blow did not fall until the night of 15/16 February. The delay in the counterthrust was caused largely by the air forces' interdiction program. Before, during, and for almost a week after the landings each of the four main rail lines from the north to the Rome area had been cut in one or more places. The week of bad weather which began on 28 January so hampered the air forces that the Germans thereafter were able to keep open at least one through line to Rome,79and with this limited rail traffic, together with extensive use of motor transport, the enemy built up enough troops and supplies to launch an offensive on 15 February-but not on 2 or 3 February, as he probably could have done had he had full use of the rail lines. It was of the greatest importance that the enemy was so long delayed in gathering the strength necessary for his attack; if large reinforcements and an adequate supply of ammunition had reached the assault area before VI Corps had fully prepared its defenses and built up its supplies, the Anzio landing conceivably might have ended in a major disaster for the Allies.
+
+			Between 3 and 15 February, while preparing to launch his all-out attack, Kesselring hit the weary Anzio troops with a number of local blows designed to regain key terrain features. The efforts generally were successful. After bitter fighting the Allies lost the Campoleone salient, Aprilia (commonly called the "Factory" ), and Carroceto Station.80 The American air forces made a valiant effort to turn the scales for their friends on the ground, but the weather was too much German. In the fight for Campoleone (3-5 February) close support planes were almost entirely grounded, while heavies, mediums, and light bombers were able to get in only a handful of interdiction missions. To add to MAAF's difficulties the enemy heavily shelled the Nettuno airstrip on the afternoon of the 5th' forcing a decision that planes would use the field only during the day, returning each night to bases near Naples; this procedure -- frequently interrupted when enemy shells damaged the strip -- was followed until the end of February when the strip was abandoned except for emergency landings.81 
+
+			The 6th was quiet on the ground; the perverse weather was good, enabling XII ASC to fly 630 sorties against enemy positions and communications in and close to the battle area and mediums to hit the road junction at Frascati and rail lines at Orte. On the 7th, when the Germans
+
+			--353--
+
+			started their attack on the Factory, weather grounded all planes of Strategic and Desert Air Force and all B-25's, although B-26's and some of XII ASC's A-20's (47th Bombardment Group) and A-36's (27th and 86th Fighter-Bomber Groups) were able to hit communications and movements in the enemy's rear. On the 8th, MAAF's planes were out in force: heavies bombed three airdromes and three yards in central and northern Italy, mediums hit yards, bridges, and Cisterna, and light and fighter-bombers attacked communications, concentrations, and guns back of both fronts while giving close support to the Anzio troops, But on the 9th when the battle for the Factory was at its height, weather grounded Strategic, held TBF to fewer than 100 sorties, and curtailed XII ASC's efforts against motor transport, troops, towns, and assembly areas along the Anzio perimeter. The Factory was lost, as was Carroceto on the morning of the 10th when the weather held MAAF's planes to a handful of sorties. For the next forty-eight hours Allied ground forces tried to retake the Factory, but failed. The air arm gave little help, the weather permitting no missions on the 11th and only a few on the 12th, although those few were highly effective.82 
+
+			During this period the Fifth Army had launched (on 1 February) its second major assault on the Gustav Line. II Corps penetrated the line and even fought into Casino, but the Allies were unable to break through into the Liri Valley. After 7 February there was almost no forward progress, to the great advantage of the Germans at Anzio83 To their advantage, too, was the inability of the Eighth Army to launch an offensive. After the landings at Anzio, Gen. Sir Harold L. Alexander had pressed Gen. Sir Oliver Leese to strike a heavy blow, but the Eighth's commander -- pointing to the weather and terrain, the strong German defenses, the weariness of the British troops, and the fact that six of his divisions had been transferred to Fifth Army -- insisted that he could get nowhere with an offensive. On 30 January, Alexander had agreed.84 
+
+			Since the Fifteenth's heavy counter-air assault on the 30th, the GAF had been relatively inactive, although small numbers of its planes rather regularly struck at the beachhead. On 6 and 7 February, however, the enemy flew around 120 sorties each day over Anzio and main Fifth Army. At Anzio his attacks caused considerable damage and many casualties, although on the 7th alone defending fighters got seventeen certain and twelve probables and AA knocked down seven, probably got another six, and damaged nine.85 MAAF promptly countered the 
+
+			--354--
+
+			GAF's blows by sending 110 B-24's from the 376th, 450th, and 454th Bombardment Groups against Viterbo, Tarquinia, and Orvieto airfields. Enemy bombers then stayed away until the 12th when thirty to fifty came over the Anzio area from southern France; on the 13th some twenty Italy-based Ju-88's attacked. Damage was slight in both instances. Fourteen B-17's retaliated on the 14th by bombing the Verona airdrome and Piaggio aircraft factory.86 
+
+			From the 13th through the 15th, there was only limited ground fighting at Anzio, while the Germans regrouped and waited for last-minute reinforcements before launching a full-scale offensive and the Allies dug in to receive the blow. The air forces, enjoying three consecutive days of improved weather, hit hard at communications in an effort to re-establish the interdiction of the lines. In particular, RAF Wellingtons, which had flown very few missions during the previous week, made several highly successful attacks on roads and transport. On the 15th heavies and mediums joined forces to fly the biggest mission in weeks, a 229-plane attack which showered the Abbey of Monte Cassino (ahead of the main Fifth Army) with almost 600 tons of bombs.* Other heavies and mediums hit yards, bridges, and the Campoleone sector. XIIASC flew 1,700 sorties in the three days, most of them against targets around Anzio and on patrols over the beaches. Particularly useful were its efforts against guns and concentrations. These operations brought to some 26,000 the number of effective sorties flown by MAAF since the landing at Anzio on 22 January, virtually all of them directly or indirectly related to the land battle.87 
+
+			On the 16th the Germans exploded against the Anzio bridgehead. For three days they hammered at the Allied lines, pounding them with artillery, wave after wave of infantry and tanks, and greatly increased air support.&dagger; On the 18th the main Allied line bent, but it refused to break. By the evening of the 19th the German drive had failed.88 It had good reason to succeed. The Germans had nearly ten divisions against less than five Allied divisions;&Dagger; the Allies had to defend a front of almost thirty-five miles and at the same time maintain an adequate reserve and bring in supplies; yet the constricted nature of the bridgehead
+
+			* See below, pp. 362-64, for details.
+
+			&dagger; This was one of the few instances during all of the long Italian campaign when the GAF really came to the aid of the German ground troops. (See Kesselring Questions.) 
+
+			&Dagger; This is not, however, a true index of comparative troop strength, for the German divisions were not at full strength.
+
+			--355--
+
+			allowed the enemy to cover it with his artillery and offered a fine target for his aircraft. With all of these advantages he could not win, for the Allies had other and greater advantages: ground troops who refused to be whipped, superiority of artillery, supremacy in the air; further, the enemy was never able to make full use of his tanks. In the face of stubborn resistance by the Allied ground forces, heavy artillery fire, and blasting from the air, the enemy's morale broke and the bridgehead was held.89 
+
+			The Allied air forces went all-out against the German offensive.  A-20's, A-36's, and P-40's attacked guns, tanks, troops, vehicles, dumps, bivouacs, communications, and buildings along the battle lines, while DAF Baltimores struck blows against strongpoints at Carroceto and communications west of Albano and at Valmonte. USAAF mediums put part of their bombs on towns, dumps, and refueling points back of the enemy's lines and part on bridges and yards around Orte, Orvieto, Marsciano, and Abbinie; Wellingtons hit roads, and Bostons attacked supply dumps and road traffic south of Rome. Heavies, flying mostly without escort, hit lines of communication, but also unloaded 650 tons on troops, vehicles, and storage areas close behind the enemy's lines at Campoleone, Rocca di Papa, Frascati, and Grottaferrata. The peak of these operations was reached on the 17th, when an estimated 813 aircraft of all types dropped almost 1,000 tons of bombs on front-line positions. More than one-third of the sorties were by heavies which -- as in the critical days at Salerno -- operated in a strictly tactical role, as did mediums, some of which bombed within 400 yards of the Allied front lines. The tonnage represented the heaviest weight of bombs dropped up to that time in a single day of close support. Interrogation of prisoners revealed that the bombing from 16 to 20 February caused few casualties but was "solely responsible" for the destruction of command posts, dumps, gun emplacements, and assembly areas, for breaking up tank concentrations, and for knocking out secondary battle units and installations. Moreover, the blistering attack did much to bolster the morale of our own ground troops.90 
+
+			Throughout the critical period fighters were masters of the air over the battle area and the bridgehead, although with the Nettuno airstrip unusable all fighters had to operate from bases in the Naples area. P-51's and Cubs spotted targets, especially gun and troop concentrations. Even Coastal, usually concerned almost wholly with defensive patrols and missions against subs and shipping, got very much into the land 
+
+			--356--
+
+			battle as its planes heavily attacked west-coast rail lines and flew fighter sweeps in the Lake Bolsena area in the greatest offensive effort yet made by that command. The great difference between the total offensive effort of the GAF and MAAF in this critical stage at Anzio is indicated by the fact that the enemy, by straining his resources, was able to put between 150 and 185 aircraft over the lines each day, while the Allies flew from seven to ten times that many sorties. The GAF lost forty-one planes while MAAF lost only thirteen.91 
+
+			General Devers said that the close air support on the 17th disrupted the enemy's plan to launch a large-scale attack and that the German assault when it did come was stopped by " combined artillery and air action. " Later, Fifth Army summed up the value of the air assault: 
+
+				Bomber effort . . . contributed greatly in keeping enemy attacking troops pinned to the ground, retarding movement, preventing full power of attack to be felt by front-line units and interfering with battlefield supply. During air attacks enemy artillery did not change position and gun crews went into and stayed in dug-outs. Air attacks created fear among enemy personnel. . . . Estimated that many casualties to personnel and much damage to vehicles and loss of supplies resulted in weakening offensive effort. Wire communications were interrupted, causing confusion and some loss of control. Communication centers . . . were heavily damaged, interrupting and slowing down movements. . . . Bombing contributed greatly to morale of our own troops, giving confidence in defensive effort, and to the success of stopping the German attack.92 
+
+			For ten days after the 19th the German forces around the bridgehead limited their activities to small probing attacks while they recuperated from their heavy losses of men and supplies and regrouped in preparation for another full-scale effort to liquidate the Anzio bridgehead. With enemy prisoners beginning to talk of interrupted communications, delayed reinforcements, and shortages, MAAF's medium bombers continued to strike lines of communications and airfields, its light and fighter-bombers to attack troop and gun concentrations, and its fighters to protect troops and shipping-all of them operating within severe limits imposed by the weather, which was particularly bad.93 For Strategic, the period was one of the busiest, most interesting, and as events proved -- one of the most significant of the war.
+
+			Since the first of the year both the Eighth and the Fifteenth Air Forces had been conducting long-range operations against purely strategic targets. But the Fifteenth had flown only a few such missions: bad weather had interfered and the demands of the Italian campaign had forced it to operate largely against quasi-tactical objectives. Its 
+
+			--357--
+
+			principal blows under the POINTBLANK program had been attacks on the Villa Perosa ball-bearing plant and the Reggio Emilia fighter aircraft plant (both in northern Italy), the Maribor aircraft factory  (Yugoslavia), the torpedo factory at Fiume, the Messerschmitt plants at Klagenfurt (Austria), and Toulon harbor (French home of the Vichy fleet and an important submarine base). In addition, heavy blows against targets which were not strictly strategic were delivered -- as noted above -- against airfields in southern France, the Rome-Viterbo complexes, and the Udine area (primarily to protect Allied ground forces and installations from the Luftwaffe), against communications in northern Italy, and against Sofia for political reasons and because it was a rail center. In its intermittent efforts on behalf of the CBO, the Fifteenth was aided by Strategic's RAF Wellingtons which struck at Maribor, Reggio Emilia, and Fiume.94 
+
+			Especially disturbing to General Eaker was the prospect that the demands of the hard pressed ground forces at Anzio might interfere with the Fifteenth's participation in the all-out attack on the German aircraft industry which USSTAF, after several postponements, decided to open on 20 February.* General Spaatz had authority to direct the use of Fifteenth Air Force planes in coordination with the planned attacks of the Eighth Air Force, but the call for this assistance came during the German counterattack of 16-19 February on the beachhead at Anzio and General Wilson by the proclamation of a state of emergency could command for his own purposes the full power of the Fifteenth Air Force. Both Generals Clark and Cannon, believing that the 20th would be a critical day at the bridgehead, were most anxious for assistance from the Fifteenth's heavies, for Cannon felt that Tactical by itself could not take care of Fifth Army's needs.95 Spaatz continued to press the prior claims of the CBO mission, but after Churchill took the side of the tactical demands, he decided to leave the decision to Eaker's " discretion."96
+
+			The last thing that Eaker wanted was for General Wilson to declare a tactical emergency, since he believed wholeheartedly in the importance of the combined offensive against the German Air Force. So he decided to meet both the needs of the ground forces and the wishes of General Spaatz. Splitting his heavy bomber force between SHINGLE and ARGUMENT, he sent 105 planes against the enemy at the beachhead and 126 against Regensburg.97 As it happened, the heavies could not get through to Regensburg because of icing conditions
+
+			* See above, pp. 31-32.
+
+			--358--
+
+			over the Alps so that the Eighth had to carry the offensive alone although it seems certain that the Fifteenth's appearance so far north held hundreds of enemy fighters in southern Germany and away from the Eighth.98 
+
+			For the remainder of the Big Week the enemy relaxed his pressure at Anzio while Kesselring regrouped for another assault, and the weather repeatedly proved unfavorable for large-scale air operations in Italy. Consequently, it was possible without further debate over priorities for the Fifteenth Air Force to play an important part in USSTAF's climactic attack on the GAF. On the 21st bad weather grounded all Italy based heavies. But on the 22d, with Anzio obscured by low clouds, southern Germany was clear and the Fifteenth sent every available bomber (183 of them, with 185 escort fighters) against Regensburg in coordination with the Eighth Air Force. On the 23d, with the Eighth weathered in, the Fifteenth hit the Steyr (Austria) aircraft and ball-bearing factories. On the 24th the air forces again coordinated, when 113 heavies of the Fifteenth revisited Steyr and the Eighth slugged Gotha and Schweinfurt. The climax of the so-called Big Week came on the 25th when both air forces hit Regensburg.99 
+
+			If ARGUMENT proved something less than 100 percent successful, it nevertheless marked a victory over the enemy air force of the greatest significance to Allied operations through the critical months which followed. And those who had claimed that the opportunity to deal a fatal blow to the GAF should be given priority over any tactical emergency would be in position to point out that the Luftwaffe never thereafter posed a real threat in the Mediterranean area.
+
+			As for the stalemate in which the Anzio landing soon ended, it would be difficult to argue that the heavies sent north against the GAF could have made any substantial difference in the outcome of SHINGLE. The local weather drastically limited all air operations in support of the beachhead during that week and afforded Kesselring an opportunity to bring up reinforcements and to regroup his forces. On the morning of the 29th, he launched a second major attack against the bridgehead. Some penetration of the Allied lines was achieved, but determined counterattacks, ably supported by artillery and air bombardment and protected by fighters, checked the drive.100 It was evident, however, that the offensive would be renewed immediately, and Fifth Army called for a maximum air effort on 2 March against the enemy's assembly areas, communications, guns, and supply installations.
+
+			--359--
+
+			Although the weather was not good the air forces answered with around 800 bomber and fighter-bomber sorties and 600 tons of bombs: heavies flew more than 300 sorties against targets along the front, mediums and light bombers hit targets around Cisterna, Carroceto, Campoleone, and Velletri, fighter-bombers smashed gun positions, and fighters of DAF destroyed 61 vehicles between Rome and the beachhead.101 The bombing pinned down enemy troops, wrecked communications, broke up units and installations, and materially disorganized the enemy's plans to continue the offensive. When on 3 March he attempted to exploit his earlier gains an Allied counterattack, strongly supported by MATAF's planes, wiped out the effort, and on the 4th the Germans took up defensive positions. This last attempt to destroy the beachhead had failed, but the Allies had won nothing more than a beachhead.
+
+			Both sides now settled down to await the coming of good weather, and for two months there were no major operations on the ground, either at Anzio or along the Gustav Line, except for main Fifth Army's final assault at Cassino between 15 and 23 March.* Over both fronts, however, there was constant air activity, for the Luftwaffe often plagued Allied troops, especially those at Anzio, with small raids, while MAAF's planes flew defensive patrols, reconnaissance, and frequent offensive missions for its partners on the ground.102 Anzio, said Kesselring, was the Allies' "epic of bravery."103 But it also was a failure. No primary objectives had been gained, and the Fifth Army now was tied to two fronts. The theater burden of supply and maintenance was increased. The air forces were faced with the necessity of dividing their strength between two fronts, one of which consisted largely of exposed beaches, for an indefinite period.
+
+			It is not within the province of this study to pass judgment on the failure of SHINGLE or to say what should have been done to make it a success, but it is important to observe that some of the AAF's leaders were not happy over the operation. Though feeling that MAAF -- in spite of so much bad weather -- had met its commitments, they also felt that with respect to the over-all plan the air forces were open to criticism. There is no evidence that the air arm had protested against becoming involved in a situation in which the Allied forces, already bogged down, undertook a second and difficult operation; but Eaker, who had reached the theater after plans had become firm, felt that the capabilities of air power had not been calculated closely enough. Air 
+
+			* See below, pp. 366-70.
+
+			--360--
+
+			cooperation was absolutely essential to the success of SHINGLE, yet bad weather could so affect the air effort as to defeat or seriously retard the effort. Moreover, it should have been anticipated that it might be necessary to divert bombers from their primary mission of participation in POINTBLANK and that it would certainly be necessary to divert many offensive planes to what in reality were defensive missions.104 These criticisms undoubtedly were sound, but they were made in retrospect and they overlooked the fact that the planners fully expected that the Anzio forces would so quickly join with the main Fifth Army that the period of air cooperation with SHINGLE would be very short.105 
+
+			General Arnold also was critical of the employment of air power in SHINGLE. He pointed out that the air forces did not always concentrate their available air power so as to hit selected areas with sustained mass attacks. He also noted that no systematic, complete, and enduring isolation of the battlefield was possible without more night operations than had been employed.106 But neither he nor anyone else suggested that MAAF's planes and crews had not done a fine job.
+
+			Many lessons were learned from the air operations on behalf of Anzio. Most of them were minor, involving such things as the allocation of special ships for the movement of air force supplies, the need for greater care by AA gunners in firing at aircraft, the advisability of undertaking a greater number of weather flights, and the necessity of fixing better-defined aiming points for heavies engaged in close support. Two lessons, however, were of special interest. For lines of communication to be properly interdicted and troop and supply movements effectively limited it was necessary for light bombers to continue to maintain the pressure at night and for mediums to supplement them by flying missions around the clock. Secondly, large-scale air support must be followed up immediately by the ground troops, who must be ready to take quick and full advantage of any rupture of the enemy's defenses.107 The latter lesson would be re-emphasized at Cassino only ten days after the fighting at Anzio died down.
+
+			 Cassino
+
+			From shortly before the landings at Anzio until early in March -- a period of six weeks -- the Fifth Army had hammered at the Gustav Line in a gallant but futile attempt to break through and effect a junction with the Anzio forces for a drive on Rome. The failure of the Fifth was 
+
+			--361--
+
+			not the fault of its troops; it was simply a case of the physical impossibility of routing a tough, skilful enemy who exploited his many advantages: strong defensive positions, steep and barren mountains, rain, snow, mud, and flooded streams.
+
+			If the ground troops failed to accomplish their primary objectives, at least they achieved some local successes. Near the coast Minturno was taken and a substantial bridgehead established across the lower Garigliano. Farther north around Sant'Ambrogio the river could not be crossed, but some progress was made toward establishing positions in the hills overlooking the stream and an attempt to break out of the southern bridgehead picked up around six square miles east and northeast of Castelforte. Nearer Cassino, the very heart of the enemy's lines, the 36th Division was stopped in its attempt to cross the Rapido River, but Allied troops pushed into the northeast corner of the town and on the north took Sant'Elia and Cairo.108 
+
+			The air forces contributed heavily to what few successes the Fifth Army gained, in spite of their heavy obligations to SHINGLE and in spite of bad weather which pinned down Desert Air Force in the east and seriously interfered with XII Air Support Command in the west. In general, P-40's concentrated their efforts against battlefield objectives while A-36's worked on communications in the enemy's immediate rear. Targets shifted with the several phases of the ground operations, the shifts being not only from one sector to another but among different types of objectives, which included roads, tunnels, bridges, strongpoints, guns, concentrations, supply points, tanks, and infantry.109 Heavies and mediums, as has been noted above, were engaged largely against lines of communication and the GAF; while their missions were flown primarily in behalf of SHINGLE, they served also to interfere with the movement of enemy supplies into the Gustav Line.
+
+			The principal operation by heavies and mediums in direct cooperation with main Fifth Army prior to 1 March was an attack of 15 February on the Abbey of Monte Cassino, which was situated atop Monastery Hill and overlooked the town of Casino at the base of the mountain.110 In the more than seven years which have elapsed since that day the question of whether the Germans were using the abbey for military purposes and, accordingly, whether General Wilson was justified in ordering Eaker to level it, has been one of the most controversial subjects growing out of World War 11. On the one hand, there is the evidence of Eaker who, with Devers, flew over the abbey in a Piper 
+
+			--362--
+
+			Cub at a height of less than 200 feet (the Germans ignored small planes for fear of drawing attacks by fighter-bombers) and who has stated flatly that he and Devers saw a radio aerial on the abbey and enemy soldiers moving in and out of the building. On the other hand, there is the recently expressed conviction of Gen. Mark Clark of the Fifth Army, who, having set forth in his book Calculated Risk his opposition to the plan to bomb the abbey, gives evidence from the German side to show that the enemy at no time before 15 February used the historic old building for military purposes. Actually, the controversy is somewhat academic, for the question of whether or not the Allies were justified in bombing the abbey may be resolved by asking and answering one very simple question: on 15 February 1944 did the Allied leaders, after careful investigation, believe that the abbey was being used for military purposes? The answer is: they did. Their belief was summarized in a cable from Wilson to the British chiefs of staff in which he stated that he had " irrefutable evidence " that the abbey was part of the main German line of defense, that observers used it to direct artillery fire, that snipers fired from it, and that gun emplacements, pillboxes, and ammunition dumps were located within its shadows.111 
+
+			Even though Wilson had sufficient reason to consider the abbey as a military objective it is altogether possible that it would never have been bombed (for the Allies throughout the war made every effort to avoid damage to buildings of historical and religious significance) had not the New Zealand Corps " under Gen. Bernard C. Freyberg been ordered to storm the high ground north and west of the town of Cassino on the night of 16/17 February. The assault was to be the pay-off blow of the month-long and heretofore futile effort to break the Gustav Line, and Freyberg insisted that the destruction of the monastery was a military necessity Generals Wilson, Alexander, Devers, Eaker, and others did not agree, but eventually Freyberg's arguments that military exigencies outweighed historical and sentimental considerations prevailed and Wilson ordered the air forces to destroy the abbey.112 
+
+			The aerial bombardment began at 0900 hours on the 15th when the first wave of Allied bombers swept in. By noon B-17's, B-25's, and B-26's had dropped 342 bombs, and at the end of the day a total of 142 heavies and 112 mediums had unloaded 576 tons of high explosives.
+
+			* Including the New Zealand 2 Division, Indian 4 Division, and British 78 Infantry Division.
+
+			--363--
+
+			Between successive bomber attacks heavy artillery fired on the target.113 The combined pounding destroyed the abbey as a historical monument, but only impaired its usefulness to the enemy. Nor were the ground forces, in spite of careful planning and hard fighting, able fully to exploit the effects of the bombardment when they tried on the  16th and 17th to take Monastery Hill; although mediums again attacked the abbey and its environs and more than 100 P-40's and P-51's bombed with great precision just ahead of the troops, the infantry, which got its attack under way slowly and in a piecemeal fashion, was unable to reach the monastery. The best that could be accomplished was to establish a small bridgehead across the Rapido River and seize about a third of Cassino town. After four days of fighting, it was obvious that the key position in the Gustav Line could not then be taken, and the battle which had raged along the Fifth Army front for more than a month died down.114 For the next few weeks ground activity was restricted to patrolling while both sides regrouped and planned future operations. Insofar as the air forces were concerned, the lull came at a convenient time, for it coincided with the main enemy offensive against the Anzio beachhead which required the full attention of MAAF's planes.
+
+			The failure of the Allied forces to break the stalemate in Italy was a matter of sharp disappointment and concern in Washington and London, as well as in the theater. Of immediate importance was the possibility that the Germans might yet wipe out the Anzio salient. In the longer view there was the danger that the plans made for OVERLORD and ANVIL, both of which were scheduled to take place late in May or early in June, might be upset. When the Anzio-Fifth Army operations failed to produce results the planners realized that ANVIL might have to be postponed, perhaps abandoned, while a prolongation of the stalemate might even delay the launching of OVERLORD. Troops earmarked for ANVIL were fighting at Anzio and could not be withdrawn until the two Allied fronts were joined; troops on both fronts were in short number and battle-weary; there were not enough landing craft to support both SHINGLE and ANVIL. To undertake a new operation in the Mediterranean before the Italian land battle had been cleared up would be unwise, if not impossible.
+
+			Certainly General Wilson thought so. On 22 February he recommended to the British chiefs of staff that ANVIL be canceled and that he be given a new directive to conduct operations designed to contain 
+
+			--364--
+
+			the maximum number of German troops with the troops available to him. This he proposed to do by keeping pressure on the enemy, for which purpose he would maintain the Anzio beachhead, forcing the Germans to use up manpower and supplies. Believing that operations in Italy " must be conditioned mainly by the air factor, " he planned to use his air forces to deprive the enemy of the ability either to hold present positions or to withdraw units from Italy until after OVERLORD had been launched. Staff studies and consultation with subordinate commanders had convinced Wilson that MAAF, with the aid of good weather during March and April, could so disrupt the enemy's communications as to make the maintenance of a line below Rome impossible, and that a combined Allied air and ground offensive could compel withdrawal to a Pisa-Rimini line.115 
+
+			Concurrently, the Italian situation was under discussion in Washington where the dangers inherent in the stalemate were thoroughly appreciated. General Arnold believed that the proper application of air power would aid greatly in breaking the impasse. He pointed out that there were around 4,100 combat aircraft in the Mediterranean but that they had been used sporadically and piecemeal on behalf of the ground campaign; there had been no true mass air assaults. If available air power were properly applied almost 2,900 planes could be brought to bear directly on Cassino or Anzio; for a short period these aircraft could fly over 5,600 sorties and drop close to 6,200 tons of bombs (not to mention strafing) per day in cooperation with a ground offensive. Arnold believed that the best course was to hurl heavy and concentrated air attacks against the Cassino sector, isolate the battle area, and blast a passage in the enemy defenses through which the ground troops could pass and exploit northward. This should be done, however, only if the ground forces were positive that they were capable of taking full advantage of the air assault. They must be able to regain the initiative and launch a strong offensive.116 
+
+			Arnold's confreres in the JCS approved the suggestion, feeling that his plan for the immediate employment of air power en masse was superior to Wilson's long-range plan.117 The British chiefs agreed in principle but felt that the ground troops were too exhausted to take "corresponding offensive action" along with the air attack. The matter was compromised by changing "corresponding offensive action" to "vigorous offensive action on land," which was to be "related" to the air assault. On 8 March the CCS called General Wilson's attention to the 
+
+			--365--
+
+			possibilities inherent in mass air operations, but left to his discretion whether the effort should be applied at Cassino or in the Anzio area.118 It so happened that for more than two weeks Wilson had held in readiness a plan comparable to the one suggested by Arnold and had only been awaiting favorable weather to put it into effect. Clark had been pressing for such an operation as a means of breaking out his stalled Fifth Army, and as early as 20 February, Alexander had advocated a massive bombing of Cassino to be followed by attack with ground troops. Accordingly, Wilson informed the CCS on 9 March that a maximum air and ground assault would be made on the Cassino front as soon as weather permitted.119 
+
+			General Eaker was not enthusiastic over the plan. The failure of the ground troops to achieve success after the bombing of the abbey on 15 February, plus the bad weather which now had the ground forces mired down and the Rapido out of its banks, made him feel that the Fifth Army was not in a position to take full advantage of a mass air attack. He wrote to Arnold that little useful purpose would be served " by our blasting the opposition unless the army does follow through, " and he warned his chief not to expect a great victory as a result of the operation because, in his opinion, the air assault would not throw the enemy out of his present position " completely and entirely. " Eaker and Brig. Gen. Gordon P. Saville also pointed out to General Freyberg, whose New Zealand troops again would lead the ground attack, that bomb craters would negate the use of tanks, but Freyberg asserted that bulldozers could quickly clear a path.120 
+
+			Final plans called for the entire strength of Tactical and powerful elements of Strategic to flatten the town of Cassino in one overwhelming air assault, scheduled to last from 0830 to 1200 hours on D-day. Immediately, the New Zealanders were to move in on Cassino from the north, seize the town and Castle Hill, and set up a bridgehead over the Rapido along Highway 6. The Indians then were to take Monastery Hill and cut Highway 6, and the Fifth Army was to exploit into the Liri Valley. The proper execution of the plan demanded a favorable combination of weather conditions: operational conditions at 14,000 feet over the target; flyable weather at all bomber bases in Sardinia and in the Naples and Foggia complexes and between bases and the target; and ground dry enough for tank operations.121 
+
+			Bad weather regularly postponed the operation -- as it had done since 25 February, the original date set by Wilson122 -- but finally on 15 
+
+			--366--
+
+			March the desired combination came up. Before dawn Allied troops pulled back from Cassino a distance of about 1,000 yards. Promptly at 0830 B-25's launched the air assault, which then proceeded according to schedule (with a few exceptions) until noon, when the last formation of B-26's hit the target and turned away. In the three and a half hours of bombardment more than 275 heavies and close to 200 mediums dropped over 1,000 tons of 1,000-pound demolition bombs.123 
+
+			Bombing accuracy and adherence to the timetable laid down for each wave were below par for the heavies (several bombs fell among our own troops). From an exhaustive investigation conducted by General Edwards on orders from General Eaker it appears that the poor showing of the heavies was caused by a combination of circumstances: poor air discipline on the part of two new groups, malfunction of bomb racks in one formation, lack of specific aiming points,* and the heavy pall of smoke and dust which obscured the target after the first few attacks. Mediums, on the contrary, maintained fine discipline and achieved remarkable bombing accuracy in spite of the fact that the target was largely hidden. The B-26's (17th, 319th, 320th Bombardment Groups), which put close to 90 per cent of their bombs on the target, " stole the air show at Cassino." Heavies and mediums together dropped about 50 per cent of their bombs within the 1,400-yard x 400-yard confines of the town, which was not a bad over-all average.124 
+
+			The tremendous attack destroyed Cassino. Shells of buildings still stood, but most of the town was a twisted mass of rubble. Eaker reported that the ground commanders " felt without exception that the air bombardment had given the measure of destruction which they had hoped for.125
+
+			Immediately following the mass air attack, Allied artillery laid down a heavy barrage on the town. As it crept forward, a small force of New Zealand infantry, strung out over several hundred yards, and tanks at-tacked from the north. They promptly ran into trouble. The tanks were stopped at every approach by huge craters which held them until engineers, working under fire, could build bridges -- some as long as seventy feet -- across the gaping holes,126 while the streets were so full of rubble that one New Zealand brigadier estimated that under ideal conditions it would have taken bulldozers forty-eight hours to clear a single path through the town.127 In the beginning the infantry met 
+
+			*Specific aiming points purposely were not assigned, in keeping with the fundamental object of saturating the defenses.
+
+			--367--
+
+			no real opposition -- General Eaker's photographer walked over many of the streets taking pictures without drawing so much as a rifle shot -- but the infantry's attack moved in so slowly that an hour passed before it had secured a foothold in the town. These delays gave the enemy, who beyond a doubt had been temporarily confused and disorganized by the bombing,128 just enough time to recover and to crawl out of dugouts, holes, pillboxes, and a tunnel which ran under the town and take up strong sniping and machine-gun positions in the ruins. Even so, at midafternoon the situation seemed hopeful and by nightfall, in spite of increasing resistance by the enemy (a special group of Nazi fanatics, with very high morale), the Allied troops had penetrated well into the northern part of the town. Deteriorating weather during the afternoon canceled planned attacks by heavy and medium bombers which would have assisted the ground assault by pinning down the defenders; however, light bombers, fighter-bombers, and fighters managed to get in below the overcast and drop around 100 tons of bombs on the south side of the town, the railway station, the slopes of Monastery Hill, and on other miscellaneous targets. MAAF planes also covered lines of communication, especially those between Cassino and Rome-Anzio, in order to prevent the movement of reinforcements and supplies.129
+
+			Plans called for continuing the ground advance during the night of the 15th but the troops were stopped cold by hard rains. The enemy took advantage of this breather to reorganize and to reinforce a number of vital positions. The rain further assisted him by leaving the ground sodden and sticky and by turning every crater into a miniature lake. The Allies made considerable progress on the 16th, but the enemy held on to the Continental Hotel and other strongpoints and on the 17th was able to counterattack at one point. At the end of the day the Allies had two-thirds of the town and most of the ridge from Castle Hill to Hangman's Hill, but they had not taken Monastery Hill and the abbey or penetrated the town from the south. Five more days of fighting produced indecisive results, and at the end of the 23d, Alexander ordered the New Zealanders to call off the battle.130 The breaking of the Gustav Line would have to wait for dry ground and for Allied troops less weary. Devers and Eaker had been right when they had warned early in March that the Cassino operation would not result in a large-scale breakthrough.131 
+
+			In the eight days from the 16th through the 23d air activity over Cassino was limited to the maintenance of air cover and to meeting requests
+
+			--368--
+
+			by the ground troops. These matters were handled by fighters and fighter-bombers; mediums made a few attacks close to Cassino, but most of their efforts after the 15th were against lines of communication well to the north of the battle line. The smaller planes hit communications and concentrations near Cassino, but their main targets were gun positions on the heights which overlooked the battlefield, more than 500 sorties being flown against them. Another important close-in operation was that of dropping supplies to troops which were isolated on Hangman's Hill and Point 202; A-36's handled most of the missions, flying 154 sorties in four days.132 Air cover was not much of a problem, although the weak Luftwaffe came to the aid of the defenders of Cassino, and at the same time tried to help Kesselring's troops at Anzio, by flying more sorties over the two sectors than at any time since mid February. On several days the enemy's effort over both areas ranged from 60 to 100 sorties (on the 19th and 24th it was around 150) compared to a normal daily operation of around 50 sorties. The effort accomplished little and the enemy lost forty-two planes as against ten Allied planes.133 After the Allies' Cassino offensive came to an end on 23 March, MAAF confined its activities over the battlefield to patrols. Actually, the real air war already had moved north to above Anzio and Rome.
+
+			An evaluation of the mass air attack on Cassino indicates that the air forces met their commitment of smashing the town. The most serious criticism was the failure of the heavy bombers to keep on the time schedule, which, with some inaccurate bombing, gave the enemy several periods of respite up to forty minutes in length. Had the bombing been as continuous as had been planned, the demoralization of the defenders would have been more nearly complete. It is extremely doubtful, however, that this would have materially affected what happened after the bombing ceased, for the enemy still would have had the same length of time in which to recover. Nor can it be supposed that any other benefits would have accrued even had the air attack been perfectly executed. The deep cellars and tunnels still would have limited the number of casualties, and certainly any additional damage to the town could only have hindered the Allied ground forces.134
+
+			The failure of the infantry to take Cassino after the great air assault proved two things. One was that a mass air attack can be a double-edged weapon. It flattened Cassino and temporarily stunned its defenders, but it created obstacles in the form of craters and masses of 
+
+			--369--
+
+			rubble which made the speedy use of armor impossible and handicapped the infantry.135 The weapon may have been double-edged in another respect: the forward elements of the Allied infantry were only 1,000 yards from the town during the bombardment and some bombs fell among them; it may have been that this circumstance had something to do with the slowness with which the infantry moved to the attack. The second thing proved was that a ground attack which is to follow a mass air attack must be launched immediately, vigorously, and on a large scale,136 The assault by the New Zealanders on 15 March was characterized by none of these features, the best proof being that their total casualties for the day were only four officers and thirteen men.137 
+
+			Speaking strictly from the point of view of air operations, the bombing showed again that the shoemaker should stick to his last. Tactical's mediums put on a superior performance because the mission was the sort to which they were accustomed; the poorer showing of the heavies was the result primarily of undertaking a job which was out of their line.138 
+
+			The mass air attack on Cassino was a spectacular affair, and because it did not result in a breakthrough (as so many people had decided it would do) it has been called a spectacular failure in the use of aircraft as artillery.139 Such a view can be justified only in part. After all, the operation was a failure not because the air forces did not carry out their assignment; as directed, they pulverized Casino.140 
+
+			It was a failure because the ground commanders expected complete reduction of resistance from the air attack and because the combined air and artillery bombardment resulted in more destruction than was desirable but, above all, because the ground forces attacked too late and with too little.
+
+			--370--
+
+			Table of Contents
+
+				Previous Chapter (9) * * Next Chapter (11)
+
+			 Notes to Chapter 10:
+
+			1. Ltr., Eaker to Brownell, 19 Feb. 1944; CM-IN-9073, Brit. C/S to AFHQ, 12 Jan. 1944; ltrs, Eaker to Arnold, 6, 21 Mar.1944, Eaker assumed command 
+				of MAAF on 15 January per Hq. MAAF GO 1, 15 Jan. 1944.
+
+			2. History, MAAF, I, 29; RAF Organization Memos 1-41, in History, MAAF, Vol. II.
+
+			3. CCS 387/3, 5 Dec. 1943; memo for Eaker et al. from Spaatz, 5 Jan. 1944; CCS 400/2, 4 Dec. 1945; JCS 602/3, 6 Dec. 1943.
+
+			4. CCS 400/2, 4 Dec. 1943; CCS 387/3; 5 Dec. 1943; AGWAR msg., AFHQ 9338, 9 Feb. 1944; ltr., Eaker to Giles, 23 Jan. 1944. See also Signal 02210, Air Min. to AFHQ et al., 12 Jan. 1944, in History, MAAF, Vol. II.
+
+			5.  USSAFE Directives of 11 Jan., 3, 22 Feb. 1944 (each in a ltr., Hq. USSAFR to CG 15th AF on above dates); conference between Spaatz and Eaker (London), Jan. 1944; History, MAAF, p. 22 and chap. vii; CM-IN-18067, MAAF to WAR, 25 Feb. 1944. See also ltr., Eaker to Giles, 6 Mar. 1944.
+
+			6. Msg., Eaker to Spaatz, 29,19 Feb. 1944; msg., Spaatz to Eaker, IE 122CS, 19 Feb. 1944; File 706.
+
+			7. Ltr., Eaker to Giles, 23 Jan. 1944.
+
+			8. Ltr., A/M Slessor to Sir Charles Portal, C/AS, 20 Jan. 1944; History, MAAF, I, 7-8, 11; Hq. MAAF, Minutes of Daily Staff Mtgs., 2 Feb. 1944; ltrs., Eaker to Timberlake, 8 Feb., and to Bissell, 23 Jan. 1944.
+
+			9. History, MAAF, I, 27-28; Hq. MAAF GO 14, 16 July 1944.
+
+			10. AG Ltr. 322, 10, Apr. 1944 (OB-I-AFRPG-M), authorized the allotment. See also ltrs., Eaker to Giles, 3 Feb., 6 Mar., and to Arnold, 21 Mar. 1944; History, MAAF, I, 30-32; telecon, Eaker and Giles, 6 May 1944.
+
+			11. History of the Original XII AFSC; History, AAFSC/MTO, 1 Jan-30 June 1944, chaps. i-ii.
+
+			12. Ltr., Eaker to Giles, 23 Jan. 1944; History, AAFSC/MTO, 1 Jan. -30 June 1944, chaps. i-ii; Hq. AAF/MTO GO'S 1, 6, 14-16 on 28 Jan., 21, 27 Mar., 5 Apr. 1944; ltr., Eaker to CG 12th AF et al., 14 Mar. 1944.
+
+			13. History, AAFSC/MTO, 1 Jan. - 30 June 1944, chap. i, pp. 65-67; ltr., Eaker to CG 12th AF et al., 14 Mar. 1944; interview.with Lt. Gen. I. C. Eaker by Albert 
+				F. Simpson, 24, 25 Jan. 1950.
+
+			14. Hq. AAF/MTO GO 8, 18 Feb. 1944; History, AAFSC/MTO, 1 Jan. -30 June 1944, chap. i, p. 65, chap. iii, pp. 327-36.
+
+			15. History, Original XII AFSC; History, AAFSC/MTO, 1 Jan.-30 June 1944, 1 July-31 Dec. 1944, 1 Jan. 1945-Inactivation; History, I ASAC; AAFSC/MTO, Aircraft and Glider Assembly in the MTO.
+
+			16. History, AAFSC/MTO, 1 Jan. -30 June 1944, chap. iii, pp. 364-73; History, Adriatic Depot Under AAF Control, 21 Dec. 1943-28 Feb. 1945, chap. i; History AAFSC/MTO, 1 July-31 Dec. 1944, chap. iii, pp. 436-52.
+
+			17. History, AAFSC/MTO, 1 Jan.-30 June 1944, chap. iii, pp. 337-51; 1 July-31 Dec. 1944, chap. iii, pp. 453-62; History, Allied Air Force Area Comd.
+
+			18. History, AAFSC/MTO, 1 Jan.- 30 June 1944, chap iii, p. 390; 1 July-31 Dec. 1944, chap. i, pp. 24-29; History, I ASAC.
+
+			19. History, AAFSC/MTO, 1 Jan.-30 June 1944, chap iii, pp. 374-83; History, XI AAF.
+
+			20. History, AAFSC/MTO, 1 Jan.-30 June 1944, pp. 91-92, 352-63; History, MATS, 25 May 1943 - 31 May 1944, Pt. i, pp. 1-4, Pt. III, pp. 2-57; Hq. AAFSC/MTO Adm. Memo 2, 26 Jan. 1944; History, MAAF, I, 32-34.
+
+			21. History, MAAF, pp. 34-35; 12th AF Admin. History, Pt. I; Hq. 12th AF, Medium Bomber Operations, 1 Jan-28 Aug. 1944 9 pp. 1-3.
+
+			22. The order to disband TBF (GO 8) was "in accordance with verbal instructions from the Air Commander in Chief," which means that the decision was General Eaker's.
+
+			23. The order to disband TBF was issued on 29 April but was retroactive to 1 March. Apparently, the headquarters had disbanded even before 1 March, for Hq. MATAF Operations Record Book and Twelfth Air Force Administrative History both give 20 February as the date on which it ceased to exist; certainly, by 1 March all of its medium bombardment groups had been transferred to the MATAF wings which replaced TBF.
+
+			24. History, MAAF, pp. 34-35; RAF 
+				Orgn. Memo 14, 21 Mar. 1944; Hq. MAAF GO 8, 19 Apr. 1944; 12th AF -Adm. History, Pt. I; Hq. 12th AF, Medium Bomber Opns., pp. 1-3; MATAF Opns. Record Book, Feb. 1944, App. C, 
+				p. 11. See also, ltr., Coningham to Robb, 16 Nov. 1943, in files of Brit. Air Min. Air Historical Br. (BAM [AHB]).
+
+			25. 12th.4F Admin. History, Pt. I, Pt. III; XII TAC Opnl. History, 1 Jan. -30 June 1944. See also CM-OUT-11689, CG NATO to CG ETO, 31 Dec. 1943; CM-IN-3545, Algiers to WAR, 6 Jan. 1944; CH-OUT-11753, OPD to Freedom Algiers et al., 31 Dec. 1943; CM-IN-11701, JSM to Brit. C/S, 16 Mar. 1944.
+
+			26. 12th AF Admin. History, Pt. I, Pt. III; AAF/MTO GO 1, 16 Mar. 1944; incl. 3 to ltr., Eaker to Arnold, I June 1944; 12th AF, Troop Carrier Operations, 1944, pp. 1-2; Hq. 12th AF GO'S 12, 14 Feb., and 72, 20 July 1944; redline msg., Williams to Eaker, IE3PW, 11 Feb. 1944.
+
+			27. History, 15th AF, Vol. I, chap. ii.
+
+			28. Ltr., Eaker to Arnold, 6 Mar. 1944; CM-IN-19854, Freedom to Brit. C/S, 28 Feb. 1944. See also ltrs., Eaker to Giles. 29 Feb., and to Arnold, 21 Mar. 1944; interview with Gen. Twining by Lt. C. B. O'Brien, cited in History, 15th AF, I, 73n. For the Eighth's effort to take three long-range fighter groups, see numerous IN msgs., Feb. and Mar. 1944. for example, 19180, Algiers to WAR, 27 Feb 1944; 12237, JSM to AFHQ, 15 Mar. 1944; 11701, JSM to Brit. C/S, 16 Mar. 1944; 19221, Spaatz to Arnold, 26 Mar. 1944; 22609, CCS to Wilson, 31 Mar. 1944. See also telecon, Eaker, Craig et al., 14 Mar. 1944; ltr., Eaker to Giles, 29 Feb. 1944.
+
+			29. Ltr., Eaker to Arnold, 1 June 1944. See also ltrs., Eaker to Giles, 29 Feb., 6 Mar., and Craig to Eaker, 22 Mar. 1944; 1st ind. (memo for CG 15th AF et al. from MAAF, 19 Apr. 1944), for CG MAAF from Twining, 30 Apr. 1944;
+				telecon, Eaker, Craig et al., 14 Mar. 1944.
+
+			30. For decisions at SEXTANT see 
+				CCS 379/7. 27 Nov. 1943; CCS 424, 5 Dec. 1943; CCS 136th Mtg., 5 Dec. 1943; SEXTANT, Minutes of Second Plenary Mtg., Nov. 1943. For SHINGLE prior to SEXTANT and, more particularly, for discussions and plans 
+				
+				late in December, see C-in-C Med., Directive to the Naval Commander, Operation SHINGLE, 15 Nov. 1943; frozen cables 892 and 893, PM to D/PM and PM to President Roosevelt, 25 Dec. 1943; cable for Jacob from Hollis, 25 Dec. 1943; Report by SACMED to the CCS on the Italian Campaign, 8 Jan. to 10, May 1944 (cited hereinafter as Rpt. of SACMED, Jan. -May 1944 ); Hq. MAAF, Operations in Support of SHINGLE, pp. 2-8; History, MAAF, 1, 151; TWX, MAAF Rear to MATAF, A297, 26 Dec. 1943; History, 12th AF (draft); FM H. R. L. Alexander, The Allied Armies in Italy; Brit. Hist. Sec.. Central Med., British Forces at Anzio; Directives, TAF/60/AIR, 30 Dec. 1943, 14-15 Jan. 1944; CM-IN-17731, Algiers to WAR, 28 Dec. 1943; interview with Marshal Alexander by Sidney Matthews, 10-15 Jan. 1949; History, 5th Army, IV, 15-18; msg., Eisenhower to Wilson (to 15th AG, 5th Army, Troopers Personal), 1 Jan. 1941; msg., Eisenhower to CCS et al., NAF 486, 25 Oct. 1943; msg., Alexander to Clark et al., 1135, 25 Dec. 1943; AFHQ G-3, Amphibious Operations on the Coast of Italy, P/115 (Final), 1 Nov. 1943; 15th AG Operations Instruction 31, 8 Nov. 1943; Mark W. Clark, Calculated Risk (New York, 1950), pp. 283-86.
+
+			31. For the main features of the planning between 25 December and 12 January, see msg., Clark to Alexander, 2 Jan. 1944, quoted in History, 5th Army, IV, 10-25; JPS, 363/2/D, 10 Jan. 1944; ltr., Hq. 8th Amph. Force to C-in-C, U.S. Fleet, Action Report, Operation SHINGLE, 22 Feb. 1944. For the final plan, see Hq. 5th Army FO 5, 12 Jan. 1944; Hq. 15th AG Opns. Instrs. 12, 32, 34, 16 Dec. 1943, 2 and 12 Jan. 1944. See also IN msgs., Algiers to WAR: 1054, 2 Jan. 1944, 317, 1 Jan. 1944, 17731, 28 Dec. 1943, 1700,2 Jan.1944; msg., Eisenhower to CCS, NAF 577, 3 Jan. 1944; Report of SACMED, Jan. -May 1944.
+
+			32. The roles assigned to MAAF and its elements in SHINGLE are in Hq. 15th AG Opns. Instr. 34, 12 Jan. 1944. Certain commitments were cancelled before SHINGLE was launched. These included sending an aviation engineer battalion ashore with the assault forces to construct an airfield, the early basing on the field of the 31st Fighter Group, and the dropping of paratroops inland from the beach. For these canceled plans (and for many of the features of the air arm's responsibilities) see Hq. MATAF Intel. Appreciation 3, TAF/317/1, n.d.; Hq. MAAF, Opns. in Support of SHINGLE, 
+				p. 5; memo for CG MATAF, from Hq. XII ASC, 17 Jan. 1944; History, 12th AF, V, 13; Hq. MATAF, Opn. SHINGLE Opn. Instr. 1, 19 Jan. 1944; Hq. XII ASC Adm. Plan 1, 10 Jan. 1944; 8th Amph. Force Opn. Plan 147-43, SHINGLE, 12 Jan. 1944; History, 5th Army, IV, 18-24; ltr., House to Deane, 14 Sept. 1944; GSI Appreciation 15, n.d.; MATAF memo, Air Targets Presented by Operation SHINGLE, 1 Jan. 1944; TWX, MAAF Adv. to MATAF, A226, 15 Jan. 1944; TWX, MAAF Rear to MAAF Adv. A270, 15 Jan. 1944; msg., C-in-C to 15th AG, 19896, 27 Dec. 1943; msg., Rear to Troop Carrier Command et al., A298, 26 Dec. 1943; msg., Eisenhower to Alexander, 20984, 29 Dec. 1943. The detailed plans for MAAF's operations are best found in Hq. NATAF Opnl. Directives for Opn. SHINGLE 1, 2, 3, on 30 Dec. 1943, and 4 on 4 Jan. 1944. See also 12th AF, Medium Bomber Opns., 1 Jan. -29 Aug. 1944; 12th AF in Central Italian Campaign, p. 12.
+
+			33. MAAF Cen. Med. Opns. Sums. 4-10, 26 Dec. 1943-1 Jan. 1944 (cited hereinafter as CMOS); MATAF Intel. Appre. 3, TAF/317/1/Int., n.d.; GSI Appre. 15, with App. A, B, n.d.; MATAF memo, Air Targets Presented by Operation SHINGLE; History, 5th Army, IV, 18-19.
+
+			34. History, MAAF, p. 153; Hq. MATAF, Minutes of Conference on Bombing Plan for Operation Shingle Held at TAF Hq., 5 Jan. 1944; MAAF, Opns. in Support of SHINGLE, p. 4; ltr., MAF to NASAF, 3 Jan. 1944; TWX, Norstad to Twining and Cannon, NTIO, JC91LN, 16 Jan. 1944; History, MAAF, 
+				p. 153.
+
+			35.  MAAF, Opns. in support of SHINGLE, pp. 6-7; RAF Med. Review 6, 17; History, 12th AF (draft); Coffin Report, Annex G, Sec. 2, p. 187-90; NASAF Intops Sum. 164 of 2-3 Jan. 1944; NATAF Int/Opsums 267-68 of 3-4 Jan. 1944;  MAAF, Air Intel. Weekly Sums. (Isums) 58-59 of 27 Dec. 1943, 3 Jan. 1944; CMOS 11-12 of 2-3 Jan. 1944; MATAF ORB, 1944, p. I.
+
+			36. RAF Med. Review 6, pp. 17-18; Minutes of a Conference Held at TAF Hq., 10 Jan. 1944, Relative to Bombing Schedule. MASAF Intops Sum. 170, 8 Jan. 1944; MAAF Isum 61, 17 Jan. 1944; CMOS 13-21 of 4-13 Jan. 1944; MATAF Int/Opsums 269-79 of 4-14 Jan. 1944.
+
+			37.  History, XII FC, Jan. 1944; MACAF Mare Nostrum 16-17.
+
+			38. Min. of Conf. Held at TAF Hq., 10 Jan. 1944, . . . Bombing; TWX, MATAF to TBF, A960, 11 Jan. 1944.
+
+			39. TWX, MAAF to MATAF, G287, 11 Jan. 1944; TWX, MATAF to MAAF Adv., A976, 13 Jan. 1944; msg., MAAF Adv. to MATAF et al., A207, 14 Jan. 1944; msg., Cannon to Norstad, LN 78JC, 14 Jan. 1944; msg., Norstad to Cannon, JC 85 LN, 15 Jan. 1944; signal, MATAF to MAAF Adv. et al., A994, 15 Jan. 1944; redline msg., CR 83 LN, 
+				2, 15 Jan. 1944.
+
+			40. TWX, MATAF to MAAF Adv. et al., A994, 15 Jan. 1944; memo for MAAF Adv. from MATAF, Operation Shingle-Bombing Plan, 15 Jan. 1944; msg., Norstad to Twining and Cannon, 10, JC 91 LN, 16 Jan. 1944; msg., MATAF to TBF et al., A988, 15 Jan. 1944; MATAF Opnl. Direc. for Opn. SHINGLE 4, 4 Jan. 1944, with amend. in msg. A988; Hq. 12th AF, Medium Bomber Opns., I Jan-28 Aug. 1944; USSTAF, The Contribution of Air Power to the Defeat of Germany (Coffin Rpt.), Annex G, Sec. 2, pp. 187-90.
+
+			41.  Msg., Norstad to Twining and Cannon, 16 Jan. 1944; History, 15th AF, I, 311.
+
+			42. Msg., MATAF to TBF, A960, I1 Jan. 1944; History, 12th AF (draft); Hq. 12th AF, Medium Bomber Opns.; MATAF Int/Opsums 281-87, 17-23 Jan. 1944; MASAF Intops Sums. 178-84, 17-22 Jan. 1944; MAAF Isum 62, 24 Jan. 1944; CMOS 24-29 of 16-21 Jan. 1944; MAAF, Opns. in Support of SHINGLE, App. L; Coffin Rpt., Vol. III.
+
+			43. History, 15th AF, I, 424-26 and II, 244-45; MASAF Intops Sums. 163-84, 
+				1-22 Jan. 1944; MAAF, Opns. in Support of SHINGLE, Annex O, Opnl. Stats.
+
+			44.  MAAF, Opns. in Support of SHINGLE, App. L; 12th AF, Medium Bomber Opns.; Coffin Rpt., Annex G, Sec. 2, 187-90; History, 12th AF (draft); History, 15th AF (Rev.), I, 424-26 and 11, 244-45; Fuehrer Conferences on Naval, Affairs, Conference of 18 Jan. 1944; MATAF Int/Opsums 281-83, 17-19 Jan. 1944; Role of TBF in Interdiction of Rail Traffic in Support of Anzio Operation, 
+				n.d.
+
+			45. MATAF Int/Opsums 272-73,277. 279, 285-86 of 8-9, 13, 15, 21-22 Jan. 1944; 12th AF, Medium Bomber Opns.
+
+			46. For the status of the GAF see History, 12th AF, V, 15; RAF Med. Review 6, p. 27; MAAF Isum 62, 24 Jan. 1944; NATAF Opnl. Direc. for Opn. SHINGLE, 30 Dec. 1943, App. C; MAAF, Opns. in Support of SHINGLE. Annex N; TAF/6o/AIR, Opn. SHINGLE Opn. Instr. I; Opnl. History, XII TAC, 1 Jan. -30 June 1944 (cited hereinafter as XII TAC Opnl. Hist. For MAAFs counter-air operations up to 14 January, see History, 12th AF (draft); 
+				W. M. Gould, The Italian Campaign, 
+				Planning and Operations to June 1944 (draft), in files of BAM (AHB); MATAF Int/Opsums 272, 278, of 8, 14 Jan. 1944; MASAF Intops Sums. 169, 175 of 7, 13 Jan. 1944; MAAF Isum 61, 17 Jan. 1944; CMOS 13-12 of 4-14 Jan. 1944.
+
+			47. Msgs., MATAF to MAAF Adv. et al., 17-18 Jan. 1944; History, 12th AF (draft); RAF Med. Review 6, pp. 23-24; MAAF Opns. in Support of SHINGLE, pp. 8, 15-16; 12th AF, Medium Bomber Opns.; MATAF Int/Opsum 284, 20 Jan. 1944; MASAF Intops Sums. 178-82, 16-20 Jan. 1944; MAAF Isum 62, 24 Jan. 1944; CMOS 24-29 of 16-21 Jan. 1944; redline msg., Twining from Eaker, 20 Jan. 1944; History, 15th AF, I, 341, 353.
+
+			48. RAF Med. Review 6, p. 29; MAAF Isum 62, p. 2; CMOS 27, 19 Jan. 1944; Hq. 47th Wing, Intel. Annex to Opns. Order for 19 Jan. 1944, dtd. 18 Jan. 1944; MASAF Intops Sum. 181,19 Jan. 1944; MAAF, Opns. in Support of SHINGLE, 
+				pp. 8-9.
+
+			49. RAF Med. Review 6, p. 29; MAAF Isums 62-64 of 24, 31 Jan., 7 Feb. 1944.
+
+			50. RAF Med. Review 6, pp. 22-23, 26-27; MATAF Int/Opsums 267-68, 278-79, 284-85 of 3-4, 14-15, 20-21 Jan. 1944; CMOS 10-29 of 1-21 Jan. 1944; NATAF Opnl. Direc. for Opn. SHINGLE 3, 30 Dec, 1943, App. B; XII TAC Opnl. Hist.; XII ASC Daily Intel. Sums., 1-21 Jan. 1944; DAF Forward Hq., Daily Intel. Sums., 1-21 Jan. 1944.
+
+			51. RAF Med. Review 6, pp. 21-22; MAAF, Opns. in Support of SHINGLE, Annex N; Coffin Rpt., 111,18-19; History, 12th AF (draft); XII TAC Opnl. Hist.; XII ASC Isums 1-21 Jan. 1944; CMOS 10-29 of 1-21 Jan. 1944.
+
+			52. Msg., CG XII ASC Adv. to CG MATAF, EA 77 J, 14 Jan. 1944; History, 12th AF (draft); RAF Med. Review 6, 
+				p. 17; MAAF to Air Min., MAAF 61, 8 Feb. 1944, in files of BAM (AHB); History, Aviation Engineers in MTO, pp. 207-11; Notes on a Conference on SHINGLE Held at XII AX Hq., 3 Jan. 1944; Disposition of Air Forces under Opnl. Control of MATAF for Opening Phase of Operation SHINGLE, TAF/ 185/ORG, 20 Jan. 1944; MAAF, Opns. in Support of SHINGLE, p. 6; redline msg., House to Cannon, 30 Dec. 1943.
+
+			53. History, 5th Army, IV, 24-48; 5th Army, Report on Cassino Operations, 5 June 1944; Clark, Calculated Risk, pp. 262-79.
+
+			54. Figures on the GAF are from MAAF Isum 62; RAF Med. Review 6, 
+				p. 27; 12th AF in Cen. Italian Campaign, 
+				p. 15; MAAF, Opns. in Support of SHINGLE, Annex N; NATAF Opnl. Direc. for Opn. SHINGLE I, 30 Dec. 1943, App. C; XII TAC Opnl. Hist. Figures on MAAF are from TAF/185/ORG, 20 Jan. 1944; TAF/60/AIR, Opn. SHINGLE Opn. Instr. 1, 19 Jan. 1944; MATAF Direcs. 1-4 (TAF/60/AIR), 30 Dec. 1943 -4 Jan. 1944, in files of BAM (AHB); MAAF, Opns. in Support of SHINGLE, Annex O, Opnl. Stats.; MAAF Monthly Stat. Sum. 3, Jan. 1944; History, MAAF, I, 5; MATAF, Sum. of Opns. for 1944.
+
+			55. MAAF, Opns. in Support of SHINGLE, Annex P.
+
+			56. History, 5th Army, IV, 60-62; Eighth Amph. Force Opn. Plan SHINGLE, 12 Jan. 1944; Hq. MACAF Opd. Order 1, 19 Jan. 1944; Hq. XII ASC Opnl. Direc. SHINGLE to 64th FW et al., 15 Jan. 1944; Hq. MATAF, Opn. SHINGLE Opn. Instr. 1, 19 Jan. 1944; RAF Med. Review 6, p. 28; G-2 AFHQ Translation of Captured German Training Memo, Principles of Anglo-American Landing Operations, Feb. or Mar. 1944; statement by Mr. M. W. Gould, BAM (AHB); War Dept. Ger. Mil. Doc. Sec., German Operations at Anzio, 
+				p. 11.
+
+			57. For the landings and the matter of tactical surprise, see History, 5th Army, IV, 62-64, 67; cables, Wilson to Air Min. and U.S. JCS, MEDCOS 7 and 9, 22 Jan. 1944. For the absence of the GAF, see MAAF, Opns. in Support of SHINGLE, Annex N, Enemy Reaction to the SHINGLE Operation. On the matter of strategic surprise, see Questions Regarding the General Strategy During the Italian Campaign, by Field Marshal Kesselring, trans. by Ernest W. Matti (cited hereinafter as Kesselring Questions);WD GMDS, The German Opn. at Anzio, p. 5, 7; memo. Kesselring to C/GS, Luftflotte 2, dated 12 Jan. 1944, in Trans. VII/16, BAM(AHB), 3 Jan. 1947.
+
+			58. XII ASC, Opn. Plan SHINGLE, 8 Jan. 1944; RAF Med. Review 6, p. 28; XII ASC Isum, 22-23 Jan. 1944; MATAF lnt/Opsum 287, 23 Jan. 1944; MAAF, Opns. in Support of SHINGLE, p. 11 and Annex N; ltr., Eaker to Bissell, 23 Jan. 1944.
+
+			59. RAF Med. Review 6, pp. 16-17, 27-28: W. M. Gould, The Italian Campaign; XII TAC Opnl. Hist.; History, 64th FW, Jan. 1944; History, 7th Army, IV, 34, 64; MAAF, Opns. in Support of SHINGLE, pp. 12-14; MATAF, Rpt. on Air Opns. at Anzio, 2 Mar. 1944; History, MAAF, I, 160-64; CMOS 30-32 of 22-24 Jan. 1944; MATAF, Sum. of Opns. for 1944, p. 2; MATAF Int/Opsum 287, 
+				23 Jan. 1944.
+
+			60. Kesselring Questions; History, 5th Amy, IV, 64-68; ltr., Eaker to Bissell, 23 Jan. 1944. For other German opinion that the Allies should have driven inland, see WD GMDS, The German Opn. at Anzio, pp. 12-14, 120-21. See also Clark, Calculated Risk, pp. 286-87.
+
+			61. Ltr., Eaker to Arnold, 6 Mar. 1944; 
+				Kesselring Questions; History, 5th Army, IV, 68. 85; Washington Post, 24 Jan. 1947; Clark, Calculated Risk, pp. 290, 295, 
+				329-30.
+
+			62. History, 5th Army, IV, 73-84.
+
+			63. MAAF, Opns. in Support of SHINGLE; ltr., Eaker to Arnold, 6 Mar. 1944; Hq. ACMF Isum 32, App. B., 16 Feb. 1944; W. M. Gould, The Italian Campaign, chap. 7; Coffin Rpt., Annex G; Role of TBF in Interdiction of Rail Traffic in Support of Anzio Opns. 3.
+
+			64. History, 5th Army, IV, 83-86.
+
+			65.  MATAF Int/Opsums 287-95, 298 of 23-31 Jan., 3 Feb. 1944; CMOS 31-41 of 23 Jan. -3 Feb. 1944; XII ASC Isums 298-308 of 24 Jan-3 Feb. 1944; XII TAC Opnl. Hist.
+
+			66. 12th AF, Medium Bomber Opns.; MATAF Int/Opsums 287-300 of 23 Jan.-5 Feb. 1944.
+
+			67. CMOS 30-43 of 22 Jan. -4 Feb. 1944; MATAF Int/Opsums 287-300 of 23 Jan.-5 Feb. 1944; 12th AF, Medium Bomber Opns.; Coffin Rpt., Annex G, Sec. 2; History, 12th AF, Vol. V.
+
+			68. Draft Progress Rpt. for Opn. Pointblank, 1-31 Jan. 1944, in files of BAM (AHB); CMOS 33-43 of 25 Jan.-4 Feb. 1944; MASAF Intops Sums. 189-203 of 22 Jan.-4 Feb. 1944; MAAF, Opns. in Support of SHINGLE; Coffin Rpt., Annex W, Sec. 2; History, 15th AF (Rev.), I, 452-54.
+
+			69. BAM (AHB), Rise and Fall of the German Air Force; Brit. Hist. Sec., Cen. Med., British Forces at Anzio, Annex III to App. C-1, in files of BAM (AHB); History, 64th FW, Jan. 1944; MAAF, Opns. in Support of SHINGLE, pp. 16-17.
+
+			70. Ltr., Eaker to McNarney, 31 Jan. 1944; MAAF Isum 63, 31 Jan. 1944; CMOS 35, 27 Jan. 1944; MAAF, Opns. in Support of SHINGLE, Annex N; redline msg., MASAF from Air Command Post, 25 Jan. 1944.
+
+			71. MAAF, Opns. in Support of SHINGLE, Annex N; IN msgs., Fairbanks to Brit. C/S: 19041, 28 Jan.; 18713, 27 Jan.; 17989, 26 Jan.; 16711, 25 Jan.; 16463, 24 Jan. 1944; MAAF Isums 63-64 of 31 Jan. and 7 Feb. 1944.
+
+			72. BAM (AHB), Rise and Fall of GAF; British Forces at Anzio, Annex III to App. C-1; 12th AF in Cen. It. Campaign; MAAF, Opns. in Support of SHINGLE, pp. 16-17, and Annex N; MAAF Isums 63-64 of 31 Jan. and 7 Feb. 1944.
+
+			73. Ltr., Eaker to McNarney, 31 Jan. 1944; MAAF Isum 64, 7 Feb. 1944; CMOS 31, 38 of 23, 30 Jan. 1944; 15th AF monograph, Counter Air Force Operations; MASAF Isum 6, 12 Feb. 1945; 15th AF TMR, 30 Jan. 1944; History, 15th AF, I, 342-43, and 11,157; MASAF Intops Sum. 192, 30 Jan. 1944.
+
+			74. Draft Progress Rpt. for Opn. POINTBLANK, 1-31 Jan. 1944; MAAF Isum 64, 7 Feb. 1944; MAAF, Opns. in Support of SHINGLE, Annex N; 15th AF TMR, 31 Jan. 1944; 15th AF, Counter Air Force Opns.; MASAF Intops Sums. 192-93 of 30-31 Jan. 1944.
+
+			75. MAAF, Opns. in Support of SHINGLE, pp. 16-17 and Annex B; msg., CG XII ASC Adv. to Lt. Col. Mack, EA 150 J, 25 Jan. 1944; msg., Lt. Col. Mack to CG XII ASC Adv., 26 Jan. 1944; msg., CG XII ASC Adv. to Comdr. Amph. Task Force and Lt. Col. Mack, EA 153 J, 25 Jan. 1944; ltrs., Eaker to McNarney and Eaker to Giles, 31 Jan. 1944; Coffin Rpt., III, 18-25; History, 5th Army, IV, 72.
+
+			76. XII TAC Opnl. Hist.; MAAF, Opns. in Support of SHINGLE, Annex N; History, 64th FW, Jan. 1944; MATAF Int/Opsums 288-97 of 24 Jan. -2 Feb. 1944;MAAF Isum 63, 31 Jan. 1944.
+
+			77. Ltr., Eaker to Giles, 31 Jan. 1944; History, 307th Ftr. Sq., Feb. 1944; History, 5th Army, IV, 72.
+
+			78. 5th Army, Rpt. on Cassino Opns.; 12th AF in Cen. It. Campaign, p. 31; CMOS 30-40 of 22 Jan. -1 Feb. 1944.
+
+			79. Coffin Rpt., I, 53, 111,4-5, and App. G; MAAF, Opns. in Support of SHINGLE; Hq. ACMF Isum 32, App. B, 16 Feb. 1944; MATAF, Sum. of Opns. 1944; 
+				W. M. Gould, The Italian Campaign, chap. 7; Role of TBF in Interdiction of Rail Traffic . . .; RAF Med. Review 6, pp. 43-46; WD GMDS, German Opns. at Anzio, p. I 21.
+
+			80. History, 5th Army, IV, 101-23; German Opns. at Anzio, pp. 27-52.
+
+			81. XII TAC Opnl. Hist.; History, 307th Ftr. Sq., Feb. 1944; History, 5th Army, IV, 110.
+
+			82. XII TAC Opnl. Hist.; MATAF 
+				Int/Opsums 302, 305 of 7, 10 Feb. 1944; XII ASC Isums 312-21 of 7-16 Feb. 1944; History, 5th Army, IV, 123; MASAF Intops Sums. 200-205 of 7-12 Feb. 1944.
+
+			83.  History: 5th Army, IV, 88-94.
+
+			84. Brit. Hist. Sec., Cen. Med., Opns. of British, Indian, and Dominion Forces in Italy, Pt. I, Sec. A, p. 28; Hq. 15th AG Opns. Instr. 2, 2 Jan. 1944, both Sources in BAM (AHB); History, 5th Army, IV, 4-5 and App. 5.
+
+			85. MATAF Int/Opsums 302-3 of 7-8 Feb. 1944; History, 5th Army, IV, 110-11; MAAF, Opns. In Support of SHINGLE, Annex N; XII ASC Isums 312-13 of 7-8 Feb. 1944; MAAF Isum 64, 7 Feb. 1944.
+
+			86. CMOS 47, 53. of 8, 14 Feb. 1944; AFHQ G-3 Rpt. 458, 10 Feb. 1944; MASAF Intops Sum. 201, 8 Feb. 1944.
+
+			87. 5th Army, Rpt. on Cassino Opns., 5 June 1944; XII TAC Opnl. Hist.; CMOS 52-54 of 13-15 Feb. 1944; MASAF Intops Sums. 206-8 of 13-15 Feb. 1944; MATAF Int/Opsums 308-10 of 14-16 Feb. 1944; XII ASC Isums 319/21 of 14-16 Feb. 1944. The figure of 1,700 sorties for 13-15 February is from M.4TAF Int/Opsums 308-10. Figures on sorties and bomb tonnage, 1 January-15 February, are from MAAF, Opns. in Support of SHINGLE, p. 17 and Annex O, Opnl. Stats.; History, MAAF, I, 166-67.
+
+			88. History, 5th Army, IV, 129-43; WD GMDS, German Opns. at Anzio, pp. 52-62; Clark, Calculated Risk, 306-10.
+
+			89. History, 5th Army, IV, 143-44; XII TAC Opnl. Hist.; MAAF Isum 67, 28 Feb. 1944; ACMF Isum 33, 23 Feb. 1944.
+
+			90. Summary of Interrogation of POW'S Captured During Period Feb. 16 to Feb. 20, Anzio-Nettuno, by 5th Army, in files of BAM (AHB); memo for Hq. ACMF from 5th Army (Lt. Bombe), Influence of Allied Bombing Upon Operations in the Anzio Beachhead, 4 Mar. 1944; History, 15th AF, I, 452; XII TAC Opnl. Hist.; History, 12th AF (draft); ltr., AC/AS Intel. to CG 8th AF, 18 Mar. 1944; CMOS 55-58 of 16-19 Feb. 1944; MASAF Intops Sums. 209-13 of 16-20 Feb. 1944; MAAF Isum 67, 28 Feb. 1944; ACMF Isum 33,23 Feb. 1944; MATAF Int/Opsums 310-14 of 16-20 Feb. 1944; XII ASC Isums 322-25 of 17-20 Feb. 1944; TWX, MAAF Algiers to Hq. MAAF, 5 Mar. 1944, quoting signal, 5th Army to AFHQ; ltr., Clark to Saville, 21 Feb. 1944.
+
+			91. Msg., Devers to AGWAR for Arnold, 10 Mar. 1944; W. M. Gould, The Italian Campaign; XII TAC Opnl. Hist.; Coffin R t., 111,25; MAAF, Opns. in Support of SHINGLE, Annex O; MAAF Isum 67, 28 Feb. 1944.
+
+			92. Msg., Devers to Arnold, NACOS W472, 17 Feb. 1944; msg., Devers to AGWAR for Arnold, 10 Mar. 1944.
+
+			93. CMOS 59-67 of 20-28 Jan. 1944; 
+				W. M. Gould. The Italian Campaign, chap. 7; MATAF, Int/Opsums 314-24 of 20-29 Feb. 1944; XII ASC Isums 325-34 of 20-29 Feb. 1944; MAAF Isum 67, 28 Feb. 1944; 42d BW Stinopsums 41-48 of 19-29 Feb. 1944.
+
+			94. MAAF Isums 59-66 of 3 Jan-14 Feb. 1944. Ltr. of Spaatz to Arnold, 5 Feb. 1944, notes that only 4 per cent of the Fifteenth's efforts in January was on behalf of the CBO.
+
+			95. Cable, Eaker to Spaatz, 29, 19 Feb. 1944; cable, Spaatz to Eaker, IE 121 CS, 19 Feb. 1944.
+
+			96. History, MAAF, 1, 142-47; canceled cable, 8th AF to Caserta, 19 Feb. 1944. See also ltrs., Spaatz to Arnold, 1, 5 Feb. 1944, and cables, Spaatz to Eaker, IE 122 CS and IE 15 CS, 19 and 20 Feb. 1944; Special File 706, entry of 19 Feb. 1944.
+
+			97. Cable, Eaker to Spaatz, 29, 19 Feb. 1944; cable, Spaatz to Eaker, IE 15 CS, 20 Feb. 1944; History, MAAF, 1, 142-47.
+
+			98. AAF Reference History 22, The Combined Bomber Offensive, 1 Jan.-6 June 1944; MASAF Intops Sum. 213,20 Feb. 1944; USSTAF, Opns. Intel. Sum. 605, 21 Feb. 1944; MAAF Isum 68, 6 Mar. 1944.
+
+			99. Good basic data on Big Week may be found in the following: History, MAAF, I, 142-47; Rpts. on Conferences between Generals Vandenberg and F. L. Anderson, 22, 24, 25 Feb. 1944, Ciles and Anderson, 21 Feb. 1944, Kuter and Anderson, 20 Feb. 1944, in AAG cables; Rpt., A Record Week of Strategic Bombing, in History, MAAF, Vol. V; AAFRH-22; Intel. Rpts. of MASAF, MAAF, USSTAF for the period; numerous cables from Eaker to Spaatz, Spaatz to Eaker, Twining to Eaker.
+
+			100. History, 5th Army, IV, 146-57; CMOS 68-69 of 29 Feb. -1 Mar. 1944; MASAF Intops Sum. 222, 29 Feb. 1944; MATAF Int/Opsum 324, 1 Mar. 1944; XII ASC Isum 335, 1 Mar. 1944.
+
+			101. MASAF Intops Sum. 224, 2 Mar. 1944; MATAF Int/Opsum 326, 3 Mar. 1944; CMOS 70, 2 Mar. 1944; ltr., Eaker to Lovett, 2 Mar. 1944; MAAF Isum 68, 6 Mar. 1944; XII ASC Isum 337, 3 Mar. 1944.
+
+			102. Memo for Hq. ACMF from 5th Army (Lt. Bombe), Influence of Allied Bombing . . .; 12th AF in Cen. It. Campaign, p. 35; History, 5th Army, IV, 155-61; CMOS 71, 3 Mar. 1944; XII TAC Opnl. Hist.; MAAF Isums 69-78 of 13 Mar.-15 May 1944.
+
+			103. Washington Post, 24 Jan. 1947.
+
+			104. Ltr., Eaker to Arnold, 6 Mar. 1944; memo for C/AS from AC/AS OC&R, Analysis of the SHINGLE Report, n.d.; memo for AC/S OPD et al. from Arnold, 27 Mar. 1944.
+
+			105. Ltr., Eaker to Bissell, 23 Jan. 1944; CM-IN-7690, Freedom to Brit. C/S, 10 Feb. 1944.
+
+			106. Memo for C/S et al. from Arnold, 27 Mar. 1944; memo for C/AS from W. F. McKee, AC/AS OC&R, n.d.
+
+			107.  Msg., Devers to AGWAR for Arnold, 10 Mar. 1944; msg., ACMF to Freedom, sgd. Mainwaring, n.d., in files of BAM (AHB); ltr., MAAF to CG AAF, 28 Feb. 1944.
+
+			108. History, 5th Army, IV, Z7-j7, 87-100, 175-76; Hq. 15th AG Opns. Instr. 32, 2 Jan. 1944; Hq. 5th Army Opns. Instr. 13, 10 Jan. 1944; 5th Army, Rpt. on Cassino Opn. See also (among countless other documents) the following: Hq. 36th Inf. Div. FO 42, 18 Jan. 1944; Hq. 34th Inf. Div. FO 11, 21 Jan. 1944; Hq. 133d Inf. Regt. FO 7, 23 Jan. 1944; G-2 34th Div., Monthly Rpt. for Jan. 1944; The 133d Inf. Regt. in the Cassmo-Rapido Operation.
+
+			109. XII TAC Opnl. Hist.; XII TAC Isums, Jan. -Mar. 1944; NATAF and MATAF Int/Opsums, Jan.-Mar. 1944.
+
+			110. MAAF, The Bombardment of Cassino, deals with the bombing of Cassino town on 15 March but it contains 
+				several splendid photographs which show the tactical importance of the abbey's location overlooking the town.
+
+			111. Interview with General Eaker by Albert F. Simpson, 24, 25 Jan. 1950; Clark, Calculated Risk, pp. 314-23: CM-IN-7012, Wilson to Brit. C/S, MEDCOS 64, 9 Mar. 1944; History, 5th Army, IV, 98-99; msg., Eaker to Timberlake, PT 83 IE, 13 Feb. 1944; MAAF Isum 66, 21 Feb. 1944; AASC War Diary 7, 15 Feb. 1944; W. M. Gould, The Italian Campaign, chap. 8, citing interview with Slessor, 15 June 1948. On 20 July 1948, Mr. Hilary Saunders, librarian of the Houses of Parliament, who was then preparing a history of RAF operations in World War II, told the writer that a recent interview with Monte Cassino monks had convinced him that the Germans did not have a single man or gun in the monastery prior to the Allied bombing of 15 February. Mr. Saunders was equally sure, however, that the Allied leaders in Italy believed that the Germans were using the monastery. Sir D. Osborne, British representative to the Vatican in the winter of 1944, believed but could not prove that the Germans, through false information, deliberately led the Allies to believe that the abbey was being used for military purposes; their object was to induce the Allies to bomb the building, thereby giving the Germans a fine propaganda weapon. (CM-IN-3007, COS to AFHQ, 4 Mar. 1944; msg., Sir D. Osborne to Foreign Office, 362, 24 May 1944.) Osborne had warned the Vatican before the bombing that if the abbey or its environs were used for military purposes the Allies would have to take countermeasures; he had suggested to the Vatican that it ascertain from the Germans the truth of the situation, but had received no reply. (Msg., Sir D. Osborne to Foreign Office, 87. 11 Feb. 1944.) 
+
+			112. Eaker interview by A. F. Simpson; History, 5th Army, IV, 98. For the plan of the ground attack, see 1 NZ Corps Opns. Instr. 4 of 9 Feb. 1944; 2 NZ Div. Opns. Instrs. 20, 21 of 13, 17 Feb. 1944; Clark, Calculated Risk, pp. 315-18.
+
+			113. History, 5th Army, IV, 98-99; MAAF Isum 66 of 71 Feb. 1944; AFHQ 
+				847 
+				
+				G-3 Rpt. 465 of 16 Feb. 1944; MASAF Intops Sum. 208, 15 Feb. 1944.
+
+			114. 5th Army, Rpt. on Casino Opn., 5 June 1944; msg., Wilson to Brit. C/S, MEDCOS 64, 9 Mar. 1944; History, 5th Army, IV, 99; MAAF Isum 66, 21 Feb. 1944; Clark, Calculated Risk, pp. 319-20.
+
+			115. Msgs., Wilson to Brit. C/S, 904, 20 
+				Feb., and MEDCOS 41, 22 Feb. 1944; msg., Wilson to Air Min., MEDCOS 46, 28 Feb. 1944; MC-OUT-6961, Wilson to Alexander, 25 Feb. 1944, in files of BAM (AHB).
+
+			116. JCS 147th Mtg., 21 Feb. 1944; JCS 736, 28 Feb. 1944; ltr., Arnold to Eaker, 10 Feb. 1944.
+
+			117. JCS 149th Mtg., 29 Feb. 1944; CCS 502, 1 Mar. 1944; JSM to War Cabinet, JSM 1547, 29 Feb. 1944.
+
+			118. CCS 502/1,5 Mar. 1944; CCS SOL/ 2, 7 Mar. 1944; CCS 502/3, 8 Mar. 1944; MC-IN-5013, CCS to Wilson, FAN 342, 8 Mar. 1944; msg., Air Min. to Britman (Washington), COS (W) 1193, 4 Mar. 1944, in files of BAM (AHB).
+
+			119. 15th Army, MA 1109, in files of BAM (AHB); W. M. Gould, The Italian Campaign; History, 5th Army, IV, 177; CM-IN-6663, Wilson to CCS, NAF-645, 9 Mar. 1944; ltr., Eaker to Arnold, 6 Mar. 1944; cable, Eaker to Arnold, MAAF 887, 4 Mar. 1944; msg., Timberlake to Eaker, IE 175 PT, 8 Mar. 1944; Its., XII ASC (Darcy) to CG MATAF, 22 Feb. 1944, and msg., MATAF to 42d RW et al., 23 Feb. 1944, both in MATAF, Incoming and Outgoing Messages on Cassino; Msg., Wilson to Alexander, 56453, 25 Feb. 1944; Eaker interview by 
+				A. F. Simpson.
+
+			120. Ltr., Eaker to Arnold, 6 Mar. 1944; History, MAAF, I, p. 175; MATAF, ORB 1944, p. 14; Eaker interview by A. F. Simpson.
+
+			121. History, 5th Amy, IV, 176-77; ltr., CG XII ASC to CG MATAF, 22 Feb. 1944; TWX, MATAF to 42d BW et al., A 170, 23 Feb. 1944; MATAF, 
+				Cassino Operation (Bombing Dir.), 11 Mar. 1944; memo for CG 57th BW et al. from MATAF, 23 Feb. 1944; TWX, MATAF to 42d BW et al., AC 116, 24 Feb. 1944; memo for CG MAAF et al. from MATAF, 26 Feb. 1944; MATAF memo, Attack on Cassino, Italy, 15 Mar. 848 
+				1944 (TAF/69/AIR), dtd. 11 July 1944; XII ASC, Detailed Plan for Operation LUDLUM, n.d. but forwarded to MATAF on 11 Mar. 1944. See also, 2 NZ Div. Opns. Order 41, 23 Feb., and Air Support Instr., 11 Mar.; 4 Indian Div. Opns. Instr. 4, 22 Feb.; 78 Div. Opns. Order 17, 28 Feb. 1944.
+
+			122. The following MATAF TWXs: h 170, 23 Feb.; AC 116, 24 Feb.; A 230, 4 Mar.; AC 234, 11 Mar.; A 267, 15 Mar. 1944. See also memo for CG MAAF et al. from MATAF, 26 Feb.; TWX, Eaker to Twining and MATAF, NT 89 IE, 11 Mar.; Hq. MATAF, Cassino Opn., 11 Mar. 1944.
+
+			123. History, MAAF, I, 177; RAF Med. Review 7, p. 10; History, 5th Army, IV, 178; History, 12th AF (draft); History, 15th AF (Rev.), p. 452; Daily Isums of MATAF, MASAF, XII ASC, 15 Mar. 1944; MATAF, Attack on Cassino, 11 July 1944; XII TAC Opnl. Hist.; MAAF Isum 70, 20 Mar. 1944. No two sources agree on the tonnage of bombs dropped. Figures range from 988 to 1,463 tons. Examination of all sources indicates that "slightly" more than 1,000 tons were dropped on the town. The same sort of problem -- and the same lack of a positive answer -- exists in regard to the number of sorties flown. In addition to the sources cited above and those cited in subsequent footnotes which deal with the bombing of Cassino, the author has consulted the following documents in the files of the British Air Ministry, Air Historical Branch: AFHQ G-2 Weekly Rpts.; 7/9 Army Air Support Control Report on Bombing of Cassino on 15 Mar. 1944, dtd. 23 Mar. 1944; Opns. of British, Indian, and Dominion Forces in Italy, Pt. I, Secs. A, C, E, F; War Room Monthly Sum. of MAAF Opns., Feb. and Mar. 1944; MAAF, Bombardment of Cassino, 25 June 1944.
+
+			124. Telecon, Eaker and Giles, n.d. but obviously 15 Mar. 1944; History, MAAF, I, 176-77, and II, transcript of msg., Eaker to Arnold, n.d.; MASAF Intops Sum. 237. 15 Mar. 1944; MATAF ORB 1944, p. 14; TWX, Eaker to Cannon for Webster, 16 Mar. 1944; memo for SASO, General Born's Views on the Cassino Show, 20 Mar. 1944; ltr., Air 
+				
+				Support Control Sec., Hq. 5th Army, 21 Mar. 1944, cited in History, 12th AF (draft); MATAF, Attack on Cassino, 11 July 1944; ltrs., Eaker to Arnold, 21 Mar., to Twining, 17 Mar., and to Devers, 6 Apr. 1944 (incl., Guenther to Eaker, 5 Apr.) For the bombing of our own troops, including the damaging of General Leese's headquarters, see, particularly, memo, Eaker to Edwards, 20 Mar.; MATAF ORB 1944, p. 14; ltr., Eaker to Leese, 16 Mar. 1944; ltr., Eaker to Edwards, 20 Mar. 1944; ltr., Edwards to Eaker, 27 Mar. 1944.
+
+			125. History, MAAF, 1,180; Attack on Cassino, 11 July 1944; MAAF, Bombardment of Casino; Hq. 5th Army, Rpt. On Effect of Bombing and Shelling or Cassino. 27 Apr. 1944; Hq. MATAF, Report on Field Trip, 31 May 1944. See also ltr., Clark to Eaker, 5 Apr. 1944; interview with Alexander by Sidney Matthews, 10-15 Jan. 1949.
+
+			126. History, 5th Army, IV, 179; ltr., Eaker to Arnold, 21 Mar. 1944; MATAF memo, Bombing of Cassino; MATAF, Attack on Casino; CM-IN-11267, MAAF to WD, 16 Mar. 1944; 5th Army, Rpt. On Cassino Opns., 5 June 1944, with Tab N, Operations against Cassino by NZ Corps; 
+				W. M. Gould, The Italian Campaign, chap. 8, citing interview with Slessor, 15 June 1948.
+
+			127.  CM-IN-11267, MAAF to WD, 16 Mar. 1944. See also ltr., Giles to Eaker, 25 Apr. 1944; History. MAAF, I, 181.
+
+			128. Intrs. of POWs, cited in History, MAAF, 1, 179-80; 5th Army, Rpt. on Effect of Bombing etc.; MATAF, Attack on Cassino; Eaker interview by A. F. Simpson.
+
+			129. History, 12th AF (draft); History, 5th Army, IV, 180; 5th Army, Rpt. on Effect of Bombing etc.; transcript of telecon, Eaker and Giles, 15 Mar. 1944; CM-OUT-6436, Arnold to Eaker, 15 Mar. 1944; 5th Army, Rpt. on Cassino Opns., 5 June 1944, with Tab N, Opns. against Cassino by NZ Corps; msg., Eaker to AGWAR for Arnold, MAAF 1557, 16 Mar. 1944; MATAF, Attack on Cassino; msg., MATAF to DAF et al., A 267, 15 Mar. 1944; XII ASC, Detailed Plan for Opn. LUDLUM; ltr., Eaker to Arnold, 21 Mar. 1944; CM-IN-11267, MAAF to WD, 16 Mar. 1944; XII TAC Opnl. Hist.
+
+			130. Opns. against Casino by NZ Corps; MATAF, Attack on Casino; History, 5th Army, IV, 180-82; Alexander interview; msg., Fairbanks to Freedom, B1230, 24 Mar. 1944; Clark, Calculated Risk, pp. 331-33.
+
+			131. Ltrs., Eaker to Arnold, 6 and 21 Mar. 1944; CM-IN-2185, Algiers to WAR, 3 Mar. 1944.
+
+			132. XII ASC Isums 349-58 of 16-23 Mar. 1944; MATAF Int/Opsums 340-48 of 16-23 Mar. 1944; XII TAC Opnl. Hist.; RAF Med. Review 7, pp. 15-16; History, 5th Army, IV, 182; Opns. against Casino by NZ Corps, App. 20; MAAF Isum 71, 27 Mar. 1944.
+
+			133. MATAF Int/Opsums 339-47 of 16-23 Mar. 1944; XII ASC Isums 350-57 of 17-24 Mar. 1944.
+
+			134. 5th Army, Rpt. On Effect of Bombing etc.; MATAF, Attack on Cassino; AFHQ Training Memo 5, Lessons from Cassino Operation (15-25 Mar. 1944, 1 June 1944; ltr., Lt. Gen. Oliver Leese to Eaker, 18 Mar. 1944.
+
+			135.  Ltr., Giles to Eaker, 25 Apr. 1944; AFHQ Tng. Memo 5, 4 June 1944; ltr., Eaker to SACMED, 12 Apr. 1944; MATAF ORB, 1944, pp. 14-15.
+
+			136. Ltr., Eaker to R. A. Lovett, 17 Apr. 1944; memo for Arnold from Eaker, n.d.; AFHQ Tng. Memo 5, 4 June 1944; 5th Army, Rpt. on Casino Opn., with Tab N, App. 18, ltr., 5th Army to C-in-C AAI, 31 Mar. 1944; ltr., Eaker to SACMED, 12 Apr. 1944; MATAF, Attack on Casino.
+
+			137. Ltrs., Eaker to R. A. Lovett, 17 Apr., to Arnold, 4 Apr., and to Devers, 6 Apr. 1944 (incl., Guenther to Eaker, 5 Apr.) MATAF ORB 1944, p. 14; W. M. Gould, The Italian Campaign, chap. 8, citing interview with Slessor.
+
+			138. See ltr., Eaker to SACMED, 12 Apr. 1944.
+
+			139. Ltr., Giles to Eaker, 25 Apr. 1944.
+
+			140. For the quotation, see ltr., Eaker to Arnold, 4 Apr. 1944.
+
+		Table of Contents
+
+			Previous Chapter (9) * * Next Chapter (11)
+
+		Transcribed and formatted for HTML by Patrick Clancey and Terry Welshans for the HyperWar Foundation
+

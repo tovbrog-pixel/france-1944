@@ -1,0 +1,1174 @@
+
+
+HyperWar: US Army in WWII: Breakout and Pursuit
+The Siegfried Line Campaign takes up 
+the story of the First Army (on 11 September) and The Lorraine Campaign that of 
+the Third Army (on 1 September). The present volume includes the battle for Brest, 
+which ended (on 18 September) when the front had been pushed across France and beyond.
+
+By 1 July the Allies had consolidated a firm beachhead which included Cherbourg and left 
+no doubt that their armies had come to stay. The theme of the book is their subsequent 
+efforts to acquire the 'lodgment area' projected in the OVERLORD 
+plan (see Cross-Channel Attack); the effort of the Germans to contain them; 
+the breakthrough beginning on 25 July; its conversion into the breakout; the encirclement 
+of German forces; and the ensuing sweep across France that outran all plans and anticipations.
+
+After an explanation of Allied and German situations (Part One), the battle narrative 
+opens (Part Two) with an examination of the hedgerow fighting-the costly and disheartening 
+battles in the compartmentalized fields of Normandy which, combined with rain, mud, 
+and inexperience, deprived the Americans of the advantages of numbers and mechanization 
+in the offensive and assisted the Germans in their stubborn defense. The volume gives 
+special attention to the methods by which the Americans overcame the unexpected difficulties 
+that beset them and became experienced veterans.
+
+The next phase of the narrative (Part Three) includes an account of the genesis and 
+evolution of General Bradley's breakthrough plan (COBRA) and follows in detail the 
+measures and events that marked its conversion into a triumphant breakout into Brittany 
+(described in Part Four). The author then (in Part Five) recounts the swiftly changing 
+plans of the Allies as they seized the opportunity to break out toward the east; describes 
+Hitler's counterattack toward Avranches and its defeat; follows (in Parts Six and Seven) 
+the development of operations designed to encircle the Germans at Argentan and Falaise; 
+and shows the fast-moving mobile warfare that characterized the drive to the Seine, 
+the liberation of Paris, and the sweep to the borders of Germany. A tightening logistical 
+tether (see Logistical Support of the Armies, Volume I) and the resuscitation of 
+German resistance subsequently brought the First and Third Armies face to face with the 
+bitter campaigning described in The Siegfried Line Campaign and 
+The Lorraine Campaign.
+
+The battle narrative in this volume is, in general, pitched at corps level, but the 
+focus of attention moves up and down the chain of command to illuminate decisions, 
+both Allied and German, at critical moments of the campaign. The action is carefully 
+related to the declared or postulated intentions of the responsible commanders, and 
+success or failure is examined with reference to these and the opposing moves of the 
+contestants. As in Cross-Channel Attack, the access of the author to abundant 
+enemy sources has made it possible for him to represent fully the strength, intentions, 
+and tactics of the enemy.">
+OBRA, Brittany, Brest, St. Malo, Falaise Pocket,
+liberation of Paris, World War II">
+
+United States Army in World War II
+
+European Theater of Operations
+
+Breakout and Pursuit
+
+Martin Bllumenson
+
+CENTER OF MLITARY HISTORY
+
+UNITED STATES ARMY
+
+WASHINGTON, D.C., 1961
+
+. . . to Those Who Served
+
+Foreword
+
+The campaign in the summer of 1944 related in this volume included some of 
+the most spectacular ground action of the U.S. Army during World War II. It 
+began with the slow and costly hedgerow fighting against determined German 
+efforts to contain the Normandy beachhead; it entered its decisive stage when 
+the breach of German defenses permitted full exploitation of the power and 
+mobility of U.S. Army ground troops; and it reached the peak of brilliance with 
+successive envelopments of principal German forces and the pursuit of their 
+remnants north and east to free most of France, part of Belgium, and portions of 
+the Netherlands. By late August the war in the west appeared to be almost over, 
+but the tyranny of logistics gave the enemy time to rally at the fortified West 
+Wall and delay surrender for another eight months.
+
+In the European Theater subseries the backdrop for this volume is 
+Cross-Channel Attack,
+which carries the story to 1 July. Breakout and 
+Pursuit follows the U.S. First Army through 10 September (where 
+The Siegfried Line Campaign 
+picks up the narrative), and the U.S. Third Army 
+through 31 August (where The Lorraine Campaign begins). The logistical 
+factors that played so large a part in governing the pace and extent of combat 
+operations are described in much greater detail in Volume I of 
+Logistical Support of the Armies.
+
+The tremendous scope of this campaign, and its partially improvised 
+character, have left a heritage of controversies to which no final answers can 
+be given. The author has had free access to the records and to many of the 
+leading players in the drama, and his account should have wide appeal to the 
+general reader as well as to the serious military student of grand tactics.
+
+	Washington 25, D.C.
+15 June 1960	
+	JAMES A. NORELL
+
+		Brigadier General, USA
+
+		Chief of Military History	
+
+--v--
+
+The Author
+
+Martin Blumenson, a graduate of Bucknell University, received M.A. degrees in 
+History from Bucknell in 1940 and from Harvard University in 1942. Commissioned 
+in the Army of the United States, he served as a historical officer of the Third 
+and Seventh Armies in the European theater during World War II. After the war he 
+taught history at the U.S. Merchant Marine Academy (Kings Point) and at Hofstra 
+College. Recalled to active duty with the U.S. Army in 1950, he commanded a 
+historical detachment in Korea before beginning work on Breakout and Pursuit
+in June 1952. He wrote the book while on active duty in the Office of the 
+Chief of Military History. After a tour of duty as Historian, Joint Task Force 
+SEVEN, he returned to OCMH as a civilian historian and is writing a volume on 
+the war in the Mediterranean 
+theater--Salerno to Cassino. 
+His works include Special Problems of the Korean Conflict (Washington, 1952); 
+The Atomic Weapons Tests in the Pacific, 1956 (Washington, 1957); 
+two essays in Command Decisions (New York: Harcourt, Brace and Company, 1959); 
+and numerous articles in military and historical journals.
+
+--vi--
+
+Preface
+
+Covering the period 1 July to 11 September 1944, Breakout and Pursuit
+takes up the story of the European campaign at the time when the Allies 
+considered their cross-Channel beachhead well established on the Continent. How 
+the Allies exploited the initial success of their landings and drove from the 
+shores of Normandy to the German border is the subject of the volume.
+
+The events of the period comprise a rich variety of military experience. 
+Virtually every sort of major operation involving co-ordinated action of the 
+combined arms is found: the grueling positional warfare of the battle of the 
+hedgerows, the breakthrough of the main enemy position, exploitation, 
+encirclement, and pursuit, as well as a number of actions falling under the 
+general heading of special operations--an assault river crossing, the siege of a 
+fortress, and night combat, among others. In their variety and complexity, these 
+operations frequently bring into sharp focus the delicate problems of coalition warfare.
+
+The point of view is from the top down--how the situation appeared to the 
+commanders and what decisions they made to solve their problems. Though the 
+author has tried to present at some time or other the situation at each command 
+echelon on the Allied side, the most consistent observation post is at the corps 
+level where, because of the nature of the operations, particular independence of 
+judgment and great initiative in action were required.
+
+The emphasis is on the ground combat performed by U.S. 
+Army troops. The activities of the other Allied forces and of the opposing 
+Germans are included to the extent required to bring the American effort into 
+proper perspective. Air support and logistical arrangements have been detailed 
+when necessary for a better understanding of ground operations.
+
+The attempt has been made to fulfill two objectives, each 
+of which has sometimes excluded the other. On the one hand, the author has 
+endeavored to present material of interest to the career soldier, who may seek 
+instruction and who may perhaps be prompted to further study. On the other hand, 
+the author has tried to write an account of interest to the general reader, who 
+may be motivated by curiosity and the hope of learning in some detail about the 
+conduct of the campaign, the expenditure of men and materiel, and the problems 
+that face military leaders engaged in war.
+
+The dates in the volume are all in 1944 unless otherwise noted.
+
+--vii--
+
+The author has had the privilege and pleasure of working 
+with many who have lightened his task and to whom he is greatly indebted. Mr. 
+Wsevolod Aglaimoff, Deputy Chief Historian for Cartography, gave liberally of 
+his military sophistication, perspective, and wisdom; his contributions to the 
+military content and language of this volume were considerable. Mr. James B. 
+Hodgson did most of the research in the German records; his knowledge of enemy 
+operations was always a tonic to an author struggling to reflect both sides of 
+the same battle in a single mirror. Miss Mary Ann Bacon, the editor, saved the 
+author embarrassment by discovering before it was too late many inconsistencies 
+and contradictions in fact as well as in style. Dr. Kent Roberts Greenfield, the 
+former Chief Historian, by his very presence an inspiration in the cause of 
+scholarship, gave invaluable help in military as well as historical matters 
+during the writing and revision of the manuscript.
+
+Mrs. Lois Aldridge at the Federal Records Center, 
+Alexandria, was never too busy to locate and make available pertinent documents, 
+which otherwise would not have come to the author's attention. Mrs. Helen V. 
+Whittington, copy editor, performed a painstaking task with cheerful patience. 
+Ruth Alexandra Phillips selected the photographs. Nicholas J. Anthony compiled 
+the Index.
+
+Among those to whom the author owes a special debt of 
+appreciation are the present Chief of Military History, Brig. Gen. James A. 
+Norell, as well as Maj. Gens. Orlando Ward, Albert C. Smith, and John H. Stokes, 
+former Chiefs of Military History, and Cols. George G. O'Connor and Ridgway P. 
+Smith, Jr., former Chiefs of the War Histories Division.
+
+The work was undertaken under the guidance of Dr. Hugh 
+Cole and the supervision of Dr. Roland A. Ruppenthal, former chiefs of the 
+European section. It was completed under the direction of Mr. Charles B. 
+Mac-Donald, Senior Historical Adviser of the World War II Branch, whose 
+understanding of military operations, felicity of phrase, and patient and 
+unsparing counsel put him without question first among those who helped to give 
+the volume whatever value it may have.
+
+To these and many more go my sincere thanks.
+
+For the facts presented, the interpretations made, and 
+the conclusions drawn, for inadequacies and errors, I alone am responsible.
+
+	Washington, D.C.
+15 Junen 1960	
+	MARTIN BLUMENSON	
+
+--viii--
+
+CONTENTS
+
+	Page	
+
+	Forward	
+	v	
+
+	The Author	
+	vi	
+
+	Preface	
+	vii	
+
+	Chapter	
+
+	PART ONE
+In the Wake of the Invasion	
+
+	I.	
+	The Allies	
+	3	
+
+	Mission	
+	3	
+
+	Forces	
+	7	
+
+	Terrain	
+	10	
+
+	Tactics	
+	13	
+
+	II.	
+	The Enemy	
+	17	
+
+	The Machinery of War	
+	17	
+
+	The Changing Strategy	
+	20	
+
+	Tactical Dispostions	
+	29	
+
+	III.	
+	The Situation	
+	36	
+
+	American	
+	36	
+
+	German	
+	47	
+
+	PART TWO
+The Battle of the Hedgerows	
+
+	IV.	
+	The Offensive Launched	
+	53	
+
+	The Preparations	
+	53	
+
+	The Defenses	
+	58	
+
+	Poterie Ridge	
+	60	
+
+	Mont Castre	
+	63	
+
+	Montgardon Ridge	
+	72	
+
+	V.	
+	The Offensive Broadened	
+	78	
+
+	The Carentan--P&eacute;riers Isthmus	
+	78	
+
+	The Vire and Taute Bridgehead	
+	90	
+
+	VI.	
+	The Attempt to Exploit	
+	102	
+
+	VII.	
+	The Offensive Continued	
+	119	
+
+	The Battle for Caen	
+	119	
+
+	Toward Lessay	
+	123	
+
+	Toward P&eacute;riers	
+	128	
+
+	Counterattack	
+	133	
+
+	Toward the P&eacute;riers-St. Lo Road	
+	140	
+
+	VIII.	
+	The Battle for St. L&ocirc;	
+	146	
+
+	The Objective	
+	146	
+
+	Hill 192	
+	149	
+
+	Down the Martinville Ridge	
+	153	
+
+	Hill 122	
+	159	
+
+	"Come Hell or High Water"	
+	163	
+
+	A Legend is Born	
+	166	
+
+	IX.	
+	The Conclusions	
+	175	
+
+	The American Point of View	
+	175	
+
+	The German Point of View	
+	180	
+
+	PART THREE
+Breakthrough	
+
+	X.	
+	The Breakthrough Idea	
+	185	
+
+	In Search of a Panacea	
+	185	
+
+	In Search of a Breakthrough: GOODWOOD	
+	188	
+
+	XI.	
+	COBRA Preparations	
+	197	
+
+	Preliminary Operations	
+	198	
+
+	The Troops	
+	204	
+
+	The Plot Against Hitler	
+	210	
+
+	The Breakthrough Plan	
+	213	
+
+	XII.	
+	COBRA	
+	224	
+
+	The Opposition	
+	224	
+
+	Bombardment	
+	228	
+
+	Effect on the Enemy	
+	238	
+
+	Groud Attack	
+	241	
+
+	XIII.	
+	The Breakthrough	
+	247	
+
+	German Reaction	
+	247	
+
+	Penetration	
+	249	
+
+	Commitment of Armor	
+	252	
+
+	Limited Exploitation	
+	255	
+
+	XIV.	
+	The Breakthrough Developed	
+	264	
+
+	The Second Thrust Toward Coutances	
+	264	
+
+	The Pressure Force	
+	266	
+
+	COBRA Completed	
+	272	
+
+	XV.	
+	Exploiting the Breach	
+	282	
+
+	The COBRA Diversion	
+	282	
+
+	The Post-COBRA Plan	
+	286	
+
+	East of the Vire River	
+	290	
+
+	A Clash of Spearheads	
+	295	
+
+	XVI.	
+	Breakthrough Becomes Breakout	
+	305	
+
+	The Outflanking Force	
+	305	
+
+	The Breakout to Avranches	
+	309	
+
+	XVII.	
+	The "Incalculable" Results	
+	323	
+
+	The Riesensaurerei	
+	323	
+
+	The Explanation	
+	325	
+
+	The Allied Outlook	
+	331	
+
+	PART FOUR
+Breakout Into Brittany	
+
+	XVIII.	
+	Plans, Personalities, and Problems	
+	339	
+
+	German Plans	
+	339	
+
+	A New Army	
+	343	
+
+	Personalities and Concepts	
+	347	
+
+	Problems	
+	351	
+
+	XIX.	
+	Rennes, Lorient, and Nantes	
+	357	
+
+	XX.	
+	"Take Brest"	
+	369	
+
+	XXI.	
+	St. Malo and the North Shore	
+	389	
+
+	The Decision at St. Malo	
+	389	
+
+	Sweeping the North Shore	
+	391	
+
+	"To the Last Stone"	
+	393	
+
+	The Reduction of Dinard	
+	399	
+
+	Seige Operations	
+	402	
+
+	The Citadel	
+	406	
+
+	C&egrave;zembre	
+	411	
+
+	PART FIVE
+Breakout to the East	
+
+	XXII.	
+	Week of Decision	
+	419	
+
+	The German Decision	
+	419	
+
+	Commitment of a Coprs	
+	424	
+
+	OVERLORD Modified	
+	430	
+
+	"Don't Be Surprised"	
+	432	
+
+	XXIII.	
+	Opportunities and Intentions	
+	440	
+
+	The American Task	
+	440	
+
+	The German Task	
+	442	
+
+	The Drive to Mortain	
+	444	
+
+	The Battle for Vire	
+	449	
+
+	Montgomery's Intentions	
+	454	
+
+	XXIV.	
+	The Mortain Counterattack	
+	457	
+
+	German Intentions	
+	457	
+
+	The Attack	
+	460	
+
+	The American Reactions	
+	465	
+
+	PART SIX
+Encirclement and the Drive to the Seine	
+
+	XXV.	
+	Encirclement	
+	479	
+
+	Envelopment from the North	
+	479	
+
+	The German Dilemma	
+	481	
+
+	The Battle at Mortain	
+	486	
+
+	Concepts of Encirclement	
+	492	
+
+	Envelopment from the South	
+	497	
+
+	XXVI.	
+	The Argentan-Falaise Pocket	
+	506	
+
+	Bradley's Decision	
+	506	
+
+	The Canadians at Falaise	
+	509	
+
+	The German Decision to Withdraw	
+	510	
+
+	The German Decision to Withdraw	
+	515	
+
+	The Allied Decision to Close the Pocket	
+	523	
+
+	XXVII.	
+	Closing the Pocket	
+	528	
+
+	The Beginning of the End	
+	528	
+
+	Enter Model, Exit Kluge	
+	532	
+
+	The Pocket Closed	
+	537	
+
+	The German Breakout	
+	542	
+
+	Escape	
+	547	
+
+	The Results	
+	556	
+
+	XXVIII.	
+	The Drive to the Seine	
+	559	
+
+	South to the Loire	
+	559	
+
+	The Drive to the East	
+	563	
+
+	To the Seine and Across	
+	572	
+
+	The Second Encirclement Attempt	
+	575	
+
+	Through the Paris-Orl&eacute;ans Gap	
+	583	
+
+	XXIX.	
+	The Liberation of Paris	
+	590	
+
+	Allied Plans	
+	590	
+
+	German Hopes	
+	591	
+
+	French Aims	
+	594	
+
+	The Critical Days	
+	595	
+
+	The French Point of View	
+	598	
+
+	Eisenhower's Decision	
+	602	
+
+	On to Paris	
+	606	
+
+	The Liberation	
+	610	
+
+	The Aftermath	
+	618	
+
+	PART SEVEN
+Pursuit	
+
+	XXX.	
+	The Battle for Brest	
+	631	
+
+	The Post-OVERLORD Decision	
+	631	
+
+	The Problems at Brest	
+	634	
+
+	The Fight for Brest	
+	640	
+
+	The Best Laid Plans	
+	655	
+
+	XXXI.	
+	The Drive Beyond the Seine	
+	657	
+
+	The Framework of the Pursuit	
+	657	
+
+	Patton's Advance to the Meuse	
+	664	
+
+	The Main Effort	
+	670	
+
+	XXXII.	
+	Toward the Heart of Germany	
+	676	
+
+	The Mons Pocket	
+	676	
+
+	Broad Front versus Narrow	
+	684	
+
+	The Nature of the Pursuit	
+	688	
+
+	To the West Wall	
+	692	
+
+	The End of the Line	
+	696	
+
+	Appendices	
+
+	A.	
+	Table of Equivalent Ranks	
+	703	
+
+	B.	
+	Recipients of the Distinguished Service Cross	
+	704	
+
+	Bibliographical Note	
+	707	
+
+	Glossary	
+
+	Basic Military Map Symbols	
+
+	Index	
+	723	
+
+	MAPS	
+
+	1.	
+	The Bocage Country	
+	7	
+
+	2.	
+	Order of Battle OB WEST, 2 July 1944	
+	61	
+
+	3.	
+	Attack of VIII Corps, 3-7 July 1944	
+	137	
+
+	4.	
+	Attack of VIII Corps, 4-7 July 1944	
+	169	
+
+	5.	
+	Attack of XIX Corps West of the Vire River, 7-10 July 1944	
+	227	
+
+	6.	
+	Battle for Caen, 8-9 July 1944	
+	232	
+
+	7.	
+	Panzer Lehr Attack, 11 July 1944	
+	315	
+
+	8.	
+	Attack on Hill 192, 11 July 1944	
+	150	
+
+	9.	
+	Attack of Second British Army, 18-21 July 1944	
+	190	
+
+	10.	
+	Operation COBRA, VII Corps Plan, 20 July 1944	
+	216	
+
+	11.	
+	Reduction of St. Malo, 4-17 August 1944	
+	395	
+
+	12.	
+	XV Corps, 208 August 1944	
+	426	
+
+	13.	
+	First U.S. Army, 1-6 August 1944	
+	445	
+
+	14.	
+	12th Army Group Plan, 8 August 1944	
+	493	
+
+	15.	
+	Normandy Front, 7-11 August 1944	
+	496	
+
+	16.	
+	XV Corps, 9-13 August, 1944	
+	498	
+
+	17.	
+	Argentan-Falaise Pocket, 12-16 August 1944	
+	512	
+
+	18.	
+	Into the City, 25 August	
+	616	
+
+	Maps I-XLIII are in Inverse Order Inside Back Cover	
+
+	I.	
+	Normandy Front, 2 July 1944	
+
+	II.	
+	First Army Front West of the Vire River, 8-15 July 1944	
+
+	III.	
+	The Battle of St Lo, 11-18 July 1944	
+
+	IV.	
+	German Troop Disposition, Night 24-25 July 1944	
+
+	V.	
+	Breakthrough, 25-27 July 1944	
+
+	VI.	
+	Enlarging the Breach, 28-29 July 1944	
+
+	VII.	
+	Exploitation, 30-31 July 1944	
+
+	VIII.	
+	Breakout into Brittany, 1-12 August 1944	
+
+	IX.	
+	Regrouping of German Forces, 1-6 August 1944	
+
+	X.	
+	German Counterattack at Mortain, 7 August 1944	
+
+	XI.	
+	Closing the Argentan-Falaise Pocket, 17-19 August 1944	
+
+	XII.	
+	Drive to the Seine, 16-25 August  1944	
+
+	XIII.	
+	Liberation of Paris, 23-25 August 1944	
+
+	XIV.	
+	Battle for Brest, 25 August-18 September 1944	
+
+	XV.	
+	Pursuit to the German Border, 26 August-10 September 1944	
+
+	ILLUSTRATIONS	
+
+	Typical Cotentin Terrain	
+	5	
+
+	General Dwight D. Eisenhower	
+	7	
+
+	General Sir Bernard L. Montgomery	
+	8	
+
+	Hedgerow Position in the Cotentin	
+	13	
+
+	Adolf Hitler	
+	18	
+
+	Generaloberst Alfred Jodl	
+	19	
+
+	Generalfeldmarschall Erwin Rommel	
+	22	
+
+	Generalfeldmarschall Gerd von Rundstedt	
+	23	
+
+	Generaloberst Paul Hausser	
+	46	
+
+	Generalfeldmarschall Guenther von Kluge	
+	47	
+
+	La Haye-du-Puits	
+	56	
+
+	Maj. Gen. Charles H. Corlett	
+	92	
+
+	Stone Bridge at Airel	
+	98	
+
+	German Bicycle Brigade	
+	103	
+
+	Congestion at Airel Bridge	
+	108	
+
+	British Troops in Caen	
+	123	
+
+	Shelled Church in Sainteny	
+	132	
+
+	German Panther Tanks	
+	139	
+
+	St. L&ocirc;	
+	147	
+
+	Martinville Ridge	
+	155	
+
+	Sunken Road Near Carillon	
+	160	
+
+	German HedgerowPostion	
+	161	
+
+	After Securing Hill 122	
+	165	
+
+	Infantrymen in St. L&ocirc;	
+	170	
+
+	Ruins of St. L&ocirc;	
+	171	
+
+	Symbol of St. L&ocirc;	
+	173	
+
+	Lt. Gen. Miles C. Dempsey	
+	188	
+
+	Advancing Toward St. Germain	
+	202	
+
+	Rhino Tank with Hedgerow Cutter	
+	206	
+
+	Advancing Toward P&eacute;riers-St. L&ocirc; Road	
+	230	
+
+	155-mm Howitzer	
+	232	
+
+	Waiting for the COBRA Bombardment	
+	234	
+
+	After the COBRA Bombardment	
+	235	
+
+	9th Division Troops After COBRA Bombardment	
+	237	
+
+	Troops Rolling Through Canisy	
+	255	
+
+	Engineers Clearing Mines in Lessay.	
+	268	
+
+	Wrecked German Armor Near Roncey	
+	278	
+
+	Tessy-sur-Vire	
+	293	
+
+	Knocked-out American Tanks	
+	312	
+
+	Abandoned German Equipment	
+	320	
+
+	Destroyed Enemy Vehicles in Avranches	
+	321	
+
+	General Bradley with Lt. Gens. Courtney H. Hodges and George S. Patton, Jr.	
+	348	
+
+	Pontaubault Bridge	
+	371	
+
+	Beach at Dinard	
+	401	
+
+	Artillerymen Firing 3-inch Gun	
+	404	
+
+	Street Fighting in St. Malo	
+	405	
+
+	The Citadel, St. Malo	
+	410	
+
+	Interior of the Citadel	
+	411	
+
+	Bombing of Ile de C&egrave;zembre	
+	412	
+
+	St. Malo Prisoners	
+	414	
+
+	Maj. Gen. Wade H. Haislip	
+	424	
+
+	Maj. Gen. Manton S. Eddy	
+	425	
+
+	Troops Advancing Frm Juvigny	
+	446	
+
+	Clearing Operations in Vire	
+	453	
+
+	Artillery Observation Post	
+	459	
+
+	North of Mortain	
+	468	
+
+	Scurrying Along Hedgerow	
+	487	
+
+	Antiaircraft Postion Near St. Hilaire	
+	488	
+
+	Through the Rubble of Mortain	
+	489	
+
+	Wrecked German Armor, Sourdeval Area	
+	491	
+
+	Mamers	
+	501	
+
+	Signal Corps Troops in Domfront	
+	518	
+
+	Le Bourg-St. L&eacute;onard	
+	526	
+
+	Generalfeldmarschall Walter Model	
+	531	
+
+	Generl der Fallschirmtruppen Eugen Meindl	
+	539	
+
+	A Polish Soldier	
+	542	
+
+	Truckloads of Prisoners	
+	554	
+
+	The Pocket Deserted	
+	556	
+
+	11th Infantrymen	
+	560	
+
+	Maj. Gens. Walton H. Walker and Lindsay McD. Silvester	
+	569	
+
+	Armored Bivouac Area	
+	571	
+
+	German Removing Boobytrap	
+	573	
+
+	Ferrying Jeeps Across the Seine	
+	585	
+
+	Advancing Under Fire Toward Fontainebleau	
+	587	
+
+	Allied Airlift, Paris	
+	605	
+
+	Maj. Gen. Jacques Philippe Leclerc	
+	611	
+
+	French Soldiers Attack Toward Ch&acirc;teaufort	
+	612	
+
+	In the Rue de Rivoli	
+	617	
+
+	General von Choltitz and High-Ranking German Prisoners	
+	619	
+
+	General Charles de Gaulle	
+	621	
+
+	French Resistance Fighters	
+	623	
+
+	Parisian's Welcome to General de Gaulle	
+	627	
+
+	Supllies for Brest	
+	637	
+
+	Ancient Wall and Moat, Brest	
+	639	
+
+	Maj. Gen. Troy H. Middleton	
+	640	
+
+	2d Division Troops Near Brest	
+	645	
+
+	Gun Crew Firing	
+	646	
+
+	Troops Fighting in Brest	
+	647	
+
+	Remains of Fort Keranroux	
+	648	
+
+	Fort Montbarey	
+	649	
+
+	Generalmajor Hans von der Mosel	
+	650	
+
+	Generalleutnant Herman B. Ramcke	
+	651	
+
+	Drydock Destruction at Brest	
+	654	
+
+	Demolished Bridge at Ch&acirc;lons-sur-Marne	
+	665	
+
+	Liberated	
+	689	
+
+	Dragon's Teeth, the Siegfried Line	
+	698	
+
+	Illustrations are from the Department of Defense files.	
+
+Transcribed and formatted for HTML by Patrick Clancey, HyperWar Foundation
+
