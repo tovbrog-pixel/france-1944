@@ -26,6 +26,7 @@ function load() {
   const rd = (f, Ctor) => { const b = zlib.gunzipSync(fs.readFileSync(path.join(d, f))); return new Ctor(b.buffer, b.byteOffset, b.byteLength / Ctor.BYTES_PER_ELEMENT); };
   G = { grid, el: rd('elev.i16.gz', Int16Array), water: rd('water.u8.gz', Uint8Array), tree: rd('tree.u8.gz', Uint8Array), wet: rd('wet.u8.gz', Uint8Array) };
   const net = path.join(ROOT, 'network'), j = f => fs.existsSync(path.join(net, f)) ? JSON.parse(fs.readFileSync(path.join(net, f), 'utf8')) : null;
+  const ovp = path.join(d, 'overlays-1944.json'); G.overlays = fs.existsSync(ovp) ? JSON.parse(fs.readFileSync(ovp, 'utf8')) : null;
   G.roads = j('roads.json'); G.rail = j('rail.json'); G.rivers = j('rivers.json'); G.towns = j('towns.json'); G.canals = j('canals.json');
   return G;
 }
@@ -51,7 +52,9 @@ function realMap(o) {
   const cs = o.cs || 1, x0 = o.x0 || 0, y0 = o.y0 || 0, w = o.w || GW * R - x0, h = o.h || GH * R - y0;
   const W = Math.round(w / cs), H = Math.round(h / cs), N = W * H, k = Math.max(1, Math.round(cs / R));
   const t = new Uint8Array(N), el = new Float32Array(N);
-  const bocage = o.bocage || [];   // polygons in slice game km where 1944 hedgerow country covered open farmland
+  const ov = o.overlays === false ? {} : (g.overlays || {});
+  const bocage = o.bocage || (ov.bocage || []).map(b => b.poly);   // polygons in slice game km where 1944 hedgerow country covered open farmland
+  const flood = o.flood || ov.flood || [];                          // June 1944 inundations: low ground inside a box
   for (let j = 0; j < H; j++) for (let i = 0; i < W; i++) {
     const gi0 = Math.floor((x0 + i * cs) / R), gj0 = Math.floor((y0 + j * cs) / R);
     let n = 0, sea = 0, wat = 0, wet = 0, tree = 0, esum = 0, emin = 1e9, emax = -1e9, land = 0;
@@ -70,6 +73,7 @@ function realMap(o) {
     if (tree >= S.heavyTree) tc = T.HF; else if (tree >= S.lightTree) tc = T.LF;
     else if (bocage.length && tc === T.OPEN) { const x = x0 + (i + .5) * cs, y = y0 + (j + .5) * cs; for (const p of bocage) if (inPoly(x, y, p)) { tc = T.BOCAGE; break; } }
     if (wet >= S.wetFrac) tc = T.MARSH;
+    if (flood.length) { const x = x0 + (i + .5) * cs, y = y0 + (j + .5) * cs; for (const f of flood) if (x >= f.bbox[0] && x <= f.bbox[2] && y >= f.bbox[1] && y <= f.bbox[3] && el[c] <= f.maxEl) { tc = T.MARSH; break; } }
     if (wat / land >= S.waterFrac) tc = T.RIVER;
     t[c] = tc;
   }
@@ -85,6 +89,17 @@ module.exports = realMap;
 
 if (require.main === module) {
   const t0 = Date.now(), m = realMap({ cs: +(process.argv[2] || 1) });
+  if (process.argv[3]) { // write a PPM picture of a window: node tools/realmap.js 0.5 out.ppm x0 y0 w h
+    const [x0, y0, w, h] = process.argv.slice(4, 8).map(Number), cs = +(process.argv[2] || 1), q = realMap({ cs, x0, y0, w, h });
+    const COL = { 0: [222, 226, 190], 1: [150, 190, 120], 2: [90, 140, 80], 3: [200, 180, 140], 9: [110, 170, 190], 12: [140, 180, 220], 13: [40, 80, 200], 14: [80, 120, 220], 15: [190, 205, 140] };
+    const W = q.raster.w, H = q.raster.h, buf = Buffer.alloc(W * H * 3);
+    for (let c = 0; c < W * H; c++) { const k = COL[q.raster.t[c]] || [255, 0, 255], sh = q.raster.t[c] === 12 ? 1 : Math.min(1.1, .8 + q.raster.el[c] / 900); buf[c * 3] = k[0] * sh; buf[c * 3 + 1] = k[1] * sh; buf[c * 3 + 2] = k[2] * sh; }
+    const mark = (x, y, col) => { const i = Math.round(x / cs), j = Math.round(y / cs); for (let a = -1; a <= 1; a++) for (let b = -1; b <= 1; b++) { const ii = i + a, jj = j + b; if (ii >= 0 && jj >= 0 && ii < W && jj < H) { const o = (jj * W + ii) * 3; buf[o] = col[0]; buf[o + 1] = col[1]; buf[o + 2] = col[2]; } } };
+    for (const r of q.roads) for (const p of r[1]) mark(p[0], p[1], r[0] === 3 ? [200, 30, 30] : [230, 120, 40]);
+    for (const l of q.rails) for (const p of l) mark(p[0], p[1], [20, 20, 20]);
+    for (const tw of q.towns) mark(tw[1], tw[2], [120, 0, 120]);
+    fs.writeFileSync(process.argv[3], Buffer.concat([Buffer.from('P6 ' + W + ' ' + H + ' 255\n'), buf]));
+  }
   const hist = {}; for (const v of m.raster.t) hist[v] = (hist[v] || 0) + 1;
   const names = Object.fromEntries(Object.entries(T).map(([a, b]) => [b, a]));
   console.log('slice ' + m.w + ' x ' + m.h + ' km at ' + m.cs + ' km: ' + Object.entries(hist).map(([a, b]) => names[a] + ' ' + b).join(', '));

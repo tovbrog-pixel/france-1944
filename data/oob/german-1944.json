@@ -16,6 +16,13 @@
    "read": "2026-11-22",
    "free": false,
    "note": "Every record citing only this source has status verify."
+  },
+  {
+   "id": "harrison",
+   "title": "G. A. Harrison, Cross-Channel Attack, US Army in World War II, CMH 1951",
+   "url": "https://archive.org/details/CMHPub741CrossChannelAttack",
+   "read": "2026-11-22",
+   "free": true
   }
  ],
  "armies": [
@@ -197,7 +204,17 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
+   "position0606": {
+    "xy": [
+     549.7,
+     133.0
+    ],
+    "note": "Near Amiens; began its move from Amiens during the night of 9-10 June (Harrison pp. 257, 373)",
+    "src": [
+     "harrison"
+    ],
+    "status": "inference"
+   },
    "arrive": null
   },
   {
@@ -257,7 +274,17 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
+   "position0606": {
+    "xy": [
+     453.7,
+     230.4
+    ],
+    "note": "OKW reserve (Harrison p. 248); began arriving between Caen and Bronay on 7 June (Harrison p. 347). Pre-invasion position from general history",
+    "src": [
+     "harrison"
+    ],
+    "status": "verify"
+   },
    "arrive": null
   },
   {
@@ -269,7 +296,17 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
+   "position0606": {
+    "xy": [
+     359.2,
+     213.8
+    ],
+    "note": "Moved from Rennes to Caen, battalions on either side of the Orne (Harrison p. 257)",
+    "src": [
+     "harrison"
+    ],
+    "status": "inference"
+   },
    "arrive": null
   },
   {
@@ -281,7 +318,17 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
+   "position0606": {
+    "xy": [
+     483.4,
+     208.8
+    ],
+    "note": "One panzer division between Rouen and Paris (Harrison p. 257); identity from general history",
+    "src": [
+     "harrison"
+    ],
+    "status": "verify"
+   },
    "arrive": null
   },
   {
@@ -293,7 +340,17 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
+   "position0606": {
+    "xy": [
+     489.1,
+     292.3
+    ],
+    "note": "OKW reserve (Harrison p. 248); formed north and northeast of Tilly-sur-Seulles on 7 June (p. 347). Pre-invasion position (Chartres area) from general history",
+    "src": [
+     "harrison"
+    ],
+    "status": "verify"
+   },
    "arrive": null
   },
   {
@@ -329,7 +386,17 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
+   "position0606": {
+    "xy": [
+     357.4,
+     438.4
+    ],
+    "note": "OKW reserve; one regiment east of Laval and its tracked vehicles strung out between la Fleche and Saumur on 9 June (Harrison p. 371). Pre-invasion position south of the Loire from general history; outside the slice",
+    "src": [
+     "harrison"
+    ],
+    "status": "verify"
+   },
    "arrive": null
   },
   {
@@ -353,7 +420,17 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
+   "position0606": {
+    "xy": [
+     78.9,
+     275.6
+    ],
+    "note": "Stationed east of Brest from March (Harrison p. 252)",
+    "src": [
+     "harrison"
+    ],
+    "status": "inference"
+   },
    "arrive": null
   },
   {
@@ -365,7 +442,17 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
+   "position0606": {
+    "xy": [
+     251.9,
+     320.8
+    ],
+    "note": "Moving into the Rennes area (Harrison p. 252)",
+    "src": [
+     "harrison"
+    ],
+    "status": "inference"
+   },
    "arrive": null
   },
   {
@@ -461,7 +548,17 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
+   "position0606": {
+    "xy": [
+     209.1,
+     269.1
+    ],
+    "note": "Shifted to St-Malo - St-Brieuc (Harrison p. 257, n. 74)",
+    "src": [
+     "harrison"
+    ],
+    "status": "inference"
+   },
    "arrive": null
   },
   {
@@ -509,7 +606,17 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
+   "position0606": {
+    "xy": [
+     280.7,
+     178.8
+    ],
+    "note": "Defense against airborne landings in the Cotentin (Harrison p. 260); placed in the centre of the peninsula",
+    "src": [
+     "harrison"
+    ],
+    "status": "inference"
+   },
    "arrive": null
   },
   {
@@ -533,7 +640,17 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
+   "position0606": {
+    "xy": [
+     273.3,
+     180.6
+    ],
+    "note": "Assembly area Carentan-Montebourg-Bricquebec-Lessay (Harrison p. 254, n. 69); placed at its centre",
+    "src": [
+     "harrison"
+    ],
+    "status": "inference"
+   },
    "arrive": null
   },
   {
@@ -557,7 +674,17 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
+   "position0606": {
+    "xy": [
+     123.2,
+     351.9
+    ],
+    "note": "Brittany coast; mobile Kampfgruppe formed (Harrison p. 254). Placement from general history",
+    "src": [
+     "harrison"
+    ],
+    "status": "verify"
+   },
    "arrive": null
   },
   {
@@ -569,7 +696,17 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
+   "position0606": {
+    "xy": [
+     157.6,
+     265.4
+    ],
+    "note": "Brittany coast; mobile Kampfgruppe formed (Harrison p. 254). Placement from general history",
+    "src": [
+     "harrison"
+    ],
+    "status": "verify"
+   },
    "arrive": null
   },
   {
@@ -605,7 +742,17 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
+   "position0606": {
+    "xy": [
+     217.4,
+     369.9
+    ],
+    "note": "Brittany coast; mobile Kampfgruppe formed (Harrison p. 254). Placement from general history",
+    "src": [
+     "harrison"
+    ],
+    "status": "verify"
+   },
    "arrive": null
   },
   {
@@ -689,7 +836,17 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
+   "position0606": {
+    "xy": [
+     404.0,
+     184.4
+    ],
+    "note": "Transferred to Fifteenth Army in January 1944 (Harrison p. 257, n. 74). Placement east of the Seine estuary from general history",
+    "src": [
+     "harrison"
+    ],
+    "status": "verify"
+   },
    "arrive": null
   },
   {
@@ -713,7 +870,17 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
+   "position0606": {
+    "xy": [
+     312.4,
+     198.3
+    ],
+    "note": "Assembly area Bayeux-Trevieres-Isigny-St-Lo (Harrison p. 254, n. 69); placed at its centre",
+    "src": [
+     "harrison"
+    ],
+    "status": "inference"
+   },
    "arrive": null
   },
   {
@@ -725,7 +892,17 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
+   "position0606": {
+    "xy": [
+     169.5,
+     305.3
+    ],
+    "note": "Brittany; the last mobile unit in Brittany, ordered to St-Lo (Harrison p. 371). Placement from general history",
+    "src": [
+     "harrison"
+    ],
+    "status": "verify"
+   },
    "arrive": null
   },
   {
@@ -761,7 +938,17 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
+   "position0606": {
+    "xy": [
+     279.9,
+     167.6
+    ],
+    "note": "Held the east coast of the Cotentin (Harrison p. 147); placed around Valognes",
+    "src": [
+     "harrison"
+    ],
+    "status": "inference"
+   },
    "arrive": null
   },
   {
@@ -773,7 +960,17 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
+   "position0606": {
+    "xy": [
+     385.4,
+     194.8
+    ],
+    "note": "Landings reported in the sectors of the 716th and 711th (Harrison p. 278); placed east of the Orne",
+    "src": [
+     "harrison"
+    ],
+    "status": "inference"
+   },
    "arrive": null
   },
   {
@@ -785,12 +982,23 @@
     "ellis-1"
    ],
    "note": "",
-   "position0606": null,
+   "position0606": {
+    "xy": [
+     348.9,
+     196.7
+    ],
+    "note": "Coast division in the Caen sector, divisional reserve committed at the coast (Harrison p. 254); placed between the Orne and Bayeux",
+    "src": [
+     "harrison"
+    ],
+    "status": "inference"
+   },
    "arrive": null
   }
  ],
  "notes": [
   "Ellis lists 51 divisions; this file has the 51 names from Appendix V Part II. OCR read \"8oth\" as 89th and \"7ooth\" as 709th, the only divisions with those shapes in the 1944 West.",
-  "Next pass: 6 June positions from Harrison, Cross-Channel Attack, and arrival dates from Ellis and Blumenson; templates for static and Luftwaffe field divisions."
+  "Next pass: 6 June positions from Harrison, Cross-Channel Attack, and arrival dates from Ellis and Blumenson; templates for static and Luftwaffe field divisions.",
+  "position0606 is the division centre at midnight 5/6 June 1944 in slice game km; page numbers come from the page headers in the OCR text of the CMH edition and may be off by one. Divisions outside the slice enter at the map edge on their arrival date."
  ]
 }

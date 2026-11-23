@@ -1,0 +1,165 @@
+{
+ "title": "1944 terrain overlays for the slice: hedgerow country and German inundations, June 1944",
+ "author": "Tov Binyamin Brog",
+ "coords": "game km (data/README.md)",
+ "sources": [
+  {
+   "id": "harrison",
+   "title": "G. A. Harrison, Cross-Channel Attack, US Army in World War II, CMH 1951",
+   "url": "https://archive.org/details/CMHPub741CrossChannelAttack",
+   "read": "2026-11-22",
+   "free": true
+  },
+  {
+   "id": "ellis-1",
+   "title": "L. F. Ellis, Victory in the West, vol. I, HMSO 1962",
+   "url": "https://archive.org/details/victory-west-vol-1",
+   "read": "2026-11-22",
+   "free": true
+  }
+ ],
+ "bocage": [
+  {
+   "name": "Cotentin, Bessin and the Bocage",
+   "src": [
+    "harrison",
+    "ellis-1"
+   ],
+   "status": "inference",
+   "note": "Harrison (pp. 180-181, 284) divides the NEPTUNE area into the north and south Cotentin, the Bessin (hedgerow-enclosed meadows between Isigny and Bayeux), the Bocage (hilly wooded country south of the Bessin and Cotentin nearly to the base of the Brittany peninsula) and the relatively open Caen country from Bayeux east and southeast; he calls hedgerows ubiquitous throughout the Cotentin and the bocage country. Ellis contrasts the open, hedgeless country east of the Orne with the close hedgerows of the bocage. The polygon follows the Caen-country edge Bayeux - Tilly - Villers-Bocage - Thury-Harcourt - Falaise - Argentan - Sees and closes on Alencon - Mayenne - Fougeres - Pontorson. The exact line is Claude's drawing from those descriptions. Brittany, Maine and the Pays d'Auge are left out until Blumenson's description is read.",
+   "poly": [
+    [
+     230,
+     130
+    ],
+    [
+     300,
+     135
+    ],
+    [
+     300,
+     175
+    ],
+    [
+     327,
+     183
+    ],
+    [
+     331,
+     193
+    ],
+    [
+     336,
+     206
+    ],
+    [
+     333,
+     217
+    ],
+    [
+     346,
+     228
+    ],
+    [
+     366,
+     239
+    ],
+    [
+     378,
+     256
+    ],
+    [
+     391,
+     272
+    ],
+    [
+     385,
+     292
+    ],
+    [
+     332,
+     304
+    ],
+    [
+     289,
+     296
+    ],
+    [
+     267,
+     273
+    ],
+    [
+     240,
+     250
+    ],
+    [
+     235,
+     180
+    ]
+   ]
+  }
+ ],
+ "flood": [
+  {
+   "name": "Flooded strip behind Utah Beach",
+   "bbox": [
+    286,
+    166,
+    299,
+    183
+   ],
+   "maxEl": 6,
+   "src": [
+    "harrison"
+   ],
+   "status": "inference",
+   "note": "Harrison p. 182: a flooded coastal strip about two miles wide from the Bancs du Grand Vey to Quineville, crossed only by causeways. Cells inside the box at or below 6 m are flooded; the 6 m line is Claude's choice."
+  },
+  {
+   "name": "Douve and Merderet inundations",
+   "bbox": [
+    266,
+    172,
+    300,
+    200
+   ],
+   "maxEl": 6,
+   "src": [
+    "harrison"
+   ],
+   "status": "inference",
+   "note": "Harrison pp. 181-182, 286-287: swamplands of the Douve and its tributaries across about five-sixths of the base of the peninsula; the Germans flooded the Douve and Merderet by partly blocking the lock at la Barquette before D-Day."
+  },
+  {
+   "name": "Lower Aure valley",
+   "bbox": [
+    300,
+    186,
+    318,
+    193
+   ],
+   "maxEl": 8,
+   "src": [
+    "harrison"
+   ],
+   "status": "inference",
+   "note": "Harrison pp. 181, 367: the Aure between Trevieres and Isigny runs through a broad marshy valley that can be flooded; on D+1 the flats were flooded to a width of half a mile to two miles."
+  },
+  {
+   "name": "Dives valley and delta",
+   "bbox": [
+    366,
+    193,
+    378,
+    218
+   ],
+   "maxEl": 8,
+   "src": [
+    "ellis-1"
+   ],
+   "status": "inference",
+   "note": "Ellis: paratroops dropped in flooded ground on either side of the Dives; Rommel proposed withdrawing behind the flooded Dives; inundations made the advance across the Dives delta slow in August."
+  }
+ ],
+ "pageNote": "Page numbers come from the page headers in the OCR text and may be off by one."
+}
