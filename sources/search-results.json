@@ -1,218 +1,68 @@
 {
- "title:(\"Order of battle\") AND title:(German) AND date:[1943-01-01 TO 1946-12-31]": [],
- "title:(\"Victory Campaign\")": [
+ "title:(\"Breakout and Pursuit\") AND mediatype:texts": [
   {
-   "date": "1918-01-01T00:00:00Z",
-   "identifier": "victorycampaign0003unse",
+   "date": "1978-01-01T00:00:00Z",
+   "identifier": "bwb_S0-CCJ-255",
    "mediatype": "texts",
-   "title": "The Victory Campaign"
+   "title": "United States Army in World War II : The European Theater of Operations Breakout and Pursuit"
   },
   {
-   "date": "1945-10-01T00:00:00Z",
-   "identifier": "VictoryFundBookmark",
+   "date": "1970-01-01T00:00:00Z",
+   "identifier": "unitedstatesarmy0000mart",
    "mediatype": "texts",
-   "title": "Victory Campaign: To Live \"Right\", Give \"Right\""
+   "title": "The United States Army in World War II, The European Theater of Operations: Breakout and Pursuit"
   },
   {
-   "date": "2011-01-01T00:00:00Z",
-   "identifier": "littlemanwithspa0000smit",
+   "date": "2005-01-01T00:00:00Z",
+   "identifier": "breakoutpursuit00blum",
    "mediatype": "texts",
-   "title": "The little man with the spade : the story of the wartime 'dig for victory' campaign"
+   "title": "Breakout and pursuit"
   },
   {
-   "date": "2013-01-01T00:00:00Z",
-   "identifier": "spadeasmightyass0000smit",
+   "date": "1993-01-01T00:00:00Z",
+   "identifier": "CMHPub751BreakoutAndPursuit",
    "mediatype": "texts",
-   "title": "The spade as mighty as the sword : the story of the Second World War 'Dig for Victory' campaign"
+   "title": "CMH Pub 7-5-1 Breakout and Pursuit"
   },
   {
-   "date": "2011-01-22T00:00:00Z",
-   "identifier": "youtube-J2Y6e8N9iZU",
-   "mediatype": "movies",
-   "title": "V for Victory Campaign Launched 21st January 2011"
-  },
-  {
-   "date": "1945-01-01T00:00:00Z",
-   "identifier": "victorycampaign0000stra",
+   "date": "1993-01-01T00:00:00Z",
+   "identifier": "bwb_S0-DRQ-072",
    "mediatype": "texts",
-   "title": "the victory campaign"
+   "title": "The European Theater of Operations, Breakout and Pursuit"
   },
+  {
+   "date": "2005-01-01T00:00:00Z",
+   "identifier": "CMHPub751BreakoutAndPursuit-nsia",
+   "mediatype": "texts",
+   "title": "CMH Pub 7-5-1 Breakout And Pursuit"
+  },
+  {
+   "date": "2012-01-01T00:00:00Z",
+   "identifier": "breakoutpursuit0000blum",
+   "mediatype": "texts",
+   "title": "Breakout and pursuit"
+  }
+ ],
+ "title:(\"Victory Campaign\") AND date:1960": [
   {
    "date": "1960-01-01T00:00:00Z",
    "identifier": "victorycampaigno0000cpst",
    "mediatype": "texts",
    "title": "The Victory Campaign. The Operations In North-West Europe 1944-1945. Volume III"
-  },
-  {
-   "date": "1918-01-01T00:00:00Z",
-   "identifier": "whymusttherebevi00nati",
-   "mediatype": "texts",
-   "title": "Why must there be a victory campaign?"
-  },
-  {
-   "date": "2022-11-01T00:00:00Z",
-   "identifier": "final-brenda-prayer-victory-campaign",
-   "mediatype": "texts",
-   "title": "FINAL BRENDA PRAYER VICTORY CAMPAIGN"
-  },
-  {
-   "date": "1977-01-01T00:00:00Z",
-   "identifier": "howjimmywonvicto0000stro",
-   "mediatype": "texts",
-   "title": "How Jimmy won : the victory campaign from Plains to the White House"
   }
  ],
- "title:(\"Ruppenthal\") OR creator:(Ruppenthal)": [
+ "title:(\"Joslen\") OR title:(\"Orders of battle, Second World War\")": [
   {
-   "date": "1919-05-01T00:00:00Z",
-   "identifier": "jstor-1133577",
+   "date": "1960-01-01T00:00:00Z",
+   "identifier": "ordersofbattlese0000vari",
    "mediatype": "texts",
-   "title": "Criminal Statutes on Birth Control"
-  },
-  {
-   "date": "1961-01-01T00:00:00Z",
-   "identifier": "diebedeutungderd0000wern",
-   "mediatype": "texts",
-   "title": "Die Bedeutung der D\u00e4mpfigkeit der Pferde als Abgangsursache und der Infekti\u00f6se Katarrh als Ursache der D\u00e4mpfigkeit in den Nachkriegsjahren"
-  },
-  {
-   "identifier": "fav-tom_ruppenthal",
-   "mediatype": "collection",
-   "title": "Tom Ruppenthal Favorites"
-  },
-  {
-   "date": "2014-01-18T00:00:00Z",
-   "identifier": "arxiv-1401.4563",
-   "mediatype": "texts",
-   "title": "$L^2$-Serre duality on singular complex spaces and rational singularities"
-  },
-  {
-   "date": "1964-01-01T00:00:00Z",
-   "identifier": "developmentsinbu0000rupp",
-   "mediatype": "texts",
-   "title": "Developments in business logistics"
-  },
-  {
-   "date": "1907-01-14T00:00:00Z",
-   "identifier": "IA41549821_0071",
-   "mediatype": "texts",
-   "title": "Ueber zwei stereoisomere Oxime des Dynpons und Benzalacetophenons"
-  },
-  {
-   "date": "2010-07-26T00:00:00Z",
-   "identifier": "arxiv-1007.4488",
-   "mediatype": "texts",
-   "title": "Compactness of the d-bar-Neumann operator on singular complex spaces"
-  },
-  {
-   "date": "2001-01-01T00:00:00Z",
-   "identifier": "visualpoetrymyjo0000lois",
-   "mediatype": "texts",
-   "title": "Visual poetry: My journey into Chinese painting"
-  },
-  {
-   "date": "1919-02-21T00:00:00Z",
-   "identifier": "jstor-1642865",
-   "mediatype": "texts",
-   "title": "A Standard Scientific Alphabet"
+   "title": "Orders of battle Second world war 1939-1945"
   },
   {
    "date": "1960-01-01T00:00:00Z",
-   "identifier": "revolutionintran0000rupp",
+   "identifier": "ordersofbattlese0001vari",
    "mediatype": "texts",
-   "title": "Revolution in transportation"
-  },
-  {
-   "date": "1994-01-01T00:00:00Z",
-   "identifier": "evankirchXVIjahr15sehluoft",
-   "mediatype": "texts",
-   "title": "Die evangelischen Kirchenordnungen des 16. Jahrhunderts : Register zu den Ba\u0308nden VI und VII Niedersachsen"
-  },
-  {
-   "date": "1906-11-01T00:00:00Z",
-   "identifier": "jstor-1010529",
-   "mediatype": "texts",
-   "title": "Election Reforms: The Trend toward Democracy"
-  },
-  {
-   "date": "1968-01-01T00:00:00Z",
-   "identifier": "businesslogistic0000rupp",
-   "mediatype": "texts",
-   "title": "Business logistics in American industry"
-  },
-  {
-   "date": "1962-01-01T00:00:00Z",
-   "identifier": "transportationfr0000karl",
-   "mediatype": "texts",
-   "title": "Transportation frontiers"
-  },
-  {
-   "date": "2013-04-22T00:00:00Z",
-   "identifier": "arxiv-1304.5930",
-   "mediatype": "texts",
-   "title": "L2-Riemann-Roch for singular complex curves"
-  },
-  {
-   "date": "1994-01-01T00:00:00Z",
-   "identifier": "evankirchXVIjahr701sehluoft",
-   "mediatype": "texts",
-   "title": "Die evangelischen Kirchenordnungen des 16. Jahrhunderts : Register zu den Ba\u0308nden VI und VII Niedersachsen"
-  },
-  {
-   "date": "2019-01-01T00:00:00Z",
-   "identifier": "poisson-9788570420596",
-   "mediatype": "texts",
-   "title": "Gest\u00e3o da Produ\u00e7\u00e3o em Foco - Volume 34"
-  },
-  {
-   "date": "2013-04-08T00:00:00Z",
-   "identifier": "arxiv-1211.3660",
-   "mediatype": "texts",
-   "title": "Adjunction for the Grauert-Riemenschneider canonical sheaf and extension of L2-cohomology classes"
-  },
-  {
-   "date": "2008-11-23T00:00:00Z",
-   "identifier": "arxiv-0811.3742",
-   "mediatype": "texts",
-   "title": "An explicit d-bar-integration formula for weighted homogeneous varieties II: forms of higher degree"
-  },
-  {
-   "date": "2014-09-04T00:00:00Z",
-   "identifier": "arxiv-1409.1382",
-   "mediatype": "texts",
-   "title": "$L^2$-Serre duality on singular complex spaces and applications"
-  },
-  {
-   "date": "2020-02-26T00:00:00Z",
-   "identifier": "chetvbc-Chamber_Luncheon_-_Jo_Ann_Ruppenthal",
-   "mediatype": "movies",
-   "title": "Chamber Luncheon: Jo Ann Ruppenthal"
-  },
-  {
-   "date": "2018-01-07T00:00:00Z",
-   "identifier": "thingiverse-2749182",
-   "mediatype": "data",
-   "title": "Doctor Who Figurine Stairs (2749182)"
-  },
-  {
-   "identifier": "gov.uscourts.wvsd.149089",
-   "mediatype": "texts",
-   "title": "Ruppenthal v. Ethicon, Inc."
-  },
-  {
-   "date": "2014-10-22T00:00:00Z",
-   "identifier": "arxiv-1410.6207",
-   "mediatype": "texts",
-   "title": "Parabolicity of the regular locus of complex varieties"
-  },
-  {
-   "date": "1961-01-01T00:00:00Z",
-   "identifier": "diewirkungdespho0000wern",
-   "mediatype": "texts",
-   "title": "Die Wirkung des Phosphons\u00e4ureesterpr\u00e4parates Neguvon Bayer unter Praemedikation der Antidote PAM Bayer und Atropin auf experimentelle Trichinose bei M\u00e4usen, Studie auf Grund der Unterlagen eniniger Hessischer Tierversicherungen"
+   "title": "Orders of battle Second world war 1939-1945"
   }
- ],
- "title:(\"Seventh Army\") AND title:(Normandy) AND date:[1944-01-01 TO 1960-12-31]": [],
- "title:(\"First United States Army\") AND title:(\"report of operations\")": [],
- "title:(\"Twelfth Army Group\") AND title:(report)": []
+ ]
 }

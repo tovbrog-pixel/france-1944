@@ -1,10 +1,24 @@
 {
+ "archive/CMHPub721LogisticalSupportOfTheArmiesVolumeIMay1941September1944-nsia__CMHPub721LogisticalSupportOfTheArmiesVolumeIMay1941September1944_djvu.txt": {
+  "bytes": 1158047,
+  "note": "CMH Pub 7-2-1 Logistical Support Of The Armies, Volume I: May 1941 - September 1944",
+  "read": "2026-11-23",
+  "sha256": "790ab192714c432dac641e3538ca085478e2c3e3c4ec50683c557c3698e1bc19",
+  "url": "https://archive.org/download/CMHPub721LogisticalSupportOfTheArmiesVolumeIMay1941September1944-nsia/CMHPub721LogisticalSupportOfTheArmiesVolumeIMay1941September1944_djvu.txt"
+ },
  "archive/CMHPub741CrossChannelAttack__CMHPub741CrossChannelAttack_djvu.txt": {
   "bytes": 1774959,
   "note": "CMH Pub 7-4-1 Cross-Channel Attack",
   "read": "2026-11-23",
   "sha256": "4d8feee5177e283fe41c615c41b5a0e28976c630aecd91571e62ff360b0dae44",
   "url": "https://archive.org/download/CMHPub741CrossChannelAttack/CMHPub741CrossChannelAttack_djvu.txt"
+ },
+ "archive/CMHPub751BreakoutAndPursuit-nsia__CMHPub751BreakoutAndPursuit_djvu.txt": {
+  "bytes": 21516,
+  "note": "CMH Pub 7-5-1 Breakout And Pursuit",
+  "read": "2026-11-23",
+  "sha256": "76876cd8bd5386bb0085d748d5c03b49853e54de3b95718be2dc3c43659981e8",
+  "url": "https://archive.org/download/CMHPub751BreakoutAndPursuit-nsia/CMHPub751BreakoutAndPursuit_djvu.txt"
  },
  "archive/OrderOfBattleUsArmyEtoWw2__OrderOfBattleUsArmyEtoWw2_djvu.txt": {
   "bytes": 910867,
@@ -27,12 +41,33 @@
   "sha256": "3b2e950228915286050f62676870a98bd97b98b8196c6d3bfa5767eba762bd1d",
   "url": "https://archive.org/download/Vol3EuropeArgumentToVEDay/Vol3EuropeArgumentToVEDay_djvu.txt"
  },
+ "archive/breakoutpursuit00blum__breakoutpursuit00blum_djvu.txt": {
+  "bytes": 2552043,
+  "note": "Breakout and pursuit",
+  "read": "2026-11-23",
+  "sha256": "ec77c770c7870b1b4d3e51988ddd3bec3bafaeca9e7af6f32031f0beb57af3a8",
+  "url": "https://archive.org/download/breakoutpursuit00blum/breakoutpursuit00blum_djvu.txt"
+ },
+ "archive/logisticalsuppor11rupp__logisticalsuppor11rupp_djvu.txt": {
+  "bytes": 2237557,
+  "note": "Logistical support of the armies",
+  "read": "2026-11-23",
+  "sha256": "85b92895866afd7f0dd1232ea0162d041ceca102c7026a1231b92e305443bf91",
+  "url": "https://archive.org/download/logisticalsuppor11rupp/logisticalsuppor11rupp_djvu.txt"
+ },
  "archive/victory-west-vol-1__VictoryWestVol1_djvu.txt": {
   "bytes": 1710715,
   "note": "Victory in the West Volume 1 The Battle of Normandy (History of the Second World War United Kingdom  Military Series)",
   "read": "2026-11-23",
   "sha256": "d5f8dba4db09b48b45568074dffb604ab3b6a4a4bc2332307148ab5bbce94c2d",
   "url": "https://archive.org/download/victory-west-vol-1/VictoryWestVol1_djvu.txt"
+ },
+ "archive/victory-west-vol-2__VictoryWestVol2_djvu.txt": {
+  "bytes": 1212137,
+  "note": "Victory in the West Volume 2 The Defeat of Germany (History of the Second World War United Kingdom  Military Series)",
+  "read": "2026-11-23",
+  "sha256": "1c820951a00a56255d70880c84844e722dd3add2478a514f23938c17227c56f1",
+  "url": "https://archive.org/download/victory-west-vol-2/VictoryWestVol2_djvu.txt"
  },
  "hyperwar/aaf-iii/AAF-III-1.txt": {
   "bytes": 76148,
