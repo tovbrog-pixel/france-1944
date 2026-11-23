@@ -57,6 +57,12 @@ const xpOf = d => XP[d.id] || (/^ge-.*luftwaffe/.test(d.id) ? .75 : /^ge-(7\d\d|
 const BEACHES = [[297.0, 177.9], [318.0, 184.7], [341.3, 188.6], [350.7, 189.4], [360.7, 194.2]];
 function sector(q) { let b = BEACHES[0], bd = 1e9; for (const p of BEACHES) { const d = Math.hypot(p[0] - q[0], p[1] - q[1]); if (d < bd) { bd = d; b = p; } }
   const ax = (b[0] - q[0]) / (bd || 1), ay = (b[1] - q[1]) / (bd || 1), px = -ay * 7, py = ax * 7; return [[q[0] - px, q[1] - py], [q[0] + px, q[1] + py]]; }
+// four Brittany divisions formed mobile Kampfgruppen of reinforced regiments, which is what went to Normandy (Harrison p. 254)
+const KG = /^ge-(265th|266th|275th|353rd)$/;
+function kampfgruppe(f) { const keep = [], regs = []; const take = (R, n) => { const idx = []; for (const i of R.idx.slice(0, n)) { idx.push(keep.length); keep.push(f.sub[i]); } if (idx.length) regs.push({ n: R.n, role: R.role, idx }); };
+  const man = f.regs.filter(R => R.role === 'man'), art = f.regs.find(R => R.role === 'arty'), tr = f.regs.find(R => R.role === 'troops');
+  if (man[0]) take(man[0], 9); if (man[1]) take(man[1], 1); if (art) take(art, 1); if (tr) regs.push({ n: tr.n, role: tr.role, idx: tr.idx.filter(i => /Pionier/.test(f.sub[i])).map(i => { keep.push(f.sub[i]); return keep.length - 1; }) });
+  f.sub = keep; f.regs = regs.filter(R => R.idx.length); f.n = f.n + ' (Kampfgruppe)'; return f; }
 const GSTAY = /^ge-(2nd-parachute|343rd)$/;   // the Brest garrison stays in the fortress (Blumenson; arrival notes)
 // follow-up divisions land over the beach of the corps they joined (inference: the sources give the date, not the beach)
 const US_UTAH = /^(VII|VIII|XV|XX|XII)$/;
@@ -96,7 +102,7 @@ function makeOverlord(cs) {
     const regs = ['1', '2', '3'], cmd = d.cmd || 'Kommandeur';
     if (p0) {
       const [x, y] = clampIn(W(p0[0], p0[1])), dest = GDEST[d.id] && Q[GDEST[d.id]], fr = Math.max(0, a.date ? hrs(a.date, 12) - (dest ? marchH(d.tpl, p0, dest) : 0) : 0);
-      const f = divForm({ tpl: d.tpl, s: 1, n: d.name, cmd, ag: .5, sk: .65, xp: xpOf(d), regs, x, y }); f.gid = d.id;
+      const f = divForm({ tpl: d.tpl, s: 1, n: d.name, cmd, ag: .5, sk: .65, xp: xpOf(d), regs, x, y }); f.gid = d.id; if (KG.test(d.id)) kampfgruppe(f);
       const coast = d.tpl === 'ge_inf' && (!a.date || a.date <= '1944-06-06');
       if (coast) { f.line = [[x - 5, y], [x + 5, y]]; f.dug = 1; f.free = 0; } else f.free = fr;
       if (GDEST[d.id]) { const L = sector(Q[GDEST[d.id]]).map(p => W(p[0], p[1])); f.ai = [{ t: Math.max(.5, fr), path: [], line: L, then: 'dig' }]; f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); f.stayMinStr = .45; }
@@ -136,6 +142,18 @@ function makeOverlord(cs) {
   const cb = vp.find(v => v[0] === 'Cherbourg');
   const ports = cb ? [{ vp: 'Cherbourg', s: 0, n: 'Cherbourg port', x: cb[1], y: cb[2], rate: 5, stock: 50, clear: 456 }] : [];
 
+  // ---- Allied non-divisional support. AGRAs: one heavy and three medium regiments each, one per corps plus one spare (Ellis I p. 537);
+  // which AGRAs and brigades, and their dates, are general history (verify). US corps artillery: four 155mm battalions per corps, a
+  // conservative reading of the corps field artillery groups (inference). All land over their beach and wait in the Support tab.
+  const sup = [], add = (k, n, at, date, h) => { const q = W(P[at][0], P[at][1] + 3); sup.push({ k, n, x: q[0] + (sup.length % 3) * .8, y: q[1] + (sup.length % 2) * .8, t: date ? hrs(date, 12) : h }); };
+  for (const [n, at, date] of [['3rd AGRA', 'gold', '1944-06-14'], ['4th AGRA', 'juno', '1944-06-20'], ['8th AGRA', 'gold', '1944-06-24'], ['2nd Canadian AGRA', 'juno', '1944-07-07']])
+    for (let i = 0; i < 4; i++) add('uk_med55', (i ? 'Medium Regt RA ' : 'Heavy Regt RA ') + '(' + n + ')', at, date);
+  for (const [n, at, date, h] of [['8th Armoured Bde', 'gold', null, 10], ['27th Armoured Bde', 'sword', null, 10], ['2nd Canadian Armoured Bde', 'juno', null, 10], ['4th Armoured Bde', 'gold', '1944-06-08'],
+    ['33rd Armoured Bde', 'juno', '1944-06-13'], ['31st Tank Bde', 'gold', '1944-06-20'], ['34th Tank Bde', 'gold', '1944-07-01'], ['6th Guards Tank Bde', 'gold', '1944-07-20']])
+    for (let i = 0; i < 3; i++) add('uk_tk_sher', 'Armoured Regt (' + n + ')', at, date, h);
+  for (const [n, at, date] of [['V Corps Artillery', 'omahaE', '1944-06-08'], ['VII Corps Artillery', 'utah', '1944-06-08'], ['XIX Corps Artillery', 'omahaE', '1944-06-14'], ['VIII Corps Artillery', 'utah', '1944-06-15'],
+    ['XV Corps Artillery', 'utah', '1944-08-01'], ['XX Corps Artillery', 'utah', '1944-08-01'], ['XII Corps Artillery', 'utah', '1944-08-05']])
+    for (let i = 0; i < 4; i++) add('us_fa155', '155mm FA Bn (' + n + ')', at, date);
   // ---- naval gunfire support for the assault (ships by beach from general history; verify)
   const ship = (k, n, xy) => { const q = W(xy[0], xy[1] - 9); return { k, n, x: q[0], y: q[1], t: 0 }; };
   const pool = [ship('nav15', 'USS Nevada (Force U)', P.utah), ship('nav15', 'USS Texas and Arkansas (Force O)', P.omahaW), ship('nav6', 'HMS Ajax and Argonaut (Force G)', P.gold),
@@ -163,7 +181,7 @@ function makeOverlord(cs) {
   const sides = base.sides.map((sd, s) => Object.assign({}, sd, {
     name: s ? 'OB West: Seventh Army and Panzer Group West' : 'Allied Expeditionary Force: 21st Army Group',
     rear: s ? [0, 1] : [0, -1], pocket: s ? true : undefined, restH: s ? 3 : 10, posture: s ? 'defend' : 'attack', assets: s ? [] : sd.assets || [],
-    sources: s ? gSrc : alliedSrc, pool: s ? [] : pool, bases: [off[s]].concat(air.bases[s]), transport: { aircraft: air.transport[s] }, groups: s ? gGroups : sd.groups }));
+    sources: s ? gSrc : alliedSrc, pool: s ? [] : pool.concat(sup), bases: [off[s]].concat(air.bases[s]), transport: { aircraft: air.transport[s] }, groups: s ? gGroups : sd.groups }));
 
   // 12-hour weather periods: the storm of 19-22 June from Ruppenthal p. 406; D-Day overcast; the rest drawn with a fixed seed (inference)
   const nP = Math.ceil(hrs(END.slice(0, 10), 0) / 12), weather = []; let r = 7;

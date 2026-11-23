@@ -145,6 +145,11 @@ Changes for batch 2:
 
 Seed 201 began to break out only after 22 August, when worn German divisions started giving up their sectors. The batch 2 changes are not enough. The Allied attacks cost more than the German defence (losses about 390 to 345 in seed 201), where history ran the other way by the end of August. The next work is the strength of the German divisions as they arrive (the templates give every infantry division its full establishment), the weight of Allied artillery and air in the bocage, and German supply under air interdiction.
 
+**Changes for batch 3** (played in Claude's workspace while Actions is stopped):
+
+1. *German Kampfgruppen.* The 265th, 266th, 275th and 353rd Divisions sent mobile Kampfgruppen of reinforced regiments to Normandy (Harrison p. 254), so each now enters as five battalions: three infantry, one artillery and one pioneer.
+2. *Allied non-divisional support.* 73 units now wait in the Allied Support pool and land on their dates: four AGRAs of one heavy and three medium regiments each (Ellis I p. 537 gives the composition and the scale of one per corps plus one spare), eight armoured and tank brigades of three regiments each, and four 155mm battalions of corps artillery for each of seven US corps. Which AGRAs and brigades, and their landing dates, are general history to verify. The four battalions per US corps are a cautious reading of the corps field artillery groups (inference). The staff AI attaches pool units to divisions as before.
+
 Single runs vary widely: Cherbourg came 24 June in run 4 and 15 June in run 5. The batches of 20 give the spread. After run 4 Cherbourg came within two days of history. Caen and St-Lô still fall weeks early. The causes found so far:
 
 1. The panzer divisions at Caen are committed piecemeal as they arrive, as in history, but they lose their sectors faster than they did.
@@ -154,7 +159,9 @@ Batches now run on GitHub Actions: `.github/workflows/ai-batch.yml` runs 20 seed
 
 ## Town names
 
-The towns file joined the 1936 census to today's commune list, so communes merged after the war showed their new names (Carentan-les-Marais, Vire Normandie). `data/network/town-names-1944.json` lists 42 such communes with the name of each former chief town, and `tools/realmap.js` shows the 1944 name while keeping today's in `name_today`. The list is Claude's, from general knowledge, and needs checking against the INSEE Code officiel géographique. An automatic lookup through geo.api.gouv.fr's delegated communes returned nothing when the network workflow ran on 23 November, so the list stands in for it.
+The towns file joined the 1936 census to today's commune list, so communes merged after the war showed their new names (Carentan-les-Marais, Vire Normandie). `tools/data/town-names-1944.py` now takes each town's name in force on 6 June 1944 from INSEE's Code officiel géographique, "communes depuis 1943" (COG 2026, Licence Ouverte / Etalab), by the town's INSEE code. A merged commune keeps its former chief town's code, so that lookup gives the chief town's 1944 name. 225 of the 1,505 towns take a different name in 1944, 182 of them on the Overlord map. `tools/realmap.js` shows the 1944 name, and `towns.json` keeps today's name.
+
+The hand list Claude wrote overnight agreed with INSEE on 31 of 35 names it shared. The four that differed came out as follows: Gennes-Val-de-Loire is Les Rosiers by its code, La Hague is Beaumont, Athis-Val de Rouvre is Athis, and Juvigny les Vallées is Juvigny. INSEE's names replace the hand list. Tov downloaded the file on his laptop through Chrome, and it now sits in `sources/insee/`.
 
 ## Screenshots
 
@@ -185,6 +192,7 @@ The towns file joined the 1936 census to today's commune list, so communes merge
 | 1,360 troop carriers; 319 German aircraft | Ellis I pp. 72-73, 566 | Sourced |
 | CCS directive of 12 February 1944 (Eisenhower's order) | Harrison, *Cross-Channel Attack*, Appendix B, pp. 456-457 | Sourced |
 | Second Army maneuvers in Tennessee, 1941 to 1944 | General history | Verify |
+| 1944 town names | INSEE, Code officiel géographique 2026, communes depuis 1943, by INSEE code | Sourced |
 | Tennessee town positions | Coordinates projected with pyproj (UTM 16N) | Sourced positions; roads and river course inference |
 | Test results | `tools/scenario-overlord.js` runs, seed 12345 | Sourced |
 | March rates, phase lines, fighting quality, objective points, supply rates | Claude's settings in `tools/scenario-overlord.js` | Inference (game settings) |
