@@ -120,7 +120,8 @@ function attachCommand(S) {
   // (Patton) attacks more often and reaches farther. All values are starting values for balance testing.
   const ARMYAI = { cadenceH: [60, 24], supply: [.75, .4], reachKm: [18, 32], frontKm: 4 };
   function armyTick() { if (!sc.armyAI) return;
-    for (const A of nodes) { if (A.level !== 'army' || A.s === S.player || S.t < (A.nextPlan || 0)) continue; const ag = A.cmd ? A.cmd.ag : .5, k = Math.max(0, Math.min(1, (ag - .4) / .5));
+    const cfg = typeof sc.armyAI === 'object' ? sc.armyAI : {};   // { only: [army keys], from: hours } limits the AI armies and when they start
+    for (const A of nodes) { if (A.level !== 'army' || A.s === S.player || S.t < (A.nextPlan || 0) || (cfg.only && !cfg.only.includes(A.key)) || S.t < (cfg.from || 0) * 60) continue; const ag = A.cmd ? A.cmd.ag : .5, k = Math.max(0, Math.min(1, (ag - .4) / .5));
       const lerp = a => a[0] + (a[1] - a[0]) * k; A.nextPlan = S.t + 60 * lerp(ARMYAI.cadenceH) * (.85 + S.rnd() * .3); const taken = new Set();
       for (const C of A.forms) { if (!C.forms || !live(C)) continue; if (C.order && C.order.st !== 'issued' && C.order.st !== 'done') continue;
         if (C.order && C.order.st === 'issued' && !C.order.doneSaid && S.t - C.order.t0 < 48 * 60) continue;   // a corps attack still under way runs to its end, or 48 hours

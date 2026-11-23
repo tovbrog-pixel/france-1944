@@ -79,7 +79,7 @@ function makeOverlord(cs) {
     const at = a ? P[a.at] : P[beachFor(nat, corps)];
     const land = W(at[0], at[1] + (a && a.mode === 'air' ? 0 : 2.5));       // a sea landing forms up 2.5 km inland of the waterline
     const t = a ? a.t : hrs(d.arrive, 12);
-    const f = divForm({ tpl: d.tpl, s: 0, n: d.name, cmd: cmdAt(d, d.arrive), ag: nat === 'US' ? .55 : .45, sk: .6, xp: xpOf(d), regs: (d.regs || []).slice(0, 3), x: land[0], y: land[1] });
+    const third = T.rows.some(q => q.div === d.id && q.army === 'Third'), f = divForm({ tpl: d.tpl, s: 0, n: d.name, cmd: cmdAt(d, d.arrive), ag: third ? .75 : nat === 'US' ? .55 : .45, sk: .6, xp: xpOf(d), regs: (d.regs || []).slice(0, 3), x: land[0], y: land[1] });
     if (nat === 'FR') f.nat = 'US';                      // 2e DB fought on US equipment and organisation
     f.arr = a && a.mode === 'air' ? { t, mode: 'air', from: W(at[0] + 60, 60), night: a.night } : { t, mode: 'sea', from: W(at[0], at[1] - 18) };
     if (a && a.obj) f.ai = [{ t: t + 1, path: [], line: a.obj.map(p => W(p[0], p[1])) }];
@@ -99,14 +99,14 @@ function makeOverlord(cs) {
       const f = divForm({ tpl: d.tpl, s: 1, n: d.name, cmd, ag: .5, sk: .65, xp: xpOf(d), regs, x, y }); f.gid = d.id;
       const coast = d.tpl === 'ge_inf' && (!a.date || a.date <= '1944-06-06');
       if (coast) { f.line = [[x - 5, y], [x + 5, y]]; f.dug = 1; f.free = 0; } else f.free = fr;
-      if (GDEST[d.id]) { const L = sector(Q[GDEST[d.id]]).map(p => W(p[0], p[1])); f.ai = [{ t: Math.max(.5, fr), path: [], line: L, then: 'dig' }]; f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); }
-      if (coast) { f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); }
+      if (GDEST[d.id]) { const L = sector(Q[GDEST[d.id]]).map(p => W(p[0], p[1])); f.ai = [{ t: Math.max(.5, fr), path: [], line: L, then: 'dig' }]; f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); f.stayMinStr = .45; }
+      if (coast) { f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); f.stayMinStr = .45; }
       if (GSTAY.test(d.id)) f.stay = 1;
       forms.push(f); log.push([d.id, 'German', coast ? 'holds at 6 June position' : 'at 6 June position, free from', coast ? '0' : fr.toFixed(0)]);
     } else {
       const [x, y] = clampIn(W(a.entry.xy[0], a.entry.xy[1])), dest = GDEST[d.id] && Q[GDEST[d.id]], t = Math.max(1, hrs(a.date, 12) - (dest ? marchH(d.tpl, a.entry.xy, dest) : 0));
       const f = divForm({ tpl: d.tpl, s: 1, n: d.name, cmd, ag: .5, sk: .65, xp: xpOf(d), regs, x, y }); f.gid = d.id; f.arr = { t, mode: 'road' };
-      if (GDEST[d.id]) { const L = sector(Q[GDEST[d.id]]).map(p => W(p[0], p[1])); f.ai = [{ t: t + 1, path: [], line: L, then: 'dig' }]; if (t < hrs(HOLD_UNTIL, 0)) { f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); } }
+      if (GDEST[d.id]) { const L = sector(Q[GDEST[d.id]]).map(p => W(p[0], p[1])); f.ai = [{ t: t + 1, path: [], line: L, then: 'dig' }]; if (t < hrs(HOLD_UNTIL, 0)) { f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); f.stayMinStr = .45; } }
       forms.push(f); log.push([d.id, 'German', 'road entry', t.toFixed(0)]);
     }
   }
@@ -172,7 +172,7 @@ function makeOverlord(cs) {
   const beach = Object.values({ utah: P.utah, omahaW: P.omahaW, omahaE: P.omahaE, gold: P.gold, juno: P.juno, sword: P.sword }).map(b => { const q = W(b[0], b[1]); return [q[0] - 4, q[1] - 3, q[0] + 4, q[1] + 3]; });
 
   const sc = Object.assign({}, base, m, { id: 'overlord', title: 'Overlord: D-Day to the Seine', sub: 'Normandy and Brittany, 6 June to 1 September 1944', start: START, hours: hrs(END.slice(0, 10), 0),
-    ownCell: 1, fieldPlan, commands, cmdPlan, armyAI: false, detourKm: 14, phaseLines: PHASES.map(q => ({ s: 0, until: hrs(q.until, 6), line: q.line.map(p => W(p[0], p[1])) })), view: { x: 292, y: 86, dist: 95, pitch: 1.35 }, modules: ['transport', 'air', 'command', 'politics'], politics: { reviews: [hrs('1944-07-25', 6), hrs('1944-08-22', 6)] }, forest: [], rough: [], marsh: [], bridges: [], vp, ports, beach, weather, sides, forms, front: { all: 1 }, thin: undefined, halt: undefined, mines: undefined,
+    ownCell: 1, fieldPlan, commands, cmdPlan, armyAI: { only: ['us-tusa'], from: hrs('1944-08-01', 6) }, detourKm: 14, phaseLines: PHASES.map(q => ({ s: 0, until: hrs(q.until, 6), line: q.line.map(p => W(p[0], p[1])) })), view: { x: 292, y: 86, dist: 95, pitch: 1.35 }, modules: ['transport', 'air', 'command', 'politics'], politics: { reviews: [hrs('1944-07-25', 6), hrs('1944-08-22', 6)] }, forest: [], rough: [], marsh: [], bridges: [], vp, ports, beach, weather, sides, forms, front: { all: 1 }, thin: undefined, halt: undefined, mines: undefined,
     brief: ['Land the six assault divisions and three airborne divisions, join the beachheads, take Caen and Cherbourg, break out into Brittany and drive to the Seine.',
       'Throw the landings back while the beachhead is shallow. Hold Caen and the bocage, bring up the panzer divisions, and keep the Allies out of the ports.'],
     hist: 'Historically Caen held until 9 July and Cherbourg fell on 26-27 June. Operation Cobra broke out at St-Lo on 25 July, the Falaise pocket closed on 19-21 August, Paris was liberated on 25 August, and the Allies stood on the Seine by the end of the month.' });

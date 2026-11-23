@@ -109,6 +109,28 @@ Blue's divisions now form Blue Corps under Major General Ames, and the umpire te
 
 | 6 | AI army commanders give their corps objectives on a rhythm set by the commander's aggression (`armyAI`) | Much faster: Cherbourg, Caen and St-Lô all taken by 13 June. The concentrated corps attacks overwhelm the German sectors, so `armyAI` stays off until it is calibrated |
 
+**Batch 1** (run 4 settings, 19 of 20 full runs to 1 September; `docs/tests/batch1-run4-preliminary.md`) shows the opposite problem over the whole slice. The lodgment battle comes out close to history and then the Allies never break out:
+
+| Objective | Historical | Runs holding it on 1 September | Median date held from |
+| --- | --- | --- | --- |
+| Cherbourg | 26 June | 18 of 19 | 17 June |
+| Caen | 9 July | 6 of 19 | 24 August |
+| St-Lô | 18 July | 15 of 19 | 20 August |
+| Coutances | 28 July | 14 of 19 | 25 July |
+| Avranches | 30 July | 7 of 19 | 10 August |
+| Rennes | 4 August | 3 of 19 | 23 August |
+| Falaise | 17 August | 7 of 19 | 12 August |
+| Le Mans, Nantes, Orléans, Chartres, Paris, Brest | 8 August to 18 September | 0 of 19 | none |
+
+Median losses were 322 Allied and 298 German battalion-equivalents. The Germans lose too few, because no front collapses and no pocket closes.
+
+Changes for batch 2:
+
+1. A German division holding a sector gives up its stand once it falls below 45 percent strength (`stayMinStr`), instead of holding to 16 August whatever its state.
+2. From 1 August only Third Army runs under an AI army commander: Patton's rhythm, 24 to 30 hours between corps attacks, reaching about 32 km.
+3. Divisions that served under Third Army fight with more dash (aggression .75).
+4. The Mortain counterattack and the sourced H-Hours, which batch 1 did not have.
+
 Single runs vary widely: Cherbourg came 24 June in run 4 and 15 June in run 5. The batches of 20 give the spread. After run 4 Cherbourg came within two days of history. Caen and St-Lô still fall weeks early. The causes found so far:
 
 1. The panzer divisions at Caen are committed piecemeal as they arrive, as in history, but they lose their sectors faster than they did.
