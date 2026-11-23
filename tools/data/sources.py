@@ -66,10 +66,10 @@ json.dump(res, open(OUT + '/search-results.json', 'w'), indent=1)
 # PDFs to text
 for item in CFG.get('pdf', []):
     b = get(item['url'], binary=True)
-    if b is None: print('no pdf', item['url']); continue
+    if b is None or not b.startswith(b'%PDF'): print('no pdf', item['url'], (b or b'')[:200]); continue
     pdf = '/tmp/' + item['name'] + '.pdf'; open(pdf, 'wb').write(b)
     p = '%s/pdf/%s.txt' % (OUT, item['name']); os.makedirs(os.path.dirname(p), exist_ok=True)
-    subprocess.run(['pdftotext', '-layout', pdf, p], check=True); record(p, item['url'], item.get('title', ''))
+    if subprocess.run(['pdftotext', '-layout', pdf, p]).returncode == 0: record(p, item['url'], item.get('title', ''))
 
 # HyperWar folders
 for item in CFG.get('mirror', []):

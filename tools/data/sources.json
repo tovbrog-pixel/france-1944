@@ -1,5 +1,8 @@
 {
- "archive": ["OrderOfBattleUsArmyEtoWw2", "victory-west-vol-1"],
+ "archive": [
+  "OrderOfBattleUsArmyEtoWw2",
+  "victory-west-vol-1"
+ ],
  "search": [
   "title:(\"Handbook on German Military Forces\")",
   "title:(\"Order of Battle of the German Army\")",
@@ -13,13 +16,42 @@
   "title:(\"Normandy\") AND title:(\"order of battle\")"
  ],
  "pdf": [
-  {"name": "stacey-victory-campaign", "url": "https://publications.gc.ca/collections/collection_2009/forces/D2-503E.pdf", "title": "Stacey, The Victory Campaign (Canadian official history, vol. III), 1960"}
+  {
+   "name": "stacey-victory-campaign",
+   "url": "https://publications.gc.ca/collections/collection_2009/forces/D2-503E.pdf",
+   "title": "Stacey, The Victory Campaign (Canadian official history, vol. III), 1960"
+  }
  ],
  "mirror": [
-  {"name": "breakout-and-pursuit", "url": "https://www.ibiblio.org/hyperwar/USA/USA-E-Breakout/", "title": "Blumenson, Breakout and Pursuit, CMH 1961"},
-  {"name": "cross-channel-attack", "url": "https://www.ibiblio.org/hyperwar/USA/USA-E-Cross/", "title": "Harrison, Cross-Channel Attack, CMH 1951"},
-  {"name": "logistical-support-1", "url": "https://www.ibiblio.org/hyperwar/USA/USA-E-Logistics1/", "title": "Ruppenthal, Logistical Support of the Armies vol. I, CMH 1953"},
-  {"name": "aaf-iii", "url": "https://www.ibiblio.org/hyperwar/AAF/III/", "title": "Craven and Cate, The Army Air Forces in World War II, vol. III"},
-  {"name": "ellis-victory-west-1", "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-NWE-Victory-I/", "title": "Ellis, Victory in the West vol. I, HMSO 1962"}
+  {
+   "name": "breakout-and-pursuit",
+   "url": "https://www.ibiblio.org/hyperwar/USA/USA-E-Breakout/",
+   "title": "Blumenson, Breakout and Pursuit, CMH 1961"
+  },
+  {
+   "name": "cross-channel-attack",
+   "url": "https://www.ibiblio.org/hyperwar/USA/USA-E-Cross/",
+   "title": "Harrison, Cross-Channel Attack, CMH 1951"
+  },
+  {
+   "name": "logistical-support-1",
+   "url": "https://www.ibiblio.org/hyperwar/USA/USA-E-Logistics1/",
+   "title": "Ruppenthal, Logistical Support of the Armies vol. I, CMH 1953"
+  },
+  {
+   "name": "aaf-iii",
+   "url": "https://www.ibiblio.org/hyperwar/AAF/III/",
+   "title": "Craven and Cate, The Army Air Forces in World War II, vol. III"
+  },
+  {
+   "name": "ellis-victory-west-1",
+   "url": "https://www.ibiblio.org/hyperwar/UN/UK/UK-NWE-Victory-I/",
+   "title": "Ellis, Victory in the West vol. I, HMSO 1962"
+  },
+  {
+   "name": "stacey-victory-campaign",
+   "url": "https://www.ibiblio.org/hyperwar/UN/Canada/CA/Victory/",
+   "title": "Stacey, The Victory Campaign, 1960"
+  }
  ]
 }

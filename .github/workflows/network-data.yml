@@ -1,0 +1,31 @@
+name: Network data
+
+on:
+  push:
+    branches: [main]
+    paths: ['tools/data/network.py', '.github/workflows/network-data.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  network:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: sudo apt-get update && sudo apt-get install -y osmium-tool
+      - run: pip install pyproj shapely openpyxl pyshp
+      - run: python tools/data/network.py data/network
+      - name: Commit results
+        run: |
+          git config user.name "Tov Binyamin Brog"
+          git config user.email "tovbrog-pixel@users.noreply.github.com"
+          git add data/network
+          git diff --cached --quiet || git commit -m "Network data: built by Actions from OpenStreetMap, HydroRIVERS and the INSEE 1936 census"
+          git pull --rebase
+          git push
