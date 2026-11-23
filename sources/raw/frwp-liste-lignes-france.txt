@@ -1,0 +1,592 @@
+[[File:Railway map of France - 2025 - fr - small.svg|400px|thumb|Carte du réseau ferroviaire français. <br />Autres versions de cette carte en [[:File:Railway map of France - 2025 - fr - medium.svg|moyen]] et [[:File:Railway map of France - 2025 - fr - large.svg|grand]] formats.]]
+
+{{Article général|Transport ferroviaire en France|ligne de chemin de fer}}
+
+La '''liste des lignes de chemin de fer de France''' répertorie des articles portant sur des [[Ligne de chemin de fer|lignes de chemin de fer]], et non sur les services de trains de voyageurs.
+
+Le découpage proposé est parfois un peu différent du découpage utilisé par la [[Société nationale des chemins de fer français]] (SNCF), celui-ci se trouve dans l'article sur le [[Réseau ferré national (France)|réseau ferré national]].
+
+== Lignes du réseau national gérées par SNCF Réseau ==
+=== Principe de numérotation des lignes ===
+La numérotation s'effectue, dans le [[wikt:sens inverse des aiguilles d’une montre|sens inverse des aiguilles d’une montre]] ou sens trigonométrique, en commençant par la [[ligne de Paris-Est à Mulhouse-Ville]], première ligne radiale au sud de l'ancien réseau Est<ref>SNCF Réseau  n'appliquant plus le découpage des régions et réseaux datant de 1972 </ref> , numérotée {{formatnum:001000}}.
+
+Chaque gare et ses installations de sécurité sont identifiées par le numéro de la ligne et le [[point kilométrique]] (PK) historique, donc pas obligatoirement en rapport avec le point situé à l'origine de la ligne.
+
+La [[gare de Longueville]] est identifiée {{formatnum:001088}}. Celle de [[Gare de Meaux|Meaux]] est identifiée {{formatnum:070044}} alors que la ligne débute à [[Gare de Noisy-le-Sec|Noisy-le-Sec]] au point kilométrique 8+910 ; l'ancien déroulé kilométrique depuis le PK origine en [[gare de Paris-Est]] subsiste. De plus, les déviations ne modifient en rien le chainage, comme entre les PK 33 et 36 de cette ligne, à l'occasion de la création d'un nouveau pont et d'un nouveau tunnel à Chalifert en 1986, on fait appel alors à des hectomètres longs ou courts. Il en est de même lorsque les voies perdent leur parallélisme aux bifurcations.
+
+=== Lignes à grande vitesse ===
+{{article détaillé|Liste des lignes à grande vitesse en France}}
+Il existe douze [[Ligne à grande vitesse|lignes à grande vitesse]] en France, et 5 en projet. Ces LGV partent principalement de la région parisienne afin de relier [[Paris]] aux autres régions de [[France]]. La LGV Nord et la LGV de Perpignan à Figueras (Espagne) sont les deux seules LGV traversant la frontière française.
+{{début de colonnes|taille=30}}
+* [[LGV Sud-Est|Sud-Est]] (officiellement [[Ligne de Combs-la-Ville à Saint-Louis (LGV)]])
+* [[LGV Rhône-Alpes|Rhône-Alpes]] (officiellement [[Ligne de Combs-la-Ville à Saint-Louis (LGV)]])
+* [[LGV Méditerranée|Méditerranée]] (officiellement [[Ligne de Combs-la-Ville à Saint-Louis (LGV)]])
+* [[LGV Atlantique|Atlantique]] (officiellement [[Ligne de Paris-Montparnasse à Monts (LGV)]] et [[Ligne de Courtalain à Connerré (LGV)]] )
+* [[LGV Sud Europe Atlantique|Sud Europe Atlantique]]
+* [[LGV Bretagne-Pays de la Loire|Bretagne-Pays de la Loire]] (officiellement [[Ligne de Connerré à Rennes (LGV)]] )
+* [[LGV Nord|Nord (1er tronçon)]] (officiellement [[Ligne de Gonesse à Lille-Frontière (LGV)]] et [[Ligne de Fretin à Fréthun (LGV)]] )
+* [[LGV Interconnexion Est|LGV interconnexion Est]]
+* [[LGV Est européenne|Est Européenne]] (officiellement [[Ligne de Paris à Strasbourg (LGV)]] )
+* [[LGV Rhin-Rhône|Rhin-Rhône]]
+* [[Ligne de Perpignan à Figueras|Perpignan-Figueras]]
+* [[LGV Bordeaux - Toulouse|Bordeaux-Toulouse]] et [[LGV Bordeaux-Espagne|Bordeaux-Dax]] (en construction<ref>Voir [[Grand projet ferroviaire du Sud-Ouest]]</ref>)
+* [[Ligne Roissy - Picardie|Roissy-Picardie]] (en construction)
+* [[Liaison ferroviaire Lyon-Turin|Lyon-Turin]] (en construction partielle)
+* [[Ligne nouvelle Montpellier - Perpignan|Montpellier-Perpignan]] (en projet)
+{{fin de colonnes}}
+
+=== Principales lignes radiales ===
+==== Réseau Est ====
+* [[Ligne de Lérouville à Metz-Ville]] via Pagny-sur-Moselle
+* [[Ligne de Noisy-le-Sec à Strasbourg-Ville]] (désignation officielle du tronçon principal de la [[ligne de Paris-Est à Strasbourg-Ville]])
+* [[Ligne de Paris-Est à Mulhouse-Ville]] via Troyes, Chaumont, Vesoul et Belfort
+* [[Ligne de Paris-Est à Strasbourg-Ville]] via Nancy (la désignation officielle du tronçon principal est : [[Ligne de Noisy-le-Sec à Strasbourg-Ville]])
+* [[Ligne de Rémilly à Stiring-Wendel]] via Forbach
+* [[Ligne de Soissons à Givet]] via Bazoches, Reims et Charleville-Mézières (partiellement fermée)
+* [[Ligne de Trilport à Bazoches]]
+
+==== Réseau Nord ====
+* [[Ligne de Boulogne-Ville à Calais-Maritime]] via [[Gare de Calais - Fréthun|Calais-Fréthun (TGV)]] et [[Gare de Calais-Ville|Calais-Ville]]
+* [[Ligne de Creil à Jeumont]] vers [[Bruxelles]], via [[Compiègne]], [[Saint-Quentin]], [[Busigny]] et [[Aulnoye-Aymeries]]
+* [[Ligne d'Épinay - Villetaneuse au Tréport - Mers]] via Persan-Beaumont et Beauvais
+* [[Ligne de La Plaine à Hirson et Anor (frontière)]] via Soissons et Laon ; premier prolongement de la [[ligne de Fives à Hirson]]
+* [[Ligne de Longueau à Boulogne-Ville]]
+* [[Ligne de Paris-Nord à Lille]], via [[Creil]], [[Arras]] et [[Douai]] 
+* [[Ligne de Somain à Halluin]], via [[Gare d'Orchies|Orchies]]
+* [[Ligne de Lille aux Fontinettes]]
+* [[Ligne de Fives à Abbeville]]
+* [[Ligne de Fives à Mouscron (frontière)]]
+* [[Ligne de Fives à Baisieux|Ligne de Fives à Baisieux (frontière)]]
+* [[Ligne de Saint-Denis à Dieppe]]
+
+==== Réseau Ouest ====
+* [[Ligne d'Argentan à Granville]]
+* [[Ligne de Mantes-la-Jolie à Cherbourg]] via Caen
+* [[Ligne de Paris-Montparnasse à Brest]] via Le Mans et Rennes
+* [[Ligne de Paris-Saint-Lazare au Havre]] via Rouen
+* [[Ligne de Saint-Cyr à Surdon]]
+* [[Ligne de Savenay à Landerneau]] via Redon, Vannes et Quimper
+
+==== Réseau Sud-Ouest ====
+* [[Ligne de Bordeaux-Saint-Jean à Irun]] via Dax et Bayonne
+* [[Ligne de Bourges à Miécaze]] (Aurillac) (abandonnée au-delà de Montluçon)
+* [[Ligne de Brétigny à La Membrolle-sur-Choisille]] via Dourdan et Vendôme
+* [[Ligne des Aubrais - Orléans à Montauban-Ville-Bourbon]] via Limoges
+* [[Ligne de Paris-Austerlitz à Bordeaux-Saint-Jean]] via Orléans et Tours
+* [[Ligne de Puyoô à Dax]]
+* [[Ligne de Saint-Benoît à La Rochelle-Ville]] via Niort
+* [[Ligne de Pau à Canfranc (frontière)]], reliant [[Pau]] à l'[[Espagne]] via [[Bedous]] et [[Oloron-Sainte-Marie]]
+
+==== Réseau Sud-Est ====
+* [[Ligne de Béziers à Neussargues]] (Ligne des Causses), empruntant le [[viaduc de Garabit]]
+* [[Ligne de Culoz à Modane (frontière)]] (Ligne de la Maurienne)
+* [[Ligne de Dijon-Ville à Saint-Amour]] via Louhans, vers [[Bourg-en-Bresse]]
+* [[Ligne de Dijon-Ville à Vallorbe (frontière)]]
+* [[Ligne de Givors-Canal à Grezan]] (appelée souvent ligne de la rive droite du [[Rhône]])
+* [[Ligne de Givors-Canal à Chasse-sur-Rhône]]
+* [[Ligne de Livron à Aspres-sur-Buëch]]
+* [[Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)]], Veynes-Dévoluy et Aix-en-Provence
+** [[Ligne des Alpes]] (section de la [[ligne Lyon-Perrache - Marseille-Saint-Charles (via Grenoble)|Ligne de Lyon-Perrache {{p.|1}} à Marseille-Saint-Charles (via Grenoble) entre Grenoble et Veynes]]
+** [[Ligne Lyon - Grenoble|Ligne de Lyon à Grenoble]] via [[Saint-André-le-Gaz]] section de la [[ligne Lyon-Perrache - Marseille-Saint-Charles (via Grenoble)|Ligne de Lyon-Perrache {{p.|1}} à Marseille-Saint-Charles (via Grenoble)]]
+** [[Ligne Pertuis - Aix-en-Provence - Marseille|Ligne de Pertuis à Marseille]] (section de la [[ligne Lyon-Perrache - Marseille-Saint-Charles (via Grenoble)|Ligne de Lyon-Perrache {{p.|1}} à Marseille-Saint-Charles (via Grenoble)]]
+* [[Ligne de Mâcon à Ambérieu]] via Bourg-en-Bresse
+* [[Ligne de Marseille-Saint-Charles à Vintimille (frontière)]], via Monaco et Menton
+* [[Ligne de Moret - Veneux-les-Sablons à Lyon-Perrache]] via Nevers, Moulins, Saint-Germain-des-Fossés, Roanne, Saint-Etienne et Givors-Canal
+* [[Ligne de Saint-Étienne à Lyon]] (section de la [[ligne de Moret - Veneux-les-Sablons à Lyon-Perrache]])
+* [[Ligne de Narbonne à Port-Bou (frontière)]] via Perpignan
+* [[Ligne de Paris-Lyon à Marseille-Saint-Charles]] via Dijon-Ville et Lyon
+* [[Ligne de Saint-André-le-Gaz à Chambéry]]
+* [[Ligne de Saint-Germain-des-Fossés à Darsac]] (section entre Saint-Germain-des-Fossés et Vichy)
+* [[Ligne de Saint-Germain-des-Fossés à Nîmes-Courbessac]] (Ligne des Cévennes) via Gannat, Clermont-Ferrand, Arvant et Alès
+* [[Ligne de Saint-Pierre-d'Albigny à Bourg-Saint-Maurice]] (Ligne de la Tarentaise)
+* [[Ligne de Tarascon à Sète-Ville]] via Nîmes et Montpellier
+* [[Ligne de Veynes à Briançon]] via Gap
+* [[Ligne de Vichy à Riom]]
+
+=== Principales lignes transversales ===
+==== Inter-Réseaux ====
+* [[Ligne de Bordeaux-Saint-Jean à Sète-Ville]] via Agen, Montauban-Ville-Bourbon, Toulouse, Carcassonne et Narbonne
+* [[Ligne de Dole-Ville à Belfort]] via Besançon-Viotte
+* [[Ligne de Saint-Roch à Darnétal-Bifurcation]]
+* [[Ligne de Tours à Saint-Nazaire]]
+* [[Ligne de Tours au Mans]]  via Château-du-Loir
+
+==== Réseau Est ====
+* [[Ligne de Blainville - Damelevières à Lure]] via [[Épinal]]
+* [[Ligne de Blesme - Haussignémont à Chaumont]]
+* [[Ligne de Charleville-Mézières à Hirson (par Auvillers)]]
+* [[Ligne de Culmont - Chalindrey à Toul]]
+* [[Ligne d'Hirson à Amagne - Lucquy]]
+* [[Ligne d'Is-sur-Tille à Culmont - Chalindrey]]
+* [[Ligne de Jessains à Sorcy]] via Brienne-le-Château, Vallentigny, Montier-en-Der, Wassy, Joinville et Gondrecourt
+* [[Ligne de Liart à Tournes]] (section de la transversale Nord-Est)
+* [[Ligne de Metz-Ville à Zoufftgen]] (section de la transversale Bâle - Luxembourg)
+* [[Ligne de Mohon à Thionville]] (section de la transversale Nord-Est)
+* [[Ligne de Mommenheim à Sarreguemines]]
+* [[Ligne de Réding à Metz-Ville]] (section de la transversale Bâle - Luxembourg)
+* [[Ligne de Strasbourg-Ville à Saint-Louis]] et [[Bâle]] (section de la transversale Bâle - Luxembourg)
+
+==== Réseau Nord ====
+* [[Ligne d'Amiens à Laon]] via [[Tergnier]]
+* [[Ligne de Fives à Hirson]] via [[Gare d'Orchies|Orchies]], [[Gare de Valenciennes|Valenciennes]] et [[Gare d'Aulnoye-Aymeries|Aulnoye-Aymeries]] (section de la Transversale Nord-Est)
+
+==== Réseau Ouest ====
+* [[Ligne de Chartres à Bordeaux-Saint-Jean]] via Saumur, Niort et Saintes
+* [[Ligne de Lison à Lamballe]] via Saint-Lô, Dol-de-Bretagne et Dinan
+* [[Ligne du Mans à Angers-Maître-École]]
+* [[Ligne du Mans à Mézidon]] via Alençon
+* [[Ligne de Nantes-Orléans à Saintes]] (continuant vers Bordeaux) via La Rochelle-Ville
+* [[Ligne de Rennes à Saint-Malo - Saint-Servan]]
+* [[Ligne de Rennes à Redon]] 
+* [[Ligne de Sablé à Montoir-de-Bretagne]]
+* [[Ligne des Sables-d'Olonne à Tours]]
+* [[Ligne de Saint-Nazaire au Croisic]]
+* [[Ligne de Serquigny à Oissel]]
+
+==== Réseau Sud-Ouest ====
+* [[Ligne de Coutras à Tulle]] via Périgueux
+* [[Ligne d'Eygurande-Merlines à Clermont-Ferrand]]
+* [[Ligne du Palais à Eygurande-Merlines]] via Meymac et Ussel
+* [[Ligne de Toulouse à Bayonne]] via Tarbes, Lourdes et Pau
+* [[Ligne de Tulle à Meymac]]
+
+==== Réseau Sud-Est ====
+* [[Ligne de Bourg-en-Bresse à Bellegarde]] (Ligne du Haut-Bugey)
+* [[Ligne de Collonges - Fontaines à Lyon-Guillotière]]
+* [[Ligne de Coni à Vintimille]] via Breil-sur-Roya
+** [[Ligne de Tende]] (Ligne de Coni à Vintimille)
+* [[Ligne de Dijon-Ville à Is-sur-Tille]]
+* [[Ligne de Franois à Arc-et-Senans]]
+* [[Ligne de Grenoble à Montmélian]] ([[Sillon alpin]] Nord)
+* [[Ligne du Coteau à Montchanin]]
+* [[Ligne de Lyon-Perrache à Genève (frontière)]] via Ambérieu, Culoz et Bellegarde
+* [[Ligne de Mouchard à Bourg-en-Bresse]]
+* [[Ligne de Moulins à Mâcon]] via Cluny
+* [[Ligne de Nevers à Chagny]] via Le Creusot et Montchanin
+* [[Ligne de Nice à Breil-sur-Roya]]
+* [[Ligne de Saint-Georges-d'Aurac à Saint-Étienne-Châteaucreux]] via Le Puy-en-Velay
+* [[Ligne de Valence à Moirans]] ([[Sillon alpin]] Sud)
+
+=== Lignes de la banlieue parisienne ===
+
+==== Inter-réseaux ====
+* [[Ligne de la grande ceinture de Paris]]
+* [[Ligne de Bobigny à Sucy - Bonneuil]]
+* [[Ligne de Petite Ceinture|Ligne de la Petite Ceinture]]
+
+==== Réseau-Est ====
+* [[Ligne d'Esbly à Crécy-la-Chapelle]]
+* [[Ligne de Gretz-Armainvilliers à Sézanne]] (fermée au trafic voyageurs après Coulommiers)
+* [[Ligne de Longueville à Esternay]] (fermée au trafic voyageurs après Provins)
+
+==== Réseau-Nord ====
+* [[Ligne d'Aulnay-sous-Bois à Roissy 2-RER]]
+* [[Ligne d'Ermont - Eaubonne à Champ-de-Mars]] (VMI)
+* [[Ligne d'Ermont - Eaubonne à Valmondois]]
+* [[Ligne de La Plaine à Ermont - Eaubonne]]
+* [[Ligne de Montsoult - Maffliers à Luzarches]]
+* [[Ligne de Pierrelaye à Creil]]
+* Ligne de Villeparisis/ Mitry- Mory à la gare CDG Express de l’aéroport Paris-Charles de Gaulle
+
+==== Réseau-Ouest ====
+* [[Ligne d'Achères à Pontoise]]
+* [[Ligne des Invalides à Versailles-Rive-Gauche]]
+* [[Ligne de Paris-Saint-Lazare à Ermont - Eaubonne]]
+* [[Ligne de Paris-Saint-Lazare à Mantes-Station par Conflans-Sainte-Honorine]]
+* [[Ligne de Paris-Saint-Lazare à Saint-Germain-en-Laye]]
+* [[Ligne de Paris-Saint-Lazare à Versailles-Rive-Droite]]
+* [[Ligne de Plaisir - Grignon à Épône - Mézières]]
+* [[Ligne de Saint-Cloud à Saint-Nom-la-Bretèche - Forêt-de-Marly]]
+
+==== Réseau Sud-Est ====
+* [[Ligne de Corbeil-Essonnes à Montereau]]
+* [[Ligne de Grigny à Corbeil-Essonnes]]
+* [[Ligne de Villeneuve-Saint-Georges à Montargis]]
+
+=== Lignes secondaires ===
+==== Auvergne-Rhône-Alpes ====
+* [[Ligne d'Aix-les-Bains-Le Revard à Annemasse]] via La Roche-sur-Foron
+* [[Ligne de Bort-les-Orgues à Neussargues]] (fermée à tout trafic SNCF - utilisation touristique sur une section)
+* [[Ligne de Clermont-Ferrand à Saint-Just-sur-Loire]]
+* [[Ligne de Collonges - Fort-l'Écluse à Divonne-les-Bains (frontière)]] (fermée)
+* [[Ligne de Commentry à Gannat]]
+* [[Ligne du Coteau à Saint-Germain-au-Mont-d'Or]]
+* [[Ligne d'Eygurande - Merlines à Clermont-Ferrand]]
+* [[Ligne de Figeac à Arvant]]
+* [[Ligne de La Ferté-Hauterive à Gannat]]
+* [[Ligne de Lapeyrouse à Volvic]]
+* [[Ligne de Laqueuille au Mont-Dore]]
+* [[Ligne de Longeray-Léaz au Bouveret]] via Annemasse
+** [[Ligne du Tonkin]] (section d'Évian-les-Bains à Saint-Gingolph de la ligne de Longeray-Léaz au Bouveret)
+* [[Ligne de Lyon-Croix-Rousse à Trévoux]]
+* [[Ligne de Lyon-Saint-Clair à Bourg-en-Bresse]] via Villars-les-Dombes
+* [[Ligne de Lyon-Saint-Paul à Montbrison]] (partiellement déclassée)
+* [[Ligne de Montluçon à Moulins]] via Commentry
+* [[Ligne de Paray-le-Monial à Givors-Canal]]
+* [[Ligne de Régny à-Saint-Just-en-Chevalet]]
+* [[Ligne de Riom à Châtelguyon]]
+* [[Ligne de La Roche-sur-Foron à Saint-Gervais-les-Bains-Le Fayet]]
+* [[Ligne de Saint-Georges-d'Aurac à Saint-Étienne-Châteaucreux]] via Le Puy-en-Velay
+* [[Ligne de Saint-Germain-des-Fossés à Darsac]] (non exploitée de Puy-Guillaume à Courty et de Sembadel à Darsac, partiellement déclassée)
+* [[Ligne de Saint-Gervais-les-Bains-Le Fayet à Vallorcine (frontière)]] via Chamonix-Mont-Blanc (voie métrique)
+* [[Ligne de Saint-Rambert-d'Albon à Rives]]
+* [[Ligne de Souillac à Viescamp-sous-Jallès]]
+
+==== Bourgogne-Franche-Comté ====
+* [[Ligne d'Andelot-en-Montagne à La Cluse]] via Oyonnax, Saint-Claude et Champagnole
+* [[Ligne de Bas-Évette à Giromagny]]
+* [[Ligne de Belfort à Delle]]
+* [[Ligne de Besançon-Viotte au Locle-Col-des-Roches]] via Morteau
+* [[Ligne de Besançon-Viotte à Vesoul]] via Besançon-TGV et Devecey
+* [[Ligne de Bricon à Châtillon-sur-Seine]]
+* [[Ligne de Chagny à Dole-Ville]] via Allerey, Saint-Bonnet et Chaussin
+* [[Ligne de Clamecy à Gilly-sur-Loire]] via Tamnay-Châtillon et Cercy-la-Tour
+* [[Ligne de Clamecy à Nevers]]
+* [[Ligne de Cravant - Bazarnes à Dracy-Saint-Loup]] via Avallon, Maison-Dieu et Saulieu
+* [[Ligne d'Épinac à Pouillenay]]
+* [[Ligne d'Étang à Santenay (via Autun)]] via Dracy-Saint-Loup et Épinac
+* [[Ligne de Frasne à Verrières-de-Joux (frontière)]] via Pontarlier
+* [[Ligne de Gray à Saint-Jean-de-Losne]]
+* [[Ligne de Laroche-Migennes à Cosne]] via Auxerre, Cravant-Bazarnes et Clamecy
+* [[Ligne de Maison-Dieu aux Laumes-Alésia]] via Époisses et Pouillenay
+* [[Ligne de Montbozon à Lure]] pour approvisionnement chantier [[LGV Rhin-Rhône]]
+* [[Ligne de Nuits-sous-Ravières à Châtillon-sur-Seine]]
+* [[Ligne de Saint-Julien (Troyes) à Gray]]
+* [[Ligne de Seurre à Chalon-sur-Saône]] via Allerey
+* [[Ligne de Tamnay-Châtillon à Château-Chinon]]
+* [[Ligne de Triguères à Surgy]] via Toucy-Moulin
+* [[Ligne de Vaivre à Gray]]
+* [[Ligne de Voujeaucourt à Saint-Hippolyte]], actuellement limitée à Pont-de-Roide
+
+==== Bretagne ====
+* [[Ligne d'Auray à Pontivy]]
+* [[Ligne d'Auray à Quiberon]]
+* [[Ligne de Guingamp à Carhaix]]
+* [[Ligne de Guingamp à Paimpol]]
+* [[Ligne de Châteaubriant à Rennes]]
+* [[Ligne de Miniac-Morvan à La Gouesnière - Cancale - Saint-Méloir]]
+* [[Ligne de Morlaix à Roscoff]]
+* [[Ligne de Nantes-Orléans à Châteaubriant]]
+* [[Ligne de Ploërmel à La Brohinière]]
+* [[Ligne de Plouaret à Lannion]]
+* [[Ligne de Quimper à Pont-l'Abbé]]
+* [[Ligne de Rosporden à Concarneau]]
+* [[Ligne de Saint-Brieuc au Légué]]
+* [[Ligne de Saint-Brieuc à Pontivy]]
+* [[Ligne de Vitré à Pontorson]]
+
+==== Centre-Val de Loire ====
+*[[Ligne d'Arrou à Nogent-le-Rotrou]]
+*[[Ligne des Aubrais - Orléans à Montargis]]
+* [[Ligne d'Auxy - Juranville à Bourges]]
+* [[Ligne de Chartres à Dreux]]
+* [[Ligne de Chartres à Orléans]]
+* [[Ligne d'Étampes à Auneau-Embranchement]]
+* [[Ligne d'Étampes à Beaune-la-Rolande]]
+* [[Ligne de Gien à Argent]]
+* [[Ligne de Joué-lès-Tours à Châteauroux]]
+* [[Chemin de fer du Blanc-Argent|Ligne de Le Blanc à Argent-sur-Sauldre]]
+* [[Ligne de Montargis à Sens]]
+* [[Ligne d'Orléans à Gien]]
+* [[Ligne d'Ouest-Ceinture à Chartres]] (Paris - Chartres) via Gallardon
+* [[Ligne de Pont-de-Braye à Blois]]
+* [[Ligne de Port-de-Piles à Argenton-sur-Creuse]]
+* [[Ligne de Saint-Germain-du-Puy à Cosne-Cours-sur-Loire]]
+* [[Ligne de Triguères à Surgy]] via Toucy-Moulin
+* [[Ligne de Vierzon à Saincaize]] via Bourges
+* [[Ligne de Vierzon à Saint-Pierre-des-Corps]]
+* [[Ligne de Villefranche-sur-Cher à Blois]] (partiellement déclassée)
+
+==== Grand Est ====
+* [[Ligne d'Arches à Saint-Dié]]
+* [[Ligne d'Amagne - Lucquy à Revigny]] (partiellement déclassée)
+* [[Ligne de Berthelming à Sarreguemines]] via Sarre-Union (partiellement fermée)
+* [[Ligne de Bettelainville à Waldwisse]] via Hombourg-Budange
+* [[Ligne de Blesme - Haussignémont à Chaumont]] via Saint-Dizier
+* [[Ligne de Bologne à Pagny-sur-Meuse]] (partiellement déclassée)
+* [[Ligne de Boulange à Rumelange - Ottange]] (déclassée)
+* [[Ligne de Bricon à Châtillon-sur-Seine]]
+* [[Ligne de Châlons-en-Champagne à Reims-Cérès]]
+* [[Ligne de Colmar-Central à Metzeral]]
+* [[Ligne de Colmar-Central à Neuf-Brisach]]
+* [[Ligne de Coolus à Sens]] (Châlons-en-Champagne - Sens) via Sommesous et Troyes
+* [[Ligne d'Épinal à Bussang]] (déclassée de Remiremont à Bussang)
+* [[Ligne de Fère-Champenoise à Vitry-le-François]]
+* [[Ligne de Fontoy à Audun-le-Tiche]]
+* [[Ligne de Frouard à Novéant]]
+* [[Ligne de Graffenstaden à Hausbergen]]
+* [[Ligne de Graffenstaden à Strasbourg-Neudorf]]
+* [[Ligne de Haguenau à Hargarten - Falck]] (partiellement inexploitée)
+* [[Ligne de Haguenau à Rœschwoog et frontière]] (partiellement inexploitée)
+* [[Raccordement de Strasbourg-Cronenbourg]]
+* [[Ligne de Kalhausen à Sarralbe]]
+* [[Ligne de Longuyon à Mont-Saint-Martin (vers Athus)]]
+* [[Ligne de Longuyon à Onville et Pagny-sur-Moselle]]
+* [[Ligne de Lunéville à Saint-Dié]]
+* [[Ligne de Lutterbach à Kruth]] via Cernay
+* [[Ligne de Merrey à Hymont - Mattaincourt]]
+* [[Ligne de Metz-Ville à la frontière allemande vers Überherrn]] (partiellement déclassée)
+* [[Ligne de Metz-Ville à Zoufftgen]]
+* [[Ligne de Mézy à Romilly-sur-Seine]] (partiellement déclassée)
+* [[Ligne de Mulhouse-Ville à Chalampé]] (vers Müllheim en Allemagne)
+* [[Ligne de Neuf-Brisach à Bantzenheim]] (ouverte uniquement au fret ; déclassée entre Neuf-Brisach et Blodelsheim)
+* [[Ligne de Oiry - Mareuil à Romilly-sur-Seine]]
+* [[Ligne de Réding à Diemeringen]] (déclassée entre Drulingen et Diemeringen)
+* [[Ligne de Saint-Dizier à Doulevant-le-Château]]
+* [[Ligne de Saint-Hilaire-au-Temple à Hagondange]] par Verdun et Conflans-Jarny
+* [[Ligne de Saint-Julien (Troyes) à Gray]]
+* [[Ligne de Saint-Julien (Troyes) à Saint-Florentin - Vergigny]]
+* [[Ligne de Saint-Léonard à Fraize]] (fermée et partiellement déclassée)
+* [[Raccordement de Sarrebourg à Sarraltroff]]
+* [[Ligne de Sélestat à Saverne]] par [[Molsheim]] (déclassée entre Molsheim et Saverne)
+* [[Ligne de Sélestat à Lesseux - Frapelle]] (ouverte uniquement au fret ; déclassée entre Lièpvre et Lesseux - Frapelle)
+* [[Ligne de Strasbourg à Lauterbourg]]
+* [[Ligne de Strasbourg-Ville à Saint-Dié]] via Molsheim
+* [[Ligne de Strasbourg-Ville à Strasbourg-Port-du-Rhin]] (vers Kehl en Allemagne)
+* [[Ligne de Thionville à Apach]]
+* [[Ligne de Toul à Rosières-aux-Salines]] (partiellement déclassée)
+* [[Ligne de Vendenheim à Wissembourg]]
+
+==== Hauts-de-France ====
+* [[Ligne d'Abbeville à Eu]] (Ligne Abbeville - Le Tréport).
+* [[Ligne d'Arras à Dunkerque-Locale]] via Lens, Béthune et Hazebrouck
+* [[Ligne d'Arras à Saint-Pol-sur-Ternoise]]
+* [[Ligne de Coudekerque-Branche aux Fontinettes]] (Dunkerque - Calais)
+* [[Ligne de Creil à Beauvais]]
+* [[Ligne de Douai à Blanc-Misseron]] via Valenciennes
+* [[Ligne d'Épinay - Villetaneuse au Tréport - Mers]]
+* [[Ligne de Ferrière-la-Grande à Cousolre]]
+* [[Ligne de Feuquières à Ponthoile]]
+* [[Ligne de Fives à Abbeville]] via Béthune et Saint-Pol-sur-Ternoise (déclassée et déferrée entre Abbeville et Saint-Pol-sur-Ternoise)
+* [[Ligne de Fives à Baisieux]]
+* [[Ligne de Fives à Mouscron (frontière)]] via Roubaix et Tourcoing
+* [[Ligne d'Hautmont à Feignies (frontière)]]
+* [[Ligne de La Madeleine à Comines-France]]
+* [[Ligne de Lens à Don - Sainghin]]
+* [[Ligne de Lens à Ostricourt]]
+* [[Ligne de Lille aux Fontinettes]] via Armentières, Hazebrouck et Saint-Omer
+* [[Ligne de Lourches à Valenciennes]]
+* [[Ligne d'Ormoy-Villers à Boves]] via Estrées-Saint-Denis et Montdidier.
+* [[Ligne de Pierrelaye à Creil]]
+* [[Ligne de Rochy-Condé à Soissons]] via Clermont-de-l'Oise, Estrées-Saint-Denis et Compiègne (partiellement déclassée)
+* [[Ligne de Saint-Denis à Dieppe]]
+* [[Ligne de Saint-Just-en-Chaussée à Douai]] via Montdidier, Péronne et Cambrai-Ville (partiellement déclassée)
+* [[Ligne de Saint-Omer-en-Chaussée à Vers]]  (déclassée)
+* [[Ligne de Saint-Pol-sur-Ternoise à Étaples]]
+* [[Ligne de Somain à Halluin]] via Orchies, Ascq et Tourcoing
+* [[Ligne de Trilport à Bazoches]] via La-Ferté-Milon
+
+==== Île-de-France ====
+* [[Ligne de Flamboin-Gouaix à Montereau]] (section de l’ancienne ligne [[Compagnie du chemin de fer de Montereau à Troyes|de Montereau à Troyes]])
+* [[Ligne d'Ouest-Ceinture à Chartres]] (Paris - Chartres) via Gallardon
+
+==== Normandie ====
+* [[Ligne de Bréauté - Beuzeville à Fécamp]]
+* [[Ligne de Bréauté - Beuzeville à Gravenchon-Port-Jérôme]]
+* [[Ligne de Caen à Cerisy-Belle-Étoile]] (non exploitée)
+* [[Ligne d'Épinay - Villetaneuse au Tréport - Mers]]
+* [[Ligne d'Évreux-Embranchement à Quetteville]] via Glos-Montfort (déclassée entre Évreux-Embranchement et Glos-Montfort)
+* [[Ligne du Havre-Graville à Tourville-les-Ifs]]
+* [[Ligne de La Chapelle-Anthenaise à Flers]]
+* [[Ligne de Lisieux à Trouville - Deauville]]
+* [[Ligne de Malaunay - Le Houlme à Dieppe]]
+* [[Ligne de Mézidon à Trouville - Deauville]] (déclassée entre Mézidon et Dives-Cabourg)
+* [[Ligne de Montérolier - Buchy à Motteville]]
+* [[Ligne de Motteville à Saint-Valery-en-Caux]]
+* [[Ligne de Pont-l'Évêque à Honfleur]] (déclassée entre Pont-L'Évêque et Quetteville)
+* [[Ligne de Rouen-Gauche à Petit-Couronne (voies des quais)]]
+* [[Ligne de Rouxmesnil à Eu]]
+* [[Ligne de Saint-Denis à Dieppe]]
+* [[Ligne de Saint-Georges-Motel à Grand-Quevilly]]
+* [[Ligne de Saint-Lô à Guilberville]]
+* [[Ligne de Saint-Roch à Darnétal-Bifurcation]] (Amiens - Rouen)
+* [[Ligne de Serquigny à Oissel]]
+* [[Voies du port de Rouen-Rive-Droite]]
+
+==== Nouvelle-Aquitaine ====
+* [[Ligne de Bayonne à Saint-Jean-Pied-de-Port]]
+* [[Ligne de Beillant à Angoulême]]
+* [[Ligne de Busseau-sur-Creuse à Ussel]]
+* [[Ligne de Dax à Mont-de-Marsan]]
+* [[Ligne du Dorat à Limoges-Bénédictins]]
+* [[Ligne de La Rochelle-Ville à La Rochelle-Pallice]]
+* [[Ligne de Lamothe à Arcachon]]
+* [[Ligne de Libourne au Buisson]]
+* [[Ligne de Limoges-Bénédictins à Angoulême]]
+* [[Ligne de Limoges-Bénédictins à Périgueux]]
+* [[Ligne de Marmande à Mont-de-Marsan]]
+* [[Ligne de Mignaloux - Nouaillé à Bersac]] via Le Dorat
+* [[Ligne de Montluçon à Saint-Sulpice-Laurière]] via Guéret
+* [[Ligne de Morcenx à Bagnères-de-Bigorre]] via Riscle et Tarbes
+* [[Ligne de Nérac à Mont-de-Marsan]]
+* [[Ligne de Nexon à Brive-la-Gaillarde]] via Saint-Yrieix
+* [[Ligne de Niversac à Agen]]
+* [[Ligne d'Ossès - Saint-Martin-d'Arrossa à Saint-Étienne-de-Baïgorry]]
+* [[Ligne du Palais à Eygurande - Merlines]]
+* [[Ligne de Pau à Canfranc (frontière)]]
+* [[Ligne de Penne-d'Agenais à Tonneins]]
+* [[Ligne de Ravezies à Pointe-de-Grave]] (surnommée ligne du Médoc)
+* [[Ligne de Saint-Benoît au Blanc]] via Mignaloux - Nouaillé (partiellement déclassée)
+* [[Ligne de Saintes à Royan]]
+* [[Ligne de Saint-Sever à Hagetmau]]
+* [[Ligne de Siorac-en-Périgord à Cazoulès]]
+* [[Ligne de Vieilleville à Bourganeuf]]
+
+==== Occitanie ====
+* [[Ligne de Bessèges à Robiac]]
+* [[Ligne de Bon-Encontre à Vic-en-Bigorre]]
+* [[Ligne de Brive-la-Gaillarde à Toulouse-Matabiau via Capdenac]]
+* [[Ligne de Capdenac à Rodez]]
+* [[Ligne de Carcassonne à Rivesaltes]]
+* [[Ligne de Castelnaudary à Rodez]]
+* [[Ligne de Castelsarrasin à Beaumont-de-Lomagne]]
+* [[Ligne de Castres à Bédarieux]] via Mazamet
+* [[Ligne de Colombiers à Quarante - Cruzy]]
+* [[Ligne d'Elne à Arles-sur-Tech]] via Le Boulou et Céret
+* [[Ligne de Lannemezan à Arreau - Cadéac]]
+* [[Ligne du Monastier à La Bastide-Saint-Laurent-les-Bains]]
+* [[Ligne de Montauban-Ville-Bourbon à La Crémade]]
+* [[Ligne de Montréjeau - Gourdan-Polignan à Luchon]]
+* [[Ligne de Narbonne à Bize]]
+* [[Ligne de Perpignan à Villefranche - Vernet-les-Bains]] via Prades
+* [[Ligne de Port-Sainte-Marie à Riscle]]
+* [[Ligne de Portet-Saint-Simon à Puigcerda (frontière)]]
+* [[Ligne de Saint-Agne à Auch]]
+* [[Ligne de Saint-Césaire au Grau-du-Roi]]
+* [[Ligne de Sévérac-le-Château à Rodez]]
+* [[Ligne du Teil à Alès]] (partiellement déclassée)
+* [[Ligne de Tessonnières à Albi]]
+* [[Ligne de Vias à Lodève]] (partiellement déclassée)
+
+==== Pays de la Loire ====
+* [[Ligne de Clisson à Cholet]]
+* [[Ligne de Commequiers à Saint-Gilles-Croix-de-Vie]]
+* [[Ligne de La Flèche à Vivy]]
+* [[Ligne de La Possonnière à Niort]]
+* [[Ligne de Nantes-État à La Roche-sur-Yon par Sainte-Pazanne]] et Commequiers (partiellement déclassée)
+* [[Ligne de Saint-Hilaire-de-Chaléons à Paimbœuf]]
+* [[Ligne de Saint-Nazaire au Croisic]]
+* [[Ligne de Sainte-Pazanne à Pornic]]
+* [[Ligne de Savenay à Landerneau]] via Redon et Quimper
+* [[Ligne de Tours à Saint-Nazaire]]
+
+==== Provence-Alpes-Côte d'Azur ====
+* [[Ligne d'Avignon à Miramas]] via Cavaillon et Salon-de-Provence
+* [[Ligne de Cannes-la-Bocca à Grasse]]
+* [[Ligne de Carnoules à Gardanne]]
+* [[Ligne de Cheval-Blanc à Pertuis]]
+* [[Ligne de La Pauline-Hyères aux Salins-d'Hyères]] (Toulon - Hyères)
+* [[Ligne des Arcs à Draguignan]]
+* [[Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble)]]
+* [[Ligne de Marseille-Blancarde à Marseille-Prado]]
+* [[Ligne de Veynes à Briançon]]
+* [[Ligne de Miramas à l'Estaque]] via Port-de-Bouc et Istres
+* [[Ligne de Rognac à Aix-en-Provence]]
+* [[Ligne de Saint-Auban à Digne]] (fermée)
+* [[Ligne de Sorgues - Châteauneuf-du-Pape à Carpentras]]
+
+== Lignes n'appartenant pas au réseau national ==
+=== Auvergne-Rhône-Alpes ===
+* [[Chemin de fer de la Mure]] (voie métrique)
+* [[Ligne de Vertaizon à Billom]]
+
+=== Bretagne ===
+* [[Réseau breton]]
+* Réseau des [[Chemins de fer armoricains]] ([[Voie ferrée d'intérêt local]] à [[voie métrique]])
+* Réseau des [[Chemins de fer des Côtes-du-Nord]] ([[Voie ferrée d'intérêt local]] à [[voie métrique]])
+* Réseau des [[Tramways d'Ille-et-Vilaine]] ([[Voie ferrée d'intérêt local]] à [[voie métrique]])
+
+=== Corse ===
+* [[Chemins de fer de la Corse]]
+** [[Ligne de Bastia à Ajaccio]]
+** [[Ligne de Ponte-Leccia à Calvi]]
+
+=== Grand Est ===
+* [[Chemin de fer d'Abreschviller|Chemin de fer forestier d'Abreschviller]] (voie étroite)
+* [[Chemins de fer de la Banlieue de Reims]]
+* [[Ligne de Cernay à Sewen]] (déposée entre [[Sentheim]] et [[Sewen]])
+* Chemins de fer des [[Houillères de Lorraine]]
+* [[Ligne de Lauterbourg-Gare à Lauterbourg-Port-du-Rhin]]
+* [[Ligne de Lunéville à Blâmont et à Badonviller]] (voie métrique)
+* Chemins de fer des [[Mines de potasse d'Alsace]]
+* Ligne de [[Gare de Volgelsheim|Neuf-Brisach Gare]] (Volgelsheim) à [[Marckolsheim]] (prolongement de la [[ligne de Colmar-Central à Neuf-Brisach]])
+* Réseau ferré portuaire du [[Port autonome de Strasbourg]]
+* [[Ligne de Romery à Liart]]
+* [[Ligne de Rosheim à Saint-Nabor]]
+* [[Ligne de Toul à Thiaucourt]] (voie métrique)
+* [[Ligne 6b (CFL)|Ligne de Volmerange-les-Mines à Dudelange-Usines]] (tronçon transfrontalier d'environ 800 mètres relié au [[Réseau ferré national (Luxembourg)|réseau luxembourgeois]])
+* [[Tramway de Strasbourg#Le réseau interurbain|Ancien réseau suburbain]] de la [[Compagnie des transports strasbourgeois]]
+
+=== Hauts-de-France ===
+* [[Ligne Estrées-Saint-Denis - Froissy - Crèvecœur-le-Grand]] (voie métrique)
+* [[Réseau ferroviaire de la Compagnie des mines d'Aniche|Ligne Somain - Douai (Nord)]] (ligne des Houillères)
+* [[Réseau ferroviaire de la Compagnie des mines d'Aniche|Ligne Somain - Douai (Sud)]] (ligne des Houillères)
+* [[Ligne de Somain à Péruwelz]] (ligne des Houillères)
+* [[Ligne de Marle à Montcornet]]
+
+=== Île-de-France ===
+* [[Ligne de Sceaux]] (branches sud du [[Ligne B du RER d'Île-de-France|RER B]] : [[Régie autonome des transports parisiens|RATP]])
+* [[Ligne de Paris-Bastille à Marles-en-Brie]], également connue sous le nom de [[Ligne de Paris-Bastille à Marles-en-Brie|ligne de Vincennes]] (branche A2 du [[Ligne A du RER d'Île-de-France|RER A]] : RATP)
+* [[Ligne de Paris-Saint-Lazare à Saint-Germain-en-Laye]] (branche A1 du [[Ligne A du RER d'Île-de-France|RER A]] à partir de [[Gare de Nanterre-Université|Nanterre-Université]] : RATP)
+* [[CFD Réseau de Seine-et-Marne]] ([[voie ferrée d'intérêt local]] à [[voie métrique]])
+* [[Chemin de fer de Hermes à Beaumont]] ([[voie ferrée d'intérêt local]] à [[voie métrique]])
+* [[Chemin de fer de Paris à Arpajon]] ([[voie ferrée d'intérêt local]])
+* [[Compagnie des chemins de fer de grande banlieue]] ([[voie ferrée d'intérêt local]])
+* [[Ligne de Valmondois à Marines]] ([[voie ferrée d'intérêt local]] à [[voie métrique]])
+* [[Réseau de Seine-et-Marne]] ([[voie ferrée d'intérêt local]] à [[voie métrique]])
+* [[Tramway de Meaux à Dammartin]] ([[voie ferrée d'intérêt local]] à [[voie métrique]])
+* [[Tramway de Versailles à Maule]] ([[voie ferrée d'intérêt local]] à [[voie métrique]])
+
+=== Normandie ===
+* [[Ligne de Caen à la mer]]
+* [[Chemin de fer de Cormeilles à Glos-Montfort et extensions|Ligne de Cormeilles à Pont-l'Évêque]]
+* Ligne de Moult-Argences à la tuilerie du Fresnay d'Argences<ref>{{Ouvrage|titre=Bulletin des lois de la République française|volume=77|tome=Partie 1|passage=p.3533|lieu=Paris|éditeur=Imprimerie nationale|date=1908}}</ref>
+* Réseau des [[Chemins de fer du Calvados]]
+* [[Chemin de fer de la vallée de l'Eure]]
+
+=== Occitanie ===
+* [[Chemins de fer de l'Hérault]], ligne de Colombiers à Cazouls-lès-Béziers
+* [[Ligne Decazeville - Firmi - Marcillac]] (ligne industrielle)
+* [[Ligne de Charpal]]
+* [[Ligne de Florac à Sainte-Cécile-d'Andorge]] (voie métrique)
+* [[Ligne de Perpignan au Barcarès]]
+* [[Ligne de Pia à Baixas]]
+* Réseau de la [[Compagnie des Chemins de fer des Pyrénées-Orientales]] (réseau de plaine)
+* [[Chemins de fer de l'Hérault|Réseau des chemins de fer d'intérêt local de l'Hérault]]
+* [[Tramway Pierrefitte – Cauterets – Luz]]
+
+=== Pays de la Loire ===
+* [[Ligne de Bourgneuf aux Sables-d'Olonne]] (voie métrique - [[Voie ferrée d'intérêt local|VFIL]])
+
+=== Provence-Alpes-Côte d'Azur ===
+* [[Ligne du Champsaur]] (Ligne de Gap à Corps, inachevée, voie métrique)
+* [[Ligne d'Orange à Buis-les-Baronnies]] (voie métrique)
+* [[Ligne de Nice à Digne]]
+
+== Lignes déclassées et partiellement ou intégralement déposées ==
+{{article détaillé|Lignes ferroviaires françaises désaffectées ou disparues}}
+
+== Notes et références ==
+{{Références}}
+
+== Voir aussi ==
+
+=== Bibliographie ===
+* {{Ouvrage|langue=fr |auteur1=H. Lartilleux |titre=Géographie des chemins de fer français |éditeur=Librairie Chaix |lieu=Paris |année=1953 | volume= 1 |titre volume=La S.N.C.F.}}.
+* {{Ouvrage|langue=fr |auteur1=Ludovic Claudel |titre=Atlas historique des chemins de fer français |éditeur=[[Les Éditions La Vie du rail|La Vie du rail]] |lieu=Paris |année= }}
+** Tome 1. Corse, Nouvelle Aquitaine, Occitanie, Provence-Alpes-Côte d'Azur. 303 pages, année 2020, {{ISBN|978 2 37062 088 0}}
+** Tome 2. Bretagne, Centre-Val-de-Loire, Hauts-de-France, Île-de-France, Pays-de-la-Loire, 399 pages, année 2021, {{ISBN|978 2 37062 092 7}} 
+** Tome 3. Bourgogne, Grand-Est, Franche-Comté, Auvergne, Auvergne-Rhône-Alpes, Outre-Mer, 397 pages, année 2022, {{ISBN|978 2 37062 097 2}}
+
+=== Articles connexes ===
+* [[Réseau ferré national (France)]]
+* [[Liste des chemins de fer touristiques de France]]
+* [[Liste des chemins de fer à voie métrique de France]]
+* [[Réseau express régional d'Île-de-France]]
+* [[Numérotation des lignes de chemin de fer de la région Est]]
+* [[Plan Freycinet]]
+* [[Histoire des chemins de fer français]]
+
+{{Palette LGV françaises}}
+{{Portail|transports en commun|chemin de fer|France}}
+[[Catégorie:Liste de lignes de chemin de fer en France|*]]

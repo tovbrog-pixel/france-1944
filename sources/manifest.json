@@ -258,6 +258,13 @@
   "sha256": "40555eb8ee8adea4969a25f8b8650f3bee8a29c692b4cc8a4000409e2a548574",
   "url": "https://www.ibiblio.org/hyperwar/UN/Canada/CA/Victory/index.html"
  },
+ "raw/frwp-liste-lignes-france.txt": {
+  "bytes": 34994,
+  "note": "Wikipedia (fr), Liste des lignes de chemin de fer de France",
+  "read": "2026-11-23",
+  "sha256": "22479e6f7345e9692e4f69947c9902aa1618128a2c73b997bcec5479445a1ae3",
+  "url": "https://fr.wikipedia.org/w/index.php?title=Liste_des_lignes_de_chemin_de_fer_de_France&action=raw"
+ },
  "raw/wp-B01-Asnelles.txt": {
   "bytes": 28782,
   "note": "Wikipedia, Asnelles",
