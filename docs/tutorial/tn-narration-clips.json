@@ -1,0 +1,226 @@
+[
+ {
+  "id": "t00_0",
+  "text": "I am Colonel Hale, chief umpire for this maneuver. You command Blue Force: three infantry divisions, an armored division and a parachute regiment. About fifty thousand men."
+ },
+ {
+  "id": "t00_1",
+  "text": "Red Force holds the north bank of the Cumberland River with two infantry divisions, and keeps an armored division in reserve."
+ },
+ {
+  "id": "t00_2",
+  "text": "You command divisions and the corps. The generals command their regiments, and the colonels command the battalions. Our task is to cross the river and take Hartsville, Dixon Springs and Carthage inside forty-eight hours."
+ },
+ {
+  "id": "t01_0",
+  "text": "Drag with the left button to slide the map. Turn the wheel to zoom. Drag with the right button to rotate and tilt."
+ },
+ {
+  "id": "t01_1",
+  "text": "Tilt the map and look at the hills north of the river. High ground sees farther and protects its defenders."
+ },
+ {
+  "id": "t02_0",
+  "text": "The map shows what a commander at each level needs. From far out, each division is one symbol, with its name below and a bar for its strength."
+ },
+ {
+  "id": "t02_1",
+  "text": "Zoom in, and the division opens into its regiments and its artillery. Zoom in again, and you see every battalion, its vehicles and its guns."
+ },
+ {
+  "id": "t02_2",
+  "text": "You give orders to divisions and to the corps at any zoom. Go in close to see how a general has deployed. Come back out to command."
+ },
+ {
+  "id": "t03_0",
+  "text": "Click a Blue division, or a name in the Forces list. The card shows the general, his aggression and skill, and four bars: strength, cohesion, disruption and supply."
+ },
+ {
+  "id": "t03_1",
+  "text": "Click a Red symbol to see what we know of the enemy. That is only what our troops can observe."
+ },
+ {
+  "id": "t04_0",
+  "text": "Select the First Infantry Division at Lebanon. Press Draw line of advance, then drag from the division up the main road, and stop just south of Hartsville bridge. Then press Issue order."
+ },
+ {
+  "id": "t04_1",
+  "text": "The On arrival row tells the general what to do on the objective: hold, dig in, rest, exploit onward, delay, or wait in reserve. Leave it on Hold."
+ },
+ {
+  "id": "t04_2",
+  "text": "Your line is the axis. General Whitfield picks the routes, puts two regiments forward and one in reserve, and sites his guns."
+ },
+ {
+  "id": "t05_0",
+  "text": "While you draw, the card shows a staff estimate: when the division should arrive, the odds against the Red troops we can see, and the hours of fighting its supply covers."
+ },
+ {
+  "id": "t05_1",
+  "text": "The Attack row sets how hard the general presses. The First Division only has to fix the Red division at Hartsville. Set its Attack row to Probe."
+ },
+ {
+  "id": "t06_0",
+  "text": "I recommend a fixing attack, a main effort and a reserve. The First Infantry Division fixes the Red division at Hartsville."
+ },
+ {
+  "id": "t06_1",
+  "text": "Second Corps makes the main effort at Carthage with the Second and Third Infantry Divisions. The Cordell Hull bridge there is not prepared for demolition."
+ },
+ {
+  "id": "t06_2",
+  "text": "The First Armored Division waits behind the corps. Once the infantry holds a bridgehead, the tanks cross and drive west to Dixon Springs."
+ },
+ {
+  "id": "t06_3",
+  "text": "Keep the divisions on separate roads. Where two lines of advance cross, both columns jam, lose time, and gain disruption."
+ },
+ {
+  "id": "t07_0",
+  "text": "The Second and Third Infantry Divisions and the First Armored Division form Second Corps, under General Ames."
+ },
+ {
+  "id": "t07_1",
+  "text": "Select the Second Infantry Division, and press Order the whole corps. Then draw one line of advance from Watertown to the river at Carthage, and issue it."
+ },
+ {
+  "id": "t07_2",
+  "text": "General Ames takes about an hour to plan. He splits your objective line among his divisions, and may hold one back as his reserve."
+ },
+ {
+  "id": "t07_3",
+  "text": "Once the attack starts, he commits the reserve where a division stalls. Use a corps order for a broad attack, and a division order for a single task."
+ },
+ {
+  "id": "t08_0",
+  "text": "An infantry division with two regiments forward holds about ten kilometers of front in open ground, and half that in woods or towns."
+ },
+ {
+  "id": "t08_1",
+  "text": "Draw a longer line, and the division holds a solid stretch at the centre. You can stretch it along the whole line, at the price of gaps Red can slip through."
+ },
+ {
+  "id": "t08_2",
+  "text": "To defend a place, draw only an objective line. Keep your lines square to the threat, and attack Red from a flank when you can."
+ },
+ {
+  "id": "t09_0",
+  "text": "Open the Support tab. These battalions belong to you until you attach them. Select a division first, then press Attach."
+ },
+ {
+  "id": "t09_1",
+  "text": "I recommend the heavy artillery battalion to the First Infantry Division, and the engineers to the Second. Hartsville bridge is wired, and Red will probably blow it."
+ },
+ {
+  "id": "t10_0",
+  "text": "The Cumberland can be crossed three ways. A bridge we hold is the easy way. If Red blows it, engineers rebuild it once we hold the bank."
+ },
+ {
+  "id": "t10_1",
+  "text": "Where there is no bridge, press Assault crossing, and click a point on the river. The rifle battalions cross in boats under fire, while the engineers put a bridge in behind them."
+ },
+ {
+  "id": "t11_0",
+  "text": "Open the Air tab. Each squadron has one role. Close support answers calls from the division generals. Air cover keeps Red fighters off us."
+ },
+ {
+  "id": "t11_1",
+  "text": "Interdiction attacks traffic inside zones you mark. I recommend one zone on the road north of Dixon Springs, to slow the Red armored division."
+ },
+ {
+  "id": "t11_2",
+  "text": "Aircraft fly only in daylight and fair weather."
+ },
+ {
+  "id": "t12_0",
+  "text": "Select the Parachute Regiment. It drops at fourteen hundred on the Riddleton road, east of Dixon Springs, to block the Red reserve."
+ },
+ {
+  "id": "t12_1",
+  "text": "Paratroops land light, and with little supply. Drop them where a ground column will reach them within a day."
+ },
+ {
+  "id": "t13_0",
+  "text": "Press Space, or one of the speed buttons at the top. Space pauses again. You may pause at any moment to look around and think."
+ },
+ {
+  "id": "t14_0",
+  "text": "The clock stops by itself when something needs you: contact, a bridge blown, a division cut off, an order refused, or an objective changing hands."
+ },
+ {
+  "id": "t14_1",
+  "text": "The game saves itself as you play."
+ },
+ {
+  "id": "t15_0",
+  "text": "Reports arrive in the box at the lower left. Click a report, and the map jumps to the place."
+ },
+ {
+  "id": "t15_1",
+  "text": "Halted, enemy too strong, means the general judges the odds too poor. Help him. Attach guns, wait for aircraft, or bring a second division against the same enemy."
+ },
+ {
+  "id": "t15_2",
+  "text": "From here on, I post a recommendation whenever something needs a decision."
+ },
+ {
+  "id": "t16_0",
+  "text": "After each attack, the general sends a one-line report: his losses and the enemy's, the ground gained, and what did most of the damage."
+ },
+ {
+  "id": "t16_1",
+  "text": "If our losses come mostly from artillery, think about counter-battery fire and air cover. If from tanks, bring up tank destroyers."
+ },
+ {
+  "id": "t17_0",
+  "text": "No plan runs as written, and this exercise differs every time you play. The weather may turn against the forecast. Lifts and reinforcements run early or late."
+ },
+ {
+  "id": "t17_1",
+  "text": "The Red commander draws an aggressive, standard or cautious plan, and you will not be told which."
+ },
+ {
+  "id": "t17_2",
+  "text": "So keep a reserve, keep your axes on separate roads, and avoid plans that need everything to arrive on time."
+ },
+ {
+  "id": "t18_0",
+  "text": "You may give a new order at any time. After the clock has started, an order takes staff time to reach the troops. Give few orders, and let them run."
+ },
+ {
+  "id": "t18_1",
+  "text": "Halt stops a division where it stands. Relieve replaces its general. Commanders learn as they fight."
+ },
+ {
+  "id": "t18_2",
+  "text": "General Brandt of the Second Division is cautious, and only average. Watch him."
+ },
+ {
+  "id": "t19_0",
+  "text": "Every division carries ammunition and fuel. Truck columns bring more from the depot by road. Red troops near the road stop the columns."
+ },
+ {
+  "id": "t19_1",
+  "text": "A division with no open road is cut off, and weakens by the day."
+ },
+ {
+  "id": "t19_2",
+  "text": "Infantry tire on the march. A division that has fought and marched all day will give you little tomorrow, unless you rest it."
+ },
+ {
+  "id": "t20_0",
+  "text": "You need not run every division yourself. Hand to staff gives a division to the staff, which carries out its order and keeps it fighting sensibly."
+ },
+ {
+  "id": "t21_0",
+  "text": "The top bar shows the points each side holds, and the hours left. The exercise ends after forty-eight hours."
+ },
+ {
+  "id": "t21_1",
+  "text": "In France you will command the same way on a larger scale: divisions in corps, and corps in armies. There you also set each army's supply priority, and you answer to the Allied capitals."
+ },
+ {
+  "id": "t21_2",
+  "text": "That is the whole drill. Carry on with the exercise, and read my recommendation line when you are unsure. Good luck, General."
+ }
+]
