@@ -4,7 +4,7 @@ const fs = require('fs'), path = require('path');
 const root = path.join(__dirname, '..'), src = path.join(root, 'engine', 'src');
 const makeNormandy = require('./normandy-test');
 const out = process.argv[2] || '/tmp/preview'; fs.mkdirSync(out, { recursive: true });
-const which = process.argv[3] || 'normandy', side = +(process.argv[4] == null ? -1 : process.argv[4]);
+const which = process.argv[3] || 'normandy', menu = process.argv[4] === 'menu', side = menu ? -1 : +(process.argv[4] == null ? -1 : process.argv[4]);   // 'menu': open on the scenario menu (the desktop app)
 const sc = which === 'overlord' || which === 'tutorial-tn' ? require('./scenario-overlord')(1) : makeNormandy(.5);   // the Tennessee tutorial is built into the engine; the page still carries the campaign
 const b64 = a => Buffer.from(a.buffer, a.byteOffset, a.byteLength).toString('base64');
 const keep = ['id', 'title', 'sub', 'modules', 'front', 'detourKm', 'view', 'phaseLines', 'fieldPlan', 'commands', 'cmdPlan', 'brief', 'hist', 'ports', 'beach', 'w', 'h', 'cs', 'realLines', 'rivers', 'roads', 'rails', 'towns', 'ownCell', 'hours', 'start', 'forest', 'rough', 'marsh', 'bridges', 'vp', 'weather', 'forms'];
@@ -19,7 +19,7 @@ const inject = `
   const sc = Object.assign({}, base, D, { raster: { w: D.raster.w, h: D.raster.h, t: dec(D.raster.t, Uint8Array), el: dec(D.raster.el, Float32Array) },
     sides: base.sides.map((sd, s) => Object.assign({ pocket: undefined }, sd, D.sideOv[s], { assets: D.sideOv[s].assets || sd.assets || [] })),
     front: D.front, thin: undefined, halt: undefined, mines: undefined, sea: undefined, elev: undefined, beach: D.beach });
-  delete sc.sideOv; SCENARIOS.unshift(sc); window.AUTOSTART = ${which === 'tutorial-tn' ? "[SCENARIOS.findIndex(s => s.id === 'tutorial-tn'), 0, 0, 1]" : '[0, ' + side + ', 1, 1]'};
+  delete sc.sideOv; SCENARIOS.unshift(sc); ${menu ? '' : 'window.AUTOSTART = '}${menu ? '' : which === 'tutorial-tn' ? "[SCENARIOS.findIndex(s => s.id === 'tutorial-tn'), 0, 0, 1]" : '[0, ' + side + ', 1, 1]'}${menu ? '' : ';'}
 })();
 `;
 const order = ['data.js', 'divisions.js', 'map.js', 'scenarios.js', 'tutorial.js', 'balance.js', 'commanders.js', 'guidance.js', 'models.js', 'sim.js', 'command.js', 'transport.js', 'air.js', 'assess.js', 'render.js', 'render2.js', 'render3.js', 'sound.js'];

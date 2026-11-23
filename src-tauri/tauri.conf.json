@@ -9,7 +9,7 @@
   "app": {
     "windows": [
       {
-        "title": "France 1944 - Technical Test",
+        "title": "France 1944",
         "width": 1440,
         "height": 900,
         "resizable": true,
