@@ -1,0 +1,796 @@
+{
+ "title": "German formations met by the Allies in northern France, 6 June to 31 August 1944",
+ "author": "Tov Binyamin Brog",
+ "sources": [
+  {
+   "id": "ellis-1",
+   "title": "L. F. Ellis, Victory in the West, vol. I, The Battle of Normandy, HMSO 1962",
+   "url": "https://archive.org/details/victory-west-vol-1",
+   "read": "2026-11-22",
+   "free": true,
+   "note": "Appendix IV, The Allied Armies (pp. 521-551): formations engaged 6 Jun-31 Aug 1944 with commanders and dates of change. Appendix V (pp. 552-555): German command and the 13 corps and 51 divisions met. OCR text in sources/archive."
+  },
+  {
+   "id": "general",
+   "title": "General history, not yet traced to a primary source",
+   "read": "2026-11-22",
+   "free": false,
+   "note": "Every record citing only this source has status verify."
+  }
+ ],
+ "armies": [
+  {
+   "name": "Seventh Army",
+   "cmd": "Dollmann",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "Commanders at midnight 5/6 June 1944"
+  },
+  {
+   "name": "Fifteenth Army",
+   "cmd": "von Salmuth",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "Commanders at midnight 5/6 June 1944"
+  },
+  {
+   "name": "Panzer Group West (later Fifth Panzer Army)",
+   "cmd": "Geyr von Schweppenburg",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "Commanders at midnight 5/6 June 1944"
+  },
+  {
+   "name": "First Army",
+   "cmd": "von der Chevallerie",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "Commanders at midnight 5/6 June 1944"
+  }
+ ],
+ "higher": [
+  {
+   "name": "OB West",
+   "cmd": "von Rundstedt",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "Army Group B",
+   "cmd": "Rommel",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "Army Group G",
+   "cmd": "Blaskowitz",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  }
+ ],
+ "corps": [
+  {
+   "name": "I SS Panzer Corps",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "II SS Panzer Corps",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "XLVII Panzer Corps",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "LVIII Panzer Corps",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "II Parachute Corps",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "XXV Corps",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "LXVII Corps",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "LXXIV Corps",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "LXXX Corps",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "LXXXI Corps",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "LXXXII Corps",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "LXXXIV Corps",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "LXXXVI Corps",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  }
+ ],
+ "divisions": [
+  {
+   "id": "ge-1st-ss-panzer",
+   "name": "1st SS Panzer Division",
+   "tpl": "ge_pz",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-2nd-panzer",
+   "name": "2nd Panzer Division",
+   "tpl": "ge_pz",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-2nd-ss-panzer",
+   "name": "2nd SS Panzer Division",
+   "tpl": "ge_pz",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-9th-panzer",
+   "name": "9th Panzer Division",
+   "tpl": "ge_pz",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-9th-ss-panzer",
+   "name": "9th SS Panzer Division",
+   "tpl": "ge_pz",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-10th-ss-panzer",
+   "name": "10th SS Panzer Division",
+   "tpl": "ge_pz",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-12th-ss-panzer",
+   "name": "12th SS Panzer Division",
+   "tpl": "ge_pz",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-21st-panzer",
+   "name": "21st Panzer Division",
+   "tpl": "ge_pz",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-116th-panzer",
+   "name": "116th Panzer Division",
+   "tpl": "ge_pz",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-panzer-lehr",
+   "name": "Panzer Lehr Division",
+   "tpl": "ge_pz",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-3rd-panzer-grenadier",
+   "name": "3rd Panzer Grenadier Division",
+   "tpl": "ge_pz",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "battle group only",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-15th-panzer-grenadier",
+   "name": "15th Panzer Grenadier Division",
+   "tpl": "ge_pz",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "battle group only",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-17th-ss-panzer-grenadier",
+   "name": "17th SS Panzer Grenadier Division",
+   "tpl": "ge_pz",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-2nd-parachute",
+   "name": "2nd Parachute Division",
+   "tpl": "ge_fj",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-3rd-parachute",
+   "name": "3rd Parachute Division",
+   "tpl": "ge_fj",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-5th-parachute",
+   "name": "5th Parachute Division",
+   "tpl": "ge_fj",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-6th-parachute",
+   "name": "6th Parachute Division",
+   "tpl": "ge_fj",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "battle group only",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-16th-luftwaffe-field",
+   "name": "16th Luftwaffe Field Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-17th-luftwaffe-field",
+   "name": "17th Luftwaffe Field Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-18th-luftwaffe-field",
+   "name": "18th Luftwaffe Field Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-47th",
+   "name": "47th Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-48th",
+   "name": "48th Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-49th",
+   "name": "49th Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-77th",
+   "name": "77th Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-84th",
+   "name": "84th Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-85th",
+   "name": "85th Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-89th",
+   "name": "89th Division",
+   "tpl": "ge_inf",
+   "status": "inference",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-91st-airlanding",
+   "name": "91st Airlanding Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-226th",
+   "name": "226th Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-243rd",
+   "name": "243rd Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-245th",
+   "name": "245th Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-265th",
+   "name": "265th Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-266th",
+   "name": "266th Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-271st",
+   "name": "271st Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-272nd",
+   "name": "272nd Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-275th",
+   "name": "275th Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-276th",
+   "name": "276th Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-277th",
+   "name": "277th Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-326th",
+   "name": "326th Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-331st",
+   "name": "331st Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-343rd",
+   "name": "343rd Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-344th",
+   "name": "344th Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-346th",
+   "name": "346th Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-348th",
+   "name": "348th Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-352nd",
+   "name": "352nd Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-353rd",
+   "name": "353rd Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-363rd",
+   "name": "363rd Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-708th",
+   "name": "708th Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-709th",
+   "name": "709th Division",
+   "tpl": "ge_inf",
+   "status": "inference",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-711th",
+   "name": "711th Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  },
+  {
+   "id": "ge-716th",
+   "name": "716th Division",
+   "tpl": "ge_inf",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "",
+   "position0606": null,
+   "arrive": null
+  }
+ ],
+ "notes": [
+  "Ellis lists 51 divisions; this file has the 51 names from Appendix V Part II. OCR read \"8oth\" as 89th and \"7ooth\" as 709th, the only divisions with those shapes in the 1944 West.",
+  "Next pass: 6 June positions from Harrison, Cross-Channel Attack, and arrival dates from Ellis and Blumenson; templates for static and Luftwaffe field divisions."
+ ]
+}

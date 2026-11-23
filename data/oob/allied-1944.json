@@ -1,0 +1,1415 @@
+{
+ "title": "Allied order of battle, Normandy and northern France, 6 June to 31 August 1944",
+ "author": "Tov Binyamin Brog",
+ "sources": [
+  {
+   "id": "eto-oob",
+   "title": "Order of Battle of the United States Army, World War II, European Theater of Operations: Divisions. Office of the Theater Historian, Paris, December 1945",
+   "url": "https://archive.org/details/OrderOfBattleUsArmyEtoWw2",
+   "read": "2026-11-22",
+   "free": true,
+   "note": "Public domain. Division entries: Command and Staff, Statistics (Arrived Continent with D+ day), Composition, Attachments, Assignments. OCR text in sources/archive."
+  },
+  {
+   "id": "ellis-1",
+   "title": "L. F. Ellis, Victory in the West, vol. I, The Battle of Normandy, HMSO 1962",
+   "url": "https://archive.org/details/victory-west-vol-1",
+   "read": "2026-11-22",
+   "free": true,
+   "note": "Appendix IV, The Allied Armies (pp. 521-551): formations engaged 6 Jun-31 Aug 1944 with commanders and dates of change. Appendix V (pp. 552-555): German command and the 13 corps and 51 divisions met. OCR text in sources/archive."
+  },
+  {
+   "id": "general",
+   "title": "General history, not yet traced to a primary source",
+   "read": "2026-11-22",
+   "free": false,
+   "note": "Every record citing only this source has status verify."
+  }
+ ],
+ "commands": [
+  {
+   "id": "21ag",
+   "name": "Twenty-First Army Group",
+   "type": "army group",
+   "parent": null,
+   "commanders": [
+    {
+     "from": "1944-01",
+     "name": "Gen. Sir Bernard L. Montgomery"
+    }
+   ],
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": ""
+  },
+  {
+   "id": "uk-2a",
+   "name": "Second Army",
+   "type": "army",
+   "parent": "21ag",
+   "commanders": [
+    {
+     "from": "1944-01",
+     "name": "Lt. Gen. Sir Miles C. Dempsey"
+    }
+   ],
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ca-1a",
+   "name": "First Canadian Army",
+   "type": "army",
+   "parent": "21ag",
+   "commanders": [
+    {
+     "from": "1944-07-23",
+     "name": "Lt. Gen. H. D. G. Crerar"
+    }
+   ],
+   "status": "verify",
+   "src": [
+    "ellis-1",
+    "general"
+   ],
+   "note": "Ellis: Crerar arrived in Normandy on 18 Jun with a small headquarters; operational date to verify in Stacey"
+  },
+  {
+   "id": "uk-i",
+   "name": "I Corps",
+   "type": "corps",
+   "parent": "uk-2a",
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Lt. Gen. J. T. Crocker"
+    }
+   ],
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": ""
+  },
+  {
+   "id": "uk-viii",
+   "name": "VIII Corps",
+   "type": "corps",
+   "parent": "uk-2a",
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Lt. Gen. Sir Richard N. O'Connor"
+    }
+   ],
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": ""
+  },
+  {
+   "id": "uk-xii",
+   "name": "XII Corps",
+   "type": "corps",
+   "parent": "uk-2a",
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Lt. Gen. N. M. Ritchie"
+    }
+   ],
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": ""
+  },
+  {
+   "id": "uk-xxx",
+   "name": "XXX Corps",
+   "type": "corps",
+   "parent": "uk-2a",
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Lt. Gen. G. C. Bucknall"
+    },
+    {
+     "from": "1944-08-04",
+     "name": "Lt. Gen. B. G. Horrocks"
+    }
+   ],
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": ""
+  },
+  {
+   "id": "ca-ii",
+   "name": "II Canadian Corps",
+   "type": "corps",
+   "parent": "uk-2a",
+   "commanders": [
+    {
+     "from": "1944-07",
+     "name": "Lt. Gen. G. G. Simonds"
+    }
+   ],
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": ""
+  },
+  {
+   "id": "us-fusa",
+   "name": "First United States Army",
+   "type": "army",
+   "parent": null,
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Lt. Gen. Omar N. Bradley"
+    },
+    {
+     "from": "1944-08-01",
+     "name": "Lt. Gen. Courtney H. Hodges"
+    }
+   ],
+   "status": "verify",
+   "src": [
+    "general"
+   ],
+   "note": ""
+  },
+  {
+   "id": "us-tusa",
+   "name": "Third United States Army",
+   "type": "army",
+   "parent": "us-12ag",
+   "commanders": [
+    {
+     "from": "1944-08-01",
+     "name": "Lt. Gen. George S. Patton Jr."
+    }
+   ],
+   "status": "verify",
+   "src": [
+    "general"
+   ],
+   "note": ""
+  },
+  {
+   "id": "us-12ag",
+   "name": "Twelfth Army Group",
+   "type": "army group",
+   "parent": null,
+   "commanders": [
+    {
+     "from": "1944-08-01",
+     "name": "Lt. Gen. Omar N. Bradley"
+    }
+   ],
+   "status": "verify",
+   "src": [
+    "general"
+   ],
+   "note": ""
+  },
+  {
+   "id": "us-v",
+   "name": "V Corps",
+   "type": "corps",
+   "parent": "us-fusa",
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Maj. Gen. Leonard T. Gerow"
+    }
+   ],
+   "status": "verify",
+   "src": [
+    "general"
+   ],
+   "note": ""
+  },
+  {
+   "id": "us-vii",
+   "name": "VII Corps",
+   "type": "corps",
+   "parent": "us-fusa",
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Maj. Gen. J. Lawton Collins"
+    }
+   ],
+   "status": "verify",
+   "src": [
+    "general"
+   ],
+   "note": ""
+  },
+  {
+   "id": "us-viii",
+   "name": "VIII Corps",
+   "type": "corps",
+   "parent": "us-fusa",
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Maj. Gen. Troy H. Middleton"
+    }
+   ],
+   "status": "verify",
+   "src": [
+    "general"
+   ],
+   "note": ""
+  },
+  {
+   "id": "us-xix",
+   "name": "XIX Corps",
+   "type": "corps",
+   "parent": "us-fusa",
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Maj. Gen. Charles H. Corlett"
+    }
+   ],
+   "status": "verify",
+   "src": [
+    "general"
+   ],
+   "note": ""
+  },
+  {
+   "id": "us-xv",
+   "name": "XV Corps",
+   "type": "corps",
+   "parent": "us-tusa",
+   "commanders": [
+    {
+     "from": "1944-08",
+     "name": "Maj. Gen. Wade H. Haislip"
+    }
+   ],
+   "status": "verify",
+   "src": [
+    "general"
+   ],
+   "note": ""
+  },
+  {
+   "id": "us-xii",
+   "name": "XII Corps",
+   "type": "corps",
+   "parent": "us-tusa",
+   "commanders": [
+    {
+     "from": "1944-08",
+     "name": "Maj. Gen. Gilbert R. Cook"
+    },
+    {
+     "from": "1944-08-19",
+     "name": "Maj. Gen. Manton S. Eddy"
+    }
+   ],
+   "status": "verify",
+   "src": [
+    "general"
+   ],
+   "note": ""
+  },
+  {
+   "id": "us-xx",
+   "name": "XX Corps",
+   "type": "corps",
+   "parent": "us-tusa",
+   "commanders": [
+    {
+     "from": "1944-08",
+     "name": "Maj. Gen. Walton H. Walker"
+    }
+   ],
+   "status": "verify",
+   "src": [
+    "general"
+   ],
+   "note": ""
+  }
+ ],
+ "divisions": [
+  {
+   "id": "us-1id",
+   "name": "1st Infantry Division",
+   "nat": "US",
+   "tpl": "us_inf",
+   "regs": [
+    "16th Inf",
+    "18th Inf",
+    "26th Inf"
+   ],
+   "commanders": [
+    {
+     "from": "1943-11-05",
+     "name": "Maj. Gen. Clarence R. Huebner"
+    }
+   ],
+   "arrive": "1944-06-06",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "D-Day, Omaha"
+  },
+  {
+   "id": "us-2id",
+   "name": "2nd Infantry Division",
+   "nat": "US",
+   "tpl": "us_inf",
+   "regs": [
+    "9th Inf",
+    "23rd Inf",
+    "38th Inf"
+   ],
+   "commanders": [
+    {
+     "from": "1943",
+     "name": "Maj. Gen. Walter M. Robertson"
+    }
+   ],
+   "arrive": "1944-06-08",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "Arrived Continent D+2; commander date to read from the Command and Staff page"
+  },
+  {
+   "id": "us-4id",
+   "name": "4th Infantry Division",
+   "nat": "US",
+   "tpl": "us_inf",
+   "regs": [
+    "8th Inf",
+    "12th Inf",
+    "22nd Inf"
+   ],
+   "commanders": [
+    {
+     "from": "1944-01-28",
+     "name": "Maj. Gen. Raymond O. Barton"
+    }
+   ],
+   "arrive": "1944-06-06",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "D-Day, Utah"
+  },
+  {
+   "id": "us-5id",
+   "name": "5th Infantry Division",
+   "nat": "US",
+   "tpl": "us_inf",
+   "regs": [
+    "2nd Inf",
+    "10th Inf",
+    "11th Inf"
+   ],
+   "commanders": [
+    {
+     "from": "1943",
+     "name": "Maj. Gen. S. LeRoy Irwin"
+    }
+   ],
+   "arrive": "1944-07-09",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "Arrived Continent D+33; first elements in combat 14 Jul 1944"
+  },
+  {
+   "id": "us-8id",
+   "name": "8th Infantry Division",
+   "nat": "US",
+   "tpl": "us_inf",
+   "regs": [
+    "13th Inf",
+    "28th Inf",
+    "121st Inf"
+   ],
+   "commanders": [
+    {
+     "from": "1944",
+     "name": "Maj. Gen. William C. McMahon"
+    },
+    {
+     "from": "1944-07",
+     "name": "Maj. Gen. Donald A. Stroh"
+    }
+   ],
+   "arrive": "1944-07-04",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "Arrived Continent D+28. Commanders: names to confirm on the Command and Staff page (status of commanders: verify)"
+  },
+  {
+   "id": "us-9id",
+   "name": "9th Infantry Division",
+   "nat": "US",
+   "tpl": "us_inf",
+   "regs": [
+    "39th Inf",
+    "47th Inf",
+    "60th Inf"
+   ],
+   "commanders": [
+    {
+     "from": "1943",
+     "name": "Maj. Gen. Manton S. Eddy"
+    },
+    {
+     "from": "1944-08",
+     "name": "Maj. Gen. Louis A. Craig"
+    }
+   ],
+   "arrive": "1944-06-10",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "Arrived Continent D+4; entered combat 14 Jun 1944. Date of Eddy-Craig change to read from Command and Staff"
+  },
+  {
+   "id": "us-28id",
+   "name": "28th Infantry Division",
+   "nat": "US",
+   "tpl": "us_inf",
+   "regs": [
+    "109th Inf",
+    "110th Inf",
+    "112th Inf"
+   ],
+   "commanders": [
+    {
+     "from": "1944",
+     "name": "Maj. Gen. Lloyd D. Brown"
+    },
+    {
+     "from": "1944-08",
+     "name": "Maj. Gen. Norman D. Cota"
+    }
+   ],
+   "arrive": "1944-07-24",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "Arrived Continent D+48. Mid-August command changes (Brown, Wharton, Cota) to read from Command and Staff"
+  },
+  {
+   "id": "us-29id",
+   "name": "29th Infantry Division",
+   "nat": "US",
+   "tpl": "us_inf",
+   "regs": [
+    "115th Inf",
+    "116th Inf",
+    "175th Inf"
+   ],
+   "commanders": [
+    {
+     "from": "1943-07-22",
+     "name": "Maj. Gen. Charles H. Gerhardt"
+    }
+   ],
+   "arrive": "1944-06-06",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "D-Day, Omaha. Gerhardt name not legible in OCR; the 22 Jul 1943 date is (commander status: verify)"
+  },
+  {
+   "id": "us-30id",
+   "name": "30th Infantry Division",
+   "nat": "US",
+   "tpl": "us_inf",
+   "regs": [
+    "117th Inf",
+    "119th Inf",
+    "120th Inf"
+   ],
+   "commanders": [
+    {
+     "from": "1944",
+     "name": "Maj. Gen. Leland S. Hobbs"
+    }
+   ],
+   "arrive": "1944-06-14",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "Arrived Continent D+8 (OCR \"2/ 8\"; date line 14 Jun 44 in the column)"
+  },
+  {
+   "id": "us-35id",
+   "name": "35th Infantry Division",
+   "nat": "US",
+   "tpl": "us_inf",
+   "regs": [
+    "134th Inf",
+    "137th Inf",
+    "320th Inf"
+   ],
+   "commanders": [
+    {
+     "from": "1944-05-26",
+     "name": "Maj. Gen. Paul W. Baade"
+    }
+   ],
+   "arrive": "1944-07-08",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "Arrived Continent D+32; entered combat 11 Jul 1944"
+  },
+  {
+   "id": "us-79id",
+   "name": "79th Infantry Division",
+   "nat": "US",
+   "tpl": "us_inf",
+   "regs": [
+    "313th Inf",
+    "314th Inf",
+    "315th Inf"
+   ],
+   "commanders": [
+    {
+     "from": "1944",
+     "name": "Maj. Gen. Ira T. Wyche"
+    }
+   ],
+   "arrive": "1944-06-14",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "Arrived Continent D+8; entered combat 19 Jun 1944. Commander name not legible in OCR (commander status: verify)"
+  },
+  {
+   "id": "us-80id",
+   "name": "80th Infantry Division",
+   "nat": "US",
+   "tpl": "us_inf",
+   "regs": [
+    "317th Inf",
+    "318th Inf",
+    "319th Inf"
+   ],
+   "commanders": [
+    {
+     "from": "1944",
+     "name": "Maj. Gen. Horace L. McBride"
+    }
+   ],
+   "arrive": "1944-08-03",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "Arrived Continent D+58; entered combat 3 Aug 1944"
+  },
+  {
+   "id": "us-82ab",
+   "name": "82nd Airborne Division",
+   "nat": "US",
+   "tpl": "us_abn",
+   "regs": [
+    "505th PIR",
+    "507th PIR",
+    "508th PIR",
+    "325th GIR"
+   ],
+   "commanders": [
+    {
+     "from": "1943-12-09",
+     "name": "Maj. Gen. Matthew B. Ridgway"
+    },
+    {
+     "from": "1944-08-26",
+     "name": "Brig. Gen. James M. Gavin"
+    }
+   ],
+   "arrive": "1944-06-06",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "D-Day, airborne. 507th and 508th PIR attached for Normandy"
+  },
+  {
+   "id": "us-83id",
+   "name": "83rd Infantry Division",
+   "nat": "US",
+   "tpl": "us_inf",
+   "regs": [
+    "329th Inf",
+    "330th Inf",
+    "331st Inf"
+   ],
+   "commanders": [
+    {
+     "from": "1944-04-19",
+     "name": "Maj. Gen. Robert C. Macon"
+    }
+   ],
+   "arrive": "1944-06-19",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "Arrived Continent D+13; entered combat 27 Jun 1944"
+  },
+  {
+   "id": "us-90id",
+   "name": "90th Infantry Division",
+   "nat": "US",
+   "tpl": "us_inf",
+   "regs": [
+    "357th Inf",
+    "358th Inf",
+    "359th Inf"
+   ],
+   "commanders": [
+    {
+     "from": "1944-04-05",
+     "name": "Brig. Gen. Jay W. MacKelvie"
+    },
+    {
+     "from": "1944-06-13",
+     "name": "Maj. Gen. Eugene M. Landrum"
+    },
+    {
+     "from": "1944-07-30",
+     "name": "Brig. Gen. Raymond S. McLain"
+    }
+   ],
+   "arrive": "1944-06-08",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "Arrived Continent D+2; first elements in combat 6 Jun, entire division 10 Jun 1944"
+  },
+  {
+   "id": "us-101ab",
+   "name": "101st Airborne Division",
+   "nat": "US",
+   "tpl": "us_abn",
+   "regs": [
+    "501st PIR",
+    "502nd PIR",
+    "506th PIR",
+    "327th GIR"
+   ],
+   "commanders": [
+    {
+     "from": "1944",
+     "name": "Maj. Gen. Maxwell D. Taylor"
+    }
+   ],
+   "arrive": "1944-06-06",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "D-Day, airborne"
+  },
+  {
+   "id": "us-2ad",
+   "name": "2nd Armored Division",
+   "nat": "US",
+   "tpl": "us_arm",
+   "regs": [
+    "CCA",
+    "CCB",
+    "CCR"
+   ],
+   "commanders": [
+    {
+     "from": "1944",
+     "name": "Maj. Gen. Edward H. Brooks"
+    }
+   ],
+   "arrive": "1944-06-09",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "Arrived Continent D+3. Commander date to read from Command and Staff"
+  },
+  {
+   "id": "us-3ad",
+   "name": "3rd Armored Division",
+   "nat": "US",
+   "tpl": "us_arm",
+   "regs": [
+    "CCA",
+    "CCB",
+    "CCR"
+   ],
+   "commanders": [
+    {
+     "from": "1944",
+     "name": "Maj. Gen. Leroy H. Watson"
+    },
+    {
+     "from": "1944-08",
+     "name": "Maj. Gen. Maurice Rose"
+    }
+   ],
+   "arrive": "1944-06-24",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "Arrived Continent D+18. Watson-Rose change date to read from Command and Staff"
+  },
+  {
+   "id": "us-4ad",
+   "name": "4th Armored Division",
+   "nat": "US",
+   "tpl": "us_arm",
+   "regs": [
+    "CCA",
+    "CCB",
+    "CCR"
+   ],
+   "commanders": [
+    {
+     "from": "1944-01-11",
+     "name": "Maj. Gen. John S. Wood"
+    }
+   ],
+   "arrive": "1944-07-13",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "Arrived Continent D+37"
+  },
+  {
+   "id": "us-5ad",
+   "name": "5th Armored Division",
+   "nat": "US",
+   "tpl": "us_arm",
+   "regs": [
+    "CCA",
+    "CCB",
+    "CCR"
+   ],
+   "commanders": [
+    {
+     "from": "1944",
+     "name": "Maj. Gen. Lunsford E. Oliver"
+    }
+   ],
+   "arrive": "1944-07-25",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "Arrived Continent D+49; entered combat 2 Aug 1944"
+  },
+  {
+   "id": "us-6ad",
+   "name": "6th Armored Division",
+   "nat": "US",
+   "tpl": "us_arm",
+   "regs": [
+    "CCA",
+    "CCB",
+    "CCR"
+   ],
+   "commanders": [
+    {
+     "from": "1944",
+     "name": "Maj. Gen. Robert W. Grow"
+    }
+   ],
+   "arrive": "1944-07-18",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "Arrived Continent D+42; first elements in combat 27 Jul, entire division 28 Jul 1944"
+  },
+  {
+   "id": "us-7ad",
+   "name": "7th Armored Division",
+   "nat": "US",
+   "tpl": "us_arm",
+   "regs": [
+    "CCA",
+    "CCB",
+    "CCR"
+   ],
+   "commanders": [
+    {
+     "from": "1944-06-13",
+     "name": "Maj. Gen. Lindsay M. Silvester"
+    }
+   ],
+   "arrive": "1944-08-10",
+   "status": "sourced",
+   "src": [
+    "eto-oob"
+   ],
+   "note": "Arrived Continent D+65; first elements in combat 13 Aug 1944"
+  },
+  {
+   "id": "fr-2db",
+   "name": "2e Division Blindee",
+   "nat": "FR",
+   "tpl": "us_arm",
+   "regs": [
+    "GT Langlade",
+    "GT Dio",
+    "GT Billotte"
+   ],
+   "commanders": [
+    {
+     "from": "1943",
+     "name": "Gen. Philippe Leclerc"
+    }
+   ],
+   "arrive": "1944-08-01",
+   "status": "verify",
+   "src": [
+    "general"
+   ],
+   "note": "US-equipped French armoured division; landed at Utah about 1 Aug 1944; to verify in Breakout and Pursuit"
+  },
+  {
+   "id": "uk-gds-ad",
+   "name": "Guards Armoured Division",
+   "nat": "UK",
+   "tpl": "uk_arm",
+   "regs": [
+    "5th Guards Armoured Bde",
+    "32nd Guards Bde"
+   ],
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Maj. Gen. A. H. S. Adair"
+    }
+   ],
+   "arrive": "1944-06-28",
+   "status": "verify",
+   "src": [
+    "ellis-1",
+    "general"
+   ],
+   "note": "Ellis: 32nd Guards Brigade arrived as forerunner by Epsom (late June); division date to verify in Joslen"
+  },
+  {
+   "id": "uk-7ad",
+   "name": "7th Armoured Division",
+   "nat": "UK",
+   "tpl": "uk_arm",
+   "regs": [
+    "22nd Armoured Bde",
+    "131st Infantry Bde"
+   ],
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Maj. Gen. G. W. E. J. Erskine"
+    },
+    {
+     "from": "1944-08-04",
+     "name": "Maj. Gen. G. L. Verney"
+    }
+   ],
+   "arrive": "1944-06-07",
+   "status": "verify",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "Ellis: fighting echelons with Force L, the first follow-up convoy, due to land on the second tide after D-Day"
+  },
+  {
+   "id": "uk-11ad",
+   "name": "11th Armoured Division",
+   "nat": "UK",
+   "tpl": "uk_arm",
+   "regs": [
+    "29th Armoured Bde",
+    "159th Infantry Bde"
+   ],
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Maj. Gen. G. P. B. Roberts"
+    }
+   ],
+   "arrive": "1944-06-13",
+   "status": "verify",
+   "src": [
+    "ellis-1",
+    "general"
+   ],
+   "note": "Ellis: VIII Corps had only just landed before Epsom (26 Jun), divisions not quite complete; date to verify"
+  },
+  {
+   "id": "uk-3id",
+   "name": "3rd Infantry Division",
+   "nat": "UK",
+   "tpl": "uk_inf",
+   "regs": [
+    "8th Bde",
+    "9th Bde",
+    "185th Bde"
+   ],
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Maj. Gen. T. G. Rennie"
+    },
+    {
+     "from": "1944-06-13",
+     "name": "Brig. E. E. E. Cass (acting)"
+    },
+    {
+     "from": "1944-06-23",
+     "name": "Maj. Gen. L. G. Whistler"
+    }
+   ],
+   "arrive": "1944-06-06",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "D-Day, Sword"
+  },
+  {
+   "id": "uk-6ab",
+   "name": "6th Airborne Division",
+   "nat": "UK",
+   "tpl": "us_abn",
+   "regs": [
+    "3rd Parachute Bde",
+    "5th Parachute Bde",
+    "6th Airlanding Bde"
+   ],
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Maj. Gen. R. N. Gale"
+    }
+   ],
+   "arrive": "1944-06-06",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "D-Day, airborne, east of the Orne. Uses the US airborne template until a British one exists"
+  },
+  {
+   "id": "uk-15id",
+   "name": "15th (Scottish) Division",
+   "nat": "UK",
+   "tpl": "uk_inf",
+   "regs": [
+    "44th (Lowland) Bde",
+    "46th (Highland) Bde",
+    "227th (Highland) Bde"
+   ],
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Maj. Gen. G. H. A. MacMillan"
+    },
+    {
+     "from": "1944-08-03",
+     "name": "Maj. Gen. C. M. Barber"
+    }
+   ],
+   "arrive": "1944-06-14",
+   "status": "verify",
+   "src": [
+    "ellis-1",
+    "general"
+   ],
+   "note": "Ellis: VIII Corps had only just landed before Epsom; date to verify"
+  },
+  {
+   "id": "uk-43id",
+   "name": "43rd (Wessex) Division",
+   "nat": "UK",
+   "tpl": "uk_inf",
+   "regs": [
+    "129th Bde",
+    "130th Bde",
+    "214th Bde"
+   ],
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Maj. Gen. G. I. Thomas"
+    }
+   ],
+   "arrive": "1944-06-20",
+   "status": "verify",
+   "src": [
+    "ellis-1",
+    "general"
+   ],
+   "note": "Ellis: its reconnaissance regiment ship arrived off Sword on the evening of 20 Jun; date to verify"
+  },
+  {
+   "id": "uk-49id",
+   "name": "49th (West Riding) Division",
+   "nat": "UK",
+   "tpl": "uk_inf",
+   "regs": [
+    "70th Bde",
+    "146th Bde",
+    "147th Bde"
+   ],
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Maj. Gen. E. H. Barker"
+    }
+   ],
+   "arrive": "1944-06-12",
+   "status": "verify",
+   "src": [
+    "ellis-1",
+    "general"
+   ],
+   "note": "Ellis: part of the division arrived two days after its due date in mid-June; 56th Brigade joined 20 Aug 1944"
+  },
+  {
+   "id": "uk-50id",
+   "name": "50th (Northumbrian) Division",
+   "nat": "UK",
+   "tpl": "uk_inf",
+   "regs": [
+    "69th Bde",
+    "151st Bde",
+    "231st Bde",
+    "56th Bde"
+   ],
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Maj. Gen. D. A. H. Graham"
+    }
+   ],
+   "arrive": "1944-06-06",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "D-Day, Gold; 56th Brigade under command on D-Day"
+  },
+  {
+   "id": "uk-51id",
+   "name": "51st (Highland) Division",
+   "nat": "UK",
+   "tpl": "uk_inf",
+   "regs": [
+    "152nd Bde",
+    "153rd Bde",
+    "154th Bde"
+   ],
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Maj. Gen. D. C. Bullen-Smith"
+    },
+    {
+     "from": "1944-07-27",
+     "name": "Maj. Gen. T. G. Rennie"
+    }
+   ],
+   "arrive": "1944-06-07",
+   "status": "verify",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "Ellis: 153rd Brigade landed with Force L, the first follow-up convoy; rest of division in the days after"
+  },
+  {
+   "id": "uk-53id",
+   "name": "53rd (Welsh) Division",
+   "nat": "UK",
+   "tpl": "uk_inf",
+   "regs": [
+    "71st Bde",
+    "158th Bde",
+    "160th Bde"
+   ],
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Maj. Gen. R. K. Ross"
+    }
+   ],
+   "arrive": "1944-06-27",
+   "status": "verify",
+   "src": [
+    "ellis-1",
+    "general"
+   ],
+   "note": "Arrival date to verify"
+  },
+  {
+   "id": "uk-59id",
+   "name": "59th (Staffordshire) Division",
+   "nat": "UK",
+   "tpl": "uk_inf",
+   "regs": [
+    "176th Bde",
+    "177th Bde",
+    "197th Bde"
+   ],
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Maj. Gen. L. O. Lyne"
+    }
+   ],
+   "arrive": "1944-07-01",
+   "status": "verify",
+   "src": [
+    "ellis-1",
+    "general"
+   ],
+   "note": "Ellis: to have landed by about 8 Jul for the attack on Caen; broken up late August"
+  },
+  {
+   "id": "ca-2id",
+   "name": "2nd Canadian Infantry Division",
+   "nat": "CA",
+   "tpl": "uk_inf",
+   "regs": [
+    "4th Cdn Inf Bde",
+    "5th Cdn Inf Bde",
+    "6th Cdn Inf Bde"
+   ],
+   "commanders": [
+    {
+     "from": "1944-07",
+     "name": "Maj. Gen. C. Foulkes"
+    }
+   ],
+   "arrive": "1944-07-07",
+   "status": "verify",
+   "src": [
+    "ellis-1",
+    "general"
+   ],
+   "note": "Arrival date to verify in Stacey"
+  },
+  {
+   "id": "ca-3id",
+   "name": "3rd Canadian Infantry Division",
+   "nat": "CA",
+   "tpl": "uk_inf",
+   "regs": [
+    "7th Cdn Inf Bde",
+    "8th Cdn Inf Bde",
+    "9th Cdn Inf Bde"
+   ],
+   "commanders": [
+    {
+     "from": "1944-06",
+     "name": "Maj. Gen. R. F. L. Keller"
+    },
+    {
+     "from": "1944-08-18",
+     "name": "Maj. Gen. D. C. Spry"
+    }
+   ],
+   "arrive": "1944-06-06",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ],
+   "note": "D-Day, Juno. Keller to 8 Aug, Spry from 18 Aug"
+  },
+  {
+   "id": "ca-4ad",
+   "name": "4th Canadian Armoured Division",
+   "nat": "CA",
+   "tpl": "uk_arm",
+   "regs": [
+    "4th Cdn Armoured Bde",
+    "10th Cdn Infantry Bde"
+   ],
+   "commanders": [
+    {
+     "from": "1944-07",
+     "name": "Maj. Gen. G. Kitching"
+    },
+    {
+     "from": "1944-08-22",
+     "name": "Maj. Gen. H. W. Foster"
+    }
+   ],
+   "arrive": "1944-07-26",
+   "status": "verify",
+   "src": [
+    "ellis-1",
+    "general"
+   ],
+   "note": "Arrival date to verify in Stacey"
+  },
+  {
+   "id": "pl-1ad",
+   "name": "1st Polish Armoured Division",
+   "nat": "PL",
+   "tpl": "uk_arm",
+   "regs": [
+    "10th Polish Armoured Bde",
+    "3rd Polish Rifle Bde"
+   ],
+   "commanders": [
+    {
+     "from": "1944-07",
+     "name": "Maj. Gen. S. Maczek"
+    }
+   ],
+   "arrive": "1944-07-31",
+   "status": "verify",
+   "src": [
+    "ellis-1",
+    "general"
+   ],
+   "note": "Ellis: recently arrived by 7 Aug (Totalize); date to verify"
+  }
+ ],
+ "brigades": [
+  {
+   "name": "4th Armoured Brigade",
+   "nat": "UK",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "8th Armoured Brigade",
+   "nat": "UK",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "27th Armoured Brigade (to 29.7.44)",
+   "nat": "UK",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "33rd Armoured Brigade",
+   "nat": "UK",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "6th Guards Tank Brigade",
+   "nat": "UK",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "31st Tank Brigade",
+   "nat": "UK",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "34th Tank Brigade",
+   "nat": "UK",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "2nd Canadian Armoured Brigade",
+   "nat": "CA",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "79th Armoured Division (specialised armour, GHQ troops)",
+   "nat": "UK",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "1st Special Service Brigade",
+   "nat": "UK",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "4th Special Service Brigade",
+   "nat": "UK",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  },
+  {
+   "name": "56th Infantry Brigade (to 49th Div 20.8.44)",
+   "nat": "UK",
+   "status": "sourced",
+   "src": [
+    "ellis-1"
+   ]
+  }
+ ],
+ "notes": [
+  "Arrival is the date the division began landing on the Continent (US: \"Arrived Continent\" in eto-oob). Corps attachments by date are the next pass, from the eto-oob Assignment tables and Ellis.",
+  "Commander dates written as a year or year-month mark entries whose exact date still has to be read from the source."
+ ]
+}
