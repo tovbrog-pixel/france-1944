@@ -1,0 +1,27 @@
+name: Source texts
+
+on:
+  push:
+    branches: [main]
+    paths: ['tools/data/sources.py', 'tools/data/sources.json', '.github/workflows/sources.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get install -y poppler-utils
+      - run: python3 tools/data/sources.py
+      - name: Commit results
+        run: |
+          git config user.name "Tov Binyamin Brog"
+          git config user.email "tovbrog-pixel@users.noreply.github.com"
+          git add sources
+          git diff --cached --quiet || git commit -m "Source texts fetched by Actions for step 4 data"
+          git pull --rebase
+          git push
