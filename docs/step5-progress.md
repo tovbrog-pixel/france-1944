@@ -167,7 +167,17 @@ Batches now run on GitHub Actions: `.github/workflows/ai-batch.yml` runs 20 seed
 2. *Planned moves ran late.* The scenario's dated AI moves were stretched by about 1.3, so August moves came weeks late. `aiExact` keeps the planned times.
 3. *Army AI too fast.* With every army under the army AI, the Allies advanced far faster than history. The army AI now runs Third Army only, from 1 August.
 
-A single run with these changes (`docs/tests/batch-20261123-1728-batch4-join.md`) took Avranches on 30 July and Rennes on 3 August, both within a day of history. Caen held until 18 August, 40 days late, and St-Lô fell 23 days early. Batch 5 (20 seeds, label `batch5-dates`) was running on GitHub Actions when this note was written. It predates the pocket rule, so a further batch must follow.
+A single run with these changes (`docs/tests/batch-20261123-1728-batch4-join.md`) took Avranches on 30 July and Rennes on 3 August, both within a day of history. Caen held until 18 August, 40 days late, and St-Lô fell 23 days early. 
+**Batch 5** (20 seeds, `docs/tests/batch-20261123-2041-batch5-dates.md`): Avranches fell on a median date of 31 July (history 30 July) and Coutances on 25 July (28 July). Rennes fell in 15 of 20 runs, median 12 August. Le Mans and Chartres fell in none. Caen was held from a median date of 19 August and St-Lô from 10 August, although Allied troops first entered both in mid-June. Median losses were 222 Allied and 347 German battalion-equivalents.
+
+**Faults found in batch 5, and the changes for batch 6** (label `batch6-phases`, running on GitHub Actions; it includes the pocket rule):
+
+1. *Caen and St-Lô entered in June, then lost.* St-Lô stood open on 13 June because the 352nd Division stayed behind Omaha. The 352nd now falls back to the Elle on the night of 9/10 June, and a new AI phase line keeps the Allied staff north of St-Lô and Caen until 8 July.
+2. *The 51st Division marched to Fécamp in June.* The eastern end of each phase line stopped short of the Channel coast. The lines now run to the map edge.
+3. *Paris and Rouen reached in early August in some runs.* The German Fifteenth Army is outside the slice, so the lower Seine stood empty. Two more phase lines close the lower Seine until 19 August and Paris until 22 August.
+4. *Third Army too slow after Avranches.* The army AI ordered each corps 32 km at most, once a day, and waited 48 hours on an attack. A scenario can now set pursuit values; Third Army reaches 90 km, plans every 12 hours and waits 24.
+
+Carentan flips on 6 June in every run, six days early, because the 101st Airborne lands beside it and the German 6th Parachute Regiment is missing from the order of battle. This is still open.
 
 ## Town names
 
@@ -212,3 +222,8 @@ The hand list Claude wrote overnight agreed with INSEE on 31 of 35 names it shar
 | Clip check | pocketsphinx transcripts and clip durations, run in Claude's workspace | Sourced; recognizer accuracy is low, so the result is an inference until Tov listens |
 | Batch 3 and single-run results | `docs/tests/batch-20261123-1722-batch3-support.md`, `batch-20261123-1728-batch4-join.md` | Sourced |
 | Causes of the late breakout | Claude's reading of the runs | Inference |
+| Batch 5 results | `docs/tests/batch-20261123-2041-batch5-dates.md` | Sourced |
+| 51st Division's march to Fécamp | Debug run, seed 104, 21 to 22 June | Sourced (test run) |
+| 352nd Division to the Elle, 9/10 June | General history | Verify against Harrison ch. IX |
+| Phase-line dates: 8 July, 19 August, 22 August | General history (Charnwood, Mantes, the order to take Paris) | Verify; the lines themselves are game settings (inference) |
+| Third Army pursuit values | Claude's settings | Inference (game settings) |
