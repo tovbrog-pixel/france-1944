@@ -1,0 +1,115 @@
+{{Use dmy dates|date=August 2023}}
+{{Infobox French commune
+|name                 = Carpiquet
+|commune_status       = [[Communes of France|Commune]]
+|image                = FranceNormandieCarpiquetEglise.jpg
+|caption              = The church in Carpiquet
+|arrondissement       = Caen
+|canton               = Caen-2
+|INSEE                = 14137
+|postal_code          = 14650
+|mayor                = Pascal Sérard<ref>{{cite web|title=Répertoire national des élus: les maires|url=https://www.data.gouv.fr/fr/datasets/r/2876a346-d50c-4911-934e-19ee07b0e503|website=data.gouv.fr, Plateforme ouverte des données publiques françaises|date=2 December 2020|language=fr}}</ref>
+|term                 = 2020&ndash;2026
+|intercommunality     = [[Communauté urbaine Caen la Mer|CU Caen la Mer]]
+|coordinates          = {{coord|49.1864|-0.4433|type:city_region:FR-14|format=dms|display=inline,title}}
+|elevation_m          = 64
+|elevation_min_m      = 45
+|elevation_max_m      = 74
+|area_total_km2       = 5.88
+|population_total     = {{France metadata Wikidata|population_total}}
+|population_date      = {{France metadata Wikidata|population_as_of}}
+|population_footnotes = {{France metadata Wikidata|population_footnotes}}
+}}
+
+'''Carpiquet''' ({{IPA|fr|kaʁpikɛ|-|Fr-Carpiquet.ogg}}) is a [[Communes of France|commune]] in the [[Calvados (department)|Calvados]] [[Departments of France|department]] in the [[Normandy (administrative region)|Normandy]] [[Regions of France|region]] in northwestern [[France]]. [[Caen – Carpiquet Airport]] is located in Carpiquet.
+
+==Geography==
+Carpiquet is on the western side of the [[Caen]] [[metropolitan area]]. The town is divided into four distinct areas:<ref name="gmap">{{Cite web|url=https://www.google.com/maps/place/Carpiquet,+France/@49.1856969,-0.4617859,14.58z/data=!4m6!3m5!1s0x480a44bb55cff827:0x40c14484fbcf670!8m2!3d49.184055!4d-0.441079!16zL20vMDJuN19x?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw==|title=Carpiquet · France|website=Carpiquet · France}}</ref>
+*the town centre;
+*the commercial area along the [[Ligne de Paris - Caen]] and [[Route nationale 13]] to the north;
+*the Bellevue area to the east;
+*the [[Caen - Carpiquet Airport]] to the west.
+
+{{Geographic location
+|title     = '''Neighbouring communes'''<ref name="gmap"/>
+|state     = expanded
+|width     = auto
+|Centre    = Carpiquet
+|North     = [[Rots, Calvados|Rots]]
+|Northeast = [[Saint-Germain-la-Blanche-Herbe]]
+|East      = [[Caen]]
+|Southeast = [[Bretteville-sur-Odon]]
+|South     = [[Verson]]
+|Southwest = 
+|West      = [[Saint-Manvieu-Norrey]]
+|Northwest = 
+}}
+
+==History==
+[[File:9th Canadian infantery brigade in Carpiquet.jpg | thumb|left | Unidentified Canadian Infantry in the bombed out Medieval Eglise St. Martin in Carpiquet, near Caen, July 12, 1944. Photo: Ken Bell]]
+
+The Carpiquet Airport was one of the objectives of the [[3rd Canadian Infantry Division]] during the [[Invasion of Normandy|Normandy Campaign]].<ref>{{Cite web|url=https://www.junobeach.org/canada-in-wwii/articles/the-normandy-campaign/|title=The Normandy Campaign : Juno Beach Centre|website=www.junobeach.org}}</ref> The village was fought over between June and July 1944 in several battles with the [[12th SS Panzer Division Hitlerjugend]] and [[1st SS Panzer Division Leibstandarte SS Adolf Hitler]], notably during the [[Battle for Caen]].<ref>{{Cite web|url=https://militaryhistory.ca/ww-ii-carpiquet/|title=WW II - Carpiquet|date=5 May 2025}}</ref>  It and the airport were finally taken in early July during [[Operation Windsor]].<ref>{{Cite web|url=https://www.dday-overlord.com/en/battle-of-normandy/allied-operations/windsor|title=Operation Windsor in 1944 – D-Day Overlord}}</ref>
+{{Clear}}
+
+==Population==
+{{Historical populations
+|source = INSEE<ref name=pophist>[https://www.insee.fr/fr/statistiques/8643952?geo=COM-14137#tableau-POPREF_G1 Population municipale entre 1968 et 2023], INSEE</ref>
+|percentages = pagr
+|align = none
+|1968 |1315
+|1975 |1207
+|1982 |1650
+|1990 |1519
+|1999 |1861
+|2007 |2140
+|2012 |2387
+|2017 |2607
+|2023 |3428
+}}
+
+==Points of interest==
+
+===National heritage sites===
+
+The Commune has two buildings and areas listed as a [[Monument historique]]<ref>{{Cite web|url=https://monumentum.fr/departement/14/calvados|title=Les Monuments Historiques en Calvados - 14|website=monumentum.fr}}</ref>
+
+*'''Église Saint-Martin''' 12th century church listed as a monument in 1927.<ref>{{Cite web|url=https://monumentum.fr/monument-historique/pa00111793/verson-eglise|title=Eglise  à Verson - PA00111793 - Monumentum|website=monumentum.fr}}</ref>
+*'''Double entrance door''' remains of a 14th century door way.<ref>{{Cite web|url=https://monumentum.fr/monument-historique/pa00111214/carpiquet-double-porte-dentree|title=Double porte d'entrée  à Carpiquet - PA00111214 - Monumentum|website=monumentum.fr}}</ref>
+
+==Economy==
+[[Chalair Aviation]], an airline, has its head office on the grounds of [[Caen – Carpiquet Airport]] in Carpiquet.<ref>"[http://www.chalair.eu/index.php/en/contact-us/access Access] {{webarchive|url=https://web.archive.org/web/20101221025113/http://www.chalair.eu/index.php/en/contact-us/access |date=2010-12-21 }}." ([https://web.archive.org/web/20131220202957/http://chalair.eu/images/stories/media/AccesCaen.jpg image]). [[Chalair Aviation]]. Retrieved on 12 February 2011. "Chalair Aviation Headquarters Aéroport de Caen-Carpiquet 14650 Carpiquet France."</ref>
+
+==Sport==
+
+Carpiquet has a swimming pool, the aquatic center Sirena, which has a 25metre pool and features such as waterslides.<ref>{{Cite web|url=https://www.normandie-tourisme.fr/activite/centre-aqualudique-et-bien-etre-sirena/|title=Centre Aqualudique et Bien-Etre Sirena - CARPIQUET}}</ref>
+
+
+==International relations==
+{{See also|List of twin towns and sister cities in France}}
+
+==Twin towns – sister cities==
+{{See also|List of twin towns and sister cities in France}}
+
+Carpiquet is [[Twin towns and sister cities|twinned]] with the following: <ref name="Baddesley twinning">{{cite web|url=http://www.nbtwin.org.uk/|title=North Baddesley Twinning Association|access-date=2013-07-25|publisher=Hampshire County Council|archive-url=https://web.archive.org/web/20130819002442/http://www.nbtwin.org.uk/|archive-date=2013-08-19|url-status=dead}}</ref><ref>{{cite web |title=Accueil d’une délégation allemande de Basse-Franconie |url=https://www.calvados.fr/presse/accueil-dune-delegation-allemande-de-basse-franconie |website=Calvados.fr |publisher=Département du Calvados |date=14 June 2023 |language=fr |access-date=20 December 2025}}</ref><ref>{{cite news |title=Carpiquet crée un jumelage avec le Canada pour ne pas oublier |url=https://www.ouest-france.fr/normandie/carpiquet-14650/carpiquet-cree-un-jumelage-avec-le-canada-pour-ne-pas-oublier-59702976-ffad-11ec-af85-6443ad0045b3 |work=Ouest-France |publisher=Ouest-France |date= |language=fr |access-date=20 December 2025}}</ref>
+
+*{{flagicon|GER}} [[Waigolshausen]], Germany since 2018 
+*{{flagicon|ENG}} [[North Baddesley]], England since 1993 - shared with the commune of [[Authie, Calvados|Authie]]
+*{{flagicon|CAN}} [[Miramichi, New Brunswick|Miramichi]], Canada since 2022
+
+==See also==
+{{Portal|France}}
+* [[Communes of the Calvados department]]
+
+==References==
+{{reflist}}
+
+== External links ==
+* {{Commons category-inline}}
+
+{{Calvados communes}}
+{{Authority control}}
+
+[[Category:Communes of Calvados (department)]]
+[[Category:Monuments historiques of Calvados (department)]]
+
+{{Caen-geo-stub}}

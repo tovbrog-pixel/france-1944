@@ -1,0 +1,276 @@
+{{Use dmy dates|date=September 2022}}
+{{Infobox French commune
+|name                 = Asnelles
+|commune_status       = [[Communes of France|Commune]]
+|image                = Arromanches-les-bains-depuis-Asnelles.jpg
+|caption              = View of the beach
+|image_shield         = Blason Asnelles.svg
+|arrondissement       = Bayeux
+|canton               = Courseulles-sur-Mer
+|INSEE                = 14022
+|postal_code          = 14960
+|mayor                = Alain Scribe<ref>{{cite web|title=Répertoire national des élus: les maires|url=https://www.data.gouv.fr/fr/datasets/r/2876a346-d50c-4911-934e-19ee07b0e503|publisher=data.gouv.fr, Plateforme ouverte des données publiques françaises|date=13 September 2022|language=fr}}</ref>
+|term                 = 2020&ndash;2026
+|intercommunality     = [[Communauté de communes Seulles Terre et Mer|CC Seulles Terre Mer]]
+|coordinates          = {{coord|49.3383|-0.5828|format=dms|display=inline,title}}
+|elevation_m          = 6
+|elevation_min_m      = 1
+|elevation_max_m      = 21
+|area_total_km2       = 2.52
+|population_total     = {{France metadata Wikidata|population_total}}
+|population_date      = {{France metadata Wikidata|population_as_of}}
+|population_footnotes = {{France metadata Wikidata|population_footnotes}}
+}}
+
+'''Asnelles''' ({{IPA|fr|anɛl|-|Fr-Asnelles.ogg}}) is a [[Communes of France|commune]] in the [[Calvados (department)|Calvados]] [[Departments of France|department]] in the [[Normandy (administrative region)|Normandy]] [[Regions of France|region]] of north-western [[France]].
+
+==Geography==
+Asnelles is located at the seaside some 13&nbsp;km north-east of [[Bayeux]] and 10 west of [[Courseulles-sur-Mer]]. Access to the commune is by the D514 road from [[Saint-Côme-de-Fresné]] in the west passing through the town and continuing to [[Ver-sur-Mer]] in the east. The D65 road from [[Arromanches]] to [[Meuvaines]] passes through the south of the commune. The D65A links the D514 to the D65. A large part of the commune is residential with the sea shore fully urban but some 50% of the commune is farmland.<ref name=Google>[https://www.google.com/maps/place/Asnelles/@49.3304188,-0.5805483,2980m/data=!3m1!1e3!4m2!3m1!1s0x480a565b4526a315:0x40c14484fbcfcf0?hl=en Google Maps]</ref>
+
+The Gronde river passes through the heart of the commune from south to north emptying into the [[English Channel]].<ref name=Google/>
+
+{{Geographic location
+|title     = '''Neighbouring communes and villages'''<ref name=Google/>
+|width     = auto
+|Centre    = Asnelles
+|North     = [[English Channel]]
+|Northeast = English Channel
+|East      = [[Ver-sur-Mer]]
+|Southeast = [[Meuvaines]]
+|South     = [[Bazenville]]
+|Southwest = [[Ryes]]
+|West      = [[Saint-Côme-de-Fresné]]
+|Northwest = English Channel
+}}
+
+==History==
+Tradition says that [[William the Conqueror]], to escape his pursuers and after having taken refuge at the house of Baron Hubert de Ryes, regained his ducal castle by following small sunken pathways including one that now bears the name of ''Sente au Bâtard'' (Sente the Bastard). This footpath is difficult in places and it crosses the Gronde, bypassing part of the village, and leads to old farmhouses and old stone houses at [[Creully]].
+
+The name ''Asnelles'' (from the [[Latin]] ''asinellas'' meaning "little donkeys") appears for the first time in an official document at the end of the 12th century when work began on the early church dedicated to St. Martin. At that time a market for [[donkey]]s stood in the field opposite the church near the public square "planître". The coastline was then a large [[swamp]] which often caused fevers: people would implore the protection of [[Saint Honorine]] in a small chapel built on the ruins of a [[Gallo-Roman]] [[Villa]] which would be located near the modern cemetery.
+
+Until the end of the 17th century there was a small harbour at the mouth of the Gronde called Port Heurtault which had nearly 2,000 boat movements per year of boats involved in coastal shipping or [[Cabotage]]. The port was silted up by a storm, so that the ''Amirauté Court'' or Maritime Court, which was created in 1554 at Asnelles, was transferred to [[Bayeux]]. During the 18th century, Asnelles was the seat of a ''Captainerie'' (Official residence of the officer of the port) and a coastal militia was responsible for monitoring the sea and reporting the approach of any English ship.
+
+In the middle of the 19th century the village underwent major changes. Under the leadership of the Mayor, Dr. Théodore Labbey, significant work was undertaken including: the draining of marshes, the construction of a [[Levee]], and many large houses - some of which remain today. Asnelles becomes ''Asnelles-la-Belle-Plage'', a name given by many swimmers at the beach which took the appearance of a "small [[Trouville-sur-Mer|Trouville]]", according to the newspapers of the time, with its casino and its up-market hotels. The [[beach resort]] was served by the [[Chemins de fer du Calvados]] (Railways of Calvados) from 1899 to 1932. The construction of a [[Preventorium]] for children with [[tuberculosis]] who had a parent working at the [[SNCF]] was imposed on the commune in 1926. Until the eve of the [[Second World War]] it accommodated more than 1,500 boys and girls.
+
+On [[Normandy landings|D-Day]] 6 June 1944, British soldiers landed at Asnelles: the [[231st Brigade (United Kingdom)|231st Infantry Brigade]] was commanded by [[Sir Alexander Beville Gibbons Stanier, 2nd Baronet|General Sir Alexander Stanier]]. The village was liberated in the afternoon with heavy losses mainly due to a 77&nbsp;mm cannon which covered all the beach on the eastern side. On 10 June the [[Advanced Landing Ground]] (ALG) "ALG B-1" was operational at  Asnelles-sur-Mer off [[Gold Beach]], the first Allied airfield on the continent, operating [[Supermarine Spitfires]].
+
+Immediately after the landing the construction of the [[Mulberry harbour]] at [[Arromanches]] began of which the eastern part was at Asnelles consisting of the [[Mulberry harbour#Phoenix caissons|Phoenix caissons]] which enclosed the port on the eastern side starting from the commune beach.
+
+The spokesman of [[General de Gaulle]], who was one of the "Voices of France", [[Maurice Schumann]] also landed at Asnelles. He now is buried in the nearby cemetery of Calvary. The village recovered slowly from the D-Day operations: many large houses were severely damaged or destroyed: the Levee and the holds suffered greatly and many roads had to be rebuilt. There were however no civilian casualties reported.
+
+Today, economic activity in Asnelles is mainly tourism with many second homes, camping, a leisure park, cottages, and family homes.
+
+===Heraldry===
+{{Blazon-arms
+|img1=Blason Asnelles.svg
+|legend1=Arms of Asnelles
+|text=
+
+'''Blazon:'''<br/>
+''Azure, a bark of Gules issuant from dexter, sailed in Argent and sailing on a rough Ocean in base, at sinister chief a mullet of Or radiant towards base.''<ref>[https://web.archive.org/web/20140302052058/http://www.labanquedublason2.com/lecture_fiche_commune.php3?page=f14022 GASO, Blazon Bank - Asnelles Calvados], consulted on 20 September 2011 {{in lang|fr}} Referenced blazon is incorrect - a dextre should say a sinistre</ref>
+}}
+
+==Administration==
+[[File:La mairie d'Asnelles.JPG|thumb|The Town Hall]]
+
+{{incomplete list|date=April 2021}}
+'''List of Successive Mayors'''<ref>[http://www.francegenweb.org/mairesgenweb/resultcommune.php?id=18583 List of Mayors of France] {{in lang|fr}}</ref>
+{| class="wikitable"
+|-
+! From !! To !! Name !! Party !! Position
+|-
+|  || 2001 || Emmanuel Deneffle ||   || 
+|-
+| 2001 || 2001 || Jean-Pierre Malo ||   || Chemical Engineer
+|-
+| 2001 || 2026 || Alain Scribe<ref>[http://elections.ouest-france.fr/elections-municipales-2014/calvados/14960-asnelles.html Asnelles Elections 2014] {{in lang|fr}}</ref> ||   || Retired marketing consultant
+|}
+
+The municipal council is composed of 15 members with 4 deputy mayors.
+
+===Twinning===
+Asnelles has [[Twin towns and sister cities|twinning]] associations with:<ref>[https://pastel.diplomatie.gouv.fr/cncdext/dyn/public/atlas/rechercheAtlasFrance.html National Commission for Decentralised cooperation] {{in lang|fr}}</ref>
+*{{flagicon|UK}} [[Charmouth]] (United Kingdom) since 1985.
+
+[[File:Asnelles vue panoramique.jpg|center|800px|Panoramic view of Asnelles]]
+
+==Demography==
+The inhabitants of the commune are known as ''Asnellois'' or ''Asnelloises'' in French.<ref>[https://www.habitants.fr/calvados-14 Le nom des habitants du 14 - Calvados], habitants.fr</ref>
+
+{{Historical populations
+|align = none
+|cols = 2
+|percentages = pagr
+|source = EHESS<ref name=ehess>{{Cassini-Ehess|1558|Asnelles}}</ref> and INSEE<ref name=pophist>[https://www.insee.fr/fr/statistiques/8643952?geo=COM-14022#tableau-POPREF_G1 Population municipale entre 1968 et 2023], INSEE</ref>
+|1793 |407
+|1821 |408
+|1846 |448
+|1872 |414
+|1901 |407
+|1926 |243
+|1946 |323
+|1962 |303
+|1968 |267
+|1975 |284
+|1982 |334
+|1990 |478
+|1999 |571
+|2007 |588
+|2012 |589
+|2017 |595
+|2023 |642
+}}
+
+==Economy==
+Asnelles is a [[beach resort]] located on the ''Côte de Nacre''. It has a beautiful sandy beach which is adjacent to the Arromanches beach. It also has a land sailing club. Asnelle is located on the ''Circuit of the landing beaches in Normandy''. The commune has created a hiking trail called ''La Sente au Bâtard'' in honour of [[William the Conqueror]].
+
+==Culture and heritage==
+
+===Civil heritage===
+Asnelles has many buildings and structures that are classified as historical monuments as well as other points of interest that are not registered. They are:
+*'''Farmhouse''' at 19 Rue de la Cavée (1782)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121759|IA00121759 Farmhouse}} {{in lang|fr}}</ref>
+*'''[[Lavoir]]''' (Public laundry) at Rue du Débarquement (19th century)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121744|IA00121744 Lavoir}} {{in lang|fr}}</ref>
+*'''Chateau''' at 1 Rue du Débarquement (18th century)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121746|IA00121746 Chateau}} {{in lang|fr}}</ref>
+*'''Maison le Mesnil''' at 2 Rue du Débarquement (18th century)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121748|IA00121748 Maison le Mesnil}} {{in lang|fr}}</ref>
+*'''House''' at 12-14 Rue de l'Eglise (17th century)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121750|IA00121750 House}} {{in lang|fr}}</ref>
+*'''Farmhouse''' at 36 Rue de l'Eglise (19th century)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121760|IA00121760 Farmhouse}} {{in lang|fr}}</ref>
+*'''Abri Sainte-Thérèse House''' at 8 Rue de l'Eglise (19th century)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121749|IA00121749 Abri Sainte-Thérèse House}} {{in lang|fr}}</ref>
+*'''House''' at 12 Rue du Front de Mar (1945)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121751|IA00121751 House}} {{in lang|fr}}</ref>
+*'''Villa Cosson''' (Les Tourelles) at 15 Route de la Libération (19th century)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121752|IA00121752 Villa Cossom}} {{in lang|fr}}</ref>
+*'''Villa Neptune''' at 17 Route de la Libération (19th century)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121753|IA00121753 Villa Neptune}} {{in lang|fr}}</ref>
+*'''Villa les Tamaris''' (Centre Fernand Leconte) at 21 Route de la Libération (19th century)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121754|IA00121754 Villa les Tamaris}} {{in lang|fr}}</ref>
+*Villa Carrée at 23 Route de la Libération (1874)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121755|IA00121755 Villa Carrée}} {{in lang|fr}}</ref>
+*'''Stone Bridge''' at Rue Paul Hélaine (1846)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121762|IA00121762 Stone bridge}} {{in lang|fr}}</ref>
+*'''House''' at 2 Rue des Pérelles (19th century)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121756|IA00121756 House}} {{in lang|fr}}</ref>
+*'''Fire Station''' at Rue de Southampton (1873)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121743|IA00121743 Fire Station}} {{in lang|fr}}</ref>
+*'''Commerce House''' at 17 Rue de Southampton (19th century)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121757|IA00121757 Commerce House}} {{in lang|fr}}</ref>
+*'''Château d'Asnelles''' at 42 Rue de Southampton (19th century)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121745|IA00121745 Château d'Asnelles}} {{in lang|fr}}</ref>
+*'''House''' at 53 Rue de Southampton (1958)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121758|IA00121758 House}} {{in lang|fr}}</ref>
+*'''Beach defence battery''' (1942)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|PA00111837|PA00111837 Beach defence battery}} {{in lang|fr}}</ref>
+*'''Tithe Barn''' (14th century)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121761|IA00121761 Tithe Barn}} {{in lang|fr}}</ref>
+*'''Town Hall, Post Office, and Primary School''' (19th century)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121742|IA00121742 Town Hall, Post Office, and Primary School}} {{in lang|fr}}</ref>
+*'''Village''' (12th-19th centuries)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121739|IA00121739 Village}} {{in lang|fr}}</ref>
+*'''Houses and Hotels''' (16th - 20th century)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121738|IA00121738 Houses and Hotels}} {{in lang|fr}}</ref>
+*'''[[Mulberry harbour#Phoenix caissons|Phoenix Caissons]]''' (offshore), were used for building Levees and jetties for the Mulberry harbour after the landings and for [[Bunkers]] on the coast.
+*'''Sente au Bâtard''' (walking path) ([[William the Conqueror]] passed there according to legend).
+*'''The Biscuit Factory''' famous for their ''Shortbread of Asnelles''
+*'''La Gronde''' river
+*'''[[Seaweed]] beach'''
+
+<gallery>
+File:Lavoir Asnelles Calvados.JPG|The [[Lavoir]] (Public laundry)
+File:Asnelles, Villa Neptune.JPG|Villa Neptune
+File:Pont Asnelles.JPG|The Stone Bridge
+File:Asnelles, remise de pompe à incendie.JPG|The Fire Station
+File:Asnelles, batterie.JPG|The Beach defence battery
+File:Asnelles, grange aux dîmes, façade ouest.JPG|The tithe barn
+File:La biscuiterie d'Asnelles.JPG|The Biscuit Factory
+</gallery>
+
+===Religious heritage===
+A number of religious buildings and structures have been registered as historical monuments. These are:
+*'''Presbytery''' (18th century)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121747|IA00121747 Presbytery}} {{in lang|fr}}</ref>
+*'''Monumental Cross''' at Rue de Southampton (19th century)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121741|IA00121741 Monumental Cross}} {{in lang|fr}}</ref>
+*Parish '''Church of Saint-Martin''' (12th century)[[File:Logo monument historique - rouge sans texte.svg|18px]]<ref>Ministry of Culture, Mérimée {{Mérimée|IA00121740|IA00121740 Church of Saint-Martin}} {{in lang|fr}}</ref>
+
+The Church of Saint Martin contains many items which are registered as historical objects. These are:
+{{div col|colwidth=30em}}
+*A [[Chasuble]] (ornamented in gold) (19th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001178|IM14001178 Chasuble}} {{in lang|fr}}</ref>
+*2 [[Cope]]s (ornamented in rose) (19th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001177|IM14001177 2 Copes (Red)}} {{in lang|fr}}</ref>
+*A Cope (ornamented in rose) (19th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001176|IM14001176 2 Copes (Red)}} {{in lang|fr}}</ref>
+*A Cope (ornamented in violet) (19th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001175|IM14001175 Cope (Violet)}} {{in lang|fr}}</ref>
+*2 [[Candlestick]]s (torches) (18th & 19th centuries)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001174|IM14001174 2 Candlesticks}} {{in lang|fr}}</ref>
+*2 [[Candelabra]] (19th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001173|IM14001173 2 Candelabra}} {{in lang|fr}}</ref>
+*A Candlestick (torch) (19th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001172|IM14001172 Candlestick}} {{in lang|fr}}</ref>
+*A [[Ciborium (architecture)|Ciborium]] for the sick (19th & 20th centuries)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001171|IM14001171 Ciborium for the sick}} {{in lang|fr}}</ref>
+*2 Ciboriums (19th & 20th centuries)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001170|IM14001170 2 Ciboriums}} {{in lang|fr}}</ref>
+*A Ciborium (19th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001169|IM14001169 Ciborium}} {{in lang|fr}}</ref>
+*A [[Paten]] (19th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001168|IM14001168 Paten}} {{in lang|fr}}</ref>
+*4 [[Altar]] Candlesticks (19th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001167|IM14001167 4 Altar Candlesticks}} {{in lang|fr}}</ref>
+*3 [[Chalice]]s with patens (19th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001166|IM14001166 3 Chalices with patens}} {{in lang|fr}}</ref>
+*A Chalice with paten (19th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001165|IM14001165 Chalice with paten}} {{in lang|fr}}</ref>
+*A Chalice with paten (19th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001164|IM14001164 Chalice with paten}} {{in lang|fr}}</ref>
+*A Chalice (19th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001163|IM14001163 Chalice}} {{in lang|fr}}</ref>
+*A Statue: Saint Pierre (19th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001162|IM14001162 Statue: Saint Pierre}} {{in lang|fr}}</ref>
+*A Statue: Notre-Dame des flots (17th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001161|IM14001161 Statue: Notre-Dame des flots}} {{in lang|fr}}</ref>
+*2 Altars, [[Retable]]s, and [[Church tabernacle|Tabernacles]] (Secondary Altars) (19th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001160|IM14001160 2 Altars, Retables, and Tabernacles}} {{in lang|fr}}</ref>
+*A Painting: Annunciation (18th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001159|IM14001159 Painting: Annunciation}} {{in lang|fr}}</ref>
+*A Retable (18th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001158|IM14001158 Retable}} {{in lang|fr}}</ref>
+*The Main Altar with Retable (17th & 19th centuries)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001157|IM14001157 Main Altar with Retable}} {{in lang|fr}}</ref>
+*A [[Stained glass]] window (20th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001156|IM14001156 Stained glass window}} {{in lang|fr}}</ref>
+*A Stained glass window: Notre-Dame des flots (1931)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001155|IM14001155 Stained glass window: Notre-Dame des flots}} {{in lang|fr}}</ref>
+*A [[Hagiographic]] Stained glass window: Charity of Saint Martin (19th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001154|IM14001154 Stained glass window: Charity of St. Martin}} {{in lang|fr}}</ref>
+*A [[Figurative art|Figurative]] Stained glass window: Bon Pasteur (19th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001153|IM14001153 Stained glass window: Bon Pasteur}} {{in lang|fr}}</ref>
+*7 [[Allegorical]] Stained glass windows (20th century)[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001152|IM14001152 7 Stained glass windows}} {{in lang|fr}}</ref>
+*The Furniture in the Church of Saint-Martin[[File:Logo monument historique - noir sans texte.svg|18px]]<ref>Ministry of Culture, Palissy {{Palissy|IM14001151|IM14001151 Furniture in the Church of St. Martin}} {{in lang|fr}}</ref>
+{{div col end}}
+
+<gallery>
+File:Asnelles, ancien presbytère.JPG|The Presbytery
+File:Le calvaire d'Asnelles.JPG|The Monumental cross
+File:FranceNormandieAsnellesEglise.jpg|The Church of Saint-Martin
+File:Asnelles (14) Façade nord dela nef de l'église.JPG|North side of the Church
+File:Asnelles, appareil en arête-de-poisson, façade sud de l'église.JPG|South side of the Church
+File:Asnelles, croix de cimetière.JPG|A Cross in the church cemetery
+
+</gallery>
+
+==Events==
+The Festival of the Sea takes place on 15 August every two years in odd years.
+
+==Notable people linked to the commune==
+*'''[[Maurice Schumann]]''' (1911–1998), [[Order of Liberation|Companion of the Liberation]], politician and journalist, is buried in the new municipal cemetery of Asnelles.
+*'''Théodore Labbey''' (1804–1873), Mayor of Asnelles under the [[French Second Empire]] and author of the first book on the history of the commune: ''Asnelles, paintings and memories'', 1865.
+*'''Chigouesnel''', magistrate, author of the monumental ''New History of Bayeux'', 1867.
+*'''Jean Elivaire''' (1824 at [[Courseulles-sur-Mer|Courseulles]] to 1862 at Courseulles), architect of some resort villas in the Côte de Nacre, a hotel on the street on the waterfront
+
+==Bibliography==
+* Labbey (Théodore), ''Asnelles, paintings and memories'', Typographie Saint-Ange Duvant, Bayeux, 1865. {{in lang|fr}}
+* Chanterenne (H. de), ''Analysis of old parish registers - Asnelles-sur-mer'', Meuvaines, Henri Delesques, Caen, 1912. {{in lang|fr}}
+* Pouchain (Gérard), ''Asnelles and its history'', photography by Pierre Touraine, Imprimerie La Renaissance du Bessin, Bayeux, 1973. {{in lang|fr}}
+* Pouchain (Gérard), ''Asnelles-la-Belle-Plage in postcards'', Imprimerie Lebrun, Caen, 1979. {{in lang|fr}}
+* Pouchain (Gérard), ''Asnelles-sur-Mer'', preface by Alain Garnavault and Gilbert Rameaux, photography by Pierre Touraine, La Renaissance du Bessin, Bayeux, 1990. {{in lang|fr}}
+* Ducouret (Bernard), ''Villas of Arromanches-les-Bains, Asnelles, Tracy-sur-Mer, Ver-sur-Mer, Itineraries of heritage'', 1993. {{in lang|fr}}
+* Pouchain (Gérard), ''Asnelles-la-Belle-Plage and its surroundings'', preface by Frédéric Gavard, Éditions Charles Corlet, Condé-sur-Noireau, 1997. {{in lang|fr}}
+* Le Bessin, ''Churches of the heart, "Saint-Martin d'Asnelles"'', A.D.T.L.B.,  1997. {{in lang|fr}}
+* Pouchain (Gérard), ''The Church of Saint-Martin of Asnelles'', preface by Monseigneur Pierre Pican, Bishop of Bayeux and Lisieux, Éditions Charles Corlet, Condé-sur-Noireau, 1999. {{in lang|fr}}
+* Pouchain (Gérard), ''Sea bathing and thermalism in Normandy, Birth of sea bathing at Asnelles'', Acts of the 36th congress of Historical and Archaeological societies of Normandy, Annales de Normandie, Caen, 2002. {{in lang|fr}}
+* Saunders (Tim), ''Gold beach - Jig, Jig sector and west - June 1944'', Leo Cooper, 2002.
+* Pouchain (Gérard), ''100 Postcards of Asnelles during the [[Belle Époque]]'', Éditions Charles Corlet, Condé-sur-Noireau, 2003. {{in lang|fr}}
+* Hargrove (Charles), ''Asnelles, 6 June 1944'', preface by Admiral Brac de La Perrière, Collection Histoires normandes, Esther Flon Éditions, Lisieux, 2004. {{in lang|fr}}
+* Benamou (Jean-Pierre), ''Gold beach'', Collection Memory 1944, OREP Éditions, 2004.
+* Trew (Simon), ''Gold beach'', Sutton publishing, 2004.
+* Cormier (Antoine) and Vermont (Bertrand), ''It was then a town by the sea'',  Les Sablés d'Asnelles, Les Tourelles, 2004. {{in lang|fr}}
+* Meigh (Harry J), ''My memories of the campaign in Normandy, June 1944'', (s.n.), (s.d.).
+* Pouchain (Gérard), ''Asnelles in the Press (1808–1873)'', 2005; ''Asnelles in the Press (1874–1892)'', 2006; ''Asnelles in the Press (1893–1901)'', 2007, La Renaissance du Bessin, Bayeux, ''Asnelles in the Press (1902–1921)'', 2008; ''Asnelles in the Press (1922–1937)'', 2009; ''Asnelles in the Press (1938–1957)'', Diamen, Bayeux. {{in lang|fr}}
+* Pouchain (Gérard), ''Asnelles the beautiful beach (1894–1896)'', photography by Philibert Bonvillain, Diamen, Bayeux, 2008. {{in lang|fr}}
+* Pouchain (Gérard), ''The Marcia C. Day, [Les Tamaris, Les Tourelles, Les Sablés d'Asnelles]'', Diamen, Bayeux, 2008. {{in lang|fr}}
+* Pouchain (Gérard), ''6 June 1944, Asnelles - Le Hamel, (Les Tamaris, Les Tourelles, Les Sablés d'Asnelles)'', Diamen, Bayeux, 2010. {{in lang|fr}}
+* Pouchain (Gérard), ''Maurice Schumann - Asnelles and Bayeux, places of Liberty and Fidelity (6 June 1944 – 13 February 1998)'', 2011, Diamen, Bayeux. {{in lang|fr}}
+* ''Le Trait d'union'' (Parish journal), 1932-1937 and 1948-1958. {{in lang|fr}}
+* ''La Belle Plage'' (School journal), 1949-1964. {{in lang|fr}}
+* ''Asnelles Informations'' (Municipal journal), 1983-1993. {{in lang|fr}}
+* ''Asnelles Infos'' (Municipal journal), 1995-2000. {{in lang|fr}}
+* ''Asnelles Nouvelles'' (Municipal journal), depuis 2001. {{in lang|fr}}
+* La Renaissance Le Bessin - Côte de Nacre, ''Asnelles à la loupe'', 2 August 2005. {{in lang|fr}}
+* Ducouret (Bernard) and Perrein (Christian), ''Topographic Inventory of Asnelles'', Base Mérimée (Ministry of Culture website), 1990. {{in lang|fr}}
+
+==See also==
+*[[Communes of the Calvados department]]
+
+===External links===
+* [http://www.bessin-seulles-mer.fr/commune-asnelles-4.html Asnelles on the Community of communes website] {{in lang|fr}}
+* [http://calvakreol.free.fr/jumelage/html/index2.html The Twinning site between Asnelles and Charmouth]
+* [https://web.archive.org/web/20140226192855/http://www.tourisme-asnelles.com/index_en.php3 Tourist Office of Asnelles]
+*[http://www.geoportail.gouv.fr/accueil?c=-0.5828,49.3383&z=7.92265E-5&l=GEOGRAPHICALGRIDSYSTEMS.MAPS.3D$GEOPORTAIL:OGC:WMTS@aggregate(1)&l=ADMINISTRATIVEUNITS.BOUNDARIES$GEOPORTAIL:OGC:WMTS(1)&permalink=yes Asnelles on Géoportail], [[Institut géographique national|National Geographic Institute]] (IGN) website {{in lang|fr}}
+*[http://rumsey.geogarage.com/maps/cassinige.html?lat=49.3383&lon=-0.5828&zoom=13 ''Asnelles'' on the 1750 Cassini Map]
+
+==References==
+{{Reflist}}
+
+{{Commons category|Asnelles}}
+{{Calvados communes}}
+
+{{authority control}}
+
+[[Category:Communes of Calvados (department)]]

@@ -1,0 +1,57 @@
+{{Expand French|topic=geo|date=December 2008|Plumetot}}
+{{Use dmy dates|date=August 2023}}
+{{Infobox French commune
+| name                 = Plumetot
+| commune_status       = [[Communes of France|Commune]]
+| image                = Église St Samson.JPG
+| caption              = The church in Plumetot
+| arrondissement       = Caen
+| canton               = Courseulles-sur-Mer
+| INSEE                = 14509
+| postal_code          = 14440
+| mayor                = Anne-Marie Marie<ref>{{cite web|title=Répertoire national des élus: les maires|url=https://www.data.gouv.fr/en/datasets/r/2876a346-d50c-4911-934e-19ee07b0e503|website=data.gouv.fr, Plateforme ouverte des données publiques françaises|date=9 August 2021|language=fr}}</ref>
+| term                 = 2020&ndash;2026
+| intercommunality     = [[Communauté de communes Cœur de Nacre|CC Cœur de Nacre]]
+| coordinates          = {{coord|49.2803|-0.3564|format=dms|display=inline,title}}
+| elevation_m          = 37
+| elevation_min_m      = 29
+| elevation_max_m      = 59
+| area_total_km2       = 1.23
+| population_total     = {{France metadata Wikidata|population_total}}
+| population_date      = {{France metadata Wikidata|population_as_of}}
+| population_footnotes = {{France metadata Wikidata|population_footnotes}}
+}}
+
+'''Plumetot''' ({{IPA|fr|plym(ə)to|-|Fr-Plumetot.ogg}}) is a [[Communes of France|commune]] in the [[Calvados (department)|Calvados]] [[Departments of France|department]] in the [[Normandy (administrative region)|Normandy]] [[Regions of France|region]] in northwestern [[France]].
+
+==Population==
+{{Historical populations
+|source = INSEE<ref name=pophist>[https://www.insee.fr/fr/statistiques/8643952?geo=COM-14509#tableau-POPREF_G1 Population municipale entre 1968 et 2023], INSEE</ref>
+|percentages = pagr
+|align = none
+|1968 |159
+|1975 |163
+|1982 |229
+|1990 |260
+|1999 |233
+|2007 |215
+|2012 |229
+|2017 |215
+|2023 |200
+}}
+
+==See also==
+*[[Communes of the Calvados department]]
+
+==References==
+{{reflist}}
+
+{{commons category}}
+{{Calvados communes}}
+
+{{authority control}}
+
+[[Category:Communes of Calvados (department)]]
+[[Category:Calvados communes articles needing translation from French Wikipedia]]
+
+{{Caen-geo-stub}}

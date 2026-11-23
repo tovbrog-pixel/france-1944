@@ -1,0 +1,37 @@
+{{Expand French|topic=geo|date=December 2008|Coulombs (Calvados)}}
+{{Infobox French commune
+|name                 = Coulombs
+|image                = Coulombs église St Vigor.JPG
+|arrondissement       = Bayeux
+|canton               = Thue et Mue
+|INSEE                = 14186
+|postal_code          = 14480
+|commune              = [[Moulins en Bessin]]
+|coordinates          = {{coord|49.2519|-0.5606|format=dms|display=inline,title}}
+|elevation_m          = 50
+|elevation_min_m      = 39
+|elevation_max_m      = 79
+|area_total_km2       = 4.43
+|population_total     = 459
+|population_date      = 2018
+|population_footnotes = <ref name=pop2018>[https://www.insee.fr/fr/statistiques/fichier/4989724/ensemble.pdf Téléchargement du fichier d'ensemble des populations légales en 2018], [[Institut national de la statistique et des études économiques|INSEE]]</ref>
+}}
+
+'''Coulombs''' is a former [[Communes of France|commune]] in the [[Calvados (department)|Calvados]] [[Departments of France|department]] in the [[Normandy (administrative region)|Normandy]] [[Regions of France|region]] in northwestern [[France]]. On 1 January 2017, it was merged into the new commune [[Moulins en Bessin]].<ref>[https://www.legifrance.gouv.fr/eli/arrete/2016/9/8/INTB1629491A/jo/texte Arrêté préfectoral] 8 September 2016 {{in lang|fr}}</ref>
+
+==See also==
+*[[Communes of the Calvados department]]
+
+==References==
+{{reflist}}
+
+{{commons category|Coulombs (Calvados)}}
+
+{{authority control}}
+
+[[Category:Former communes of Calvados (department)]]
+[[Category:Calvados communes articles needing translation from French Wikipedia]]
+[[Category:Communes of France disestablished in 2017]]
+
+
+{{Bayeux-geo-stub}}

@@ -1,0 +1,55 @@
+{{Infobox military installation
+| name            = Bazenville Airfield<BR>{{smaller|Crépon Airfield}}<BR>{{smaller|Advanced Landing Ground B-2}}
+| part_of         =
+| location        = {{Location map|France|label= Bazenville Airfield
+|marksize=6|mark=Red_pog.svg
+|lat_dir=N|lat_deg=49|lat_min=18|lat_sec=17
+|lon_dir=W|lon_deg=000|lon_min=33|lon_sec=43
+|width=300}}
+| coordinates     = {{Coord|49|18|17|N|000|33|43|W|name=B-2 Bazenville}}
+| image           = 
+| caption         = 
+| type            = Military Airfield
+| code            = 
+| built           = 
+| builder         = 
+| materials       = 
+| height          = 
+| in_use          = June–August 1944
+| demolished      = 
+| condition       = 
+| owner           = 
+| controlled_by   = [[File:Roundel of the United Kingdom.svg|20px]]&nbsp; [[Royal Air Force]]
+| garrison        = 
+| past_commanders = 
+| occupants       = 
+| battles         = [[Western Front (World War II)|Western Front]]
+| events          =  
+}}
+
+'''Bazenville Airfield''' is a former [[World War II|Second World War]] airfield, located 1.8&nbsp;km east of [[Bazenville]] in the [[Lower Normandy]] region, [[France]].  The B-2 Bazenville [[Advanced Landing Ground]] (ALG) was located only {{convert|5|km|mi}} southwest from the Normandy [[Gold Beach|Gold landing beach]], and when it opened the frontline was only {{convert|9|km|mi}}  away.
+
+==History==
+
+[[File:Wing Commander James E 'johnny' Johnson at Bazenville Landing Ground, Normandy, 31 July 1944 TR2145.jpg|thumb|left|RAF ace [[Johnnie Johnson (RAF officer, born 1915)|Johnnie Johnson]] with his pet Labrador dog, 'Sally', at Bazenville Landing Ground, 31 July 1944]]
+Bazenville Airfield was constructed by the [[Royal Engineers]] 16th Airfield Construction Group together with the RAF's 3207 and 3209 Servicing Commandos starting just after midnight after D-Day, 6 June 1944.  The construction consisted of a 5,000' square-mesh track (SMT) surfaced runway aligned 07/25, dispersal areas, communications facilities, landing lights and many other requirements to run an airfield.  Bazenville would have been completed as the first ALG in Normandy on 9 June, but a [[B-24 Liberator]] crashlanded at the uncompleted airfield that morning and ripped up a lot of SMT.  Instead it was completed two days later, on 11 June, and serviced the first 36 aircraft (Spitfires) of [[No. 127 Wing RCAF]] that same day.<ref>Leo Marriott; Simon Forty (19 March 2014). The Normandy Battlefields: D-Day and the Bridgehead. Casemate. pp. 37–. {{ISBN|978-1-61200-338-2}}.</ref>
+[[File:Royal Air Force- 2nd Tactical Air Force, 1943-1945. CL614.jpg|thumb|A Spitfire Mark IX of [[No. 443 Squadron RCAF]] taxies to dispersal at B2/Bazenville, alongside a field where French farmers are gathering in the wheat]]
+The complete RCAF Wing (403, 416, 421 and 443 Sqns) moved in on 16 June 1944.<ref>David Evans (17 October 2013). D-Day Beaches: An Illustrated Companion (Through Time). Amberley Publishing Limited. pp. 38–. {{ISBN|978-1-4456-2777-9}}.</ref> Its facilities were those of a full air base, with dispersals all around the airstrip. A fuel and ammunition dump was located south of the airfield. Rows of tents housing nearly 1,000 men were located in orchards to the southeast.
+
+A local church is believed to have served as Ground Control for the entire Normandy 2d Tactical Air Force area of responsibility.  Over the first month of its existence, the frontline only moved to {{convert|19|km|mi}}  away.  While 127 Wing operated from the airfield it was also used to evacuate thousands of injured soldiers, sailors and airmen to England.  In addition a constant stream of other Allied squadrons used the airfield for fuel, ammunition or repair.
+
+Bazenville was used until 28 August 1944, and afterwards the engineers moved in and dismantled all recoverable equipment along with the SMT. The land was then returned to the French farmers, and over the years, the land has been used as agricultural fields. Today, nothing remains of the former airfield.<ref>David Evans (1994). Guide to the Beaches and Battlefields of Normandy. Michael Joseph. {{ISBN|978-0-7181-3800-4}}.</ref>
+
+==References==
+* [https://web.archive.org/web/20160304111702/http://www.ronaldv.nl/abandoned/airfields/FR/lowernormandy/calvados.html#bazenville  Bazenville (B-2)]
+* Johnson, David C. (1988), U.S. Army Air Forces Continental Airfields (ETO), D-Day to V-E Day; Research Division, USAF Historical Research Center, Maxwell AFB, Alabama.
+
+;Specific
+<references />
+
+==External links==
+* [http://www.aerosteles.net/fiche.php?code=bazenville-b2 B-2 Memorial]
+
+{{authority control}}
+
+[[Category:World War II airfields in France]]

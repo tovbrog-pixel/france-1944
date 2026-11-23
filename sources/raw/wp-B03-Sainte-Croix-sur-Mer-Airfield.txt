@@ -1,0 +1,50 @@
+{{Infobox military installation
+| name            = Sainte-Croix-sur-Mer Airfield<BR>{{smaller|Advanced Landing Ground B-3}}
+| part_of         =
+| location        = {{Location map|France|label= Sainte-Croix-sur-Mer Airfield
+|marksize=6|mark=Red_pog.svg
+|lat_dir=N|lat_deg=49|lat_min=19|lat_sec=08
+|lon_dir=W|lon_deg=000|lon_min=31|lon_sec=06
+|width=300}}
+| coordinates     = {{Coord|49|19|08|N|000|31|06|W|name= B-3 St. Croix-sur-Mer}}
+| image           = 
+| caption         = 
+| type            = Military Airfield
+| code            = 
+| built           = 
+| builder         = 
+| materials       = 
+| height          = 
+| in_use          = June–September 1944
+| demolished      = 
+| condition       = 
+| owner           = 
+| controlled_by   = [[File:Roundel of the United Kingdom.svg|20px]]&nbsp; [[Royal Air Force]]
+| garrison        = 
+| past_commanders = 
+| occupants       = 
+| battles         = [[Western Front (World War II)]]
+| events          =  
+}}
+
+'''Sainte-Croix-sur-Mer Airfield''' is a former [[World War II]] airfield, located 1&nbsp;km northwest of [[Sainte-Croix-sur-Mer]] in the [[Normandy]] region, [[France]].   The airfield was located only 3.5 kilometers  from the Normandy [[Gold Beach|Gold landing beach]], and when it opened the frontline was not much further away. Over the first month of its existence the frontline only moved to 19 kilometers (11 miles) away.
+
+==History==
+[[File:ALG-B.3-landing.jpg|thumb|left| A Second Tactical Air Force Spitfire Mark IX landing at B3/Ste Croix-sur-Mer.]]
+Sainte-Croix-sur-Mer Airfield was constructed by a Royal Engineers Airfield Construction Group just after D-Day. The group built a 3,600 foot runway and dispersal areas using SMT, while communications facilities were provided by equipment installed in vehicles.  Being a temporary airfield, its facilities were basic, but adequate. A fuel and ammunition dump was located near the airfield.
+
+It was used by RAF 144 and 146 Wing and was also used to evacuate injured soldiers, sailors and airmen to England. In addition a constant stream of other Allied squadrons used the airfield for fuel, ammunition or repair.  On 23 July 1944 Prime Minister [[Winston Churchill]] paid a morale boosting visit to B.3 St. Croix-sur-Mer, flown by Air Vice Marshal [[Harry Broadhurst]] in his captured Fieseler Storch. He did a speech at the airfield, and then visited troops in the area by jeep.
+
+The airfield was used until 4 September 1944.  Afterwards the engineers moved in and dismantled all recoverable equipment along with the SMT. The land was then returned to the French farmers, and over the decades, the land has been used as agricultural fields. Today, nothing remains of the former airfield.
+
+==References==
+* [https://web.archive.org/web/20160304111702/http://www.ronaldv.nl/abandoned/airfields/FR/lowernormandy/calvados.html#stcroix  St.Croix-sur-Mer (B-3)]
+* Johnson, David C. (1988), U.S. Army Air Forces Continental Airfields (ETO), D-Day to V-E Day; Research Division, USAF Historical Research Center, Maxwell AFB, Alabama.
+
+==External links==
+{{Commons category|B-3 Sainte-Croix-sur-Mer}}
+* [http://www.aerosteles.net/fiche.php?code=stecroix-b3 B-3 Memorial]
+
+{{authority control}}
+
+[[Category:World War II airfields in France]]

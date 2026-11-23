@@ -1,0 +1,56 @@
+{{Use dmy dates|date=August 2023}}
+{{Infobox French commune
+| name                 = Valailles
+| commune_status       = [[Communes of France|Commune]]
+| image                = Valailles église2.jpg
+| caption              = Saint-Pierre
+| image_shield         = Blason ville fr Valaille (Eure).svg
+| arrondissement       = Bernay
+| canton               = Bernay
+| INSEE                = 27667
+| postal_code          = 27300
+| mayor                = Claudine Dodelande<ref>{{cite web|title=Répertoire national des élus: les maires|url=https://www.data.gouv.fr/fr/datasets/r/2876a346-d50c-4911-934e-19ee07b0e503|publisher=data.gouv.fr, Plateforme ouverte des données publiques françaises|date=13 September 2022|language=fr}}</ref>
+| term                 = 2020&ndash;2026
+| intercommunality     =
+| coordinates          = {{coord|49.1222|0.6022|format=dms|display=inline,title}}
+| elevation_m          = 162
+| elevation_min_m      = 119
+| elevation_max_m      = 164
+| area_total_km2       = 5.37
+| population_total     = {{France metadata Wikidata|population_total}}
+| population_date      = {{France metadata Wikidata|population_as_of}}
+| population_footnotes = {{France metadata Wikidata|population_footnotes}} 
+}}
+
+'''Valailles''' ({{IPA|fr|valaj}}) is a [[Communes of France|commune]] in the [[Eure]] [[Departments of France|department]] in [[Normandy (administrative region)|Normandy]] in northern [[France]].
+
+==Population==
+{{Historical populations
+|source = INSEE<ref name=pophist>[https://www.insee.fr/fr/statistiques/8643952?geo=COM-27667#tableau-POPREF_G1 Population municipale entre 1968 et 2023], INSEE</ref>
+|percentages = pagr
+|align = none
+|1968 |163
+|1975 |180
+|1982 |273
+|1990 |303
+|1999 |321
+|2007 |370
+|2012 |394
+|2017 |384
+|2023 |413
+}}
+
+==See also==
+*[[Communes of the Eure department]]
+
+==References==
+{{reflist}}
+
+{{Commons category}}
+{{Eure communes}}
+
+{{authority control}}
+
+[[Category:Communes of Eure]]
+
+{{Bernay-geo-stub}}

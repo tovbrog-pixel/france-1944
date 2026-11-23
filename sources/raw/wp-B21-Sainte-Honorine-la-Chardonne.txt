@@ -1,0 +1,82 @@
+{{Use dmy dates|date=August 2023}}
+{{Infobox French commune
+| name                 = Sainte-Honorine-la-Chardonne
+| commune_status       = [[Communes of France|Commune]]
+| image                = Mairie de Saint-Honorine-La-Chardonne.jpg
+| caption              = The town hall in Sainte-Honorine-la-Chardonne
+| arrondissement       = Argentan
+| canton               = Athis-Val de Rouvre
+| INSEE                = 61407
+| postal_code          = 61430
+| mayor                = Emmanuel Le Secq<ref>{{cite web|title=Répertoire national des élus: les maires|url=https://www.data.gouv.fr/en/datasets/r/2876a346-d50c-4911-934e-19ee07b0e503|website=data.gouv.fr, Plateforme ouverte des données publiques françaises|date=9 August 2021|language=fr}}</ref>
+| term                 = 2020&ndash;2026
+| intercommunality     = [[Communauté d'agglomération Flers Agglo|CA Flers Agglo]]
+| coordinates          = {{coord|48.8247|-0.4844|format=dms|display=inline,title}}
+| elevation_m          = 235
+| elevation_min_m      = 78
+| elevation_max_m      = 251
+| area_total_km2       = 14.4
+| population_total     = {{France metadata Wikidata|population_total}}
+| population_date      = {{France metadata Wikidata|population_as_of}}
+| population_footnotes = {{France metadata Wikidata|population_footnotes}}
+}}
+
+'''Sainte-Honorine-la-Chardonne''' is a [[Communes of France|commune]] in the [[Orne]] [[Departments of France|department]] in north-western [[France]].<ref>{{Cite web|url=https://www.insee.fr/fr/metadonnees/geographie/commune/61407-sainte-honorine-la-chardonne|title=Commune de Sainte-Honorine-la-Chardonne (61407)|publisher=INSEE}}</ref>
+
+==Geography==
+
+The commune is part of the area known as [[Norman Switzerland|Suisse Normande]].<ref>{{Cite web|url=https://www.office-tourisme-putanges.com/decouvrir/images/carte-suisse-normande/carte-sn.pdf|title=Map of Suisse Normande}}</ref>
+
+The commune is made up of the following collection of villages and hamlets, '''La Barbotière''','''Cingal''', '''La Pouplière''', '''Les Petits Champs''','''La Soubinière''','''La Ferté''', '''Le Châtellier''', '''La Forgé Martin''', '''La Rivière''', '''La Pérée''', '''La Bernottière''', '''La Grésillière''', '''Laubenière''' and '''Sainte-Honorine-la-Chardonne'''.<ref>{{Cite web|url=https://www.google.com/maps/place/61430+Sainte-Honorine-la-Chardonne,+France/@48.8233278,-0.5029888,14z/data=!3m1!4b1!4m6!3m5!1s0x480a25b9fe5d2541:0x40c14484fb80b90!8m2!3d48.824362!4d-0.486176!16s/m/03x_xt5?entry=ttu|title=Sainte-Honorine-la-Chardonne · 61430, France|website=Sainte-Honorine-la-Chardonne · 61430, France}}</ref>
+
+The only two watercourses to run through the commune are [[La Vere]] and La Courteille.<ref>{{Sandre|id=I24-0410|nom=La Vere}}</ref><ref>{{Sandre|id=I2368000|nom=La Courteille}}</ref>
+
+{{Geographic location
+| title = '''Neighbouring communes'''<ref>{{Cite web|url=https://www.google.com/maps/place/61430+Sainte-Honorine-la-Chardonne,+France/@48.823272,-0.5647897,12z/data=!3m1!4b1!4m6!3m5!1s0x480a25b9fe5d2541:0x40c14484fb80b90!8m2!3d48.824362!4d-0.486176!16s/m/03x_xt5?entry=ttu|title=Sainte-Honorine-la-Chardonne · 61430, France|website=Sainte-Honorine-la-Chardonne · 61430, France}}</ref>
+|width=auto
+|state=expanded
+|Centre    = Sainte-Honorine-la-Chardonne
+|North     = [[Berjou]]
+|Northeast = [[Cahan, Orne|Cahan]]
+|East      = [[La Lande-Saint-Siméon]] 
+|Southeast = 
+|South     = [[Athis-Val-de-Rouvre]]
+|Southwest = 
+|West      = [[Saint-Pierre-du-Regard]]
+|Northwest = 
+}}
+
+==Notable buildings and places==
+
+'''Renaissance Garden of Sainte-Honorine-la-Chardonne''' is a 5000m2 garden built around the ruins of the Manoir de la Boisnerie and is open to the public.<ref>{{Cite web|url=https://www.ouest-france.fr/normandie/sainte-honorine-la-chardonne-61430/sainte-honorine-la-chardonne-dix-ans-de-travail-dans-le-jardin-renaissance-recompenses-f44a7374-2dea-11ec-806e-9617b2a03500|title=Dix ans de travail récompensés au jardin Renaissance de Sainte-Honorine-la-Chardonne|date=October 17, 2021|website=Ouest-France.fr}}</ref> The garden was classed as a [[List of Remarkable Gardens of France|Jardins remarquables]] by the [[Ministry of Culture (France)|Ministry of Culture]] and the '''Comité des Parcs et Jardins de France''' in 2021.<ref>{{Cite web|url=https://www.parcsetjardins.fr/jardins/1693-jardins-du-manoir-de-la-boisnerie|title=Jardins du manoir de La Boisnerie - Comité des Parcs et Jardins de France|website=www.parcsetjardins.fr}}</ref><ref>{{cite web |title=Sainte-Honorine-la-Chardonne – Jardin du manoir de la Boisnerie |url=https://monumentum.fr/jardin-remarquable/jar0000456/sainte-honorine-la-chardonne-jardin-du-manoir-de-la-boisnerie |website=Monumentum |publisher=Monumentum |language=fr |access-date=11 December 2025}}</ref>
+
+===National heritage sites===
+
+'''Château de Saint-Sauveur''' is a 16th Century Chateau that was classed as a [[Monument historique]] in 2009.<ref>{{Cite web|url=https://monumentum.fr/monument-historique/pa00110925/sainte-honorine-la-chardonne-chateau-de-saint-sauveur|title=Château de Saint-Sauveur à Sainte-Honorine-la-Chardonne - PA00110925|website=monumentum.fr}}</ref>
+
+<gallery>
+
+File:Église Sainte-Honorine de Sainte-Honorine-la-Chardonne. Vue sud-est.jpg|Sainte-Honorine Church in Sainte-Honorine-la-Chardonne
+File:FranceNormandieSainteHonorineLaChardonneEglise.jpg|Saint Honorine Church
+</gallery>
+
+==Notable people==
+*'''[[Guy Lefèvre de la Boderie]]''' a 16th century French [[oriental studies|Orientalist]], Bible scholar and poet was born here.<ref>{{Cite book|url=https://doi.org/10.1007/978-3-319-02848-4_650-1|title=Encyclopedia of Renaissance Philosophy|first=Luisa|last=Brotto|editor-first=Marco|editor-last=Sgarbi|date=July 30, 2020|publisher=Springer International Publishing|pages=1–3|via=Springer Link|doi=10.1007/978-3-319-02848-4_650-1}}</ref>
+*'''[[Guillaume Martin]]''' is a French professional cyclist who has competed in all 3 [[Grand Tour (cycling)|Grand tours]], winning the [[Mountains classification in the Vuelta a España]] grew up here as a child and continues to have a presence here.<ref>{{Cite web|url=https://actu.fr/normandie/sainte-honorine-la-chardonne_61407/dans-l-orne-le-cycliste-guillaume-martin-inaugure-ses-gites_46970773.html|title=Dans l'Orne, le cycliste Guillaume Martin inaugure ses gîtes|date=December 4, 2021|website=actu.fr}}</ref><ref>{{Cite web|url=https://www.ouest-france.fr/normandie/sainte-honorine-la-chardonne-61430/saint-honorine-la-chardonne-un-gite-pour-seduire-les-cyclistes-34616644-b270-11eb-99e9-492a6d7bf1f6|title=Saint-Honorine-la-Chardonne. Un gîte pour séduire les cyclistes|date=May 12, 2021|website=Ouest-France.fr}}</ref><ref>{{Cite web|url=https://www.procyclingstats.com/rider/guillaume-martin|title=Guillaume Martin|website=www.procyclingstats.com}}</ref>
+
+==See also==
+* [[Communes of the Orne department]]
+
+==References==
+{{Reflist}}
+
+{{commons category}}
+
+{{Orne communes}}
+
+{{authority control}}
+
+{{DEFAULTSORT:Sainte-Honorine-La-Chardonne}}
+[[Category:Communes of Orne|Saintehonorinelachardonne]]
+[[Category:Gardens in Orne]]
+[[Category:Monuments historiques of Orne]]

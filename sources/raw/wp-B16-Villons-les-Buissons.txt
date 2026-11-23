@@ -1,0 +1,58 @@
+{{Expand French|date=December 2008|Villons-les-Buissons|topic = geo}}
+{{Use dmy dates|date=August 2023}}
+{{Infobox French commune
+| name                 = Villons-les-Buissons
+| commune_status       = [[Communes of France|Commune]]
+| image                = Villonslesbuissons eglise.jpg
+| caption              = The church in Villons-les-Buissons
+| arrondissement       = Caen
+| canton               = Caen-2
+| INSEE                = 14758
+| postal_code          = 14610
+| mayor                = Patrick de Bruyn<ref>{{cite web|title=Répertoire national des élus: les maires|url=https://www.data.gouv.fr/fr/datasets/r/2876a346-d50c-4911-934e-19ee07b0e503|publisher=data.gouv.fr, Plateforme ouverte des données publiques françaises|date=13 September 2022|language=fr}}</ref>
+| term                 = 2020&ndash;2026
+| intercommunality     = [[Communauté urbaine Caen la Mer|CU Caen la Mer]]
+| coordinates          = {{coord|49.2411|-0.4081|format=dms|display=inline,title}}
+| elevation_m          = 71
+| elevation_min_m      = 58
+| elevation_max_m      = 75
+| area_total_km2       = 3.76
+| population_total     = {{France metadata Wikidata|population_total}}
+| population_date      = {{France metadata Wikidata|population_as_of}}
+| population_footnotes = {{France metadata Wikidata|population_footnotes}}
+}}
+
+'''Villons-les-Buissons''' ({{IPA|fr|vijɔ̃ le bɥisɔ̃|-|Fr-Paris--Villons-les-Buissons.ogg}}) is a [[Communes of France|commune]] in the [[Calvados (department)|Calvados]] [[Departments of France|department]] in the [[Normandy (administrative region)|Normandy]] [[Regions of France|region]] in northwestern [[France]].
+
+==Population==
+{{Historical populations
+|source = INSEE<ref name=pophist>[https://www.insee.fr/fr/statistiques/8643952?geo=COM-14758#tableau-POPREF_G1 Population municipale entre 1968 et 2023], INSEE</ref>
+|percentages = pagr
+|align = none
+|1968 |178
+|1975 |376
+|1982 |438
+|1990 |550
+|1999 |554
+|2007 |684
+|2012 |713
+|2017 |749
+|2023 |848
+}}
+
+==See also==
+*[[Communes of the Calvados department]]
+
+==References==
+{{reflist}}
+
+{{commons category}}
+{{Calvados communes}}
+
+{{authority control}}
+
+{{DEFAULTSORT:Villonslesbuissons}}
+[[Category:Communes of Calvados (department)]]
+[[Category:Calvados communes articles needing translation from French Wikipedia]]
+
+{{Caen-geo-stub}}

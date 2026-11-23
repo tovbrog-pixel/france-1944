@@ -258,6 +258,132 @@
   "sha256": "40555eb8ee8adea4969a25f8b8650f3bee8a29c692b4cc8a4000409e2a548574",
   "url": "https://www.ibiblio.org/hyperwar/UN/Canada/CA/Victory/index.html"
  },
+ "raw/wp-B01-Asnelles.txt": {
+  "bytes": 28782,
+  "note": "Wikipedia, Asnelles",
+  "read": "2026-11-23",
+  "sha256": "be3ab2ecff26d238b20d2bcb47f7eb202d08032c45772480577442627badc5d3",
+  "url": "https://en.wikipedia.org/w/index.php?title=Asnelles&action=raw"
+ },
+ "raw/wp-B02-Bazenville-Airfield.txt": {
+  "bytes": 4672,
+  "note": "Wikipedia, Bazenville Airfield",
+  "read": "2026-11-23",
+  "sha256": "f659dcb203421e9610fc4bf94dd9aa6af038f25ed5715c5926657d66f71e756b",
+  "url": "https://en.wikipedia.org/w/index.php?title=Bazenville_Airfield&action=raw"
+ },
+ "raw/wp-B03-Sainte-Croix-sur-Mer-Airfield.txt": {
+  "bytes": 3254,
+  "note": "Wikipedia, Sainte-Croix-sur-Mer Airfield",
+  "read": "2026-11-23",
+  "sha256": "340e51f52d9c0dcd4f139023b6683410fc92f1862fb617f89afdcf0e5ab071cf",
+  "url": "https://en.wikipedia.org/w/index.php?title=Sainte-Croix-sur-Mer_Airfield&action=raw"
+ },
+ "raw/wp-B04-B-4-Beny-sur-Mer.txt": {
+  "bytes": 35,
+  "note": "Wikipedia, B-4 Beny-sur-Mer",
+  "read": "2026-11-23",
+  "sha256": "f91c57d21751b74f9a419cd0f4c6a63217ca64e43284bf4f9880f4edef3495b8",
+  "url": "https://en.wikipedia.org/w/index.php?title=B-4_Beny-sur-Mer&action=raw"
+ },
+ "raw/wp-B06-Coulombs-Calvados.txt": {
+  "bytes": 1692,
+  "note": "Wikipedia, Coulombs, Calvados",
+  "read": "2026-11-23",
+  "sha256": "a5ceb2d3e98185270bb651ea15c8b2b806b2f124c62c72225605b069c3112184",
+  "url": "https://en.wikipedia.org/w/index.php?title=Coulombs,_Calvados&action=raw"
+ },
+ "raw/wp-B07-Martragny.txt": {
+  "bytes": 1902,
+  "note": "Wikipedia, Martragny",
+  "read": "2026-11-23",
+  "sha256": "6fec86e5682f2f062022c0d838652797c8f29e0eb81d1d98499a192b1045c37c",
+  "url": "https://en.wikipedia.org/w/index.php?title=Martragny&action=raw"
+ },
+ "raw/wp-B08-Sommervieu.txt": {
+  "bytes": 2296,
+  "note": "Wikipedia, Sommervieu",
+  "read": "2026-11-23",
+  "sha256": "5543e83a9968935b5b1719bdb208a43e63f0bc27851538be3bba56deba51de29",
+  "url": "https://en.wikipedia.org/w/index.php?title=Sommervieu&action=raw"
+ },
+ "raw/wp-B09-Lantheuil.txt": {
+  "bytes": 1933,
+  "note": "Wikipedia, Lantheuil",
+  "read": "2026-11-23",
+  "sha256": "4f6276be66a64cc35b60830f46abed41b28af42a561711122e806277d2cdeaf5",
+  "url": "https://en.wikipedia.org/w/index.php?title=Lantheuil&action=raw"
+ },
+ "raw/wp-B10-Plumetot.txt": {
+  "bytes": 2207,
+  "note": "Wikipedia, Plumetot",
+  "read": "2026-11-23",
+  "sha256": "abdeac8a652ecb05f769f79e10338aa7bdf9f1cbd90a131a0214064d0c436b62",
+  "url": "https://en.wikipedia.org/w/index.php?title=Plumetot&action=raw"
+ },
+ "raw/wp-B11-Longues-sur-Mer.txt": {
+  "bytes": 2786,
+  "note": "Wikipedia, Longues-sur-Mer",
+  "read": "2026-11-23",
+  "sha256": "774d1b61b73467fbaa0f925162fee494a3e5f58a66021000e82ebee00266693d",
+  "url": "https://en.wikipedia.org/w/index.php?title=Longues-sur-Mer&action=raw"
+ },
+ "raw/wp-B12-Ellon-Calvados.txt": {
+  "bytes": 2217,
+  "note": "Wikipedia, Ellon, Calvados",
+  "read": "2026-11-23",
+  "sha256": "35393d505d2594bc721e04df9c9d4f2317c956a337d3c9a8219c1dcf678c31a7",
+  "url": "https://en.wikipedia.org/w/index.php?title=Ellon,_Calvados&action=raw"
+ },
+ "raw/wp-B16-Villons-les-Buissons.txt": {
+  "bytes": 2312,
+  "note": "Wikipedia, Villons-les-Buissons",
+  "read": "2026-11-23",
+  "sha256": "38974e6ece6d798b832850e86e8d053284d43628d88b8ee881a4bb14d8615c59",
+  "url": "https://en.wikipedia.org/w/index.php?title=Villons-les-Buissons&action=raw"
+ },
+ "raw/wp-B17-Carpiquet.txt": {
+  "bytes": 7510,
+  "note": "Wikipedia, Carpiquet",
+  "read": "2026-11-23",
+  "sha256": "e58f2f23d59d4df3d4c4c9721304db69ae0a8168d470b14b6c4611faf3e4981c",
+  "url": "https://en.wikipedia.org/w/index.php?title=Carpiquet&action=raw"
+ },
+ "raw/wp-B20-Demouville.txt": {
+  "bytes": 61,
+  "note": "Wikipedia, Demouville",
+  "read": "2026-11-23",
+  "sha256": "c48540f5fc93c4b24b58daddbd8719c7661e17e2fb6d594c9b2472a662d70ebf",
+  "url": "https://en.wikipedia.org/w/index.php?title=Demouville&action=raw"
+ },
+ "raw/wp-B21-Sainte-Honorine-la-Chardonne.txt": {
+  "bytes": 7148,
+  "note": "Wikipedia, Sainte-Honorine-la-Chardonne",
+  "read": "2026-11-23",
+  "sha256": "ccdb8e8ec6ceeab59e698d1ad3f17bf0df2b1136b86317abf1d847aa75020d15",
+  "url": "https://en.wikipedia.org/w/index.php?title=Sainte-Honorine-la-Chardonne&action=raw"
+ },
+ "raw/wp-B24-No-184-Squadron-RAF.txt": {
+  "bytes": 4379,
+  "note": "Wikipedia, No. 184 Squadron RAF",
+  "read": "2026-11-23",
+  "sha256": "47ed9aa9da97b03ab74d67c15644869e11bebbcb99a02ff6ad871f104029b31a",
+  "url": "https://en.wikipedia.org/w/index.php?title=No._184_Squadron_RAF&action=raw"
+ },
+ "raw/wp-B27-Boisney.txt": {
+  "bytes": 1918,
+  "note": "Wikipedia, Boisney",
+  "read": "2026-11-23",
+  "sha256": "85257dc4aae1f45587b582aedaa4074ce9656efbad08a7d4d1f8f7587a0f59b3",
+  "url": "https://en.wikipedia.org/w/index.php?title=Boisney&action=raw"
+ },
+ "raw/wp-B29-Valailles.txt": {
+  "bytes": 1953,
+  "note": "Wikipedia, Valailles",
+  "read": "2026-11-23",
+  "sha256": "c54ea01d404e8f586eee3702f3a7ebc835ce35e7991539b377008806a7240199",
+  "url": "https://en.wikipedia.org/w/index.php?title=Valailles&action=raw"
+ },
  "raw/wp-advanced-landing-ground.txt": {
   "bytes": 165431,
   "note": "Wikipedia, Advanced landing ground (wikitext)",

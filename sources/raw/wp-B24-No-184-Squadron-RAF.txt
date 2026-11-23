@@ -1,0 +1,76 @@
+{{Short description|Defunct flying squadron of the Royal Air Force}}
+{{Use British English|date=April 2015}}
+{{Use dmy dates|date=March 2025}}
+{{Infobox military unit
+|unit_name              =No. 184 Squadron RAF
+|image                  =[[File:184 squadron crest.png|150px|184 Squadron badge]]
+|caption=[[Heraldic badges of the Royal Air Force|Official Squadron badge]]
+|dates                  =1 December 1942 – 10 September 1945 
+|country= {{flagicon|UK}} United Kingdom
+|allegiance=
+|branch= [[File:Ensign of the Royal Air Force.svg|23px]] [[Royal Air Force]]
+|motto                  ={{langx|la|Nihil impenetrabile}}<br>("Nothing impenetrable")<ref>{{cite book |last1=Pine |first1=LG |title=A Dictionary of mottoes |date=1983 |publisher=Routledge & K. Paul |location=London |isbn=0-7100-9339-X |page=[https://archive.org/details/dictionaryofmott00tion/page/149 149] |url-access=registration |url=https://archive.org/details/dictionaryofmott00tion/page/149 }}</ref>
+|command_structure      =
+|equipment              =
+|garrison               =
+|garrison_label         =Base
+|battle_honours         =
+|identification_symbol=A gun barrel in bend
+|identification_symbol_label=Squadron badge heraldry
+}}
+
+'''No. 184 Squadron''' was a [[Royal Air Force]] squadron during the [[World War II|second world war]].
+
+==History==
+'''No.184 Squadron''' was formed at [[RAF Colerne]] on 1 December 1942, as a [[fighter-bomber]] unit equipped with [[Hawker Hurricane|Hawker Hurricane Mk.IID]] with 40mm anti-tank cannon.<ref name="HurriVar">{{cite web |title=Hawker Hurricane – variants |url=https://www.baesystems.com/en-uk/heritage/hurricane |website=baesystems.com |access-date=24 March 2024}}</ref> After a short time these were replaced by [[Hawker Hurricane|Hawker Hurricane Mk.IV]] allowing a variety of weapons to be fitted, including [[RP-3]] 60lb rockets.<ref name="HurriVar"/> As part of [[2nd TAF]] attacks on enemy shipping began on 17 June 1943.<ref name="rafweb184">{{cite web |title=Squadron Histories – No.184 squadron |url=https://www.rafweb.org/Squadrons/Sqn181-185.htm |website=rafweb.org |access-date=24 March 2024}}</ref>
+
+In March 1944 the squadron re-equipped with [[Hawker Typhoon|Hawker Typhoon IB]] fighter-bombers{{sfn|Jefford|1988|page=66}} and in preparation for the [[liberation of France]] these aircraft began a series of attacks on enemy communications. After [[D-day]], on 27 June 1944, the squadron moved to [[Caen]], [[Normandy]], supporting the [[21st Army Group]] throughout the [[Operation Overlord|battle of Normandy]] and the subsequent advance to the Netherlands. After spending the winter in the Netherlands, No.184 squadron moved to Germany on 21 March 1945, making them one of the first squadrons based on German soil during [[World War II]].<ref name="rafweb184"/>
+
+[[File:Memorial Avion.jpg|thumb|right|Hawker Typhoon replica in Caen Museum, painted in the markings of 184 Sqn]]
+
+After hostilities ended, No.184 squadron was disbanded on 10 September 1945 at [[Flensberg]] in Germany.<ref name="rafweb184"/>
+
+==Notable Commanders==
+[[Jack Rose (colonial administrator)|Squadron Leader Jack Rose DFC]] – pioneered the operational use of rocket projectiles fired from single-engined fighter bombers.<ref>{{cite web |title=Squadron C/O's |url=https://www.184squadron.com/ |website=184squadron.com |access-date=24 March 2024}}</ref>
+
+==Aircraft operated==
+{|class="wikitable"
+|-
+!Dates
+!Aircraft
+!Variant
+!Notes
+|-
+|1942–1943
+|[[Hawker Hurricane]]
+|IID
+|
+|-
+|1943–1944
+|Hawker Hurricane
+|IV
+|
+|-
+|1944–1945
+|[[Hawker Typhoon]]
+|IB
+|
+|}
+
+==References==
+<references />
+
+===Bibliography===
+*{{cite book |last1=Jefford |first1= C.G. |title= RAF Squadrons. A comprehensive record of the movement and equipment of all RAF squadrons and their antecedents since 1912 |year=1988 |publisher= Airlife |location= [[Shrewsbury]] |isbn= 1-85310-053-6 }}
+
+==External links==
+{{commons category|No. 184 Squadron RAF}}
+* [http://www.raf.mod.uk/history/184squadron.cfm Squadron history page on official RAF Website]
+* [https://www.rafweb.org/Squadrons/Sqn181-185.htm Air of Authority]
+* [https://www.184squadron.com  History of 184 Squadron with photos supplied by pilots and relatives]
+
+{{RAF squadrons}}
+{{Royal Air Force}}
+
+[[Category:Military units and formations established in 1942]]
+[[Category:Royal Air Force aircraft squadrons|184 squadron]]

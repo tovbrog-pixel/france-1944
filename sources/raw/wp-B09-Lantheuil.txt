@@ -1,0 +1,51 @@
+{{Expand French|topic=geo|date=December 2008|Lantheuil}}
+{{Infobox French commune
+|name                 = Lantheuil
+|image                = Lantheuil.JPG
+|arrondissement       = Caen
+|canton               = Thue et Mue
+|INSEE                = 14355
+|postal_code          = 14480
+|commune              = [[Ponts sur Seulles]]
+|coordinates          = {{coord|49.2697|-0.515|format=dms|display=inline,title}}
+|elevation_m          = 30
+|elevation_min_m      = 12
+|elevation_max_m      = 61
+|area_total_km2       = 4.42
+|population_total     = 747
+|population_date      = 2018
+|population_footnotes = <ref name=pop2018>[https://www.insee.fr/fr/statistiques/fichier/4989724/ensemble.pdf Téléchargement du fichier d'ensemble des populations légales en 2018], [[Institut national de la statistique et des études économiques|INSEE]]</ref>
+}}
+
+'''Lantheuil''' ({{IPA|fr|lɑ̃tœj|-|Fr-Lantheuil.ogg}}) is a former [[Communes of France|commune]] in the [[Calvados (department)|Calvados]] [[Departments of France|department]] in the [[Normandy (administrative region)|Normandy]] [[Regions of France|region]] in northwestern [[France]]. On 1 January 2017, it was merged into the new commune [[Ponts sur Seulles]].<ref>[https://www.legifrance.gouv.fr/eli/arrete/2016/9/8/INTB1629539A/jo/texte Arrêté préfectoral] 8 September 2016 {{in lang|fr}}</ref>
+
+==Population==
+{{Historical populations
+|align = none
+|percentages = pagr
+|source = EHESS<ref name=ehess>{{Cassini-Ehess|18700|Lantheuil}}</ref> and INSEE<ref name=pop2018/>
+|1962|345
+|1968|364
+|1975|352
+|1982|505
+|1990|616
+|1999|592
+|2018|747
+}}
+
+==See also==
+*[[Communes of the Calvados department]]
+
+==References==
+{{reflist}}
+
+{{commons category}}
+
+{{authority control}}
+
+[[Category:Former communes of Calvados (department)]]
+[[Category:Calvados communes articles needing translation from French Wikipedia]]
+[[Category:Communes of France disestablished in 2017]]
+
+
+{{Caen-geo-stub}}
