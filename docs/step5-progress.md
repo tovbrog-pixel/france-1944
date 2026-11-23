@@ -46,6 +46,10 @@ Armies sit above the corps: First and Third US Armies, Second British Army and F
 
 Eisenhower's supply lever works by army: the army line on a division's card carries **High**, **Normal** and **Low**. A high-priority army's truck columns carry 30 percent more per trip; a low-priority army's carry 30 percent less and leave the last third of each source's stock to the other armies. The setting goes into the save file. These figures are game settings.
 
+## The Mortain counterattack
+
+AI planned moves can now depend on the situation (`cond`: an objective held by a given side). The four divisions of Operation Lüttich, the 2nd, 116th, 1st SS and 2nd SS Panzer Divisions, attack west toward Avranches on the night of 6/7 August if the Allies hold Avranches by then. Date and divisions are general history, to verify against Blumenson ch. XXV.
+
 ## Political score
 
 `engine/src/politics.js` keeps Eisenhower's standing with Washington, London, Paris and Moscow as the design document describes, and the top bar shows the composite. In the slice:
