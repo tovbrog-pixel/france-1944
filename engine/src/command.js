@@ -4,6 +4,8 @@
 // The node's commander takes staff time to plan, splits the objective line into sectors left to right,
 // keeps a reserve when his style calls for it, and passes each child a parallel line of advance, so sister
 // formations do not cross each other's routes. Children then plan their own orders as before.
+// review settings, all starting values for balance testing
+const CMDAI = { spentFrac: .45, spentCoh: .3, stallMin: 180, onObjKm: 1.5, coolMin: 120 };
 function attachCommand(S) {
   const nodes = []; S.commands = nodes;
   const segOf = (line, a, b) => {           // the part of polyline `line` between distances a and b
@@ -17,9 +19,9 @@ function attachCommand(S) {
   }
   function weight(n) {                      // frontage a child can hold: its fighting units still in being
     if (n.forms) return n.forms.reduce((s, c) => s + weight(c), 0);
-    return n.subs.filter(u => u.active && !u.dead && LEADCLS[u.cls]).length * (n.dead ? 0 : 1);
+    return n.subs.filter(u => (u.active || n.transit) && !u.dead && LEADCLS[u.cls]).length * (n.dead ? 0 : 1);
   }
-  const live = n => n.forms ? n.forms.some(live) : !n.dead && n.subs.some(u => u.active && !u.dead);
+  const live = n => n.forms ? n.forms.some(live) : !n.dead && (!!n.transit || n.subs.some(u => u.active && !u.dead));   // a division on the move by road or rail is alive though off the map
 
   // create a command node: { n, s, cmd: { n, ag, sk }, forms: [formations or nodes], parent }
   S.mkCommand = function (o) { const C = Object.assign({ id: nodes.length, order: null, status: 'No orders', log: [] }, o); for (const c of C.forms) c.parent = C; nodes.push(C); return C; };
@@ -67,16 +69,48 @@ function attachCommand(S) {
   };
   function release(C) {
     const O = C.order; O.st = 'issued'; const plan = S.planCommandOrder(C, O.path, O.line, O.opt);
-    for (const q of plan) {
-      const o = Object.assign({}, O.opt, q.reserve ? { then: 'reserve' } : {}); delete o.reserve;
-      if (q.child.forms) S.issueCommandOrder(q.child, q.path, q.line, o); else S.issueOrder(q.child, q.path, q.line, o);
-    }
-    O.plan = plan.map(q => ({ n: q.child.n, reserve: q.reserve }));
+    for (const q of plan) send(q.child, q.path, q.line, O.opt, q.reserve);
+    O.plan = plan.map(q => ({ child: q.child, path: q.path, line: q.line, reserve: q.reserve, w0: weight(q.child), best: 1e9, tBest: S.t }));
+    O.nextReview = S.t + 60; O.lastAct = -1e9;
     C.status = 'Orders passed to ' + plan.length + (plan.some(q => q.reserve) ? ', one in reserve' : '');
-    S.say(C.s, C.n + ': orders passed to ' + plan.map(q => q.child.n + (q.reserve ? ' (reserve)' : '')).join(', ') + '.', 1);
+    report(C, 'orders passed to ' + plan.map(q => q.child.n + (q.reserve ? ' (reserve)' : '')).join(', ') + '.');
+  }
+  function send(child, path, line, opt, reserve, then) {
+    const o = Object.assign({}, opt, reserve ? { then: 'reserve' } : {}, then ? { then } : {}); delete o.reserve;
+    if (child.forms) S.issueCommandOrder(child, path, line, o); else S.issueOrder(child, path, line, o);
+  }
+  function report(C, txt, lvl) { C.log.push({ t: S.t, txt }); S.say(C.s, C.n + ': ' + txt, lvl || 1); }
+  const lineDist = (n, line) => { const p = pos(n); if (!p) return 1e9; let b = 1e9; for (let i = 1; i < line.length; i++) { const ax = line[i - 1][0], ay = line[i - 1][1], dx = line[i][0] - ax, dy = line[i][1] - ay, l2 = dx * dx + dy * dy || 1e-9, t = Math.max(0, Math.min(1, ((p[0] - ax) * dx + (p[1] - ay) * dy) / l2)); b = Math.min(b, Math.hypot(p[0] - ax - dx * t, p[1] - ay - dy * t)); } return b; };
+  const cohOf = n => { if (n.forms) { const k = n.forms.filter(live); return k.length ? k.reduce((s, c) => s + cohOf(c), 0) / k.length : 0; } const L = n.subs.filter(u => (u.active || n.transit) && !u.dead && LEADCLS[u.cls]); return L.length ? L.reduce((s, u) => s + u.coh, 0) / L.length : 0; };
+  // the commander's review every half hour of an order in progress: spent or stalled divisions, the reserve, losses
+  function review(C) {
+    const O = C.order, P = O.plan; if (!P) return; O.nextReview = S.t + 30;
+    for (const q of P) { if (q.reserve || !live(q.child)) continue; const d = lineDist(q.child, q.line); if (d < q.best - .5) { q.best = d; q.tBest = S.t; } }
+    if (S.t - O.lastAct < CMDAI.coolMin) return;
+    const fwd = P.filter(q => !q.reserve), res = P.find(q => q.reserve && live(q.child) && weight(q.child) >= CMDAI.spentFrac * q.w0);
+    const moving = n => n.forms ? n.forms.some(moving) : !!n.transit;
+    const state = q => { if (!live(q.child)) return 'lost'; if (moving(q.child)) { q.tBest = S.t; return 'ok'; } if (weight(q.child) < CMDAI.spentFrac * q.w0 || cohOf(q.child) < CMDAI.spentCoh) return 'spent';
+      const d = lineDist(q.child, q.line); if (d < CMDAI.onObjKm) return 'done'; if (S.t - q.tBest > CMDAI.stallMin && S.t - O.t0 > CMDAI.stallMin) return 'stalled'; return 'ok'; };
+    // 1. commit the reserve where a forward division is spent or stalled
+    const bad = fwd.map(q => ({ q, st: state(q) })).find(o => o.st === 'spent' || o.st === 'stalled' || o.st === 'lost');
+    if (bad && res) {
+      const q = bad.q; send(res.child, res.path.length ? res.path : q.path, q.line, O.opt, false);
+      res.reserve = false; res.line = q.line; res.best = 1e9; res.tBest = S.t; res.w0 = weight(res.child);
+      if (bad.st !== 'lost') { const L = polyLen(q.line), m = polyAt(q.line, L / 2), p0 = pos(C) || [m.x, m.y], dx = m.x - p0[0], dy = m.y - p0[1], dl = Math.hypot(dx, dy) || 1, bx = m.x - dx / dl * 6, by = m.y - dy / dl * 6, hw = 1.5;
+        send(q.child, [], [[bx - dy / dl * hw, by + dx / dl * hw], [bx + dy / dl * hw, by - dx / dl * hw]], O.opt, false, 'rest'); q.reserve = true; q.w0 = Math.max(weight(q.child), 1); }
+      else P.splice(P.indexOf(q), 1);
+      O.lastAct = S.t; report(C, q.child.n + ' is ' + bad.st + '; ' + res.child.n + ' committed from reserve to take over its sector.', 2); return;
+    }
+    // 2. a forward division lost with no reserve: spread the line among those left
+    if (bad && bad.st === 'lost') { O.lastAct = S.t; report(C, bad.q.child.n + ' is lost; sectors redrawn among the remaining divisions.', 2);
+      const plan = S.planCommandOrder(C, O.path, O.line, Object.assign({}, O.opt, { reserve: false }));
+      for (const r of plan) send(r.child, r.path, r.line, O.opt, false);
+      O.plan = plan.map(r => ({ child: r.child, path: r.path, line: r.line, reserve: false, w0: weight(r.child), best: 1e9, tBest: S.t })); return; }
+    // 3. report when every forward division stands on the objective
+    if (fwd.length && fwd.every(q => state(q) === 'done') && !O.doneSaid) { O.doneSaid = true; C.status = 'On the objective'; report(C, 'all divisions on the objective.'); }
   }
   // called once per simulation step
   const prevHook = S.cmdHook;
-  S.cmdHook = function () { if (prevHook) prevHook(); for (const C of nodes) if (C.order && C.order.st === 'pending' && S.t >= C.order.t0) release(C); };
+  S.cmdHook = function () { if (prevHook) prevHook(); for (const C of nodes) { if (!C.order) continue; if (C.order.st === 'pending' && S.t >= C.order.t0) release(C); else if (C.order.st === 'issued' && S.t >= C.order.nextReview) review(C); } };
   return S;
 }

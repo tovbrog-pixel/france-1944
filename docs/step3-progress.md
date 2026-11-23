@@ -1,8 +1,8 @@
-# Step 3 progress: engine fork
+# Step 3: engine fork (complete)
 
 Tov Binyamin Brog · 22 Nov 2026
 
-The engine now runs 43% faster at the France game's unit count, corps and army commanders split one order among their formations without crossing routes, formations travel by rail or road behind the front before deploying, and divisions now fight as regiments of battalions. All eight Lines of Advance scenarios still give results identical to the original engine.
+Step 3 is complete. The engine runs 43% faster at the France game's unit count, corps and army commanders split one order among their formations without crossing routes, formations travel by rail or road behind the front before deploying, divisions fight as regiments of battalions, corps commanders react during the battle, and fighter-bombers hunt columns. A synthetic theater of 200 divisions ran at 847 times real time in Claude's workspace. All eight Lines of Advance scenarios still give results identical to the original engine.
 
 ## Done
 
@@ -24,6 +24,54 @@ The engine now runs 43% faster at the France game's unit count, corps and army c
 4. He splits the objective line into sectors in proportion to each division's fighting units.
 5. With three or more divisions and a cautious style (aggression below 0.65), he holds one back. The reserve keeps its own lane and halts 6 km short of the objective.
 6. Each division then plans its own order through the existing engine, with its own staff delay.
+
+## Reacting commanders
+
+Every half hour a corps or army commander reviews an order in progress. These are starting values for balance testing:
+
+- A division is **spent** below 45% of its fighting units or 0.3 average cohesion, and **stalled** after 3 hours with no progress toward its line.
+- He commits his reserve into the sector of a spent, stalled or lost division and pulls the spent one 6 km back to rest and refit.
+- With no reserve left, a lost division's line is redrawn among the divisions that remain.
+- He reports when every forward division stands on the objective, and acts at most once every 2 hours.
+- A division on the move by road or rail counts as alive and making progress.
+
+| Command AI test (Falaise, `tools/test-command-ai.js`) | Result |
+| --- | --- |
+| Forward formation shattered by hand 3 hours into a corps attack | Reserve committed to its sector 12 minutes later at the next review; the shattered formation went back to rest and refit; corps reported all divisions on the objective at 5.7 hours |
+
+## Air power against movement
+
+- **Fighter-bombers:** the threat over a side's rear comes from the enemy's available fighter-bomber groups, with 150 aircraft making it total. A road column moving by day in flying weather under full threat is attacked 0.12 times an hour on average, trains half as often. Each attack costs every battalion 2 to 5% strength and 0.1 cohesion and stops the column for 20 to 40 minutes.
+- **Night moves:** German and Italian columns move only by night when the threat is 0.5 or more.
+- **Rail interdiction:** a side with an interdiction priority cuts rail lines in enemy ground every 6 hours. Engineers reopen a cut after 24 to 48 hours, and commanders route around cuts or take the road.
+
+| Air test (Falaise, `tools/test-air.js`) | Result |
+| --- | --- |
+| Threat over each side's rear, from the scenario's air groups | Over the Germans 1.00; over the Allies 0.08 |
+| 116. Panzer-Division road move, 19 km | Night only: waited 12 hours under cover, then moved after dark |
+| Allied column under threat forced to 1, 20 seeds | 2 attacks in 29.8 daylight column-hours, 0.07 per hour against the 0.12 setting; a small sample |
+| Test rail line cut near its middle | Commander switched from rail to trucks; 4 more interdiction cuts in 40 hours kept the line closed |
+
+## Theater-scale stress test
+
+`tools/theater.js` builds a 220 x 140 km map with placeholder terrain and roads, 1 km map cells and 1 km ownership cells, and fills it with template divisions. The Allies attack south and the Germans hold, AI against AI.
+
+| Theater test | Result |
+| --- | --- |
+| 100 divisions, 1,546 battalions, 24 game hours | 88.4 s, 978 times real time |
+| 200 divisions, about 3,000 battalions, 6 game hours | 25.5 s, 847 times real time |
+
+The full theater size runs at 847 times real time in Claude's workspace. At the laptop's measured ratio of about seven, that is near 6,000 times real time on Tov's laptop (inference).
+
+## Time step: stays at 1 minute
+
+| Falaise, 48 game hours (`tools/timestep.js`) | Wall time | Allied losses | German losses | Battalions destroyed |
+| --- | --- | --- | --- | --- |
+| 1-minute step, seeds 1 to 3 | 19.2 to 21.4 s | 8.4 to 11.0 | 17.7 to 20.7 | 9 to 12 |
+| 2-minute step, seed 1 | 12.3 s | 6.8 | 17.5 | 8 |
+| 5-minute step, seed 1 | 8.4 s | 4.7 | 11.8 | 4 |
+
+Longer steps run combat less often and cut losses well outside the spread that different seeds give at 1 minute. The theater test shows the speed is ample, so the engine keeps its 1-minute step.
 
 ## How regiments work now
 
@@ -87,13 +135,16 @@ All timings come from one CPU core in Claude's workspace. Tov's laptop ran the o
 
 One formation in each command test halted with "no route" on the Falaise map. The message comes from the existing pathfinder, so the command layer did not cause it; network moves now carry long marches; whether that clears the halts needs a test on a theater map.
 
-## Remaining step 3 work
+## Carried to later steps
 
-1. **Regiment follow-ups:** regiment symbols on the map, regimental commanders with their own ratings, and corps artillery and separate battalions outside the divisions.
-2. **Transport follow-ups:** air attack on columns and railways, sea moves by boat, columns drawn on the map, and the 1944 road and rail network itself (step 4 data).
-3. **Command AI:** corps and army commanders who replan when a division is spent, commit the reserve, and report up.
-4. **Time step:** test 5 to 15 minute steps outside combat against combat accuracy.
-5. **Theater stress test:** replace the tripled-Falaise proxy with a placeholder Normandy theater once step 4 data exists.
+| Item | Where it goes |
+| --- | --- |
+| Columns, release points and regiment symbols drawn on the map | Step 5, the playable slice's interface |
+| Player's air plan setting interdiction priorities | Step 5 interface; the engine side is in place |
+| Moves by sea (reinforcements, coastal moves) | Step 4 data, using the engine's existing sea arrivals |
+| Regimental commanders with their own ratings; corps artillery and separate battalions | Step 4 order-of-battle data |
+| The 1944 road and rail network and real terrain | Step 4 data |
+| The "no route" halts seen on the Falaise map | Retest on the real Normandy map in step 4 |
 
 ## Source trace
 
@@ -106,6 +157,9 @@ One formation in each command test halted with "no route" on the Falaise map. Th
 | Regiment test results | `tools/test-divisions.js`, run 22 Nov 2026 | Measured |
 | Division template structures | General knowledge of 1944 tables of organization | To verify in step 4 against FM 101-10, TM-E 30-451 and British war establishments |
 | Battalions as fighting units, regiments as a command level | Tov's decision in chat, 22 Nov 2026 | Decided |
+| Command AI, air, theater and time-step results | `tools/test-command-ai.js`, `tools/test-air.js`, `tools/theater.js`, `tools/timestep.js`, run 22 Nov 2026 | Measured |
+| Command review values, air attack rates and losses, night-move threshold, interdiction and repair times | Design values chosen for this first version | Starting values for testing |
+| Laptop speed at theater size | 847 times real time scaled by the laptop's measured ratio | Inference |
 | Transport test results | `tools/test-transport.js`, `tools/test-transport2.js`, run 22 Nov 2026 | Measured |
 | Transport speeds, loading times, truck lifts | Design values chosen for this first version | Starting values for testing |
 | Release point as commander's call, shown as information | Tov's decision in chat, 22 Nov 2026 | Decided |

@@ -17,7 +17,12 @@ const TRANSPORT = {
   safetyKm: 6, safetySkillKm: 6,      // distance kept from known enemy: 6 km plus up to 6 km for a less skilled commander
   colKmMotor: .8, colKmFoot: .5,      // column length per unit
   caughtKm: 3,                        // enemy this close to the column head forces deployment
-  approachKmh: 3                      // planning figure for the tactical approach from the release point to the objective
+  approachKmh: 3,                     // planning figure for the tactical approach from the release point to the objective
+  airHitPerHour: .12,                 // chance per daylight hour that a column under full enemy air threat is attacked
+  airLossStr: [.02, .05], airLossCoh: .1, airDelayMin: [20, 40],
+  airFbFull: 150,                     // enemy fighter-bombers available that make the threat total
+  nightOnlyThreat: .5,                // German and Italian columns move only by night above this threat
+  railCutEveryH: 6, railRepairH: [24, 48]   // interdiction cycle and repair time for a cut rail line
 };
 function attachTransport(S) {
   const map = S.map, sc = S.sc, T0 = TRANSPORT;
@@ -28,7 +33,7 @@ function attachTransport(S) {
     const k = K(x, y) + '|' + kind; let id = net.key.get(k); if (id != null) return id;
     id = net.x.length; net.key.set(k, id); net.x.push(x); net.y.push(y); net.adj.push([]); net.kind.push(kind); net.station.push(false); return id;
   }
-  function link(a, b, cls) { if (a === b) return; const len = Math.hypot(net.x[a] - net.x[b], net.y[a] - net.y[b]); net.adj[a].push({ to: b, len, cls, cut: false }); net.adj[b].push({ to: a, len, cls, cut: false }); }
+  function link(a, b, cls) { if (a === b) return; const E = { len: Math.hypot(net.x[a] - net.x[b], net.y[a] - net.y[b]), cls, cut: false, repT: 0 }; net.adj[a].push({ to: b, len: E.len, cls, E }); net.adj[b].push({ to: a, len: E.len, cls, E }); }
   for (const r of map.roadLines || []) { let p = null; for (const q of r.pts) { const n = node(q[0], q[1], 'road'); if (p != null) link(p, n, r.cls); p = n; } }
   for (const line of sc.rails || []) { let p = null; for (const q of line) { const n = node(q[0], q[1], 'rail'); if (p != null) link(p, n, 'rail'); p = n; } }
   { // join loose ends of the same kind that sit within 0.35 km of each other (junctions drawn as separate lines)
@@ -47,20 +52,23 @@ function attachTransport(S) {
     const pop = () => { const top = heap[0], last = heap.pop(); if (heap.length) { heap[0] = last; let i = 0; for (;;) { const l = 2 * i + 1, r = l + 1; let m = i; if (l < heap.length && heap[l][0] < heap[m][0]) m = l; if (r < heap.length && heap[r][0] < heap[m][0]) m = r; if (m === i) break; [heap[i], heap[m]] = [heap[m], heap[i]]; i = m; } } return top; };
     const push = v => { heap.push(v); let i = heap.length - 1; while (i) { const p = (i - 1) >> 1; if (heap[p][0] <= heap[i][0]) break; [heap[p], heap[i]] = [heap[i], heap[p]]; i = p; } };
     while (heap.length) { const [d, u] = pop(); if (done[u]) continue; done[u] = 1;
-      for (const e of net.adj[u]) { if (e.cut || (ok && !ok(e.to))) continue; const nd = d + e.len / kmh(e.cls); if (nd < dist[e.to]) { dist[e.to] = nd; prev[e.to] = u; push([nd, e.to]); } } }
+      for (const e of net.adj[u]) { if (e.E.cut || (ok && !ok(e.to))) continue; const nd = d + e.len / kmh(e.cls); if (nd < dist[e.to]) { dist[e.to] = nd; prev[e.to] = u; push([nd, e.to]); } } }
     return { dist, prev };
   }
   function trace(t, b) { const nodes = []; for (let v = b; v >= 0; v = t.prev[v]) nodes.push(v); nodes.reverse(); let km = 0; for (let i = 1; i < nodes.length; i++) km += Math.hypot(net.x[nodes[i]] - net.x[nodes[i - 1]], net.y[nodes[i]] - net.y[nodes[i - 1]]); return { nodes, km, hours: t.dist[b] }; }
   // the reachable node closest to the target; among near-equals, the quicker one
   function bestExit(t, tx, ty) { let best = -1, bd = 1e9; for (let i = 0; i < net.x.length; i++) if (isFinite(t.dist[i])) { const d = Math.hypot(net.x[i] - tx, net.y[i] - ty); if (d < bd - .5 || (d < bd + .5 && best >= 0 && t.dist[i] < t.dist[best])) { if (d < bd) bd = d; best = i; } } return best; }
-  // interdiction hook: cut every network link within r km of a point (bombed bridge, blown rail line)
-  S.cutNetwork = function (x, y, r, kind) { let n = 0; for (let i = 0; i < net.x.length; i++) if ((!kind || net.kind[i] === kind) && Math.hypot(net.x[i] - x, net.y[i] - y) < r) for (const e of net.adj[i]) { e.cut = true; n++; } return n; };
+  // interdiction: cut every network link within r km of a point (bombed bridge, blown rail line); engineers reopen it after repairH hours
+  S.cutNetwork = function (x, y, r, kind, repairH) { let n = 0; for (let i = 0; i < net.x.length; i++) if ((!kind || net.kind[i] === kind) && Math.hypot(net.x[i] - x, net.y[i] - y) < r) for (const e of net.adj[i]) if (!e.E.cut) { e.E.cut = true; e.E.repT = S.t + 60 * (repairH == null ? 36 : repairH); n++; } return n; };
 
   // ---------- planning a move ----------
   const cols = []; S.columns = cols;
   const alive = F => F.subs.filter(u => u.active && !u.dead);
   const centre = F => { const a = alive(F).filter(u => u.mv !== 'ship'); return a.length ? [a.reduce((s, u) => s + u.x, 0) / a.length, a.reduce((s, u) => s + u.y, 0) / a.length] : null; };
   const knownEnemy = (s) => S.subs.filter(e => e.s !== s && e.active && !e.dead && S.t - (e.seenT == null ? -1e9 : e.seenT) < 360);
+  // threat from enemy fighter-bombers over a side's rear, 0 to 1; a scenario can set sides[s].airThreat directly
+  S.airThreat = function (s) { const sd = sc.sides[s] || {}; if (sd.airThreat != null) return sd.airThreat; const A = S.air && S.air[1 - s]; if (!A) return 0;
+    const fb = A.groups.filter(g => g.mission === 'cas' || g.mission === 'int').reduce((t, g) => t + (g.avail || 0), 0); return Math.min(1, fb / T0.airFbFull); };
   const inUse = (s, mode) => cols.filter(c => c.F.s === s && c.mode === mode && c.ph !== 'done').length;
   // the commander's plan: travel inside his own ground, clear of known enemy, to the network point nearest the objective
   S.planMove = function (F, path, line) {
@@ -96,14 +104,15 @@ function attachTransport(S) {
     const walk = Math.hypot(net.x[plan.r.nodes[0]] - plan.from[0], net.y[plan.r.nodes[0]] - plan.from[1]) / (plan.mode === 'foot' ? T0.footKmh : 15) * 60;
     const prep = staff + walk + (plan.mode === 'rail' ? T0.railLoadMin * (1.25 - .5 * F.cmd.sk) * plan.ramps : T0.formMin);
     const poly = plan.r.nodes.map(i => [net.x[i], net.y[i]]);
-    const C = { F, mode: plan.mode, rampsOut: plan.rampsOut || 1, poly, L: plan.r.km, head: 0, ph: 'prep', tEnd: S.t + prep, rel: plan.rel, path, line, opt, kmh: plan.kmh,
+    const nightOnly = plan.mode !== 'rail' && (F.nat === 'GE' || F.nat === 'IT') && S.airThreat(F.s) >= T0.nightOnlyThreat;
+    const C = { F, mode: plan.mode, nightOnly, pauseT: 0, rampsOut: plan.rampsOut || 1, poly, L: plan.r.km, head: 0, ph: 'prep', tEnd: S.t + prep, rel: plan.rel, path, line, opt, kmh: plan.kmh,
       len: a.length * (plan.mode === 'rail' ? 0 : nMotor / Math.max(1, a.length) >= .6 || plan.mode === 'truck' ? T0.colKmMotor : T0.colKmFoot), t0: S.t };
     cols.push(C);
     for (const u of a) { u.active = false; u.goal = null; u.path = null; u.needPath = false; u.slot = null; }
     F.active = false; F.order = null; F.transit = C;
     const how = { rail: 'by rail', motor: 'by road, motorized', truck: 'by road in attached trucks', foot: 'by road on foot' }[plan.mode];
     F.status = 'Preparing to move ' + how + ' (' + Math.round(prep) + ' min)';
-    S.say(F, 'Moving ' + how + ', ' + plan.r.km.toFixed(0) + ' km, to a release point ' + S.nearTown(plan.rel.x, plan.rel.y) + '.', 1, plan.rel.x, plan.rel.y);
+    S.say(F, 'Moving ' + how + (nightOnly ? ' by night only, for fear of fighter-bombers' : '') + ', ' + plan.r.km.toFixed(0) + ' km, to a release point ' + S.nearTown(plan.rel.x, plan.rel.y) + '.', 1, plan.rel.x, plan.rel.y);
     return prep;
   };
   const at = (C, s) => polyAt(C.poly, Math.max(0, Math.min(C.L, s)));
@@ -117,14 +126,33 @@ function attachTransport(S) {
     else S.say(F, 'Arrived at the release point ' + S.nearTown(x, y) + ' and formed up in the assembly area.', 1, x, y);
     issueTactical(F, C.path || [], C.line, Object.assign({}, C.opt, caught ? {} : { free: true }));
   }
+  let nextCut = T0.railCutEveryH * 60, nextRepair = 60;
+  function interdict() {
+    // each side with an interdiction priority (sides[s].interdict, 0 to 1) cuts rail lines in enemy-held ground every few hours
+    for (let s = 0; s < 2; s++) { const k = Math.round(((sc.sides[s] || {}).interdict || 0) * 2); if (!k) continue;
+      const targets = []; for (let i = 0; i < net.x.length; i++) if (net.kind[i] === 'rail' && S.ownAt(net.x[i], net.y[i]) !== s && !net.adj[i].every(e => e.E.cut)) targets.push(i);
+      for (let j = 0; j < k && targets.length; j++) { const i = targets.splice(Math.floor(S.rnd() * targets.length), 1)[0], h = T0.railRepairH[0] + S.rnd() * (T0.railRepairH[1] - T0.railRepairH[0]);
+        if (S.cutNetwork(net.x[i], net.y[i], .3, 'rail', h)) S.say(s, 'Air interdiction: rail line cut ' + S.nearTown(net.x[i], net.y[i]) + '.', 1, net.x[i], net.y[i]); } }
+  }
+  function repair() { for (const list of net.adj) for (const e of list) if (e.E.cut && e.E.repT && S.t >= e.E.repT) { e.E.cut = false; e.E.repT = 0; } }
   function tick(dt) {
     const night = S.night;
+    if (S.t >= nextCut) { nextCut += T0.railCutEveryH * 60; interdict(); }
+    if (S.t >= nextRepair) { nextRepair += 60; repair(); }
     for (const C of cols) {
       if (C.ph === 'done') continue;
       if (C.ph === 'prep') { if (S.t >= C.tEnd) { C.ph = 'move'; C.F.status = 'On the move (' + C.mode + ')'; } continue; }
       if (C.ph === 'move') {
         const p = at(C, C.head), foes = S.subs.some(e => e.s !== C.F.s && e.active && !e.dead && e.mv !== 'ship' && Math.hypot(e.x - p.x, e.y - p.y) < T0.caughtKm);
         if (foes && C.mode !== 'rail') { deploy(C, p.x, p.y, true); continue; }
+        if (S.t < C.pauseT) continue;
+        if (C.nightOnly && !night) { if (C.F.status.indexOf('cover') < 0) C.F.status = 'Halted under cover until dark'; continue; } else if (C.F.status.indexOf('cover') >= 0) C.F.status = 'On the move (' + C.mode + ')';
+        // fighter-bombers find columns on the move by day in flying weather; trains less often
+        const fly = !night && (S.wx === 'clear' || S.wx === 'cloud'), thr = fly ? S.airThreat(C.F.s) * (C.mode === 'rail' ? .5 : 1) : 0;
+        if (thr > 0 && S.rnd() < T0.airHitPerHour * thr * dt / 60) {
+          let lost = 0; for (const u of C.F.subs) if (!u.dead) { const d = T0.airLossStr[0] + S.rnd() * (T0.airLossStr[1] - T0.airLossStr[0]); lost += Math.min(u.str, d) * u.size; u.str = Math.max(.12, u.str - d); u.coh = Math.max(.2, u.coh - T0.airLossCoh); }
+          if (S.losses) S.losses[C.F.s] += lost; C.pauseT = S.t + T0.airDelayMin[0] + S.rnd() * (T0.airDelayMin[1] - T0.airDelayMin[0]); C.airHits = (C.airHits || 0) + 1;
+          S.say(C.F, 'Column attacked by fighter-bombers ' + S.nearTown(p.x, p.y) + '; vehicles burning, the march is delayed.', 2, p.x, p.y); continue; }
         let kmh; if (C.mode === 'rail') kmh = T0.railKmh; else { const e = nearestEdgeCls(C, C.head); kmh = C.kmh(e) * (night ? T0.nightRoad : 1); }
         const share = cols.filter(o => o !== C && o.ph === 'move' && o.mode !== 'rail' && C.mode !== 'rail' && Math.hypot(at(o, o.head).x - p.x, at(o, o.head).y - p.y) < 2).length;
         C.head += kmh / 60 * dt / (1 + .5 * share);
