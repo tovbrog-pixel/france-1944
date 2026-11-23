@@ -7,7 +7,7 @@
 // review settings, all starting values for balance testing
 const CMDAI = { spentFrac: .45, spentCoh: .3, stallMin: 180, onObjKm: 1.5, coolMin: 120 };
 function attachCommand(S) {
-  const nodes = []; S.commands = nodes;
+  const nodes = []; S.commands = nodes; const sc = S.sc;
   const segOf = (line, a, b) => {           // the part of polyline `line` between distances a and b
     const out = [], A = polyAt(line, a); out.push([A.x, A.y]); let acc = 0;
     for (let i = 1; i < line.length; i++) { acc += Math.hypot(line[i][0] - line[i - 1][0], line[i][1] - line[i - 1][1]); if (acc > a && acc < b) out.push([line[i][0], line[i][1]]); }
@@ -109,8 +109,14 @@ function attachCommand(S) {
     // 3. report when every forward division stands on the objective
     if (fwd.length && fwd.every(q => state(q) === 'done') && !O.doneSaid) { O.doneSaid = true; C.status = 'On the objective'; report(C, 'all divisions on the objective.'); }
   }
+  // corps a scenario defines (sc.commands), and the dates divisions join them (sc.cmdPlan: { t: hours, f: division name, c: command id })
+  const byId = {}; for (const c of sc.commands || []) byId[c.id] = S.mkCommand({ n: c.n, s: c.s, level: c.level || 'corps', cmd: Object.assign({ ag: .5, sk: .6 }, c.cmd), forms: [], key: c.id });
+  const plan = (sc.cmdPlan || []).slice().sort((a, b) => a.t - b.t); let pi = 0; const fByN = {}; for (const F of S.forms) fByN[F.n] = F;
+  function planTick() { while (pi < plan.length && plan[pi].t * 60 <= S.t) { const q = plan[pi++], F = fByN[q.f], C = byId[q.c]; if (!F || !C || F.parent === C) continue;
+      if (F.parent && F.parent.forms) { const i = F.parent.forms.indexOf(F); if (i >= 0) F.parent.forms.splice(i, 1); } C.forms.push(F); F.parent = C; if (S.t > 0) S.say(F.s, F.n + ' now under ' + C.n + '.', 0); } }
+  planTick();
   // called once per simulation step
   const prevHook = S.cmdHook;
-  S.cmdHook = function () { if (prevHook) prevHook(); for (const C of nodes) { if (!C.order) continue; if (C.order.st === 'pending' && S.t >= C.order.t0) release(C); else if (C.order.st === 'issued' && S.t >= C.order.nextReview) review(C); } };
+  S.cmdHook = function () { if (prevHook) prevHook(); planTick(); for (const C of nodes) { if (!C.order) continue; if (C.order.st === 'pending' && S.t >= C.order.t0) release(C); else if (C.order.st === 'issued' && S.t >= C.order.nextReview) review(C); } };
   return S;
 }

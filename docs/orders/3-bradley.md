@@ -35,7 +35,7 @@ c. *Follow-up divisions.* Land over Omaha or Utah on their historical dates (Ann
 
 d. *Breakout.* When St-Lô is taken, mass armor behind it for the breakout. Carpet bombing for a set-piece attack comes in a later build; in this build the bombing squadrons strike depots, bridges and airfields (Annex D).
 
-e. *Your orders in play.* Draw lines of advance and objective lines for each division, attach corps troops from the **Support** tab, and request air support from the **Air** tab. A commander may refuse an order he cannot carry out and gives his reason.
+e. *Your orders in play.* Draw lines of advance and objective lines for a division, or for a whole corps with **Order the whole corps** on a division's card, attach corps troops from the **Support** tab, and request air support from the **Air** tab. A commander may refuse an order he cannot carry out and gives his reason.
 
 x. *All divisions.* The bocage slows every advance and favors the defender. Expect short gains at high cost until the breakout.
 

@@ -66,8 +66,9 @@ Naval gunfire supports the assault from offshore: battleships with a range of ab
 
 1. *Map.* Drag to move, wheel to zoom, right-drag to rotate and tilt. The **Map** button frames the whole theater.
 2. *Orders.* Select a division, press **Draw line of advance**, drag the route, draw the objective line, and press **Issue order**. **Hand to staff** lets the AI run a division.
-3. *Clock.* Space pauses. The speed buttons run 1x, 4x, 12x and 40x. The clock stops when a report needs a decision.
-4. *Reports.* Click a report to jump to the place. Bold reports need your attention.
+3. *Corps orders.* The Forces list groups divisions by corps. Press **Order the whole corps** on a division's card, then draw: the corps commander takes about an hour to plan, splits the objective line among his divisions, keeps a reserve if he is cautious, and commits it where a division stalls.
+4. *Clock.* Space pauses. The speed buttons run 1x, 4x, 12x and 40x. The clock stops when a report needs a decision.
+5. *Reports.* Click a report to jump to the place. Bold reports need your attention.
 
 ---
 
@@ -85,5 +86,6 @@ Naval gunfire supports the assault from offshore: battleships with a range of ab
 | Historical capture dates | General history | Verify against Blumenson and Ellis |
 | Mulberry B on 16 June; storm of 19 to 22 June | Ruppenthal I p. 406 | Sourced |
 | Cherbourg clearing time | General history | Verify against Ruppenthal ch. XI |
+| Corps membership by date | `data/oob/attachments-1944.json` | US sourced; British snapshots per row |
 | Naval gun ranges; supply and cut-off rules | The game (`engine/src/data.js`, `engine/src/sim.js`) | Game design |
 | Airfield opening dates | `data/air/airfields-1944.json`: Johnson (1988) for US fields | US sourced; RAF inference |

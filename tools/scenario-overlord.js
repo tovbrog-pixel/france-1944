@@ -53,6 +53,10 @@ const XP = { 'us-1id': 1.05, 'us-9id': 1.05, 'us-82ab': 1.1, 'us-101ab': 1.05, '
   'ge-1st-ss-panzer': 1.15, 'ge-2nd-ss-panzer': 1.1, 'ge-9th-ss-panzer': 1.1, 'ge-10th-ss-panzer': 1.1, 'ge-12th-ss-panzer': 1.15, 'ge-panzer-lehr': 1.15, 'ge-2nd-panzer': 1.1,
   'ge-21st-panzer': 1, 'ge-116th-panzer': 1.05, 'ge-17th-ss-panzer-grenadier': 1, 'ge-2nd-parachute': 1.1, 'ge-3rd-parachute': 1.1, 'ge-5th-parachute': .95, 'ge-352nd': 1 };
 const xpOf = d => XP[d.id] || (/^ge-.*luftwaffe/.test(d.id) ? .75 : /^ge-(7\d\d|709|711|716|243|265|266|343)/.test(d.id) ? .85 : /^ge-/.test(d.id) ? .95 : .9);
+// a German sector line: 14 km, facing the nearest beach, so neighbouring sectors close up into a front (inference)
+const BEACHES = [[297.0, 177.9], [318.0, 184.7], [341.3, 188.6], [350.7, 189.4], [360.7, 194.2]];
+function sector(q) { let b = BEACHES[0], bd = 1e9; for (const p of BEACHES) { const d = Math.hypot(p[0] - q[0], p[1] - q[1]); if (d < bd) { bd = d; b = p; } }
+  const ax = (b[0] - q[0]) / (bd || 1), ay = (b[1] - q[1]) / (bd || 1), px = -ay * 7, py = ax * 7; return [[q[0] - px, q[1] - py], [q[0] + px, q[1] + py]]; }
 const GSTAY = /^ge-(2nd-parachute|343rd)$/;   // the Brest garrison stays in the fortress (Blumenson; arrival notes)
 // follow-up divisions land over the beach of the corps they joined (inference: the sources give the date, not the beach)
 const US_UTAH = /^(VII|VIII|XV|XX|XII)$/;
@@ -99,14 +103,14 @@ function makeOverlord(cs) {
       const f = divForm({ tpl: d.tpl, s: 1, n: d.name, cmd, ag: .5, sk: .65, xp: xpOf(d), regs, x, y });
       const coast = d.tpl === 'ge_inf' && (!a.date || a.date <= '1944-06-06');
       if (coast) { f.line = [[x - 5, y], [x + 5, y]]; f.dug = 1; f.free = 0; } else f.free = fr;
-      if (GDEST[d.id]) { const q = W(Q[GDEST[d.id]][0], Q[GDEST[d.id]][1]); f.ai = [{ t: Math.max(.5, fr), path: [], line: [[q[0] - 4, q[1]], [q[0] + 4, q[1]]] }]; f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); }
+      if (GDEST[d.id]) { const L = sector(Q[GDEST[d.id]]).map(p => W(p[0], p[1])); f.ai = [{ t: Math.max(.5, fr), path: [], line: L }]; f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); }
       if (coast) { f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); }
       if (GSTAY.test(d.id)) f.stay = 1;
       forms.push(f); log.push([d.id, 'German', coast ? 'holds at 6 June position' : 'at 6 June position, free from', coast ? '0' : fr.toFixed(0)]);
     } else {
       const [x, y] = clampIn(W(a.entry.xy[0], a.entry.xy[1])), dest = GDEST[d.id] && Q[GDEST[d.id]], t = Math.max(1, hrs(a.date, 12) - (dest ? marchH(d.tpl, a.entry.xy, dest) : 0));
       const f = divForm({ tpl: d.tpl, s: 1, n: d.name, cmd, ag: .5, sk: .65, xp: xpOf(d), regs, x, y }); f.arr = { t, mode: 'road' };
-      if (GDEST[d.id]) { const q = W(Q[GDEST[d.id]][0], Q[GDEST[d.id]][1]); f.ai = [{ t: t + 1, path: [], line: [[q[0] - 4, q[1]], [q[0] + 4, q[1]]] }]; if (t < hrs(HOLD_UNTIL, 0)) { f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); } }
+      if (GDEST[d.id]) { const L = sector(Q[GDEST[d.id]]).map(p => W(p[0], p[1])); f.ai = [{ t: t + 1, path: [], line: L }]; if (t < hrs(HOLD_UNTIL, 0)) { f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); } }
       forms.push(f); log.push([d.id, 'German', 'road entry', t.toFixed(0)]);
     }
   }
@@ -137,12 +141,24 @@ function makeOverlord(cs) {
   const pool = [ship('nav15', 'USS Nevada (Force U)', P.utah), ship('nav15', 'USS Texas and Arkansas (Force O)', P.omahaW), ship('nav6', 'HMS Ajax and Argonaut (Force G)', P.gold),
     ship('nav6', 'HMS Belfast and Diadem (Force J)', P.juno), ship('nav15', 'HMS Warspite and Ramillies (Force S)', P.sword)];
 
+  // corps: the commands in allied-1944.json, and each division's corps by date from attachments-1944.json (US rows from the Theater
+  // Historian's tables, British and Canadian from Ellis's snapshots). Army and army group echelons come later.
+  const ROM = c => (c || '').replace(/ Canadian$/, '').trim().toLowerCase();
+  const corpsKey = (nat, row) => { if (!row.corps) return null; if (/Canadian/.test(row.corps)) return 'ca-ii'; return ((nat === 'US' || nat === 'FR') ? 'us-' : 'uk-') + ROM(row.corps); };
+  const commands = A.commands.filter(c => c.type === 'corps').map(c => ({ id: c.id, s: 0, level: 'corps', n: (c.id.startsWith('us-') ? 'US ' : c.id.startsWith('uk-') ? 'British ' : '') + c.name,
+    cmd: { n: cmdAt(c, START.slice(0, 10)), ag: c.id.startsWith('us-') ? .6 : .45, sk: .65 } }));
+  const known = new Set(commands.map(c => c.id)), cmdPlan = [];
+  for (const d of A.divisions) { if (!d.arrive || d.arrive >= END.slice(0, 10)) continue; const nat = d.nat || 'US';
+    for (const r of T.rows.filter(q => q.div === d.id).sort((a, b) => a.from < b.from ? -1 : 1)) { const k = corpsKey(nat, r); if (k && known.has(k)) cmdPlan.push({ t: Math.max(0, hrs(r.from, 0)), f: d.name, c: k }); } }
   const air = realMap.airAt(START.slice(0, 10), Object.assign({ cs }, WIN));
+  // advanced landing grounds and airfields that opened after 6 June, by their dates in data/air (Johnson 1988 for US fields; RAF dates inference)
+  const AF = J('air/airfields-1944.json'), fieldPlan = AF.fields.filter(q => q.open && q.open > START.slice(0, 10) && q.open < END.slice(0, 10) && q.xy[0] >= WIN.x0 && q.xy[0] <= WIN.x0 + WIN.w && q.xy[1] >= WIN.y0 && q.xy[1] <= WIN.y0 + WIN.h)
+    .map(q => { const p = W(q.xy[0], q.xy[1]); return { s: 0, t: hrs(q.open, 12), n: q.code + ' ' + q.name, x: p[0], y: p[1], hist: q.code }; });
   const off = [{ n: 'Airfields in southern England', x: 300 - WIN.x0, y: 0, kind: 'offmap' }, { n: 'Fields beyond the Seine', x: WIN.w - 12, y: 120, kind: 'offmap' }];
   const gGroups = [['JG 2 and JG 26 (Air Corps II)', 'bf109', 48, 0, 'cap'], ['Fighter reinforcements from Germany', 'fw190', 36, 0, 'cas'], ['KG 54 and KG 66', 'ju88', 24, 1, 'strat']];   // game groups scaled to Ellis's 319 operational aircraft (inference)
   const sides = base.sides.map((sd, s) => Object.assign({}, sd, {
     name: s ? 'OB West: Seventh Army and Panzer Group West' : 'Allied Expeditionary Force: 21st Army Group',
-    rear: s ? [0, 1] : [0, -1], pocket: s ? true : undefined, posture: s ? 'defend' : 'attack', assets: s ? [] : sd.assets || [],
+    rear: s ? [0, 1] : [0, -1], pocket: s ? true : undefined, restH: s ? 3 : 10, posture: s ? 'defend' : 'attack', assets: s ? [] : sd.assets || [],
     sources: s ? gSrc : alliedSrc, pool: s ? [] : pool, bases: [off[s]].concat(air.bases[s]), transport: { aircraft: air.transport[s] }, groups: s ? gGroups : sd.groups }));
 
   // 12-hour weather periods: the storm of 19-22 June from Ruppenthal p. 406; D-Day overcast; the rest drawn with a fixed seed (inference)
@@ -152,7 +168,7 @@ function makeOverlord(cs) {
   const beach = Object.values({ utah: P.utah, omahaW: P.omahaW, omahaE: P.omahaE, gold: P.gold, juno: P.juno, sword: P.sword }).map(b => { const q = W(b[0], b[1]); return [q[0] - 4, q[1] - 3, q[0] + 4, q[1] + 3]; });
 
   const sc = Object.assign({}, base, m, { id: 'overlord', title: 'Overlord: D-Day to the Seine', sub: 'Normandy and Brittany, 6 June to 1 September 1944', start: START, hours: hrs(END.slice(0, 10), 0),
-    ownCell: 1, detourKm: 14, phaseLines: PHASES.map(q => ({ s: 0, until: hrs(q.until, 6), line: q.line.map(p => W(p[0], p[1])) })), view: { x: 292, y: 86, dist: 95, pitch: 1.35 }, modules: ['transport', 'air'], forest: [], rough: [], marsh: [], bridges: [], vp, ports, beach, weather, sides, forms, front: { all: 1 }, thin: undefined, halt: undefined, mines: undefined,
+    ownCell: 1, fieldPlan, commands, cmdPlan, detourKm: 14, phaseLines: PHASES.map(q => ({ s: 0, until: hrs(q.until, 6), line: q.line.map(p => W(p[0], p[1])) })), view: { x: 292, y: 86, dist: 95, pitch: 1.35 }, modules: ['transport', 'air', 'command'], forest: [], rough: [], marsh: [], bridges: [], vp, ports, beach, weather, sides, forms, front: { all: 1 }, thin: undefined, halt: undefined, mines: undefined,
     brief: ['Land the six assault divisions and three airborne divisions, join the beachheads, take Caen and Cherbourg, break out into Brittany and drive to the Seine.',
       'Throw the landings back while the beachhead is shallow. Hold Caen and the bocage, bring up the panzer divisions, and keep the Allies out of the ports.'],
     hist: 'Historically Caen held until 9 July and Cherbourg fell on 26-27 June. Operation Cobra broke out at St-Lo on 25 July, the Falaise pocket closed on 19-21 August, Paris was liberated on 25 August, and the Allies stood on the Seine by the end of the month.' });
@@ -171,13 +187,14 @@ if (require.main === module) {
   console.log('Overlord: ' + sc.w + ' x ' + sc.h + ' km, cell ' + cs + ' km; roads ' + sc.roads.length + ', rail ' + sc.rails.length + ', towns ' + sc.towns.length + ', objectives ' + sc.vp.length + ', bridges ' + S.map.bridges.length);
   console.log('  ' + nA + ' Allied and ' + nG + ' German divisions, ' + S.subs.length + ' battalions; Allied airfields ' + sc.sides[0].bases.length + ', German ' + sc.sides[1].bases.length + '; setup ' + ((Date.now() - t0) / 1000).toFixed(1) + ' s');
   const own = () => { const c = [0, 0]; for (const v of S.vp) c[v.own]++; return c; }, names = n => S.vp.filter(v => v.own === 0).map(v => v.n);
-  let g = 0; const t1 = Date.now(), step = 60, took = {};
+  let g = 0; const t1 = Date.now(), step = 60, took = {}, held = {};
   const vpOf = n => S.vp.find(v => v.n === n || v.n.startsWith(n + '-') || v.n.startsWith(n + ' '));
   while (!S.over && g < hours * 60) { S.advance(step); g += step;
-    for (const [n] of MILESTONES) { const v = vpOf(n); if (v && v.own === 0 && !took[n]) took[n] = S.clock(S.t).slice(0, 11).trim(); }
+    for (const [n] of MILESTONES) { const v = vpOf(n); if (!v) continue; const c = S.clock(S.t).slice(0, 11).trim();
+      if (v.own === 0) { if (!took[n]) took[n] = c; if (!held[n]) held[n] = c; } else held[n] = null; }   // took: first entered; held: in Allied hands from this date to the end
     if (g % (24 * 60) === 0) { const act = S.forms.filter(F => F.active && !F.dead); console.log('  ' + S.clock(S.t).slice(0, 16) + ' | ' + ((Date.now() - t1) / 1000).toFixed(0) + ' s | on map A ' + act.filter(F => F.s === 0).length + ' G ' + act.filter(F => F.s === 1).length + ' | losses ' + S.losses.map(v => v.toFixed(0)).join(' / ') + ' | objectives A ' + own()[0] + ' of ' + S.vp.length + ' | ' + names().slice(0, 8).join(', ')); } }
   const sec = (Date.now() - t1) / 1000;
-  console.log('Milestones (game / history): ' + MILESTONES.map(([n, d]) => n + ' ' + (took[n] || '-') + ' / ' + d.slice(5)).join('; '));
-  if (process.argv[5]) fs.writeFileSync(process.argv[5], JSON.stringify({ seed, hours: g / 60, took, losses: S.losses, own: own() }));
+  console.log('Milestones (held from / first entered / history): ' + MILESTONES.map(([n, d]) => n + ' ' + (held[n] || '-') + ' / ' + (took[n] || '-') + ' / ' + d.slice(5)).join('; '));
+  if (process.argv[5]) fs.writeFileSync(process.argv[5], JSON.stringify({ seed, hours: g / 60, took, held, losses: S.losses, own: own() }));
   console.log('Result: ' + (g / 60).toFixed(0) + ' game h in ' + sec.toFixed(1) + ' s = ' + Math.round(g * 60 / sec) + 'x real time');
 }

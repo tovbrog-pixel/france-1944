@@ -30,8 +30,12 @@ function attachAir(S) {
   const engNear = (s, x, y) => S.subs.filter(u => u.s === s && u.cls === 'eng' && u.active && !u.dead && !u.moving && u.coh > .4 && Math.hypot(u.x - x, u.y - y) < A0.engKm).length;
 
   // ---------- airfields ----------
+  const planned = new Set();
   S.buildAirfield = function (s, x, y, n) { if (S.ownAt(x, y) !== s) return null; const q = { s, x, y, n: n || 'Landing ground ' + S.nearTown(x, y), prog: 0, repair: null }; sites.push(q); S.say(s, 'Engineers to build ' + q.n + '.', 1, x, y); return q; };
   function fieldsTick() {   // hourly
+    // fields a scenario schedules by their historical opening dates: each opens on its date once its side holds the site
+    for (let i = 0; i < (sc.fieldPlan || []).length; i++) { const P = sc.fieldPlan[i]; if (planned.has(i) || S.t < P.t * 60 || S.ownAt(P.x, P.y) !== P.s) continue; planned.add(i);
+      S.air[P.s].bases.push({ s: P.s, n: P.n, x: P.x, y: P.y, cap: A0.algCap, cond: 1, kind: 'alg', hist: P.hist }); S.say(P.s, P.n + ' is open for aircraft.', 0, P.x, P.y); }
     for (const q of sites) { if (q.done || q.lost) continue;
       if (S.ownAt(q.x, q.y) !== q.s) { q.lost = true; S.say(q.s, q.n + ' abandoned: the enemy holds the site.', 1, q.x, q.y); continue; }
       const e = engNear(q.s, q.x, q.y); if (!e) continue;

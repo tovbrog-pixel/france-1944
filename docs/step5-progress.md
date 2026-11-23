@@ -28,13 +28,23 @@ Step 5 builds the playable slice from D-Day to 1 September 1944 on the step 4 da
 - **Step 3 modules switched on.** The road and rail transport model and the air model from step 3 were attached only in tests. A scenario now asks for them with `modules: ['transport', 'air']`, and `sim.js` attaches them at setup. With them on, the 12th SS Panzer Division moves by night, halts under cover by day, and reaches Caen on 7 June, the sourced date.
 - **Detour allowance.** A battalion refused any route more than 1.9 times the direct line plus 5 km, which stopped divisions at rivers on 1 km cells. The allowance is now a scenario setting (`detourKm`, 14 km for Overlord).
 - **Standing orders that lapse.** `stayUntil` ends a division's order to hold at a set hour.
+- **Corps from the scenario.** `commands` and `cmdPlan` define corps and the dates divisions join them; `restH` sets how long a side's staff AI waits between objectives.
+- **Scheduled airfields.** `fieldPlan` opens fields on their dates once the side holds the site.
 - **AI phase lines.** `phaseLines` keep AI-run formations of a side from objectives beyond a line until a set hour. The player's own divisions are not bound.
 - **Display.** The sea draws on real-map scenarios. Town labels skip any label that would overlap a larger town's. On maps with more than 40 objectives, small objective flags hide at theatre zoom and the bar shows the 16 largest. Airfield labels thin out when a side has more than six fields. A scenario can set its opening view.
 - **Regression.** All earlier scenarios give the same results as before.
 
+## Corps orders
+
+The Overlord scenario builds 12 Allied corps from `data/oob/allied-1944.json` with their commanders, and moves each division into its corps on the dates in `attachments-1944.json` (119 rows). The Forces list groups divisions by corps. A division's card shows its corps, the corps commander and his status, and a switch, **Order the whole corps**. With it on, the line of advance and objective line go to the corps commander. He plans for about an hour, splits the objective line among his divisions from left to right, keeps a reserve when he is cautious, and reviews the attack every half hour: he commits the reserve where a division stalls or is spent, and redraws the sectors if a division is lost. The engine side came from step 3 (`engine/src/command.js`); step 5 adds the scenario corps, the dated membership and the interface. Corps orders go into the save file like any other order. Army and army group orders come next.
+
+## Airfields during play
+
+The 70 Allied fields that opened between 7 June and 31 August now open on their dates in `data/air/airfields-1944.json`, once Allied troops hold the site. Air groups move forward to them as before.
+
 ## Operations orders
 
-`docs/orders/` holds the four role orders and the shared annexes in the FM 101-5 field order form: heading, five paragraphs, signature, OFFICIAL authentication, annex list and distribution. `tools/build-orders.py` builds the PDFs in `docs/orders/pdf/` with Tov as author. Each order ends with its own source trace. Features the orders describe that are not built yet say so in the text: corps orders, the Fortitude phase, exceeding orders, carpet bombing, airfields opening after 6 June and replacements.
+`docs/orders/` holds the four role orders and the shared annexes in the FM 101-5 field order form: heading, five paragraphs, signature, OFFICIAL authentication, annex list and distribution. `tools/build-orders.py` builds the PDFs in `docs/orders/pdf/` with Tov as author. Each order ends with its own source trace. Features the orders describe that are not built yet say so in the text: army orders, the Fortitude phase, exceeding orders, carpet bombing and replacements.
 
 | Document | Pages |
 | --- | --- |
@@ -54,7 +64,7 @@ Step 5 builds the playable slice from D-Day to 1 September 1944 on the step 4 da
 - The recorded narration belongs to the older script, so the Tennessee tutorial runs without voice for now.
 - In a headless test with Blue following the umpire's plan, Blue held all three objectives at 48 hours.
 
-Still to come for the tutorial: corps orders, supply allocation, air requests through the chain, and political standing. The design document lists all four, and each waits on the interface work below.
+Blue's divisions now form Blue Corps under Major General Ames, and the umpire teaches corps orders in a step after his recommended plan. Still to come for the tutorial: supply allocation, air requests through the chain, and political standing.
 
 ## AI-vs-AI testing
 
@@ -66,13 +76,14 @@ Still to come for the tutorial: corps orders, supply allocation, air requests th
 | 2 | Transport and air modules on; detour allowance; German march timing; German sector holding | Still too fast: the Allies run through the gaps between German sectors |
 | 3 | AI phase lines; fighting quality by division | Allies held to the lodgment through 27 June, with no objective south of the phase line. Carentan 6 June (history 12 June), Cherbourg 17 June (26 June), St-Lô 13 June (18 July). The 3rd Division entered Caen on D-Day and the city changed hands before the Allies held it from about 16 June (history 9 July). Losses 81 Allied to 95 German battalion-equivalents |
 
-The AI still takes Caen and St-Lô four to five weeks early, and Cherbourg nine days early. The causes found so far:
+| 4 | German sector lines of 14 km facing the nearest beach, so neighbouring sectors close into a front; the Allied staff AI waits 10 hours between objectives | Cherbourg 24 June (history 26 June). Caen held from about 20 June (9 July). St-Lô changes hands from 13 June (18 July). Losses about even until mid-June, then 60 Allied to 69 German by 22 June |
 
-1. German divisions hold 8 km sectors with gaps between them, where the historical front was continuous.
-2. The staff AI attacks with every free division at once. Montgomery's set-piece rhythm and the build-up of supply before each attack are missing.
-3. Bocage and town fighting may favor the defender too little at division scale.
+After run 4 Cherbourg comes within two days of history. Caen and St-Lô still fall weeks early. The causes found so far:
 
-Next calibration work: continuous German sectors drawn from the historical front lines, a set-piece cadence for the AI army groups, and batches of 20 runs per phase as the design document specifies. A three-week run takes about 20 minutes in Claude's workspace, so a full batch runs as a GitHub Actions job.
+1. The panzer divisions at Caen are committed piecemeal as they arrive, as in history, but they lose their sectors faster than they did.
+2. Bocage and town fighting may favor the defender too little at division scale.
+
+Batches now run on GitHub Actions: `.github/workflows/ai-batch.yml` runs 20 seeds of the whole slice in parallel and commits a summary to `docs/tests/` (built by `tools/batch-summary.js`): for each objective, how many runs hold it at the end, the median date held from, and the spread.
 
 ## Screenshots
 
@@ -82,11 +93,10 @@ Next calibration work: continuous German sectors drawn from the historical front
 
 ## Still to do in step 5
 
-1. Calibration, as above.
-2. Interface for corps and army orders, columns and release points on the map, and the player's air plan.
-3. Advanced landing grounds opening by date during play.
-4. Political score and the four roles' levers.
-5. Narration for the Tennessee tutorial.
+1. Calibration, from the batch results.
+2. Army and army group orders; columns and release points on the map; the player's air plan.
+3. Political score and the four roles' levers.
+4. Narration for the Tennessee tutorial.
 
 ## Source trace
 

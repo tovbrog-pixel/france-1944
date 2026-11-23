@@ -33,7 +33,7 @@ b. *Second British Army.* XXX Corps lands the 50th Division on Gold and takes Ba
 
 c. *Follow-up divisions* land over the beach of the corps they join, on their historical dates (Annex A).
 
-d. *Your orders in play.* Select a division, press **Draw line of advance** and drag the route, then draw the objective line and press **Issue order**. The card shows a staff estimate: arrival time, the odds, and the hours of fighting the division's supply covers. Corps orders, split by the corps commander among his divisions, come in a later build.
+d. *Your orders in play.* Select a division, press **Draw line of advance** and drag the route, then draw the objective line and press **Issue order**. The card shows a staff estimate: arrival time, the odds, and the hours of fighting the division's supply covers. To order a whole corps, press **Order the whole corps** on the card of any of its divisions before you draw. The corps commander splits the objective line among his divisions from left to right and may keep one in reserve. Army orders come in a later build.
 
 x. *All divisions.* Report contact. A commander who judges the odds too poor halts and says what he needs. Give him guns, air or a second division.
 

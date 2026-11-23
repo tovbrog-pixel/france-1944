@@ -78,6 +78,10 @@ SCENARIOS.push({
     { s: 1, nat: 'UK', n: 'Red Armored Reserve', cmd: 'Col. Lyle Tanner', ag: .7, sk: .7, xp: .95, x: 27, y: 5.6, res: 1, sub: ['uk_tk_sher|Red tank battalion', 'uk_tk_sher|Red tank battalion|.6', 'uk_mot|Red motor battalion'] },
   ],
   vp: [['Hartsville', 17.2, 3.1, 20, 1], ['Dixon Springs', 27.9, 7.4, 30, 1], ['Carthage', 36.9, 18.3, 10, 1], ['Lebanon', 6.4, 23.5, 20, 0]],
+  // the maneuver corps: both infantry divisions and the combat command under one corps commander (fictional)
+  modules: ['command'], commands: [{ id: 'blue-corps', s: 0, level: 'corps', n: 'Blue Corps', cmd: { n: 'Maj. Gen. Robert Ames', ag: .6, sk: .7 } }],
+  cmdPlan: [{ t: 0, f: '1st Infantry Division (Blue)', c: 'blue-corps' }, { t: 0, f: '2nd Infantry Division (Blue)', c: 'blue-corps' }, { t: 0, f: 'Combat Command A (Blue)', c: 'blue-corps' }],
+  tutAdd: [{ after: 'My recommended plan', h: 'Corps orders', t: 'You command a corps. Each Blue division card shows its corps and the corps commander, General Ames. Press <b>Order the whole corps</b> on any division card, then draw one line of advance and one objective line as before. General Ames takes about an hour to plan, splits the objective line among his divisions from left to right, and may hold one back in reserve. Once the attack starts he reviews it every half hour and commits the reserve where a division stalls.<br><br>Use a corps order for a broad attack and a division order for a single task, such as the crossing at the Cordell Hull bridge.' }],
   // the shared tutorial script (ui.js) was written for Exercise Cane River; these replacements carry it to the Tennessee ground and to division command
   tutSub: [['Exercise Cane River', 'Exercise Cumberland'], ['Cane River', 'Cumberland River'], ['I am Colonel Hale, your chief of staff', 'I am Colonel Hale, chief umpire for this maneuver'], ['your chief of staff', 'the chief umpire'], ['chief of staff', 'chief umpire'],
     ["Miller\\'s Ford bridge", 'Cordell Hull bridge'], ["Miller's Ford bridge", 'Cordell Hull bridge'], ["Miller\\'s Ford", 'the Cordell Hull bridge'], ["Miller's Ford", 'the Cordell Hull bridge'],

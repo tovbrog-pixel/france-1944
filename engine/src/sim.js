@@ -968,7 +968,7 @@ function createSim(sc, player, seed, opt) {
         if ((side || S.staffOpt[s].commit) && !F.hold && !F.stay && !F.spent && S.t > (F.urgT || 0) && (!O || O.st === 'done') && S.strength(F) > .5 && !engaged(F, 5)) { F.urgT = S.t + 60; let uv = null, ub = 1e9;
           for (const v of S.vp) { if (v.own !== s) continue; const d = Math.hypot(v.x - F.cx, v.y - F.cy); if (d < 2 || d > 20 || mine.filter(G => G !== F && G.tgtVP === v && G.order && G.order.st !== 'done').length >= 2) continue; const E = powNear(1 - s, v.x, v.y, 8, true), D = powNear(s, v.x, v.y, 4, false, F); if (E > .5 && E > D * 1.5 && d - v.pts * .5 < ub) { ub = d - v.pts * .5; uv = v; } }
           if (uv && autoOrder(F, uv.x, uv.y, false, { urgent: true })) { F.tgtVP = uv; F.urgT = S.t + 240; say(F, 'Moving to reinforce ' + uv.n + ' against the enemy attack.', 1); continue; } }
-        if (!scripted && S.t > F.idleT && (F.staff || S.t >= F.freeT) && (!O || (O.st === 'done' && S.t - (O.doneT || 0) > 180))) {
+        if (!scripted && S.t > F.idleT && (F.staff || S.t >= F.freeT) && (!O || (O.st === 'done' && S.t - (O.doneT || 0) > (sc.sides[s].restH || 3) * 60))) {   // restH: hours a staff-run formation waits after one objective before the next (a set-piece rhythm)
           F.idleT = S.t + 300 * dfS(s).react; if (S.strength(F) < .4 || S.cohesion(F) < .5 || F.stock < F.cap * plan[s].stk) continue;
           let tgt = null, bd = 1e9, pre = null; const atk = sc.sides[s].posture === 'attack';
           // the staff weighs each objective: known enemy strength within 8 km against our own within 4 km. A formation free to move goes where the balance is worst, and counterattacks a lost objective it can retake
