@@ -73,10 +73,11 @@ for item in CFG.get('pdf', []):
 
 # raw text pages (for example Wikipedia wikitext via action=raw)
 for item in CFG.get('raw', []):
-    t = get(item['url'])
+    t = get(item['url'], tries=2)
     if t is None: print('no raw', item['url']); continue
     p = '%s/raw/%s.txt' % (OUT, item['name']); os.makedirs(os.path.dirname(p), exist_ok=True)
     open(p, 'w').write(t); record(p, item['url'], item.get('title', ''))
+    time.sleep(0.3)
 
 # HyperWar folders
 for item in CFG.get('mirror', []):

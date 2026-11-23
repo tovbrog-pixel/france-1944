@@ -112,10 +112,12 @@ Status of the records:
 
 | Item | Contents | Sources | Status |
 | --- | --- | --- | --- |
-| Allied fields | 78 in the slice opened by 1 September: 49 US (A- and ELS fields, all dated), 29 RAF (B-1 to B-30, three dated) | Wikipedia ALG tables, which cite Johnson (1988), AFHRA, for the US fields | 49 sourced, 29 verify (RAF dates, two moved US fields, A-56) |
+| Allied fields | 71 in the slice opened by 1 September: 49 US (A- and ELS fields, all dated) and 22 RAF (B-1 to B-23) | Wikipedia ALG tables, which cite Johnson (1988), AFHRA, for the US fields; Ellis counts and the Bazenville article for the RAF fields | 51 sourced, 17 inference, 3 verify |
 | German fields | 32 Luftwaffe-held fields in the slice, with the date each passed to the Allies | Same tables: 17 marked captured with a date; 15 established airfields held until the Allies arrived | 17 sourced, 13 inference, 2 verify |
 | Allied fleet | 1,360 troop carriers and transports on D-Day (USAAF 900, RAF 460) and over 3,500 gliders; D-Day lifts of 432 aircraft and 50 gliders (101st) and 369 aircraft and 52 gliders (82nd); 38 and 46 Groups RAF squadrons; about 1,400 tons flown in during the June storm | Ellis pp. 72-73, 559; Craven and Cate pp. 138, 143, 275 | Sourced |
 | German air | Third Air Fleet 891 aircraft (497 serviceable) on 31 May, 64 transports (31 serviceable); 319 flying on D-Day; about 1,000 a week later; fuel restrictions from 11 August; about 420 fighters in the last week of August | Ellis pp. 566-569 | Sourced |
+
+RAF opening dates: the tables date only B-1, B-11 and B-12. Ellis gives counts: ten completed airfields in the British sector on 1 July (p. 305), the Amblie strip (B-14) by 4 July, eleven in use on 7 August (p. 403) and 23 by the end of August (p. 481). Claude dated B-2 to B-11 to 1 July and B-15 to B-23 to 20 August from those counts and the sequential numbering (inference), took B-2's 16 June date from its Wikipedia article, and moved B-24 to B-30 past 1 September, since they fall beyond Ellis's 23.
 
 Two US entries in the tables carried coordinates far from the place they name (A-51 Morlaix, 563 km off; A-52 Etampes, 104 km off). Claude moved both to their towns and marked them `verify`. The AFHRA airfield study itself could not be downloaded, so the US dates are not yet checked against it.
 
