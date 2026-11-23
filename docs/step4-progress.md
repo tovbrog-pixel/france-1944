@@ -102,7 +102,7 @@ Status of the records:
 
 `tools/data/build-attach.py` writes `data/oob/attachments-1944.json`: 126 rows saying which corps and army each Allied division served under, from 6 June to 1 September. 113 are sourced and 13 are marked `verify`.
 
-- **US and French divisions:** every change of corps and army by date, transcribed by hand from the Theater Historian's "Assignment and Attachment to Higher Units" table for each division. Where a division was assigned to one army and attached to another, the file keeps the attached army, the one that fought it. Ten rows are `verify` because the scan lost a day or a corps number; the 9th Division's table is unreadable, so its VII Corps row rests on Blumenson's narrative.
+- **US and French divisions:** every change of corps and army by date, transcribed by hand from the Theater Historian's "Assignment and Attachment to Higher Units" table for each division. Where a division was assigned to one army and attached to another, the file keeps the attached army, the one that fought it. Eight rows are `verify`: seven because the scan lost a day or a corps number, and one because the 9th Division's table is unreadable, so its VII Corps row rests on Blumenson's narrative.
 - **British, Canadian and Polish divisions:** snapshots from Ellis at each operation (D-Day, Epsom, Spring, Bluecoat, Totalize, the Falaise gap, the Seine crossing). A snapshot says the division was in that corps on that date; it may have joined earlier. A continuous record needs Joslen or the war diaries.
 - **First Canadian Army:** operational on 23 July 1944 with the British I Corps under command (Ellis pp. 304, 375). This replaces the earlier `verify` entry.
 
@@ -149,7 +149,7 @@ The main passages: Ellis pp. 236-237, 262, 274, 279-282, 319, 378, 405-423; Blum
 | German 6 June positions | Harrison pp. 146-373; Blumenson for Brest, Lorient and Morlaix | Inference or verify, per record |
 | German arrival dates | Ellis, Blumenson, Harrison, with pages in each record | 33 sourced, 5 inference, 13 verify |
 | US and French corps attachments by date | Theater Historian order of battle, assignment tables; Blumenson for the 9th Division and 2e DB | 113 of 126 rows sourced across both sides |
-| British, Canadian, Polish corps snapshots; First Canadian Army date | Ellis pp. 80, 167, 245, 275-276, 304, 375-378, 388, 408, 417, 441-454 | Sourced, three snapshot rows verify |
+| British, Canadian, Polish corps snapshots; First Canadian Army date | Ellis pp. 80, 167, 245, 275-276, 304, 375-378, 388, 408, 417, 441-454 | Sourced, five snapshot rows verify |
 | German entry points at the map edge | Claude's choice from the direction in the source | Inference |
 | Road, rail, river and town totals; test results | `data/network/` build log; `tools/normandy-test.js` run | Sourced |
 | Modern roads and OSM railways as 1944 proxies | Claude's method | Inference |
