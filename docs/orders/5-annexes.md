@@ -61,6 +61,7 @@ Naval gunfire supports the assault from offshore: battleships with a range of ab
 2. *Delivery.* Truck columns carry supply from the nearest open source to each division by road. Enemy troops on the road stop the columns.
 3. *Cut off.* A division with no open road to a source loses about 1 percent of its strength a day while its stock lasts, and 4 percent once it runs out.
 4. *Replacements.* In this build divisions receive no replacements. The replacement pool comes in a later build.
+5. *Standing.* Eisenhower's standing is reviewed on 25 July and 22 August. A composite under 40, or any capital under 20, brings a warning; a second failure, or a composite under 25 at any time, brings relief.
 
 ## Annex G: Signal and controls
 

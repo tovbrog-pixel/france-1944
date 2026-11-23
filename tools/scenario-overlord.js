@@ -145,11 +145,15 @@ function makeOverlord(cs) {
   // Historian's tables, British and Canadian from Ellis's snapshots). Army and army group echelons come later.
   const ROM = c => (c || '').replace(/ Canadian$/, '').trim().toLowerCase();
   const corpsKey = (nat, row) => { if (!row.corps) return null; if (/Canadian/.test(row.corps)) return 'ca-ii'; return ((nat === 'US' || nat === 'FR') ? 'us-' : 'uk-') + ROM(row.corps); };
-  const commands = A.commands.filter(c => c.type === 'corps').map(c => ({ id: c.id, s: 0, level: 'corps', n: (c.id.startsWith('us-') ? 'US ' : c.id.startsWith('uk-') ? 'British ' : '') + c.name,
+  const commands = A.commands.filter(c => c.type === 'corps' || c.type === 'army').map(c => ({ id: c.id, s: 0, level: c.type, n: c.type === 'army' ? c.name : (c.id.startsWith('us-') ? 'US ' : c.id.startsWith('uk-') ? 'British ' : '') + c.name,
     cmd: { n: cmdAt(c, START.slice(0, 10)), ag: c.id.startsWith('us-') ? .6 : .45, sk: .65 } }));
   const known = new Set(commands.map(c => c.id)), cmdPlan = [];
   for (const d of A.divisions) { if (!d.arrive || d.arrive >= END.slice(0, 10)) continue; const nat = d.nat || 'US';
     for (const r of T.rows.filter(q => q.div === d.id).sort((a, b) => a.from < b.from ? -1 : 1)) { const k = corpsKey(nat, r); if (k && known.has(k)) cmdPlan.push({ t: Math.max(0, hrs(r.from, 0)), f: d.name, c: k }); } }
+  // corps to armies, by the first date each corps appears under each army in the attachment rows
+  const ARMY = { First: 'us-fusa', Third: 'us-tusa', Second: 'uk-2a', 'First Canadian': 'ca-1a' }, seen = {};
+  for (const r of T.rows.slice().sort((a, b) => a.from < b.from ? -1 : 1)) { const a = ARMY[r.army]; if (!a || !r.corps) continue; const us = a.startsWith('us-');
+    const k = /Canadian/.test(r.corps) ? 'ca-ii' : (us ? 'us-' : 'uk-') + ROM(r.corps); if (!known.has(k) || seen[k + a]) continue; seen[k + a] = 1; cmdPlan.push({ t: Math.max(0, hrs(r.from, 0)), f: 'cmd:' + k, c: a }); }
   const air = realMap.airAt(START.slice(0, 10), Object.assign({ cs }, WIN));
   // advanced landing grounds and airfields that opened after 6 June, by their dates in data/air (Johnson 1988 for US fields; RAF dates inference)
   const AF = J('air/airfields-1944.json'), fieldPlan = AF.fields.filter(q => q.open && q.open > START.slice(0, 10) && q.open < END.slice(0, 10) && q.xy[0] >= WIN.x0 && q.xy[0] <= WIN.x0 + WIN.w && q.xy[1] >= WIN.y0 && q.xy[1] <= WIN.y0 + WIN.h)
@@ -168,7 +172,7 @@ function makeOverlord(cs) {
   const beach = Object.values({ utah: P.utah, omahaW: P.omahaW, omahaE: P.omahaE, gold: P.gold, juno: P.juno, sword: P.sword }).map(b => { const q = W(b[0], b[1]); return [q[0] - 4, q[1] - 3, q[0] + 4, q[1] + 3]; });
 
   const sc = Object.assign({}, base, m, { id: 'overlord', title: 'Overlord: D-Day to the Seine', sub: 'Normandy and Brittany, 6 June to 1 September 1944', start: START, hours: hrs(END.slice(0, 10), 0),
-    ownCell: 1, fieldPlan, commands, cmdPlan, detourKm: 14, phaseLines: PHASES.map(q => ({ s: 0, until: hrs(q.until, 6), line: q.line.map(p => W(p[0], p[1])) })), view: { x: 292, y: 86, dist: 95, pitch: 1.35 }, modules: ['transport', 'air', 'command'], forest: [], rough: [], marsh: [], bridges: [], vp, ports, beach, weather, sides, forms, front: { all: 1 }, thin: undefined, halt: undefined, mines: undefined,
+    ownCell: 1, fieldPlan, commands, cmdPlan, detourKm: 14, phaseLines: PHASES.map(q => ({ s: 0, until: hrs(q.until, 6), line: q.line.map(p => W(p[0], p[1])) })), view: { x: 292, y: 86, dist: 95, pitch: 1.35 }, modules: ['transport', 'air', 'command', 'politics'], politics: { reviews: [hrs('1944-07-25', 6), hrs('1944-08-22', 6)] }, forest: [], rough: [], marsh: [], bridges: [], vp, ports, beach, weather, sides, forms, front: { all: 1 }, thin: undefined, halt: undefined, mines: undefined,
     brief: ['Land the six assault divisions and three airborne divisions, join the beachheads, take Caen and Cherbourg, break out into Brittany and drive to the Seine.',
       'Throw the landings back while the beachhead is shallow. Hold Caen and the bocage, bring up the panzer divisions, and keep the Allies out of the ports.'],
     hist: 'Historically Caen held until 9 July and Cherbourg fell on 26-27 June. Operation Cobra broke out at St-Lo on 25 July, the Falaise pocket closed on 19-21 August, Paris was liberated on 25 August, and the Allies stood on the Seine by the end of the month.' });
@@ -192,9 +196,9 @@ if (require.main === module) {
   while (!S.over && g < hours * 60) { S.advance(step); g += step;
     for (const [n] of MILESTONES) { const v = vpOf(n); if (!v) continue; const c = S.clock(S.t).slice(0, 11).trim();
       if (v.own === 0) { if (!took[n]) took[n] = c; if (!held[n]) held[n] = c; } else held[n] = null; }   // took: first entered; held: in Allied hands from this date to the end
-    if (g % (24 * 60) === 0) { const act = S.forms.filter(F => F.active && !F.dead); console.log('  ' + S.clock(S.t).slice(0, 16) + ' | ' + ((Date.now() - t1) / 1000).toFixed(0) + ' s | on map A ' + act.filter(F => F.s === 0).length + ' G ' + act.filter(F => F.s === 1).length + ' | losses ' + S.losses.map(v => v.toFixed(0)).join(' / ') + ' | objectives A ' + own()[0] + ' of ' + S.vp.length + ' | ' + names().slice(0, 8).join(', ')); } }
+    if (g % (24 * 60) === 0) { const act = S.forms.filter(F => F.active && !F.dead); console.log('  ' + S.clock(S.t).slice(0, 16) + ' | ' + ((Date.now() - t1) / 1000).toFixed(0) + ' s | on map A ' + act.filter(F => F.s === 0).length + ' G ' + act.filter(F => F.s === 1).length + ' | losses ' + S.losses.map(v => v.toFixed(0)).join(' / ') + ' | objectives A ' + own()[0] + ' of ' + S.vp.length + (S.pol ? ' | standing ' + Math.round(S.polComposite()) + ' (' + Object.keys(S.pol.aud).map(k => k[0] + Math.round(S.pol.aud[k])).join(' ') + ')' : '') + ' | ' + names().slice(0, 8).join(', ')); } }
   const sec = (Date.now() - t1) / 1000;
   console.log('Milestones (held from / first entered / history): ' + MILESTONES.map(([n, d]) => n + ' ' + (held[n] || '-') + ' / ' + (took[n] || '-') + ' / ' + d.slice(5)).join('; '));
-  if (process.argv[5]) fs.writeFileSync(process.argv[5], JSON.stringify({ seed, hours: g / 60, took, held, losses: S.losses, own: own() }));
+  if (process.argv[5]) fs.writeFileSync(process.argv[5], JSON.stringify({ seed, hours: g / 60, took, held, losses: S.losses, own: own(), standing: S.pol ? Object.assign({ composite: S.polComposite() }, S.pol.aud) : null }));
   console.log('Result: ' + (g / 60).toFixed(0) + ' game h in ' + sec.toFixed(1) + ' s = ' + Math.round(g * 60 / sec) + 'x real time');
 }

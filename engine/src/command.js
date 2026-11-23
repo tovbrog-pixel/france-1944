@@ -112,7 +112,7 @@ function attachCommand(S) {
   // corps a scenario defines (sc.commands), and the dates divisions join them (sc.cmdPlan: { t: hours, f: division name, c: command id })
   const byId = {}; for (const c of sc.commands || []) byId[c.id] = S.mkCommand({ n: c.n, s: c.s, level: c.level || 'corps', cmd: Object.assign({ ag: .5, sk: .6 }, c.cmd), forms: [], key: c.id });
   const plan = (sc.cmdPlan || []).slice().sort((a, b) => a.t - b.t); let pi = 0; const fByN = {}; for (const F of S.forms) fByN[F.n] = F;
-  function planTick() { while (pi < plan.length && plan[pi].t * 60 <= S.t) { const q = plan[pi++], F = fByN[q.f], C = byId[q.c]; if (!F || !C || F.parent === C) continue;
+  function planTick() { while (pi < plan.length && plan[pi].t * 60 <= S.t) { const q = plan[pi++], F = q.f.startsWith('cmd:') ? byId[q.f.slice(4)] : fByN[q.f], C = byId[q.c];   // 'cmd:<id>' moves a corps between armies if (!F || !C || F.parent === C) continue;
       if (F.parent && F.parent.forms) { const i = F.parent.forms.indexOf(F); if (i >= 0) F.parent.forms.splice(i, 1); } C.forms.push(F); F.parent = C; if (S.t > 0) S.say(F.s, F.n + ' now under ' + C.n + '.', 0); } }
   planTick();
   // called once per simulation step

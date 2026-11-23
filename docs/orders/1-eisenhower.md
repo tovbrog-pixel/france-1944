@@ -33,7 +33,9 @@ b. *First US Army* (Lieutenant General Bradley) passes to 12th Army Group on 1 A
 
 c. *Allied Expeditionary Air Force.* Annex D. You set the strategic bombers' targets until mid-September 1944: rail centers, bridges, depots and airfields.
 
-d. *Your levers in this build.* You hold the theater reserve and the supply priority. You decide the timing of the airborne lifts and can hold or delay a lift. You may hand any formation to the staff.
+d. *Your levers in this build.* You decide the timing of the airborne lifts and can hold or delay a lift, order any division, corps or army, and hand any formation to the staff. The theater reserve and supply priority come in a later build.
+
+e. *Standing.* The top bar shows your standing with Washington, London, Paris and Moscow. Steady advances and the great objectives raise it; heavy losses for little ground, and Paris left in German hands, lower it. The Combined Chiefs review it on 25 July and 22 August (Annex F).
 
 x. *All commands.* Keep the beachheads joined. No formation crosses another's line of advance without an order. Report any objective lost within 30 minutes of game time.
 
@@ -70,4 +72,5 @@ Distribution: Commanders, 21st Army Group, First US Army, Third US Army; the pla
 | Cherbourg clearing time of 456 hours | General history (first discharge about 16 July) | Verify against Ruppenthal ch. XI |
 | Naval forces U, O, G, J and S by beach | General history | Verify against Ellis I ch. VIII |
 | Southwick House command post; GSGS 4250 map series; time of issue | General history | Inference (game heading) |
+| Standing rules and review dates | Design document (Political score); `engine/src/politics.js` | Game design |
 | Points, levers and controls | The game (`tools/scenario-overlord.js`) | Game design |
