@@ -179,7 +179,7 @@
     if (!compactSet && window.innerHeight > 0) { compact = window.innerHeight < 760; compactSet = true; }
     const list = S.forms.filter(mineF), own = S.player >= 0, groups = [], gi = {};
     { const cnt = {}; for (const F of list) { const g = groupOf(F); cnt[g] = (cnt[g] || 0) + 1; }   // a division with one formation on the map joins Other formations
-      for (const F of list) { let g = list.length > 10 ? groupOf(F) : ''; if (cnt[g] < 2) g = ''; shownG[F.id] = g; let G = gi[g]; if (!G) { G = gi[g] = { n: g, L: [] }; groups.push(G); } G.L.push(F); }
+      for (const F of list) { let g = (list.length > 10 || (F.parent && F.parent.level === 'corps')) ? groupOf(F) : ''; if (cnt[g] < 2) g = ''; shownG[F.id] = g; let G = gi[g]; if (!G) { G = gi[g] = { n: g, L: [] }; groups.push(G); } G.L.push(F); }
       const o = groups.findIndex(G => !G.n); if (o >= 0 && groups.length > 1) groups.push(groups.splice(o, 1)[0]); }
     let h = '<div class="ftop"><label class="chk"><input type="checkbox" id="compact"' + (compact ? ' checked' : '') + '> compact list</label>' + (own ? '<span class="note">' + list.filter(F => F.staff).length + ' with the staff</span>' : '') + '</div>';
     for (const G of groups) {
@@ -595,4 +595,66 @@
     el.addEventListener('click', close); window.addEventListener('keydown', key, true);
   })();
   if (window.AUTOSTART) { menuSc = window.AUTOSTART[0]; menuSide = window.AUTOSTART[1]; if (window.AUTOSTART[2] != null) menuDiff = window.AUTOSTART[2]; if (window.AUTOSTART[3] != null) menuVary = window.AUTOSTART[3]; begin(); }
+})();
+
+// Tooltips. Any control with a title shows it in a panel beside the pointer after a short pause; controls without one take their text from TIPS.
+(function () {
+  const TIPS = {
+    'act:path': 'Step 1. Drag on the map from the formation along the route you want. The general picks the roads near your line.',
+    'act:line': 'Step 2. Drag a line across the objective. The formation deploys along it, facing away from its line of advance.',
+    'act:issue': 'Send the order. The staff needs time to prepare it before the troops move.',
+    'act:stretch': 'Spread the battalions along the whole objective line. This covers more ground and leaves gaps the enemy can slip through.',
+    'act:halt': 'Stop the formation where it stands. It keeps its order and can be sent on again.',
+    'act:close': 'Close the card and clear the selection.',
+    'act:dz': 'Click a new point on the map for the drop.',
+    'act:hold': 'Keep the lift on the ground until you release it.',
+    'act:delay': 'Put the drop back by six hours.',
+    'act:rejoin': 'Send the ticked battalions back to their formation.',
+    'act:setthen': 'Apply the chosen posture to the formation where it stands now.',
+    'act:addint': 'Click a point on a road or rail line. Groups on Interdict attack traffic near it.',
+    'act:addrec': 'Click a point. Groups on Recce fly over it and report the enemy units and columns they see.',
+    'act:addstrat': 'Click a target such as a bridge, depot or airfield. Groups on Bombing attack it.',
+    'act:engattach': 'Attach this engineer battalion so the formation can repair the bridge on its route.',
+    'act2:fpri': 'Click a point on the map. Guns in general support fire there first.',
+    'act2:fpriclr': 'Remove the priority target. The guns go back to the closest threats.',
+    'm:cap': 'Air cover. Fighters keep enemy aircraft away from your troops and your other squadrons.',
+    'm:cas': 'Close support. The group answers calls from the division generals during attacks.',
+    'm:int': 'Interdiction. The group attacks road and rail traffic inside the zones you mark.',
+    'm:strat': 'Bombing. The group attacks the targets you mark: bridges, depots and airfields.',
+    'm:rec': 'Reconnaissance. The group reports enemy units and supply columns it flies over.',
+    'fm:DS': 'Direct support. The battalion fires for the selected formation alone.',
+    'fm:R': 'Reinforcing. The battalion adds its fire to the selected formation\'s own artillery.',
+    'fm:GSR': 'General support, reinforcing. The battalion covers the front and gives the selected formation first call.',
+    'fm:GS': 'General support. The battalion covers the whole front, takes the closest threats and enemy batteries, or your priority target.',
+    'for:0': 'Keep this posture until you give a new order.',
+    'for:6': 'Keep this posture for 6 hours.', 'for:12': 'Keep this posture for 12 hours.', 'for:24': 'Keep this posture for 24 hours.',
+    'tut:next': 'Go to the next step of the tutorial.', 'tut:back': 'Go back one step.', 'tut:hide': 'Hide the tutorial panel. The exercise carries on.',
+    'att': 'Attach this unit to the selected formation. It moves and fights under that general from now on.',
+    'load': 'Load this save. The present battle is replaced.',
+    'delsave': 'Delete this save.', 'delint': 'Remove this interdiction zone.', 'delrec': 'Remove this reconnaissance area.', 'delstrat': 'Remove this bombing target.',
+    'resume': 'Start the clock again. Key: Space.',
+    'f': 'Click to select this formation and move the map to it.',
+    'gstaff': '', 'x': ''
+  };
+  function fromTable(el) { const d = el.dataset; if (!d) return '';
+    for (const k of ['act', 'act2', 'm', 'fm', 'for', 'tut']) if (d[k] != null && TIPS[k + ':' + d[k]]) return TIPS[k + ':' + d[k]];
+    for (const k of ['att', 'load', 'delsave', 'delint', 'delrec', 'delstrat', 'resume', 'f']) if (d[k] != null && TIPS[k]) return TIPS[k];
+    return ''; }
+  function find(t) { for (let el = t; el && el.nodeType === 1 && el !== document.body; el = el.parentElement) {
+      if (el.id === 'ov' || el.id === 'gl') return null;
+      if (el.getAttribute('title')) { el.dataset.tip = el.getAttribute('title'); el.removeAttribute('title'); }
+      const x = (el.dataset && el.dataset.tip) || fromTable(el); if (x) return [el, x]; } return null; }
+  let box = null, cur = null, timer = 0, mx = 0, my = 0;
+  function hide() { clearTimeout(timer); timer = 0; cur = null; if (box) box.style.display = 'none'; }
+  function show(txt) { if (!box) { box = document.createElement('div'); box.id = 'uitip'; document.body.appendChild(box); }
+    box.textContent = txt; box.style.display = 'block'; const w = box.offsetWidth, h = box.offsetHeight, W = innerWidth, H = innerHeight;
+    box.style.left = Math.max(4, Math.min(W - w - 6, mx + 14)) + 'px'; box.style.top = (my + 22 + h > H - 4 ? Math.max(4, my - h - 10) : my + 22) + 'px'; }
+  document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; if (e.buttons) { hide(); return; }
+    const r = find(e.target); if (!r) { hide(); return; }
+    if (cur && cur[0] === r[0] && cur[1] === r[1]) return;
+    const was = box && box.style.display === 'block'; hide(); cur = r; if (was) show(r[1]); else timer = setTimeout(() => { if (cur === r) show(r[1]); }, 450); }, true);
+  document.addEventListener('mousedown', hide, true); document.addEventListener('keydown', hide, true); document.addEventListener('wheel', hide, true); window.addEventListener('blur', hide);
+  // touch: a long press shows the tip without pressing the control
+  let lp = 0; document.addEventListener('touchstart', e => { const t = e.touches[0], r = find(e.target); clearTimeout(lp); if (!r) { hide(); return; } mx = t.clientX; my = t.clientY; lp = setTimeout(() => { cur = r; show(r[1]); }, 550); }, { passive: true, capture: true });
+  document.addEventListener('touchend', () => { clearTimeout(lp); setTimeout(hide, 2500); }, true); document.addEventListener('touchmove', () => clearTimeout(lp), { passive: true, capture: true });
 })();
