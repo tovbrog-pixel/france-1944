@@ -3,6 +3,7 @@ name: Windows build
 on:
   push:
     branches: [main]
+    paths-ignore: ['data/**', 'docs/**', 'tools/data/**', '.github/workflows/terrain-data.yml', '.github/workflows/network-data.yml']
   workflow_dispatch:
 
 jobs:

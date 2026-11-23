@@ -1,0 +1,36 @@
+name: Terrain data
+
+on:
+  push:
+    branches: [main]
+    paths: ['tools/data/terrain.py', '.github/workflows/terrain-data.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  terrain:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install numpy rasterio pillow
+      - name: Build terrain grids
+        env:
+          GDAL_DISABLE_READDIR_ON_OPEN: EMPTY_DIR
+          GDAL_HTTP_MAX_RETRY: '5'
+          GDAL_HTTP_RETRY_DELAY: '3'
+          AWS_NO_SIGN_REQUEST: 'YES'
+        run: python tools/data/terrain.py data/terrain
+      - name: Commit results
+        run: |
+          git config user.name "Tov Binyamin Brog"
+          git config user.email "tovbrog-pixel@users.noreply.github.com"
+          git add data/terrain
+          git diff --cached --quiet || git commit -m "Terrain data: built by Actions from Copernicus DEM GLO-90 and ESA WorldCover 2021"
+          git pull --rebase
+          git push
