@@ -1,10 +1,10 @@
 // ===== MAP: terrain grid, features, pathfinding =====
-const T = { OPEN: 0, LF: 1, HF: 2, HILL: 3, MTN: 4, ROUGH: 5, DESERT: 6, JUNGLE: 7, BEACH: 8, MARSH: 9, TOWN: 10, CITY: 11, SEA: 12, RIVER: 13, STREAM: 14 };
-const TNAME = ['Open ground', 'Light forest', 'Heavy forest', 'Hills', 'Mountain', 'Rough ground', 'Desert', 'Jungle', 'Beach', 'Marsh / polder', 'Town', 'City', 'Sea', 'River', 'Stream'];
+const T = { OPEN: 0, LF: 1, HF: 2, HILL: 3, MTN: 4, ROUGH: 5, DESERT: 6, JUNGLE: 7, BEACH: 8, MARSH: 9, TOWN: 10, CITY: 11, SEA: 12, RIVER: 13, STREAM: 14, BOCAGE: 15 };
+const TNAME = ['Open ground', 'Light forest', 'Heavy forest', 'Hills', 'Mountain', 'Rough ground', 'Desert', 'Jungle', 'Beach', 'Marsh / polder', 'Town', 'City', 'Sea', 'River', 'Stream', 'Bocage'];
 // speed factor by move class [foot, wheel, track]
-const TFAC = [[1, .45, .7], [.8, .25, .45], [.6, .08, .18], [.7, .3, .5], [.35, 0, .06], [.7, .2, .4], [.9, .45, .8], [.4, 0, .1], [.8, .25, .55], [.5, .08, .12], [.9, .6, .6], [.8, .5, .5], [0, 0, 0], [0, 0, 0], [.35, .12, .25]];
+const TFAC = [[1, .45, .7], [.8, .25, .45], [.6, .08, .18], [.7, .3, .5], [.35, 0, .06], [.7, .2, .4], [.9, .45, .8], [.4, 0, .1], [.8, .25, .55], [.5, .08, .12], [.9, .6, .6], [.8, .5, .5], [0, 0, 0], [0, 0, 0], [.35, .12, .25], [.7, .15, .3]];
 const RFAC = [null, [1.1, .6, .75], [1.2, .9, .95], [1.25, 1, 1]];
-const COVER = [1, .7, .5, .8, .6, .75, 1.1, .5, 1.3, 1, .55, .4, 1, 1, 1];
+const COVER = [1, .7, .5, .8, .6, .75, 1.1, .5, 1.3, 1, .55, .4, 1, 1, 1, .55];
 const MVI = { foot: 0, wheel: 1, track: 2, ship: 0 };
 
 function mulberry(a) { return function () { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
@@ -24,6 +24,11 @@ function catmull(pts, step) { // smooth polyline through points, sampled roughly
   o.push(pts[pts.length - 1].slice(0, 2)); return o;
 }
 
+function densify(pts, step) { // keep every point, add points so no gap exceeds `step` km
+  const o = [pts[0]];
+  for (let i = 1; i < pts.length; i++) { const a = pts[i - 1], b = pts[i], n = Math.ceil(Math.hypot(b[0] - a[0], b[1] - a[1]) / step); for (let k = 1; k <= n; k++) o.push([a[0] + (b[0] - a[0]) * k / n, a[1] + (b[1] - a[1]) * k / n]); }
+  return o;
+}
 function buildMap(sc) {
   const cs = sc.cs, W = Math.round(sc.w / cs), H = Math.round(sc.h / cs), N = W * H, seed = sc.seed || 7;
   const m = { sc, cs, W, H, N, w: sc.w, h: sc.h, t: new Uint8Array(N), el: new Float32Array(N), road: new Uint8Array(N), lane: new Uint8Array(N), riv: new Uint8Array(N), br: new Int16Array(N).fill(-1), bridges: [], towns: [], fac: [new Float32Array(N), new Float32Array(N), new Float32Array(N)], roadLines: [], riverLines: [], townFire: [] };
@@ -39,6 +44,7 @@ function buildMap(sc) {
   const blob = (list, x, y) => { let best = 0; if (list) for (const b of list) { const d = Math.hypot(x - b[0], y - b[1]) / b[2]; if (d < 1.5) { const n = .7 + .6 * vnoise(x / 1.7, y / 1.7, seed + 21); if (d < n) best = Math.max(best, b[3] || 1); } } return best; };
   for (let j = 0; j < H; j++) for (let i = 0; i < W; i++) {
     const c = j * W + i, x = (i + .5) * cs, y = (j + .5) * cs;
+    if (sc.raster) { m.t[c] = sc.raster.t[c]; m.el[c] = sc.raster.el[c]; continue; }   // real terrain built from data/terrain
     if (inSea(x, y)) { m.t[c] = T.SEA; m.el[c] = -8; continue; }
     const e = Math.max(1, m.elevAt(x, y)); m.el[c] = e;
     let t = base;
@@ -62,7 +68,9 @@ function buildMap(sc) {
   const idx = (x, y) => { const i = Math.max(0, Math.min(W - 1, Math.floor(x / cs))), j = Math.max(0, Math.min(H - 1, Math.floor(y / cs))); return j * W + i; };
   m.idx = idx;
   function raster(pts, fn) { let pi = -1, pj = -1; for (const p of pts) { const i = Math.floor(p[0] / cs), j = Math.floor(p[1] / cs); if (i < 0 || j < 0 || i >= W || j >= H) { pi = -1; continue; } if (i === pi && j === pj) continue; if (pi >= 0 && i !== pi && j !== pj) fn(j * W + pi); fn(j * W + i); pi = i; pj = j; } }
-  for (const r of sc.rivers || []) { const pts = catmull(r[2], cs / 3); m.riverLines.push({ name: r[0], cls: r[1], pts }); raster(pts, c => { if (m.t[c] === T.SEA) return; if (r[1] === 1) { m.riv[c] = 1; m.t[c] = T.RIVER; } else if (m.riv[c] !== 1) { m.riv[c] = 2; m.t[c] = T.STREAM; } }); }
+  if (sc.raster && (sc.raster.w !== W || sc.raster.h !== H)) throw new Error('raster size ' + sc.raster.w + 'x' + sc.raster.h + ' does not match map ' + W + 'x' + H);
+  const line = (p) => sc.realLines ? densify(p, cs / 3) : catmull(p, cs / 3);   // real survey lines are used as drawn; sketch lines are smoothed
+  for (const r of sc.rivers || []) { const pts = line(r[2]); m.riverLines.push({ name: r[0], cls: r[1], pts }); raster(pts, c => { if (m.t[c] === T.SEA) return; if (r[1] === 1) { m.riv[c] = 1; m.t[c] = T.RIVER; } else if (m.riv[c] !== 1) { m.riv[c] = 2; m.t[c] = T.STREAM; } }); }
   for (const t of sc.towns || []) {
     const tw = { name: t[0], x: t[1], y: t[2], size: t[3], fire: 0 }; m.towns.push(tw);
     const r = t[3] >= 3 ? 1.7 : t[3] === 2 ? .95 : .4;
@@ -71,7 +79,7 @@ function buildMap(sc) {
       const d = Math.hypot((i + .5) * cs - t[1], (j + .5) * cs - t[2]); if (d <= r + cs * .3) m.t[c] = (t[3] >= 3 && d < r * .7) ? T.CITY : T.TOWN;
     }
   }
-  for (const r of sc.roads || []) { const pts = catmull(r[1], cs / 3); m.roadLines.push({ cls: r[0], pts }); raster(pts, c => { if (m.t[c] === T.SEA) return; if (m.road[c] < r[0]) m.road[c] = r[0]; }); }
+  for (const r of sc.roads || []) { const pts = line(r[1]); m.roadLines.push({ cls: r[0], pts: sc.realLines ? r[1] : pts }); raster(pts, c => { if (m.t[c] === T.SEA) return; if (m.road[c] < r[0]) m.road[c] = r[0]; }); }
   // bridges: road over major river
   const seen = new Uint8Array(N);
   for (let c = 0; c < N; c++) if (m.riv[c] === 1 && m.road[c] && !seen[c]) {

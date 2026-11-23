@@ -53,11 +53,18 @@ def year(v):
     m = re.search(r'(1[89]\d\d|20\d\d)', v or ''); return int(m.group(1)) if m else None
 
 # ---------------- OSM
-REGIONS = ['europe/france/normandie', 'europe/france/bretagne', 'europe/france/pays-de-la-loire', 'europe/france/centre-val-de-loire',
-           'europe/france/ile-de-france', 'europe/france/hauts-de-france', 'europe/france/grand-est', 'europe/belgium']
+WANT = ['basse-normandie', 'haute-normandie', 'bretagne', 'pays-de-la-loire', 'centre', 'ile-de-france', 'picardie', 'nord-pas-de-calais',
+        'champagne-ardenne', 'lorraine', 'bourgogne', 'franche-comte', 'normandie', 'hauts-de-france', 'grand-est', 'centre-val-de-loire',
+        'bourgogne-franche-comte', 'belgium']
+idx = json.loads(urllib.request.urlopen('https://download.geofabrik.de/index-v1-nogeom.json', timeout=120).read())
+urls = {}
+for ft in idx['features']:
+    pr = ft['properties']
+    if pr.get('parent') in ('france', 'europe') and pr['id'] in WANT and 'pbf' in pr.get('urls', {}): urls[pr['id']] = pr['urls']['pbf']
+print('Geofabrik regions:', sorted(urls))
 filtered = []
-for r in REGIONS:
-    pbf = fetch('https://download.geofabrik.de/%s-latest.osm.pbf' % r, '%s/%s.osm.pbf' % (TMP, r.split('/')[-1]))
+for r, u in sorted(urls.items()):
+    pbf = fetch(u, '%s/%s.osm.pbf' % (TMP, r))
     fo = pbf.replace('.osm.pbf', '.f.osm.pbf')
     subprocess.run(['osmium', 'tags-filter', '-O', '-o', fo, pbf,
                     'w/highway=trunk,primary,secondary,tertiary', 'w/railway=rail,disused,abandoned,razed,narrow_gauge,preserved',
