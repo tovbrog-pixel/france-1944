@@ -7,7 +7,7 @@ const out = process.argv[2] || '/tmp/preview'; fs.mkdirSync(out, { recursive: tr
 const which = process.argv[3] || 'normandy', menu = process.argv[4] === 'menu', side = menu ? -1 : +(process.argv[4] == null ? -1 : process.argv[4]);   // 'menu': open on the scenario menu (the desktop app)
 const sc = which === 'overlord' || which === 'tutorial-tn' ? require('./scenario-overlord')(1) : makeNormandy(.5);   // the Tennessee tutorial is built into the engine; the page still carries the campaign
 const b64 = a => Buffer.from(a.buffer, a.byteOffset, a.byteLength).toString('base64');
-const keep = ['id', 'title', 'sub', 'modules', 'front', 'detourKm', 'view', 'phaseLines', 'fieldPlan', 'commands', 'cmdPlan', 'politics', 'brief', 'hist', 'ports', 'beach', 'w', 'h', 'cs', 'realLines', 'rivers', 'roads', 'rails', 'towns', 'ownCell', 'hours', 'start', 'forest', 'rough', 'marsh', 'bridges', 'vp', 'weather', 'forms'];
+const keep = ['id', 'title', 'sub', 'modules', 'front', 'detourKm', 'aiExact', 'view', 'phaseLines', 'fieldPlan', 'commands', 'cmdPlan', 'politics', 'brief', 'hist', 'ports', 'beach', 'w', 'h', 'cs', 'realLines', 'rivers', 'roads', 'rails', 'towns', 'ownCell', 'hours', 'start', 'forest', 'rough', 'marsh', 'bridges', 'vp', 'weather', 'forms'];
 const D = {}; for (const k of keep) D[k] = sc[k];
 if (which !== 'overlord') { D.title = 'Normandy, 25 July 1944 (real-map test)'; D.sub = 'Step 4 data: real terrain, roads, rail, towns and airfields'; D.brief = ['Real-map test.', 'Real-map test.']; }
 D.raster = { w: sc.raster.w, h: sc.raster.h, t: b64(sc.raster.t), el: b64(sc.raster.el) };
@@ -23,7 +23,9 @@ const inject = `
 })();
 `;
 const order = ['data.js', 'divisions.js', 'map.js', 'scenarios.js', 'tutorial.js', 'balance.js', 'commanders.js', 'guidance.js', 'models.js', 'sim.js', 'command.js', 'transport.js', 'air.js', 'politics.js', 'assess.js', 'render.js', 'render2.js', 'render3.js', 'sound.js'];
-let code = order.map(f => fs.readFileSync(path.join(src, f), 'utf8')).join('\n;\n') + '\n;\n' + inject + '\n;\n' + fs.readFileSync(path.join(src, 'ui.js'), 'utf8');
+// recorded chief-of-staff clips, built into the page when a voice folder is given (env VOICE_DIR): the single file then needs no folder beside it
+const vdir = process.env.VOICE_DIR, VO = {}; if (vdir && fs.existsSync(vdir)) for (const f of fs.readdirSync(vdir)) if (f.endsWith('.mp3')) VO[f.slice(0, -4)] = 'data:audio/mpeg;base64,' + fs.readFileSync(path.join(vdir, f)).toString('base64');
+let code = 'window.VOICE = ' + JSON.stringify(VO) + ';\n' + order.map(f => fs.readFileSync(path.join(src, f), 'utf8')).join('\n;\n') + '\n;\n' + inject + '\n;\n' + fs.readFileSync(path.join(src, 'ui.js'), 'utf8');
 let html = fs.readFileSync(path.join(src, 'index.tpl.html'), 'utf8');
 html = html.replace('<!--THREE-->', '<script>' + fs.readFileSync(path.join(root, 'node_modules', 'three', 'build', 'three.min.js'), 'utf8') + '</script>').replace('/*CODE*/', () => code);
 fs.writeFileSync(path.join(out, 'index.html'), html);

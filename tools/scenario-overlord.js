@@ -180,7 +180,7 @@ function makeOverlord(cs) {
   const gGroups = [['JG 2 and JG 26 (Air Corps II)', 'bf109', 48, 0, 'cap'], ['Fighter reinforcements from Germany', 'fw190', 36, 0, 'cas'], ['KG 54 and KG 66', 'ju88', 24, 1, 'strat']];   // game groups scaled to Ellis's 319 operational aircraft (inference)
   const sides = base.sides.map((sd, s) => Object.assign({}, sd, {
     name: s ? 'OB West: Seventh Army and Panzer Group West' : 'Allied Expeditionary Force: 21st Army Group',
-    rear: s ? [0, 1] : [0, -1], pocket: s ? true : undefined, restH: s ? 3 : 10, aiPerVP: s ? 2 : 4, aiRng: s ? 0 : 40,   // Allied staff AI: up to four divisions on one objective, reaching 40 km, so follow-up divisions join the battle instead of waiting at the beach (game setting)
+    rear: s ? [0, 1] : [0, -1], pocket: s ? true : undefined, restH: s ? 3 : 10, aiPerVP: s ? 2 : 4, aiRng: s ? 0 : 150,   // Allied staff AI: up to four divisions on one objective, reaching 40 km, so follow-up divisions join the battle instead of waiting at the beach (game setting)
      posture: s ? 'defend' : 'attack', assets: s ? [] : sd.assets || [],
     sources: s ? gSrc : alliedSrc, pool: s ? [] : pool.concat(sup), bases: [off[s]].concat(air.bases[s]), transport: { aircraft: air.transport[s] }, groups: s ? gGroups : sd.groups }));
 
@@ -191,7 +191,7 @@ function makeOverlord(cs) {
   const beach = Object.values({ utah: P.utah, omahaW: P.omahaW, omahaE: P.omahaE, gold: P.gold, juno: P.juno, sword: P.sword }).map(b => { const q = W(b[0], b[1]); return [q[0] - 4, q[1] - 3, q[0] + 4, q[1] + 3]; });
 
   const sc = Object.assign({}, base, m, { id: 'overlord', title: 'Overlord: D-Day to the Seine', sub: 'Normandy and Brittany, 6 June to 1 September 1944', start: START, hours: hrs(END.slice(0, 10), 0),
-    ownCell: 1, fieldPlan, commands, cmdPlan, armyAI: { only: ['us-tusa'], from: hrs('1944-08-01', 6) }, detourKm: 14, phaseLines: PHASES.map(q => ({ s: 0, until: hrs(q.until, 6), line: q.line.map(p => W(p[0], p[1])) })), view: { x: 292, y: 86, dist: 95, pitch: 1.35 }, modules: ['transport', 'air', 'command', 'politics'], politics: { reviews: [hrs('1944-07-25', 6), hrs('1944-08-22', 6)] }, forest: [], rough: [], marsh: [], bridges: [], vp, ports, beach, weather, sides, forms, front: { all: 1 }, thin: undefined, halt: undefined, mines: undefined,
+    ownCell: 1, aiExact: 1, fieldPlan, commands, cmdPlan, armyAI: { only: ['us-tusa'], from: hrs('1944-08-01', 6) }, detourKm: 14, phaseLines: PHASES.map(q => ({ s: 0, until: hrs(q.until, 6), line: q.line.map(p => W(p[0], p[1])) })), view: { x: 292, y: 86, dist: 95, pitch: 1.35 }, modules: ['transport', 'air', 'command', 'politics'], politics: { reviews: [hrs('1944-07-25', 6), hrs('1944-08-22', 6)] }, forest: [], rough: [], marsh: [], bridges: [], vp, ports, beach, weather, sides, forms, front: { all: 1 }, thin: undefined, halt: undefined, mines: undefined,
     brief: ['Land the six assault divisions and three airborne divisions, join the beachheads, take Caen and Cherbourg, break out into Brittany and drive to the Seine.',
       'Throw the landings back while the beachhead is shallow. Hold Caen and the bocage, bring up the panzer divisions, and keep the Allies out of the ports.'],
     hist: 'Historically Caen held until 9 July and Cherbourg fell on 26-27 June. Operation Cobra broke out at St-Lo on 25 July, the Falaise pocket closed on 19-21 August, Paris was liberated on 25 August, and the Allies stood on the Seine by the end of the month.' });

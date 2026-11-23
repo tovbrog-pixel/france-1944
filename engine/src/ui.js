@@ -467,14 +467,14 @@
   function vStop() { vSeq++; if (vAud) { try { vAud.pause(); } catch (e) { } vAud = null; } if (SPK) SPK.cancel(); }
   function playClips(ids, html, force) { if (!voiceOn && !force) return; vStop(); const seq = vSeq; let i = 0;
     let fell = false; const fall = () => { if (seq !== vSeq || fell) return; fell = true; vAud = null; if (i <= 1) { const v0 = voiceOn; voiceOn = true; speakText(html); voiceOn = v0; } };
-    const next = () => { if (seq !== vSeq) return; if (i >= ids.length) { vAud = null; return; } let a; try { a = new Audio('voice/' + ids[i++] + '.mp3'); } catch (e) { return fall(); } vAud = a; a.onended = next; a.onerror = fall; const p = a.play(); if (p && p.catch) p.catch(fall); };
+    const next = () => { if (seq !== vSeq) return; if (i >= ids.length) { vAud = null; return; } let a; try { { const id = ids[i++]; a = new Audio((window.VOICE && window.VOICE[id]) || 'voice/' + id + '.mp3'); }   // clips built into a single-file page, else the voice folder } catch (e) { return fall(); } vAud = a; a.onended = next; a.onerror = fall; const p = a.play(); if (p && p.catch) p.catch(fall); };
     next(); }
   function stepIds(i) { const n = VOXN[i] || 0, ids = []; for (let j = 0; j < n; j++) ids.push('s' + String(i).padStart(2, '0') + '_' + j); return ids; }
   function sayStep(force) { const st = TUT[tut.i]; playClips(stepIds(tut.i), '<p>' + st.h + '.</p>' + (typeof st.t === 'function' ? st.t() : st.t), force); }
   function tutDraw(force) {
     const st = TUT[tut.i], ok = !st.c || tut.ok || (tut.ok = !!st.c());
     if (tut.spoke !== tut.i) { tut.spoke = tut.i; if (!S.sc.tutSub) sayStep(); }
-    if (tut.tip && tut.tip !== tut.tipSpoke) { tut.tipSpoke = tut.tip; playClips(['tip_' + tut.tip.k + '_0'], tut.tip.txt); }
+    if (tut.tip && tut.tip !== tut.tipSpoke) { tut.tipSpoke = tut.tip; if (!S.sc.tutSub) playClips(['tip_' + tut.tip.k + '_0'], tut.tip.txt); }
     setH('tut', '<h3>' + (S.sc.tutSub ? 'Chief umpire' : 'Chief of staff') + ' &middot; ' + (tut.i + 1) + ' of ' + TUT.length + '<button data-tut="hide">hide</button>' + (!S.sc.tutSub ? '<button data-tut="voice" title="The chief of staff reads his notes aloud">' + (voiceOn ? 'voice on' : 'voice off') + '</button><button data-tut="say" title="Read this note again">replay</button>' : '') + '</h3><h4>' + st.h + '</h4><p>' + (typeof st.t === 'function' ? st.t() : st.t) + '</p>' + (st.c ? '<p class="' + (ok ? 'ok' : 'todo') + '">' + (ok ? '&#10003; Done. Press Next.' : '&#9654; ' + st.d) + '</p>' : '') + '<div class="rec"><b>Recommendation:</b> ' + esc(tutS(tutAdvice())) + '</div><div class="btns"><button data-tut="back"' + (tut.i ? '' : ' disabled') + '>Back</button><button data-tut="next" class="' + (ok ? 'go' : '') + '"' + (tut.i < TUT.length - 1 ? '' : ' disabled') + '>Next</button></div>');
   }
   // ---------- movable panels ----------
