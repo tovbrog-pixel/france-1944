@@ -5,6 +5,7 @@ const READ = '2026-11-22';
 const SOURCES = [
   { id: 'eto-oob', title: 'Order of Battle of the United States Army, World War II, European Theater of Operations: Divisions. Office of the Theater Historian, Paris, December 1945', url: 'https://archive.org/details/OrderOfBattleUsArmyEtoWw2', read: READ, free: true, note: 'Public domain. Division entries: Command and Staff, Statistics (Arrived Continent with D+ day), Composition, Attachments, Assignments. OCR text in sources/archive.' },
   { id: 'ellis-1', title: 'L. F. Ellis, Victory in the West, vol. I, The Battle of Normandy, HMSO 1962', url: 'https://archive.org/details/victory-west-vol-1', read: READ, free: true, note: 'Appendix IV, The Allied Armies (pp. 521-551): formations engaged 6 Jun-31 Aug 1944 with commanders and dates of change. Appendix V (pp. 552-555): German command and the 13 corps and 51 divisions met. OCR text in sources/archive.' },
+  { id: 'blumenson', title: 'Martin Blumenson, Breakout and Pursuit, US Army in World War II, CMH 1961', url: 'https://archive.org/details/breakoutpursuit00blum', read: READ, free: true, note: 'OCR text in sources/archive.' },
   { id: 'general', title: 'General history, not yet traced to a primary source', read: READ, free: false, note: 'Every record citing only this source has status verify.' },
 ];
 const D = (s) => s;   // dates as ISO strings
@@ -15,7 +16,7 @@ const US = [
   ['us-4id', '4th Infantry Division', 'US', 'us_inf', ['8th Inf', '12th Inf', '22nd Inf'], [['1944-01-28', 'Maj. Gen. Raymond O. Barton']], '1944-06-06', 'sourced', ['eto-oob'], 'D-Day, Utah'],
   ['us-5id', '5th Infantry Division', 'US', 'us_inf', ['2nd Inf', '10th Inf', '11th Inf'], [['1943', 'Maj. Gen. S. LeRoy Irwin']], '1944-07-09', 'sourced', ['eto-oob'], 'Arrived Continent D+33; first elements in combat 14 Jul 1944'],
   ['us-8id', '8th Infantry Division', 'US', 'us_inf', ['13th Inf', '28th Inf', '121st Inf'], [['1944', 'Maj. Gen. William C. McMahon'], ['1944-07', 'Maj. Gen. Donald A. Stroh']], '1944-07-04', 'sourced', ['eto-oob'], 'Arrived Continent D+28. Commanders: names to confirm on the Command and Staff page (status of commanders: verify)'],
-  ['us-9id', '9th Infantry Division', 'US', 'us_inf', ['39th Inf', '47th Inf', '60th Inf'], [['1943', 'Maj. Gen. Manton S. Eddy'], ['1944-08', 'Maj. Gen. Louis A. Craig']], '1944-06-10', 'sourced', ['eto-oob'], 'Arrived Continent D+4; entered combat 14 Jun 1944. Date of Eddy-Craig change to read from Command and Staff'],
+  ['us-9id', '9th Infantry Division', 'US', 'us_inf', ['39th Inf', '47th Inf', '60th Inf'], [['1943', 'Maj. Gen. Manton S. Eddy'], ['1944-08-19', 'Maj. Gen. Louis A. Craig']], '1944-06-10', 'sourced', ['eto-oob', 'blumenson'], 'Arrived Continent D+4; entered combat 14 Jun 1944. Craig took over when Eddy went to XII Corps (Blumenson); exact date verify'],
   ['us-28id', '28th Infantry Division', 'US', 'us_inf', ['109th Inf', '110th Inf', '112th Inf'], [['1944', 'Maj. Gen. Lloyd D. Brown'], ['1944-08', 'Maj. Gen. Norman D. Cota']], '1944-07-24', 'sourced', ['eto-oob'], 'Arrived Continent D+48. Mid-August command changes (Brown, Wharton, Cota) to read from Command and Staff'],
   ['us-29id', '29th Infantry Division', 'US', 'us_inf', ['115th Inf', '116th Inf', '175th Inf'], [['1943-07-22', 'Maj. Gen. Charles H. Gerhardt']], '1944-06-06', 'sourced', ['eto-oob'], 'D-Day, Omaha. Gerhardt name not legible in OCR; the 22 Jul 1943 date is (commander status: verify)'],
   ['us-30id', '30th Infantry Division', 'US', 'us_inf', ['117th Inf', '119th Inf', '120th Inf'], [['1944', 'Maj. Gen. Leland S. Hobbs']], '1944-06-14', 'sourced', ['eto-oob'], 'Arrived Continent D+8 (OCR "2/ 8"; date line 14 Jun 44 in the column)'],
@@ -32,7 +33,7 @@ const US = [
   ['us-5ad', '5th Armored Division', 'US', 'us_arm', ['CCA', 'CCB', 'CCR'], [['1944', 'Maj. Gen. Lunsford E. Oliver']], '1944-07-25', 'sourced', ['eto-oob'], 'Arrived Continent D+49; entered combat 2 Aug 1944'],
   ['us-6ad', '6th Armored Division', 'US', 'us_arm', ['CCA', 'CCB', 'CCR'], [['1944', 'Maj. Gen. Robert W. Grow']], '1944-07-18', 'sourced', ['eto-oob'], 'Arrived Continent D+42; first elements in combat 27 Jul, entire division 28 Jul 1944'],
   ['us-7ad', '7th Armored Division', 'US', 'us_arm', ['CCA', 'CCB', 'CCR'], [['1944-06-13', 'Maj. Gen. Lindsay M. Silvester']], '1944-08-10', 'sourced', ['eto-oob'], 'Arrived Continent D+65; first elements in combat 13 Aug 1944'],
-  ['fr-2db', '2e Division Blindee', 'FR', 'us_arm', ['GT Langlade', 'GT Dio', 'GT Billotte'], [['1943', 'Gen. Philippe Leclerc']], '1944-08-01', 'verify', ['general'], 'US-equipped French armoured division; landed at Utah about 1 Aug 1944; to verify in Breakout and Pursuit'],
+  ['fr-2db', '2e Division Blindee', 'FR', 'us_arm', ['GT Langlade', 'GT Dio', 'GT Billotte'], [['1944', 'Maj. Gen. Jacques Philippe Leclerc']], '1944-08-01', 'verify', ['blumenson'], 'Blumenson: re-equipped with American materiel, arrived on the Continent and assembled south of Avranches in the early days of August; attached to XV Corps at le Mans on 9 Aug. Exact landing date verify; group names from general history'],
 ];
 // ---------- British, Canadian, Polish: names, commanders and dates of change from ellis-1 Appendix IV. Arrival dates verify unless noted.
 const CW = [
@@ -66,16 +67,16 @@ const COMMANDS = [
   ['uk-xii', 'XII Corps', 'corps', 'uk-2a', [['1944-06', 'Lt. Gen. N. M. Ritchie']], 'sourced', ['ellis-1']],
   ['uk-xxx', 'XXX Corps', 'corps', 'uk-2a', [['1944-06', 'Lt. Gen. G. C. Bucknall'], ['1944-08-04', 'Lt. Gen. B. G. Horrocks']], 'sourced', ['ellis-1']],
   ['ca-ii', 'II Canadian Corps', 'corps', 'uk-2a', [['1944-07', 'Lt. Gen. G. G. Simonds']], 'sourced', ['ellis-1']],
-  ['us-fusa', 'First United States Army', 'army', null, [['1944-06', 'Lt. Gen. Omar N. Bradley'], ['1944-08-01', 'Lt. Gen. Courtney H. Hodges']], 'verify', ['general']],
-  ['us-tusa', 'Third United States Army', 'army', 'us-12ag', [['1944-08-01', 'Lt. Gen. George S. Patton Jr.']], 'verify', ['general']],
-  ['us-12ag', 'Twelfth Army Group', 'army group', null, [['1944-08-01', 'Lt. Gen. Omar N. Bradley']], 'verify', ['general']],
-  ['us-v', 'V Corps', 'corps', 'us-fusa', [['1944-06', 'Maj. Gen. Leonard T. Gerow']], 'verify', ['general']],
-  ['us-vii', 'VII Corps', 'corps', 'us-fusa', [['1944-06', 'Maj. Gen. J. Lawton Collins']], 'verify', ['general']],
-  ['us-viii', 'VIII Corps', 'corps', 'us-fusa', [['1944-06', 'Maj. Gen. Troy H. Middleton']], 'verify', ['general']],
-  ['us-xix', 'XIX Corps', 'corps', 'us-fusa', [['1944-06', 'Maj. Gen. Charles H. Corlett']], 'verify', ['general']],
-  ['us-xv', 'XV Corps', 'corps', 'us-tusa', [['1944-08', 'Maj. Gen. Wade H. Haislip']], 'verify', ['general']],
-  ['us-xii', 'XII Corps', 'corps', 'us-tusa', [['1944-08', 'Maj. Gen. Gilbert R. Cook'], ['1944-08-19', 'Maj. Gen. Manton S. Eddy']], 'verify', ['general']],
-  ['us-xx', 'XX Corps', 'corps', 'us-tusa', [['1944-08', 'Maj. Gen. Walton H. Walker']], 'verify', ['general']],
+  ['us-fusa', 'First United States Army', 'army', null, [['1944-06', 'Lt. Gen. Omar N. Bradley'], ['1944-08-01', 'Lt. Gen. Courtney H. Hodges']], 'sourced', ['blumenson'], 'Blumenson: at noon on 1 Aug the 12th Army Group became operational and Hodges assumed command of First Army'],
+  ['us-tusa', 'Third United States Army', 'army', 'us-12ag', [['1944-08-01', 'Lt. Gen. George S. Patton Jr.']], 'sourced', ['blumenson'], 'Blumenson: Patton\'s Third Army came to life on 1 Aug, with the 12th Army Group'],
+  ['us-12ag', 'Twelfth Army Group', 'army group', null, [['1944-08-01', 'Lt. Gen. Omar N. Bradley']], 'sourced', ['blumenson'], 'Operational at noon, 1 Aug 1944'],
+  ['us-v', 'V Corps', 'corps', 'us-fusa', [['1944-06', 'Maj. Gen. Leonard T. Gerow']], 'sourced', ['blumenson']],
+  ['us-vii', 'VII Corps', 'corps', 'us-fusa', [['1944-06', 'Maj. Gen. J. Lawton Collins']], 'sourced', ['blumenson']],
+  ['us-viii', 'VIII Corps', 'corps', 'us-fusa', [['1944-06', 'Maj. Gen. Troy H. Middleton']], 'sourced', ['blumenson'], 'Under Third Army from 1 Aug 1944 (verify)'],
+  ['us-xix', 'XIX Corps', 'corps', 'us-fusa', [['1944-06', 'Maj. Gen. Charles H. Corlett']], 'sourced', ['blumenson']],
+  ['us-xv', 'XV Corps', 'corps', 'us-tusa', [['1944-08', 'Maj. Gen. Wade H. Haislip']], 'sourced', ['blumenson'], 'Scheduled to enter the line between VII and VIII Corps when Third Army became operational'],
+  ['us-xii', 'XII Corps', 'corps', 'us-tusa', [['1943', 'Maj. Gen. Gilbert R. Cook'], ['1944-08-19', 'Maj. Gen. Manton S. Eddy']], 'sourced', ['blumenson'], 'Cook commanded since 1943 and set up his headquarters at le Mans on 13 Aug; Eddy took his place before 20 Aug (exact date verify)'],
+  ['us-xx', 'XX Corps', 'corps', 'us-tusa', [['1944-08', 'Maj. Gen. Walton H. Walker']], 'sourced', ['blumenson']],
 ];
 // ---------- Germany: corps and divisions met 6 Jun-31 Aug 1944, ellis-1 Appendix V Part II. Positions and arrival dates are the next pass.
 const GE_CORPS = ['I SS Panzer', 'II SS Panzer', 'XLVII Panzer', 'LVIII Panzer', 'II Parachute', 'XXV', 'LXVII', 'LXXIV', 'LXXX', 'LXXXI', 'LXXXII', 'LXXXIV', 'LXXXVI'];
@@ -110,5 +111,5 @@ const german = {
 const out = path.join(__dirname, '..', '..', 'data', 'oob');
 fs.mkdirSync(out, { recursive: true });
 fs.writeFileSync(path.join(out, 'allied-1944.json'), JSON.stringify(allied, null, 1));
-fs.writeFileSync(path.join(out, 'german-1944.json'), JSON.stringify(german, null, 1));
+if (process.argv.includes('--german') || !fs.existsSync(path.join(out, 'german-1944.json'))) fs.writeFileSync(path.join(out, 'german-1944.json'), JSON.stringify(german, null, 1));   // German positions are edited in the file itself after the first build
 console.log('allied divisions', allied.divisions.length, 'commands', allied.commands.length, '| german divisions', german.divisions.length, 'corps', german.corps.length);

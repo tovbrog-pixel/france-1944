@@ -19,6 +19,14 @@
    "note": "Appendix IV, The Allied Armies (pp. 521-551): formations engaged 6 Jun-31 Aug 1944 with commanders and dates of change. Appendix V (pp. 552-555): German command and the 13 corps and 51 divisions met. OCR text in sources/archive."
   },
   {
+   "id": "blumenson",
+   "title": "Martin Blumenson, Breakout and Pursuit, US Army in World War II, CMH 1961",
+   "url": "https://archive.org/details/breakoutpursuit00blum",
+   "read": "2026-11-22",
+   "free": true,
+   "note": "OCR text in sources/archive."
+  },
+  {
    "id": "general",
    "title": "General history, not yet traced to a primary source",
    "read": "2026-11-22",
@@ -183,11 +191,11 @@
      "name": "Lt. Gen. Courtney H. Hodges"
     }
    ],
-   "status": "verify",
+   "status": "sourced",
    "src": [
-    "general"
+    "blumenson"
    ],
-   "note": ""
+   "note": "Blumenson: at noon on 1 Aug the 12th Army Group became operational and Hodges assumed command of First Army"
   },
   {
    "id": "us-tusa",
@@ -200,11 +208,11 @@
      "name": "Lt. Gen. George S. Patton Jr."
     }
    ],
-   "status": "verify",
+   "status": "sourced",
    "src": [
-    "general"
+    "blumenson"
    ],
-   "note": ""
+   "note": "Blumenson: Patton's Third Army came to life on 1 Aug, with the 12th Army Group"
   },
   {
    "id": "us-12ag",
@@ -217,11 +225,11 @@
      "name": "Lt. Gen. Omar N. Bradley"
     }
    ],
-   "status": "verify",
+   "status": "sourced",
    "src": [
-    "general"
+    "blumenson"
    ],
-   "note": ""
+   "note": "Operational at noon, 1 Aug 1944"
   },
   {
    "id": "us-v",
@@ -234,9 +242,9 @@
      "name": "Maj. Gen. Leonard T. Gerow"
     }
    ],
-   "status": "verify",
+   "status": "sourced",
    "src": [
-    "general"
+    "blumenson"
    ],
    "note": ""
   },
@@ -251,9 +259,9 @@
      "name": "Maj. Gen. J. Lawton Collins"
     }
    ],
-   "status": "verify",
+   "status": "sourced",
    "src": [
-    "general"
+    "blumenson"
    ],
    "note": ""
   },
@@ -268,11 +276,11 @@
      "name": "Maj. Gen. Troy H. Middleton"
     }
    ],
-   "status": "verify",
+   "status": "sourced",
    "src": [
-    "general"
+    "blumenson"
    ],
-   "note": ""
+   "note": "Under Third Army from 1 Aug 1944 (verify)"
   },
   {
    "id": "us-xix",
@@ -285,9 +293,9 @@
      "name": "Maj. Gen. Charles H. Corlett"
     }
    ],
-   "status": "verify",
+   "status": "sourced",
    "src": [
-    "general"
+    "blumenson"
    ],
    "note": ""
   },
@@ -302,11 +310,11 @@
      "name": "Maj. Gen. Wade H. Haislip"
     }
    ],
-   "status": "verify",
+   "status": "sourced",
    "src": [
-    "general"
+    "blumenson"
    ],
-   "note": ""
+   "note": "Scheduled to enter the line between VII and VIII Corps when Third Army became operational"
   },
   {
    "id": "us-xii",
@@ -315,7 +323,7 @@
    "parent": "us-tusa",
    "commanders": [
     {
-     "from": "1944-08",
+     "from": "1943",
      "name": "Maj. Gen. Gilbert R. Cook"
     },
     {
@@ -323,11 +331,11 @@
      "name": "Maj. Gen. Manton S. Eddy"
     }
    ],
-   "status": "verify",
+   "status": "sourced",
    "src": [
-    "general"
+    "blumenson"
    ],
-   "note": ""
+   "note": "Cook commanded since 1943 and set up his headquarters at le Mans on 13 Aug; Eddy took his place before 20 Aug (exact date verify)"
   },
   {
    "id": "us-xx",
@@ -340,9 +348,9 @@
      "name": "Maj. Gen. Walton H. Walker"
     }
    ],
-   "status": "verify",
+   "status": "sourced",
    "src": [
-    "general"
+    "blumenson"
    ],
    "note": ""
   }
@@ -483,16 +491,17 @@
      "name": "Maj. Gen. Manton S. Eddy"
     },
     {
-     "from": "1944-08",
+     "from": "1944-08-19",
      "name": "Maj. Gen. Louis A. Craig"
     }
    ],
    "arrive": "1944-06-10",
    "status": "sourced",
    "src": [
-    "eto-oob"
+    "eto-oob",
+    "blumenson"
    ],
-   "note": "Arrived Continent D+4; entered combat 14 Jun 1944. Date of Eddy-Craig change to read from Command and Staff"
+   "note": "Arrived Continent D+4; entered combat 14 Jun 1944. Craig took over when Eddy went to XII Corps (Blumenson); exact date verify"
   },
   {
    "id": "us-28id",
@@ -896,16 +905,16 @@
    ],
    "commanders": [
     {
-     "from": "1943",
-     "name": "Gen. Philippe Leclerc"
+     "from": "1944",
+     "name": "Maj. Gen. Jacques Philippe Leclerc"
     }
    ],
    "arrive": "1944-08-01",
    "status": "verify",
    "src": [
-    "general"
+    "blumenson"
    ],
-   "note": "US-equipped French armoured division; landed at Utah about 1 Aug 1944; to verify in Breakout and Pursuit"
+   "note": "Blumenson: re-equipped with American materiel, arrived on the Continent and assembled south of Avranches in the early days of August; attached to XV Corps at le Mans on 9 Aug. Exact landing date verify; group names from general history"
   },
   {
    "id": "uk-gds-ad",

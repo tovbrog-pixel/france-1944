@@ -16,6 +16,13 @@
    "url": "https://archive.org/details/victory-west-vol-1",
    "read": "2026-11-22",
    "free": true
+  },
+  {
+   "id": "blumenson",
+   "title": "Martin Blumenson, Breakout and Pursuit, CMH 1961",
+   "url": "https://archive.org/details/breakoutpursuit00blum",
+   "read": "2026-11-22",
+   "free": true
   }
  ],
  "bocage": [
@@ -23,10 +30,11 @@
    "name": "Cotentin, Bessin and the Bocage",
    "src": [
     "harrison",
-    "ellis-1"
+    "ellis-1",
+    "blumenson"
    ],
    "status": "inference",
-   "note": "Harrison (pp. 180-181, 284) divides the NEPTUNE area into the north and south Cotentin, the Bessin (hedgerow-enclosed meadows between Isigny and Bayeux), the Bocage (hilly wooded country south of the Bessin and Cotentin nearly to the base of the Brittany peninsula) and the relatively open Caen country from Bayeux east and southeast; he calls hedgerows ubiquitous throughout the Cotentin and the bocage country. Ellis contrasts the open, hedgeless country east of the Orne with the close hedgerows of the bocage. The polygon follows the Caen-country edge Bayeux - Tilly - Villers-Bocage - Thury-Harcourt - Falaise - Argentan - Sees and closes on Alencon - Mayenne - Fougeres - Pontorson. The exact line is Claude's drawing from those descriptions. Brittany, Maine and the Pays d'Auge are left out until Blumenson's description is read.",
+   "note": "Harrison (pp. 180-181, 284) divides the NEPTUNE area into the north and south Cotentin, the Bessin (hedgerow-enclosed meadows between Isigny and Bayeux), the Bocage (hilly wooded country south of the Bessin and Cotentin nearly to the base of the Brittany peninsula) and the relatively open Caen country from Bayeux east and southeast; he calls hedgerows ubiquitous throughout the Cotentin and the bocage country. Ellis contrasts the open, hedgeless country east of the Orne with the close hedgerows of the bocage. The polygon follows the Caen-country edge Bayeux - Tilly - Villers-Bocage - Thury-Harcourt - Falaise - Argentan - Sees and closes on Alencon - Mayenne - Fougeres - Pontorson. The exact line is Claude's drawing from those descriptions. Blumenson supports the line: the Coutances-St-Lo plateau is typical bocage; the sector east of the Vire is the heart of the bocage country; Montgomery expected the Germans to use the difficult bocage of the Domfront-Argentan-Alencon area; the NEPTUNE planners saw the Allied right sweeping south of the bocage toward Laval-Mayenne and le Mans-Alencon; Brittany meant a change to wide-open exploitation. Brittany and the Pays d'Auge stay outside the polygon.",
    "poly": [
     [
      230,

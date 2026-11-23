@@ -37,11 +37,43 @@ The slice covers 820 x 450 km in the Lambert-93 grid: Pointe du Raz to the Meuse
 | Hills | Elevation range inside a 1 km cell of 55 m or more |
 | Marsh | Herbaceous wetland 30% or more |
 | Impassable water | Lakes and wide rivers 45% or more |
-| Bocage | Open farmland inside the 1944 hedgerow region (polygon still to draw from the histories) |
+| Bocage | Open farmland inside the 1944 hedgerow region (`data/terrain/overlays-1944.json`) |
+| Flooded (marsh) | Ground at or below 6 to 8 m inside the four June 1944 inundation zones |
 
 Elevation removes 12 m per unit of tree cover, since the Copernicus model measures treetops.
 
-At 1 km the slice has 188,234 open cells, 50,878 forest cells, 20,280 hill cells and 108,838 sea cells.
+At 1 km the slice has 177,723 open cells, 50,875 forest cells, 20,280 hill cells, 10,086 bocage cells, 659 marsh cells and 108,838 sea cells.
+
+### 1944 overlays
+
+`data/terrain/overlays-1944.json` holds the hedgerow region and the German inundations of June 1944, each with its source passage:
+
+- **Bocage:** the Cotentin, the Bessin and the Bocage south to Pontorson, Fougeres, Mayenne and Alencon, bounded on the east by the open Caen country (Bayeux, Villers-Bocage, Thury-Harcourt, Falaise, Argentan, Sees). Harrison names the five regions; Ellis and Blumenson describe the open country east of the Orne, the bocage around Vire, Mortain and Domfront, and the change to open country in Brittany. Claude drew the line from those descriptions.
+- **Flooded ground:** the strip behind Utah Beach, the Douve and Merderet, the lower Aure (Harrison) and the Dives valley and delta (Ellis). Low ground inside each zone becomes marsh.
+
+### Roads, railways, rivers and towns
+
+The network workflow produced `data/network/`:
+
+| Layer | Contents | Notes |
+| --- | --- | --- |
+| Roads | Class 3 (trunk and primary) 38,320 km; class 2 (secondary) 53,135 km; class 1 (tertiary) 119,343 km | Modern alignments as a proxy for 1944, motorways removed. The engine loads classes 3 and 2 |
+| Railways | 1,860 main-line pieces, 595 branch pieces, plus about 8,400 km of abandoned and razed lines | OSM draws many double tracks as two lines, so the totals count some track twice. Some abandoned local lines closed before 1944; to check against the GSGS sheets |
+| Rivers | 5,701 reaches with mean discharge of 1 m3/s or more | Rivers of 8 m3/s or more stop vehicles without a bridge (setting `majorQ`) |
+| Towns | 1,505 French communes of 2,000 or more people in the 1936 census; 367 other places | Size 3 at 50,000, size 2 at 10,000 |
+
+### Normandy test on the real map
+
+`tools/normandy-test.js` loads a 200 x 190 km window (Cap de la Hague to Lisieux, the coast to Domfront) at 0.5 km cells, with 24 Allied and 16 German divisions from `data/oob` on a test line from Lessay to Caen. The placement is a test, not a historical scenario.
+
+| Measure | Result |
+| --- | --- |
+| Map content | 3,973 road pieces, 823 rail pieces, 504 river reaches, 148 towns, 112 bridges found by the engine |
+| Forces | 40 divisions, 628 battalions |
+| Speed | 24 game hours in 62 seconds, 1,396 times real time, in Claude's workspace |
+| "No route" halts | At most 2 divisions at once, none at the end |
+
+The Falaise "no route" problem from step 3 does not appear on the real network.
 
 ### Engine changes
 
@@ -62,15 +94,17 @@ Status of the records:
 
 - US arrival dates are sourced from the "Arrived Continent" lines. Each was checked against its D+ day.
 - British and Canadian arrival dates are marked `verify`. Ellis gives them only loosely; Joslen or Stacey will settle them.
-- US army and corps commanders are marked `verify` until the Breakout and Pursuit text arrives.
-- German positions on 6 June and arrival dates are the next pass.
+- US army and corps commanders and the 1 August command changes are sourced from Blumenson, Breakout and Pursuit.
+- 20 German divisions have 6 June positions from Harrison, Cross-Channel Attack. Nine are marked `inference`, since Claude placed each at the centre of the area the text names; the other eleven are marked `verify`, since part of the placement comes from general history.
+- German arrival dates are the next pass. The OCR of Blumenson mangles many division numbers, so each needs a careful read.
 
 ## Still to do in step 4
 
-1. Roads, railways, rivers and towns from the network workflow, then check them against the GSGS sheets.
-2. Bocage region and the June 1944 flooded areas from the histories.
-3. Corps attachments by date; German positions and arrivals.
-4. A Normandy test scenario on the real map, an AI-against-AI run, and a retest of the "no route" halts.
+1. German arrival dates (Ellis, Blumenson) and the remaining German positions.
+2. Corps attachments by date (US Theater Historian assignment tables, Ellis).
+3. British and Canadian arrival dates from a primary source.
+4. A check of roads and railways against the GSGS sheets, with abandoned lines that closed before 1944 removed.
+5. Airfields and the troop carrier fleet for June to August 1944 (Craven and Cate vol. III is now in `sources/`).
 
 ## Source trace
 
@@ -82,4 +116,8 @@ Status of the records:
 | British, Canadian, Polish commanders and dates of change | Ellis, Victory in the West vol. I, Appendix IV | Sourced |
 | British, Canadian, Polish arrival dates | Ellis narrative and general history | Verify |
 | German corps and divisions met | Ellis, Appendix V Part II | Sourced; 89th and 709th read from damaged OCR (inference) |
-| US army and corps commanders | General history | Verify |
+| US army and corps commanders, 1 Aug command changes, 2e DB arrival | Blumenson, Breakout and Pursuit | Sourced; 2e DB exact landing date verify |
+| Bocage region, flooded zones | Harrison pp. 180-182, 284, 287, 367; Ellis; Blumenson | Inference (line drawn by Claude from the descriptions) |
+| German 6 June positions | Harrison pp. 147-373 | Inference or verify, per record |
+| Road, rail, river and town totals; test results | `data/network/` build log; `tools/normandy-test.js` run | Sourced |
+| Modern roads and OSM railways as 1944 proxies | Claude's method | Inference |
