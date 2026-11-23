@@ -103,12 +103,18 @@ Blue's divisions now form Blue Corps under Major General Ames, and the umpire te
 
 | 5 | German sector holders dig in on arrival; sourced H-Hours on Gold, Juno and Sword | Cherbourg held from 15 June (26 June); Caen held from 23 June (9 July); St-Lô entered 13 June but not held at three weeks (18 July). Le Havre fell on 23 June, so the phase lines now close the coast east of the Dives until August |
 
+| 6 | AI army commanders give their corps objectives on a rhythm set by the commander's aggression (`armyAI`) | Much faster: Cherbourg, Caen and St-Lô all taken by 13 June. The concentrated corps attacks overwhelm the German sectors, so `armyAI` stays off until it is calibrated |
+
 Single runs vary widely: Cherbourg came 24 June in run 4 and 15 June in run 5. The batches of 20 give the spread. After run 4 Cherbourg came within two days of history. Caen and St-Lô still fall weeks early. The causes found so far:
 
 1. The panzer divisions at Caen are committed piecemeal as they arrive, as in history, but they lose their sectors faster than they did.
 2. Bocage and town fighting may favor the defender too little at division scale.
 
 Batches now run on GitHub Actions: `.github/workflows/ai-batch.yml` runs 20 seeds of the whole slice in parallel and commits a summary to `docs/tests/` (built by `tools/batch-summary.js`): for each objective, how many runs hold it at the end, the median date held from, and the spread.
+
+## Town names
+
+The towns file joined the 1936 census to today's commune list, so communes merged after the war showed their new names (Carentan-les-Marais, Vire Normandie). `tools/data/network.py` now takes each merged commune's former chief town from geo.api.gouv.fr's delegated communes and keeps today's name in `name_today`; a short hand list finishes two-step mergers such as Cherbourg. The network workflow on GitHub Actions rebuilds `data/network/towns.json` with the change.
 
 ## Screenshots
 

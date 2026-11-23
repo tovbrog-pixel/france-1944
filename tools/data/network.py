@@ -223,6 +223,18 @@ for row in ws.iter_rows(values_only=True):
     else: nm = d.get('LIBGEO') or ''
     pop36[code] = pop36.get(code, 0) + float(v); names[code] = nm
 cen = json.loads(urllib.request.urlopen('https://geo.api.gouv.fr/communes?fields=code,nom,centre&format=json&geometry=centre', timeout=300).read())
+# 1944 names: a commune merged after the war keeps its new name in the census file. The delegated commune that shares the merged
+# commune's code is the former chief town, so its name is the older one (geo.api.gouv.fr, type commune-deleguee). Two-step mergers
+# (Cherbourg and Octeville in 2000, then Cherbourg-en-Cotentin in 2016) are finished by the short hand list below (Claude's list).
+old_name = {}
+try:
+    dele = json.loads(urllib.request.urlopen('https://geo.api.gouv.fr/communes?type=commune-deleguee&fields=nom,code,chefLieu&format=json', timeout=300).read())
+    for d in dele:
+        if d.get('chefLieu') and d.get('code') == d.get('chefLieu'): old_name[d['code']] = d['nom']
+    print('delegated communes:', len(dele), 'chief towns renamed:', len(old_name))
+except Exception as e:
+    print('delegated communes not fetched:', e)
+HAND = {'Cherbourg-Octeville': 'Cherbourg', 'Charleville-Mézières': 'Charleville', 'Boulogne-Billancourt': 'Boulogne-sur-Seine'}
 towns = []
 for c in cen:
     p = pop36.get(c['code'])
@@ -230,10 +242,11 @@ for c in cen:
     x, y = TO_L93(*c['centre']['coordinates'])
     if not CLIP.contains(Point(x, y)): continue
     gx, gy = round(x / 1000 - 100, 2), round(7110 - y / 1000, 2)
-    towns.append({'name': names.get(c['code']) or c['nom'], 'insee': c['code'], 'pop1936': int(p), 'size': 3 if p >= 50000 else 2 if p >= 10000 else 1, 'x': gx, 'y': gy})
+    nm = old_name.get(c['code']) or names.get(c['code']) or c['nom']; nm = HAND.get(nm, nm)
+    towns.append({'name': nm, 'name_today': c['nom'], 'insee': c['code'], 'pop1936': int(p), 'size': 3 if p >= 50000 else 2 if p >= 10000 else 1, 'x': gx, 'y': gy})
 be = [{'name': n, 'pop': pp, 'x': round(x / 1000 - 100, 2), 'y': round(7110 - y / 1000, 2)} for n, x, y, pp, ref in places if not ref and y > 6990000]
 json.dump({'sources': [{'id': 'insee-pop', 'title': 'INSEE, Historique des populations communales 1876-2023', 'url': xurl, 'read': TODAY, 'free': True},
                        {'id': 'geo-api', 'title': 'geo.api.gouv.fr commune centroids', 'url': 'https://geo.api.gouv.fr/', 'read': TODAY, 'free': True}, road_out['sources'][0]],
-           'status': 'sourced', 'note': '1936 census population in present-day commune boundaries; size 3 >= 50,000, 2 >= 10,000, 1 >= 2,000. Centroids are modern town-hall points. Belgian and other non-French places come from OSM place nodes with modern population and carry status inference.',
+           'status': 'sourced', 'note': '1936 census population in present-day commune boundaries; names are the former chief town where a commune merged after the war (name_today keeps the present name); size 3 >= 50,000, 2 >= 10,000, 1 >= 2,000. Centroids are modern town-hall points. Belgian and other non-French places come from OSM place nodes with modern population and carry status inference.',
            'towns': sorted(towns, key=lambda t: -t['pop1936']), 'otherPlaces': be}, open(OUT + '/towns.json', 'w'), separators=(',', ':'), ensure_ascii=False)
 print('towns', len(towns), 'other places', len(be))
