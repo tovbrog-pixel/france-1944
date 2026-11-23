@@ -32,7 +32,9 @@ Step 5 builds the playable slice from D-Day to 1 September 1944 on the step 4 da
 - **Scheduled airfields.** `fieldPlan` opens fields on their dates once the side holds the site.
 - **AI phase lines.** `phaseLines` keep AI-run formations of a side from objectives beyond a line until a set hour. The player's own divisions are not bound.
 - **Display.** The sea draws on real-map scenarios. Town labels skip any label that would overlap a larger town's. On maps with more than 40 objectives, small objective flags hide at theatre zoom and the bar shows the 16 largest. Airfield labels thin out when a side has more than six fields. A scenario can set its opening view.
-- **Regression.** All earlier scenarios give the same results as before.
+- **Division-scale display.** A scenario sets two zoom thresholds (`divScale`). From far out each division is one symbol with its name and a strength bar. Closer in, the division opens into regiments and artillery, and closer again into battalions. Orders work at every zoom.
+- **Empty pockets close.** Each hour, a connected region of one side's ground that holds none of its troops and none of its uncaptured supply sources loses its outer ring of cells to the side around it. Tov asked for this rule.
+- **Regression.** The pocket rule changes results, so the baselines were recorded again with `tools/regress.js record`.
 
 ## Corps orders
 
@@ -83,15 +85,15 @@ The 70 Allied fields that opened between 7 June and 31 August now open on their 
 
 ## Tennessee tutorial
 
-`tutorial-tn` in `engine/src/tutorial.js` puts the shared tutorial script on real ground: the Tennessee Maneuver Area between Lebanon and the Cumberland River, June 1943. Colonel Hale is the chief umpire. Blue commands two infantry divisions, a combat command and a parachute battalion against two Red brigade groups holding the Hartsville and Carthage crossings and an armored reserve at Dixon Springs.
+`tutorial-tn` in `engine/src/tutorial.js` is Exercise Cumberland: the Tennessee Maneuver Area between Lebanon and the Cumberland River, June 1943. Colonel Hale is the chief umpire.
 
-- Towns stand at their real positions, projected from latitude and longitude. The river course and roads are drawn from those positions (inference).
-- Forces, commanders and plan are fictional, as they were in the Second Army maneuvers.
-- The script's text is carried over by a replacement list in the scenario, so one script serves both tutorials.
-- The recorded narration belongs to the older script, so the Tennessee tutorial runs without voice for now.
-- In a headless test with Blue following the umpire's plan, Blue held all three objectives at 48 hours.
+- **Scale.** Blue commands the 1st, 2nd and 3rd Infantry Divisions, the 1st Armored Division and a parachute regiment. Red holds the Hartsville and Carthage crossings with two infantry divisions and keeps an armored division in reserve. The 2nd and 3rd Infantry and the 1st Armored form II Corps under Major General Ames.
+- **Script.** The tutorial has its own script of 22 steps (`tutScript`). It teaches the map and its zoom levels, the division card, lines of advance, the umpire's plan, corps orders, frontage, support, river crossings, air, the parachute drop, the clock, reports, friction, command, supply, the staff, and scoring.
+- **Narration.** Each step plays recorded clips, 56 in all, stored in `engine/voice/` and built into the single-file page with `VOICE_DIR=engine/voice`. Claude generated them with Chatterbox (the Hugging Face Space ResembleAI/Chatterbox) from the voice sample Tov supplied, at exaggeration 0.7 and pace 0.4, and converted them to MP3 at 64 kbps mono and -18 LUFS. The clip texts are in `docs/tutorial/tn-narration-clips.json`.
+- **Check on the clips.** An offline recognizer (pocketsphinx) transcribed all 56. Six takes that dropped or slurred words were recorded again: t06_3, t07_3, t08_2, t18_0, t20_0 and t21_2. The recognizer is rough, so a listen-through by Tov is still the final check.
+- **Ground.** Towns stand at their real positions, projected from latitude and longitude. The river course and roads are drawn from those positions (inference). Forces, commanders and plan are fictional, as they were in the Second Army maneuvers.
 
-Blue's divisions now form Blue Corps under Major General Ames, and the umpire teaches corps orders in a step after his recommended plan. Still to come for the tutorial: supply allocation, air requests through the chain, and political standing.
+Still to come for the tutorial: supply allocation, air requests through the chain, and political standing. The Forces list in the tutorial may lack a II Corps header; this needs a check.
 
 ## AI-vs-AI testing
 
@@ -157,6 +159,16 @@ Single runs vary widely: Cherbourg came 24 June in run 4 and 15 June in run 5. T
 
 Batches now run on GitHub Actions: `.github/workflows/ai-batch.yml` runs 20 seeds of the whole slice in parallel and commits a summary to `docs/tests/` (built by `tools/batch-summary.js`): for each objective, how many runs hold it at the end, the median date held from, and the spread.
 
+**Batch 3 on GitHub Actions** (20 seeds, `docs/tests/batch-20261123-1722-batch3-support.md`): Cherbourg fell on a median date of 16 June (history 26 June), Caen 21 June (9 July), Coutances 26 July (28 July). Avranches fell in 9 of 20 runs, with a median of 18 August. Rennes fell in 3 of 20. Le Mans and Paris fell in none. Median losses were 198 Allied and 298 German battalion-equivalents. The breakout ran about three weeks late and Caen fell 18 days early.
+
+**Faults found after batch 3:**
+
+1. *Idle divisions.* The staff AI sent two divisions to each objective within 20 km, which left 19 Allied divisions idle. It now sends four per objective and looks out to 150 km (`aiPerVP`, `aiRng`).
+2. *Planned moves ran late.* The scenario's dated AI moves were stretched by about 1.3, so August moves came weeks late. `aiExact` keeps the planned times.
+3. *Army AI too fast.* With every army under the army AI, the Allies advanced far faster than history. The army AI now runs Third Army only, from 1 August.
+
+A single run with these changes (`docs/tests/batch-20261123-1728-batch4-join.md`) took Avranches on 30 July and Rennes on 3 August, both within a day of history. Caen held until 18 August, 40 days late, and St-Lô fell 23 days early. Batch 5 (20 seeds, label `batch5-dates`) was running on GitHub Actions when this note was written. It predates the pocket rule, so a further batch must follow.
+
 ## Town names
 
 The towns file joined the 1936 census to today's commune list, so communes merged after the war showed their new names (Carentan-les-Marais, Vire Normandie). `tools/data/town-names-1944.py` now takes each town's name in force on 6 June 1944 from INSEE's Code officiel géographique, "communes depuis 1943" (COG 2026, Licence Ouverte / Etalab), by the town's INSEE code. A merged commune keeps its former chief town's code, so that lookup gives the chief town's 1944 name. 225 of the 1,505 towns take a different name in 1944, 182 of them on the Overlord map. `tools/realmap.js` shows the 1944 name, and `towns.json` keeps today's name.
@@ -174,7 +186,7 @@ The hand list Claude wrote overnight agreed with INSEE on 31 of 35 names it shar
 1. Calibration, from the batch results.
 2. Army group orders; columns and release points on the map; the player's air plan.
 3. The other role levers (the theater airborne reserve, Fortitude, replacements), AI army commanders who issue corps orders in the manner of Montgomery and Bradley, and political events beyond the slice.
-4. Narration for the Tennessee tutorial.
+4. A listen-through of the Tennessee narration by Tov, and a batch that includes the pocket rule.
 
 ## Source trace
 
@@ -196,3 +208,7 @@ The hand list Claude wrote overnight agreed with INSEE on 31 of 35 names it shar
 | Tennessee town positions | Coordinates projected with pyproj (UTM 16N) | Sourced positions; roads and river course inference |
 | Test results | `tools/scenario-overlord.js` runs, seed 12345 | Sourced |
 | March rates, phase lines, fighting quality, objective points, supply rates | Claude's settings in `tools/scenario-overlord.js` | Inference (game settings) |
+| Tennessee narration clips | Generated by Claude with Chatterbox from Tov's voice sample; texts in `docs/tutorial/tn-narration-clips.json` | Sourced (project files); wording is Claude's draft |
+| Clip check | pocketsphinx transcripts and clip durations, run in Claude's workspace | Sourced; recognizer accuracy is low, so the result is an inference until Tov listens |
+| Batch 3 and single-run results | `docs/tests/batch-20261123-1722-batch3-support.md`, `batch-20261123-1728-batch4-join.md` | Sourced |
+| Causes of the late breakout | Claude's reading of the runs | Inference |
