@@ -467,7 +467,7 @@
   function vStop() { vSeq++; if (vAud) { try { vAud.pause(); } catch (e) { } vAud = null; } if (SPK) SPK.cancel(); }
   function playClips(ids, html, force) { if (!voiceOn && !force) return; vStop(); const seq = vSeq; let i = 0;
     let fell = false; const fall = () => { if (seq !== vSeq || fell) return; fell = true; vAud = null; if (i <= 1) { const v0 = voiceOn; voiceOn = true; speakText(html); voiceOn = v0; } };
-    const next = () => { if (seq !== vSeq) return; if (i >= ids.length) { vAud = null; return; } let a; try { { const id = ids[i++]; a = new Audio((window.VOICE && window.VOICE[id]) || 'voice/' + id + '.mp3'); }   // clips built into a single-file page, else the voice folder } catch (e) { return fall(); } vAud = a; a.onended = next; a.onerror = fall; const p = a.play(); if (p && p.catch) p.catch(fall); };
+    const next = () => { if (seq !== vSeq) return; if (i >= ids.length) { vAud = null; return; } let a; try { { const id = ids[i++]; a = new Audio((window.VOICE && window.VOICE[id]) || 'voice/' + id + '.mp3'); } } catch (e) { return fall(); } vAud = a; a.onended = next; a.onerror = fall; const p = a.play(); if (p && p.catch) p.catch(fall); };
     next(); }
   function stepIds(i) { const n = VOXN[i] || 0, ids = []; for (let j = 0; j < n; j++) ids.push('s' + String(i).padStart(2, '0') + '_' + j); return ids; }
   function sayStep(force) { const st = TUT[tut.i]; playClips(stepIds(tut.i), '<p>' + st.h + '.</p>' + (typeof st.t === 'function' ? st.t() : st.t), force); }
