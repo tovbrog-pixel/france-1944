@@ -131,6 +131,20 @@ Changes for batch 2:
 3. Divisions that served under Third Army fight with more dash (aggression .75).
 4. The Mortain counterattack and the sourced H-Hours, which batch 1 did not have.
 
+**Batch 2** could not run on GitHub: Actions stopped starting jobs on 23 November because the account's payment or spending limit was reached, after batch 1 used about 50 runner-hours. Two games with the batch 2 settings ran in Claude's workspace instead (seeds 201 and 202):
+
+| Objective | Historical | Seed 201 | Seed 202 |
+| --- | --- | --- | --- |
+| Cherbourg | 26 June | 22 June | 1 August |
+| Caen | 9 July | 21 August | not held |
+| St-Lô | 18 July | 22 August | 14 August |
+| Coutances | 28 July | 25 July | 6 August |
+| Falaise | 17 August | 20 August | not held |
+| Avranches | 30 July | 27 August | not held |
+| Rennes and everything beyond | 4 August onward | none | none |
+
+Seed 201 began to break out only after 22 August, when worn German divisions started giving up their sectors. The batch 2 changes are not enough. The Allied attacks cost more than the German defence (losses about 390 to 345 in seed 201), where history ran the other way by the end of August. The next work is the strength of the German divisions as they arrive (the templates give every infantry division its full establishment), the weight of Allied artillery and air in the bocage, and German supply under air interdiction.
+
 Single runs vary widely: Cherbourg came 24 June in run 4 and 15 June in run 5. The batches of 20 give the spread. After run 4 Cherbourg came within two days of history. Caen and St-Lô still fall weeks early. The causes found so far:
 
 1. The panzer divisions at Caen are committed piecemeal as they arrive, as in history, but they lose their sectors faster than they did.
