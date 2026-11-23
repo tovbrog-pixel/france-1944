@@ -62,15 +62,32 @@ The network workflow produced `data/network/`:
 | Rivers | 5,701 reaches with mean discharge of 1 m3/s or more | Rivers of 8 m3/s or more stop vehicles without a bridge (setting `majorQ`) |
 | Towns | 1,505 French communes of 2,000 or more people in the 1936 census; 367 other places | Size 3 at 50,000, size 2 at 10,000 |
 
+### 1944 railway network
+
+`tools/data/rail1944.py` rebuilds the railways as they stood in 1944 and writes `data/network/rail-1944.json`, which the engine now loads in place of `rail.json`. The dating source is R. Jeansoulin's data.gouv.fr dataset "Un siècle de gares du réseau ferroviaire français" (February 2022, ODbL). It lists 17,751 stations by line number and kilometre point, with the year each line closed. The script joins each OSM rail piece to the nearest dataset line within 1.2 km by majority vote, then keeps or drops it by that line's closing year.
+
+| Category | Pieces | km |
+| --- | --- | --- |
+| Track in use today, kept | 3,074 | 26,028 |
+| Abandoned track on a line open in 1944, kept | 3,690 | 6,666 |
+| Abandoned track, line partly open in 1944 or no status, kept | 38 | 95 |
+| Dropped: line closed before 1944 | 1,216 | 1,724 |
+| Dropped: abandoned piece with no date | 532 | 1,136 |
+| Dropped: abandoned piece beside a line still in use | 988 | 1,105 |
+| Dropped: no dataset line within 1.2 km | 922 | 936 |
+| Dropped: built after 1944 (LGV) | 10 | 13 |
+
+The kept network totals about 32,800 km. The dataset covers SNCF standard-gauge lines, so metre-gauge local railways and tramways (the "tacots") are missing; most of them had closed by 1944 or carried little traffic. Belgian lines pass through unchanged as OSM track in use today.
+
 ### Normandy test on the real map
 
 `tools/normandy-test.js` loads a 200 x 190 km window (Cap de la Hague to Lisieux, the coast to Domfront) at 0.5 km cells, with 24 Allied and 16 German divisions from `data/oob` on a test line from Lessay to Caen. The placement is a test, not a historical scenario.
 
 | Measure | Result |
 | --- | --- |
-| Map content | 3,973 road pieces, 823 rail pieces, 504 river reaches, 148 towns, 112 bridges found by the engine |
+| Map content | 3,973 road pieces, 528 rail pieces (1944 network), 504 river reaches, 148 towns, 112 bridges found by the engine |
 | Forces | 40 divisions, 628 battalions |
-| Speed | 24 game hours in 62 seconds, 1,396 times real time, in Claude's workspace |
+| Speed | 24 game hours in 57 seconds, 1,523 times real time, in Claude's workspace |
 | "No route" halts | At most 2 divisions at once, none at the end |
 
 The Falaise "no route" problem from step 3 does not appear on the real network.
@@ -152,7 +169,7 @@ The main passages: Ellis pp. 236-237, 262, 274, 279-282, 319, 378, 405-423; Blum
 1. Positions for the five Fifteenth Army coast divisions and dates for the 13 `verify` German records.
 2. A continuous British and Canadian attachment record in place of the Ellis snapshots.
 3. British and Canadian arrival dates from a primary source.
-4. A check of roads and railways against the GSGS sheets, with abandoned lines that closed before 1944 removed.
+4. A check of roads against the GSGS sheets. Railways now date from the Jeansoulin dataset; metre-gauge local lines remain missing.
 5. Opening dates for the RAF fields from a source that dates them (the RAF Narrative or the 2nd TAF records).
 
 ## Source trace
@@ -175,4 +192,5 @@ The main passages: Ellis pp. 236-237, 262, 274, 279-282, 319, 378, 405-423; Blum
 | Fleets and German air strength | Ellis pp. 72-73, 559, 566-569; Craven and Cate pp. 138, 143, 275, 557, 578 | Sourced |
 | German entry points at the map edge | Claude's choice from the direction in the source | Inference |
 | Road, rail, river and town totals; test results | `data/network/` build log; `tools/normandy-test.js` run | Sourced |
-| Modern roads and OSM railways as 1944 proxies | Claude's method | Inference |
+| Modern roads as 1944 proxies | Claude's method | Inference |
+| 1944 railway network, kept and dropped totals | Jeansoulin, "Un siècle de gares du réseau ferroviaire français", data.gouv.fr, Feb 2022 (ODbL), joined to OSM track by `tools/data/rail1944.py`; totals from `rail-1944-report.json` | Sourced dates; the 1.2 km join and keep rules are Claude's method (inference) |

@@ -27,7 +27,8 @@ function load() {
   G = { grid, el: rd('elev.i16.gz', Int16Array), water: rd('water.u8.gz', Uint8Array), tree: rd('tree.u8.gz', Uint8Array), wet: rd('wet.u8.gz', Uint8Array) };
   const net = path.join(ROOT, 'network'), j = f => fs.existsSync(path.join(net, f)) ? JSON.parse(fs.readFileSync(path.join(net, f), 'utf8')) : null;
   const ovp = path.join(d, 'overlays-1944.json'); G.overlays = fs.existsSync(ovp) ? JSON.parse(fs.readFileSync(ovp, 'utf8')) : null;
-  G.roads = j('roads.json'); G.rail = j('rail.json'); G.rivers = j('rivers.json'); G.towns = j('towns.json'); G.canals = j('canals.json');
+  G.roads = j('roads.json'); G.rail = j('rail-1944.json') || j('rail.json');   // the 1944 network when built (tools/data/rail1944.py)
+  G.rivers = j('rivers.json'); G.towns = j('towns.json'); G.canals = j('canals.json');
   return G;
 }
 

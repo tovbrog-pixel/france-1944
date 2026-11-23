@@ -43,4 +43,5 @@ The workspace cannot reach the elevation, land cover and map servers, so the two
 | Copernicus DEM GLO-90 | Free use, attribution required | DLR e.V. 2010-2014 and Airbus Defence and Space GmbH 2014-2018, provided under COPERNICUS by the European Union and ESA |
 | ESA WorldCover 2021 | CC BY 4.0 | ESA WorldCover project 2021, contains modified Copernicus Sentinel data (2021) |
 | OpenStreetMap | ODbL 1.0 | OpenStreetMap contributors. A public release of the game must credit OSM and offer the derived road and rail data under ODbL |
+| Jeansoulin, "Un siècle de gares du réseau ferroviaire français" (data.gouv.fr, 2022) | ODbL 1.0 | Robert Jeansoulin. Dates the railway lines for `network/rail-1944.json` (`tools/data/rail1944.py`); the same ODbL credit and share-alike apply |
 | HydroRIVERS v1.0 | Free use, attribution required | Lehner and Grill 2013, HydroSHEDS |
