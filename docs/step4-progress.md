@@ -95,7 +95,7 @@ Status of the records:
 - US arrival dates are sourced from the "Arrived Continent" lines. Each was checked against its D+ day.
 - British and Canadian arrival dates are marked `verify`. Ellis gives them only loosely; Joslen or Stacey will settle them.
 - US army and corps commanders and the 1 August command changes are sourced from Blumenson, Breakout and Pursuit.
-- 20 German divisions have 6 June positions from Harrison, Cross-Channel Attack. Nine are marked `inference`, since Claude placed each at the centre of the area the text names; the other eleven are marked `verify`, since part of the placement comes from general history.
+- 20 German divisions have 6 June positions from Harrison, Cross-Channel Attack. Eleven are marked `inference`, since Claude placed each at the centre of the area the text names; the other nine are marked `verify`, since part of the placement comes from general history.
 - German arrival dates are the next pass. The OCR of Blumenson mangles many division numbers, so each needs a careful read.
 
 ## Still to do in step 4
