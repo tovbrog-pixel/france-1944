@@ -1,0 +1,20 @@
+{
+ "title": "Un si\u00e8cle de gares du r\u00e9seau ferroviaire fran\u00e7ais : en service, ferm\u00e9es ou disparues",
+ "description": "A partir des 6442 gares pr\u00e9sentes dans le fichier des \"gares exploit\u00e9es ou non\" d\u00e9pos\u00e9 sur data.gouv (Source: https://www.data.gouv.fr/fr/datasets/gares-ferroviaires-de-tous-types-exploitees-ou-non/), plusieurs op\u00e9rations on \u00e9t\u00e9 r\u00e9alis\u00e9es :\n(1) v\u00e9rification des donn\u00e9es : confrontation des coordonn\u00e9es g\u00e9ographiques et des toponymes (lorsque possible) qui a permis de relever un pourcentage faible d'erreurs, mais tout de m\u00eame un peu plus d'une centaine (concentr\u00e9e sur quelques lignes);\n(2) confrontation avec un fichier pr\u00e9sent sur (ressources.data.sncf.com), qui permet d'am\u00e9liorer encore la fiabilit\u00e9 des donn\u00e9es;\n(3) enrichissement avec les gares qui ne sont plus en service sur les lignes encore en fonctionnement et surtout avec celles des lignes qui ne sont plus en service.\nAu total, environ 12000 gares (estim\u00e9 \u00e0 90% du total r\u00e9el);\n(4) une adaptation des propri\u00e9t\u00e9s du format GeoJson, et un classement syst\u00e9matique des gares par num\u00e9ro de ligne et selon l'ordre croissant de leur PK (point kilom\u00e9trique sur cette ligne).\n(5) reste \u00e0 faire : confrontation a posteriori des coordonn\u00e9es des gares et des communes (en cours), exploitation du graphe des connections (en cours).\n(6) exemple de r\u00e9utilisation du fichier en visualisation interactive, \u00e0 cette adresse : http://bigbugdata.com/eurorail\n",
+ "license": "odc-odbl",
+ "last_modified": "2022-02-15T13:24:12.983000+00:00",
+ "page": "https://www.data.gouv.fr/datasets/un-siecle-de-gares-du-reseau-ferroviaire-francais-en-service-fermees-ou-disparues",
+ "organization": null,
+ "owner": {
+  "avatar": null,
+  "avatar_thumbnail": null,
+  "class": "User",
+  "deleted": null,
+  "first_name": "Robert",
+  "id": "5952848988ee380fda9512fe",
+  "last_name": "Jeansoulin",
+  "page": "https://www.data.gouv.fr/users/robert-jeansoulin",
+  "slug": "robert-jeansoulin",
+  "uri": "https://www.data.gouv.fr/api/1/users/robert-jeansoulin/"
+ }
+}

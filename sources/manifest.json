@@ -69,6 +69,83 @@
   "sha256": "1c820951a00a56255d70880c84844e722dd3add2478a514f23938c17227c56f1",
   "url": "https://archive.org/download/victory-west-vol-2/VictoryWestVol2_djvu.txt"
  },
+ "datagouv/fichier-de-formes-des-lignes-du-reseau-ferre-national/dataset.json": {
+  "bytes": 13479,
+  "note": "Fichier de formes des lignes du R\u00e9seau Ferr\u00e9 National",
+  "read": "2026-11-23",
+  "sha256": "4f6bc2370619d70d57d401244bbdc831aec9af189a4bab9a27ed2a6370867328",
+  "url": "https://www.data.gouv.fr/datasets/fichier-de-formes-des-lignes-du-reseau-ferre-national"
+ },
+ "datagouv/fichier-de-formes-des-lignes-du-reseau-ferre-national/formes-des-lignes-du-rfn.csv": {
+  "bytes": 9684687,
+  "note": "formes-des-lignes-du-rfn.csv",
+  "read": "2026-11-23",
+  "sha256": "7289cd9c6553d67c0b574f8ae6fedd1a9a6709e5a902ea2b32f8fbf735aaa0f9",
+  "url": "https://ressources.data.sncf.com/api/explore/v2.1/catalog/datasets/formes-des-lignes-du-rfn/exports/csv?use_labels=true"
+ },
+ "datagouv/fichier-de-formes-des-lignes-du-reseau-ferre-national/formes-des-lignes-du-rfn.geojson": {
+  "bytes": 9477496,
+  "note": "formes-des-lignes-du-rfn.geojson",
+  "read": "2026-11-23",
+  "sha256": "872afbb93b45de996b9515a1275a34834a58b05b516df1234d5c9f3e700a2a20",
+  "url": "https://ressources.data.sncf.com/api/explore/v2.1/catalog/datasets/formes-des-lignes-du-rfn/exports/geojson"
+ },
+ "datagouv/fichier-de-formes-des-lignes-du-reseau-ferre-national/formes-des-lignes-du-rfn.json": {
+  "bytes": 10016063,
+  "note": "formes-des-lignes-du-rfn.json",
+  "read": "2026-11-23",
+  "sha256": "39988ba4d7ddd1a1a3fd036e50e7b4a583dcbd023e2a30dbe19d1304d46b827b",
+  "url": "https://ressources.data.sncf.com/api/explore/v2.1/catalog/datasets/formes-des-lignes-du-rfn/exports/json"
+ },
+ "datagouv/fichier-de-formes-des-lignes-du-reseau-ferre-national/formes-des-lignes-du-rfn.zip": {
+  "bytes": 3251545,
+  "note": "formes-des-lignes-du-rfn.zip",
+  "read": "2026-11-23",
+  "sha256": "fd963cf36878b0723812990d4eaa9985462c8990d2bcc467942432648855885b",
+  "url": "https://ressources.data.sncf.com/api/explore/v2.1/catalog/datasets/formes-des-lignes-du-rfn/exports/shp"
+ },
+ "datagouv/gares-ferroviaires-de-tous-types-exploitees-ou-non/Gares_ferroviaires_de_tous_types__exploit_es_ou_non.csv": {
+  "bytes": 404351,
+  "note": "Gares ferroviaires de tous types, exploit\u00e9es ou non",
+  "read": "2026-11-23",
+  "sha256": "41363ec0e431633eea7e187053a2e3220c2fc9f3900fa50e7179f6ca58c607c2",
+  "url": "https://static.data.gouv.fr/41/363ec0e431633eea7e187053a2e3220c2fc9f3900fa50e7179f6ca58c607c2.csv"
+ },
+ "datagouv/gares-ferroviaires-de-tous-types-exploitees-ou-non/dataset.json": {
+  "bytes": 1660,
+  "note": "Gares ferroviaires de tous types, exploit\u00e9es ou non",
+  "read": "2026-11-23",
+  "sha256": "cbf4c2bcffe48a57e58c8eddc884f424dce24f0c1cb401314075d0f310f165a1",
+  "url": "https://www.data.gouv.fr/datasets/gares-ferroviaires-de-tous-types-exploitees-ou-non"
+ },
+ "datagouv/un-siecle-de-gares-du-reseau-ferroviaire-francais-en-service/dataset.json": {
+  "bytes": 2188,
+  "note": "Un si\u00e8cle de gares du r\u00e9seau ferroviaire fran\u00e7ais : en service, ferm\u00e9es ou disparues",
+  "read": "2026-11-23",
+  "sha256": "f5016f114918b79fb3c5c2954d44fd6e78ac5cc5ea57bee1fb291f6e3ca1f0c1",
+  "url": "https://www.data.gouv.fr/datasets/un-siecle-de-gares-du-reseau-ferroviaire-francais-en-service-fermees-ou-disparues"
+ },
+ "datagouv/un-siecle-de-gares-du-reseau-ferroviaire-francais-en-service/gares1925anosjours_versionFev2022.geojson": {
+  "bytes": 3619228,
+  "note": "gares1925anosjours_versionFev2022.geojson",
+  "read": "2026-11-23",
+  "sha256": "9159960fdf0e39372d2222c0b9082c3b1382ee63d941d9185201a5a7b803f593",
+  "url": "https://static.data.gouv.fr/resources/gares-du-reseau-ferroviaire-francais-en-service-fermees-ou-disparues/20220210-011824/gacarpj.geojson"
+ },
+ "datagouv/un-siecle-de-gares-du-reseau-ferroviaire-francais-en-service/version.1_Juillet.2020": {
+  "bytes": 1928300,
+  "note": "version.1 Juillet.2020",
+  "read": "2026-11-23",
+  "sha256": "7c30b641824af5c57fafdd34af21eecab209e96b084252e2cccaf158890aa128",
+  "url": "https://static.data.gouv.fr/resources/gares-du-reseau-ferroviaire-francais-en-service-fermees-ou-disparues/20200713-163730/stationsnewligne.geojson"
+ },
+ "datagouv/un-siecle-de-gares-du-reseau-ferroviaire-francais-en-service/version.2_Janvier.2021": {
+  "bytes": 2182921,
+  "note": "version.2 Janvier.2021",
+  "read": "2026-11-23",
+  "sha256": "262172fdd92ccfbeae5faf4f3c08deb616b211f4be305af90e1054f30269e217",
+  "url": "https://static.data.gouv.fr/resources/gares-du-reseau-ferroviaire-francais-en-service-fermees-ou-disparues/20210105-233121/liste-des-gares2021.geojson"
+ },
  "hyperwar/aaf-iii/AAF-III-1.txt": {
   "bytes": 76148,
   "note": "Craven and Cate, The Army Air Forces in World War II, vol. III",
