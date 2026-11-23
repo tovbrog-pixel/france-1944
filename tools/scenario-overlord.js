@@ -100,7 +100,7 @@ function makeOverlord(cs) {
     const regs = ['1', '2', '3'], cmd = d.cmd || 'Kommandeur';
     if (p0) {
       const [x, y] = clampIn(W(p0[0], p0[1])), dest = GDEST[d.id] && Q[GDEST[d.id]], fr = Math.max(0, a.date ? hrs(a.date, 12) - (dest ? marchH(d.tpl, p0, dest) : 0) : 0);
-      const f = divForm({ tpl: d.tpl, s: 1, n: d.name, cmd, ag: .5, sk: .65, xp: xpOf(d), regs, x, y });
+      const f = divForm({ tpl: d.tpl, s: 1, n: d.name, cmd, ag: .5, sk: .65, xp: xpOf(d), regs, x, y }); f.gid = d.id;
       const coast = d.tpl === 'ge_inf' && (!a.date || a.date <= '1944-06-06');
       if (coast) { f.line = [[x - 5, y], [x + 5, y]]; f.dug = 1; f.free = 0; } else f.free = fr;
       if (GDEST[d.id]) { const L = sector(Q[GDEST[d.id]]).map(p => W(p[0], p[1])); f.ai = [{ t: Math.max(.5, fr), path: [], line: L, then: 'dig' }]; f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); }
@@ -109,12 +109,16 @@ function makeOverlord(cs) {
       forms.push(f); log.push([d.id, 'German', coast ? 'holds at 6 June position' : 'at 6 June position, free from', coast ? '0' : fr.toFixed(0)]);
     } else {
       const [x, y] = clampIn(W(a.entry.xy[0], a.entry.xy[1])), dest = GDEST[d.id] && Q[GDEST[d.id]], t = Math.max(1, hrs(a.date, 12) - (dest ? marchH(d.tpl, a.entry.xy, dest) : 0));
-      const f = divForm({ tpl: d.tpl, s: 1, n: d.name, cmd, ag: .5, sk: .65, xp: xpOf(d), regs, x, y }); f.arr = { t, mode: 'road' };
+      const f = divForm({ tpl: d.tpl, s: 1, n: d.name, cmd, ag: .5, sk: .65, xp: xpOf(d), regs, x, y }); f.gid = d.id; f.arr = { t, mode: 'road' };
       if (GDEST[d.id]) { const L = sector(Q[GDEST[d.id]]).map(p => W(p[0], p[1])); f.ai = [{ t: t + 1, path: [], line: L, then: 'dig' }]; if (t < hrs(HOLD_UNTIL, 0)) { f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); } }
       forms.push(f); log.push([d.id, 'German', 'road entry', t.toFixed(0)]);
     }
   }
 
+  // ---- Operation Luettich, the Mortain counterattack: on the night of 6/7 August four panzer divisions attacked west toward Avranches
+  // to cut off Third Army (Blumenson ch. XXV, general history to verify). In the game it goes in only if the Allies hold Avranches by then.
+  const LUETTICH = ['ge-2nd-panzer', 'ge-2nd-ss-panzer', 'ge-116th-panzer', 'ge-1st-ss-panzer'], av = W(319.3, 287.8);
+  for (const f of forms) if (f.s === 1 && LUETTICH.includes(f.gid)) (f.ai = f.ai || []).push({ t: hrs('1944-08-06', 22), path: [], line: [[av[0] + 4, av[1] - 6], [av[0] + 4, av[1] + 6]], cond: { vp: 'Avranches', own: 0 } });
   // ---- objectives: towns of 10,000 or more in the 1936 census, weighted by size, plus the named objectives of the plan
   const named = { 'Carentan': 10, 'Cherbourg': 30, 'Caen': 30, 'Saint-Lô': 20, 'Brest': 25, 'Paris': 40, 'Avranches': 15, 'Bayeux': 15, 'Carentan': 10, 'Falaise': 15, 'Le Mans': 15, 'Rennes': 15, 'Rouen': 15 };
   // largest first; a town within 10 km of a larger objective counts as its suburb and is left out (inference: keeps Paris one objective)
@@ -172,7 +176,7 @@ function makeOverlord(cs) {
   const beach = Object.values({ utah: P.utah, omahaW: P.omahaW, omahaE: P.omahaE, gold: P.gold, juno: P.juno, sword: P.sword }).map(b => { const q = W(b[0], b[1]); return [q[0] - 4, q[1] - 3, q[0] + 4, q[1] + 3]; });
 
   const sc = Object.assign({}, base, m, { id: 'overlord', title: 'Overlord: D-Day to the Seine', sub: 'Normandy and Brittany, 6 June to 1 September 1944', start: START, hours: hrs(END.slice(0, 10), 0),
-    ownCell: 1, fieldPlan, commands, cmdPlan, armyAI: false,   // AI army commanders: off until calibrated (run 6) detourKm: 14, phaseLines: PHASES.map(q => ({ s: 0, until: hrs(q.until, 6), line: q.line.map(p => W(p[0], p[1])) })), view: { x: 292, y: 86, dist: 95, pitch: 1.35 }, modules: ['transport', 'air', 'command', 'politics'], politics: { reviews: [hrs('1944-07-25', 6), hrs('1944-08-22', 6)] }, forest: [], rough: [], marsh: [], bridges: [], vp, ports, beach, weather, sides, forms, front: { all: 1 }, thin: undefined, halt: undefined, mines: undefined,
+    ownCell: 1, fieldPlan, commands, cmdPlan, armyAI: false, detourKm: 14, phaseLines: PHASES.map(q => ({ s: 0, until: hrs(q.until, 6), line: q.line.map(p => W(p[0], p[1])) })), view: { x: 292, y: 86, dist: 95, pitch: 1.35 }, modules: ['transport', 'air', 'command', 'politics'], politics: { reviews: [hrs('1944-07-25', 6), hrs('1944-08-22', 6)] }, forest: [], rough: [], marsh: [], bridges: [], vp, ports, beach, weather, sides, forms, front: { all: 1 }, thin: undefined, halt: undefined, mines: undefined,
     brief: ['Land the six assault divisions and three airborne divisions, join the beachheads, take Caen and Cherbourg, break out into Brittany and drive to the Seine.',
       'Throw the landings back while the beachhead is shallow. Hold Caen and the bocage, bring up the panzer divisions, and keep the Allies out of the ports.'],
     hist: 'Historically Caen held until 9 July and Cherbourg fell on 26-27 June. Operation Cobra broke out at St-Lo on 25 July, the Falaise pocket closed on 19-21 August, Paris was liberated on 25 August, and the Allies stood on the Seine by the end of the month.' });

@@ -115,8 +115,25 @@ function attachCommand(S) {
   function planTick() { while (pi < plan.length && plan[pi].t * 60 <= S.t) { const q = plan[pi++], F = q.f.startsWith('cmd:') ? byId[q.f.slice(4)] : fByN[q.f], C = byId[q.c];   // 'cmd:<id>' moves a corps between armies if (!F || !C || F.parent === C) continue;
       if (F.parent && F.parent.forms) { const i = F.parent.forms.indexOf(F); if (i >= 0) F.parent.forms.splice(i, 1); } C.forms.push(F); F.parent = C; if (S.t > 0) S.say(F.s, F.n + ' now under ' + C.n + '.', 0); } }
   planTick();
+  // AI army commanders (sc.armyAI): on the side the computer plays, each army gives its corps objectives in turn. The commander's
+  // aggression sets the rhythm: a cautious one (Montgomery's armies) waits longer between attacks and for fuller supply; a bold one
+  // (Patton) attacks more often and reaches farther. All values are starting values for balance testing.
+  const ARMYAI = { cadenceH: [60, 24], supply: [.75, .4], reachKm: [18, 32], frontKm: 4 };
+  function armyTick() { if (!sc.armyAI) return;
+    for (const A of nodes) { if (A.level !== 'army' || A.s === S.player || S.t < (A.nextPlan || 0)) continue; const ag = A.cmd ? A.cmd.ag : .5, k = Math.max(0, Math.min(1, (ag - .4) / .5));
+      const lerp = a => a[0] + (a[1] - a[0]) * k; A.nextPlan = S.t + 60 * lerp(ARMYAI.cadenceH) * (.85 + S.rnd() * .3); const taken = new Set();
+      for (const C of A.forms) { if (!C.forms || !live(C)) continue; if (C.order && C.order.st !== 'issued' && C.order.st !== 'done') continue;
+        if (C.order && C.order.st === 'issued' && !C.order.doneSaid && S.t - C.order.t0 < 48 * 60) continue;   // a corps attack still under way runs to its end, or 48 hours
+        const kids = C.forms.filter(F => !F.forms && F.active && !F.dead); if (!kids.length) continue;
+        if (kids.reduce((a, F) => a + F.stock / Math.max(1, F.cap), 0) / kids.length < lerp(ARMYAI.supply)) continue;
+        const p = pos(C); if (!p) continue; let best = null, bs = -1e9;
+        for (const v of S.vp) { if (v.own === C.s || taken.has(v)) continue; const d = Math.hypot(v.x - p[0], v.y - p[1]); if (d > lerp(ARMYAI.reachKm) || (S.phaseBlock && S.phaseBlock(kids[0], v.x, v.y))) continue; const sc0 = v.pts / (d + 6); if (sc0 > bs) { bs = sc0; best = v; } }
+        if (!best) continue; taken.add(best);
+        const dx = best.x - p[0], dy = best.y - p[1], dl = Math.hypot(dx, dy) || 1, ux = dx / dl, uy = dy / dl, half = ARMYAI.frontKm * kids.length / 2, cx = best.x + ux, cy = best.y + uy;
+        S.issueCommandOrder(C, [], [[cx - uy * half, cy + ux * half], [cx + uy * half, cy - ux * half]], {}); C.aiTgt = best;
+        report(A, C.n + ' to attack toward ' + best.n + '.', 0); } } }
   // called once per simulation step
   const prevHook = S.cmdHook;
-  S.cmdHook = function () { if (prevHook) prevHook(); planTick(); for (const C of nodes) { if (!C.order) continue; if (C.order.st === 'pending' && S.t >= C.order.t0) release(C); else if (C.order.st === 'issued' && S.t >= C.order.nextReview) review(C); } };
+  let armyT = -1e9; S.cmdHook = function () { if (prevHook) prevHook(); planTick(); if (S.t - armyT >= 60) { armyT = S.t; armyTick(); } for (const C of nodes) { if (!C.order) continue; if (C.order.st === 'pending' && S.t >= C.order.t0) release(C); else if (C.order.st === 'issued' && S.t >= C.order.nextReview) review(C); } };
   return S;
 }

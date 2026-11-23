@@ -70,7 +70,7 @@ function createSim(sc, player, seed, opt) {
     let i = 0; for (const u of F.subs) { if (u.mv === 'ship') continue; const a = i * 2.4, rr = r * (.3 + .7 * ((i * .37) % 1)); const p = map.snap(u.mvi, x + Math.cos(a) * rr, y + Math.sin(a) * rr, 6) || [x, y]; u.x = p[0]; u.y = p[1]; i++; }
   }
   sc.forms.forEach((fs, fi) => {
-    const F = { id: fi, s: fs.s, nat: fs.nat, n: fs.n, cmd: { n: fs.cmd, ag: clamp(fs.ag + (rnd() - .5) * (.08 + .08 * VR), .2, .98), sk: clamp(fs.sk + (rnd() - .5) * (.08 + .08 * VR), .3, .98), why: fs.why || '' }, xp: (fs.xp || 1) * dfS(fs.s).xp, subs: [], hq: null, order: null, stock: 0, cap: 0, active: false, dead: false, arr: fs.arr || null, ai: fs.ai ? fs.ai.map(a => ({ t: a.t > 2 ? a.t * (.92 + rnd() * .22) * plan[fs.s].tm * dfS(fs.s).arr : a.t, path: a.path, line: a.line, then: a.then })) : null, aiI: 0, res: !!fs.res, hold: !!fs.hold, stay: !!fs.stay, stayUntil: fs.stayUntil || 0, rearPt: fs.rear || null, freeT: (fs.free != null ? fs.free : (sc.sides[fs.s].free || 0)) * 60, x: fs.x, y: fs.y, cx: fs.x, cy: fs.y, halt: false, assaultT: 0, evalT: 0, msgT: 0, casCd: 0, airMsgT: 0, convT: 0, convoy: null, isolated: false, isoMsgT: 0, paraT: 0, status: '', nextT: fi * .37, bridge: null, needEng: false, dis: 0, jamT: 0, jamMsgT: 0, haltT: 0, rerouteT: 0, fired: 0, fallT: 0, idleT: 0, led: {}, ledN: {}, att: null };
+    const F = { id: fi, s: fs.s, nat: fs.nat, n: fs.n, cmd: { n: fs.cmd, ag: clamp(fs.ag + (rnd() - .5) * (.08 + .08 * VR), .2, .98), sk: clamp(fs.sk + (rnd() - .5) * (.08 + .08 * VR), .3, .98), why: fs.why || '' }, xp: (fs.xp || 1) * dfS(fs.s).xp, subs: [], hq: null, order: null, stock: 0, cap: 0, active: false, dead: false, arr: fs.arr || null, ai: fs.ai ? fs.ai.map(a => ({ t: a.t > 2 ? a.t * (.92 + rnd() * .22) * plan[fs.s].tm * dfS(fs.s).arr : a.t, path: a.path, line: a.line, then: a.then, cond: a.cond })) : null, aiI: 0, res: !!fs.res, hold: !!fs.hold, stay: !!fs.stay, stayUntil: fs.stayUntil || 0, rearPt: fs.rear || null, freeT: (fs.free != null ? fs.free : (sc.sides[fs.s].free || 0)) * 60, x: fs.x, y: fs.y, cx: fs.x, cy: fs.y, halt: false, assaultT: 0, evalT: 0, msgT: 0, casCd: 0, airMsgT: 0, convT: 0, convoy: null, isolated: false, isoMsgT: 0, paraT: 0, status: '', nextT: fi * .37, bridge: null, needEng: false, dis: 0, jamT: 0, jamMsgT: 0, haltT: 0, rerouteT: 0, fired: 0, fallT: 0, idleT: 0, led: {}, ledN: {}, att: null };
     for (const sp of fs.sub) { const a = sp.split('|'); F.subs.push(mkSub(F, a[0], a[1], a[2] ? +a[2] : 1, fs.x, fs.y)); }
     // regiments, brigades and combat commands: groups of the division's battalions (France 1944 scenarios only)
     if (fs.regs) { F.regs = fs.regs.map(r => ({ n: r.n, role: r.role || 'man', subs: r.idx.map(i => F.subs[i]).filter(Boolean) })); for (const R of F.regs) for (const u of R.subs) u.reg = R; }
@@ -885,6 +885,8 @@ function createSim(sc, player, seed, opt) {
   }
 
   // ---------- operational AI ----------
+  // a planned move that depends on the situation: cond { vp: name, own: side } runs only if that objective is held by that side then
+  function aiCond(c) { const v = S.vp.find(q => q.n === c.vp || q.n.startsWith(c.vp + ' ')); return !!v && v.own === c.own; }
   function autoOrder(F, tx, ty, useThreat, oo) {
     if (S.phaseBlock(F, tx, ty)) return false;
     const L = leads(F); if (!L.length) return false; let k = 0; for (const u of L) if (u.mvi > k) k = u.mvi; let threat = null;
@@ -958,7 +960,7 @@ function createSim(sc, player, seed, opt) {
       for (const F of mine) if (F.isolated) { if (F.isoT == null) F.isoT = S.t; } else F.isoT = null;
       for (const F of run) {
         if (F.stayUntil && F.stay && S.t >= F.stayUntil * 60) { F.stay = false; F.stayUntil = 0; }   // a standing order to hold that lapses at a set hour (France: Hitler's no-withdrawal orders)
-        if (F.ai && (side || F.staff)) while (F.aiI < F.ai.length && S.t >= F.ai[F.aiI].t * 60) { const a = F.ai[F.aiI++], alt = side ? altTarget(F, a) : null; if (!(alt && autoOrder(F, alt.x, alt.y, false, { free: true, stretch: true }))) S.issueOrder(F, a.path, a.line, { free: true, stretch: true, then: a.then }); }
+        if (F.ai && (side || F.staff)) while (F.aiI < F.ai.length && S.t >= F.ai[F.aiI].t * 60) { const a = F.ai[F.aiI++]; if (a.cond && !aiCond(a.cond)) continue; const alt = side && !a.cond ? altTarget(F, a) : null; if (!(alt && autoOrder(F, alt.x, alt.y, false, { free: true, stretch: true }))) S.issueOrder(F, a.path, a.line, { free: true, stretch: true, then: a.then }); }
         // a main effort stalled for twelve hours shifts to the objective where the known enemy is weakest
         if (side && sc.sides[s].posture === 'attack' && F.order && F.order.st === 'active' && F.order.bestT != null && S.t - F.order.bestT > 720 && S.t > (F.replT || 0) && !F.stay && !F.hold && !AIRB.test(F.n)) { F.replT = S.t + 720; let best = null, bs = 1e9;
           for (const v of S.vp) { if (v.own === s) continue; const d = Math.hypot(v.x - F.cx, v.y - F.cy); if (d < 2 || d > 25) continue; const sc0 = powNear(1 - s, v.x, v.y, 4, true) * 3 + d * .15 - v.pts * .05; if (sc0 < bs) { bs = sc0; best = v; } }
