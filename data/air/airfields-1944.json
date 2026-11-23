@@ -218,6 +218,28 @@
    ]
   },
   {
+   "code": "B-2",
+   "name": "Bazenville",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    340.98,
+    192.48
+   ],
+   "lonlat": [
+    -0.5619,
+    49.3047
+   ],
+   "open": "1944-06-16",
+   "section": "Royal Air Force ALGs",
+   "note": "Wikipedia article Bazenville Airfield: built from the night after D-Day; the RCAF wing (403, 416, 421, 443 Sqns) moved in on 16 June 1944",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "ellis-1"
+   ]
+  },
+  {
    "code": "B-11",
    "name": "Longues-sur-Mer",
    "side": 0,
@@ -327,6 +349,182 @@
    ]
   },
   {
+   "code": "B-10",
+   "name": "Plumetot",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    355.86,
+    196.07
+   ],
+   "lonlat": [
+    -0.3556,
+    49.2783
+   ],
+   "open": "1944-07-01",
+   "section": "Royal Air Force ALGs",
+   "note": "Ellis p. 305: ten completed airfields in the British sector at 0900 on 1 July, nine in RAF use; taken as B-2 to B-11 from the sequential numbering",
+   "status": "inference",
+   "src": [
+    "wp-alg",
+    "ellis-1"
+   ]
+  },
+  {
+   "code": "B-3",
+   "name": "St. Croix-sur-Mer",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    344.22,
+    191.04
+   ],
+   "lonlat": [
+    -0.5183,
+    49.3189
+   ],
+   "open": "1944-07-01",
+   "section": "Royal Air Force ALGs",
+   "note": "Ellis p. 305: ten completed airfields in the British sector at 0900 on 1 July, nine in RAF use; taken as B-2 to B-11 from the sequential numbering",
+   "status": "inference",
+   "src": [
+    "wp-alg",
+    "ellis-1"
+   ]
+  },
+  {
+   "code": "B-4",
+   "name": "Beny-sur-Mer",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    350.52,
+    193.61
+   ],
+   "lonlat": [
+    -0.4303,
+    49.2983
+   ],
+   "open": "1944-07-01",
+   "section": "Royal Air Force ALGs",
+   "note": "Ellis p. 305: ten completed airfields in the British sector at 0900 on 1 July, nine in RAF use; taken as B-2 to B-11 from the sequential numbering",
+   "status": "inference",
+   "src": [
+    "wp-alg",
+    "ellis-1"
+   ]
+  },
+  {
+   "code": "B-5",
+   "name": "Le Fresne-Camilly",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    346.36,
+    197.02
+   ],
+   "lonlat": [
+    -0.4853,
+    49.2661
+   ],
+   "open": "1944-07-01",
+   "section": "Royal Air Force ALGs",
+   "note": "Ellis p. 305: ten completed airfields in the British sector at 0900 on 1 July, nine in RAF use; taken as B-2 to B-11 from the sequential numbering",
+   "status": "inference",
+   "src": [
+    "wp-alg",
+    "ellis-1"
+   ]
+  },
+  {
+   "code": "B-6",
+   "name": "Coulombs",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    341.41,
+    199.18
+   ],
+   "lonlat": [
+    -0.5519,
+    49.2447
+   ],
+   "open": "1944-07-01",
+   "section": "Royal Air Force ALGs",
+   "note": "Ellis p. 305: ten completed airfields in the British sector at 0900 on 1 July, nine in RAF use; taken as B-2 to B-11 from the sequential numbering",
+   "status": "inference",
+   "src": [
+    "wp-alg",
+    "ellis-1"
+   ]
+  },
+  {
+   "code": "B-7",
+   "name": "Martragny",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    336.78,
+    198.04
+   ],
+   "lonlat": [
+    -0.6161,
+    49.2531
+   ],
+   "open": "1944-07-01",
+   "section": "Royal Air Force ALGs",
+   "note": "Ellis p. 305: ten completed airfields in the British sector at 0900 on 1 July, nine in RAF use; taken as B-2 to B-11 from the sequential numbering",
+   "status": "inference",
+   "src": [
+    "wp-alg",
+    "ellis-1"
+   ]
+  },
+  {
+   "code": "B-8",
+   "name": "Sommervieu",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    332.48,
+    192.61
+   ],
+   "lonlat": [
+    -0.6786,
+    49.3
+   ],
+   "open": "1944-07-01",
+   "section": "Royal Air Force ALGs",
+   "note": "Ellis p. 305: ten completed airfields in the British sector at 0900 on 1 July, nine in RAF use; taken as B-2 to B-11 from the sequential numbering",
+   "status": "inference",
+   "src": [
+    "wp-alg",
+    "ellis-1"
+   ]
+  },
+  {
+   "code": "B-9",
+   "name": "Lantheuil",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    343.29,
+    196.14
+   ],
+   "lonlat": [
+    -0.5281,
+    49.2728
+   ],
+   "open": "1944-07-01",
+   "section": "Royal Air Force ALGs",
+   "note": "Ellis p. 305: ten completed airfields in the British sector at 0900 on 1 July, nine in RAF use; taken as B-2 to B-11 from the sequential numbering",
+   "status": "inference",
+   "src": [
+    "wp-alg",
+    "ellis-1"
+   ]
+  },
+  {
    "code": "A-14",
    "name": "Cretteville",
    "side": 0,
@@ -368,6 +566,28 @@
    "src": [
     "wp-alg",
     "johnson-1988"
+   ]
+  },
+  {
+   "code": "B-14",
+   "name": "Amblie",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    346.11,
+    194.44
+   ],
+   "lonlat": [
+    -0.4903,
+    49.2892
+   ],
+   "open": "1944-07-04",
+   "section": "Royal Air Force ALGs",
+   "note": "Ellis p. 305: the rearming and refuelling strip at Amblie was completed by the report of 4 July",
+   "status": "sourced",
+   "src": [
+    "wp-alg",
+    "ellis-1"
    ]
   },
   {
@@ -763,6 +983,204 @@
    "src": [
     "wp-alg",
     "johnson-1988"
+   ]
+  },
+  {
+   "code": "B-15",
+   "name": "Ryes",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    336.54,
+    191.38
+   ],
+   "lonlat": [
+    -0.6236,
+    49.3128
+   ],
+   "open": "1944-08-20",
+   "section": "Royal Air Force ALGs",
+   "note": "Ellis pp. 403, 481: eleven airfields in use on 7 August and 23 by the end of August; B-15 to B-23 placed between, day chosen by Claude",
+   "status": "inference",
+   "src": [
+    "wp-alg",
+    "ellis-1"
+   ]
+  },
+  {
+   "code": "B-16",
+   "name": "Villons-les-Buissons",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    351.83,
+    200.69
+   ],
+   "lonlat": [
+    -0.4081,
+    49.2353
+   ],
+   "open": "1944-08-20",
+   "section": "Royal Air Force ALGs",
+   "note": "Ellis pp. 403, 481: eleven airfields in use on 7 August and 23 by the end of August; B-15 to B-23 placed between, day chosen by Claude",
+   "status": "inference",
+   "src": [
+    "wp-alg",
+    "ellis-1"
+   ]
+  },
+  {
+   "code": "B-17",
+   "name": "Caen/Carpiquets",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    347.97,
+    207.05
+   ],
+   "lonlat": [
+    -0.4572,
+    49.1767
+   ],
+   "open": "1944-08-20",
+   "section": "Royal Air Force ALGs",
+   "note": "Ellis pp. 403, 481: eleven airfields in use on 7 August and 23 by the end of August; B-15 to B-23 placed between, day chosen by Claude",
+   "status": "inference",
+   "src": [
+    "wp-alg",
+    "ellis-1"
+   ]
+  },
+  {
+   "code": "B-18",
+   "name": "Cristot",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    339.12,
+    204.64
+   ],
+   "lonlat": [
+    -0.58,
+    49.1947
+   ],
+   "open": "1944-08-20",
+   "section": "Royal Air Force ALGs",
+   "note": "Ellis pp. 403, 481: eleven airfields in use on 7 August and 23 by the end of August; B-15 to B-23 placed between, day chosen by Claude",
+   "status": "inference",
+   "src": [
+    "wp-alg",
+    "ellis-1"
+   ]
+  },
+  {
+   "code": "B-19",
+   "name": "Lingevres",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    332.24,
+    206.52
+   ],
+   "lonlat": [
+    -0.6731,
+    49.175
+   ],
+   "open": "1944-08-20",
+   "section": "Royal Air Force ALGs",
+   "note": "Ellis pp. 403, 481: eleven airfields in use on 7 August and 23 by the end of August; B-15 to B-23 placed between, day chosen by Claude",
+   "status": "inference",
+   "src": [
+    "wp-alg",
+    "ellis-1"
+   ]
+  },
+  {
+   "code": "B-20",
+   "name": "Demouville",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    361.7,
+    207.48
+   ],
+   "lonlat": [
+    -0.2689,
+    49.1781
+   ],
+   "open": "1944-08-20",
+   "section": "Royal Air Force ALGs",
+   "note": "Ellis pp. 403, 481: eleven airfields in use on 7 August and 23 by the end of August; B-15 to B-23 placed between, day chosen by Claude",
+   "status": "inference",
+   "src": [
+    "wp-alg",
+    "ellis-1"
+   ]
+  },
+  {
+   "code": "B-21",
+   "name": "Sainte-Honorine",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    344.18,
+    246.09
+   ],
+   "lonlat": [
+    -0.4856,
+    48.8244
+   ],
+   "open": "1944-08-20",
+   "section": "Royal Air Force ALGs",
+   "note": "Ellis pp. 403, 481: eleven airfields in use on 7 August and 23 by the end of August; B-15 to B-23 placed between, day chosen by Claude",
+   "status": "inference",
+   "src": [
+    "wp-alg",
+    "ellis-1"
+   ]
+  },
+  {
+   "code": "B-22",
+   "name": "Authie",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    350.02,
+    203.83
+   ],
+   "lonlat": [
+    -0.4311,
+    49.2064
+   ],
+   "open": "1944-08-20",
+   "section": "Royal Air Force ALGs",
+   "note": "Ellis pp. 403, 481: eleven airfields in use on 7 August and 23 by the end of August; B-15 to B-23 placed between, day chosen by Claude",
+   "status": "inference",
+   "src": [
+    "wp-alg",
+    "ellis-1"
+   ]
+  },
+  {
+   "code": "B-23",
+   "name": "La Rue Huguenot",
+   "side": 0,
+   "nat": "UK",
+   "xy": [
+    413.16,
+    206.75
+   ],
+   "lonlat": [
+    0.4361,
+    49.2017
+   ],
+   "open": "1944-08-20",
+   "section": "Royal Air Force ALGs",
+   "note": "Ellis pp. 403, 481: eleven airfields in use on 7 August and 23 by the end of August; B-15 to B-23 placed between, day chosen by Claude",
+   "status": "inference",
+   "src": [
+    "wp-alg",
+    "ellis-1"
    ]
   },
   {
@@ -1185,552 +1603,6 @@
     "wp-alg",
     "johnson-1988"
    ]
-  },
-  {
-   "code": "B-10",
-   "name": "Plumetot",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    355.86,
-    196.07
-   ],
-   "lonlat": [
-    -0.3556,
-    49.2783
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-14",
-   "name": "Amblie",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    346.11,
-    194.44
-   ],
-   "lonlat": [
-    -0.4903,
-    49.2892
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-15",
-   "name": "Ryes",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    336.54,
-    191.38
-   ],
-   "lonlat": [
-    -0.6236,
-    49.3128
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-16",
-   "name": "Villons-les-Buissons",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    351.83,
-    200.69
-   ],
-   "lonlat": [
-    -0.4081,
-    49.2353
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-17",
-   "name": "Caen/Carpiquets",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    347.97,
-    207.05
-   ],
-   "lonlat": [
-    -0.4572,
-    49.1767
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-18",
-   "name": "Cristot",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    339.12,
-    204.64
-   ],
-   "lonlat": [
-    -0.58,
-    49.1947
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-19",
-   "name": "Lingevres",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    332.24,
-    206.52
-   ],
-   "lonlat": [
-    -0.6731,
-    49.175
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-2",
-   "name": "Bazenville",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    340.98,
-    192.48
-   ],
-   "lonlat": [
-    -0.5619,
-    49.3047
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-20",
-   "name": "Demouville",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    361.7,
-    207.48
-   ],
-   "lonlat": [
-    -0.2689,
-    49.1781
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-21",
-   "name": "Sainte-Honorine",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    344.18,
-    246.09
-   ],
-   "lonlat": [
-    -0.4856,
-    48.8244
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-22",
-   "name": "Authie",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    350.02,
-    203.83
-   ],
-   "lonlat": [
-    -0.4311,
-    49.2064
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-23",
-   "name": "La Rue Huguenot",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    413.16,
-    206.75
-   ],
-   "lonlat": [
-    0.4361,
-    49.2017
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-24",
-   "name": "St-André de l'Euree",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    471.8,
-    242.44
-   ],
-   "lonlat": [
-    1.2514,
-    48.8953
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-25",
-   "name": "Le Theil-Nolent",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    420.42,
-    212.27
-   ],
-   "lonlat": [
-    0.5381,
-    49.1542
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-26",
-   "name": "Illiers-l'Évêque",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    472.76,
-    250.65
-   ],
-   "lonlat": [
-    1.2669,
-    48.8217
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-27",
-   "name": "Boisney",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    429.01,
-    212.5
-   ],
-   "lonlat": [
-    0.6558,
-    49.1544
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-28",
-   "name": "Evreux",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    469.71,
-    227.69
-   ],
-   "lonlat": [
-    1.2183,
-    49.0275
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-29",
-   "name": "Valailles",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    424.95,
-    216.02
-   ],
-   "lonlat": [
-    0.6017,
-    49.1217
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-3",
-   "name": "St. Croix-sur-Mer",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    344.22,
-    191.04
-   ],
-   "lonlat": [
-    -0.5183,
-    49.3189
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-30",
-   "name": "Creton",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    474.34,
-    249.6
-   ],
-   "lonlat": [
-    1.2881,
-    48.8314
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-4",
-   "name": "Beny-sur-Mer",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    350.52,
-    193.61
-   ],
-   "lonlat": [
-    -0.4303,
-    49.2983
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-5",
-   "name": "Le Fresne-Camilly",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    346.36,
-    197.02
-   ],
-   "lonlat": [
-    -0.4853,
-    49.2661
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-6",
-   "name": "Coulombs",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    341.41,
-    199.18
-   ],
-   "lonlat": [
-    -0.5519,
-    49.2447
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-7",
-   "name": "Martragny",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    336.78,
-    198.04
-   ],
-   "lonlat": [
-    -0.6161,
-    49.2531
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-8",
-   "name": "Sommervieu",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    332.48,
-    192.61
-   ],
-   "lonlat": [
-    -0.6786,
-    49.3
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-9",
-   "name": "Lantheuil",
-   "side": 0,
-   "nat": "UK",
-   "xy": [
-    343.29,
-    196.14
-   ],
-   "lonlat": [
-    -0.5281,
-    49.2728
-   ],
-   "open": null,
-   "section": "Royal Air Force ALGs",
-   "note": "no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August",
-   "status": "verify",
-   "src": [
-    "wp-alg"
-   ]
   }
  ],
  "german": [
@@ -2050,6 +1922,36 @@
    ]
   },
   {
+   "code": "B-24",
+   "name": "St-André de l'Euree",
+   "side": 1,
+   "xy": [
+    471.8,
+    242.44
+   ],
+   "heldUntil": "1944-09-05",
+   "status": "verify",
+   "note": "Luftwaffe base from general history",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
+   "code": "B-28",
+   "name": "Evreux",
+   "side": 1,
+   "xy": [
+    469.71,
+    227.69
+   ],
+   "heldUntil": "1944-09-05",
+   "status": "verify",
+   "note": "French Air Force base (Evreux-Fauville) per the table; German use and capture date from general history",
+   "src": [
+    "wp-alg"
+   ]
+  },
+  {
    "code": "A-59",
    "name": "Cormeilles-En-Vexin",
    "side": 1,
@@ -2180,36 +2082,6 @@
    "heldUntil": "1944-09-14",
    "status": "sourced",
    "note": "the table gives the date it was captured",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-24",
-   "name": "St-André de l'Euree",
-   "side": 1,
-   "xy": [
-    471.8,
-    242.44
-   ],
-   "heldUntil": null,
-   "status": "verify",
-   "note": "Luftwaffe base from general history",
-   "src": [
-    "wp-alg"
-   ]
-  },
-  {
-   "code": "B-28",
-   "name": "Evreux",
-   "side": 1,
-   "xy": [
-    469.71,
-    227.69
-   ],
-   "heldUntil": null,
-   "status": "verify",
-   "note": "French Air Force base (Evreux-Fauville) per the table; German use and capture date from general history",
    "src": [
     "wp-alg"
    ]

@@ -63,6 +63,16 @@ TW = {t['name']: t for t in json.load(open('data/network/towns.json'))['towns']}
 for f in fields:
     if f['code'] in FIX:
         t = TW[FIX[f['code']][0]]; f['xy'] = [t['x'], t['y']]; f['note'] = (f['note'] + '; ' if f['note'] else '') + FIX[f['code']][1]; f['fixed'] = True
+# RAF opening dates from Ellis counts (pp. 305, 403, 481) where the tables give none
+def bnum(c): return int(re.sub(r'\D', '', c.split('-')[1]) or 0) if c.startswith('B-') else 0
+for f in fields:
+    n = bnum(f['code'])
+    if not n or f['open']: continue
+    if f['code'] == 'B-2': f['open'], f['ellis'] = '1944-06-16', ('sourced', 'Wikipedia article Bazenville Airfield: built from the night after D-Day; the RCAF wing (403, 416, 421, 443 Sqns) moved in on 16 June 1944')
+    elif f['code'] == 'B-14': f['open'], f['ellis'] = '1944-07-04', ('sourced', 'Ellis p. 305: the rearming and refuelling strip at Amblie was completed by the report of 4 July')
+    elif 2 <= n <= 11: f['open'], f['ellis'] = '1944-07-01', ('inference', 'Ellis p. 305: ten completed airfields in the British sector at 0900 on 1 July, nine in RAF use; taken as B-2 to B-11 from the sequential numbering')
+    elif 15 <= n <= 23: f['open'], f['ellis'] = '1944-08-20', ('inference', 'Ellis pp. 403, 481: eleven airfields in use on 7 August and 23 by the end of August; B-15 to B-23 placed between, day chosen by Claude')
+    elif n >= 24: f['open'], f['ellis'] = '1944-09-05', ('inference', 'beyond the 23 RAF airfields Ellis counts by the end of August (p. 481); placed in early September')
 seen = {}; out = []
 for f in fields:
     if f['code'] in seen: continue
@@ -71,8 +81,9 @@ for f in fields:
     if f['code'] == 'A-56': f['note'] = (f['note'] + '; ' if f['note'] else '') + 'opening date looks early for a field near Amiens, which the Allies reached on 31 August (verify)'; f['fixed'] = True
     if not f['open'] and int(re.sub(r'\D', '', f['code'].split('-')[1]) or 0) > 30: continue   # RAF fields past B-30 opened after August (inference from the numbering)
     f['status'] = 'sourced' if f['open'] and not f.get('fixed') else 'verify'
-    f['src'] = ['wp-alg'] + (['johnson-1988'] if f['nat'] == 'US' else [])
-    if not f['open'] and f['nat'] == 'UK': f['note'] = (f['note'] + '; ' if f['note'] else '') + 'no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August'
+    if f.get('ellis'): f['status'], f['note'] = f['ellis'][0], ((f['note'] + '; ') if f['note'] else '') + f['ellis'][1]; f['src'] = ['wp-alg', 'ellis-1']; del f['ellis']; continue_flag = False
+    if 'src' not in f: f['src'] = ['wp-alg'] + (['johnson-1988'] if f['nat'] == 'US' else [])
+    if False and not f['open'] and f['nat'] == 'UK': f['note'] = (f['note'] + '; ' if f['note'] else '') + 'no opening date in the table; Ellis gives 23 RAF airfields in use by the end of August'
     out.append(f)
 out.sort(key=lambda f: (f['open'] or '9999', f['code']))
 # ---- German-held airfields: fields the table marks as captured, plus established prewar airfields among the Allied list
