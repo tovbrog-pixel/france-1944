@@ -1,10 +1,31 @@
 {
+ "archive/CMHPub741CrossChannelAttack__CMHPub741CrossChannelAttack_djvu.txt": {
+  "bytes": 1774959,
+  "note": "CMH Pub 7-4-1 Cross-Channel Attack",
+  "read": "2026-11-23",
+  "sha256": "4d8feee5177e283fe41c615c41b5a0e28976c630aecd91571e62ff360b0dae44",
+  "url": "https://archive.org/download/CMHPub741CrossChannelAttack/CMHPub741CrossChannelAttack_djvu.txt"
+ },
  "archive/OrderOfBattleUsArmyEtoWw2__OrderOfBattleUsArmyEtoWw2_djvu.txt": {
   "bytes": 910867,
   "note": "Order of battle of the United States Army, World War II: European Theater of Operations, Divisions",
   "read": "2026-11-23",
   "sha256": "196a6530b8575364e3b9a0d1d0c23d1d3c86b3f0113bd0289706ed00947579f7",
   "url": "https://archive.org/download/OrderOfBattleUsArmyEtoWw2/OrderOfBattleUsArmyEtoWw2_djvu.txt"
+ },
+ "archive/TME-30-4511945__TME-30-4511945_djvu.txt": {
+  "bytes": 1856993,
+  "note": "TM-E 30-451 Handbook on German Military Forces 1945",
+  "read": "2026-11-23",
+  "sha256": "700814c6b8cd6552e0ce0dbab37facb3c33db3dca5911ec897b3a34620fd8d32",
+  "url": "https://archive.org/download/TME-30-4511945/TME-30-4511945_djvu.txt"
+ },
+ "archive/Vol3EuropeArgumentToVEDay__Vol3EuropeArgumentToVEDay_djvu.txt": {
+  "bytes": 2946446,
+  "note": "The Army Air Forces In World War II Volume 3 Europe - Argument To V-E Day January 1944 To May 1945",
+  "read": "2026-11-23",
+  "sha256": "3b2e950228915286050f62676870a98bd97b98b8196c6d3bfa5767eba762bd1d",
+  "url": "https://archive.org/download/Vol3EuropeArgumentToVEDay/Vol3EuropeArgumentToVEDay_djvu.txt"
  },
  "archive/victory-west-vol-1__VictoryWestVol1_djvu.txt": {
   "bytes": 1710715,
