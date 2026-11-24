@@ -83,6 +83,20 @@ Districts are ordinary objectives, so the existing orders reach them:
 | A division that may not leave a half-taken district until relieved | Tov has not decided |
 | Brest and Paris districts; fortress garrisons | Next step, with the German commander |
 
+## Queued: the next design note
+
+Tov asked on 24 November whether these rules apply to other cities and what happens if the Germans defend Paris or another large city. Four of the five rules apply to every town with a built-up area. Districts apply only to Caen and Cherbourg, and the German commander never chooses to defend a city. Tov directed that the answer be queued as the next design note, to be written after batches 13 to 15 are read. Its scope:
+
+| Piece | What it does |
+| --- | --- |
+| Automatic districts | Any city above a size splits along its river into bank districts, with no hand work per city |
+| The Paris map | The city shows as 6 built-up cells while a northern suburb, Deuil-la-Barre, holds 54. Join them into one city with districts on each bank of the Seine. Amiens has no built-up area at all |
+| Fortress decision | The German commander may declare a city a fortress: a garrison moves in, digs in and holds when cut off. The ports get it by standing order |
+| Open city | He may give a city up without a fight, with a gain or cost in political standing |
+| Siege rules | A cut-off garrison weakens over weeks and surrenders by rule |
+
+Hitler's fortress orders and his order for Paris are general history, to verify against Blumenson chapters XXIX and XXX before the note is written.
+
 ## Testing
 
 - The earlier scenarios do not load the module and match their baselines.
