@@ -1487,7 +1487,30 @@
     "src": [
      "harrison"
     ],
-    "status": "inference"
+    "status": "inference",
+    "sector": [
+     [
+      300,
+      191.5
+     ],
+     [
+      304,
+      185.5
+     ],
+     [
+      318,
+      186.5
+     ],
+     [
+      329,
+      188
+     ],
+     [
+      338,
+      189.5
+     ]
+    ],
+    "sectorNote": "Coast from the Vire estuary to Asnelles. The division took over the left half of the 716th Division's sector by 19 March (Harrison p. 257) and its sector was a thirty-mile front (Harrison, ch. VII, German Defense Measures). The line is drawn about 1.5 km inland; its end points are an inference."
    },
    "arrive": {
     "date": "1944-06-06",
@@ -1614,7 +1637,38 @@
     "src": [
      "harrison"
     ],
-    "status": "inference"
+    "status": "inference",
+    "sector": [
+     [
+      296,
+      183.2
+     ],
+     [
+      295.3,
+      178
+     ],
+     [
+      292,
+      172
+     ],
+     [
+      288.3,
+      166
+     ],
+     [
+      287.8,
+      162
+     ],
+     [
+      288.8,
+      158
+     ],
+     [
+      292,
+      151.5
+     ]
+    ],
+    "sectorNote": "East coast of the Cotentin from the Carentan estuary to Barfleur (Harrison p. 147). Its whole coast line, which ran on along the north coast, was two and a half times as long as the 716th's and was held by eleven battalions under three regiments (Harrison, ch. VII). The game's division has fewer battalions, so only the east coast is manned; the end points are an inference."
    },
    "arrive": {
     "date": "1944-06-06",
@@ -1678,7 +1732,26 @@
     "src": [
      "harrison"
     ],
-    "status": "inference"
+    "status": "inference",
+    "sector": [
+     [
+      338.5,
+      189.5
+     ],
+     [
+      350.7,
+      191
+     ],
+     [
+      360,
+      195.5
+     ],
+     [
+      366,
+      197
+     ]
+    ],
+    "sectorNote": "Coast from Asnelles to the east bank of the Orne: the right half of its former sector after the 352nd took the left half (Harrison p. 257). Six battalions under one regimental headquarters on D-Day (Harrison, ch. VII). End points are an inference."
    },
    "arrive": {
     "date": "1944-06-06",

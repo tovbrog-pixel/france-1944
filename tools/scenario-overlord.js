@@ -129,7 +129,9 @@ function makeOverlord(cs) {
       const [x, y] = clampIn(W(p0[0], p0[1])), dest = GDEST[d.id] && Q[GDEST[d.id]], fr = Math.max(0, a.date ? hrs(a.date, 12) - (dest ? marchH(d.tpl, p0, dest) : 0) : 0);
       const f = divForm({ tpl: d.tpl, s: 1, n: d.name, cmd, ag: .5, sk: .65, xp: xpOf(d), regs, x, y }); f.gid = d.id; if (KG.test(d.id)) kampfgruppe(f); if (REGT[d.id]) regiment(f);
       const coast = (d.tpl === 'ge_inf' || REGT[d.id]) && (!a.date || a.date <= '1944-06-06');
-      if (coast) { const hw = REGT[d.id] ? 1.2 : 5; f.line = [[x - hw, y], [x + hw, y]]; f.dug = 1; f.free = 0; }   // a regiment holds its town; a division holds ten kilometres else f.free = fr;
+      if (coast) { const hw = REGT[d.id] ? 1.2 : 5, sec = d.position0606.sector; f.line = [[x - hw, y], [x + hw, y]]; f.dug = 1; f.free = 0;   /* a regiment holds its town; a division without a sourced sector holds ten kilometres */
+        if (sec) { f.line = sec.map(q => W(q[0], q[1])); f.stretch = 1; const m = f.line[f.line.length >> 1]; f.x = m[0]; f.y = m[1]; } }   /* a coast division with a sourced sector starts spread along the whole of it */
+      else f.free = fr;
       if (GDEST[d.id]) { thPlan.push({ f: d.name, sec: GDEST[d.id], t: Math.max(.5, fr) }); f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); f.stayMinStr = .45; }
       if (coast) { f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); f.stayMinStr = .45; }
       if (GFALL[d.id]) { const q = GFALL[d.id]; thPlan.push({ f: d.name, sec: q.at, t: hrs(q.date, q.h) }); }

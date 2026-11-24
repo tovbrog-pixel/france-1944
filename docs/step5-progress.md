@@ -303,6 +303,18 @@ Tov asked for the fixes in `docs/engine-fixes-for-france-1944.md` of the sarn-co
 
 **A fault in the page builder, found during this work.** `tools/build-preview.js` copied a fixed list of scenario settings into the single-file page, and the list lacked `armyAI`, `theater`, `repl` and `playerSides`. The France1944.html files sent on the evening of 23 November therefore ran without the German theater commander, without replacements and with all three seats on the menu; German reinforcements in those pages held their arrival positions. The batches on GitHub use the scenario directly and were unaffected. The builder now carries every scenario setting except the few it rebuilds, and a browser check confirmed the commander, the pools and the two-seat menu in the page.
 
+## Fix 7 from the Sarn Corridor build, and the D-Day coastal sectors (24 November)
+
+- Fix 7 applied from `engine-fixes-for-france-1944-fix7.patch`: at regiment zoom a label that would overlap one already drawn is skipped, and a division given `stretch: 1` with its starting line spreads along the whole line. `tools/regress.js` matched the baseline.
+- Every German division in position on D-Day stood on a 10 km line with its battalions inside 4 to 8 km. Three now start on their coastal sectors, read from `position0606.sector` in `data/oob/german-1944.json`:
+  - **352nd Division:** 41 km of coast from the Vire estuary to Asnelles. Before this change it stood in its assembly area 12 km inland, which was wrong for 6 June: it had taken over the left half of the 716th Division's sector by 19 March.
+  - **716th Division:** 29 km from Asnelles to the east bank of the Orne.
+  - **709th Division:** 35 km of the east coast of the Cotentin from the Carentan estuary to Barfleur.
+- The 711th Division (east of the Orne) keeps its 10 km line; no source for its sector width was read. The 243rd and 91st Divisions were reserves in assembly areas and stay grouped.
+- A line that crosses a river or runs over water is cut to the part on the division's own bank, so each sector line was checked point by point to lie on land.
+- Screenshots: `docs/screenshots/step5-dday-theatre.png`, `-division.png`, `-regiment-calvados.png`, `-regiment-cotentin.png`.
+- This puts the 352nd on Omaha and the 716th on Gold, Juno and Sword from the first hour, so the first days will play differently. Batch 12 tests it.
+
 ## Source checks made on 23 November
 
 Read in the OCR texts in `sources/archive`. The OCR drops most page headers, so page numbers are given only where a page marker was legible.
@@ -323,3 +335,7 @@ Read in the OCR texts in `sources/archive`. The OCR drops most page headers, so 
 | Engine fixes applied | `docs/engine-fixes-for-france-1944.md` and its patch in tovbrog-pixel/sarn-corridor, written by Tov's Sarn Corridor build | Sourced |
 | devKm 5 for Overlord | Five four-day test games, seed 104 (15, 5 and 2 km; module off; ground model off) | Sourced (test runs); one seed only |
 | Page-builder fault and its repair | `tools/build-preview.js`; headless browser check of the rebuilt page | Sourced (code and test run) |
+| 352nd took over the left half of the 716th's sector by 19 March; 726th Regiment attached | Harrison, Cross-Channel Attack, p. 257 | Sourced |
+| 352nd sector a thirty-mile front; 716th six battalions under one regimental headquarters; 709th coast two and a half times as long, eleven battalions in three regiments | Harrison, ch. VII (German Defense Measures) | Sourced; pages not legible in the OCR |
+| 709th held the east coast of the Cotentin | Harrison p. 147 (already cited in the order of battle file) | Sourced |
+| End points and exact course of each sector line; leaving the 709th's north coast unmanned | Claude's placement | Inference |
