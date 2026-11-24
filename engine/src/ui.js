@@ -361,7 +361,7 @@
   }
   function xingCard(F) {
     const X = S.xings.find(X => X.F === F && (!X.done || (X.bridge && !X.bridge.gone)));
-    if (!X) { const P = S.player, boats = S.assets[P].some(a => a.k === 'boats' && a.n > 0 && a.st !== 'lost'), foot = F.subs.some(u => u.active && !u.dead && !u.det && u.mv === 'foot' && /^(inf|cdo|rec)$/.test(u.cls)); return boats && foot ? '<div class="btns"><button data-act="xing" class="' + (mode === 'xing' ? 'on' : '') + '" title="Click a point on a river. The rifle battalions cross in assault boats under fire while the engineers bring up a bridge set.">Assault crossing</button></div>' : ''; }
+    if (!X) { const P = S.player, boats = S.assets[P].some(a => a.k === 'boats' && a.n > 0 && a.st !== 'lost'), foot = F.subs.some(u => u.active && !u.dead && !u.det && ((/^(inf|cdo|rec)$/.test(u.cls) && u.mv === 'foot') || u.cls === 'inf' || u.cls === 'mech')); return boats && foot ? '<div class="btns"><button data-act="xing" class="' + (mode === 'xing' ? 'on' : '') + '" title="Click a point on a river. The rifle battalions cross in assault boats under fire while the engineers bring up a bridge set. Armored infantry leave their half-tracks on the near bank and fight on foot until the bridge is in.">Assault crossing</button></div>' : ''; }
     const a = X.boats, al = X.landed.filter(u => u.active && !u.dead).length, P = [];
     P.push(a.st === 'site' ? a.n + ' of ' + a.n0 + ' boats at the site' : 'boats ' + assetWhere(a));
     if (X.q.length && S.t < X.go) P.push('staff preparing (' + Math.ceil(X.go - S.t) + ' min)');

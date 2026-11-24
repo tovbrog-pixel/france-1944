@@ -1065,6 +1065,8 @@ function createSim(sc, player, seed, opt) {
   const RIVW = { Waal: 300, 'Neder Rijn': 120, 'Wilhelmina Canal': 30, 'Zuid-Willemsvaart': 20, Maas: 250, 'Maas-Waal Canal': 60, 'Maas-Schelde Canal': 40, 'Cane River': 90, Sele: 60, Sure: 30, Ourthe: 30, Orne: 40, Sarthe: 40, Mayenne: 40, Simeto: 50, Salso: 40, Anapo: 20 };
   const BOATMEN = 13, BNMEN = 800, SETFT = 1000;   // one squad to a boat, men to a battalion, feet of bridge one set spans
   const XCLS = { inf: 1, cdo: 1, rec: 1 };
+  // who can cross in assault boats: foot troops, and armored or motorized infantry, who leave their vehicles on the near bank and fight on foot until a bridge is in
+  const boatLift = u => (XCLS[u.cls] && u.mv === 'foot') || u.cls === 'inf' || u.cls === 'mech';
   function riverAt(x, y) { let best = null, bd = 1e9, dir = [1, 0]; for (const r of map.riverLines) if (r.cls === 1) for (let i = 1; i < r.pts.length; i++) { const p = r.pts[i], d = Math.hypot(p[0] - x, p[1] - y); if (d < bd) { bd = d; best = r.name; dir = [p[0] - r.pts[i - 1][0], p[1] - r.pts[i - 1][1]]; } } const l = Math.hypot(dir[0], dir[1]) || 1; return { n: best, tx: dir[0] / l, ty: dir[1] / l }; }
   // the crossing line: the river cells between the near bank (the formation's side) and the far bank, four-connected so a bridge can carry traffic
   function crossLine(F, x, y) {
@@ -1103,14 +1105,14 @@ function createSim(sc, player, seed, opt) {
   S.crossLine = (F, x, y) => crossLine(F, x, y);
   // what the staff expects of a crossing at this point, from what our troops can see
   S.crossEst = function (F, x, y) {
-    const L = crossLine(F, x, y); if (!L) return null; const a = freeAsset(F.s, 'boats', L.near[0], L.near[1]); const lift = F.subs.filter(u => u.active && !u.dead && !u.det && u.mv === 'foot' && XCLS[u.cls]);
+    const L = crossLine(F, x, y); if (!L) return null; const a = freeAsset(F.s, 'boats', L.near[0], L.near[1]); const lift = F.subs.filter(u => u.active && !u.dead && !u.det && boatLift(u));
     const need = lift.reduce((t, u) => t + u.size, 0), cap = a ? a.n * BOATMEN / BNMEN : 0, f = boatFire(F.s, L, true, false);
     return { L, a, lift: lift.length, cap, trips: cap ? Math.ceil(need / cap - 1e-6) : 0, loss: f.loss, sets: Math.ceil(L.w * 3.28 / SETFT) };
   };
   S.cross = function (F, x, y) {
     if (S.xings.some(X => X.F === F && !X.done)) return 'busy';
     const L = crossLine(F, x, y); if (!L) return 'nowater';
-    const lift = F.subs.filter(u => u.active && !u.dead && !u.det && u.mv === 'foot' && XCLS[u.cls]); if (!lift.length) return 'nofoot';
+    const lift = F.subs.filter(u => u.active && !u.dead && !u.det && boatLift(u)); if (!lift.length) return 'nofoot';
     const a = freeAsset(F.s, 'boats', L.near[0], L.near[1]); if (!a) return 'noboats';
     const X = Object.assign({ id: S.xings.length, s: F.s, F, boats: a, q: lift.slice(), landed: [], trip: null, bh: false, clearT: null, fail: false, sets: [], bridge: null, prog: 0, t0: S.t, rehaulT: 0, msgT: 0, done: false }, L);
     X.go = S.t + (S.planning ? 0 : (25 + 70 * (1 - F.cmd.sk)) * (DOCT[F.nat] || DOCT.US).delay);
@@ -1126,12 +1128,14 @@ function createSim(sc, player, seed, opt) {
     if (!p) p = [X.far[0] + X.nx * .2, X.far[1] + X.ny * .2];
     u.x = p[0]; u.y = p[1]; u.det = { x: p[0], y: p[1] }; u.goal = null; u.path = null; u.slot = null; u.state = 'ok'; u.coh = Math.max(.2, u.coh - (S.night ? .25 : .15)); u.hitT = S.t;
     if (!X.landed.includes(u)) X.landed.push(u);
+    if (u.mv !== 'foot') { u.mv0 = u.mv; u.mvi0 = u.mvi; u.mv = 'foot'; u.mvi = MVI.foot; }
     if (X.landed.length === 1) say(X.F, 'First wave ashore on the far bank of the ' + X.n + '. It is fighting to hold the landing.', 2, p[0], p[1]);
   }
   // a finished crossing hands back its boats, and any bridge set not laid, for use elsewhere
   function release(X) { const fr = a => { if (a.st === 'lost' || a.site !== X) return; if (a.haul) { a.x = a.haul.x; a.y = a.haul.y; a.haul.dead = true; a.haul = null; } a.st = 'park'; a.site = null; }; fr(X.boats); if (!X.bridge) for (const b of X.sets) fr(b); }
   function xingTick() {
     for (const X of S.xings) {
+      if ((X.bridge && X.bridge.intact) || X.done) for (const u of X.landed) if (u.mv0) { u.mv = u.mv0; u.mvi = u.mvi0; u.mv0 = null; u.needPath = true; }   // the vehicles rejoin over the bridge, or by road once the crossing is closed
       if (X.done && !X.bridge) continue; const F = X.F, a = X.boats, s = X.s;
       if (X.liftT && S.t >= X.liftT) { map.removeBridge(X.bridge); S.ev.push({ k: 'bridge', b: X.bridge, blown: false }); for (const b of X.sets) { b.st = 'park'; b.site = null; b.x = X.near[0]; b.y = X.near[1]; } say(F, 'The bridge over the ' + X.n + ' is taken up. The set is ready to be used again.', 1, X.mid[0], X.mid[1]); X.bridge = null; X.liftT = 0; X.done = true; for (const u of S.subs) if (u.goal) u.needPath = true; continue; }
       X.q = X.q.filter(u => u.active && !u.dead); for (const u of S.subs) if (u.xs === X.id && (u.dead || !X.q.includes(u))) u.xs = null;
