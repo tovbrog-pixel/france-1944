@@ -274,3 +274,18 @@ The hand list Claude wrote overnight agreed with INSEE on 31 of 35 names it shar
 | Dismounted crossing by armored infantry | General practice | Inference, to verify against FM 17-42 |
 | Batch 7 results | 18 game logs of GitHub Actions run 45275561944 | Sourced; two games were still running |
 | New phase-line dates (3 July, 19 June, 8 August, 25 August) | General history | Verify against Blumenson, Harrison and Ellis |
+
+## Source checks made on 23 November
+
+Read in the OCR texts in `sources/archive`. The OCR drops most page headers, so page numbers are given only where a page marker was legible.
+
+| Game setting | What the source says | Source | Status |
+| --- | --- | --- | --- |
+| 352nd Division falls back to the Elle, 9/10 June | At about 1900 on 9 June Kraiss was ordered to withdraw to the Elle from Bérigny to Airel, the move to be complete by 0600 on 10 June; he had 2,500 men for about ten miles | Harrison, Cross-Channel Attack, V Corps chapter | Sourced; page to be read from the printed book |
+| St-Lô opens to the Allied staff on 3 July | First Army's attack was to start on 3 July; the artillery preparation began at 0515 | Blumenson, Breakout and Pursuit, pp. 38 and 58-59 | Sourced |
+| Northern Cotentin opens on 19 June | Map titles: "Attack to Cut the Peninsula, 10-18 June 1944" and "The Advance North, 19-21 June 1944" | Harrison, list of maps XXI and XXII | Sourced |
+| Caen opens on 8 July | Map title: "British attack 8th and 9th July" | Ellis, Victory in the West, vol. I | Sourced; page not legible |
+| Falaise road opens on 8 August | "Totalize" indexed at pp. 419-432; the text describes its first day | Ellis vol. I, index | Sourced for the operation; the date 8 August still to be read on p. 419 |
+| Lower Seine opens on 19 August | XV Corps "moved easily to Mantes-Gassicourt on 18 August" | Blumenson, Drive to the Seine chapter | Sourced; the game uses 19 August, one day later (inference) |
+| Paris opens on 22 August | Map title: "Liberation of Paris, 23-25 August 1944" | Blumenson, list of maps XIII | Sourced for the 23rd; the order on 22 August is still to verify |
+| Brest opens on 25 August | Map title: "Battle for Brest, 25 August-18 September 1944" | Blumenson, list of maps XIV | Sourced |

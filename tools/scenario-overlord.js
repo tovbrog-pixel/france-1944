@@ -38,7 +38,8 @@ const GDEST = { 'ge-1st-ss-panzer': 'cauS', 'ge-2nd-panzer': 'caumont', 'ge-2nd-
   'ge-84th': 'sourdeval', 'ge-85th': 'cauS', 'ge-89th': 'cauS', 'ge-265th': 'stloW', 'ge-266th': 'vireW', 'ge-271st': 'odon', 'ge-272nd': 'cauS', 'ge-275th': 'periers', 'ge-276th': 'tilly',
   'ge-277th': 'odon', 'ge-326th': 'caumont', 'ge-331st': 'rouenS', 'ge-346th': 'orneE', 'ge-353rd': 'hayedupuits', 'ge-363rd': 'brecey', 'ge-708th': 'lemans' };
 // dated fallbacks of divisions that began on the coast (inference): the 352nd, broken behind Omaha, fell back to the Elle
-// north of St-Lo on the night of 9/10 June (general history; verify against Harrison ch. IX)
+// north of St-Lo: at about 1900 on 9 June Kraiss was ordered to a line on the Elle from Berigny to Airel, to be reached by 0600 on 10 June
+// (Harrison, Cross-Channel Attack, V Corps chapter, 7-18 June; page to be read from the printed book)
 const GFALL = { 'ge-352nd': { at: 'elle', date: '1944-06-09', h: 22 } };
 // sector names for the theater commander's reports
 const QN = { caumont: 'Caumont', odon: 'Odon', stsylvain: 'Saint-Sylvain', tilly: 'Tilly', carentanSW: 'Carentan', cerisy: 'Cerisy', periers: 'Périers', elbeuf: 'Elbeuf', chartres: 'Chartres', montebourg: 'Montebourg', sourdeval: 'Sourdeval',
