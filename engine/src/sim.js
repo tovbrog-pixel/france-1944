@@ -414,7 +414,7 @@ function createSim(sc, player, seed, opt) {
     // an aggressive commander told to hold may still take an opening he sees
     if (!aiF(F) && (th === 'hold' || th === 'dig' || th === 'reserve') && F.cmd.ag >= .75 && S.t >= (F.initT || 0) && S.t - O.doneT > 45 && str > .6 && coh > .6 && F.stock > F.cap * .5 && !F.isolated) {
       let tx = null, ty = null, what = null; if (shaken >= 2 && !formed) { tx = sx / shaken; ty = sy / shaken; what = 'the enemy in front of us is breaking'; }
-      else if (nd > 5) { let bv = null, bd = 12; for (const v of S.vp) if (v.own !== F.s) { const d = Math.hypot(v.x - F.cx, v.y - F.cy); if (d < bd && d > 1.5) { bd = d; bv = v; } } if (bv) { tx = bv.x; ty = bv.y; what = 'the road to ' + bv.n + ' is open'; } }
+      else if (nd > 5) { let bv = null, bd = 12; const tk = S.urban && L.filter(u => u.cls === 'arm').length * 3 >= L.length; /* with the town rules on, an armored commander does not go for an enemy-held town on his own: a town is infantry work (fix A1) */ for (const v of S.vp) if (v.own !== F.s && !tk) { const d = Math.hypot(v.x - F.cx, v.y - F.cy); if (d < bd && d > 1.5) { bd = d; bv = v; } } if (bv) { tx = bv.x; ty = bv.y; what = 'the road to ' + bv.n + ' is open'; } }
       if (what && rnd() < (F.cmd.ag - .7) * .1 * (DOCT[F.nat] || DOCT.US).init) { F.initT = S.t + 360; if (autoOrder(F, tx, ty, false, { free: true, then: 'hold', own: true })) { say(F, 'I know my orders were to ' + (th === 'reserve' ? 'stay in reserve' : 'hold') + ', but ' + what + '. I am going forward on my own initiative.', 2); S.init = (S.init || 0) + 1; return true; } } }
     return false;
   }
