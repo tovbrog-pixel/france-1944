@@ -217,8 +217,10 @@ function makeOverlord(cs) {
   const beach = Object.values({ utah: P.utah, omahaW: P.omahaW, omahaE: P.omahaE, gold: P.gold, juno: P.juno, sword: P.sword }).map(b => { const q = W(b[0], b[1]); return [q[0] - 4, q[1] - 3, q[0] + 4, q[1] + 3]; });
 
   const sc = Object.assign({}, base, m, { id: 'overlord', title: 'Overlord: D-Day to the Seine', sub: 'Normandy and Brittany, 6 June to 1 September 1944', start: START, hours: hrs(END.slice(0, 10), 0),
-    ownCell: 1, aiExact: 1, divScale: [22, 70], fieldPlan, commands, cmdPlan, armyAI: { only: ['us-tusa'], from: hrs('1944-08-01', 6), reachKm: 90, cadenceH: 12, waitH: 24, supply: .3 }, detourKm: 14, phaseLines: PHASES.map(q => ({ s: 0, north: q.north, until: hrs(q.until, 6), line: q.line.map(p => W(p[0], p[1])) })), view: { x: 292, y: 86, dist: 95, pitch: 1.35 }, playerSides: [0, -1],   // the player commands the Allies or watches; the German side belongs to the theater commander
-    modules: ['transport', 'air', 'command', 'politics', 'theater', 'repl'],
+    ownCell: 1, aiExact: 1, divScale: [22, 70], fieldPlan, commands, cmdPlan, armyAI: { only: ['us-tusa'], from: hrs('1944-08-01', 6), reachKm: 90, cadenceH: 12, waitH: 24, supply: .3, frontKm: 4, pocketBonus: 2 }, detourKm: 14, phaseLines: PHASES.map(q => ({ s: 0, north: q.north, until: hrs(q.until, 6), line: q.line.map(p => W(p[0], p[1])) })), view: { x: 292, y: 86, dist: 95, pitch: 1.35 }, playerSides: [0, -1],   // the player commands the Allies or watches; the German side belongs to the theater commander
+    modules: ['transport', 'air', 'command', 'politics', 'theater', 'repl', 'doctrine'],
+    doctrine: { devKm: 5 },   // divisions leave the roads within 5 km of known enemy. At the module's 15 km every division in the bridgehead moved across the bocage and Bayeux had not fallen by 10 June in a test game (seed 104); at 5 km it fell as before. Game setting
+    ownR: 3, ownMax: 15, isoShrinkKm: 12,   // front-line ground model and shrinking pockets (engine fixes from the Sarn Corridor build; starting values, game settings)
     // replacements, in battalion-equivalents of 800 men a day:
     //  US: the plan moved more than 200,000 replacements to the Continent in the first ninety days (Ruppenthal, Logistical Support of the Armies, vol. I, replacement plan), about 2,200 men or 2.8 battalions a day
     //  German: by mid-July 5,210 replacements had arrived against about 87,000 casualties, 6 percent (Blumenson pp. 181-182), about 130 men a day

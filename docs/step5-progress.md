@@ -291,6 +291,18 @@ Test (seed 104, 15 days): the Allies lost 58 battalion-equivalents and took in 1
 
 Still to do: the player's replacement priority by army, and a batch with replacements in play (batch 10).
 
+## Engine fixes from the Sarn Corridor build (24 November)
+
+Tov asked for the fixes in `docs/engine-fixes-for-france-1944.md` of the sarn-corridor repository. The patch applied cleanly (`git apply --check` passed on commit 30ee1a1) and the three loader edits were made by hand.
+
+- **Coastal pockets close.** Sea cells belong to no pocket. This changed the Market Garden and Sicily results; new baselines are recorded.
+- **Front-line ground model.** Overlord sets `ownR: 3, ownMax: 15, isoShrinkKm: 12`, the document's suggested values.
+- **Corps plans and army AI.** `corpsPlan` is available; Third Army's AI takes `frontKm: 4, pocketBonus: 2`.
+- **Stop-the-clock options start off** and save under `f44_stop`.
+- **Doctrine module** is on for Overlord, with one change from the document: `devKm` is 5 km in place of 15. At 15 km every division in the bridgehead moved across the bocage, and in a four-day test (seed 104) the Allies held no objective by 10 June. At 5 km they held Bayeux and Ouistreham, as before the patch.
+
+**A fault in the page builder, found during this work.** `tools/build-preview.js` copied a fixed list of scenario settings into the single-file page, and the list lacked `armyAI`, `theater`, `repl` and `playerSides`. The France1944.html files sent on the evening of 23 November therefore ran without the German theater commander, without replacements and with all three seats on the menu; German reinforcements in those pages held their arrival positions. The batches on GitHub use the scenario directly and were unaffected. The builder now carries every scenario setting except the few it rebuilds, and a browser check confirmed the commander, the pools and the two-seat menu in the page.
+
 ## Source checks made on 23 November
 
 Read in the OCR texts in `sources/archive`. The OCR drops most page headers, so page numbers are given only where a page marker was legible.
@@ -308,3 +320,6 @@ Read in the OCR texts in `sources/archive`. The OCR drops most page headers, so 
 | US replacement rate | More than 200,000 replacements planned for the Continent in the first ninety days | Ruppenthal, Logistical Support of the Armies, vol. I, replacement plan (page near 299-305, to confirm) | Sourced for the plan; actual deliveries not checked |
 | German replacement rate | 5,210 replacements against about 87,000 casualties by mid-July, 6 percent | Blumenson pp. 181-182 | Sourced |
 | British rate, all experience levels, rest and absorption rules | Claude's settings | Inference |
+| Engine fixes applied | `docs/engine-fixes-for-france-1944.md` and its patch in tovbrog-pixel/sarn-corridor, written by Tov's Sarn Corridor build | Sourced |
+| devKm 5 for Overlord | Five four-day test games, seed 104 (15, 5 and 2 km; module off; ground model off) | Sourced (test runs); one seed only |
+| Page-builder fault and its repair | `tools/build-preview.js`; headless browser check of the rebuilt page | Sourced (code and test run) |
