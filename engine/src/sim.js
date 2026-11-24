@@ -376,7 +376,8 @@ function createSim(sc, player, seed, opt) {
   function bridging(F, O) {
     const f = polyAt(O.path, Math.min(O.L, O.prog + 2)); const b = nearBridge(f.x, f.y, O);
     if (!b) { if (aiF(F) && S.t > (F.xTryT || 0)) { F.xTryT = S.t + 360; const X = S.cross(F, f.x, f.y); if (X && typeof X === 'object') { F.status = 'Assault crossing'; O.bestT = S.t; return; } }   // the staff puts the battalions over in boats
-      if (S.t > F.msgT) { say(F, 'No route forward from ' + nearTown(F.cx, F.cy) + '.', 2); F.msgT = S.t + 720; } O.bestT = S.t; F.status = 'Halted: no route'; return; }
+      if (S.t > F.msgT) { const m = polyAt(O.line, polyLen(O.line) / 2), n = Math.max(1, Math.ceil(Math.hypot(m.x - F.cx, m.y - F.cy) / .4)); let riv = false; for (let k = 0; k <= n && !riv; k++) riv = map.t[map.idx(F.cx + (m.x - F.cx) * k / n, F.cy + (m.y - F.cy) * k / n)] === T.RIVER;   // say what bars the way (fix A6)
+        say(F, 'No route forward from ' + nearTown(F.cx, F.cy) + (riv ? ': the river bars the way and no bridge on our route is open. Draw the line over a bridge we hold, or order an assault crossing.' : ': no passable road or ground leads to the objective.'), 2); F.msgT = S.t + 720; } O.bestT = S.t; F.status = 'Halted: no route'; return; }
     const eng = field(F).find(u => u.cls === 'eng');
     if (!eng && aiF(F) && S.t > (F.xTryT || 0)) { F.xTryT = S.t + 360; const X = S.cross(F, b.x, b.y); if (X && typeof X === 'object') { F.status = 'Assault crossing'; O.bestT = S.t; return; } }   // no engineers: the staff tries the boats
     if (!eng) { F.needEng = true; F.status = 'Halted: ' + b.name + ' is down'; if (S.t > F.msgT) { say(F, 'The ' + b.name + ' is down. We need engineers attached to bridge it.', 2, b.x, b.y); F.msgT = S.t + 720; } return; }
