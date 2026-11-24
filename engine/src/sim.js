@@ -242,7 +242,7 @@ function createSim(sc, player, seed, opt) {
   S.attach = function (F, it) {
     if (S.t < it.t * 60) return false;
     if (it.sub && !it.sub.dead) { const u = it.sub, o = u.f; o.subs.splice(o.subs.indexOf(u), 1); u.f = F; u.xp = F.xp; F.subs.push(u); u.slot = null; u.goal = null; if (o.order) o.order.slots = null; }
-    else { const u = mkSub(F, it.k, it.n, it.size || 1, it.x, it.y); const p = u.mv === 'ship' ? [it.x, it.y] : (map.snap(u.mvi, it.x, it.y, 6) || [it.x, it.y]); u.x = p[0]; u.y = p[1]; u.active = true; u.pool = it; it.sub = u; F.subs.push(u); F.cap += u.size * 2; }
+    else { const u = mkSub(F, it.k, it.n, it.size || 1, it.x, it.y); const p = u.mv === 'ship' ? [it.x, it.y] : (map.snap(u.mvi, it.x, it.y, 6) || [it.x, it.y]); u.x = p[0]; u.y = p[1]; u.active = true; u.pool = it; it.sub = u; F.subs.push(u); F.stock += u.size * 2 * (F.cap > 0 ? F.stock / F.cap : 1); F.cap += u.size * 2; }   /* a battalion from the pool brings its own load at the division's present level: attaching it raised the division's capacity alone, so the supply bar fell with the clock stopped (fix A5) */
     it.F = F; it.sub.fm = null; it.sub.fmT = 0; if (F.order) F.order.slots = null; if (it.sub.cls === 'eng') F.needEng = false; return true;
   };
   function canComply(F, O) {

@@ -28,7 +28,7 @@ const pct = v => Math.round(v * 100) + '%';
 console.log('seed', seed, mode, '| 1st Division supply before attachments', pct(sup0), 'after the 155 mm battalion', pct(sup1), 'after the engineers', pct(sup2));
 let g = 0, carthage = null, contact = null, li = 0; const curve = [];
 while (!S.over && g < hours * 60) { S.advance(30); g += 30;
-  if (g % 60 === 0 && g <= 360) curve.push(pct(d1.stock / d1.cap));
+  if (g % 60 === 0 && g <= 720) curve.push(pct(d1.stock / d1.cap));
   if (carthage == null && S.vp.find(v => v.n === 'Carthage').own === 0) carthage = g / 60;
   const brg = S.map.bridges.find(b => /Cordell/.test(b.name));
   if (FOLLOW && carthage != null && !a1.west && !a1.dead && brg.intact && S.ownAt(brg.x, brg.y) === 0 && g / 60 >= carthage + 1) { a1.west = 1; const pw = [cen(a1), [38.5, 22], [37.6, 19.6], [36.9, 18.3], [34, 12], [32.4, 8], [27.9, 7.4]];
@@ -37,5 +37,5 @@ while (!S.over && g < hours * 60) { S.advance(30); g += 30;
 }
 const score = S.score();
 console.log('result: Blue', score[0], 'Red', score[1], '| losses Blue', S.losses[0].toFixed(1), 'Red', S.losses[1].toFixed(1), '| towns:', S.vp.map(v => v.n + '=' + ['Blue', 'Red'][v.own]).join(', '), '| Carthage fell at hour', carthage == null ? 'never' : carthage);
-console.log('1st Division supply, hours 1 to 6:', curve.join(' '), '| first report of the enemy:', contact ? contact.h.toFixed(1) + ' h: ' + contact.txt : 'none');
+console.log('1st Division supply, hours 1 to 12:', curve.join(' '), '| first report of the enemy:', contact ? contact.h.toFixed(1) + ' h: ' + contact.txt : 'none');
 console.log('corps:', d2.parent.log.map(l => S.clock(l.t).slice(-8) + ' ' + l.txt).join(' / '));
