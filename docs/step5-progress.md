@@ -315,6 +315,27 @@ Tov asked for the fixes in `docs/engine-fixes-for-france-1944.md` of the sarn-co
 - Screenshots: `docs/screenshots/step5-dday-theatre.png`, `-division.png`, `-regiment-calvados.png`, `-regiment-cotentin.png`.
 - This puts the 352nd on Omaha and the 716th on Gold, Juno and Sword from the first hour, so the first days will play differently. Batch 12 tests it.
 
+## Batches 9 to 11 compared (24 November)
+
+| Objective | History | Batch 9 (stronger commander, new dates) | Batch 10 (plus replacements) | Batch 11 (plus Sarn Corridor engine fixes) |
+| --- | --- | --- | --- | --- |
+| Carentan | 12 Jun | 12 Jun | 12 Jun | 12 Jun |
+| Cherbourg | 26 Jun | 20 Jun | 19 Jun | 19 Jun |
+| Caen | 9 Jul | 28 Jul | 27 Jul | 24 Jul |
+| Saint-Lô | 18 Jul | 4 Jul | 3 Jul | 4 Jul |
+| Avranches | 30 Jul | 1 Aug | 1 Aug | 1 Aug |
+| Rennes | 4 Aug | 6 Aug | 7 Aug | 12 Aug |
+| Le Mans | 8 Aug | 21 Aug (16 of 20) | 15 Aug (17) | 18 Aug (12) |
+| Falaise | 17 Aug | 12 Aug | 10 Aug | 11 Aug |
+| Chartres | 18 Aug | 16 Aug (10) | 16 Aug (14) | never |
+| Paris | 25 Aug | 24 Aug (3) | 29 Aug (3) | never |
+
+Findings: replacements gave the best pursuit; the engine fixes stalled it; Caen came two to three weeks late; Saint-Lô, Cherbourg and Falaise fell within a day or two of the date the Allied staff was allowed to attack them.
+
+**Caen, game by game.** In batches 9 to 11 Allied troops first entered Caen in June in 37 of 60 games and held it at once in only 12. The town changed hands for weeks: one battalion within 1.2 km of the centre, with no enemy that close, took it. A new setting, `capBig { pts: 20, r: 2.5 }`, makes the 20-point towns change hands only when the holder has no troops within 2.5 km.
+
+**Tests started.** Batch 12 (coastal sectors, doctrine on), batch 13 (the same with the doctrine module off, through the workflow's new `disable` input) and batch 14 (batch 13 plus `capBig`). Twelve against thirteen isolates doctrine; thirteen against fourteen isolates the capture rule.
+
 ## Source checks made on 23 November
 
 Read in the OCR texts in `sources/archive`. The OCR drops most page headers, so page numbers are given only where a page marker was legible.
@@ -339,3 +360,5 @@ Read in the OCR texts in `sources/archive`. The OCR drops most page headers, so 
 | 352nd sector a thirty-mile front; 716th six battalions under one regimental headquarters; 709th coast two and a half times as long, eleven battalions in three regiments | Harrison, ch. VII (German Defense Measures) | Sourced; pages not legible in the OCR |
 | 709th held the east coast of the Cotentin | Harrison p. 147 (already cited in the order of battle file) | Sourced |
 | End points and exact course of each sector line; leaving the 709th's north coast unmanned | Claude's placement | Inference |
+| Batches 9 to 11 | `docs/tests/batch-20261124-0601-batch9-commander2-phases.md`, `-0830-batch10-replacements.md`, `-1102-batch11-engine-fixes.md` and their run files | Sourced |
+| Caen entered and re-lost | The `took` and `held` dates in the 60 run files | Sourced; that one battalion can flip the town is read from the capture code (sourced), and that this explains the late dates is an inference |
