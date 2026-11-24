@@ -398,3 +398,85 @@ Read in the OCR texts in `sources/archive`. Page numbers come from the nearest l
 Still unverified after this pass: Rouen; naval forces by beach; the AGRA and armoured brigade dates; 13 German arrival dates; the British replacement rate; the Tennessee maneuver dates; armored infantry crossing practice.
 | Town and city rules | Tov, 24 November; `docs/design/town-and-city-fighting.md` | Sourced (owner decisions); every number is an inference |
 | Corps rule tests | Tutorial corps with the module on, seed 7 | Sourced (test run) |
+
+## Tutorial playtest fixes (24 November 2026)
+
+Tov Binyamin Brog. Source: project doc `claude/France_1944_Tutorial_Playtest_Fixes.md`, a full playthrough of Exercise Cumberland at commit 6adc01a. Commits a8a59d5 to d0304af. A headless replay of the played plan (`tools/tutorial-run.js 79 48 south`, at 6adc01a) gave the same result as the playtest: Red 50, Blue 30, Carthage the only town taken.
+
+### Item status
+
+| Item | Status | What the code showed |
+| --- | --- | --- |
+| A1 | Fixed | Cause as stated. The armored division is the reserve when the corps route meets the river with no bridge in our hands, or an enemy town lies within 4 km beyond the line. Added: an armored commander no longer leaves reserve for an enemy town on his own initiative (Keller did so at 1037 in replay). |
+| A2 | Fixed | Two causes. The lanes had no crossing check. Most reports came from the corps review: it committed the reserve to a stalled sector every two hours for 48 hours, and each relief crossed the relieved division. Now a stalled sector is relieved once, the relieved division rests in place, and lanes that cross change sectors. |
+| A3 | Fixed | The card warning and the order itself both counted the corps' own divisions. |
+| A4 | Fixed; inference half right | The corps order does pass the card's On arrival choice to each division. Selecting a division loads its last instruction into the card, so a corps order drawn from a division Ames had stood down carried Rest and refit to the corps. Order the whole corps now starts from Hold. |
+| A5 | Fixed (attachment); marching left alone | `S.attach` raised capacity and added no stock: 4 points per battalion with the clock stopped. Marching costs about 0.7 points an hour (rations, fuel). The fall to 53 percent appears in seed 7 between hours 3 and 6, when the guns fire and the battalions refill ammunition. |
+| A6 | Fixed | The corps put the armored reserve's assembly area on the river bank near Rome by geometry alone. The area now lies behind the corps centre on our side of the river. The report states whether the river or the ground bars the way. |
+| B1 to B4, B6 | Fixed (one commit; the script is one line of JSON) | Texts below. |
+| B5 | Fixed | Four boxes on by default in a tutorial; stored `f44_stop` stays in charge. In the page test the clock stopped at 0727 on a cut-off report. |
+| C1 to C6 | Fixed | C6: replacements now reach toasts and hints, with formation and commander names set aside so "Parachute Regiment" keeps its name. |
+| D1, D3 | Fixed | The panel keeps one size (540 by 340), the note scrolls, Back and Next stay put, default dock lower right with the card shortened above it. |
+| D2 | Fixed | Division and regiment symbols show the formation. |
+| D4 | Partly fixed | Town names move off symbols and depots, unit names off town names, rings share one label, the drop zone name avoids towns. The Lebanon name still sits close to the depot flag at the opening zoom. |
+| D5 | Left alone; inference contradicted | Interdiction strikes enemy units and enemy supply columns only (`sim.js`, flight attack code, `e.s === es`). Blue troops in a zone are not hit. Step 12 is unchanged. |
+
+One change beyond the list: step 8 now ends the corps line in Carthage, over the Cordell Hull bridge. With the line drawn "to the river", the right-hand division's sector lay on the south bank and it stood idle; after A1 Carthage then fell at hour 40 or never in three seeds. With the line in Carthage it fell at hour 6.5 to 8 in five seeds. The old clip texts are in git if Tov prefers the old wording.
+
+### Tests
+
+1. `tools/regress.js`: `sicily` and `tutorial` changed (attachment supply, crossing rule); baseline re-recorded at d0304af.
+2. `tools/test-command.js`: Falaise corps and army cases as before; six new Cumberland cases (A1 reserve, A2 jumbled starts) pass on seeds 7 and 79.
+3. Five seeds, umpire's plan to the letter (steps 5, 6, 8, 10, 12, 13 as now written, then the step 7 follow-up: the armored division west to Dixon Springs once the bridge is ours):
+
+| Seed | Points Blue-Red | Losses Blue / Red | Blue towns | Carthage fell | 1st Division in contact |
+| --- | --- | --- | --- | --- | --- |
+| 79 | 30-50 | 4.6 / 8.5 | Carthage, Lebanon | hour 6.5 | hour 16 |
+| 7 | 30-50 | 8.1 / 11.5 | Carthage, Lebanon | hour 7 | hour 3.5 |
+| 11 | 30-50 | 9.0 / 9.5 | Carthage, Lebanon | hour 7.5 | hour 14 |
+| 23 | 30-50 | 7.9 / 8.3 | Carthage, Lebanon | hour 6.5 | hour 19.5 |
+| 101 | 30-50 | 6.6 / 7.4 | Carthage, Lebanon | hour 7 | hour 21 |
+
+Target missed: no win or draw in five. B1's test also fails on four seeds. Two causes, both balance and outside this fix list. The 1st Division's leading battalions come under shellfire about 4 km from Hartsville from hour 3, lose cohesion in column, fall back and try again for 10 hours or more with the card reading Advancing and no report. At Carthage three Blue divisions attack the Red 1st Division for 36 hours at 1 to 3 percent loss per attack and never break out to Dixon Springs.
+4. `tools/check-page.js`: all checks pass.
+5. Tutorial page built with `VOICE_DIR=engine/voice`; page test in headless Chrome passes (no errors, panel fixed, hints, hover note, clock stops).
+6. Overlord batch 18 queued on GitHub Actions at d0304af (run 45477920985).
+
+### New narration (ten clips to record)
+
+- t03_0: Click a Blue division, or a name in the Forces list. The card shows the general, his aggression and skill, and five bars: strength, cohesion, disruption, morale and supply.
+- t04_0: Select the First Infantry Division at Lebanon. Press Draw line of advance, then drag from the division up the main road, over Hartsville bridge, and stop in Hartsville on the north bank. Then press Issue order.
+- t04_1: This is the fixing attack, and a fixing attack has to touch the enemy. A division that halts short of the river pins nobody.
+- t07_1: Select the Second Infantry Division, and press Order the whole corps. Then draw one line of advance from Watertown, over the Cordell Hull bridge, into Carthage, and issue it.
+- t07_2: General Ames takes about an hour to plan. He splits your objective line among his divisions, and holds one back as his reserve.
+- t07_3: A town is infantry work, and so is a river crossing. Carthage stands just across the river, so he sends the two infantry divisions forward, and keeps the armored division back for the exploitation.
+- t07_4: Once the attack starts, he commits the reserve where a division is worn out. Use a corps order for a broad attack, and a division order for a single task.
+- t09_0: Open the Support tab. These battalions belong to you until you give them to a division. Select a division first. Then press D S, direct support, for an artillery battalion, and Attach for any other.
+- t09_1: I recommend the heavy artillery battalion in direct support of the First Infantry Division, and the engineers attached to the same division. Hartsville bridge is wired, and Red will probably blow it.
+- t12_0: Select the Parachute Regiment. Its lift is planned for fourteen hundred, onto the Riddleton road east of Dixon Springs, to block the Red reserve. Friction usually makes it later. The card shows the hour the staff expects.
+
+Kept clips renumbered: t04_1 to t04_2, t04_2 to t04_3. Until the ten are recorded the page reads those steps with the browser's own voice.
+
+### Port to Sarn Corridor
+
+- `command.js`: A1 reserve rule (`riverBars`, town beyond the line), A2 lanes, reserve area, single relief, `S.leaveCorpsOrder`, A3 `sisters`.
+- `sim.js`: A1 initiative rule, A3 `S.crossings(F, P, skip)`, A5 `S.attach` stock, A6 report text.
+- `ui.js`: A3 `crossOf`, A4 Hold on corps mode, B5 `stopDefaults`, C1 to C6 (`tutD`, `rankOf`, hint lines, `sc.tutPlan`), D1 to D3 panel, D2 hover note.
+- `render3.js`, `index.tpl.html`: D1 to D4.
+
+### Source trace
+
+| Change | File and place | Basis |
+| --- | --- | --- |
+| A1 | `command.js` `planCommandOrder` (river, beyond, note); `sim.js` initiative rule | Code read; observed in replay seeds 7, 79 |
+| A2 | `command.js` `lane`, `xPoly`, reserve block, `review`; `ui.js` `runCmd` issue | Observed in replay log (relief every 2 h); code |
+| A3 | `ui.js` `crossOf`; `sim.js` `S.crossings`, `issueOrder`; `command.js` `release` | Code |
+| A4 | `ui.js` corps mode handler; `select` and `command.js` `send` read | Code; mechanism of the playtest sighting is an inference |
+| A5 | `sim.js` `S.attach` | Observed: 70, 66, 62 percent before; 70, 70, 70 after. Seed 7 ammunition cause is an inference from the curve |
+| A6 | `command.js` reserve block; `sim.js` `bridging` | Observed in replay (reserve at Rome, grid 29-19); code |
+| B1 to B6 | `tutorial.js` `tutScript` steps 4, 5, 8, 10, 13; `ui.js` `stopDefaults` | Fix list; engine arrival formula for B4 (`sim.js` line 82: 20 to 140 minutes late) |
+| Step 8 line into Carthage | `tutorial.js` step 8 | Observed, three seeds each way; Claude's addition |
+| C1 to C6 | `ui.js` toast, `tutAdvice`, `tutD`, `rankOf`; `tutorial.js` `tutPlan` | Code; page test |
+| D1 to D4 | `index.tpl.html` `#tut` rules; `ui.js` `tutDraw`, `hover`; `render3.js` labels, hits | Page test and screenshot at 1600 by 1000; other screen sizes untested |
+| D5 | none | Code |
+| Five-seed results | `tools/tutorial-run.js` | Observed |
