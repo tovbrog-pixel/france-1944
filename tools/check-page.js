@@ -18,10 +18,11 @@ const out = path.resolve(process.argv[2] || '/tmp/check-page'), chrome = process
   ok('menu offers the seats in playerSides', JSON.stringify(seats) === JSON.stringify(sc.playerSides || [0, 1, -1]), JSON.stringify(seats)); await p.close();
   p = await b.newPage(); p.on('pageerror', e => errs.push('game: ' + e.message)); await p.goto('file://' + out + '/game/index.html', { waitUntil: 'load', timeout: 180000 }); await new Promise(r => setTimeout(r, 12000));
   const g = await p.evaluate(() => { const S = window.GAME.S; window.GAME.setSpeed && window.GAME.setSpeed(0); for (let t = 0; t < 30 * 60; t += 30) S.advance(30);
-    return { keys: Object.keys(S.sc), modules: S.sc.modules, theater: S.theater ? S.theater.log.length : null, pools: S.repl ? S.repl.pools.length : null, commands: (S.commands || []).length, pol: S.pol != null || S.polComposite != null, columns: typeof S.columnView, mobile: typeof S.isMobile, flights: Array.isArray(S.flights), clock: S.clock(S.t) }; });
+    return { keys: Object.keys(S.sc), modules: S.sc.modules, theater: S.theater ? S.theater.log.length : null, pools: S.repl ? S.repl.pools.length : null, commands: (S.commands || []).length, pol: S.pol != null || S.polComposite != null, columns: typeof S.columnView, mobile: typeof S.isMobile, towns: S.vp.filter(v => v.cells).length, flights: Array.isArray(S.flights), clock: S.clock(S.t) }; });
   for (const k of Object.keys(sc)) if (!['thin', 'halt', 'elev', 'sides', 'raster', 'sea', 'mines', 'buildLog'].includes(k)) ok('page carries setting ' + k, g.keys.includes(k));
   ok('modules listed', JSON.stringify(g.modules) === JSON.stringify(sc.modules), (g.modules || []).join(','));
-  const alive = { transport: g.columns === 'function', air: g.flights, command: g.commands > 0, politics: g.pol, theater: g.theater != null && g.theater > 0, repl: g.pools > 0, doctrine: g.mobile === 'function' };
+  const alive = { transport: g.columns === 'function', air: g.flights, command: g.commands > 0, politics: g.pol, theater: g.theater != null && g.theater > 0, repl: g.pools > 0, doctrine: g.mobile === 'function', urban: g.towns > 0 };
+  for (const m of sc.modules) if (!(m in alive)) ok('the checker knows module ' + m, false);
   for (const m of sc.modules) ok('module ' + m + ' is alive after 30 game hours', !!alive[m]);
   ok('no page errors', !errs.length, errs.join(' | ') || 'none');
   await b.close(); console.log(fails.length ? fails.length + ' check(s) failed' : 'All checks passed (' + g.clock + ')'); process.exit(fails.length ? 1 : 0);

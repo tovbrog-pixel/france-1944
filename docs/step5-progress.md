@@ -336,6 +336,18 @@ Findings: replacements gave the best pursuit; the engine fixes stalled it; Caen 
 
 **Tests started.** Batch 12 (coastal sectors, doctrine on), batch 13 (the same with the doctrine module off, through the workflow's new `disable` input) and batch 14 (batch 13 plus `capBig`). Twelve against thirteen isolates doctrine; thirteen against fourteen isolates the capture rule.
 
+## Town and city fighting (24 November)
+
+Design note: `docs/design/town-and-city-fighting.md`. Tov set the rules (a unit in the town; districts for cities; infantry assault with armor in support) and asked for two corps rules to be added and the note implemented. `engine/src/urban.js` (module `urban`) and changes in `sim.js` and `command.js` carry it out:
+
+- A town with a built-up area changes hands when troops stand in it and no formed defender does. 58 of Overlord's 383 objectives qualify.
+- Caen is two objectives (Caen on the north bank, Vaucelles on the south) and Cherbourg two (the city, and the arsenal, whose fall opens the port).
+- Tanks firing into a town without infantry beside them lose effect; infantry with tanks beside them gain; infantry at close range in a town hit tanks hard.
+- An armored division ordered alone into an enemy-held town says so and obeys.
+- A corps commander whose objective crosses an enemy-held town holds his armored division in reserve, or moves the boundary so infantry takes the town.
+
+Tests: the corps rules and the general's warning were checked on the tutorial corps with the module switched on for the test; a 17-day Overlord game (seed 104) ran without error; the page check passes with eight modules. No Overlord corps had three divisions and an armored one ashore by 22 June, so the corps rules have not yet fired in a campaign game. In that game Saint-Lô, La Haye-du-Puits and Périers were Allied by 22 June, weeks early; batch 12 will show whether the coastal sectors cause that. Batch 15 runs this module with doctrine off, for comparison with batch 14.
+
 ## Source checks made on 23 November
 
 Read in the OCR texts in `sources/archive`. The OCR drops most page headers, so page numbers are given only where a page marker was legible.
@@ -382,3 +394,5 @@ Read in the OCR texts in `sources/archive`. Page numbers come from the nearest l
 | Rouen, 30 August | Not found in the OCR of Ellis vol. I | | Still to verify |
 
 Still unverified after this pass: Rouen; naval forces by beach; the AGRA and armoured brigade dates; 13 German arrival dates; the British replacement rate; the Tennessee maneuver dates; armored infantry crossing practice.
+| Town and city rules | Tov, 24 November; `docs/design/town-and-city-fighting.md` | Sourced (owner decisions); every number is an inference |
+| Corps rule tests | Tutorial corps with the module on, seed 7 | Sourced (test run) |

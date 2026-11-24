@@ -168,7 +168,10 @@ function makeOverlord(cs) {
   // Cherbourg opens after it is held and cleared: first discharge about 16 July after capture on 26-27 June (general history,
   // Ruppenthal I p. 464: the port could not begin operations until 16 July, three weeks after its capture); 456 hours of clearing.
   const cb = vp.find(v => v[0] === 'Cherbourg');
-  const ports = cb ? [{ vp: 'Cherbourg', s: 0, n: 'Cherbourg port', x: cb[1], y: cb[2], rate: 5, stock: 50, clear: 456 }] : [];
+  // city districts (urban module). Caen: the city on the north bank of the Orne, and Vaucelles on the south bank. Cherbourg: the city, and the arsenal
+  // with the harbour forts, whose fall opens the port. Points are the city's former total shared out; the district points on the map are placed by eye (inference)
+  for (const [city, pts, dn, dxy, dpts] of [['Caen', 18, 'Vaucelles', [358.2, 207.6], 12], ['Cherbourg', 20, 'Arsenal de Cherbourg', [263.6, 152.1], 10]]) { const v = vp.find(v => v[0] === city); if (v) { v[3] = pts; const q = W(dxy[0], dxy[1]); vp.push([dn, q[0], q[1], dpts, 1]); } }
+  const ports = cb ? [{ vp: 'Arsenal de Cherbourg', s: 0, n: 'Cherbourg port', x: cb[1], y: cb[2], rate: 5, stock: 50, clear: 456 }] : [];
 
   // ---- Allied non-divisional support. AGRAs: one heavy and three medium regiments each, one per corps plus one spare (Ellis I p. 537);
   // which AGRAs and brigades, and their dates, are general history (verify). US corps artillery: four 155mm battalions per corps, a
@@ -220,7 +223,8 @@ function makeOverlord(cs) {
 
   const sc = Object.assign({}, base, m, { id: 'overlord', title: 'Overlord: D-Day to the Seine', sub: 'Normandy and Brittany, 6 June to 1 September 1944', start: START, hours: hrs(END.slice(0, 10), 0),
     ownCell: 1, aiExact: 1, divScale: [22, 70], fieldPlan, commands, cmdPlan, armyAI: { only: ['us-tusa'], from: hrs('1944-08-01', 6), reachKm: 90, cadenceH: 12, waitH: 24, supply: .3, frontKm: 4, pocketBonus: 2 }, detourKm: 14, phaseLines: PHASES.map(q => ({ s: 0, north: q.north, until: hrs(q.until, 6), line: q.line.map(p => W(p[0], p[1])) })), view: { x: 292, y: 86, dist: 95, pitch: 1.35 }, playerSides: [0, -1],   // the player commands the Allies or watches; the German side belongs to the theater commander
-    modules: ['transport', 'air', 'command', 'politics', 'theater', 'repl', 'doctrine'],
+    modules: ['transport', 'air', 'command', 'politics', 'theater', 'repl', 'doctrine', 'urban'],
+    districts: [{ city: 'Caen', parts: ['Caen', 'Vaucelles'] }, { city: 'Cherbourg', parts: ['Cherbourg', 'Arsenal de Cherbourg'] }],
     doctrine: { devKm: 5 },   // divisions leave the roads within 5 km of known enemy. At the module's 15 km every division in the bridgehead moved across the bocage and Bayeux had not fallen by 10 June in a test game (seed 104); at 5 km it fell as before. Game setting
     capBig: { pts: 20, r: 2.5 },   // Caen, Cherbourg, Saint-Lo and the other 20-point towns fall only when the holder has no troops within 2.5 km. In batches 9 to 11 Caen was entered in June in most games and changed hands for weeks (game setting)
     ownR: 3, ownMax: 15, isoShrinkKm: 12,   // front-line ground model and shrinking pockets (engine fixes from the Sarn Corridor build; starting values, game settings)
@@ -241,7 +245,7 @@ function makeOverlord(cs) {
 // one or two off): Cherbourg p. 37, Avranches p. 316, Rennes p. 355, Nantes p. 367, Orléans p. 566, Paris p. 589, Brest (garrison) p. 651.
 // Checked on 24 November 2026: Carentan (Harrison map XVI), Caen (Ellis I, map 'British attack 8th and 9th July'), St-Lo (Blumenson map III; Ellis I p. 348),
 // Coutances (Blumenson p. 315), Le Mans (Blumenson pp. 437-438), Chartres (Blumenson pp. 570-571). Ellis's map gives Falaise as 16 August; the 17th is kept as the day the town was clear. Rouen is still to verify.
-const MILESTONES = [['Carentan', '1944-06-12'], ['Cherbourg', '1944-06-26'], ['Caen', '1944-07-09'], ['Saint-Lô', '1944-07-18'], ['Coutances', '1944-07-28'], ['Avranches', '1944-07-30'],
+const MILESTONES = [['Carentan', '1944-06-12'], ['Cherbourg', '1944-06-26'], ['Arsenal de Cherbourg', '1944-06-27'], ['Caen', '1944-07-09'], ['Vaucelles', '1944-07-19'], ['Saint-Lô', '1944-07-18'], ['Coutances', '1944-07-28'], ['Avranches', '1944-07-30'],
   ['Rennes', '1944-08-04'], ['Le Mans', '1944-08-08'], ['Nantes', '1944-08-12'], ['Orléans', '1944-08-16'], ['Falaise', '1944-08-17'], ['Chartres', '1944-08-18'], ['Paris', '1944-08-25'], ['Rouen', '1944-08-30'], ['Brest', '1944-09-18']];
 module.exports = makeOverlord; module.exports.MILESTONES = MILESTONES; module.exports.WIN = WIN; module.exports.START = START;
 
