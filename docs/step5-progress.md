@@ -183,6 +183,10 @@ Carentan flipped on 6 June in every run, six days early, because the 101st Airbo
 
 Still off after batch 6: Falaise falls 13 days early, Cherbourg 10 days early and Carentan on D-Day; St-Lô is 11 days late; the pursuit after 10 August is too slow for Paris. Batch 7 (label `batch7-theater`) adds the German theater commander and was running when this was written.
 
+**Batch 7** (first German theater commander; 18 of 20 games finished when read, `docs/tests/batch7-theater-from-logs.md`): Caen was held from a median date of 9 July, the historical date. Avranches fell on 29 July and Rennes on 6 August in every game. Le Mans fell in all 18 games (median 15 August; batch 6 had 6 of 20), Chartres in 11 on 18 August, Orléans in 10 and Paris in 3 on 24 August. The commander's general withdrawal opens the pursuit that the fixed 16 August date had held back. Median losses were 248 Allied and 381 German battalion-equivalents.
+
+Still off after batch 7: Falaise 13 days early, Cherbourg 11 days early, St-Lô 11 days late, and Brest taken in 4 games before 25 August. Since the player now commands the Allies, the Allied computer side is a test partner only, and its calendar may follow history closely. Four phase lines were added for batch 9: St-Lô opens on 3 July, the northern Cotentin on 19 June, the Falaise road on 8 August and Brest on 25 August. Batch 9 also carries the stronger commander, the 6th Parachute Regiment and the armored-infantry crossing rule.
+
 ## German theater commander
 
 `engine/src/theater.js` gives the computer's side a high command (OB West in Overlord). Tov asked for it after learning that every German operational move was scripted. The scenario's historical destinations are now the commander's default plan, and he departs from it when the battle does:
@@ -268,3 +272,5 @@ The hand list Claude wrote overnight agreed with INSEE on 31 of 35 names it shar
 | Carentan test | Six seeds, 72 game hours each, and one run of 200 hours (seed 104) | Sourced (test runs) |
 | Real rail move on screen | Headless browser run: 5th Parachute Division ordered to Paris | Sourced (test run) |
 | Dismounted crossing by armored infantry | General practice | Inference, to verify against FM 17-42 |
+| Batch 7 results | 18 game logs of GitHub Actions run 45275561944 | Sourced; two games were still running |
+| New phase-line dates (3 July, 19 June, 8 August, 25 August) | General history | Verify against Blumenson, Harrison and Ellis |

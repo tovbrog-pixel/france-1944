@@ -59,7 +59,11 @@ const HOLD_UNTIL = '1944-08-16';
 // AI phase lines (game setting, calibrated to the historical front; inference). Until Cobra the AI army groups fight the lodgment
 // battle north of Lessay - St-Lo - Caumont - south of Caen; until 1 August they go no farther than Avranches in the west and the
 // Caen plain in the east. A player's own formations are not bound by them.
-const PHASES = [{ until: '1944-07-08', line: [[200, 206], [270, 206], [290, 200], [300, 207.5], [308, 208], [322.5, 218], [340, 210], [347, 203.5], [368, 203], [374, 105], [640, 105]] },   // to 8 July: north of St-Lo and of Caen (Charnwood opened on 8 July; the St-Lo battle on 11 July)
+const PHASES = [{ until: '1944-07-03', line: [[200, 206], [270, 206], [290, 200], [300, 207.5], [308, 208], [322.5, 218], [340, 210], [347, 203.5], [368, 203], [374, 105], [640, 105]] },   // to 3 July: north of St-Lo and of Caen (First Army's offensive toward St-Lo opened on 3 July)
+  { until: '1944-07-08', line: [[200, 206], [270, 206], [290, 207], [301.5, 214], [322.5, 218], [340, 210], [347, 203.5], [368, 203], [374, 105], [640, 105]] },   // to 8 July: Caen still closed (Charnwood opened on 8 July)
+  { until: '1944-06-19', north: 1, line: [[200, 105], [255, 105], [258, 170], [300, 170], [303, 105], [640, 105]] },   // the northern Cotentin: closed until the peninsula was cut and VII Corps turned north on 19 June
+  { until: '1944-08-08', line: [[200, 440], [338, 440], [342, 224], [385, 224], [390, 440], [640, 440]] },   // the Falaise road: closed until Totalize opened on 8 August
+  { until: '1944-08-25', north: 1, line: [[0, 440], [80, 440], [84, 105], [640, 105]] },   // Brest: VIII Corps opened its attack on the fortress on 25 August
   { until: '1944-07-25', line: [[200, 206], [270, 206], [290, 207], [301.5, 214], [322.5, 218], [355, 219], [368, 211], [374, 105], [640, 105]] },
   { until: '1944-08-01', line: [[200, 292], [330, 292], [338, 236], [355, 226], [372, 226], [380, 105], [640, 105]] },
   { until: '1944-08-19', north: 1, line: [[200, 105], [373, 105], [376, 222], [640, 222]] },   // the lower Seine and the coast east of the Dives: closed until the Seine was reached at Mantes on 19-20 August (general history, verify). The German Fifteenth Army there is outside the slice
