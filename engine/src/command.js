@@ -5,7 +5,7 @@
 // keeps a reserve when his style calls for it, and passes each child a parallel line of advance, so sister
 // formations do not cross each other's routes. Children then plan their own orders as before.
 // review settings, all starting values for balance testing
-const CMDAI = { spentFrac: .45, spentCoh: .3, stallMin: 180, onObjKm: 1.5, coolMin: 120 };
+const CMDAI = { spentFrac: .45, spentCoh: .3, stallMin: 180, onObjKm: 1.5, coolMin: 120, townBeyondKm: 4, riverBeyondKm: 3 };
 function attachCommand(S) {
   const nodes = []; S.commands = nodes; const sc = S.sc;
   const segOf = (line, a, b) => {           // the part of polyline `line` between distances a and b
@@ -42,10 +42,17 @@ function attachCommand(S) {
     // towns on the objective (urban module): the stretches of the line that lie in the built-up area of an enemy-held town
     const armd = n => !n.forms && n.subs && (() => { const us = n.subs.filter(u => !u.dead && LEADCLS[u.cls]); return us.length > 0 && us.filter(u => u.cls === 'arm').length * 3 >= us.length; })();   // an armored division: a third or more of its leading battalions are tanks, the map symbol's own test
     const towns = []; let townN = null; if (S.urban && S.townAt) { let open = null; for (let d = 0; d <= L; d += .5) { const q = polyAt(ln, d), v = S.townAt(q.x, q.y), hit = v && v.own !== C.s; if (hit) { townN = townN || v.n; if (open == null) open = d; } if ((!hit || d + .5 > L) && open != null) { towns.push([Math.max(0, open - .5), Math.min(L, d + (hit ? .5 : 0))]); open = null; } } }
+    // a town a short way beyond the objective line, and a river on the way with no bridge in our hands (fix A1): both are infantry work as well
+    let river = false, beyond = null;
+    if (S.urban && S.townAt && !towns.length) for (let d = 0; d <= L && !beyond; d += .5) { const q = polyAt(ln, d); for (let k = 1; k <= CMDAI.townBeyondKm; k++) { const v = S.townAt(q.x + ax * k, q.y + ay * k); if (v && v.own !== C.s) { beyond = v.n; break; } } }
+    { const rt = [p0].concat((path || []).filter(q => q), [[mid.x, mid.y], [mid.x + ax * CMDAI.riverBeyondKm, mid.y + ay * CMDAI.riverBeyondKm]]); const T_RIVER = 13;
+      for (let i = 1; i < rt.length && !river; i++) { const a = rt[i - 1], b = rt[i], l = Math.hypot(b[0] - a[0], b[1] - a[1]), n = Math.max(1, Math.ceil(l / .4));
+        for (let k = 0; k <= n; k++) { const x = a[0] + (b[0] - a[0]) * k / n, y = a[1] + (b[1] - a[1]) * k / n; if (x < 0 || y < 0 || x >= S.map.w || y >= S.map.h || S.map.t[S.map.idx(x, y)] !== T_RIVER) continue;
+          if (!S.map.bridges.some(br => br.intact && !br.gone && Math.hypot(br.x - x, br.y - y) < 2.5 && S.ownAt(br.x, br.y) === C.s)) river = true; break; } } }
     let note = '';
-    if (towns.length && opt.reserve !== false && at.length >= 3 && at.filter(o => !armd(o.c)).length >= 2 && at.some(o => armd(o.c))) {
+    if ((towns.length || beyond || river) && opt.reserve !== false && at.length >= 3 && at.filter(o => !armd(o.c)).length >= 2 && at.some(o => armd(o.c))) {
       // a town fight is infantry work: the armored division waits in reserve, whatever its place in the line
-      let ri = -1, bw = 1e9; at.forEach((o, i) => { if (armd(o.c) && weight(o.c) < bw) { bw = weight(o.c); ri = i; } }); reserve = at.splice(ri, 1)[0]; note = reserve.c.n + ' is held in reserve: ' + townN + ' is infantry work.';
+      let ri = -1, bw = 1e9; at.forEach((o, i) => { if (armd(o.c) && weight(o.c) < bw) { bw = weight(o.c); ri = i; } }); reserve = at.splice(ri, 1)[0]; note = reserve.c.n + (towns.length || beyond ? ' is held in reserve: ' + (townN || beyond) + ' is infantry work.' : ' is held in reserve until the infantry has a bridgehead over the river.');
     } else if (opt.reserve !== false && at.length >= 3 && (opt.reserve === true || ag < .65)) {
       let ri = 0, bw = 1e9; at.forEach((o, i) => { const w = weight(o.c); if (i > 0 && i < at.length - 1 && w < bw) { bw = w; ri = i; } }); if (!ri) ri = Math.floor(at.length / 2);
       reserve = at.splice(ri, 1)[0];
