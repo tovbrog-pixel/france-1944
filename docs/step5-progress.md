@@ -362,3 +362,23 @@ Read in the OCR texts in `sources/archive`. The OCR drops most page headers, so 
 | End points and exact course of each sector line; leaving the 709th's north coast unmanned | Claude's placement | Inference |
 | Batches 9 to 11 | `docs/tests/batch-20261124-0601-batch9-commander2-phases.md`, `-0830-batch10-replacements.md`, `-1102-batch11-engine-fixes.md` and their run files | Sourced |
 | Caen entered and re-lost | The `took` and `held` dates in the 60 run files | Sourced; that one battalion can flip the town is read from the capture code (sourced), and that this explains the late dates is an inference |
+
+## Source checks made on 24 November
+
+Read in the OCR texts in `sources/archive`. Page numbers come from the nearest legible page marker and may be one page off.
+
+| Item in the game | What the source says | Source | Status |
+| --- | --- | --- | --- |
+| Carentan, 12 June | Map title: "Battle for Carentan and Junction of the Beachheads, 8-12 June 1944" | Harrison, map XVI | Sourced |
+| Saint-Lô, 18 July | Map title: "The Battle of St. Lo, 11-18 July 1944". Ellis: on the 18th "the first American troops were entering St. Lô" and on the 19th the town was fully occupied | Blumenson, map III; Ellis vol. I p. 348 | Sourced |
+| Coutances, 28 July | 4th Armored Division troops "worked through the night of 28 July to clear the scattered enemy troops in Coutances" | Blumenson p. 315 | Sourced |
+| Le Mans, 8 August | The 79th Division "reached the center of le Mans, by 1700 on 8 August"; the 90th entered next morning | Blumenson pp. 437-438 | Sourced |
+| Chartres, 18 August | CCB, 7th Armored Division, reached the outskirts on the evening of 15 August and attacked on the 16th and 17th; the 11th Infantry attacked on 18 August | Blumenson pp. 570-571 | Sourced for the fighting of 15 to 18 August; the hour the town was clear was not read |
+| Falaise, 17 August | Map title: "Capture of Falaise, 7th to 16th August" | Ellis vol. I, list of maps | The source gives 16 August; the game uses the 17th, when the town was clear (general history). Left unchanged and flagged |
+| Falaise road opens 8 August | The same map title starts the operation on 7 August; Totalize opened that night | Ellis vol. I, list of maps; index pp. 419-432 | Sourced; the game's 8 August is the first full day (inference) |
+| Mortain counterattack, night of 6/7 August | The panzer divisions were "assembled in the area east of Mortain by 6 August"; map title "German Counterattack at Mortain, 7 August 1944" | Blumenson p. 423 and map X | Sourced |
+| Paris opens 22 August | Gerow "telephoned Leclerc on the evening of 22 August and told him to start marching immediately" | Blumenson p. 607 | Sourced |
+| Cherbourg port opens 456 hours after capture | The port "could not begin operations until 16 July, a full three weeks after its capture" | Ruppenthal vol. I p. 464 | Sourced; 26-27 June to 16 July is 19 to 20 days, and the game uses 19 |
+| Rouen, 30 August | Not found in the OCR of Ellis vol. I | | Still to verify |
+
+Still unverified after this pass: Rouen; naval forces by beach; the AGRA and armoured brigade dates; 13 German arrival dates; the British replacement rate; the Tennessee maneuver dates; armored infantry crossing practice.

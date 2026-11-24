@@ -68,7 +68,7 @@ const PHASES = [{ until: '1944-07-03', line: [[200, 206], [270, 206], [290, 200]
   { until: '1944-07-25', line: [[200, 206], [270, 206], [290, 207], [301.5, 214], [322.5, 218], [355, 219], [368, 211], [374, 105], [640, 105]] },
   { until: '1944-08-01', line: [[200, 292], [330, 292], [338, 236], [355, 226], [372, 226], [380, 105], [640, 105]] },
   { until: '1944-08-19', north: 1, line: [[200, 105], [373, 105], [376, 222], [640, 222]] },   // the lower Seine and the coast east of the Dives: closed until the Seine was reached at Mantes on 19-20 August (general history, verify). The German Fifteenth Army there is outside the slice
-  { until: '1944-08-22', line: [[200, 440], [526, 440], [530, 105], [640, 105]] }];   // Paris and the ground east of it: closed until the advance on the city was ordered on 22 August (Blumenson ch. XXIX, verify the page)   // east of the Dives the coast stays shut: Le Havre and the Seine ports fell in September
+  { until: '1944-08-22', line: [[200, 440], [526, 440], [530, 105], [640, 105]] }];   // Paris and the ground east of it: closed until the advance on the city was ordered on 22 August (Blumenson p. 607: Gerow told Leclerc that evening to start marching)   // east of the Dives the coast stays shut: Le Havre and the Seine ports fell in September
 // fighting quality (game setting, inference): veteran and green divisions by their 1944 record in general history
 const XP = { 'us-1id': 1.05, 'us-9id': 1.05, 'us-82ab': 1.1, 'us-101ab': 1.05, 'us-2ad': 1.05, 'uk-7ad': 1, 'uk-50id': 1, 'uk-51id': 1, 'uk-6ab': 1.05,
   'ge-1st-ss-panzer': 1.15, 'ge-2nd-ss-panzer': 1.1, 'ge-9th-ss-panzer': 1.1, 'ge-10th-ss-panzer': 1.1, 'ge-12th-ss-panzer': 1.15, 'ge-panzer-lehr': 1.15, 'ge-2nd-panzer': 1.1,
@@ -166,7 +166,7 @@ function makeOverlord(cs) {
   const gSrc = [['Paris depots (OB West)', [545, 250]], ['Rouen', [432, 172]], ['Alencon', [415, 290]], ['Le Mans', [410, 345]], ['Rennes', [270, 330]], ['Brest', [50, 272]]]
     .map(([n, xy]) => { const q = clampIn(W(xy[0], xy[1])); return { n, x: q[0], y: q[1], stock: 60, rate: 2 }; });
   // Cherbourg opens after it is held and cleared: first discharge about 16 July after capture on 26-27 June (general history,
-  // verify against Ruppenthal ch. XI); 456 hours of clearing.
+  // Ruppenthal I p. 464: the port could not begin operations until 16 July, three weeks after its capture); 456 hours of clearing.
   const cb = vp.find(v => v[0] === 'Cherbourg');
   const ports = cb ? [{ vp: 'Cherbourg', s: 0, n: 'Cherbourg port', x: cb[1], y: cb[2], rate: 5, stock: 50, clear: 456 }] : [];
 
@@ -239,7 +239,8 @@ function makeOverlord(cs) {
 }
 // historical capture dates for the AI-vs-AI comparison. Sourced from Blumenson, Breakout and Pursuit (pages from the OCR running heads,
 // one or two off): Cherbourg p. 37, Avranches p. 316, Rennes p. 355, Nantes p. 367, Orléans p. 566, Paris p. 589, Brest (garrison) p. 651.
-// The rest are general history, to verify: Carentan, Caen, St-Lô, Coutances, Le Mans, Falaise, Chartres, Rouen.
+// Checked on 24 November 2026: Carentan (Harrison map XVI), Caen (Ellis I, map 'British attack 8th and 9th July'), St-Lo (Blumenson map III; Ellis I p. 348),
+// Coutances (Blumenson p. 315), Le Mans (Blumenson pp. 437-438), Chartres (Blumenson pp. 570-571). Ellis's map gives Falaise as 16 August; the 17th is kept as the day the town was clear. Rouen is still to verify.
 const MILESTONES = [['Carentan', '1944-06-12'], ['Cherbourg', '1944-06-26'], ['Caen', '1944-07-09'], ['Saint-Lô', '1944-07-18'], ['Coutances', '1944-07-28'], ['Avranches', '1944-07-30'],
   ['Rennes', '1944-08-04'], ['Le Mans', '1944-08-08'], ['Nantes', '1944-08-12'], ['Orléans', '1944-08-16'], ['Falaise', '1944-08-17'], ['Chartres', '1944-08-18'], ['Paris', '1944-08-25'], ['Rouen', '1944-08-30'], ['Brest', '1944-09-18']];
 module.exports = makeOverlord; module.exports.MILESTONES = MILESTONES; module.exports.WIN = WIN; module.exports.START = START;
