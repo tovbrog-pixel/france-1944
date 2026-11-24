@@ -179,6 +179,10 @@ A single run with these changes (`docs/tests/batch-20261123-1728-batch4-join.md`
 
 Carentan flips on 6 June in every run, six days early, because the 101st Airborne lands beside it and the German 6th Parachute Regiment is missing from the order of battle. This is still open.
 
+**Batch 6** (20 seeds, read from the game logs into `docs/tests/batch6-phases-from-logs.md`): Caen was held from a median date of 12 July (history 9 July; batch 5 gave 19 August) and St-Lô from 29 July (18 July). Avranches fell on 1 August and Rennes on 7 August in 18 of 20 runs. Le Mans fell in 6 of 20 runs, Orléans in 5 and Chartres in 5; batch 5 had none. No run reached Paris, and the early marches to Paris and Fécamp are gone. Median losses were 259 Allied and 381 German battalion-equivalents.
+
+Still off after batch 6: Falaise falls 13 days early, Cherbourg 10 days early and Carentan on D-Day; St-Lô is 11 days late; the pursuit after 10 August is too slow for Paris. Batch 7 (label `batch7-theater`) adds the German theater commander and was running when this was written.
+
 ## German theater commander
 
 `engine/src/theater.js` gives the computer's side a high command (OB West in Overlord). Tov asked for it after learning that every German operational move was scripted. The scenario's historical destinations are now the commander's default plan, and he departs from it when the battle does:
@@ -249,3 +253,4 @@ The hand list Claude wrote overnight agreed with INSEE on 31 of 35 names it shar
 | Two-week replay with the commander | `/tmp/th-run.js`, seed 104, 330 game hours, in Claude's workspace | Sourced (test run) |
 | Sixteen-day delay before the general withdrawal | Blumenson p. 527 for 16 August; Avranches 30 to 31 July from Blumenson p. 316 | Sourced dates; the delay as a rule is an inference |
 | Railway and train display | Screenshots in `docs/screenshots/`; test train placed by script | Sourced (test run); a real rail move on screen is still to be seen |
+| Batch 6 results | 20 game logs of GitHub Actions run 45262652917, summarised with `tools/batch-summary.js` | Sourced |
