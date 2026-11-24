@@ -346,6 +346,8 @@ Design note: `docs/design/town-and-city-fighting.md`. Tov set the rules (a unit 
 - An armored division ordered alone into an enemy-held town says so and obeys.
 - A corps commander whose objective crosses an enemy-held town holds his armored division in reserve, or moves the boundary so infantry takes the town.
 
+On 24 November Tov asked for the doctrine module and the town rules in the Tennessee tutorial as well. `tutorial-tn` now loads `doctrine` (development at 4 km) and `urban` (a town needs two built-up cells), and its baseline was recorded again. In a test (seed 7) a II Corps order across Hartsville put both infantry divisions forward and the 1st Armored Division in reserve, with the report "Hartsville is infantry work"; Blue held Hartsville after 48 hours. The narration does not yet mention these rules.
+
 Tests: the corps rules and the general's warning were checked on the tutorial corps with the module switched on for the test; a 17-day Overlord game (seed 104) ran without error; the page check passes with eight modules. No Overlord corps had three divisions and an armored one ashore by 22 June, so the corps rules have not yet fired in a campaign game. In that game Saint-Lô, La Haye-du-Puits and Périers were Allied by 22 June, weeks early; batch 12 will show whether the coastal sectors cause that. Batch 15 runs this module with doctrine off, for comparison with batch 14.
 
 ## Source checks made on 23 November
