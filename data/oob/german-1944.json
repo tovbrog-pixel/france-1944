@@ -1691,6 +1691,39 @@
      "harrison"
     ]
    }
+  },
+  {
+   "id": "ge-fjr6",
+   "name": "6th Parachute Regiment",
+   "tpl": "ge_fj",
+   "cmd": "Maj. Friedrich-August von der Heydte",
+   "status": "sourced",
+   "src": [
+    "harrison"
+   ],
+   "note": "An independent regiment of the 2nd Parachute Division attached in the Cotentin: 3,457 men in fifteen companies (Harrison p. 239). The game gives it three battalions and none of the division's artillery or troops.",
+   "position0606": {
+    "xy": [
+     293.78,
+     190.0
+    ],
+    "note": "Command post north of Périers when the landings began; on 6 June the regiment moved up through Carentan to Saint-Côme-du-Mont and its 3rd Battalion returned to Carentan (Harrison pp. 297-298). Placed at Carentan, which it defended until it pulled out before dark on 11 June (Harrison p. 364).",
+    "src": [
+     "harrison"
+    ],
+    "status": "inference"
+   },
+   "arrive": {
+    "date": "1944-06-06",
+    "status": "sourced",
+    "note": "In the Carentan area on D-Day",
+    "cite": [
+     "harrison p. 297"
+    ],
+    "src": [
+     "harrison"
+    ]
+   }
   }
  ],
  "notes": [

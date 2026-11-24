@@ -79,6 +79,9 @@ function kampfgruppe(f) { const keep = [], regs = []; const take = (R, n) => { c
   const man = f.regs.filter(R => R.role === 'man'), art = f.regs.find(R => R.role === 'arty'), tr = f.regs.find(R => R.role === 'troops');
   if (man[0]) take(man[0], 9); if (man[1]) take(man[1], 1); if (art) take(art, 1); if (tr) regs.push({ n: tr.n, role: tr.role, idx: tr.idx.filter(i => /Pionier/.test(f.sub[i])).map(i => { keep.push(f.sub[i]); return keep.length - 1; }) });
   f.sub = keep; f.regs = regs.filter(R => R.idx.length); f.n = f.n + ' (Kampfgruppe)'; return f; }
+// an independent regiment in the order of battle: one infantry regiment of the template, under its own number
+const REGT = { 'ge-fjr6': '6' };
+function regiment(f) { const R = f.regs.find(R => R.role === 'man'); f.sub = R.idx.map(i => f.sub[i]); f.regs = [{ n: R.n, role: R.role, idx: f.sub.map((x, i) => i) }]; return f; }
 const GSTAY = /^ge-(2nd-parachute|343rd)$/;   // the Brest garrison stays in the fortress (Blumenson; arrival notes)
 // follow-up divisions land over the beach of the corps they joined (inference: the sources give the date, not the beach)
 const US_UTAH = /^(VII|VIII|XV|XX|XII)$/;
@@ -116,12 +119,12 @@ function makeOverlord(cs) {
     const p0 = d.position0606 && d.position0606.xy, a = d.arrive || {};
     if (!p0 && !(a.date && a.entry)) { log.push([d.id, 'German', 'not in the slice', '-']); continue; }
     if (a.date && a.date >= END.slice(0, 10)) continue;
-    const regs = ['1', '2', '3'], cmd = d.cmd || 'Kommandeur';
+    const regs = REGT[d.id] ? [REGT[d.id], REGT[d.id], REGT[d.id]] : ['1', '2', '3'], cmd = d.cmd || 'Kommandeur';
     if (p0) {
       const [x, y] = clampIn(W(p0[0], p0[1])), dest = GDEST[d.id] && Q[GDEST[d.id]], fr = Math.max(0, a.date ? hrs(a.date, 12) - (dest ? marchH(d.tpl, p0, dest) : 0) : 0);
-      const f = divForm({ tpl: d.tpl, s: 1, n: d.name, cmd, ag: .5, sk: .65, xp: xpOf(d), regs, x, y }); f.gid = d.id; if (KG.test(d.id)) kampfgruppe(f);
-      const coast = d.tpl === 'ge_inf' && (!a.date || a.date <= '1944-06-06');
-      if (coast) { f.line = [[x - 5, y], [x + 5, y]]; f.dug = 1; f.free = 0; } else f.free = fr;
+      const f = divForm({ tpl: d.tpl, s: 1, n: d.name, cmd, ag: .5, sk: .65, xp: xpOf(d), regs, x, y }); f.gid = d.id; if (KG.test(d.id)) kampfgruppe(f); if (REGT[d.id]) regiment(f);
+      const coast = (d.tpl === 'ge_inf' || REGT[d.id]) && (!a.date || a.date <= '1944-06-06');
+      if (coast) { const hw = REGT[d.id] ? 1.2 : 5; f.line = [[x - hw, y], [x + hw, y]]; f.dug = 1; f.free = 0; }   // a regiment holds its town; a division holds ten kilometres else f.free = fr;
       if (GDEST[d.id]) { thPlan.push({ f: d.name, sec: GDEST[d.id], t: Math.max(.5, fr) }); f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); f.stayMinStr = .45; }
       if (coast) { f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); f.stayMinStr = .45; }
       if (GFALL[d.id]) { const q = GFALL[d.id]; thPlan.push({ f: d.name, sec: q.at, t: hrs(q.date, q.h) }); }

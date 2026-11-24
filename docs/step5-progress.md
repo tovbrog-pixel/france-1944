@@ -177,7 +177,7 @@ A single run with these changes (`docs/tests/batch-20261123-1728-batch4-join.md`
 3. *Paris and Rouen reached in early August in some runs.* The German Fifteenth Army is outside the slice, so the lower Seine stood empty. Two more phase lines close the lower Seine until 19 August and Paris until 22 August.
 4. *Third Army too slow after Avranches.* The army AI ordered each corps 32 km at most, once a day, and waited 48 hours on an attack. A scenario can now set pursuit values; Third Army reaches 90 km, plans every 12 hours and waits 24.
 
-Carentan flips on 6 June in every run, six days early, because the 101st Airborne lands beside it and the German 6th Parachute Regiment is missing from the order of battle. This is still open.
+Carentan flipped on 6 June in every run, six days early, because the 101st Airborne landed beside it and the German 6th Parachute Regiment was missing from the order of battle. The regiment is now in `data/oob/german-1944.json` (Maj. von der Heydte, three battalions) and holds a 2.4 km line on the town. In six test seeds Carentan stayed German through the first 72 hours; in one eight-day run it fell on 13 June (history 12 June).
 
 **Batch 6** (20 seeds, read from the game logs into `docs/tests/batch6-phases-from-logs.md`): Caen was held from a median date of 12 July (history 9 July; batch 5 gave 19 August) and St-Lô from 29 July (18 July). Avranches fell on 1 August and Rennes on 7 August in 18 of 20 runs. Le Mans fell in 6 of 20 runs, Orléans in 5 and Chartres in 5; batch 5 had none. No run reached Paris, and the early marches to Paris and Fécamp are gone. Median losses were 259 Allied and 381 German battalion-equivalents.
 
@@ -206,7 +206,8 @@ He acts only on a side the computer plays. A replay of the first two weeks (seed
 
 - Railways now draw on the map as a ballast bed, sleepers and two rails (`engine/src/render.js`). They were not drawn before.
 - A division moving by rail shows as a locomotive with a rake of troop cars that follows the track, with smoke while it runs and a label while it entrains or detrains. Divisions moving by road show as a string of vehicles or marching files (`engine/src/render3.js`, fed by `S.columnView` in `transport.js`). Tov asked for the tracks and the train.
-- Screenshots: `docs/screenshots/step5-train-near.png` and `step5-train-mid.png`. They show a test train placed on a real line, because no division happened to be on a train in the first days of the run.
+- Screenshots: `docs/screenshots/step5-train-near.png` and `step5-train-mid.png`. They show a real move: the 5th Parachute Division, ordered from Brittany to Paris, 95 km along a 409 km rail route near Évron. In an ordinary game the German divisions mostly march or drive; of 23 divisions ordered on a long move at the start, two chose rail.
+- Armored and motorized infantry can make an assault crossing: they leave their vehicles on the near bank, cross in the boats and fight on foot until a bridge is in. Tov found that the tutorial's armored division had no crossing button.
 
 ## Town names
 
@@ -263,3 +264,7 @@ The hand list Claude wrote overnight agreed with INSEE on 31 of 35 names it shar
 | Batch 6 results | 20 game logs of GitHub Actions run 45262652917, summarised with `tools/batch-summary.js` | Sourced |
 | Player commands the Allies only | Tov, 23 November ("go") | Sourced (owner decision) |
 | Commander abilities 6 to 9 | `engine/src/theater.js`; a 17-day replay (seed 104) ran without error and showed none of the new events, so relief, counterattack and blocking are untested in play | Inference (design); the test gap is stated |
+| 6th Parachute Regiment: strength, commander, D-Day moves, withdrawal on 11 June | Harrison, Cross-Channel Attack, pp. 239, 297-298, 364 (OCR text in `sources/archive`; page numbers read from the OCR page markers) | Sourced; start position at Carentan is an inference |
+| Carentan test | Six seeds, 72 game hours each, and one run of 200 hours (seed 104) | Sourced (test runs) |
+| Real rail move on screen | Headless browser run: 5th Parachute Division ordered to Paris | Sourced (test run) |
+| Dismounted crossing by armored infantry | General practice | Inference, to verify against FM 17-42 |
