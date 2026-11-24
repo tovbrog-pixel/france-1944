@@ -16,7 +16,8 @@ const d1 = F('1st Infantry Division'), d2 = F('2nd Infantry Division'), d3 = F('
 const p1 = [cen(d1), [8.5, 17], [12, 11], [15.5, 6.6]].concat(mode === 'north' ? [[16.6, 5.2], [17.2, 3.1]] : [[15.9, 6.2]]);
 S.issueOrder(d1, p1, lineAt(d1, p1), { then: 'hold', press: 0 });
 // step 8
-const p2 = [cen(d2), [20.8, 35.3], [30, 31], [37.2, 20.2]];
+const CORPS = process.env.CORPS || 'town', FOLLOW = process.env.FOLLOW !== '0';   // CORPS=town ends the corps line in Carthage; FOLLOW=0 leaves out the step 7 follow-up (the armor west to Dixon Springs once Carthage is ours)
+const p2 = [cen(d2), [20.8, 35.3], [30, 31]].concat(CORPS === 'town' ? [[37.6, 19.6], [36.9, 18.3]] : [[37.2, 20.2]]);
 S.issueCommandOrder(d2.parent, p2, lineAt(d2, p2), { then: 'hold' });
 // step 10
 const pool = S.pool[0], gun = pool.findIndex(it => /155/.test(it.n)), eng = pool.findIndex(it => /Engineer/.test(it.n));
@@ -29,6 +30,9 @@ let g = 0, carthage = null, contact = null, li = 0; const curve = [];
 while (!S.over && g < hours * 60) { S.advance(30); g += 30;
   if (g % 60 === 0 && g <= 360) curve.push(pct(d1.stock / d1.cap));
   if (carthage == null && S.vp.find(v => v.n === 'Carthage').own === 0) carthage = g / 60;
+  const brg = S.map.bridges.find(b => /Cordell/.test(b.name));
+  if (FOLLOW && carthage != null && !a1.west && !a1.dead && brg.intact && S.ownAt(brg.x, brg.y) === 0 && g / 60 >= carthage + 1) { a1.west = 1; const pw = [cen(a1), [38.5, 22], [37.6, 19.6], [36.9, 18.3], [34, 12], [32.4, 8], [27.9, 7.4]];
+    if (process.env.FOLLOW === 'corps') S.issueCommandOrder(d2.parent, pw.slice(2), lineAt(d2, pw), { then: 'hold' }); else { S.leaveCorpsOrder(a1); S.issueOrder(a1, pw, lineAt(a1, pw), { then: 'hold' }); } console.log('follow-up order at hour', g / 60); }
   for (; li < S.log.length; li++) { const l = S.log[li]; if (contact == null && l.who === d1.n && /contact|engag|attack|fire|enemy/i.test(l.txt) && l.t > 0) contact = { h: l.t / 60, txt: l.txt }; if (showLog && l.s === 0) console.log(S.clock(l.t).slice(-8), (l.who || '').padEnd(30), l.txt); }
 }
 const score = S.score();
