@@ -193,6 +193,13 @@ Still off after batch 6: Falaise falls 13 days early, Cherbourg 10 days early an
 4. A division with the enemy behind it in strength steps back 10 km and re-forms its line.
 5. When eight or more enemy battalions stand 35 km beyond the front, the line is turned. Sixteen days later he orders a general withdrawal to the Seine. The fixed withdrawal date of 16 August is gone: Avranches fell on 30 to 31 July and the order came on 16 August (Blumenson p. 527), so the delay stands in for Hitler's refusal.
 
+On 23 November Tov decided that the player commands the Allies only and that the German commander must be strong enough to give a fight. The campaign menu now offers the Allied side and the observer seat (`playerSides`). The commander gained four abilities:
+
+6. An infantry division arriving in a sector that a mobile division holds takes over the line, and the mobile division goes into reserve.
+7. A rested reserve counterattacks an objective that fell in the last 72 hours, when the enemy there is weaker than the division.
+8. When enemy troops are loose behind the front, he sends a reserve, or a mobile division from a quiet sector, to block the next town on their road.
+9. He knows only what his troops have seen in the last 48 hours, and he counts an enemy-held town near a sector as pressure on it.
+
 He acts only on a side the computer plays. A replay of the first two weeks (seed 104) kept eight of nine committed divisions in their historical sectors; 2nd Panzer waited in reserve behind Caumont for three days and was then committed east of the Orne. All thresholds are game settings in `THEATER` and need calibration by batch.
 
 ## Railways and trains
@@ -254,3 +261,5 @@ The hand list Claude wrote overnight agreed with INSEE on 31 of 35 names it shar
 | Sixteen-day delay before the general withdrawal | Blumenson p. 527 for 16 August; Avranches 30 to 31 July from Blumenson p. 316 | Sourced dates; the delay as a rule is an inference |
 | Railway and train display | Screenshots in `docs/screenshots/`; test train placed by script | Sourced (test run); a real rail move on screen is still to be seen |
 | Batch 6 results | 20 game logs of GitHub Actions run 45262652917, summarised with `tools/batch-summary.js` | Sourced |
+| Player commands the Allies only | Tov, 23 November ("go") | Sourced (owner decision) |
+| Commander abilities 6 to 9 | `engine/src/theater.js`; a 17-day replay (seed 104) ran without error and showed none of the new events, so relief, counterattack and blocking are untested in play | Inference (design); the test gap is stated |
