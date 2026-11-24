@@ -9,7 +9,7 @@ on:
       label:
         description: 'Short label for the summary file'
         default: 'overlord'
-      off:
+      disable:
         description: 'Modules to switch off for a test, comma-separated (for example: doctrine). ground = the front-line ground model'
         default: ''
 
@@ -29,7 +29,7 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
       - env:
-          F44_OFF: ${{ inputs.off }}
+          F44_OFF: ${{ inputs.disable }}
         run: mkdir -p results && node tools/scenario-overlord.js 1 ${{ inputs.hours }} ${{ matrix.seed }} results/run-${{ matrix.seed }}.json | tee results/run-${{ matrix.seed }}.log
       - uses: actions/upload-artifact@v4
         with: { name: 'run-${{ matrix.seed }}', path: results/ }
