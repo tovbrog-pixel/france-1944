@@ -148,10 +148,10 @@ function createSim(sc, player, seed, opt) {
   }
   function segX(a, b, c, d) { const rx = b[0] - a[0], ry = b[1] - a[1], sx = d[0] - c[0], sy = d[1] - c[1], den = rx * sy - ry * sx; if (Math.abs(den) < 1e-9) return null; const t = ((c[0] - a[0]) * sy - (c[1] - a[1]) * sx) / den, u = ((c[0] - a[0]) * ry - (c[1] - a[1]) * rx) / den; if (t < 0 || t > 1 || u < 0 || u > 1) return null; return [a[0] + rx * t, a[1] + ry * t, u]; }
   // friendly lines of advance that the path P would cross (ahead of the other formation's present position)
-  S.crossings = function (F, P) {
+  S.crossings = function (F, P, skip) {   // skip: formations whose orders are being replaced by the same corps order (fix A3)
     const out = [];
     for (const G of S.forms) {
-      if (G === F || G.s !== F.s || !G.active || G.dead || !G.order) continue; const O = G.order; if ((O.st !== 'active' && O.st !== 'pending') || O.L < 1.5 || O.prog >= O.L - .5) continue;
+      if (G === F || (skip && skip.has(G)) || G.s !== F.s || !G.active || G.dead || !G.order) continue; const O = G.order; if ((O.st !== 'active' && O.st !== 'pending') || O.L < 1.5 || O.prog >= O.L - .5) continue;
       let acc = 0, hit = null;
       for (let j = 1; j < O.path.length && !hit; j++) { const c = O.path[j - 1], d = O.path[j], l = Math.hypot(d[0] - c[0], d[1] - c[1]); for (let i = 1; i < P.length; i++) { const x = segX(P[i - 1], P[i], c, d); if (!x || acc + x[2] * l < O.prog + .3 || Math.hypot(x[0] - P[0][0], x[1] - P[0][1]) < .8) continue; hit = { G, x: x[0], y: x[1] }; break; } acc += l; }
       if (hit) out.push(hit);
@@ -163,7 +163,7 @@ function createSim(sc, player, seed, opt) {
     const pend = F.order && F.order.st === 'pending', prev = F.order && F.order.st === 'active' && F.order.L > 1, pendLeft = pend ? Math.max(0, F.order.t0 - S.t) : 0;
     const O = mkOrder(F, path, line); let delay = 0; O.then = THEN[opt.then] ? opt.then : null; O.forH = opt.forH > 0 ? +opt.forH : 0; O.ext = opt.ext || 0; O.own = !!opt.own; O.stretch = !!opt.stretch; O.press = opt.press >= 0 && opt.press <= 3 ? opt.press | 0 : 1;
     if (!S.planning && !opt.free) { delay = (25 + 70 * (1 - F.cmd.sk)) * (DOCT[F.nat] || DOCT.US).delay * (prev ? 1.6 : 1) * (F.s === player ? DF.delay : 1) * (1 + (rnd() - .3) * .25 * VR); if (prev) { F.dis = Math.min(1, F.dis + .15); for (const u of alive(F)) u.coh = Math.max(.15, u.coh - .08); } if (F.post === 'reserve') delay *= .5; else if (F.post === 'dig') delay += 20; }
-    const X = S.crossings(F, O.path); O.cross = X; if (X.length) { delay += Math.min(60, 30 * X.length); F.dis = Math.min(1, F.dis + .25); for (const q of X) { q.G.dis = Math.min(1, q.G.dis + .25); q.G.jamT = Math.max(q.G.jamT, S.t + 30); say(F, 'Our line of advance crosses that of ' + q.G.n + ' ' + nearTown(q.x, q.y) + '. Both columns will be delayed and disordered.', 2, q.x, q.y); } }
+    const X = S.crossings(F, O.path, opt.sisters); O.cross = X; if (X.length) { delay += Math.min(60, 30 * X.length); F.dis = Math.min(1, F.dis + .25); for (const q of X) { q.G.dis = Math.min(1, q.G.dis + .25); q.G.jamT = Math.max(q.G.jamT, S.t + 30); say(F, 'Our line of advance crosses that of ' + q.G.n + ' ' + nearTown(q.x, q.y) + '. Both columns will be delayed and disordered.', 2, q.x, q.y); } }
     O.t0 = S.t + delay; F.order = O; F.post = null; F.halt = false; F.assaultT = 0; F.bridge = null; F.needEng = false; F.haltT = 0;
     if (pend && delay) { delay = Math.min(delay, pendLeft + 10); O.t0 = S.t + delay; }
     F.status = delay ? 'Preparing orders (' + Math.round(delay) + ' min)' : 'Orders received';

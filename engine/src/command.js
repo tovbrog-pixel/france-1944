@@ -108,7 +108,9 @@ function attachCommand(S) {
   };
   function release(C) {
     const O = C.order; O.st = 'issued'; const plan = S.planCommandOrder(C, O.path, O.line, O.opt);
-    for (const q of plan) send(q.child, q.path, q.line, O.opt, q.reserve);
+    // sister divisions still on the orders this one replaces do not count as crossed (fix A3)
+    const leafs = n => n.forms ? n.forms.reduce((a, c) => a.concat(leafs(c)), []) : [n], old = new Set(plan.reduce((a, q) => a.concat(leafs(q.child)), []));
+    for (const q of plan) { for (const f of leafs(q.child)) old.delete(f); send(q.child, q.path, q.line, Object.assign({}, O.opt, { sisters: new Set(old) }), q.reserve); }
     O.plan = plan.map(q => ({ child: q.child, path: q.path, line: q.line, reserve: q.reserve, w0: weight(q.child), best: 1e9, tBest: S.t }));
     O.nextReview = S.t + 60; O.lastAct = -1e9; O.why = plan.why || ''; O.whyChild = O.why ? (plan.find(q => q.reserve) || {}).child : null;
     C.status = 'Orders passed to ' + plan.length + (plan.some(q => q.reserve) ? ', one in reserve' : '');
