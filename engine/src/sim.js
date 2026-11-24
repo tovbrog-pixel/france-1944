@@ -450,6 +450,7 @@ function createSim(sc, player, seed, opt) {
     let slots;
     if (O.st === 'active' && O.prog < O.L - .05) {
       let minP = 1e9, maxP = -1e9, nL = 0; for (const u of L) if (u.state !== 'retreat' && u.str >= .3) { const q = polyProj(O.path, u.x, u.y); minP = Math.min(minP, q); maxP = Math.max(maxP, q); nL++; } if (minP > 1e8) { minP = O.prog; maxP = O.prog; }
+      else if (nL >= 4) { const ps = []; for (const u of L) if (u.state !== 'retreat' && u.str >= .3) ps.push(polyProj(O.path, u.x, u.y)); ps.sort((a, b) => a - b); minP = ps[Math.floor(ps.length / 4)]; }   // the advance is paced by the rear quarter of the leading battalions: one or two on a far flank, or beyond a bend in the route, held the whole division at a standstill
       const wide = contact || knownEnemiesNear(F, L, 4.5).length > 0;
       if (!F.halt) O.prog = Math.min(O.L, Math.max(O.prog, wide ? minP + 1.3 : Math.min(maxP + .6, minP + 2.6 + Math.max(0, nL - 1) * .9)));
       if (minP > O.best + .3) { O.best = minP; O.bestT = S.t; if (F.halt && !contact) F.halt = false; }

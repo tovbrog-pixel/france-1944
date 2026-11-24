@@ -480,3 +480,15 @@ Kept clips renumbered: t04_1 to t04_2, t04_2 to t04_3. Until the ten are recorde
 | D1 to D4 | `index.tpl.html` `#tut` rules; `ui.js` `tutDraw`, `hover`; `render3.js` labels, hits | Page test and screenshot at 1600 by 1000; other screen sizes untested |
 | D5 | none | Code |
 | Five-seed results | `tools/tutorial-run.js` | Observed |
+
+### Balance follow-up (24 November 2026, after Tov's go-ahead)
+
+Two causes found and fixed; one trial dropped.
+
+| Change | File | Basis |
+| --- | --- | --- |
+| Red 2nd Division's hold line follows the north bank. Drawn straight it crossed the river twice and nine units stood on one cell at the Hartsville bridge. | `tutorial.js` forms | Observed (unit positions at hour 2) |
+| A division in contact paces its advance by the rear quarter of its leading battalions. Before, the rearmost single battalion set the pace: one battalion on a far flank or behind a bend in the route froze the division. At Carthage the 2nd Infantry and 1st Armored stood at the same progress from hour 12 to hour 48 with the status Assaulting. | `sim.js` formation advance (`minP`) | Observed (progress 17.6 of 23.7 km at hours 12, 24, 40). Port to Sarn Corridor. That this also slows the Overlord pursuit is an inference; batch 19 tests it. |
+| Trial dropped: starting development from the leading battalions or from shellfire. First contact came later (hour 24). | `doctrine.js`, reverted | Observed, three seeds |
+
+Five seeds after both fixes, same plan: 79 Blue 50-30, 7 Blue 50-30, 11 Blue 50-30, 23 Blue 80-0, 101 Blue 60-20. Blue wins five of five. Carthage falls at hour 6.5 to 7.5. The ten narration clips are recorded (58 in all).
