@@ -275,6 +275,22 @@ The hand list Claude wrote overnight agreed with INSEE on 31 of 35 names it shar
 | Batch 7 results | 18 game logs of GitHub Actions run 45275561944 | Sourced; two games were still running |
 | New phase-line dates (3 July, 19 June, 8 August, 25 August) | General history | Verify against Blumenson, Harrison and Ellis |
 
+## Replacements
+
+`engine/src/replace.js` (module `repl`), built on 23 November to the rule in the design document and the five effects Tov approved:
+
+1. Each nation has a pool that fills at a daily rate. A battalion that has been out of fire for 12 hours, with no enemy within 4 km and a supply road open, draws men and regains up to 10 percent strength a day. Destroyed battalions are not rebuilt.
+2. The new men are less experienced, so the battalion's experience becomes the blend of old and new. Its morale base moves with it.
+3. Cohesion dips by half the share of the battalion that is new, and recovers with rest.
+4. A battalion under fire gains experience slowly, to a ceiling of 1.35.
+5. The division card shows Experience (Green, Trained, Experienced, Veteran) and the replacements taken in, and a division reports a day's intake.
+
+Pools in Overlord, in battalion-equivalents of 800 men a day: US 2.8, British and Canadian 1.2, German 0.16. Replacement experience: US 0.85, British 0.9, German 0.8.
+
+Test (seed 104, 15 days): the Allies lost 58 battalion-equivalents and took in 15; the Germans lost 64 and took in 2.4, or 4 percent. The 29th Division, refilled to full strength, fell from experience 0.90 to 0.87. The 21st Panzer Division, never out of the line, stood at 28 percent strength with experience up from 1.00 to 1.10.
+
+Still to do: the player's replacement priority by army, and a batch with replacements in play (batch 10).
+
 ## Source checks made on 23 November
 
 Read in the OCR texts in `sources/archive`. The OCR drops most page headers, so page numbers are given only where a page marker was legible.
@@ -289,3 +305,6 @@ Read in the OCR texts in `sources/archive`. The OCR drops most page headers, so 
 | Lower Seine opens on 19 August | XV Corps "moved easily to Mantes-Gassicourt on 18 August" | Blumenson, Drive to the Seine chapter | Sourced; the game uses 19 August, one day later (inference) |
 | Paris opens on 22 August | Map title: "Liberation of Paris, 23-25 August 1944" | Blumenson, list of maps XIII | Sourced for the 23rd; the order on 22 August is still to verify |
 | Brest opens on 25 August | Map title: "Battle for Brest, 25 August-18 September 1944" | Blumenson, list of maps XIV | Sourced |
+| US replacement rate | More than 200,000 replacements planned for the Continent in the first ninety days | Ruppenthal, Logistical Support of the Armies, vol. I, replacement plan (page near 299-305, to confirm) | Sourced for the plan; actual deliveries not checked |
+| German replacement rate | 5,210 replacements against about 87,000 casualties by mid-July, 6 percent | Blumenson pp. 181-182 | Sourced |
+| British rate, all experience levels, rest and absorption rules | Claude's settings | Inference |

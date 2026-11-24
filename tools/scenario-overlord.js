@@ -218,7 +218,14 @@ function makeOverlord(cs) {
 
   const sc = Object.assign({}, base, m, { id: 'overlord', title: 'Overlord: D-Day to the Seine', sub: 'Normandy and Brittany, 6 June to 1 September 1944', start: START, hours: hrs(END.slice(0, 10), 0),
     ownCell: 1, aiExact: 1, divScale: [22, 70], fieldPlan, commands, cmdPlan, armyAI: { only: ['us-tusa'], from: hrs('1944-08-01', 6), reachKm: 90, cadenceH: 12, waitH: 24, supply: .3 }, detourKm: 14, phaseLines: PHASES.map(q => ({ s: 0, north: q.north, until: hrs(q.until, 6), line: q.line.map(p => W(p[0], p[1])) })), view: { x: 292, y: 86, dist: 95, pitch: 1.35 }, playerSides: [0, -1],   // the player commands the Allies or watches; the German side belongs to the theater commander
-    modules: ['transport', 'air', 'command', 'politics', 'theater'], theater: theaterOf(thPlan), politics: { reviews: [hrs('1944-07-25', 6), hrs('1944-08-22', 6)] }, forest: [], rough: [], marsh: [], bridges: [], vp, ports, beach, weather, sides, forms, front: { all: 1 }, thin: undefined, halt: undefined, mines: undefined,
+    modules: ['transport', 'air', 'command', 'politics', 'theater', 'repl'],
+    // replacements, in battalion-equivalents of 800 men a day:
+    //  US: the plan moved more than 200,000 replacements to the Continent in the first ninety days (Ruppenthal, Logistical Support of the Armies, vol. I, replacement plan), about 2,200 men or 2.8 battalions a day
+    //  German: by mid-July 5,210 replacements had arrived against about 87,000 casualties, 6 percent (Blumenson pp. 181-182), about 130 men a day
+    //  The British rate (which also serves Canadian and Polish divisions) and every experience level are game settings (inference). The French division draws on the US pool
+    repl: { pools: [{ k: 'us', n: 'US replacement system', s: 0, nat: ['US'], perDay: [{ from: 48, n: 2.8 }], xp: .85 },
+      { k: 'cw', n: 'British and Canadian reinforcement groups', s: 0, nat: ['UK'], perDay: [{ from: 48, n: 1.2 }], xp: .9 },
+      { k: 'ge', n: 'Replacement Army drafts', s: 1, perDay: [{ from: 0, n: .16 }], xp: .8 }] }, theater: theaterOf(thPlan), politics: { reviews: [hrs('1944-07-25', 6), hrs('1944-08-22', 6)] }, forest: [], rough: [], marsh: [], bridges: [], vp, ports, beach, weather, sides, forms, front: { all: 1 }, thin: undefined, halt: undefined, mines: undefined,
     brief: ['Land the six assault divisions and three airborne divisions, join the beachheads, take Caen and Cherbourg, break out into Brittany and drive to the Seine.',
       'Throw the landings back while the beachhead is shallow. Hold Caen and the bocage, bring up the panzer divisions, and keep the Allies out of the ports.'],
     hist: 'Historically Caen held until 9 July and Cherbourg fell on 26-27 June. Operation Cobra broke out at St-Lo on 25 July, the Falaise pocket closed on 19-21 August, Paris was liberated on 25 August, and the Allies stood on the Seine by the end of the month.' });
