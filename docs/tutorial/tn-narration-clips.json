@@ -33,7 +33,7 @@
  },
  {
   "id": "t03_0",
-  "text": "Click a Blue division, or a name in the Forces list. The card shows the general, his aggression and skill, and four bars: strength, cohesion, disruption and supply."
+  "text": "Click a Blue division, or a name in the Forces list. The card shows the general, his aggression and skill, and five bars: strength, cohesion, disruption, morale and supply."
  },
  {
   "id": "t03_1",
@@ -41,14 +41,18 @@
  },
  {
   "id": "t04_0",
-  "text": "Select the First Infantry Division at Lebanon. Press Draw line of advance, then drag from the division up the main road, and stop just south of Hartsville bridge. Then press Issue order."
+  "text": "Select the First Infantry Division at Lebanon. Press Draw line of advance, then drag from the division up the main road, over Hartsville bridge, and stop in Hartsville on the north bank. Then press Issue order."
  },
  {
   "id": "t04_1",
-  "text": "The On arrival row tells the general what to do on the objective: hold, dig in, rest, exploit onward, delay, or wait in reserve. Leave it on Hold."
+  "text": "This is the fixing attack, and a fixing attack has to touch the enemy. A division that halts short of the river pins nobody."
  },
  {
   "id": "t04_2",
+  "text": "The On arrival row tells the general what to do on the objective: hold, dig in, rest, exploit onward, delay, or wait in reserve. Leave it on Hold."
+ },
+ {
+  "id": "t04_3",
   "text": "Your line is the axis. General Whitfield picks the routes, puts two regiments forward and one in reserve, and sites his guns."
  },
  {
@@ -81,15 +85,19 @@
  },
  {
   "id": "t07_1",
-  "text": "Select the Second Infantry Division, and press Order the whole corps. Then draw one line of advance from Watertown to the river at Carthage, and issue it."
+  "text": "Select the Second Infantry Division, and press Order the whole corps. Then draw one line of advance from Watertown, over the Cordell Hull bridge, into Carthage, and issue it."
  },
  {
   "id": "t07_2",
-  "text": "General Ames takes about an hour to plan. He splits your objective line among his divisions, and may hold one back as his reserve."
+  "text": "General Ames takes about an hour to plan. He splits your objective line among his divisions, and holds one back as his reserve."
  },
  {
   "id": "t07_3",
-  "text": "Once the attack starts, he commits the reserve where a division stalls. Use a corps order for a broad attack, and a division order for a single task."
+  "text": "A town is infantry work, and so is a river crossing. Carthage stands just across the river, so he sends the two infantry divisions forward, and keeps the armored division back for the exploitation."
+ },
+ {
+  "id": "t07_4",
+  "text": "Once the attack starts, he commits the reserve where a division is worn out. Use a corps order for a broad attack, and a division order for a single task."
  },
  {
   "id": "t08_0",
@@ -105,11 +113,11 @@
  },
  {
   "id": "t09_0",
-  "text": "Open the Support tab. These battalions belong to you until you attach them. Select a division first, then press Attach."
+  "text": "Open the Support tab. These battalions belong to you until you give them to a division. Select a division first. Then press D S, direct support, for an artillery battalion, and Attach for any other."
  },
  {
   "id": "t09_1",
-  "text": "I recommend the heavy artillery battalion to the First Infantry Division, and the engineers to the Second. Hartsville bridge is wired, and Red will probably blow it."
+  "text": "I recommend the heavy artillery battalion in direct support of the First Infantry Division, and the engineers attached to the same division. Hartsville bridge is wired, and Red will probably blow it."
  },
  {
   "id": "t10_0",
@@ -133,7 +141,7 @@
  },
  {
   "id": "t12_0",
-  "text": "Select the Parachute Regiment. It drops at fourteen hundred on the Riddleton road, east of Dixon Springs, to block the Red reserve."
+  "text": "Select the Parachute Regiment. Its lift is planned for fourteen hundred, onto the Riddleton road east of Dixon Springs, to block the Red reserve. Friction usually makes it later. The card shows the hour the staff expects."
  },
  {
   "id": "t12_1",

@@ -29,11 +29,12 @@ console.log('seed', seed, mode, '| 1st Division supply before attachments', pct(
 let g = 0, carthage = null, contact = null, li = 0; const curve = [];
 while (!S.over && g < hours * 60) { S.advance(30); g += 30;
   if (g % 60 === 0 && g <= 720) curve.push(pct(d1.stock / d1.cap));
+  if (contact == null && d1.contact) contact = { h: g / 60, txt: 'in contact ' + d1.status };
   if (carthage == null && S.vp.find(v => v.n === 'Carthage').own === 0) carthage = g / 60;
   const brg = S.map.bridges.find(b => /Cordell/.test(b.name));
   if (FOLLOW && carthage != null && !a1.west && !a1.dead && brg.intact && S.ownAt(brg.x, brg.y) === 0 && g / 60 >= carthage + 1) { a1.west = 1; const pw = [cen(a1), [38.5, 22], [37.6, 19.6], [36.9, 18.3], [34, 12], [32.4, 8], [27.9, 7.4]];
     if (process.env.FOLLOW === 'corps') S.issueCommandOrder(d2.parent, pw.slice(2), lineAt(d2, pw), { then: 'hold' }); else { S.leaveCorpsOrder(a1); S.issueOrder(a1, pw, lineAt(a1, pw), { then: 'hold' }); } console.log('follow-up order at hour', g / 60); }
-  for (; li < S.log.length; li++) { const l = S.log[li]; if (contact == null && l.who === d1.n && /contact|engag|attack|fire|enemy/i.test(l.txt) && l.t > 0) contact = { h: l.t / 60, txt: l.txt }; if (showLog && l.s === 0) console.log(S.clock(l.t).slice(-8), (l.who || '').padEnd(30), l.txt); }
+  for (; li < S.log.length; li++) { const l = S.log[li]; if (showLog && l.s === 0) console.log(S.clock(l.t).slice(-8), (l.who || '').padEnd(30), l.txt); }
 }
 const score = S.score();
 console.log('result: Blue', score[0], 'Red', score[1], '| losses Blue', S.losses[0].toFixed(1), 'Red', S.losses[1].toFixed(1), '| towns:', S.vp.map(v => v.n + '=' + ['Blue', 'Red'][v.own]).join(', '), '| Carthage fell at hour', carthage == null ? 'never' : carthage);
