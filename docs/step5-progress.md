@@ -508,3 +508,16 @@ Tov Binyamin Brog. Source: `docs/engine-fixes-for-france-1944.md` (version 5) an
 | Batch 25 | Queued on GitHub Actions to compare with batch 19 | Pending |
 
 The relief rule of fix 8 (commit the reserve only for a spent or lost division, 24 hours of rest) replaces the relieve-once rule of fix A2.
+
+## Pursuit investigation (25 November 2026)
+
+Tov Binyamin Brog. Two traced games of seed 3 to 20 August, front line on and off (`F44_TRACE`, `F44_TRACE2` in `tools/scenario-overlord.js`).
+
+| Finding | Basis |
+| --- | --- |
+| Supply is cleared as the cause. Mean Allied supply ran 63 to 74 percent in both games, with none to two divisions cut off on any day. My guess that the front line starved the spearheads was wrong. | Observed, daily trace |
+| The Granville objective stood in the sea, 13 km from land on this map. No route reached it from Avranches or Coutances. | Observed (`F44_VP=Granville`) |
+| Third Army's commander sent corps at Granville again and again: 42 corps-readings of 91 with the front on, 73 of 133 with it off, 1 to 19 August. Division statuses read "Awaiting orders" 154 times against "Advancing" 78 (front on). | Observed, twice-daily trace |
+| Fix: sea objectives move to the nearest land within 20 km (Granville 13 km, Fouesnant 1 km); the army commander sets an unreachable objective aside for ten days. | `tools/scenario-overlord.js` `landObjectives`; `command.js` `armyTick`. Port the `armyTick` guard to Sarn Corridor. |
+| Open: why the front line costs the pursuit. With it off, Allied objectives rose from 123 to 175 between 13 and 19 August; with it on, from 108 to 119. Batches 26 (fix) and 27 (fix, front off) retest it without the Granville waste. | Observed; cause unknown |
+| 37 other objectives stand on river cells, 1 km from land. They are captured normally (Rennes, Le Mans). Left alone. | Observed (`F44_VP=sea`) |
