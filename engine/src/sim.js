@@ -148,12 +148,13 @@ function createSim(sc, player, seed, opt) {
   }
   function segX(a, b, c, d) { const rx = b[0] - a[0], ry = b[1] - a[1], sx = d[0] - c[0], sy = d[1] - c[1], den = rx * sy - ry * sx; if (Math.abs(den) < 1e-9) return null; const t = ((c[0] - a[0]) * sy - (c[1] - a[1]) * sx) / den, u = ((c[0] - a[0]) * ry - (c[1] - a[1]) * rx) / den; if (t < 0 || t > 1 || u < 0 || u > 1) return null; return [a[0] + rx * t, a[1] + ry * t, u]; }
   // friendly lines of advance that the path P would cross (ahead of the other formation's present position)
+  const CROSS_COS = Math.cos(35 * Math.PI / 180);   // routes within 35 degrees of the same direction do not count as crossing
   S.crossings = function (F, P, skip) {   // skip: formations whose orders are being replaced by the same corps order (fix A3)
     const out = [];
     for (const G of S.forms) {
       if (G === F || (skip && skip.has(G)) || G.s !== F.s || !G.active || G.dead || !G.order) continue; const O = G.order; if ((O.st !== 'active' && O.st !== 'pending') || O.L < 1.5 || O.prog >= O.L - .5) continue;
       let acc = 0, hit = null;
-      for (let j = 1; j < O.path.length && !hit; j++) { const c = O.path[j - 1], d = O.path[j], l = Math.hypot(d[0] - c[0], d[1] - c[1]); for (let i = 1; i < P.length; i++) { const x = segX(P[i - 1], P[i], c, d); if (!x || acc + x[2] * l < O.prog + .3 || Math.hypot(x[0] - P[0][0], x[1] - P[0][1]) < .8) continue; hit = { G, x: x[0], y: x[1] }; break; } acc += l; }
+      for (let j = 1; j < O.path.length && !hit; j++) { const c = O.path[j - 1], d = O.path[j], l = Math.hypot(d[0] - c[0], d[1] - c[1]); for (let i = 1; i < P.length; i++) { const x = segX(P[i - 1], P[i], c, d); if (!x || acc + x[2] * l < O.prog + .3 || Math.hypot(x[0] - P[0][0], x[1] - P[0][1]) < .8) continue; { const ux = P[i][0] - P[i - 1][0], uy = P[i][1] - P[i - 1][1], vx = d[0] - c[0], vy = d[1] - c[1], uu = Math.hypot(ux, uy) * Math.hypot(vx, vy); if (uu > 0 && (ux * vx + uy * vy) / uu > CROSS_COS) continue; } /* columns on the same road heading the same way follow one another: road sharing slows them, they do not cross */  hit = { G, x: x[0], y: x[1] }; break; } acc += l; }
       if (hit) out.push(hit);
     }
     return out;
@@ -161,7 +162,7 @@ function createSim(sc, player, seed, opt) {
   S.issueOrder = function (F, path, line, opt) {
     opt = opt || {}; if (F.s === player) { const L = line && line.length ? line : path; if (L && L.length) { let mx = 0, my = 0; for (const q of L) { mx += q[0]; my += q[1]; } mx /= L.length; my /= L.length; if (S.haltBlock(F, mx, my)) { say(F, sc.halt.why, 2); F.status = 'Held at the army group boundary'; return 'halt'; } } }
     const pend = F.order && F.order.st === 'pending', prev = F.order && F.order.st === 'active' && F.order.L > 1, pendLeft = pend ? Math.max(0, F.order.t0 - S.t) : 0;
-    const O = mkOrder(F, path, line); let delay = 0; O.then = THEN[opt.then] ? opt.then : null; O.forH = opt.forH > 0 ? +opt.forH : 0; O.ext = opt.ext || 0; O.own = !!opt.own; O.stretch = !!opt.stretch; O.press = opt.press >= 0 && opt.press <= 3 ? opt.press | 0 : 1;
+    const O = mkOrder(F, path, line); let delay = 0; O.then = THEN[opt.then] ? opt.then : null; O.forH = opt.forH > 0 ? +opt.forH : 0; O.ext = opt.ext || 0; O.own = !!opt.own; O.stretch = !!opt.stretch; O.byCmd = !!opt.byCmd; O.press = opt.press >= 0 && opt.press <= 3 ? opt.press | 0 : 1;
     if (!S.planning && !opt.free) { delay = (25 + 70 * (1 - F.cmd.sk)) * (DOCT[F.nat] || DOCT.US).delay * (prev ? 1.6 : 1) * (F.s === player ? DF.delay : 1) * (1 + (rnd() - .3) * .25 * VR); if (prev) { F.dis = Math.min(1, F.dis + .15); for (const u of alive(F)) u.coh = Math.max(.15, u.coh - .08); } if (F.post === 'reserve') delay *= .5; else if (F.post === 'dig') delay += 20; }
     const X = S.crossings(F, O.path, opt.sisters); O.cross = X; if (X.length) { delay += Math.min(60, 30 * X.length); F.dis = Math.min(1, F.dis + .25); for (const q of X) { q.G.dis = Math.min(1, q.G.dis + .25); q.G.jamT = Math.max(q.G.jamT, S.t + 30); say(F, 'Our line of advance crosses that of ' + q.G.n + ' ' + nearTown(q.x, q.y) + '. Both columns will be delayed and disordered.', 2, q.x, q.y); } }
     O.t0 = S.t + delay; F.order = O; F.post = null; F.halt = false; F.assaultT = 0; F.bridge = null; F.needEng = false; F.haltT = 0;
@@ -375,11 +376,11 @@ function createSim(sc, player, seed, opt) {
   }
   function bridging(F, O) {
     const f = polyAt(O.path, Math.min(O.L, O.prog + 2)); const b = nearBridge(f.x, f.y, O);
-    if (!b) { if (aiF(F) && S.t > (F.xTryT || 0)) { F.xTryT = S.t + 360; const X = S.cross(F, f.x, f.y); if (X && typeof X === 'object') { F.status = 'Assault crossing'; O.bestT = S.t; return; } }   // the staff puts the battalions over in boats
+    if (!b) { if ((aiF(F) || O.byCmd) && S.t > (F.xTryT || 0)) { F.xTryT = S.t + 360; const X = S.cross(F, f.x, f.y); if (X && typeof X === 'object') { F.status = 'Assault crossing'; O.bestT = S.t; return; } }   // the staff puts the battalions over in boats
       if (S.t > F.msgT) { const m = polyAt(O.line, polyLen(O.line) / 2), n = Math.max(1, Math.ceil(Math.hypot(m.x - F.cx, m.y - F.cy) / .4)); let riv = false; for (let k = 0; k <= n && !riv; k++) riv = map.t[map.idx(F.cx + (m.x - F.cx) * k / n, F.cy + (m.y - F.cy) * k / n)] === T.RIVER;   // say what bars the way (fix A6)
         say(F, 'No route forward from ' + nearTown(F.cx, F.cy) + (riv ? ': the river bars the way and no bridge on our route is open. Draw the line over a bridge we hold, or order an assault crossing.' : ': no passable road or ground leads to the objective.'), 2); F.msgT = S.t + 720; } O.bestT = S.t; F.status = 'Halted: no route'; return; }
     const eng = field(F).find(u => u.cls === 'eng');
-    if (!eng && aiF(F) && S.t > (F.xTryT || 0)) { F.xTryT = S.t + 360; const X = S.cross(F, b.x, b.y); if (X && typeof X === 'object') { F.status = 'Assault crossing'; O.bestT = S.t; return; } }   // no engineers: the staff tries the boats
+    if (!eng && (aiF(F) || O.byCmd) && S.t > (F.xTryT || 0)) { F.xTryT = S.t + 360; const X = S.cross(F, b.x, b.y); if (X && typeof X === 'object') { F.status = 'Assault crossing'; O.bestT = S.t; return; } }   // no engineers: the staff tries the boats
     if (!eng) { F.needEng = true; F.status = 'Halted: ' + b.name + ' is down'; if (S.t > F.msgT) { say(F, 'The ' + b.name + ' is down. We need engineers attached to bridge it.', 2, b.x, b.y); F.msgT = S.t + 720; } return; }
     if (F.bridge !== b) say(F, 'Engineers moving up to bridge the gap at the ' + b.name + '.', 1, b.x, b.y);
     F.bridge = b; F.status = 'Bridging at ' + b.name; O.bestT = S.t;
@@ -674,17 +675,25 @@ function createSim(sc, player, seed, opt) {
     // computer staffs ask for drops for cut-off formations short of supply
     for (let s = 0; s < 2; s++) if (S.ai[s] && S.lift[s].left >= 1) { const F = S.forms.find(G => G.s === s && G.active && !G.dead && G.isolated && G.stock < G.cap * .3 && !S.dropQ[s].some(q => q.F === G)); if (F) { const h = F.hq && !F.hq.dead ? F.hq : { x: F.cx, y: F.cy }; S.reqDrop(s, F, h.x, h.y); } }
   }
+  // reachable regions for supply columns (truck moves, this side's block mask), labelled at most once per supply tick per side when a column is planned
+  const CC = [{ t: -1, lab: null }, { t: -1, lab: null }], colComp = s => { const q = CC[s]; if (q.t !== S.t) { q.lab = map.compLabel(1, S.zoc[s], q.lab); q.t = S.t; } return q.lab; };
   function supplyTick() {
     moraleTick(); dropTick();
-    for (let s = 0; s < 2; s++) { const z = S.zoc[s]; z.fill(0); for (let j = 0; j < map.H; j++) for (let i = 0; i < map.W; i++) if (S.ownAt((i + .5) * map.cs, (j + .5) * map.cs) !== s) z[j * map.W + i] = 1; const r = Math.ceil(1.2 / map.cs); for (const e of S.subs) if (e.s !== s && e.active && !e.dead && e.cls !== 'hq' && e.cls !== 'art' && e.coh > .2) { const ci = Math.floor(e.x / map.cs), cj = Math.floor(e.y / map.cs); for (let dj = -r; dj <= r; dj++) for (let di = -r; di <= r; di++) { const i = ci + di, j = cj + dj; if (i >= 0 && j >= 0 && i < map.W && j < map.H && di * di + dj * dj <= r * r) z[j * map.W + i] = 1; } } }
+    const M = m2o(), OA = OW.a; for (let s = 0; s < 2; s++) { const z = S.zoc[s]; z.fill(0); for (let c = 0; c < map.N; c++) if (OA[M[c]] !== s) z[c] = 1; const r = Math.ceil(1.2 / map.cs); for (const e of S.subs) if (e.s !== s && e.active && !e.dead && e.cls !== 'hq' && e.cls !== 'art' && e.coh > .2) { const ci = Math.floor(e.x / map.cs), cj = Math.floor(e.y / map.cs); for (let dj = -r; dj <= r; dj++) for (let di = -r; di <= r; di++) { const i = ci + di, j = cj + dj; if (i >= 0 && j >= 0 && i < map.W && j < map.H && di * di + dj * dj <= r * r) z[j * map.W + i] = 1; } } }
     // battalion-level supply: the ground each side can reach, avoiding the enemy's immediate reach (1.2 km round his troops) and water with no bridge.
     // A battalion draws supply only if the ground round it (1.2 km) joins the ground round its headquarters.
     for (let s = 0; s < 2; s++) { const zE = S.zE[s], lab = S.lab[s]; zE.fill(0); lab.fill(0); const r = Math.ceil(1.2 / map.cs);
       for (const e of S.subs) if (e.s !== s && e.active && !e.dead && e.cls !== 'hq' && e.cls !== 'art' && e.coh > .2 && e.mv !== 'ship') { const ci = Math.floor(e.x / map.cs), cj = Math.floor(e.y / map.cs); for (let dj = -r; dj <= r; dj++) for (let di = -r; di <= r; di++) { const i = ci + di, j = cj + dj; if (i >= 0 && j >= 0 && i < map.W && j < map.H && di * di + dj * dj <= r * r) zE[j * map.W + i] = 1; } }
       // ground the enemy owns blocks the link too, as it does for supply columns
-      for (let c = 0; c < map.N; c++) if (!zE[c] && S.ownAt((c % map.W + .5) * map.cs, (((c / map.W) | 0) + .5) * map.cs) === 1 - s) zE[c] = 1;
-      let n = 0; const st = []; for (let c = 0; c < map.N; c++) { if (lab[c] || zE[c] || map.fac[0][c] <= 0) continue; n++; lab[c] = n; st.push(c); while (st.length) { const q = st.pop(), i = q % map.W, j = (q / map.W) | 0; if (i > 0) vis(q - 1); if (i < map.W - 1) vis(q + 1); if (j > 0) vis(q - map.W); if (j < map.H - 1) vis(q + map.W); } }
-      function vis(c) { if (!lab[c] && !zE[c] && map.fac[0][c] > 0) { lab[c] = n; st.push(c); } } }
+      for (let c = 0; c < map.N; c++) if (!zE[c] && OA[M[c]] === 1 - s) zE[c] = 1;
+      // connected regions, numbered in scan order as before; an explicit typed stack and inline neighbour tests for speed
+      const W = map.W, N = map.N, F0 = map.fac[0], ST = S.labSt || (S.labSt = new Int32Array(N + 8));
+      let n = 0; for (let c = 0; c < N; c++) { if (lab[c] || zE[c] || F0[c] <= 0) continue; n++; lab[c] = n; let sp = 0; ST[sp++] = c;
+        while (sp) { const q = ST[--sp], i = q % W; let k;
+          if (i > 0) { k = q - 1; if (!lab[k] && !zE[k] && F0[k] > 0) { lab[k] = n; ST[sp++] = k; } }
+          if (i < W - 1) { k = q + 1; if (!lab[k] && !zE[k] && F0[k] > 0) { lab[k] = n; ST[sp++] = k; } }
+          if (q >= W) { k = q - W; if (!lab[k] && !zE[k] && F0[k] > 0) { lab[k] = n; ST[sp++] = k; } }
+          if (q < N - W) { k = q + W; if (!lab[k] && !zE[k] && F0[k] > 0) { lab[k] = n; ST[sp++] = k; } } } } }
     const near = (s, x, y) => { const out = new Set(), lab = S.lab[s], r = Math.ceil(1.2 / map.cs), ci = Math.floor(x / map.cs), cj = Math.floor(y / map.cs); for (let dj = -r; dj <= r; dj++) for (let di = -r; di <= r; di++) { const i = ci + di, j = cj + dj; if (i >= 0 && j >= 0 && i < map.W && j < map.H && di * di + dj * dj <= r * r && lab[j * map.W + i]) out.add(lab[j * map.W + i]); } return out; };
     // a formation that has lost its headquarters links instead to the side's own network: another headquarters that is not cut off, or a working supply source
     const net = [null, null], netOf = s => { if (net[s]) return net[s]; const o = new Set(), add = (x, y) => { for (const l of near(s, x, y)) o.add(l); };
@@ -725,7 +734,7 @@ function createSim(sc, player, seed, opt) {
         const pr = S.supPrio(F), bad = F.badSrc && S.t < F.badSrc.until ? F.badSrc.src : null, list = S.src[F.s].filter(q => !q.captured && q.stock >= (pr < 0 ? Math.max(1, q.cap * .35) : 1) && S.t >= q.t * 60).sort((a, b) => (a === bad) - (b === bad) || Math.hypot(a.x - hx, a.y - hy) - Math.hypot(b.x - hx, b.y - hy));
         let sent = false;
         // a headquarters within 3 km of its own beach or depot draws straight from it
-        for (const q of list.slice(0, 3)) { const p = Math.hypot(q.x - hx, q.y - hy) < 3 ? [[q.x, q.y], [hx, hy]] : map.findPath(1, q.x, q.y, hx, hy, { block: S.zoc[F.s], grad: 3, road: q.air ? 0 : ROADBIAS }); if (p) { const off = q.air ? 0 : p.off || 0, rm = off <= OFFFREE ? 1 : Math.max(OFFMIN, 1 - OFFSLOPE * (off - OFFFREE)); F.offRd = off; F.offMul = rm;   // the last stretch off the road cuts what a column can carry
+        for (const q of list.slice(0, 3)) { const p = Math.hypot(q.x - hx, q.y - hy) < 3 ? [[q.x, q.y], [hx, hy]] : map.findPath(1, q.x, q.y, hx, hy, { block: S.zoc[F.s], grad: 3, road: q.air ? 0 : ROADBIAS, comp: colComp(F.s) }); if (p) { const off = q.air ? 0 : p.off || 0, rm = off <= OFFFREE ? 1 : Math.max(OFFMIN, 1 - OFFSLOPE * (off - OFFFREE)); F.offRd = off; F.offMul = rm;   // the last stretch off the road cuts what a column can carry
             if (rm >= 1) F.offMsgR = null; else if (S.t > (F.offMsgT || 0) && (F.offMsgR == null || rm < F.offMsgR - .1)) { F.offMsgT = S.t + 720; F.offMsgR = rm; say(F, 'Supply columns must drive ' + Math.round(off) + ' km off the road to reach us. Loads are down to ' + Math.round(rm * 100) + ' percent.', 1); }
             const load = Math.min(q.stock, F.cap - F.stock, 10 * rm * (pr > 0 ? 1.3 : pr < 0 ? .7 : 1)); q.stock -= load; F.supPath = p; const c = { id: S.nid++, s: F.s, F, src: q, path: p, pi: 1, x: p[0][0], y: p[0][1], hx: 1, hy: 0, load, load0: load, st: 'out', dead: false, trail: [] }; S.convoys.push(c); F.convoy = c; sent = true; break; } }
         F.convT = S.t + (sent ? 20 : 60);
@@ -1223,6 +1232,8 @@ function createSim(sc, player, seed, opt) {
   // Objectives: whoever takes an objective takes the ground within 1 km of it.
   // Consolidation (every hour): ground no one stands on goes to the side holding most of the ground around it, so bypassed pockets and salients fill in.
   const OW = (() => { const cw = sc.ownCell || .5, gw = Math.ceil(map.w / cw), gh = Math.ceil(map.h / cw); return { cw, gw, gh, a: new Uint8Array(gw * gh), pres: [new Uint8Array(gw * gh), new Uint8Array(gw * gh)] }; })();
+  // map cell -> ownership cell, built once: lets map-wide loops read the owner of every map cell without a function call per cell
+  let M2O = null; const m2o = () => M2O || (M2O = (() => { const z = new Int32Array(map.N); for (let c = 0; c < map.N; c++) { const x = (c % map.W + .5) * map.cs, y = (((c / map.W) | 0) + .5) * map.cs; z[c] = clamp(Math.floor(y / OW.cw), 0, OW.gh - 1) * OW.gw + clamp(Math.floor(x / OW.cw), 0, OW.gw - 1); } return z; })());
   S.own = OW; S.ownAt = (x, y) => OW.a[clamp(Math.floor(y / OW.cw), 0, OW.gh - 1) * OW.gw + clamp(Math.floor(x / OW.cw), 0, OW.gw - 1)];
   function disc(x, y, r, fn) { const c = OW.cw, i0 = Math.max(0, Math.floor((x - r) / c)), i1 = Math.min(OW.gw - 1, Math.floor((x + r) / c)), j0 = Math.max(0, Math.floor((y - r) / c)), j1 = Math.min(OW.gh - 1, Math.floor((y + r) / c)); for (let j = j0; j <= j1; j++) for (let i = i0; i <= i1; i++) if (Math.hypot((i + .5) * c - x, (j + .5) * c - y) <= r) fn(j * OW.gw + i); }
   const formed = u => u.active && !u.dead && u.coh > .3 && u.cls !== 'hq' && u.mv !== 'ship' && u.state !== 'retreat' && !(u.f.arr && !u.f.active);
@@ -1233,10 +1244,17 @@ function createSim(sc, player, seed, opt) {
   }
   function ownTick(hourly) {
     // each cell within reach of troops in fighting order goes to the side whose troops are nearest (artillery reaches 0.8 km, other units 1.5 km)
-    const P = OW.pres, D = OW.dist || (OW.dist = [new Float32Array(OW.a.length), new Float32Array(OW.a.length)]); P[0].fill(0); P[1].fill(0); D[0].fill(99); D[1].fill(99);
-    const R0 = sc.ownR || 1.5;   // reach of a unit's hold on the ground (km); division-scale scenarios set more (game setting)
-    for (const u of S.subs) if (formed(u)) { const r = u.cls === 'art' ? R0 * .55 : R0, dd = D[u.s], pp = P[u.s], lead = LEADCLS[u.cls] || u.cls === 'at' || u.cls === 'eng'; disc(u.x, u.y, R0, c => { const i = c % OW.gw, j = (c / OW.gw) | 0, d = Math.hypot((i + .5) * OW.cw - u.x, (j + .5) * OW.cw - u.y) + R0 - r; if (d < dd[c]) dd[c] = d; if (lead && d < 1.2) pp[c] = 1; }); }
-    for (let c = 0; c < OW.a.length; c++) { const a = D[0][c], b = D[1][c]; if (Math.min(a, b) <= R0 && a !== b && !(OW.sea && OW.sea[c])) OW.a[c] = a < b ? 0 : 1; }
+    // only cells within reach of a unit can change, so the work runs over those cells alone: the cells touched last time are reset,
+    // this time's are listed as they are reached (same results as clearing and scanning the whole grid)
+    const NC = OW.a.length, P = OW.pres, D = OW.dist || (OW.dist = [new Float32Array(NC).fill(99), new Float32Array(NC).fill(99)]), TL = OW.tl || (OW.tl = new Int32Array(NC)), MK = OW.mk || (OW.mk = new Uint8Array(NC));
+    for (let k = 0; k < (OW.nt || 0); k++) { const c = TL[k]; D[0][c] = 99; D[1][c] = 99; P[0][c] = 0; P[1][c] = 0; MK[c] = 0; }
+    let nt = 0; const R0 = sc.ownR || 1.5, cw = OW.cw, gw = OW.gw, gh = OW.gh;   // R0: reach of a unit's hold on the ground (km); division-scale scenarios set more (game setting)
+    for (const u of S.subs) if (formed(u)) { const r = u.cls === 'art' ? R0 * .55 : R0, dd = D[u.s], pp = P[u.s], lead = LEADCLS[u.cls] || u.cls === 'at' || u.cls === 'eng', x = u.x, y = u.y;
+      const i0 = Math.max(0, Math.floor((x - R0) / cw)), i1 = Math.min(gw - 1, Math.floor((x + R0) / cw)), j0 = Math.max(0, Math.floor((y - R0) / cw)), j1 = Math.min(gh - 1, Math.floor((y + R0) / cw));
+      for (let j = j0; j <= j1; j++) for (let i = i0; i <= i1; i++) { const hd = Math.hypot((i + .5) * cw - x, (j + .5) * cw - y); if (hd > R0) continue;
+        const c = j * gw + i, d = hd + R0 - r; if (!MK[c]) { MK[c] = 1; TL[nt++] = c; } if (d < dd[c]) dd[c] = d; if (lead && d < 1.2) pp[c] = 1; } }
+    OW.nt = nt; const SEA0 = OW.sea;
+    for (let k = 0; k < nt; k++) { const c = TL[k], a = D[0][c], b = D[1][c]; if (Math.min(a, b) <= R0 && a !== b && !(SEA0 && SEA0[c])) OW.a[c] = a < b ? 0 : 1; }
     if (!hourly) return; const g = OW.gw, h = OW.gh;
     if (sc.ownMax) frontTick(g, h);
     const b = OW.a.slice();

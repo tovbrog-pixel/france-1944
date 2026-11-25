@@ -492,3 +492,19 @@ Two causes found and fixed; one trial dropped.
 | Trial dropped: starting development from the leading battalions or from shellfire. First contact came later (hour 24). | `doctrine.js`, reverted | Observed, three seeds |
 
 Five seeds after both fixes, same plan: 79 Blue 50-30, 7 Blue 50-30, 11 Blue 50-30, 23 Blue 80-0, 101 Blue 60-20. Blue wins five of five. Carthage falls at hour 6.5 to 7.5. The ten narration clips are recorded (58 in all).
+
+## Fix 8 from Sarn Corridor (24 November 2026)
+
+Tov Binyamin Brog. Source: `docs/engine-fixes-for-france-1944.md` (version 5) and `engine-fixes-for-france-1944-fix8.patch` in tovbrog-pixel/sarn-corridor at a2131e8. Applied to a8c8ed4 with `git apply`; the check passed.
+
+| Step | Result | Basis |
+| --- | --- | --- |
+| Patch | Seven files changed: `command.js`, `doctrine.js`, `map.js`, `render.js`, `render3.js`, `sim.js`, `transport.js` | Observed |
+| `tools/regress.js` | salerno, marketgarden, bastogne, falaise, gazala and sicily changed; tutorial, tutorial-tn and one more matched, as the document predicts. Baselines recorded. | Observed |
+| `tools/test-command.js` | All A1 and A2 cases pass with no route crossings. The reserve in the Bellwood case is 2nd Infantry Division here; the document says 3rd. | Observed |
+| `tools/tutorial-run.js`, five seeds | 79: 50-30; 7: 50-30; 11: 80-0 (50-30 before); 23: 80-0; 101: 60-20. Blue wins five of five. | Observed |
+| `tools/test-transport2.js` | Rail case objective moved from y 64 to y 84, so the train unloads at 97,90, outside the 15 km limit. Plan: rail, 72.5 km. | Observed |
+| `tools/check-page.js` | All checks pass | Observed |
+| Batch 25 | Queued on GitHub Actions to compare with batch 19 | Pending |
+
+The relief rule of fix 8 (commit the reserve only for a spent or lost division, 24 hours of rest) replaces the relieve-once rule of fix A2.

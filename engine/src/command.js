@@ -5,7 +5,7 @@
 // keeps a reserve when his style calls for it, and passes each child a parallel line of advance, so sister
 // formations do not cross each other's routes. Children then plan their own orders as before.
 // review settings, all starting values for balance testing
-const CMDAI = { spentFrac: .45, spentCoh: .3, stallMin: 180, onObjKm: 1.5, coolMin: 120, townBeyondKm: 4, riverBeyondKm: 3 };
+const CMDAI = { spentFrac: .45, spentCoh: .3, stallMin: 180, onObjKm: 2.5, coolMin: 120, townBeyondKm: 4, riverBeyondKm: 3, kmPerBn: .45, echelonKm: 15, restMin: 1440 };   // kmPerBn: attack frontage per leading battalion (a 9-battalion division needs about 4 km); echelonKm: a child this far behind the others follows as second echelon, and a corps this far beyond an army's objective keeps its orders; restMin: a relieved division rests this long before it can be committed again
 function attachCommand(S) {
   const nodes = []; S.commands = nodes; const sc = S.sc;
   const segOf = (line, a, b) => {           // the part of polyline `line` between distances a and b
@@ -36,12 +36,35 @@ function attachCommand(S) {
   // plan the split of one order across the node's children. Returns [{ child, path, line, reserve }].
   S.planCommandOrder = function (C, path, line, opt) {
     opt = opt || {}; const kids = C.forms.filter(live); if (!kids.length || !line || line.length < 2) return [];
-    const p0 = pos(C) || line[0], L = polyLen(line), mid = polyAt(line, L / 2);
+    const p0 = pos(C) || line[0], mid = polyAt(line, polyLen(line) / 2); let L = polyLen(line);
     let ax = mid.x - p0[0], ay = mid.y - p0[1]; const al = Math.hypot(ax, ay) || 1; ax /= al; ay /= al;
+    // the axis of advance runs square to the objective line, away from our side of it; the line from the node's centre to the
+    // objective decides only which way, since one far-off child (a corps attacking from the other side) can pull that centre aside.
+    // Army orders only: a corps keeps the axis from its centre to the objective, as the tutorial and the scenario plans expect
+    { const lx = line[line.length - 1][0] - line[0][0], ly = line[line.length - 1][1] - line[0][1], ll = Math.hypot(lx, ly);
+      if (opt.square !== false && C.level === 'army' && ll > 1) { let nx = -ly / ll, ny = lx / ll; if (nx * ax + ny * ay < 0) { nx = -nx; ny = -ny; } ax = nx; ay = ny; } }
     const px = -ay, py = ax;                 // left-hand perpendicular of the axis of advance
+    // a corps standing well beyond the objective line, on the enemy's far side (the Ostval Corps when the army attacks the corridor
+    // from the west), keeps its present orders: its route to the line would cross the whole enemy rear. The player orders it apart.
+    let beyondNote = '';
+    if (C.level === 'army' && kids.length > 1) { const far = kids.filter(c => { const q = pos(c); return q && ((mid.x - q[0]) * ax + (mid.y - q[1]) * ay) < -CMDAI.echelonKm; });
+      if (far.length && far.length < kids.length) { for (const c of far) kids.splice(kids.indexOf(c), 1); beyondNote = far.map(c => c.n).join(' and ') + (far.length > 1 ? ' stand' : ' stands') + ' beyond the objective, on the far side of the enemy, and ' + (far.length > 1 ? 'keep their' : 'keeps its') + ' present orders.'; } }
     // the objective line runs left to right as the commander faces it
     const side = (q) => (q[0] - mid.x) * px + (q[1] - mid.y) * py;
-    const ln = side(line[0]) >= side(line[line.length - 1]) ? line.slice() : line.slice().reverse();
+    let ln = side(line[0]) >= side(line[line.length - 1]) ? line.slice() : line.slice().reverse(), L0 = L, widened = '';
+    // an objective line too short for the formations: the commander widens it along its own direction, equally on both flanks,
+    // so the drawn objective stays the centre of the attack and every division gets a sector it can attack on
+    // ... and so that the formations advance on the frontage they hold now: a line shorter than their spread runs on to cover it, so
+    // the flanks go straight ahead and the formations facing the objective take it (Tov 24 Nov 2026, "I ordered the whole army to advance")
+    const needKm = kids.reduce((s, c) => s + Math.max(1, weight(c)), 0) * CMDAI.kmPerBn;
+    if (opt.widen !== false) { const a = ln[0], b = ln[ln.length - 1], ul = Math.hypot(b[0] - a[0], b[1] - a[1]) || 1, ux = (b[0] - a[0]) / ul, uy = (b[1] - a[1]) / ul, tq = q => (q[0] - mid.x) * ux + (q[1] - mid.y) * uy;
+      let lo = Math.min(-L / 2, -needKm / 2), hi = Math.max(L / 2, needKm / 2);
+      // an army keeps its frontage; a corps closes up on the objective it is given, as concentration demands
+      if (C.level === 'army') for (const c of kids) { const q = pos(c); if (!q) continue; const hw = Math.max(1.5, weight(c) * CMDAI.kmPerBn / 2), t = tq(q); lo = Math.min(lo, t - hw); hi = Math.max(hi, t + hw); }
+      const eL = -L / 2 - lo, eR = hi - L / 2;
+      if (eL > .5 || eR > .5) { const a1 = ln[1], b1 = ln[ln.length - 2], ua = Math.hypot(a[0] - a1[0], a[1] - a1[1]) || 1, ub = Math.hypot(b[0] - b1[0], b[1] - b1[1]) || 1, cl = (x, lim) => Math.max(0, Math.min(lim, x));
+        ln = [[cl(a[0] + (a[0] - a1[0]) / ua * eL, S.map.w), cl(a[1] + (a[1] - a1[1]) / ua * eL, S.map.h)]].concat(ln, [[cl(b[0] + (b[0] - b1[0]) / ub * eR, S.map.w), cl(b[1] + (b[1] - b1[1]) / ub * eR, S.map.h)]]);
+        L = polyLen(ln); widened = 'The objective is ' + L0.toFixed(0) + ' km wide; the line runs on to ' + L.toFixed(0) + ' km' + (C.level === 'army' ? ' to cover the front, the formations facing the objective take it as drawn.' : ', the room ' + kids.length + ' divisions need to attack, the main effort on the objective as drawn.'); } }
     // children ordered left to right by where they stand now, so assignments do not cross
     const at = kids.map(c => ({ c, p: pos(c) || p0 })).sort((a, b) => ((b.p[0] - p0[0]) * px + (b.p[1] - p0[1]) * py) - ((a.p[0] - p0[0]) * px + (a.p[1] - p0[1]) * py));
     // a reserve: cautious commanders hold one child back when they have three or more
@@ -61,6 +84,15 @@ function attachCommand(S) {
       let ri = 0, bw = 1e9; at.forEach((o, i) => { const w = weight(o.c); if (i > 0 && i < at.length - 1 && w < bw) { bw = w; ri = i; } }); if (!ri) ri = Math.floor(at.length / 2);
       reserve = at.splice(ri, 1)[0];
     }
+    // second echelon: children standing well behind the rest (by the median depth along the axis) follow the main effort
+    // instead of taking sectors in the line, so their routes do not cut across the leading formations' (Tov 24 Nov 2026)
+    const second = []; let med = 0;
+    if (opt.reserve !== false && at.length >= 3) {
+      // depth: distance behind the objective line (negative for a child already beyond it, as a corps attacking from the far side)
+      const behind = o => (mid.x - o.p[0]) * ax + (mid.y - o.p[1]) * ay;   // along the axis only, so a corps off a flank does not count as behind
+      const ds = at.map(behind).sort((a, b) => a - b); med = ds[ds.length >> 1];
+      for (let i = at.length - 1; i >= 0; i--) if (behind(at[i]) > med + CMDAI.echelonKm && at.length - 1 >= 2) second.push(at.splice(i, 1)[0]); }
+    if (second.length) note = (note ? note + ' ' : '') + second.map(o => o.c.n).reverse().join(' and ') + (second.length > 1 ? ' follow' : ' follows') + ' in second echelon behind the main effort.';
     const W = at.reduce((s, o) => s + Math.max(1, weight(o.c)), 0); let acc = 0; const out = [];
     const P = (path && path.length ? path : []).filter(q => q);
     const bnd = [0]; for (const o of at) { acc += Math.max(1, weight(o.c)); bnd.push(acc / W * L); }
@@ -94,8 +126,14 @@ function attachCommand(S) {
       if (!R) { const p = reserve.p; R = { child: reserve.c, path: [], line: [[p[0] + px * hw, p[1] + py * hw], [p[0] - px * hw, p[1] - py * hw]], reserve: true, p, off: roff }; }   // every way forward crosses a sister division: the reserve assembles where it stands
       out.push(R);
     }
+    second.forEach((o, k) => {                // second echelon: lanes either side of the centre, halting 10 km short of the objective
+      const off = (k - (second.length - 1) / 2) * 6, hw = 2, bx = mid.x - ax * 10 + px * off, by = mid.y - ay * 10 + py * off;
+      // the route runs first behind the line of departure to the centre (8 km behind the leading formations), then forward, so the
+      // second echelon passes behind the leading divisions' columns instead of across them
+      const wb = med + 8, wx = Math.max(0, Math.min(S.map.w, mid.x - ax * wb + px * off)), wy = Math.max(0, Math.min(S.map.h, mid.y - ay * wb + py * off));
+      out.push({ child: o.c, path: [[wx, wy]].concat(P.map(q => [q[0] + px * off, q[1] + py * off])), line: [[bx + px * hw, by + py * hw], [bx - px * hw, by - py * hw]], reserve: true }); });
     out.why = reserve && note ? (towns.length || beyond ? 'town' : river ? 'river' : '') : '';
-    out.note = note; return out;
+    out.note = [widened, note, beyondNote].filter(Boolean).join(' '); out.line = ln; return out;
   };
 
   // issue an order to a node: staff time first, then the children receive theirs
@@ -118,7 +156,7 @@ function attachCommand(S) {
     if (plan.note) report(C, plan.note);
   }
   function send(child, path, line, opt, reserve, then) {
-    const o = Object.assign({}, opt, reserve ? { then: 'reserve' } : {}, then ? { then } : {}); delete o.reserve;
+    const o = Object.assign({}, opt, reserve ? { then: 'reserve' } : {}, then ? { then } : {}, { byCmd: 1 }); delete o.reserve;   // byCmd: the corps staff plans river crossings for divisions under its orders
     if (child.forms) S.issueCommandOrder(child, path, line, o); else S.issueOrder(child, path, line, o);
   }
   // a division the player gives its own order leaves the corps plan: the corps commander no longer counts it as a sector or as his reserve
@@ -131,15 +169,22 @@ function attachCommand(S) {
     const O = C.order, P = O.plan; if (!P) return; O.nextReview = S.t + 30;
     for (const q of P) { if (q.reserve || !live(q.child)) continue; const d = lineDist(q.child, q.line); if (d < q.best - .5) { q.best = d; q.tBest = S.t; } }
     if (S.t - O.lastAct < CMDAI.coolMin) return;
-    const fwd = P.filter(q => !q.reserve), res = P.find(q => q.reserve && live(q.child) && weight(q.child) >= CMDAI.spentFrac * q.w0);
+    const fwd = P.filter(q => !q.reserve), res = P.find(q => q.reserve && live(q.child) && weight(q.child) >= CMDAI.spentFrac * q.w0 && !(q.restUntil > S.t));   // a formation just pulled out of the line rests before it can be committed again
     const moving = n => n.forms ? n.forms.some(moving) : !!n.transit;
-    const state = q => { if (!live(q.child)) return 'lost'; if (moving(q.child)) { q.tBest = S.t; return 'ok'; } if (weight(q.child) < CMDAI.spentFrac * q.w0 || cohOf(q.child) < CMDAI.spentCoh) return 'spent';
+    // a division waiting at a river, for boats, a bridge or a route, is not stalled: committing the reserve would only bring it to the same bank
+    const atRiver = n => n.forms ? n.forms.some(atRiver) : ((S.xings || []).some(X => X.F === n && !X.done) || !!n.alignHold || !!n.flankHold || /crossing|bridg|no route|is down/i.test(n.status || ''));   // also a division halted on purpose for its neighbours or its flank (doctrine module)
+    // arrived: a division whose own order is complete (it stands as near the objective as the ground allows, a river bank for one on the water)
+    const fin = n => n.forms ? n.forms.filter(live).every(fin) : !!(n.order && n.order.st === 'done');
+    const state = q => { if (!live(q.child)) return 'lost'; if (fin(q.child)) return 'done'; if (moving(q.child) || atRiver(q.child)) { q.tBest = S.t; return 'ok'; } if (weight(q.child) < CMDAI.spentFrac * q.w0 || cohOf(q.child) < CMDAI.spentCoh) return 'spent';
       const d = lineDist(q.child, q.line); if (d < CMDAI.onObjKm) return 'done'; if (S.t - q.tBest > CMDAI.stallMin && S.t - O.t0 > CMDAI.stallMin) return 'stalled'; return 'ok'; };
-    // 1. commit the reserve where a forward division is spent or stalled
-    const bad = fwd.map(q => ({ q, st: state(q) })).find(o => o.st === 'spent' || o.st === 'stalled' || o.st === 'lost');
-    // a reserve kept back for a town or a river stays back while a forward division is only stalled and the reason still stands (fix A1);
-    // a stalled sector gets fresh troops once, so two divisions do not relieve each other in turn all day (fix A2)
-    const kept = bad && bad.st === 'stalled' && (bad.q.relieved || (res && O.why && res.child === O.whyChild && S.planCommandOrder(C, O.path, O.line, O.opt).why));
+    // 1. commit the reserve where a forward division is spent or lost. A division merely stalled against a defended line keeps its
+    // sector: the commander reports it once and leaves the decision to the player, because relieving divisions every time an attack
+    // is held up swapped them back and forth and turned the front into churn (Sarn Corridor play, 24 Nov 2026). This replaces the
+    // relieve-once rule of fix A2 and makes the reserve-kept rule of fix A1 hold for every stall.
+    const sts = fwd.map(q => ({ q, st: state(q) }));
+    for (const o of sts) if (o.st === 'stalled' && !o.q.stallRep) { o.q.stallRep = 1; report(C, o.q.child.n + ' is held up short of its objective and has made no ground for ' + Math.round((S.t - o.q.tBest) / 60) + ' hours. ' + (res ? res.child.n + ' stands ready in reserve.' : 'No reserve is left.'), 1); }
+    for (const o of sts) if (o.st === 'ok' && o.q.stallRep && S.t - o.q.tBest < 60) o.q.stallRep = 0;
+    const bad = sts.find(o => o.st === 'spent' || o.st === 'lost'), kept = false;
     if (bad && res && !kept) {
       const q = bad.q; if (bad.st === 'stalled') res.relieved = true;
       // the relieved division rests where it stands and becomes the reserve; the fresh division passes through to the sector
@@ -147,7 +192,7 @@ function attachCommand(S) {
         send(q.child, [], [[p[0] - dy / dl * hw, p[1] + dx / dl * hw], [p[0] + dy / dl * hw, p[1] - dx / dl * hw]], O.opt, false, 'rest'); }
       send(res.child, [], q.line, O.opt, false);
       res.reserve = false; res.line = q.line; res.best = 1e9; res.tBest = S.t; res.w0 = weight(res.child);
-      if (bad.st !== 'lost') { q.reserve = true; q.w0 = Math.max(weight(q.child), 1); }
+      if (bad.st !== 'lost') { q.reserve = true; q.w0 = Math.max(weight(q.child), 1); q.restUntil = S.t + CMDAI.restMin; }
       else P.splice(P.indexOf(q), 1);
       O.lastAct = S.t; report(C, q.child.n + ' is ' + bad.st + '; ' + res.child.n + ' committed from reserve to take over its sector.', 2); return;
     }
