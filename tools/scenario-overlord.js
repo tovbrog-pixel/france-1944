@@ -252,9 +252,9 @@ module.exports = makeOverlord; module.exports.MILESTONES = MILESTONES; module.ex
 if (require.main === module) {
   const cs = +(process.argv[2] || 1), hours = +(process.argv[3] || 72), seed = +(process.argv[4] || 12345);
   const t0 = Date.now(), sc = makeOverlord(cs);
-  // test switches for a batch (environment F44_OFF, comma-separated): a module name removes that module; 'ground' removes the front-line ground model; 'pocket' removes the army AI's pocket bonus
+  // test switches for a batch (environment F44_OFF, comma-separated): a module name removes that module; 'ground' removes the front-line ground model ('front', 'reach' and 'shrink' remove its parts one at a time); 'pocket' removes the army AI's pocket bonus
   const off = (process.env.F44_OFF || '').split(',').map(x => x.trim()).filter(Boolean);
-  if (off.length) { sc.modules = sc.modules.filter(m => !off.includes(m)); if (off.includes('ground')) { delete sc.ownMax; delete sc.ownR; delete sc.isoShrinkKm; } if (off.includes('pocket') && sc.armyAI && typeof sc.armyAI === 'object') { delete sc.armyAI.pocketBonus; }   /* 'pocket' removes the army AI's bonus for bypassed objectives */ console.log('Switched off for this run: ' + off.join(', ')); }
+  if (off.length) { sc.modules = sc.modules.filter(m => !off.includes(m)); if (off.includes('ground')) { delete sc.ownMax; delete sc.ownR; delete sc.isoShrinkKm; } if (off.includes('front')) delete sc.ownMax;   /* the parts of the ground model one at a time: 'front' the front line between the two sides' nearest troops, 'reach' the wider hold of each unit on the ground, 'shrink' the closing-in of pockets */ if (off.includes('reach')) delete sc.ownR; if (off.includes('shrink')) delete sc.isoShrinkKm; if (off.includes('pocket') && sc.armyAI && typeof sc.armyAI === 'object') { delete sc.armyAI.pocketBonus; }   /* 'pocket' removes the army AI's bonus for bypassed objectives */ console.log('Switched off for this run: ' + off.join(', ')); }
   const S = createSim(sc, -1, seed, {}); S.setup();
   const nA = sc.forms.filter(f => f.s === 0).length, nG = sc.forms.filter(f => f.s === 1).length;
   console.log('Overlord: ' + sc.w + ' x ' + sc.h + ' km, cell ' + cs + ' km; roads ' + sc.roads.length + ', rail ' + sc.rails.length + ', towns ' + sc.towns.length + ', objectives ' + sc.vp.length + ', bridges ' + S.map.bridges.length);
