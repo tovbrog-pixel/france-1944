@@ -523,3 +523,12 @@ Tov Binyamin Brog. Two traced games of seed 3 to 20 August, front line on and of
 | 37 other objectives stand on river cells, 1 km from land. They are captured normally (Rennes, Le Mans). Left alone. | Observed (`F44_VP=sea`) |
 
 Follow-up, 10:50 AM ET: in the two seed 3 traces, leaving Granville out, the corps objective stood "on our ground" (the pocket bonus doubles its score) in 21 of 53 readings with the front line on and 10 of 60 with it off. Inference: the front line marks bypassed German-held towns as standing on Allied ground, so the bonus pulls corps back to them. Batch 28 (Granville fix, pocket bonus off, front line on) tests it.
+
+## Front line off for Overlord; pocket bonus narrowed (25 November 2026)
+
+Tov's decision after batches 25 to 28 (`docs/tests/batches-25-to-28-comparison.md`).
+
+| Change | Where | Basis |
+| --- | --- | --- |
+| The front line between the two sides' nearest troops (`ownMax: 15`) is removed from the Overlord scenario. `F44_ON=front` restores it for a test. | `tools/scenario-overlord.js` | Observed in three batch pairs (17, 20, 27): Chartres 19 of 20 without it, 11 of 19 with. What it does to the pursuit beyond the pocket bonus is unknown. Sarn Corridor keeps it. |
+| The army commander's pocket bonus applies only to an enemy-held objective on our ground with our ground at eight points on an 8 km ring (`pocketRingKm`). | `command.js` `pocketed`. Port to Sarn Corridor. | Batch 28: bonus off gave Chartres 14 of 19 against 11. The ring test is a design choice (inference); batch 29 tests both changes. |

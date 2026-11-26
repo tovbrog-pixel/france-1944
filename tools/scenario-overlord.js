@@ -227,7 +227,7 @@ function makeOverlord(cs) {
     districts: [{ city: 'Caen', parts: ['Caen', 'Vaucelles'] }, { city: 'Cherbourg', parts: ['Cherbourg', 'Arsenal de Cherbourg'] }],
     doctrine: { devKm: 5 },   // divisions leave the roads within 5 km of known enemy. At the module's 15 km every division in the bridgehead moved across the bocage and Bayeux had not fallen by 10 June in a test game (seed 104); at 5 km it fell as before. Game setting
     capBig: { pts: 20, r: 2.5 },   // Caen, Cherbourg, Saint-Lo and the other 20-point towns fall only when the holder has no troops within 2.5 km. In batches 9 to 11 Caen was entered in June in most games and changed hands for weeks (game setting)
-    ownR: 3, ownMax: 15, isoShrinkKm: 12,   // front-line ground model and shrinking pockets (engine fixes from the Sarn Corridor build; starting values, game settings)
+    ownR: 3, isoShrinkKm: 12,   // each unit's hold on the ground and shrinking pockets (engine fixes from the Sarn Corridor build; starting values, game settings). The front line between the two sides' nearest troops (ownMax: 15) is off: in batches 17, 20 and 27 it held the pursuit back (Chartres 11 runs of 19 with it, 19 of 20 without); F44_ON=front switches it back on for a test
     // replacements, in battalion-equivalents of 800 men a day:
     //  US: the plan moved more than 200,000 replacements to the Continent in the first ninety days (Ruppenthal, Logistical Support of the Armies, vol. I, replacement plan), about 2,200 men or 2.8 battalions a day
     //  German: by mid-July 5,210 replacements had arrived against about 87,000 casualties, 6 percent (Blumenson pp. 181-182), about 130 men a day
@@ -261,6 +261,7 @@ if (require.main === module) {
   const t0 = Date.now(), sc = landObjectives(makeOverlord(cs));
   // test switches for a batch (environment F44_OFF, comma-separated): a module name removes that module; 'ground' removes the front-line ground model ('front', 'reach' and 'shrink' remove its parts one at a time); 'pocket' removes the army AI's pocket bonus
   const off = (process.env.F44_OFF || '').split(',').map(x => x.trim()).filter(Boolean);
+  if ((process.env.F44_ON || '').split(',').includes('front')) sc.ownMax = 15;
   if (off.length) { sc.modules = sc.modules.filter(m => !off.includes(m)); if (off.includes('ground')) { delete sc.ownMax; delete sc.ownR; delete sc.isoShrinkKm; } if (off.includes('front')) delete sc.ownMax;   /* the parts of the ground model one at a time: 'front' the front line between the two sides' nearest troops, 'reach' the wider hold of each unit on the ground, 'shrink' the closing-in of pockets */ if (off.includes('reach')) delete sc.ownR; if (off.includes('shrink')) delete sc.isoShrinkKm; if (off.includes('pocket') && sc.armyAI && typeof sc.armyAI === 'object') { delete sc.armyAI.pocketBonus; }   /* 'pocket' removes the army AI's bonus for bypassed objectives */ console.log('Switched off for this run: ' + off.join(', ')); }
   const S = createSim(sc, -1, seed, {}); S.setup();
   // F44_VP=<name>: print an objective's place, ground and whether troops can reach it, then stop

@@ -159,6 +159,9 @@ function attachCommand(S) {
     const o = Object.assign({}, opt, reserve ? { then: 'reserve' } : {}, then ? { then } : {}, { byCmd: 1 }); delete o.reserve;   // byCmd: the corps staff plans river crossings for divisions under its orders
     if (child.forms) S.issueCommandOrder(child, path, line, o); else S.issueOrder(child, path, line, o);
   }
+  // a real pocket: an enemy-held objective standing on our ground with our ground all round it (eight points on a ring; sea and the map edge count as closed).
+  // Standing on our ground alone doubled the score of every bypassed town near our troops and drew corps back from the pursuit.
+  const pocketed = (v, s, ring) => { if (S.ownAt(v.x, v.y) !== s) return false; const m = S.map; for (let k = 0; k < 8; k++) { const x = v.x + Math.cos(k * Math.PI / 4) * ring, y = v.y + Math.sin(k * Math.PI / 4) * ring; if (x < 0 || y < 0 || x >= m.w || y >= m.h || m.t[m.idx(x, y)] === 12) continue; if (S.ownAt(x, y) !== s) return false; } return true; };
   // a division the player gives its own order leaves the corps plan: the corps commander no longer counts it as a sector or as his reserve
   S.leaveCorpsOrder = function (F) { const C = F.parent, O = C && C.order; if (!O || !O.plan) return false; const i = O.plan.findIndex(q => q.child === F); if (i < 0) return false; O.plan.splice(i, 1); if (O.whyChild === F) { O.why = ''; O.whyChild = null; } return true; };
   function report(C, txt, lvl) { C.log.push({ t: S.t, txt }); S.say(C.s, C.n + ': ' + txt, lvl || 1); }
@@ -227,7 +230,7 @@ function attachCommand(S) {
         const kids = C.forms.filter(F => !F.forms && F.active && !F.dead); if (!kids.length) continue;
         if (kids.reduce((a, F) => a + F.stock / Math.max(1, F.cap), 0) / kids.length < (cfg.supply || lerp(ARMYAI.supply))) continue;
         const p = pos(C); if (!p) continue; let best = null, bs = -1e9;
-        for (const v of S.vp) { if (v.own === C.s || taken.has(v) || (v.noWay && v.noWay[C.s] > S.t)) continue; const d = Math.hypot(v.x - p[0], v.y - p[1]); if (d > (cfg.reachKm || lerp(ARMYAI.reachKm)) || (S.phaseBlock && S.phaseBlock(kids[0], v.x, v.y))) continue; const sc0 = v.pts / (d + 6) * (cfg.pocketBonus && S.ownAt(v.x, v.y) === C.s ? cfg.pocketBonus : 1); if (sc0 > bs) { bs = sc0; best = v; } }   // pocketBonus: an enemy-held objective standing on our ground is a bypassed pocket to reduce
+        for (const v of S.vp) { if (v.own === C.s || taken.has(v) || (v.noWay && v.noWay[C.s] > S.t)) continue; const d = Math.hypot(v.x - p[0], v.y - p[1]); if (d > (cfg.reachKm || lerp(ARMYAI.reachKm)) || (S.phaseBlock && S.phaseBlock(kids[0], v.x, v.y))) continue; const sc0 = v.pts / (d + 6) * (cfg.pocketBonus && pocketed(v, C.s, cfg.pocketRingKm || 8) ? cfg.pocketBonus : 1); if (sc0 > bs) { bs = sc0; best = v; } }   // pocketBonus: an enemy-held objective standing on our ground is a bypassed pocket to reduce
         if (!best) continue;
         // an objective no road or ground leads to (a point in the sea, an island) is set aside for ten days; the corps picks again at the next planning hour
         if (!S.map.findPath(1, p[0], p[1], best.x, best.y, {})) { (best.noWay || (best.noWay = [0, 0]))[C.s] = S.t + 14400; A.nextPlan = Math.min(A.nextPlan, S.t + 60); continue; }
