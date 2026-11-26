@@ -553,3 +553,14 @@ Tov's choice among four options. `armyAI.axis` in the Overlord scenario: VIII Co
 | --- | --- |
 | Third Army's two directions | General history (Blumenson, Breakout and Pursuit), to verify |
 | Gain 0.5, behind 0.25, forward half | Starting values (inference); batch 30 tests them against batch 29 |
+
+## Batch 30 and the Paris check (26 November 2026)
+
+| Item | Result | Basis |
+| --- | --- | --- |
+| Batch 30, mission axis, 20 of 20 games (no crash) | Against batch 29: Orléans 17 of 20 (8 of 19), Paris 5 (2), Le Mans 19 (16), Chartres 16 (18), Nantes 11 (10), Rouen 9 (10), Brest 2 (1). Losses 169 / 379 (162 / 377). Normandy dates unchanged. | Observed, committed summaries |
+| Decision | Tov: accept the Allied AI at about this level and move to the German side. A human player takes Paris himself. | Tov, 26 November |
+| Paris under a direct order | Seed 101 with `F44_PARIS=70`: XII Corps ordered into Paris on 15 August from 225 km; Paris Allied on 19 August. | Observed |
+| Paris has no garrison | No German unit stood within 15 km of Paris on any day from 15 to 30 August in that game. | Observed. This belongs to the German defence work and the city-defence note. |
+| Odd positions | The 35th Infantry Division read 238 km from Paris and "Awaiting orders" on most days, 3 km on 19 August, and 238 km again on the 20th. The 4th Armored read 214 km on the 15th and 24 km on the 16th. | Observed; cause not examined. Either the trace reads a stale position for a division in transit, or divisions are being moved back. |
+| Northern Cotentin watch | My box for `F44_ZONE` used raw data coordinates and showed the Caumont area; map coordinates differ. To redo. In that game Saint-Lô was held from 15 June and Caen first entered on 6 June. | Observed |
