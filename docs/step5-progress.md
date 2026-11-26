@@ -544,3 +544,12 @@ Tov's decision after batches 25 to 28 (`docs/tests/batches-25-to-28-comparison.m
 | Third Army turns back | Traced game, seed 101, 13 to 30 August: the four corps stand around x 270 to 420, y 70 to 120 (Normandy and the lower Seine) and are sent at Flers, Littry, Caen, Vaucelles, Bolbec, Le Havre and Fécamp. No corps is within 90 km of Paris, the commander's reach. Many divisions read "Awaiting orders" for days after their corps has its order; VIII Corps holds seven divisions, among them the 82nd and 101st Airborne. | Observed (`F44_TRACE2=68`) |
 | Cause of the turn-back | The commander scores an objective by points over distance from the corps, with no sense of direction, and measures from the centre of all the corps' divisions, idle ones in the rear included. | Read from `armyTick`; that this is the whole cause is an inference |
 | Open | Who takes Chartres on 7 August, 200 km from Avranches a week after Third Army starts, and why divisions wait for orders their corps already has. | Not examined |
+
+## Mission axis for Third Army (26 November 2026)
+
+Tov's choice among four options. `armyAI.axis` in the Overlord scenario: VIII Corps west and south into Brittany (`[-1, .5]`), the other corps east (`[1, 0]`). The army commander places each corps by the forward half of its divisions along the axis; an objective ahead scores up to 1.5 times, one behind 0.25 times, and a real pocket keeps its bonus. `F44_OFF=axis` removes it for a test. Engine part in `command.js` `armyTick` acts only where a scenario sets an axis; port to Sarn Corridor with the shared engine.
+
+| Item | Basis |
+| --- | --- |
+| Third Army's two directions | General history (Blumenson, Breakout and Pursuit), to verify |
+| Gain 0.5, behind 0.25, forward half | Starting values (inference); batch 30 tests them against batch 29 |
