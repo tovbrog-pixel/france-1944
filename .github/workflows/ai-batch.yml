@@ -30,8 +30,9 @@ jobs:
         with: { node-version: 22 }
       - env:
           F44_OFF: ${{ inputs.disable }}
-        run: mkdir -p results && node tools/scenario-overlord.js 1 ${{ inputs.hours }} ${{ matrix.seed }} results/run-${{ matrix.seed }}.json | tee results/run-${{ matrix.seed }}.log
+        run: set -o pipefail; mkdir -p results && node tools/scenario-overlord.js 1 ${{ inputs.hours }} ${{ matrix.seed }} results/run-${{ matrix.seed }}.json | tee results/run-${{ matrix.seed }}.log
       - uses: actions/upload-artifact@v4
+        if: always()   # a game that crashes now fails its job, and its log is still kept
         with: { name: 'run-${{ matrix.seed }}', path: results/ }
   summary:
     needs: run

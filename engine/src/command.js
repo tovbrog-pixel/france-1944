@@ -191,7 +191,7 @@ function attachCommand(S) {
     if (bad && res && !kept) {
       const q = bad.q; if (bad.st === 'stalled') res.relieved = true;
       // the relieved division rests where it stands and becomes the reserve; the fresh division passes through to the sector
-      if (bad.st !== 'lost') { const p = pos(q.child), m = polyAt(q.line, polyLen(q.line) / 2), dx = m.x - p[0], dy = m.y - p[1], dl = Math.hypot(dx, dy) || 1, hw = 1.5;
+      if (bad.st !== 'lost' && pos(q.child)) { const p = pos(q.child), m = polyAt(q.line, polyLen(q.line) / 2), dx = m.x - p[0],   /* a division with no leading battalion left has no position to rest on: it gets no order (this crashed one batch game in twenty from 24 November) */ dy = m.y - p[1], dl = Math.hypot(dx, dy) || 1, hw = 1.5;
         send(q.child, [], [[p[0] - dy / dl * hw, p[1] + dx / dl * hw], [p[0] + dy / dl * hw, p[1] - dx / dl * hw]], O.opt, false, 'rest'); }
       send(res.child, [], q.line, O.opt, false);
       res.reserve = false; res.line = q.line; res.best = 1e9; res.tBest = S.t; res.w0 = weight(res.child);
