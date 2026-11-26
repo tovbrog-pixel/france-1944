@@ -610,3 +610,24 @@ Runs holding the objective at the end, and the median date held from. 20 games e
 | Median losses, Allied / German | | 169 / 379 | 178 / 362 | 162 / 355 |
 
 The Cherbourg defence did not move the date: Cherbourg is held from 19 June in every game of both batches. In the one traced game the garrison stood at 38 percent on 17 June, before the calendar opened the north, and by the 18th had left the port for map grid 232-38, more than 5 km away. What struck it and why it left are not examined. Source: committed batch summaries (observed).
+
+## Cherbourg: what took the port a week early (26 November 2026)
+
+Traced on seed 101 with `F44_FORM` and `F44_ZONE=212,28,262,72` (map coordinates).
+
+| Finding or change | Basis |
+| --- | --- |
+| Finding: British divisions took Cherbourg. On 16 June at 1900 the 50th Division went 64 km by truck to Sainte-Mère-Église and marched on Beaumont, on Cap de la Hague. The 11th Armoured, 49th and 51st followed. They cut off the garrison on the evening of 17 June and destroyed it by 1522 on 18 June. | Observed, seed 101, `F44_FORM="50th,9.5,12.5"` and the zone trace. |
+| Cause 1: the closed ground of the northern Cotentin stopped at map x 228. Beaumont stands at x 222, so it was open before 19 June. | `PHASES` third entry; objective list printed with map coordinates. |
+| Cause 2: the staff AI sends a free division to any open objective within 150 km (`aiRng`), four divisions to an objective. Until 3 July every objective south of the lodgment is closed, so the idle British divisions had Cap de la Hague and, from 19 June, Cherbourg. | `sim.js` operational AI; `aiRng: 150`, `aiPerVP: 4` in the scenario. |
+| Change: the closed ground runs to the west coast. | `PHASES`, northern Cotentin line. |
+| Change: a boundary between First US Army and Second British Army until 1 August: Port-en-Bessin, west of Bayeux, east of Caumont, then south. British formations are closed west of it and US formations east of it. This reverses the earlier row "Left alone: British divisions in the Cotentin". `F44_OFF=bound` removes it. | Engine: `S.phaseBlock` takes `nat`, `west`, `east`. The June course is general history; the course south of Caumont and the end date are game settings (inference). To verify against Ellis, Victory in the West I, and Harrison. |
+| Finding: with the British gone, the US 79th Division walked round the 16 km land front and held Cherbourg on 19 June. | Observed, seed 101, second trace. |
+| Change: the land front is an arc from coast to coast in three faces: 243rd and 91st west, 77th south, 709th east. | `QL`, `Q`, `QB`, `GFALL`. Course by inference from Harrison's "depth of about five miles"; which division holds which face is a game setting (inference). |
+| Finding: the garrison fell back three kilometres under pressure, out of the port, and the port counted as lost. | Report at 0602 on 18 June, seed 101. |
+| Change: a fortress flag. A fortress garrison does not take the three-kilometre fall-back and its stand has no end date or strength floor. Set for the Cherbourg garrison only; Brest is left for the pursuit work. | `sim.js` `F.fortress`; scenario flag on `ge-festung-cherbourg`. Von Schlieben holding to 26 June is general history. |
+| Finding and change: 6th Airborne Division carried US nationality from its template. It drew US replacements, and it stood in Cherbourg on 21 June. Now British. | `tools/scenario-overlord.js` Allied builder; OOB `nat: UK`. |
+| On trial: a seventh German supply source, "Cherbourg fortress stocks". Every German unit in the north reports "cut off" from 19 June without it. `F44_OFF=chsrc` removes it. One traced game with it ran very differently (Carentan 7 June, Saint-Lô 14 June); adding a source shifts the random draws at setup, so one game cannot separate the source's effect from a new roll of the dice. Two batches decide. | Observed, seed 101; `sim.js` setup draws a random number per source. Fortress stocks are general history; their size is a game setting (inference). |
+| Result, one game, all changes except the stocks: Cherbourg held from 21 June (history 26 June; 18 June before). The land front broke on 20 June under the 79th and 9th Divisions and the garrison's battalions were driven from the port on 21 June. | Observed, seed 101, third trace. |
+| Still open: the garrison is two battalions against Harrison's 21,000 men in the fortress; six US divisions crowd the peninsula where three fought; Saint-Lô fell on 21 June in the same game. | Observed; Harrison figure as cited in the OOB note, to verify. |
+| Tests: regression baselines unchanged for every other scenario; command tests pass. | `tools/regress.js`, `tools/test-command.js`. |
