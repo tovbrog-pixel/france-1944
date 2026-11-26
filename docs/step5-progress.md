@@ -532,3 +532,15 @@ Tov's decision after batches 25 to 28 (`docs/tests/batches-25-to-28-comparison.m
 | --- | --- | --- |
 | The front line between the two sides' nearest troops (`ownMax: 15`) is removed from the Overlord scenario. `F44_ON=front` restores it for a test. | `tools/scenario-overlord.js` | Observed in three batch pairs (17, 20, 27): Chartres 19 of 20 without it, 11 of 19 with. What it does to the pursuit beyond the pocket bonus is unknown. Sarn Corridor keeps it. |
 | The army commander's pocket bonus applies only to an enemy-held objective on our ground with our ground at eight points on an 8 km ring (`pocketRingKm`). | `command.js` `pocketed`. Port to Sarn Corridor. | Batch 28: bonus off gave Chartres 14 of 19 against 11. The ring test is a design choice (inference); batch 29 tests both changes. |
+
+## 26 November 2026: batch 29, a crash, and the first look at Paris
+
+| Item | Result | Basis |
+| --- | --- | --- |
+| Batch 29 (front line off, narrowed pocket bonus) | Chartres 18 of 19, Orléans 8, Nantes 10, Rouen 10, Paris 2; losses 162 / 377. Matches batch 27. | Observed, committed summary |
+| Game missing from each batch | Seed 119 crashed on 9 August in the corps review: a relieved division with no leading battalion left has no position (`pos` returns nothing). Came in with fix A2 on 24 November. Fixed in `command.js`; the workflow now fails a crashed game's job and keeps its log. A local rerun of seed 119 passed 9 August and ran to 12 August. | Observed (job log, rerun). That the six earlier misses were the same crash is an inference. |
+| Paris is open all game | The phase line that runs to 22 August closes only ground east of x 526 to 530. Paris stands at x 522. | Read from `S.phaseBlock` and the scenario's phase lines |
+| Paris is never entered | In 17 of 19 games of batch 29 no Allied unit enters Paris, though Chartres is held from 7 to 21 August. | Observed, job logs |
+| Third Army turns back | Traced game, seed 101, 13 to 30 August: the four corps stand around x 270 to 420, y 70 to 120 (Normandy and the lower Seine) and are sent at Flers, Littry, Caen, Vaucelles, Bolbec, Le Havre and Fécamp. No corps is within 90 km of Paris, the commander's reach. Many divisions read "Awaiting orders" for days after their corps has its order; VIII Corps holds seven divisions, among them the 82nd and 101st Airborne. | Observed (`F44_TRACE2=68`) |
+| Cause of the turn-back | The commander scores an objective by points over distance from the corps, with no sense of direction, and measures from the centre of all the corps' divisions, idle ones in the rear included. | Read from `armyTick`; that this is the whole cause is an inference |
+| Open | Who takes Chartres on 7 August, 200 km from Avranches a week after Third Army starts, and why divisions wait for orders their corps already has. | Not examined |
