@@ -574,3 +574,16 @@ Tov's choice among four options. `armyAI.axis` in the Overlord scenario: VIII Co
 | Change: a Cherbourg fortress garrison of two battalions holds the port from D-Day. | `data/oob/german-1944.json`, `ge-festung-cherbourg`. Harrison gives 25,000 to 40,000 enemy in the peninsula on 19 June including Flak, naval and Organization Todt men. Two battalions and the unnamed commander are inferences. |
 | After, one game: the 77th and 709th are dug in at map grid 235-49 and 239-53 by 18 to 19 June; the garrison is last seen on 23 June. | Observed, seed 101. Batch 31 gives the Cherbourg date over 20 games. |
 | Left alone: British divisions in the Cotentin. That is the Allied AI, accepted at its present level. | Tov's decision, 26 November |
+
+## A division in a road or rail column was landed again at its first beach (26 November 2026)
+
+The oddity in the Paris check, explained. Traced with `F44_FORM="35th Infantry,69,77"`, seed 101.
+
+| Finding | Basis |
+| --- | --- |
+| The arrival loop in `sim.js` activates any formation that has an arrival record and is off the map. A division forming a road or rail column is taken off the map, so the loop landed it again at its first beach or entry point at once: "Moving by road on foot, 80 km" and "Ashore grid 292-78" in the same minute, with all 19 units back at 290,80. | Observed in the trace; read from `arrivals` and `transport.js` line 115 |
+| On 19 August the 35th Infantry held Paris. Its next order was a truck move of 68 km. It was back at Omaha beach, 238 km away, that minute, and re-planned a road move every four and a half hours for three days without leaving. | Observed |
+| The fault has been in the engine since the transport module (step 3). It touches every division that arrived by sea, air or road on either side, whenever its commander chose a road or rail move. The transport tests used the Falaise scenario, whose divisions start on the map. | Read from `git log`; the reach is an inference |
+| Fix: the arrival loop skips a formation in a column (`!F.transit`). | `sim.js` `arrivals`. Port to Sarn Corridor: its copy has the same line. |
+| Test: `tools/test-transit-arrival.js` forms columns for three Allied divisions on D+12. Without the fix all three are landed again with 20 units back at the beach; with it all three stay in the column. | Observed, both ways |
+| Consequence | Every Overlord batch so far ran with this fault. Third Army's turn back to Normandy and the divisions "Awaiting orders" are probably this, and the Allied AI may be much better than batches 26 to 30 showed. Batch 32 measures it. |

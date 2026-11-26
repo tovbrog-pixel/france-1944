@@ -889,7 +889,7 @@ function createSim(sc, player, seed, opt) {
   }
   S.score = () => { const r = [0, 0]; for (const v of S.vp) r[v.own] += v.pts; return r; };
   function arrivals() {
-    for (const F of S.forms) if (F.arr && !F.active && !F.dead) {
+    for (const F of S.forms) if (F.arr && !F.active && !F.dead && !F.transit) {   // a division in a road or rail column is off the map too, and has already arrived once: without this test it was landed again at its first beach or entry point the moment the column formed
       if (!F.trans && F.arr.mode === 'air') {
         if (S.t >= F.arrT - 20) { const why = F.hold ? 'held' : ['fog', 'rain', 'snow', 'dust'].indexOf(S.wx) >= 0 ? WXNAME[S.wx].toLowerCase() : (!F.arr.night && S.night ? 'darkness' : ''); if (why) { F.arrT = S.t + 80; if (!F.hold && S.t > (F.postT || 0)) { F.postT = S.t + 360; say(F, 'Lift postponed: ' + why + ' over the drop zone.', 1, F.x, F.y); } F.status = F.hold ? 'Lift held on your order' : 'Lift postponed: ' + why; continue; } }
         F.status = (F.hold ? 'Lift held. ' : '') + 'Drops ' + S.clock(F.arrT);
