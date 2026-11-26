@@ -587,3 +587,26 @@ The oddity in the Paris check, explained. Traced with `F44_FORM="35th Infantry,6
 | Fix: the arrival loop skips a formation in a column (`!F.transit`). | `sim.js` `arrivals`. Port to Sarn Corridor: its copy has the same line. |
 | Test: `tools/test-transit-arrival.js` forms columns for three Allied divisions on D+12. Without the fix all three are landed again with 20 units back at the beach; with it all three stay in the column. | Observed, both ways |
 | Consequence | Every Overlord batch so far ran with this fault. Third Army's turn back to Normandy and the divisions "Awaiting orders" are probably this, and the Allied AI may be much better than batches 26 to 30 showed. Batch 32 measures it. |
+
+## Batches 31 and 32 (26 November 2026)
+
+Runs holding the objective at the end, and the median date held from. 20 games each.
+
+| Objective | Historical | 30 mission axis | 31 and Cherbourg defence | 32 and transit fix |
+| --- | --- | --- | --- | --- |
+| Cherbourg | 06-26 | 20, 06-19 | 20, 06-19 | 20, 06-19 |
+| Caen | 07-09 | 20, 07-09 | 20, 07-08 | 17, 07-11 |
+| Saint-Lô | 07-18 | 20, 07-03 | 20, 07-03 | 19, 07-03 |
+| Avranches | 07-30 | 20, 07-27 | 20, 07-27 | 18, 07-27 |
+| Rennes | 08-04 | 20, 08-04 | 20, 08-04 | 19, 08-04 |
+| Le Mans | 08-08 | 19, 08-13 | 19, 08-14 | 20, 08-13 |
+| Nantes | 08-12 | 11, 08-17 | 15, 08-12 | 19, 08-11 |
+| Orléans | 08-16 | 17, 08-16 | 19, 08-17 | 20, 08-11 |
+| Falaise | 08-17 | 19, 08-08 | 17, 08-09 | 18, 08-09 |
+| Chartres | 08-18 | 16, 08-08 | 16, 08-09 | 19, 08-10 |
+| Paris | 08-25 | 5, 08-28 | 7, 08-27 | 12, 08-25 |
+| Rouen | 08-30 | 9, 08-25 | 8, 08-26 | 4, 08-24 |
+| Brest | 09-19 | 2, 08-28 | 0 | 8, 08-28 |
+| Median losses, Allied / German | | 169 / 379 | 178 / 362 | 162 / 355 |
+
+The Cherbourg defence did not move the date: Cherbourg is held from 19 June in every game of both batches. In the one traced game the garrison stood at 38 percent on 17 June, before the calendar opened the north, and by the 18th had left the port for map grid 232-38, more than 5 km away. What struck it and why it left are not examined. Source: committed batch summaries (observed).
