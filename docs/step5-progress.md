@@ -564,3 +564,13 @@ Tov's choice among four options. `armyAI.axis` in the Overlord scenario: VIII Co
 | Paris has no garrison | No German unit stood within 15 km of Paris on any day from 15 to 30 August in that game. | Observed. This belongs to the German defence work and the city-defence note. |
 | Odd positions | The 35th Infantry Division read 238 km from Paris and "Awaiting orders" on most days, 3 km on 19 August, and 238 km again on the 20th. The 4th Armored read 214 km on the 15th and 24 km on the 16th. | Observed; cause not examined. Either the trace reads a stale position for a division in transit, or divisions are being moved back. |
 | Northern Cotentin watch | My box for `F44_ZONE` used raw data coordinates and showed the Caumont area; map coordinates differ. To redo. In that game Saint-Lô was held from 15 June and Caen first entered on 6 June. | Observed |
+
+## German defence of Cherbourg (26 November 2026)
+
+| Finding or change | Basis |
+| --- | --- |
+| Before: on 17 to 19 June the German 77th, 709th, 91st and 243rd Divisions stood dug in across the middle of the peninsula (map grid 253-59, 261-57). No German unit stood near Cherbourg. Nine or more Allied divisions waited in the north of the peninsula, the British 7th Armoured and 6th Airborne among them, and the 2nd Infantry Division was "near Cherbourg" twelve hours after the calendar opened it. | Observed, seed 101, `F44_ZONE` |
+| Change: those four divisions fall back to a Cherbourg land front, a 16 km line about 7 km south of the port, from 17 June. | `tools/scenario-overlord.js` `GFALL`, `QL`, `Q.cherbourg`. Harrison, Cross-Channel Attack, "Advance to the Cherbourg Landfront": von Schlieben had the order to withdraw on the fortress; the defence stood on the ring of hills to a depth of about five miles. The line's place and the date of 17 June (history: the cut came on 18 June, general history) are game settings. |
+| Change: a Cherbourg fortress garrison of two battalions holds the port from D-Day. | `data/oob/german-1944.json`, `ge-festung-cherbourg`. Harrison gives 25,000 to 40,000 enemy in the peninsula on 19 June including Flak, naval and Organization Todt men. Two battalions and the unnamed commander are inferences. |
+| After, one game: the 77th and 709th are dug in at map grid 235-49 and 239-53 by 18 to 19 June; the garrison is last seen on 23 June. | Observed, seed 101. Batch 31 gives the Cherbourg date over 20 games. |
+| Left alone: British divisions in the Cotentin. That is the Allied AI, accepted at its present level. | Tov's decision, 26 November |

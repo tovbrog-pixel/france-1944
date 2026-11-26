@@ -1797,6 +1797,36 @@
      "harrison"
     ]
    }
+  },
+  {
+   "id": "ge-festung-cherbourg",
+   "name": "Cherbourg fortress garrison",
+   "tpl": "ge_inf",
+   "cmd": "Fortress commandant",
+   "status": "inference",
+   "src": [
+    "harrison"
+   ],
+   "note": "Fortress, Flak and naval troops in Cherbourg. Harrison gives the enemy locked in the peninsula on 19 June as 25,000 to 40,000 including Flak and naval personnel and Organization Todt workers, with the four field divisions in fragments (Cross-Channel Attack, 'Advance to the Cherbourg Landfront'). The game gives the garrison two battalions; that size is an inference, and its commander is not named here.",
+   "position0606": {
+    "xy": [
+     264.2,
+     152.6
+    ],
+    "note": "In the port and its forts",
+    "src": [
+     "harrison"
+    ],
+    "status": "inference"
+   },
+   "arrive": {
+    "date": "1944-06-06",
+    "status": "inference",
+    "note": "In place on D-Day",
+    "src": [
+     "harrison"
+    ]
+   }
   }
  ],
  "notes": [

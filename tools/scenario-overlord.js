@@ -31,7 +31,7 @@ const ASSAULT = {
   'uk-6ab': { mode: 'air', t: .8, at: 'dz6', night: 1 } };
 // where each German division went when committed: the place its sourced arrival note names (data/oob/german-1944.json);
 // the point chosen for that place is Claude's (inference). Divisions without an entry keep to the staff AI near where they stand.
-const Q = {caumont: [322.5, 215.5], odon: [347.5, 212.2], stsylvain: [365.5, 220.8], tilly: [336.1, 207.3], carentanSW: [289.4, 192.7], cerisy: [314.3, 204.0], periers: [290.3, 202.7], elbeuf: [455.2, 198.1], chartres: [488.3, 292.3], montebourg: [282.7, 168.9], sourdeval: [311.7, 256.2], cauS: [354.7, 215.9], stloW: [301.3, 202.2], vireW: [299.5, 207.7], rouenS: [458.2, 193.8], orneE: [365.5, 200.7], hayedupuits: [269.8, 190.5], brecey: [302.6, 246.8], lemans: [391.2, 339.7], brest: [46.3, 273.8], caenN: [354.5, 202.5], carpiquet: [348.5, 206.7], stloS: [301.2, 217.8], elle: [304, 204.5]};
+const Q = {cherbourg: [264.5, 159], caumont: [322.5, 215.5], odon: [347.5, 212.2], stsylvain: [365.5, 220.8], tilly: [336.1, 207.3], carentanSW: [289.4, 192.7], cerisy: [314.3, 204.0], periers: [290.3, 202.7], elbeuf: [455.2, 198.1], chartres: [488.3, 292.3], montebourg: [282.7, 168.9], sourdeval: [311.7, 256.2], cauS: [354.7, 215.9], stloW: [301.3, 202.2], vireW: [299.5, 207.7], rouenS: [458.2, 193.8], orneE: [365.5, 200.7], hayedupuits: [269.8, 190.5], brecey: [302.6, 246.8], lemans: [391.2, 339.7], brest: [46.3, 273.8], caenN: [354.5, 202.5], carpiquet: [348.5, 206.7], stloS: [301.2, 217.8], elle: [304, 204.5]};
 const GDEST = { 'ge-1st-ss-panzer': 'cauS', 'ge-2nd-panzer': 'caumont', 'ge-2nd-ss-panzer': 'stloS', 'ge-9th-panzer': 'lemans', 'ge-9th-ss-panzer': 'odon', 'ge-10th-ss-panzer': 'odon',
   'ge-12th-ss-panzer': 'carpiquet', 'ge-21st-panzer': 'caenN', 'ge-116th-panzer': 'stsylvain', 'ge-panzer-lehr': 'tilly', 'ge-17th-ss-panzer-grenadier': 'carentanSW', 'ge-2nd-parachute': 'brest',
   'ge-3rd-parachute': 'cerisy', 'ge-5th-parachute': 'periers', 'ge-16th-luftwaffe-field': 'caenN', 'ge-17th-luftwaffe-field': 'elbeuf', 'ge-48th': 'chartres', 'ge-77th': 'montebourg',
@@ -40,14 +40,19 @@ const GDEST = { 'ge-1st-ss-panzer': 'cauS', 'ge-2nd-panzer': 'caumont', 'ge-2nd-
 // dated fallbacks of divisions that began on the coast (inference): the 352nd, broken behind Omaha, fell back to the Elle
 // north of St-Lo: at about 1900 on 9 June Kraiss was ordered to a line on the Elle from Berigny to Airel, to be reached by 0600 on 10 June
 // (Harrison, Cross-Channel Attack, V Corps chapter, 7-18 June; page to be read from the printed book)
-const GFALL = { 'ge-352nd': { at: 'elle', date: '1944-06-09', h: 22 } };
+const GFALL = { 'ge-352nd': { at: 'elle', date: '1944-06-09', h: 22 },
+  // the Cotentin divisions fall back on fortress Cherbourg once the peninsula is cut: von Schlieben had the order to withdraw on the fortress and stood on the ring of hills about five miles out
+  // (Harrison, Cross-Channel Attack, 'Advance to the Cherbourg Landfront'; the peninsula was cut on 18 June, general history to verify). Before this fix no German unit stood within 15 km of Cherbourg when it opened on 19 June.
+  'ge-709th': { at: 'cherbourg', date: '1944-06-17', h: 0 }, 'ge-243rd': { at: 'cherbourg', date: '1944-06-17', h: 0 }, 'ge-77th': { at: 'cherbourg', date: '1944-06-17', h: 0 }, 'ge-91st-airlanding': { at: 'cherbourg', date: '1944-06-17', h: 0 } };   // 17 June in the game, a day before the cut, so the divisions are on the land front when the Allied calendar opens the north on the 19th (game setting)
+// a sector whose line is given outright (data coordinates): the Cherbourg land front, about 7 km south of the port (line placed by inference from Harrison's 'depth of about five miles')
+const QL = { cherbourg: [[256.5, 159.5], [272.5, 158.5]] };
 // sector names for the theater commander's reports
-const QN = { caumont: 'Caumont', odon: 'Odon', stsylvain: 'Saint-Sylvain', tilly: 'Tilly', carentanSW: 'Carentan', cerisy: 'Cerisy', periers: 'Périers', elbeuf: 'Elbeuf', chartres: 'Chartres', montebourg: 'Montebourg', sourdeval: 'Sourdeval',
+const QN = { cherbourg: 'Cherbourg land front',  caumont: 'Caumont', odon: 'Odon', stsylvain: 'Saint-Sylvain', tilly: 'Tilly', carentanSW: 'Carentan', cerisy: 'Cerisy', periers: 'Périers', elbeuf: 'Elbeuf', chartres: 'Chartres', montebourg: 'Montebourg', sourdeval: 'Sourdeval',
   cauS: 'Bourguébus', stloW: 'Saint-Lô west', vireW: 'Vire river', rouenS: 'Rouen', orneE: 'Orne bridgehead', hayedupuits: 'La Haye-du-Puits', brecey: 'Brécey', lemans: 'Le Mans', brest: 'Brest', caenN: 'Caen', carpiquet: 'Carpiquet', stloS: 'Saint-Lô south', elle: 'Elle' };
 // the way each sector falls back (inference): toward Le Mans by default; the Cotentin sectors toward Cherbourg, the Orne and Seine sectors eastward
-const QB = { montebourg: [-.59, -.81], orneE: [.95, .3], elbeuf: [.7, .7], rouenS: [.7, .7], brest: [-1, 0] };
+const QB = { cherbourg: [0, -1], montebourg: [-.59, -.81], orneE: [.95, .3], elbeuf: [.7, .7], rouenS: [.7, .7], brest: [-1, 0] };
 function theaterOf(plan) { const sectors = {}, bc = BEACHES.reduce((a, p) => [a[0] + p[0] / BEACHES.length, a[1] + p[1] / BEACHES.length], [0, 0]), rx = 391 - bc[0], ry = 342 - bc[1], rl = Math.hypot(rx, ry);
-  for (const k in Q) { const q = Q[k]; sectors[k] = { n: QN[k] || k, p: W(q[0], q[1]), line: sector(q).map(p => W(p[0], p[1])), back: QB[k] || [rx / rl, ry / rl] }; }
+  for (const k in Q) { const q = Q[k]; sectors[k] = { n: QN[k] || k, p: W(q[0], q[1]), line: (QL[k] || sector(q)).map(p => W(p[0], p[1])), back: QB[k] || [rx / rl, ry / rl] }; }
   // base: the middle of the invasion beaches; rear: Le Mans, Seventh Army's headquarters; back: the Seine from Elbeuf to Mantes. okwDelayH is the theater module's 16 days:
   // Avranches fell on 30-31 July and the general withdrawal was ordered on 16 August (Blumenson p. 527)
   return { s: 1, n: 'OB West', sectors, plan, base: W(bc[0], bc[1]), rear: W(391, 342), back: [W(454, 200), W(489, 221), W(504, 232)], backN: 'the Seine' }; }
@@ -85,7 +90,7 @@ function kampfgruppe(f) { const keep = [], regs = []; const take = (R, n) => { c
   if (man[0]) take(man[0], 9); if (man[1]) take(man[1], 1); if (art) take(art, 1); if (tr) regs.push({ n: tr.n, role: tr.role, idx: tr.idx.filter(i => /Pionier/.test(f.sub[i])).map(i => { keep.push(f.sub[i]); return keep.length - 1; }) });
   f.sub = keep; f.regs = regs.filter(R => R.idx.length); f.n = f.n + ' (Kampfgruppe)'; return f; }
 // an independent regiment in the order of battle: one infantry regiment of the template, under its own number
-const REGT = { 'ge-fjr6': '6' };
+const REGT = { 'ge-fjr6': '6', 'ge-festung-cherbourg': 'Festung' };
 function regiment(f) { const R = f.regs.find(R => R.role === 'man'); f.sub = R.idx.map(i => f.sub[i]); f.regs = [{ n: R.n, role: R.role, idx: f.sub.map((x, i) => i) }]; return f; }
 const GSTAY = /^ge-(2nd-parachute|343rd)$/;   // the Brest garrison stays in the fortress (Blumenson; arrival notes)
 // follow-up divisions land over the beach of the corps they joined (inference: the sources give the date, not the beach)
@@ -292,6 +297,10 @@ if (require.main === module) {
     // F44_ZONE=x0,y0,x1,y1,dayFrom,dayTo: every 12 hours in those days, both sides' formations with troops inside the box, their battalions there and their strength
     if (process.env.F44_ZONE && g % (12 * 60) === 0) { const z = process.env.F44_ZONE.split(',').map(Number), dd = g / 1440; if (dd >= z[4] && dd <= z[5]) for (const sd of [1, 0]) { const row = []; for (const F of S.forms) { if (F.s !== sd || !F.active || F.dead) continue; const us = F.subs.filter(u => u.active && !u.dead && u.cls !== 'hq' && u.x >= z[0] && u.x <= z[2] && u.y >= z[1] && u.y <= z[3]); if (us.length) row.push(F.n.replace(/ Division| \(.*/g, '').replace('Infantry', 'Inf') + ' ' + us.length + 'bn ' + Math.round(100 * us.reduce((a, u) => a + u.str, 0) / us.length) + '% ' + (F.status || '').slice(0, 22)); }
         console.log('  ZONE ' + S.clock(S.t).slice(0, 16) + (sd ? ' German: ' : ' Allied: ') + (row.join('; ') || 'none')); } }
+    // F44_FORM=<name start>,dayFrom,dayTo: every 6 hours, one formation in detail: order, status, transport, where its battalions are, and its reports since the last line
+    if (process.env.F44_FORM && g % 360 === 0) { const z = process.env.F44_FORM.split(','), dd = g / 1440; if (dd >= +z[1] && dd <= +z[2]) { const F = S.forms.find(f => f.n.indexOf(z[0]) === 0); if (F) { const O = F.order, grp = {}; for (const u of F.subs) { if (u.dead) continue; const k = (u.active ? '' : 'off-map ') + (u.fm ? 'in column ' : '') + Math.round(u.x / 5) * 5 + ',' + Math.round(u.y / 5) * 5; grp[k] = (grp[k] || 0) + 1; }
+          console.log('  FORM ' + S.clock(S.t).slice(0, 16) + ' ' + F.n.slice(0, 22) + ' | active ' + F.active + ' trans ' + (F.trans ? (F.trans.mode || 'yes') + ' ' + (F.trans.ph || '') : 'no') + ' | order ' + (O ? O.st + ' to ' + O.line.map(q => Math.round(q[0]) + ',' + Math.round(q[1])).join(' - ') + (O.own ? ' (own)' : '') + (O.then ? ' then ' + O.then : '') : 'none') + ' | ' + (F.status || '') + ' | centre ' + Math.round(F.cx) + ',' + Math.round(F.cy) + ' | units ' + Object.entries(grp).map(([k, v]) => v + ' at ' + k).join('; '));
+          for (const l of S.log) if (l.t > S.t - 360 && (l.who === F.n || (F.parent && l.who === F.parent.n))) console.log('       ' + S.clock(l.t).slice(-9) + ' ' + (l.who === F.n ? '' : '[' + l.who + '] ') + l.txt.slice(0, 200)); } } }
     // F44_TRACE2=<first day>: twice a day, what each corps of the AI army is doing: its objective, how far off, whether the objective stands on our ground (the pocket bonus), and each division's status
     if (process.env.F44_TRACE2 && g % (12 * 60) === 0 && g / 1440 >= +process.env.F44_TRACE2) { const only = (sc.armyAI && sc.armyAI.only) || []; for (const A of (S.commands || [])) { if (A.level !== 'army' || !only.includes(A.key)) continue;
         for (const C of A.forms) { if (!C.forms) continue; const kids = C.forms.filter(F => !F.forms && F.active && !F.dead); if (!kids.length) continue; const px = kids.reduce((a, F) => a + F.cx, 0) / kids.length, py = kids.reduce((a, F) => a + F.cy, 0) / kids.length, v = C.aiTgt;
