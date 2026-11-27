@@ -695,3 +695,24 @@ Two full games on seed 101 with `F44_TRACE2=66` and a zone trace round Paris and
 | Change: a corps that finds no objective within reach looks as far as it must. `F44_OFF=far` restores the old rule. | `command.js` `armyTick`, `cfg.far`. |
 | Open: whether the army boundary cost anything. Batch 36 runs without it. | Queued. |
 | Tests: regression baselines unchanged for every other scenario; command tests pass. | `tools/regress.js`, `tools/test-command.js`. |
+
+## Batches 36 to 38: Paris (27 November 2026)
+
+Games holding the objective at the end, out of 20, and the median date held from.
+
+| Objective | Historical | 35 before | 36 no boundary | 37 Loire closed | 38 Loire and longer reach |
+| --- | --- | --- | --- | --- | --- |
+| Cherbourg | 06-26 | 20, 06-25 | 20, 06-26 | 20, 06-25 | 20, 06-25 |
+| Chartres | 08-18 | 20, 08-08 | 19, 08-09 | 20, 08-09 | 20, 08-08 |
+| Paris | 08-25 | 4, 08-26 | 7, 08-26 | 13, 08-25 | 20, 08-24 |
+| Rouen | 08-30 | n/a | 5, 08-27 | 6, 08-25 | 12, 08-25 |
+| Brest | 09-18 | 6, 08-27 | 9, 08-27 | 11, 08-27 | 7, 08-27 |
+| Median losses, Allied / German | | 158 / 355 | 163 / 350 | 170 / 363 | 189 / 371 |
+
+| Reading | Basis |
+| --- | --- |
+| Paris: 20 of 20 with both fixes, median 24 August, range 22 to 30 August. | `docs/tests/batch-20261127-0838-38-loire-far.md`. |
+| Each fix carries part of it: the Loire closure alone gives 13, the longer reach brings it to 20. | Batches 37 and 38. |
+| The army boundary cost little or nothing: 7 without it against 4 with it, inside the spread of 20 games (inference). It stays. | Batches 35 and 36. |
+| Rouen doubled to 12 of 20. Allied losses rose from 158 to 189. | Batch 38. |
+| Still early: Saint-Lô 3 July (history 18 July), Falaise 7 August (17), Chartres 8 August (18), Orléans 11 August (16), Brest 27 August (18 September). | Batch 38. |
