@@ -681,3 +681,17 @@ Tov's decision after batches 33 and 34: strengthen the defence; leave the number
 | Cherbourg: held at the end in 20 of 20 games, median date 25 June, range 21 to 27 June. History 26 June. Batch 33 gave 20 June. | `docs/tests/batch-20261127-0415-35-cherbourg-fortress.md`. |
 | The other objectives moved a day or less from batch 33. Median losses 158 Allied, 355 German. | Same file; batch 33 summary. |
 | Paris held at the end: 12 games in batch 32, then 8, 5 and 4. The fall began with the army boundary in batch 33. Cause not yet traced (inference that the boundary is involved). | Batches 32 to 35. |
+
+## Paris: why the Allies stopped taking it (27 November 2026)
+
+Two full games on seed 101 with `F44_TRACE2=66` and a zone trace round Paris and Chartres: one with the army boundary, one with `F44_OFF=bound`.
+
+| Finding or change | Basis |
+| --- | --- |
+| Finding: neither game took Paris, with or without the boundary. No Allied formation stood within the Paris and Chartres zone from 20 August in the boundary game. | Observed, seed 101, both traces. |
+| Finding: Third Army's corps went south of the Loire (Romorantin, Valençay, Graçay, Loches) and west to the Loire mouth (Pornic, Guérande, Bourgneuf-en-Retz) in mid-August. | Observed, corps trace, 12 to 22 August. |
+| Finding: a corps whose objective was already taken kept its old order for days: XII Corps on Saumur for 249 hours, VIII Corps on Sarzeau for 355 hours, XX Corps on Montreuil-Bellay from 121 km away. Supply was above the army's floor. The army AI looks only 90 km for a new objective; reading the code, a corps with nothing left in reach gets no order (inference: the trace does not print the search itself). | Observed, seed 101 without the boundary, 24 to 31 August; `command.js` `armyTick`. |
+| Change: the ground south of the Loire is closed to the Allied AI for the whole scenario. `F44_OFF=loire` reopens it. | `PHASES`. Third Army's flank on the Loire is general history; the line's course five kilometres south of the river towns is a game setting (inference). |
+| Change: a corps that finds no objective within reach looks as far as it must. `F44_OFF=far` restores the old rule. | `command.js` `armyTick`, `cfg.far`. |
+| Open: whether the army boundary cost anything. Batch 36 runs without it. | Queued. |
+| Tests: regression baselines unchanged for every other scenario; command tests pass. | `tools/regress.js`, `tools/test-command.js`. |
