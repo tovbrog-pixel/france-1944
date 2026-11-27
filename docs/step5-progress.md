@@ -631,3 +631,31 @@ Traced on seed 101 with `F44_FORM` and `F44_ZONE=212,28,262,72` (map coordinates
 | Result, one game, all changes except the stocks: Cherbourg held from 21 June (history 26 June; 18 June before). The land front broke on 20 June under the 79th and 9th Divisions and the garrison's battalions were driven from the port on 21 June. | Observed, seed 101, third trace. |
 | Still open: the garrison is two battalions against Harrison's 21,000 men in the fortress; six US divisions crowd the peninsula where three fought; Saint-Lô fell on 21 June in the same game. | Observed; Harrison figure as cited in the OOB note, to verify. |
 | Tests: regression baselines unchanged for every other scenario; command tests pass. | `tools/regress.js`, `tools/test-command.js`. |
+
+## Batches 33 and 34: the Cherbourg fixes (27 November 2026)
+
+Runs holding the objective at the end, and the median date held from. 20 games each.
+
+| Objective | Historical | 32 before | 33 Cherbourg fixes | 34 and fortress stocks |
+| --- | --- | --- | --- | --- |
+| Cherbourg | 06-26 | 20, 06-19 | 19, 06-20 | 20, 06-20 |
+| Caen | 07-09 | 17, 07-11 | 19, 07-08 | 20, 07-08 |
+| Saint-Lô | 07-18 | 19, 07-03 | 20, 07-03 | 19, 07-03 |
+| Avranches | 07-30 | 18, 07-27 | 19, 07-27 | 19, 07-27 |
+| Rennes | 08-04 | 19, 08-04 | 20, 08-04 | 20, 08-03 |
+| Le Mans | 08-08 | 20, 08-13 | 20, 08-12 | 20, 08-11 |
+| Nantes | 08-12 | 19, 08-11 | 20, 08-11 | 20, 08-10 |
+| Orléans | 08-16 | 20, 08-11 | 20, 08-11 | 20, 08-11 |
+| Falaise | 08-17 | 18, 08-09 | 17, 08-10 | 19, 08-05 |
+| Chartres | 08-18 | 19, 08-10 | 19, 08-08 | 20, 08-08 |
+| Paris | 08-25 | 12, 08-25 | 8, 08-23 | 5, 08-27 |
+| Rouen | 08-30 | 4, 08-24 | 2, 08-22 | 3, 08-26 |
+| Brest | 09-19 | 8, 08-28 | 11, 08-27 | 7, 08-26 |
+| Median losses, Allied / German | | 162 / 355 | 167 / 369 | 169 / 352 |
+
+| Reading | Basis |
+| --- | --- |
+| The fixes moved the median Cherbourg date one day, from 19 to 20 June. The port still falls six days early. | Batch summaries in `docs/tests`. |
+| The fortress stocks made no difference to Cherbourg. They are now off; `F44_ON=chsrc` restores them. | Batches 33 and 34. |
+| Paris fell from 12 runs to 8 and 5. Twenty games cannot say whether the boundary did that or chance did (inference). | Batches 32 to 34. |
+| What is left at Cherbourg is the weight of the assault against the size of the defence: the land front breaks in a day. | One traced game, seed 101 (inference for the batch as a whole). |
