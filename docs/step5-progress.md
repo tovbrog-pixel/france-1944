@@ -726,3 +726,11 @@ Games holding the objective at the end, out of 20, and the median date held from
 | Change: prepared works 12 km round Brest at 1.4. | `forts`. The fortress is general history; 1.4 and 12 km are game settings (inference). |
 | Change: a shaken fortress unit inside prepared works falls back on the works' centre. Before, it fell back on the middle of its own line, which for an outer arc is out in the country. | `sim.js` `startRetreat`. |
 | Tests: regression baselines unchanged for every other scenario; command tests pass. | `tools/regress.js`, `tools/test-command.js`. |
+
+## Batch 39: Brest (27 November 2026)
+
+| Reading | Basis |
+| --- | --- |
+| Brest: Allied at the end in 0 of 20 games (7 of 20 in batch 38). History: 18-19 September, after the scenario ends. | `docs/tests/batch-20261127-1549-39-brest.md`. |
+| Paris 17 of 20, median 25 August (20 of 20 in batch 38); Rouen 10 of 20 (12). Inside the spread of 20 games (inference). | Batches 38 and 39. |
+| Other dates within a day or two of batch 38, except Falaise, 10 August against 7 August. Median losses 193 Allied, 371 German. | Same. |
