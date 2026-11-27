@@ -735,3 +735,11 @@ Games holding the objective at the end, out of 20, and the median date held from
 | Paris 17 of 20, median 25 August (20 of 20 in batch 38); Rouen 10 of 20 (12). Inside the spread of 20 games (inference). | Batches 38 and 39. |
 | Other dates within a day or two of batch 38, except Falaise, 10 August against 7 August. Median losses 193 Allied, 371 German. | Same. |
 | Fault of mine in batch 39: Cherbourg fell back to a median of 20 June (25 June in batches 35 to 38). The Brest change sent shaken fortress units to the centre of the works, and I had set the Cherbourg centre 2 km from the port, so a unit could stand outside the 2.5 km that holds it (inference from the code; not traced). Both centres are now the ports themselves. Batch 40 checks it. | Batch 39 summary; `forts` in the scenario; `sim.js` `startRetreat`. |
+
+## Batch 40: fort centres on the ports (27 November 2026)
+
+| Reading | Basis |
+| --- | --- |
+| Cherbourg: 20 of 20, median 26 June, range 23 to 28 June. History 26 June. The batch 39 regression is gone. | `docs/tests/batch-20261127-1853-40-fort-centres.md`. |
+| Brest: Allied at the end in 0 of 20. Paris 19 of 20, median 25 August. Rouen 13 of 20. | Same. |
+| Still early: Saint-Lô 3 July (18 July), Chartres 8 August (18), Falaise 9 August (17), Orléans 11 August (16). Median losses 184 Allied, 386 German. | Same. |
