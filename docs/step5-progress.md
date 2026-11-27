@@ -673,3 +673,11 @@ Tov's decision after batches 33 and 34: strengthen the defence; leave the number
 | Result, one game: the garrison holds the port from 19 June and is destroyed there on the morning of 24 June (history: surrender 26 June). | Observed, seed 101, `F44_FORM="Cherbourg fortress,13,20"`. |
 | Tests: regression baselines unchanged for every other scenario; command tests pass. | `tools/regress.js`, `tools/test-command.js`. |
 | Port to Sarn Corridor: `F.fortress`, `S.fortz`, the army boundary in `S.phaseBlock`. All three do nothing unless a scenario asks for them. | Engine change list. |
+
+## Batch 35: the stronger Cherbourg defence (27 November 2026)
+
+| Reading | Basis |
+| --- | --- |
+| Cherbourg: held at the end in 20 of 20 games, median date 25 June, range 21 to 27 June. History 26 June. Batch 33 gave 20 June. | `docs/tests/batch-20261127-0415-35-cherbourg-fortress.md`. |
+| The other objectives moved a day or less from batch 33. Median losses 158 Allied, 355 German. | Same file; batch 33 summary. |
+| Paris held at the end: 12 games in batch 32, then 8, 5 and 4. The fall began with the army boundary in batch 33. Cause not yet traced (inference that the boundary is involved). | Batches 32 to 35. |
