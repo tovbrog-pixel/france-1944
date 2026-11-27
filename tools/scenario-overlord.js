@@ -98,6 +98,8 @@ function kampfgruppe(f) { const keep = [], regs = []; const take = (R, n) => { c
 const REGT = { 'ge-fjr6': '6', 'ge-festung-cherbourg': 'Festung' };
 function regiment(f) { const R = f.regs.find(R => R.role === 'man'); f.sub = R.idx.map(i => f.sub[i]); f.regs = [{ n: R.n, role: R.role, idx: f.sub.map((x, i) => i) }]; return f; }
 const GFULL = /^ge-festung-cherbourg$/;   // the Cherbourg garrison is a full division's worth of fortress, Flak and naval troops (about 21,000 men in the fortress on 22 June by the note in the order of battle, citing Harrison, to verify; nine battalions is a game setting, inference). Two battalions lasted a day
+// Brest: the two garrison divisions as fortress garrisons on fixed lines (Ramcke held Brest to 18-19 September; Blumenson p. 651 for the garrison). 343rd Division in the city, 2nd Parachute Division on an arc eight to ten kilometres out from the coast west of the city round the north to the Elorn (the lines are game settings, inference). Before this no German unit stood within 2.5 km of the port and it fell to the first US unit to walk in, two days after the attack opened
+const GFORT = { 'ge-343rd': [[43, 272.5], [49, 272]], 'ge-2nd-parachute': [[36, 270], [39, 265], [46, 262.5], [53, 266], [56, 271]] };
 const GSTAY = /^ge-(2nd-parachute|343rd)$/;   // the Brest garrison stays in the fortress (Blumenson; arrival notes)
 // follow-up divisions land over the beach of the corps they joined (inference: the sources give the date, not the beach)
 const US_UTAH = /^(VII|VIII|XV|XX|XII)$/;
@@ -148,6 +150,7 @@ function makeOverlord(cs) {
       if (coast) { f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); f.stayMinStr = .45; }
       if (GFALL[d.id]) { const q = GFALL[d.id]; thPlan.push({ f: d.name, sec: q.at, t: hrs(q.date, q.h) }); }
       if (GSTAY.test(d.id)) f.stay = 1;
+      if (GFORT[d.id]) { const L = GFORT[d.id].map(q => W(q[0], q[1])), m = L[L.length >> 1]; f.line = L; f.stretch = 1; f.x = m[0]; f.y = m[1]; f.dug = 1; f.free = 0; f.stay = 1; f.stayUntil = 0; f.stayMinStr = 0; f.fortress = 1; }
       if (d.id === 'ge-festung-cherbourg') { f.stay = 1; f.stayUntil = 0; f.stayMinStr = 0; f.fortress = 1; }   // the fortress garrison stays in the port and does not fall back out of it (von Schlieben held the fortress to 26 June; general history). Before this it fell back three kilometres under pressure and the port counted as lost
       forms.push(f); log.push([d.id, 'German', coast ? 'holds at 6 June position' : 'at 6 June position, free from', coast ? '0' : fr.toFixed(0)]);
     } else {
@@ -239,7 +242,7 @@ function makeOverlord(cs) {
     modules: ['transport', 'air', 'command', 'politics', 'theater', 'repl', 'doctrine', 'urban'],
     districts: [{ city: 'Caen', parts: ['Caen', 'Vaucelles'] }, { city: 'Cherbourg', parts: ['Cherbourg', 'Arsenal de Cherbourg'] }],
     doctrine: { devKm: 5 },   // divisions leave the roads within 5 km of known enemy. At the module's 15 km every division in the bridgehead moved across the bocage and Bayeux had not fallen by 10 June in a test game (seed 104); at 5 km it fell as before. Game setting
-    forts: [{ s: 1, vp: 'Cherbourg', x: 236, y: 44, r: 13, ent: 1.4 }],   // the Cherbourg land front and forts: prepared works for German troops inside 13 km of the port while it is held (the works are general history, Harrison; their strength of 1.4 against 1.0 for field digging is a game setting, inference)
+    forts: [{ s: 1, vp: 'Cherbourg', x: 236, y: 44, r: 13, ent: 1.4 }, { s: 1, vp: 'Brest', x: 16, y: 160, r: 12, ent: 1.4 }],   /* Brest: the same works rule (the fortress and its old forts are general history, Blumenson; 1.4 and 12 km are game settings, inference) */   // the Cherbourg land front and forts: prepared works for German troops inside 13 km of the port while it is held (the works are general history, Harrison; their strength of 1.4 against 1.0 for field digging is a game setting, inference)
     capBig: { pts: 20, r: 2.5 },   // Caen, Cherbourg, Saint-Lo and the other 20-point towns fall only when the holder has no troops within 2.5 km. In batches 9 to 11 Caen was entered in June in most games and changed hands for weeks (game setting)
     ownR: 3, isoShrinkKm: 12,   // each unit's hold on the ground and shrinking pockets (engine fixes from the Sarn Corridor build; starting values, game settings). The front line between the two sides' nearest troops (ownMax: 15) is off: in batches 17, 20 and 27 it held the pursuit back (Chartres 11 runs of 19 with it, 19 of 20 without); F44_ON=front switches it back on for a test
     // replacements, in battalion-equivalents of 800 men a day:

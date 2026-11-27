@@ -487,7 +487,7 @@ function createSim(sc, player, seed, opt) {
   function startRetreat(u, far) {
     if (u.mv === 'ship' || u.state === 'retreat') return; const F = u.f; let dx, dy;
     // a fortress garrison has no rear: a shaken unit goes back to the middle of the fortress, and one already there stands
-    if (F.fortress && F.order && F.order.line) { const L = F.order.line, mx = (L[0][0] + L[L.length - 1][0]) / 2, my = (L[0][1] + L[L.length - 1][1]) / 2; if (Math.hypot(mx - u.x, my - u.y) < 1.5) return; const q = map.snap(u.mvi, mx, my, 3); if (!q) return; u.state = 'retreat'; u.goal = q; u.needPath = true; u.assault = false; u.path = null; return; }
+    if (F.fortress && F.order && F.order.line) { const L = F.order.line; let mx = (L[0][0] + L[L.length - 1][0]) / 2, my = (L[0][1] + L[L.length - 1][1]) / 2; if (S.fortz) for (const q of S.fortz) if (q.s === u.s && Math.hypot(u.x - q.x, u.y - q.y) <= q.r * 1.5) { mx = q.x; my = q.y; break; }   /* inside prepared works the middle is the works' centre: a unit on an outer line falls back on the port */ if (Math.hypot(mx - u.x, my - u.y) < 1.5) return; const q = map.snap(u.mvi, mx, my, 3); if (!q) return; u.state = 'retreat'; u.goal = q; u.needPath = true; u.assault = false; u.path = null; return; }
     if (u.ne) { dx = u.x - u.ne.x; dy = u.y - u.ne.y; } else { dx = sc.sides[u.s].rear[0]; dy = sc.sides[u.s].rear[1]; }
     if (F.hq && F.hq !== u && !F.hq.dead) { dx += (F.hq.x - u.x) * .5; dy += (F.hq.y - u.y) * .5; }
     if (!u.det) { const rx = F.hq && F.hq !== u && !F.hq.dead && F.hq.active ? F.hq.x : F.cx, ry = F.hq && F.hq !== u && !F.hq.dead && F.hq.active ? F.hq.y : F.cy, rd = Math.hypot(rx - u.x, ry - u.y); if (rd > 5) { dx = (rx - u.x) / rd; dy = (ry - u.y) / rd; } }

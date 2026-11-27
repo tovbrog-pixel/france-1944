@@ -716,3 +716,13 @@ Games holding the objective at the end, out of 20, and the median date held from
 | The army boundary cost little or nothing: 7 without it against 4 with it, inside the spread of 20 games (inference). It stays. | Batches 35 and 36. |
 | Rouen doubled to 12 of 20. Allied losses rose from 158 to 189. | Batch 38. |
 | Still early: Saint-Lô 3 July (history 18 July), Falaise 7 August (17), Chartres 8 August (18), Orléans 11 August (16), Brest 27 August (18 September). | Batch 38. |
+
+## Brest: the fortress (27 November 2026)
+
+| Finding or change | Basis |
+| --- | --- |
+| Finding: Brest opens to the Allied AI on 25 August and fell on 26 to 29 August in 7 of 20 games. The garrison divisions stood 5 km west and 14 km east of the port, so no German unit was within the 2.5 km that holds a large objective. | Batch 38; scenario positions printed at setup; `capBig`. |
+| Change: 343rd Division holds the city and 2nd Parachute Division an arc eight to ten kilometres out, both as fortress garrisons: no end date, no strength floor, no three-kilometre fall-back. | `GFORT`. Ramcke holding to 18-19 September and the garrison's make-up: Blumenson p. 651 as cited in the scenario file, to verify. The lines are game settings (inference). |
+| Change: prepared works 12 km round Brest at 1.4. | `forts`. The fortress is general history; 1.4 and 12 km are game settings (inference). |
+| Change: a shaken fortress unit inside prepared works falls back on the works' centre. Before, it fell back on the middle of its own line, which for an outer arc is out in the country. | `sim.js` `startRetreat`. |
+| Tests: regression baselines unchanged for every other scenario; command tests pass. | `tools/regress.js`, `tools/test-command.js`. |
