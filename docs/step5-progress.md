@@ -659,3 +659,17 @@ Runs holding the objective at the end, and the median date held from. 20 games e
 | The fortress stocks made no difference to Cherbourg. They are now off; `F44_ON=chsrc` restores them. | Batches 33 and 34. |
 | Paris fell from 12 runs to 8 and 5. Twenty games cannot say whether the boundary did that or chance did (inference). | Batches 32 to 34. |
 | What is left at Cherbourg is the weight of the assault against the size of the defence: the land front breaks in a day. | One traced game, seed 101 (inference for the batch as a whole). |
+
+## Cherbourg: a stronger defence (27 November 2026)
+
+Tov's decision after batches 33 and 34: strengthen the defence; leave the number of attackers alone.
+
+| Change or finding | Basis |
+| --- | --- |
+| Change: the garrison is a full infantry division's worth, nine battalions with artillery, at experience 0.7. | `GFULL`, `xpOf`. About 21,000 men in the fortress is the figure in the order-of-battle note, citing Harrison, to verify. Nine battalions and 0.7 are game settings (inference). |
+| Change: prepared works. A scenario lists forts (side, centre, radius, strength, objective). A unit of that side standing inside them, while the objective is held, is dug in to the fort's strength within the hour. Cherbourg: 13 km round the port at 1.4, against 1.0 for field digging. | `sim.js` `S.fortz` and the dig-in rule; `forts` in the scenario. The works are general history (Harrison); 1.4 and 13 km are game settings (inference). |
+| Finding: with the bigger garrison alone, the garrison left the port again. Shaken units retreat away from the nearest enemy, and the garrison's centre drifted 11 km south while five US divisions sat in Cherbourg. | Observed, seed 101, fourth trace. |
+| Change: a shaken unit of a fortress garrison goes back to the middle of the fortress, and one already there stands. | `sim.js` `startRetreat`. |
+| Result, one game: the garrison holds the port from 19 June and is destroyed there on the morning of 24 June (history: surrender 26 June). | Observed, seed 101, `F44_FORM="Cherbourg fortress,13,20"`. |
+| Tests: regression baselines unchanged for every other scenario; command tests pass. | `tools/regress.js`, `tools/test-command.js`. |
+| Port to Sarn Corridor: `F.fortress`, `S.fortz`, the army boundary in `S.phaseBlock`. All three do nothing unless a scenario asks for them. | Engine change list. |

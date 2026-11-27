@@ -81,7 +81,7 @@ const PHASES = [{ until: '1944-07-03', line: [[200, 206], [270, 206], [290, 200]
 const XP = { 'us-1id': 1.05, 'us-9id': 1.05, 'us-82ab': 1.1, 'us-101ab': 1.05, 'us-2ad': 1.05, 'uk-7ad': 1, 'uk-50id': 1, 'uk-51id': 1, 'uk-6ab': 1.05,
   'ge-1st-ss-panzer': 1.15, 'ge-2nd-ss-panzer': 1.1, 'ge-9th-ss-panzer': 1.1, 'ge-10th-ss-panzer': 1.1, 'ge-12th-ss-panzer': 1.15, 'ge-panzer-lehr': 1.15, 'ge-2nd-panzer': 1.1,
   'ge-21st-panzer': 1, 'ge-116th-panzer': 1.05, 'ge-17th-ss-panzer-grenadier': 1, 'ge-2nd-parachute': 1.1, 'ge-3rd-parachute': 1.1, 'ge-5th-parachute': .95, 'ge-352nd': 1 };
-const xpOf = d => XP[d.id] || (/^ge-.*luftwaffe/.test(d.id) ? .75 : /^ge-(7\d\d|709|711|716|243|265|266|343)/.test(d.id) ? .85 : /^ge-/.test(d.id) ? .95 : .9);
+const xpOf = d => XP[d.id] || (d.id === 'ge-festung-cherbourg' ? .7 : /^ge-.*luftwaffe/.test(d.id) ? .75 : /^ge-(7\d\d|709|711|716|243|265|266|343)/.test(d.id) ? .85 : /^ge-/.test(d.id) ? .95 : .9);
 // a German sector line: 14 km, facing the nearest beach, dug in on arrival as in the hedgerows, so neighbouring sectors close up into a front (inference)
 const BEACHES = [[297.0, 177.9], [318.0, 184.7], [341.3, 188.6], [350.7, 189.4], [360.7, 194.2]];
 function sector(q) { let b = BEACHES[0], bd = 1e9; for (const p of BEACHES) { const d = Math.hypot(p[0] - q[0], p[1] - q[1]); if (d < bd) { bd = d; b = p; } }
@@ -95,6 +95,7 @@ function kampfgruppe(f) { const keep = [], regs = []; const take = (R, n) => { c
 // an independent regiment in the order of battle: one infantry regiment of the template, under its own number
 const REGT = { 'ge-fjr6': '6', 'ge-festung-cherbourg': 'Festung' };
 function regiment(f) { const R = f.regs.find(R => R.role === 'man'); f.sub = R.idx.map(i => f.sub[i]); f.regs = [{ n: R.n, role: R.role, idx: f.sub.map((x, i) => i) }]; return f; }
+const GFULL = /^ge-festung-cherbourg$/;   // the Cherbourg garrison is a full division's worth of fortress, Flak and naval troops (about 21,000 men in the fortress on 22 June by the note in the order of battle, citing Harrison, to verify; nine battalions is a game setting, inference). Two battalions lasted a day
 const GSTAY = /^ge-(2nd-parachute|343rd)$/;   // the Brest garrison stays in the fortress (Blumenson; arrival notes)
 // follow-up divisions land over the beach of the corps they joined (inference: the sources give the date, not the beach)
 const US_UTAH = /^(VII|VIII|XV|XX|XII)$/;
@@ -136,9 +137,9 @@ function makeOverlord(cs) {
     const regs = REGT[d.id] ? [REGT[d.id], REGT[d.id], REGT[d.id]] : ['1', '2', '3'], cmd = d.cmd || 'Kommandeur';
     if (p0) {
       const [x, y] = clampIn(W(p0[0], p0[1])), dest = GDEST[d.id] && Q[GDEST[d.id]], fr = Math.max(0, a.date ? hrs(a.date, 12) - (dest ? marchH(d.tpl, p0, dest) : 0) : 0);
-      const f = divForm({ tpl: d.tpl, s: 1, n: d.name, cmd, ag: .5, sk: .65, xp: xpOf(d), regs, x, y }); f.gid = d.id; if (KG.test(d.id)) kampfgruppe(f); if (REGT[d.id]) regiment(f);
+      const f = divForm({ tpl: d.tpl, s: 1, n: d.name, cmd, ag: .5, sk: .65, xp: xpOf(d), regs, x, y }); f.gid = d.id; if (KG.test(d.id)) kampfgruppe(f); if (REGT[d.id] && !GFULL.test(d.id)) regiment(f);
       const coast = (d.tpl === 'ge_inf' || REGT[d.id]) && (!a.date || a.date <= '1944-06-06');
-      if (coast) { const hw = REGT[d.id] ? 1.2 : 5, sec = d.position0606.sector; f.line = [[x - hw, y], [x + hw, y]]; f.dug = 1; f.free = 0;   /* a regiment holds its town; a division without a sourced sector holds ten kilometres */
+      if (coast) { const hw = GFULL.test(d.id) ? 3 : REGT[d.id] ? 1.2 : 5, sec = d.position0606.sector; f.line = [[x - hw, y], [x + hw, y]]; f.dug = 1; f.free = 0;   /* a regiment holds its town; a division without a sourced sector holds ten kilometres */
         if (sec) { f.line = sec.map(q => W(q[0], q[1])); f.stretch = 1; const m = f.line[f.line.length >> 1]; f.x = m[0]; f.y = m[1]; } }   /* a coast division with a sourced sector starts spread along the whole of it */
       else f.free = fr;
       if (GDEST[d.id]) { thPlan.push({ f: d.name, sec: GDEST[d.id], t: Math.max(.5, fr) }); f.stay = 1; f.stayUntil = hrs(HOLD_UNTIL, 0); f.stayMinStr = .45; }
@@ -236,6 +237,7 @@ function makeOverlord(cs) {
     modules: ['transport', 'air', 'command', 'politics', 'theater', 'repl', 'doctrine', 'urban'],
     districts: [{ city: 'Caen', parts: ['Caen', 'Vaucelles'] }, { city: 'Cherbourg', parts: ['Cherbourg', 'Arsenal de Cherbourg'] }],
     doctrine: { devKm: 5 },   // divisions leave the roads within 5 km of known enemy. At the module's 15 km every division in the bridgehead moved across the bocage and Bayeux had not fallen by 10 June in a test game (seed 104); at 5 km it fell as before. Game setting
+    forts: [{ s: 1, vp: 'Cherbourg', x: 236, y: 44, r: 13, ent: 1.4 }],   // the Cherbourg land front and forts: prepared works for German troops inside 13 km of the port while it is held (the works are general history, Harrison; their strength of 1.4 against 1.0 for field digging is a game setting, inference)
     capBig: { pts: 20, r: 2.5 },   // Caen, Cherbourg, Saint-Lo and the other 20-point towns fall only when the holder has no troops within 2.5 km. In batches 9 to 11 Caen was entered in June in most games and changed hands for weeks (game setting)
     ownR: 3, isoShrinkKm: 12,   // each unit's hold on the ground and shrinking pockets (engine fixes from the Sarn Corridor build; starting values, game settings). The front line between the two sides' nearest troops (ownMax: 15) is off: in batches 17, 20 and 27 it held the pursuit back (Chartres 11 runs of 19 with it, 19 of 20 without); F44_ON=front switches it back on for a test
     // replacements, in battalion-equivalents of 800 men a day:

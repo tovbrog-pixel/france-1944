@@ -56,6 +56,7 @@ function createSim(sc, player, seed, opt) {
     S.air[s] = { bases: sd.bases.map(b => Object.assign({ s }, b)), groups: sd.groups.map(g => ({ n: g[0], key: g[1], ac: AC[g[1]], total: g[2], avail: g[2], base: g[3], mission: g[4], pend: [], next: 0, s })), int: [], strat: [], cas: [], rec: [], ri: 0, si: 0, rci: 0 };
   });
   S.vp = sc.vp.map(v => ({ n: v[0], x: v[1], y: v[2], pts: v[3], own: v[4], orig: v[4], capR: sc.capBig && v[3] >= sc.capBig.pts ? sc.capBig.r : 0 }));   // capBig { pts, r }: an objective worth pts or more is a large town; it changes hands only when none of the holder's troops stand within r km
+  S.fortz = sc.forts ? sc.forts.map(q => Object.assign({}, q, { ent: Math.min(1.5, q.ent || 1.3), v: q.vp ? S.vp.find(v => v.n === q.vp) : null })) : null;   // prepared works, see the dig-in rule
   // crossing equipment: assault boats and floating-bridge sets, parked at a depot until trucked to a crossing site
   S.assets = [[], []]; S.xings = [];
   { let d = 0; for (let c = 0; c < map.N; c++) if (map.t[c] === T.DESERT) d++; S.desert = d > map.N * .3; }   // desert maps double the water and ration draw
@@ -485,6 +486,8 @@ function createSim(sc, player, seed, opt) {
   }
   function startRetreat(u, far) {
     if (u.mv === 'ship' || u.state === 'retreat') return; const F = u.f; let dx, dy;
+    // a fortress garrison has no rear: a shaken unit goes back to the middle of the fortress, and one already there stands
+    if (F.fortress && F.order && F.order.line) { const L = F.order.line, mx = (L[0][0] + L[L.length - 1][0]) / 2, my = (L[0][1] + L[L.length - 1][1]) / 2; if (Math.hypot(mx - u.x, my - u.y) < 1.5) return; const q = map.snap(u.mvi, mx, my, 3); if (!q) return; u.state = 'retreat'; u.goal = q; u.needPath = true; u.assault = false; u.path = null; return; }
     if (u.ne) { dx = u.x - u.ne.x; dy = u.y - u.ne.y; } else { dx = sc.sides[u.s].rear[0]; dy = sc.sides[u.s].rear[1]; }
     if (F.hq && F.hq !== u && !F.hq.dead) { dx += (F.hq.x - u.x) * .5; dy += (F.hq.y - u.y) * .5; }
     if (!u.det) { const rx = F.hq && F.hq !== u && !F.hq.dead && F.hq.active ? F.hq.x : F.cx, ry = F.hq && F.hq !== u && !F.hq.dead && F.hq.active ? F.hq.y : F.cy, rd = Math.hypot(rx - u.x, ry - u.y); if (rd > 5) { dx = (rx - u.x) / rd; dy = (ry - u.y) / rd; } }
@@ -584,7 +587,10 @@ function createSim(sc, player, seed, opt) {
       if (u.dS > 0) { const before = u.str, ap = Math.min(before, u.dS) * u.size; u.str = Math.max(0, u.str - u.dS); u.coh = Math.max(0, u.coh - u.dC); S.losses[u.s] += ap; if (u.dsc) { const lb = u.lb || (u.lb = {}), L = S.lossBy[u.s]; for (const c in u.dsc) { const v = ap * u.dsc[c] / u.dS; lb[c] = (lb[c] || 0) + v; L[c] = (L[c] || 0) + v; } u.dsc = null; } u.dS = 0; u.dC = 0; }
       // cohesion comes back once the shooting stops: more slowly for a battalion cut off or shaken
       const quiet = now - u.hitT > 8, po = u.det ? 'dig' : u.f.post, rest = po === 'rest' && now - u.hitT > 30; u.coh = Math.min((.4 + .6 * u.mor) * (1 - .25 * (u.fat || 0)), u.coh + (quiet ? .004 * (u.oc ? .5 : 1) * (.7 + .6 * u.f.cmd.sk) * (u.ammo > .1 ? 1 : .5) * (rest ? 2 : 1) * (u.cut || u.f.isolated ? .4 : 1) * (u.mor < .3 ? .5 : 1) : .0006));
-      if (!u.moving) { const cap = po === 'hold' ? .7 : po === 'rest' ? .3 : po === 'reserve' ? .2 : po === 'delay' ? .5 : po === 'exploit' ? .4 : 1; if (u.ent < cap) u.ent = Math.min(cap, u.ent + (po === 'dig' ? (u.f.hasEng ? 3 : 2) : 1) / 360); } if (quiet && now - u.hitT > 120 && !u.f.isolated) { if (rest && u.str < .92) u.str += .0003; else if (u.str < .85) u.str += .00006; }
+      if (!u.moving) { let cap = po === 'hold' ? .7 : po === 'rest' ? .3 : po === 'reserve' ? .2 : po === 'delay' ? .5 : po === 'exploit' ? .4 : 1, rate = (po === 'dig' ? (u.f.hasEng ? 3 : 2) : 1) / 360;
+        // prepared works (scenario forts: side, centre, radius, ent, and the objective that must still be held): a unit of that side standing inside them is in cover built beforehand, deeper than field digging and ready within the hour
+        if (S.fortz) for (const q of S.fortz) if (q.s === u.s && Math.hypot(u.x - q.x, u.y - q.y) <= q.r && (!q.v || q.v.own === q.s)) { cap = Math.max(cap, q.ent); rate = Math.max(rate, q.ent / 60); }
+        if (u.ent < cap) u.ent = Math.min(cap, u.ent + rate); } if (quiet && now - u.hitT > 120 && !u.f.isolated) { if (rest && u.str < .92) u.str += .0003; else if (u.str < .85) u.str += .00006; }
       // surrender is a state that has to last: shattered, cut off, out of ammunition, heavily outnumbered close by and with no friends near, for two hours
       if ((u.coh < .08 || u.mor < .14) && u.f.isolated && u.ned < 1) { if (u.surT == null) u.surT = now; } else u.surT = null;
       let sur = false; if (u.surT != null && now - u.surT >= 120 && u.ammo < .1) { const own = powNear(u.s, u.x, u.y, 2), en = powNear(1 - u.s, u.x, u.y, 2); if (en >= 3 * Math.max(own, .05) && !S.subs.some(w => w.s === u.s && w.active && !w.dead && !w.f.isolated && w.cls !== 'hq' && w.mv !== 'ship' && Math.hypot(w.x - u.x, w.y - u.y) < 5)) sur = true; }
