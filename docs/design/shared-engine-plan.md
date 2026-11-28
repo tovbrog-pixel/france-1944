@@ -37,6 +37,21 @@ Tools: `load-engine.js`, `regress.js` and `speed.js` are identical. `build-previ
 - This chat cannot write to the Sarn Corridor repository. Its chat does the Sarn side of steps 4 and 5.
 - Both chats should stop engine changes while step 1 runs, or the merge chases a moving target. Sarn Corridor committed engine changes four times on 25 November.
 
+## Done, 27 November 2026
+
+The Sarn Corridor chat created the shared repository on 25 November as `tovbrog-pixel/lines-of-advance-engine` and merged the two copies there: France's engine at 01917bd plus Sarn's opt-in parts. Each game holds it as a git subtree in `engine/src`, in place of the submodule this plan named; `tools/engine.sh pull` and `tools/engine.sh push` move changes. On 27 November France pushed its changes since 01917bd to the shared repository (commit fd53776) and switched its own `engine/src` to the subtree.
+
+| Check | Result |
+| --- | --- |
+| Sarn Corridor's regression suite on the engine with France's changes | Matches Sarn's baseline (run in a scratch copy of the Sarn clone at 51781ee). |
+| France command, transport and transit tests | Pass. |
+| Exercise Cumberland on five seeds | Blue wins all five: 60-20, 50-30, 80-0, 50-30, 70-10. |
+| France regression baselines | Eight scenarios changed, because France takes the square axis and coherence changes of 25 November for the first time. Re-recorded. |
+| Overlord page check | Passes. |
+| 20-game batch on the shared engine against batch 41 | Batch 42, queued. |
+
+Still to do on the Sarn side, by its chat: `tools/engine.sh pull` to take fd53776, then its own checks. Not checked here: Sarn's campaign scenario with computer armies, where the army AI's longer reach applies.
+
 ## Source trace
 
 | Item | Basis |

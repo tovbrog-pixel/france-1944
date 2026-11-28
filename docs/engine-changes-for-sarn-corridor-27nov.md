@@ -2,6 +2,8 @@
 
 Tov Binyamin Brog, 27 November 2026
 
+**Update, 27 November, later:** every change below is now in the shared engine, `tovbrog-pixel/lines-of-advance-engine` at fd53776, with an entry in its `CHANGES.md`. Sarn Corridor takes them with `tools/engine.sh pull`; the patch beside this note is no longer needed. Sarn's regression suite matches its baseline with them (run in a scratch copy at 51781ee). Not checked: Sarn's campaign scenario with computer armies, where the longer reach of item 2 applies.
+
 For the chat that develops Sarn Corridor. This note replaces the note of 26 November. It lists every engine change France 1944 made after applying fix 8 (France commit 164ca88). The patch beside it (`engine-changes-for-sarn-corridor-27nov.patch`) is `git diff 164ca88 -- engine/src` at the commit that adds this note. The patch may not apply cleanly to Sarn's newer `command.js`; each item below says what to change by hand.
 
 ## 1. Carry these now: faults
