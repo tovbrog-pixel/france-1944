@@ -760,3 +760,14 @@ Traced on seed 101 with `F44_ZONE=255,86,292,116` (map coordinates).
 | Still open: the town falls a day after it opens. Nine fresh divisions against one is the weight problem seen at Cherbourg, and the June fighting in the bocage that wore First Army down does not happen in the game (inference). | Same trace. |
 | Rule 9 also reaches Paris, Rouen, Falaise, Le Mans, Rennes, Avranches and Caen, each worth 15 or more. Its effect there is untested until batch 41. | Scenario objective values. |
 | Tests: regression baselines unchanged for every other scenario; command tests pass. | `tools/regress.js`, `tools/test-command.js`. |
+
+## Batch 41: Saint-Lô (28 November 2026)
+
+Old engine copy, before the move to the shared engine.
+
+| Reading | Basis |
+| --- | --- |
+| Saint-Lô: 20 of 20, median 11 July (history 18 July; 3 July in batch 40). | `docs/tests/batch-20261128-0339-41-stlo-cover.md`. |
+| Paris 20 of 20, median 25 August. Cherbourg 26 June. Brest holds in all 20. Rouen 14 of 20. | Same. |
+| Median Allied losses fell from 184 to 133; German 366. | Same; batch 40 summary. |
+| Still early: Chartres 9 August (18), Falaise 10 August (17), Saint-Lô by 7 days, Orléans 12 August (16). | Same. |
