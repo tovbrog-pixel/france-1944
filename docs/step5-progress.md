@@ -743,3 +743,20 @@ Games holding the objective at the end, out of 20, and the median date held from
 | Cherbourg: 20 of 20, median 26 June, range 23 to 28 June. History 26 June. The batch 39 regression is gone. | `docs/tests/batch-20261127-1853-40-fort-centres.md`. |
 | Brest: Allied at the end in 0 of 20. Paris 19 of 20, median 25 August. Rouen 13 of 20. | Same. |
 | Still early: Saint-Lô 3 July (18 July), Chartres 8 August (18), Falaise 9 August (17), Orléans 11 August (16). Median losses 184 Allied, 386 German. | Same. |
+
+## Saint-Lô: fifteen days early (27 November 2026)
+
+Traced on seed 101 with `F44_ZONE=255,86,292,116` (map coordinates).
+
+| Finding or change | Basis |
+| --- | --- |
+| Finding: no German unit stood in Saint-Lô. From 12 June to 3 July 2nd Panzer, 17th SS and the 6th Parachute Regiment sat 8 to 11 km north-west of the town and 3rd Parachute 14 km north-east. 352nd Division, whose sector covers the town, was down to one battalion by 12 June. | Observed, seed 101, first trace. |
+| Finding: First Army stood out of contact and at full strength from 12 June to 3 July. On 3 July the ground opened and nine US divisions were in or beside the town within 36 hours. | Same trace. |
+| Cause: the theater commander weighs a sector by the enemy near it. With the Allies held behind the phase line, the sectors round Saint-Lô showed no enemy and drew nobody. | `theater.js` `need`. |
+| Change: theater rule 9. An objective of his own worth 15 points or more that stands empty with the enemy within 30 km gets a division: a reserve first, then the nearest division whose sector keeps six battalions of other formations. `F44_OFF=cover` switches it off. | `theater.js`, `coverPts` and its settings (all game settings); `set: { coverPts: 15 }` in the scenario. |
+| Result of rule 9 alone, one game: 2nd Panzer dug in at Saint-Lô by 22 June, Panzer Lehr took its place, and the town fell on 4 July. One day gained. Panzer Lehr went from 95% to 41% in two days under nine divisions. | Observed, seed 101, third trace. |
+| Change: Saint-Lô itself stays closed to the Allied AI until 11 July. `F44_OFF=stlo` removes it. | `PHASES`. VIII Corps toward La Haye-du-Puits on 3 July, XIX Corps over the Vire on 7 July, the direct attack on the town on 11 July: general history, to verify against Blumenson. |
+| Result of both, one game: Saint-Lô held from 12 July (history 18 July; 3 July before). | Observed, seed 101, fourth trace. |
+| Still open: the town falls a day after it opens. Nine fresh divisions against one is the weight problem seen at Cherbourg, and the June fighting in the bocage that wore First Army down does not happen in the game (inference). | Same trace. |
+| Rule 9 also reaches Paris, Rouen, Falaise, Le Mans, Rennes, Avranches and Caen, each worth 15 or more. Its effect there is untested until batch 41. | Scenario objective values. |
+| Tests: regression baselines unchanged for every other scenario; command tests pass. | `tools/regress.js`, `tools/test-command.js`. |
